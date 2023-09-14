@@ -1,3 +1,4 @@
+/* Slider  */
 .slider {
   height: 80vh;
   overflow: hidden;
@@ -32,4 +33,133 @@
     padding: 30px;
     text-align: center;
   }
+}
+
+/* Service  */
+.serviceContainer{
+  padding: 50px 0;
+}
+.serviceBox{
+  padding: 50px;
+}
+.serviceCont{
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(104, 104, 104, 0.2);
+  padding: 30px;
+  transition: all 0.3s;
+}
+.serviceCont img{
+  height: 60px;
+  margin-bottom: 20px;
+}
+.serviceCont .mid-title{
+  margin-bottom: 20px;
+}
+.serviceCont:hover{
+  color: var(--pri);
+  box-shadow: 0 0 10px rgba(122, 122, 122, 0.5);
+}
+.serviceCont:hover img{
+  animation: jello 1s;
+}
+.serviceCont:hover .mid-title{
+  color: var(--pri);
+}
+
+/* About  */
+.aboutSec{
+  padding: 50px 0;
+}
+.aboutCont > .text-muted{
+  margin-bottom: 50px;
+}
+.abtBoxes{
+  margin-bottom: 50px;
+}
+.abtBoxes .row .col-6{
+  padding: 0 30px;
+}
+.abtBoxInn{
+  border: 1px solid var(--gry);
+  border-radius: 10px;
+  padding: 10px;
+}
+.abtBoxInn > div{
+  margin-top: 10px;
+}
+.abtBoxInn .mid-title{
+  margin-bottom: 4px;
+}
+
+/* Sub Service  */
+
+.subServiceSec{
+  padding: 80px 0 30px 0;
+  background-image: url('/public/images/banner/gr-bg.webp');
+  background-size: cover;
+}
+.subServiceTop{
+  margin-bottom: 60px;
+}
+.subServiceBoxInn{
+  padding: 20px;
+}
+.subServiceCont{
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 20px;
+  height: 340px;
+  transition: all 0.5s;
+  position: relative;
+  margin-bottom: 70px;
+}
+.subServiceCont::before{
+  content: '';
+  display: block;
+  background-color: var(--sec);
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 30px 5px 30px 5px;
+  transition: all 0.3s;
+  position: absolute;
+  top: -50px;
+  margin-left: 25%;
+}
+.subServiceCont:hover{
+  background-color: rgba(255, 255, 255, 1);
+  color: #222;
+}
+.subServiceCont:hover::before{
+  background-color: var(--pri);
+}
+.subServiceCont .mid-title{
+  margin-top: 50px;
+}
+.service1::before{
+  background-image:url('/public/images/icons/web-i.png');
+}
+.service2::before{
+  background-image:url('/public/images/icons/web-i.png');
+}
+.service3::before{
+  background-image:url('/public/images/icons/web-i.png');
+}
+.service4::before{
+  background-image:url('/public/images/icons/web-i.png');
+}
+.service5::before{
+  background-image:url('/public/images/icons/web-i.png');
+}
+.service6::before{
+  background-image:url('/public/images/icons/web-i.png');
+}
+.service7::before{
+  background-image:url('/public/images/icons/web-i.png');
+}
+.service8::before{
+  background-image:url('/public/images/icons/web-i.png');
 }

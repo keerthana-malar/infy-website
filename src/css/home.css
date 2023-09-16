@@ -24,8 +24,8 @@
   align-items: center;
   /* color: #fff; */
 }
-.banner-title{
-    color: var(--pri);
+.banner-title {
+  color: var(--pri);
 }
 @media (width <= 600px) {
   .slideCont {
@@ -36,75 +36,75 @@
 }
 
 /* Service  */
-.serviceContainer{
+.serviceContainer {
   padding: 50px 0;
 }
-.serviceBox{
+.serviceBox {
   padding: 50px;
 }
-.serviceCont{
+.serviceCont {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(104, 104, 104, 0.2);
   padding: 30px;
   transition: all 0.3s;
 }
-.serviceCont img{
+.serviceCont img {
   height: 60px;
   margin-bottom: 20px;
 }
-.serviceCont .mid-title{
+.serviceCont .mid-title {
   margin-bottom: 20px;
 }
-.serviceCont:hover{
+.serviceCont:hover {
   color: var(--pri);
   box-shadow: 0 0 10px rgba(122, 122, 122, 0.5);
 }
-.serviceCont:hover img{
+.serviceCont:hover img {
   animation: jello 1s;
 }
-.serviceCont:hover .mid-title{
+.serviceCont:hover .mid-title {
   color: var(--pri);
 }
 
 /* About  */
-.aboutSec{
+.aboutSec {
   padding: 50px 0;
 }
-.aboutCont > .text-muted{
+.aboutCont > .text-muted {
   margin-bottom: 50px;
 }
-.abtBoxes{
+.abtBoxes {
   margin-bottom: 50px;
 }
-.abtBoxes .row .col-6{
+.abtBoxes .row .col-6 {
   padding: 0 30px;
 }
-.abtBoxInn{
+.abtBoxInn {
   border: 1px solid var(--gry);
   border-radius: 10px;
   padding: 10px;
 }
-.abtBoxInn > div{
+.abtBoxInn > div {
   margin-top: 10px;
 }
-.abtBoxInn .mid-title{
+.abtBoxInn .mid-title {
   margin-bottom: 4px;
 }
 
 /* Sub Service  */
 
-.subServiceSec{
+.subServiceSec {
   padding: 80px 0 30px 0;
-  background-image: url('/public/images/banner/gr-bg.webp');
+  background-image: url("/public/images/banner/gr-bg.webp");
   background-size: cover;
 }
-.subServiceTop{
+.subServiceTop {
   margin-bottom: 60px;
 }
-.subServiceBoxInn{
+.subServiceBoxInn {
   padding: 20px;
 }
-.subServiceCont{
+.subServiceCont {
   background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid #fff;
   border-radius: 10px;
@@ -114,8 +114,8 @@
   position: relative;
   margin-bottom: 70px;
 }
-.subServiceCont::before{
-  content: '';
+.subServiceCont::before {
+  content: "";
   display: block;
   background-color: var(--sec);
   background-size: 50px;
@@ -129,37 +129,37 @@
   top: -50px;
   margin-left: 25%;
 }
-.subServiceCont:hover{
+.subServiceCont:hover {
   background-color: rgba(255, 255, 255, 1);
   color: #222;
 }
-.subServiceCont:hover::before{
+.subServiceCont:hover::before {
   background-color: var(--pri);
 }
-.subServiceCont .mid-title{
+.subServiceCont .mid-title {
   margin-top: 50px;
 }
-.service1::before{
-  background-image:url('/public/images/icons/web-i.png');
+.service1::before {
+  background-image: url("/public/images/icons/web-i.png");
 }
-.service2::before{
-  background-image:url('/public/images/icons/web-i.png');
+.service2::before {
+  background-image: url("/public/images/icons/web-i.png");
 }
-.service3::before{
-  background-image:url('/public/images/icons/web-i.png');
+.service3::before {
+  background-image: url("/public/images/icons/web-i.png");
 }
-.service4::before{
-  background-image:url('/public/images/icons/web-i.png');
+.service4::before {
+  background-image: url("/public/images/icons/web-i.png");
 }
-.service5::before{
-  background-image:url('/public/images/icons/web-i.png');
+.service5::before {
+  background-image: url("/public/images/icons/web-i.png");
 }
-.service6::before{
-  background-image:url('/public/images/icons/web-i.png');
+.service6::before {
+  background-image: url("/public/images/icons/web-i.png");
 }
-.service7::before{
-  background-image:url('/public/images/icons/web-i.png');
+.service7::before {
+  background-image: url("/public/images/icons/web-i.png");
 }
-.service8::before{
-  background-image:url('/public/images/icons/web-i.png');
+.service8::before {
+  background-image: url("/public/images/icons/web-i.png");
 }

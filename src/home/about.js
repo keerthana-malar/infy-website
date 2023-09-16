@@ -9,7 +9,7 @@ const About = () => {
             <div className="aboutImg">
               <img
                 className="img-fluid"
-                src="/images/IT-2.png"
+                src="/images/IT.png"
                 alt="Service Image"
               ></img>
             </div>

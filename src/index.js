@@ -8,6 +8,7 @@ import Sliders from './home/slider';
 import Service from './home/service';
 import About from './home/about';
 import SubService from './home/subService';
+import RecentProjects from './home/recentprojects';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,5 +18,6 @@ root.render(
     <Service />
     <About />
     <SubService />
+    <RecentProjects />
   </React.StrictMode>
 );

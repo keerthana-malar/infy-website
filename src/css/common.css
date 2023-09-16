@@ -6,6 +6,8 @@
   --sub: #2c46ad;
   --gry: #acacac;
   --lit: #f2f5fa;
+  --bgc: #f2f5f6;
+  --bgs: rgba(0, 0, 0, 0.2);
 }
 
 
@@ -17,8 +19,6 @@
 
 body {
   font-family: "Blinker", sans-serif;
-  /* width: 100vw;
-  overflow-x: hidden; */
 }
 
 .btns {
@@ -54,6 +54,14 @@ body {
   font-weight: 600;
   text-transform: uppercase;
 }
+.sm-title {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.normal-title {
+  font-size: 20px;
+  font-weight: normal;
+}
 .main-color {
   color: var(--pri);
 }
@@ -72,7 +80,6 @@ body {
   align-items: center;
 }
 .links {
-  text-decoration: none;
   font-weight: bold;
   color: #141414;
 }
@@ -94,4 +101,7 @@ body {
 }
 .icon-sec:hover {
   color: var(--sec);
+}
+a{
+  text-decoration: none;
 }

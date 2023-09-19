@@ -1,85 +1,107 @@
-@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Kanit:wght@800&family=Lugrasimo&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&family=Kanit:wght@800&family=Lugrasimo&display=swap");
 
-:root{
-   --pri : #1f3195;
-   --sec : #ee6196;
-   --sub : #2c46ad;
-   --gry : #acacac;
+:root {
+  --pri: #1f3195;
+  --sec: #ee6196;
+  --sub: #2c46ad;
+  --gry: #acacac;
+  --lit: #f2f5fa;
+  --bgc: #f2f5f6;
+  --bgs: rgba(0, 0, 0, 0.2);
 }
-*, *::after,*::before{
-    padding: 0;
+
+
+*, *::before, *::after{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
-body{
-    font-family: 'Blinker', sans-serif;
+
+body {
+  font-family: "Blinker", sans-serif;
 }
-.btns{
-    padding: 15px 25px;
-    background-color: var(--pri);
-    border: none;
-    border-radius: 10px;
-    color:white;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 15px;
+
+.btns {
+  padding: 15px 25px;
+  background-color: var(--pri);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
 }
-.btns:hover{
-    background-color: var(--sub);
+
+.btns:hover {
+  background-color: var(--sub);
 }
-.main-title{
-    font-size: clamp(30px, 3vw, 60px);
-    font-weight: 600;
-    letter-spacing: 3.5;
+
+.main-title {
+  font-size: clamp(30px, 4vw, 60px);
+  font-weight: 600;
 }
-.sub-title{
-    font-size: clamp(22px, 2.5vw, 40px);
-    font-weight: 500;
+.sub-title {
+  font-size: clamp(22px, 3vw, 50px);
+  font-weight: 500;
 }
-.mini-title{
-    font-size: clamp(18px, 0.5vw, 23px);
-    letter-spacing: 1.8px;
-    font-weight: 600;
-    text-transform: uppercase;
+.mid-title {
+  font-size: clamp(18px, 1.2vw, 22px);
+  font-weight: 500;
 }
-.main-color{
-    color: var(--pri);
+.mini-title {
+  font-size: clamp(18px, 0.5vw, 23px);
+  letter-spacing: 1.8px;
+  font-weight: 600;
+  text-transform: uppercase;
 }
-.sec-color{
-    color: var(--sec);
+.sm-title {
+  font-size: 14px;
+  text-transform: uppercase;
 }
-.top-banner{
-    height: 250px;
-    background-image: url("../images/banner/top-banner.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    color: #fff;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.normal-title {
+  font-size: 20px;
+  font-weight: normal;
 }
-.links{
-    text-decoration: none;
-    font-weight: bold;
-    color: #141414;
+.main-color {
+  color: var(--pri);
 }
-.links:hover{
-    color: var(--pri);
+.sec-color {
+  color: var(--sec);
 }
-.icon-pri{
-    color: var(--gry);
-    font-size: 20px;
-    transition: all 0.3s ease;
+.top-banner {
+  height: 250px;
+  background-image: url("../images/banner/top-banner.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.icon-pri:hover{
-    color: var(--pri);
+.links {
+  font-weight: bold;
+  color: #141414;
 }
-.icon-sec{
-    color: #fff;
-    font-size: 20px;
-    transition: all 0.5s ease;
+.links:hover {
+  color: var(--pri);
 }
-.icon-sec:hover{
-    color: var(--sec);
+.icon-pri {
+  color: var(--gry);
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+.icon-pri:hover {
+  color: var(--pri);
+}
+.icon-sec {
+  color: #fff;
+  font-size: 20px;
+  transition: all 0.5s ease;
+}
+.icon-sec:hover {
+  color: var(--sec);
+}
+a{
+  text-decoration: none;
 }

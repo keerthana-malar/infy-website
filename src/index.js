@@ -4,9 +4,7 @@ import './css/common.css';
 import 'font-awesome/css/font-awesome.css'
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Menu from './menu';
-
-
+import Menu from './contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

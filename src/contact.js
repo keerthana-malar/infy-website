@@ -1,7 +1,7 @@
 import './css/contact.css';
 import './css/footer.css';
 import 'font-awesome/css/font-awesome.css'
-import Footer from './footer';
+import Footer from './common/footer';
 import Aboutus from './aboutus';
 function contact() {
     return (
@@ -70,12 +70,7 @@ function contact() {
                                 </div>
                                 
                 </div>
-              
-
             </div>
-           
-            <Footer />
-            <Aboutus />
         </>
         
     );

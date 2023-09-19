@@ -12,7 +12,7 @@ import HomeAbout from './home/about';
 import SubService from './home/subService';
 import RecentProjects from './home/recentprojects';
 import Contact from './contact';
-import Header from './header';
+import Header from './common/header';
 import About from './about';
 
 

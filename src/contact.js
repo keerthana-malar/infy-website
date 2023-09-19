@@ -14,7 +14,7 @@ function contact() {
                 </div>
             </div>
             <br></br><br></br><br></br>
-            <p className="sub-title text-center">Our Address</p>
+            {/* <p className="sub-title text-center">Our Address</p>
             <p className='text-muted contactpara '>Welcome to Infygain. If you have any questions or inquiries, <br></br>
                 please don't hesitate to contact us using the information below:</p>
             <br></br>
@@ -33,10 +33,10 @@ function contact() {
                     <h5 className='location'><span><i className="fa fa-user"></i>Get In Touch</span></h5>
                     <p className='text-muted locacon'>Office Hour: (9.45 am - 7.30 pm)<br></br> Closed On sunday</p>
                 </div>
-            </div>
+            </div> */}
 
 
-            <div className='main'>
+            {/* <div className='main'>
                 <div className="row">
                     <div className='col-xs-6 col-md-6 form-details'>
                         <h className='sub-title ready'>Ready to Get started ?</h><br></br><br></br>
@@ -70,7 +70,7 @@ function contact() {
                                 </div>
                                 
                 </div>
-            </div>
+            </div> */}
         </>
         
     );

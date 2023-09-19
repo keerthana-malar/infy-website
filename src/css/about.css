@@ -1,0 +1,130 @@
+.abt-sec{
+    margin:100px;
+}
+.s-title{
+    font-size: clamp(50px, 2.5vw, 60px);
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+.abt-box{
+    border:0.5px solid grey;
+}
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+.count {
+    animation: counter 5s infinite alternate ease-in-out;
+    counter-reset: num var(--num);
+    font: 800 40px system-ui;
+    padding: 2rem;
+}
+.count::after {
+    content: counter(num);
+}
+@keyframes counter {
+    from {
+        --num: 0;
+   }
+    to {
+        --num: 100;
+   }
+}
+.counter-sec{
+    padding:20px 100px;
+}
+.coun-box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.coun-box .count{
+    font-size: clamp(80px, 5vw, 90px);
+    font-weight: 400;
+}
+.counter-sec .title{
+    color:#fff;
+    text-align: center;
+}
+.counter-sec .title p{
+    font-size: clamp(22px, 2vw, 25px);
+}
+.short-abt{
+    background-color: #fff;
+    
+}
+.short-abt .sh-abt-bx{
+    margin:20px 0px;
+}
+.short-abt .progress{
+    margin-bottom:10px;
+    height:28px;
+}
+.short-abt .progress-bar{
+    width: 95%;
+}
+.count{
+    color:#fff;
+}
+.testbox{
+    background-size: 100% 600px;
+    background-image: url("../images/banner/webpage.jpg");
+    background-repeat: no-repeat;
+}
+.inn{
+    width: 90%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.main-bx{
+    padding:100px 0px;
+}
+.client-sec{
+   padding:100px 50px;
+   margin-bottom:50px;
+}
+.client-con i{
+   font-size:1.3em;
+   font-style:italic;
+   font-weight: 300;
+}
+.review-main{
+    margin-top:100px;
+}
+.review{
+    margin:50px 0px;
+    position: relative;
+}
+.rev-bx1{
+    background-color: #5e6fb5;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top:10px;
+}
+.rev-bx2{
+    position: absolute;
+    left:5%;
+    top:-1px;
+    z-index:-1;
+}
+.rev-bx2 img{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: fill;
+}
+.logo-box{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+
+
+
+
+

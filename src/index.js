@@ -8,10 +8,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Sliders from './home/slider';
 import Service from './home/service';
-import About from './home/about';
+import HomeAbout from './home/about';
 import SubService from './home/subService';
 import RecentProjects from './home/recentprojects';
-import Menu from './contact';
+import Contact from './contact';
 import Header from './header';
 import About from './about';
 
@@ -20,12 +20,13 @@ import About from './about';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Header/>
     <Sliders />
     <Service />
-    <About />
+    <HomeAbout />
     <SubService />
     <RecentProjects />
-    <Header/>
     <About/>
+    <Contact/>
   </React.StrictMode>
 );

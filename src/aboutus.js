@@ -4,7 +4,7 @@ import { FontAwesomeIcon }
 function aboutus() {
     return (
         <>
-            <div className="aboutpicturesection">
+            <div className="aboutpicturesection container">
                 <div className="row">
                     <div className="makes"><h1 className="mini-title make">We Make 
                     IT simple</h1>
@@ -52,7 +52,18 @@ function aboutus() {
                                         <a href="#" className="socialicon"><i className="fa fab fa-youtube"></i></a>
                                     </div>
                                 </div>
-                                <div className="ranjith">Keerthana</div><br></br><div className='text-muted ceo'>SEO Analyst</div>
+                                <div className="ranjith">Keer
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                
+                                thana</div><br></br><div className='text-muted ceo'>SEO Analyst</div>
                                 </div>
                             <div className="col-md-3 picture">
                                 <div className='teammembers'>

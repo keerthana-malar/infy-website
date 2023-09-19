@@ -1,5 +1,7 @@
 import React from 'react';
 import 'font-awesome/css/font-awesome.css'
+import '../css/footer.css';
+
 
 function Footer() {
     const handleFacebookClick = (event) => {

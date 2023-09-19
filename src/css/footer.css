@@ -1,0 +1,262 @@
+.mainfooter {
+    margin-top: 80px;
+    background-color: white;
+    margin-bottom: 200px;
+    margin-left: 10PX;
+}
+
+.one {
+    margin-left: 30px;
+    color: var(--pri);
+
+}
+
+.two {
+    margin-left: 30px;
+    color: var(--pri);
+}
+
+.three {
+    margin-left: 30px;
+    color: var(--pri);
+
+
+}
+
+.four {
+    margin-left: 30px;
+    color: var(--pri);
+
+}
+
+.address {
+    margin-left: 30px;
+}
+
+.online {
+    padding: 5px 10px;
+    background-color: var(--pri);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.book {
+    padding: 5px 10px;
+    background-color: var(--pri);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.socialmedl iaicons {
+    margin-right: 1050px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+.icons {
+    font-size: 20px;
+    margin-left: 35px;
+
+}
+
+.follow {
+    color: var(--pri);
+    margin-left: 34px;
+}
+
+.sm {
+    margin-left: 10px;
+}
+
+.mainfooter li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+/* 
+.small-box {
+    height: 100px;
+    margin-top: 0px;
+
+} */
+.indhu{
+    border-radius: 100px;
+}
+
+.name {
+    background-color: var(--pri);
+    height: 100px
+}
+
+.nam {
+    background-color: white;
+    height: 100px
+}
+
+.infy {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.infyy{
+    text-align: right;
+    margin-top: 30px;
+    font-size: 20px;
+    color: var(--pri);
+}
+
+
+.call {
+    margin-top: 20px;
+    text-align: center;
+    color: var(--pri);
+    border-right: thin solid black;
+
+}
+
+.phone {
+    text-align: center;
+    color: var(--sec);
+    font-size: 25px;
+}
+.email{
+        text-align: center;
+        color: var(--sec);
+        font-size: 15px;
+}
+
+.mail {
+    /* margin-bottom: 100px; */
+    text-align: center;
+    color: black;
+
+}
+
+.indhu {
+    margin-bottom: 1000px;
+}
+
+.hari {
+    color: black;
+}
+
+.follows {
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*aboutus*/
+
+.make {
+    text-align: center;
+    color: var(--pri);
+}
+
+.team {
+    text-align: center;
+}
+
+.photos {
+    margin: 50px 10px;
+}
+
+.team-img {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.ranjith {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 5px;
+}
+
+.picture:hover {
+    display: block;
+}
+
+.teammembers {
+    position: relative;
+}
+
+.social-icons {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: var(--pri)
+}
+
+.teammembers:hover .social-icons {
+    display: block;
+}
+
+.social-icons {
+    display: none;
+}
+
+.socialicon:hover {
+    color: var(--sec);
+}
+
+.socialicon {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+.ceo {
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-bottom: 20px;
+    line-height: 1px;
+}
+
+.ranjith:hover {
+    color: var(--pri);
+}
+.copyright{
+    font-size: 15px;
+}
+.footercon{
+    display: flex;
+    justify-content: right;
+    gap: 100px;
+    color: black;
+}
+.footercont{
+    display: flex;
+    justify-content: right;
+}
+.abou:hover{
+color: var();
+}

@@ -82,7 +82,7 @@
     padding:100px 0px;
 }
 .client-sec{
-   padding:100px 50px;
+   padding:50px 50px;
    margin-bottom:50px;
 }
 .client-con i{
@@ -120,8 +120,12 @@
     display: flex !important;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    height: 200px;
 }
+.logo-box img{
+    scale: 1.2;
+}
+
 
 
 

@@ -14,6 +14,7 @@ import RecentProjects from './home/recentprojects';
 import Contact from './contact';
 import Header from './common/header';
 import About from './about';
+import Aboutus from './aboutus';
 
 
 
@@ -27,6 +28,7 @@ root.render(
     <SubService />
     <RecentProjects />
     <About/>
+    <Aboutus/>
     <Contact/>
   </React.StrictMode>
 );

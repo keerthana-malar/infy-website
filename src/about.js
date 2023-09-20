@@ -1,5 +1,7 @@
 import Progress from "./progress";
 import Carousel from "./carousel";
+import Homeabout from "./home/about";
+import Aboutus from "./aboutus";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 function about() {
@@ -9,6 +11,8 @@ function about() {
         <div className="top-banner">
           <p className="main-title">About Us</p>
         </div>
+
+        <Homeabout/>
 
         {/* counter box start */}
         <div className="testbox">

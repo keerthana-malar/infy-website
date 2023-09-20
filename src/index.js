@@ -11,10 +11,13 @@ import Service from './home/service';
 import HomeAbout from './home/about';
 import SubService from './home/subService';
 import RecentProjects from './home/recentprojects';
-import Contact from './contact';
+import Contactmain from './contact/maincontent';
+import Contactform from './contact/contactform';
+import Contact from './contact/contactbanner';
 import Header from './common/header';
 import About from './about';
 import Aboutus from './aboutus';
+import Footer from './common/footer';
 
 
 
@@ -30,5 +33,9 @@ root.render(
     <About/>
     <Aboutus/>
     <Contact/>
+    <Contactmain/>
+    <Contactform/>
+    <Footer/>
   </React.StrictMode>
+  
 );

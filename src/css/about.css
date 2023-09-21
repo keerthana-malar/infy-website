@@ -82,8 +82,7 @@
     padding:100px 0px;
 }
 .client-sec{
-   padding:50px 50px;
-   margin-bottom:50px;
+   padding:20px 50px;
 }
 .client-con i{
    font-size:1.3em;
@@ -120,10 +119,10 @@
     display: flex !important;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 150px;
 }
 .logo-box img{
-    scale: 1.2;
+    scale: 1.5;
 }
 
 

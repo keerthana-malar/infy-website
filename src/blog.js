@@ -1,0 +1,7 @@
+function blog(){
+    return (
+        <>
+        
+        </>
+    );
+}

@@ -50,18 +50,7 @@ function aboutus() {
                                         <a href="#" className="socialicon"><i className="fa fab fa-youtube"></i></a>
                                     </div>
                                 </div>
-                                <div className="ranjith">Keer
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                thana</div><br></br><div className='text-muted ceo'>SEO Analyst</div>
+                                <div className="ranjith">Keerthana</div><br></br><div className='text-muted ceo'>SEO Analyst</div>
                                 </div>
                             <div className="col-md-3 picture">
                                 <div className='teammembers'>

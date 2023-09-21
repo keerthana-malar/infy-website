@@ -1,6 +1,7 @@
 import React from 'react';
 import 'font-awesome/css/font-awesome.css'
 import '../css/footer.css';
+import  {Link} from 'react-router-dom';
 
 
 function Footer() {
@@ -23,13 +24,6 @@ function Footer() {
                             <p className='email'>info@infygain.com</p>
 
                         </div>
-
-
-
-
-
-
-                        
                         <div className='col-xs-6 col-sm-3 mb-3 nam'>
                             <h className='infyy'><b>Follow Us</b><br></br></h>
                             <p className='hari'> hari complex opp.prozone mall,
@@ -42,7 +36,6 @@ function Footer() {
                             <a href="#" className="socialicon"><i className="fa fab fa-twitter"></i></a>
                             <a href="#" className="socialicon"><i className="fa fab fa-instagram"></i></a>
                             <a href="#" className="socialicon"><i className="fa fab fa-youtube"></i></a>
-
                         </div>
 
                     </div>
@@ -62,8 +55,8 @@ function Footer() {
                     <div className='col-s-6 col-sm-3'>
                         <h1 className='mini-title two'>Quick Links</h1>
                         <ul className='text-muted quicklinks mb-5'>
-                            <li> Home</li>
-                            <li> About Us</li>
+                            <li> <Link to="/">Home</Link></li>
+                            <li> <Link to="/about">About</Link></li>
                             <li> Services</li>
                             <li>Blog</li>
                             <li> Contact Us</li>
@@ -129,10 +122,8 @@ function Footer() {
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
-
         </footer>
     );
 }

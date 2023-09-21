@@ -1,4 +1,6 @@
 import 'font-awesome/css/font-awesome.css'
+import './css/aboutus.css';
+
 import { FontAwesomeIcon }
     from '@fortawesome/react-fontawesome'
 function aboutus() {
@@ -51,16 +53,6 @@ function aboutus() {
                                     </div>
                                 </div>
                                 <div className="ranjith">Keer
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
                                 thana</div><br></br><div className='text-muted ceo'>SEO Analyst</div>
                                 </div>
                             <div className="col-md-3 picture">

@@ -94,7 +94,8 @@ color: var(--sec);
     box-shadow:  1px 1px 6px #aaaaaa;
     background-color: white;
     border-radius: 10px;
-    height: 100px;
+    margin-top: 100px;
+    /* height: 100px; */
 }
 .nam-icon{
     background-color: white;
@@ -108,7 +109,8 @@ color: var(--sec);
     background-color: var(--pri);
     border-radius: 10px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 0px; 
+    height: 20;
 }
 
 .nam {

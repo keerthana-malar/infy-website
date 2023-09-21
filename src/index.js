@@ -26,7 +26,7 @@ import About from './About';
 
 import Home from "./Home";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import Contact from './contact';
 
 function App(){
   return(
@@ -34,6 +34,7 @@ function App(){
       <Routes>
               {/* <Route path="/" element={<Header/>}> */}
                 <Route path='/' element={<Home/>}/>
+                <Route path="/Contact" element={<Contact/>} />
                 <Route path='/About' element={<About/>}/>
                 <Route path="/Footer" element={<Footer/>} />
                 <Route path="*" element={"Haiii"} />

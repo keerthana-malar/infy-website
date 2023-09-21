@@ -1,4 +1,4 @@
-import Progress from "./progress";
+import Progress from "../progress";
 
 function aboutcounter(){
     return(

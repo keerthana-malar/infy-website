@@ -22,6 +22,7 @@ import Header from './common/header';
 // import Aboutus from './about/aboutus';
 
 import Footer from './common/footer';
+import About from './About';
 
 import Home from "./Home";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
@@ -33,11 +34,11 @@ function App(){
       <Routes>
               {/* <Route path="/" element={<Header/>}> */}
                 <Route path='/' element={<Home/>}/>
-                <Route path="/About" element={<Footer/>} />
                 <Route path="/Contact" element={<Contact/>} />
+                <Route path='/About' element={<About/>}/>
+                <Route path="/Footer" element={<Footer/>} />
                 <Route path="*" element={"Haiii"} />
               {/* </Route> */}
-  
       </Routes>
       </BrowserRouter>
   );

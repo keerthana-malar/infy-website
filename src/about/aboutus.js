@@ -1,4 +1,6 @@
-import 'font-awesome/css/font-awesome.css'
+import 'font-awesome/css/font-awesome.css';
+import './css/aboutus.css';
+
 import { FontAwesomeIcon }
     from '@fortawesome/react-fontawesome'
 function aboutus() {

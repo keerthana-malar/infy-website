@@ -25,7 +25,7 @@ import Footer from './common/footer';
 
 import Home from "./Home";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+import Contact from './contact';
 
 function App(){
   return(
@@ -34,6 +34,7 @@ function App(){
               {/* <Route path="/" element={<Header/>}> */}
                 <Route path='/' element={<Home/>}/>
                 <Route path="/About" element={<Footer/>} />
+                <Route path="/Contact" element={<Contact/>} />
                 <Route path="*" element={"Haiii"} />
               {/* </Route> */}
   

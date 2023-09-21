@@ -1,8 +1,6 @@
 .mainfooter {
-    margin-top: 80px;
-    background-color: white;
-    margin-bottom: 200px;
-    margin-left: 10PX;
+    background-color: var(--bgc);
+    
 }
 
 .one {
@@ -56,16 +54,12 @@
     font-size: 14px;
 }
 
-.socialmedl iaicons {
-    margin-right: 1050px;
-    padding-left: 10px;
-    margin-right: 20px;
-}
+
 
 .icons {
     font-size: 20px;
     margin-left: 35px;
-
+color: var(--sec);
 }
 
 .follow {
@@ -81,25 +75,44 @@
     list-style: none;
     margin-bottom: 10px;
 }
+.infyy-icon{
+    font-size: 10px;
+    text-align: right;
+    margin-top: 10px;
+    font-size: 20px;
+    color: var(--pri);
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
 
-/* 
 .small-box {
+    margin:40px 20px;
+    width:100%;
+    border-bottom: 5px;
+    margin-right: 10px;
+    box-shadow:  1px 1px 6px #aaaaaa;
+    background-color: white;
+    border-radius: 10px;
     height: 100px;
-    margin-top: 0px;
-
-} */
-.indhu{
-    border-radius: 100px;
+}
+.nam-icon{
+    background-color: white;
+    border-radius: 10px;
+}
+.small{
+    border-radius: 200px;
 }
 
 .name {
     background-color: var(--pri);
-    height: 100px
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .nam {
     background-color: white;
-    height: 100px
 }
 
 .infy {
@@ -107,23 +120,35 @@
     text-align: center;
     margin-top: 30px;
     font-size: 30px;
+    
 }
 .infyy{
     text-align: right;
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 20px;
     color: var(--pri);
+    display: flex;
+    justify-content: center;
 }
-
+.infyicon{
+   
+    text-align: right;
+    padding: 20px;
+    font-size: 20px;
+    color: var(--sec);
+}
 
 .call {
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: center;
     color: var(--pri);
-    border-right: thin solid black;
+    border-right: light black;
+    font-size:18px ;
+}
+.calls{
+background-color: white;
 
 }
-
 .phone {
     text-align: center;
     color: var(--sec);
@@ -142,12 +167,15 @@
 
 }
 
-.indhu {
-    margin-bottom: 1000px;
-}
+
 
 .hari {
     color: black;
+    display: flex;
+    justify-self:center;
+    margin-left: 30px;
+    font-size: 15px;
+    margin-top: 5px;
 }
 
 .follows {
@@ -167,96 +195,3 @@
 
 
 
-
-/*aboutus*/
-
-.make {
-    text-align: center;
-    color: var(--pri);
-}
-
-.team {
-    text-align: center;
-}
-
-.photos {
-    margin: 50px 10px;
-}
-
-.team-img {
-    height: 350px;
-    object-fit: cover;
-    border-radius: 20px;
-}
-
-.ranjith {
-    text-align: center;
-    color: black;
-    font-size: 30px;
-    margin-top: 5px;
-}
-
-.picture:hover {
-    display: block;
-}
-
-.teammembers {
-    position: relative;
-}
-
-.social-icons {
-    width: 100%;
-    position: absolute;
-    bottom: 20px;
-    text-align: center;
-    font-size: 25px;
-    color: var(--pri)
-}
-
-.teammembers:hover .social-icons {
-    display: block;
-}
-
-.social-icons {
-    display: none;
-}
-
-.socialicon:hover {
-    color: var(--sec);
-}
-
-.socialicon {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-
-
-.ceo {
-    text-align: center;
-    color: black;
-    font-size: 16px;
-    margin-bottom: 30px;
-    margin-bottom: 20px;
-    line-height: 1px;
-}
-
-.ranjith:hover {
-    color: var(--pri);
-}
-.copyright{
-    font-size: 15px;
-}
-.footercon{
-    display: flex;
-    justify-content: right;
-    gap: 100px;
-    color: black;
-}
-.footercont{
-    display: flex;
-    justify-content: right;
-}
-.abou:hover{
-color: var();
-}

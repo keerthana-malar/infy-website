@@ -4,7 +4,7 @@ import '../css/contact.css';
 function Contactform() {
     return (
         <>
-<div className='main'>
+<div className='main '>
 <div className="row">
     <div className='col-xs-6 col-md-6 form-details'>
         <h className='sub-title ready'>Ready to Get started ?</h><br></br><br></br>

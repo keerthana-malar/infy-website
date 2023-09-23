@@ -1,0 +1,64 @@
+.main{
+    background-color: white;
+
+}
+.btns{
+    padding: 7px 50px;
+    background-color: var(--pri);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+}
+.datesection{
+    margin-bottom: 200px;
+    color: var(--sec);
+}
+.entry-date{
+    margin-left: 6px;
+    margin-top:50px ;
+}
+.image{
+  width:850px;
+  height: auto;
+  margin-top: 30px;
+  border-radius: 20px;
+  
+}
+.blog-content{
+    width: 850px;
+    margin-top: 40px;
+    font-size: 18px;
+}
+.reviewsection{
+    border: 1px wheat ;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    width: 850px;
+    box-shadow:  1px 1px 6px #aaaaaa;
+    padding: 20px 2px 2px 2px;
+    font-size: 24px;
+    font-weight: 340;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+.fa-quote-left{
+    color: var(--pri);
+    font-size: 40px;
+    padding-left: 40px;
+}
+.review{
+    margin-top: 4px;
+    margin-right: 110px;
+}
+.sub-title{
+    font-size: 25px;
+}
+.para{
+    width: 850px;
+    font-size: 17px;
+}

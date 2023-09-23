@@ -1,0 +1,42 @@
+.mainblog{
+    background-color: white;
+    
+}
+.mainblogsection{
+    margin-top: 40px;
+    padding-left: 60px;
+
+}
+.image-section{
+background-color: #fff;
+border-radius: 20px ;
+box-shadow: 0 0 10px var(--bgs);
+margin-top: 2px;
+padding-left: 0px;
+padding-right: 0px;
+}
+.img img {
+    max-height: 100%; 
+    max-width: 100%;
+
+}
+.firstbutton{
+    margin-left: 20px;
+}
+.secondbutton{
+    margin-left: 10px;
+}
+.buttons {
+    bottom: 0px; 
+    left: 50px;
+}
+.detailscontent{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.readmoretext{
+    margin-left: 20px;
+    font-size: 18px;
+    color: #1f3195;
+}

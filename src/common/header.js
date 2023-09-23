@@ -19,6 +19,7 @@ function header() {
           <div className="col-lg-2 col-md-2">
             <p><a className="head-link" href="#"><FaRegClock/>&nbsp;&nbsp;&nbsp;&nbsp; Office Hours: 9:45 am - 7:30 pm</a></p>
           </div>
+
           <div className="col-lg-2 col-md-2">
           <a className='head-link sm' href="https://www.facebook.com/infygain/"><FaSquareFacebook/></a>
           <a className='head-link sm' href="https://www.instagram.com/infygain/"><FaSquareInstagram/></a>
@@ -29,6 +30,12 @@ function header() {
           </div>
         </div>
       </div>
+
+
+
+
+
+      
 
       {/* Main head section */}
       <div className='main-head'>

@@ -28,6 +28,9 @@ import About from './About';
 import Home from "./Home";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Contact from './contact';
+import Blogs from './blog';
+import MainBlogs from './mainblog';
+
 
 function App(){
   return(
@@ -37,6 +40,8 @@ function App(){
                 <Route path='/' element={<Home/>}/>
                 <Route path="/Contact" element={<Contact/>} />
                 <Route path='/About' element={<About/>}/>
+                <Route path='/Blogs' element={<Blogs/>}/>
+                <Route path='/MainBlogs' element={<MainBlogs/>}/>
                 <Route path="/Footer" element={<Footer/>} />
                 <Route path="*" element={"Haiii"} />
               {/* </Route> */}

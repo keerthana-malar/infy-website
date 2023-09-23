@@ -1,7 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './css/common.css';
-import './css/header.css';
 // import './css/about.css';
 import 'font-awesome/css/font-awesome.css'
 import React from 'react';
@@ -15,6 +14,7 @@ import ReactDOM from 'react-dom/client';
 // import Contactform from './contact/contactform';
 // import Contact from './contact/contactbanner';
 import Header from './common/header';
+
 // import About from './about/about';
 // import Aboutcounter from ".about/aboutcounter";
 // import Aboutclient from "./about/aboutclient";
@@ -23,6 +23,7 @@ import Header from './common/header';
 
 import Footer from './common/footer';
 import About from './About';
+
 
 import Home from "./Home";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';

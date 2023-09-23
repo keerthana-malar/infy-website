@@ -63,12 +63,11 @@ function Footer() {
                                 <li> <Link to="/service">Services</Link></li>
                                 <li><Link to="/blog">Blog</Link></li>
                                 <li> <Link to="/contact">Contact Us</Link></li>
-                                <button className="btns online">
-                                    Online Store &nbsp;<span className="fa fa-arrow-right"></span>
-                                </button><br></br>
-                                <button className="btns book">
-                                    Book Services &nbsp;<span className="fa fa-arrow-right"></span>
-                                </button>
+                                <li> <Link to="/contact">Online Store</Link></li>
+
+                                <li> <Link to="/contact">Book Services</Link></li>
+
+                             
                             </ul>
                         </div>
                         <div className='col-xs-6 col-sm-3'>
@@ -77,7 +76,7 @@ function Footer() {
                                 Sathy Rd, Saravanampatti,
                                 Coimbatore, Tamil Nadu 641035</b></p><hr className='text-muted'></hr>
                             <p className='text-muted address'>9952141444</p>
-                            <p className='text-muted address'><b>info[at]infygain[dot]com</b></p>
+                            <p className='text-muted address'><b>info@infygain.com</b></p>
                         </div>
                         <div className='col-xs-6 col-sm-3'>
                             <h1 className='mini-title four'>Legal Links</h1>
@@ -119,9 +118,7 @@ function Footer() {
                                 <div className='col-md-6 footercontent'>
                                     Copyright © 2023 Infygain. All Rights Reserved.
                                 </div>
-                                <div className='col-md-6 footercon'>
-                                    <p className='abou'><b>About Us</b></p><p className='abou'><b>Contact Us</b></p>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>

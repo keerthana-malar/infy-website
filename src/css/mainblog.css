@@ -5,7 +5,6 @@
 .mainblogsection{
     margin-top: 40px;
     padding-left: 60px;
-
 }
 .image-section{
 background-color: #fff;
@@ -39,4 +38,7 @@ padding-right: 0px;
     margin-left: 20px;
     font-size: 18px;
     color: #1f3195;
+}
+.readmorelink{
+    margin-bottom: 10px;
 }

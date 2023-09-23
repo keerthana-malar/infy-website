@@ -1,15 +1,16 @@
-import 'font-awesome/css/font-awesome.css'
+import 'font-awesome/css/font-awesome.css';
+import '../css/aboutus.css';
+
 import { FontAwesomeIcon }
     from '@fortawesome/react-fontawesome'
 function aboutus() {
     return (
         <>
-            <div className="aboutpicturesection">
+            <div className="aboutpicturesection container">
                 <div className="row">
                     <div className="makes"><h1 className="mini-title make">We Make 
                     IT simple</h1>
                         <p className="main-title team">Discover Trust Team and<br></br> Our Experts</p>
-
                     </div>
                     <div className="photos">
                         <div className="row">
@@ -21,7 +22,6 @@ function aboutus() {
                                         <a href="#" className="socialicon"><i className="fa fab fa-twitter"></i></a>
                                         <a href="#" className="socialicon"><i className="fa fab fa-instagram"></i></a>
                                         <a href="#" className="socialicon"><i className="fa fab fa-youtube"></i></a>
-
                                     </div>
                                 </div>
                                 <div className="overlay">

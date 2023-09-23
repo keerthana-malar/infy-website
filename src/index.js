@@ -15,6 +15,8 @@ import Contact from './contact';
 import Header from './common/header';
 import About from './about';
 import OurExp from './home/experience';
+import Testimonial from './home/Testimonial';
+import HomeBlog from './home/HomeBlog';
 
 
 
@@ -30,5 +32,7 @@ root.render(
     <About/>
     <Contact/> */}
     <OurExp />
+    <Testimonial />
+    <HomeBlog />
   </React.StrictMode>
 );

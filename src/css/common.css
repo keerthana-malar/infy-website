@@ -10,11 +10,12 @@
   --bgs: rgba(0, 0, 0, 0.2);
 }
 
-
-*, *::before, *::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -66,7 +67,7 @@ body {
   color: var(--pri);
 }
 .sec-color {
-  color: var(--sec);
+  color: var(--sec) !important;
 }
 .top-banner {
   height: 250px;
@@ -102,6 +103,27 @@ body {
 .icon-sec:hover {
   color: var(--sec);
 }
-a{
+a {
   text-decoration: none;
+}
+
+/* Blog  */
+.homeBlogSec{
+  padding: 50px 0;
+}
+.blogBoxInn{
+  box-shadow:  0 0 10px var(--bgs);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.blogImgBox{
+  height: 350px;
+}
+.blogImgBox img{
+  object-fit: cover;
+  height: 100%;
+}
+.blogContBox{
+  padding: 20px;
 }

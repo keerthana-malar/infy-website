@@ -191,3 +191,111 @@
 .cont-box {
   height: 120px;
 }
+
+/* Our Experience  */
+.ourExpSec {
+  padding: 50px 0;
+}
+.ourExpFoot {
+  display: flex;
+}
+.ourExpFootIconBox {
+  flex-basis: 20%;
+}
+.ourExpFootIconBox img {
+  scale: 0.8;
+}
+.ourExpList li {
+  margin-bottom: 10px;
+}
+@media (width <= 991px) {
+  .ourExpFootIconBox {
+    flex-basis: 40%;
+  }
+}
+
+/* Testimonial   */
+.testimonialSec{
+  padding: 50px 0;
+  background-image: url(../../public/images/h1-bg04.jpg);
+  background-position: 0px 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.testimonialBox{
+  box-shadow: 0 0 10px var(--bgs);
+  border-radius: 10px;
+  margin-bottom: 50px;
+  background-color: #fff;
+}
+.testiTopCont{
+  margin-bottom: 50px;
+  color: #fff;
+}
+.clientBox{
+  display: flex;
+  align-items: center;
+}
+.clientBox p{
+  padding: 0;
+  margin: 0;
+}
+.clientImgBox{
+  display: flex;
+  align-items: center;
+}
+.clientQuote{
+  height: 60px;
+  width: 60px;
+  background-color: var(--pri);
+  border-radius: 50%;
+  margin-left: -120px;
+}
+.clientQuote img{
+  scale: 0.5;
+}
+.clientImg{
+  height: 80px;
+  width: 80px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 40px;
+}
+.clientName{
+  margin-left: 80px;
+}
+.testMainCont{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+@media (width <= 991px) {
+  .testMainCont{
+    flex-wrap: wrap;
+  }
+}
+.testiIconBox{
+  height: 150px;
+  width: 150px;
+  background-color: var(--pri);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.testiIconBox img{
+  height: 50%;
+  width: 50%;
+}
+.testiIconBox{
+  margin: 10px auto;
+  transition: all 0.3s;
+}
+.testiContBox{
+  text-align: center;
+}
+.testInn:hover .testiIconBox{
+  background-color: var(--sec);
+}

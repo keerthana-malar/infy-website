@@ -53,10 +53,9 @@
 }
 .short-abt{
     background-color: #fff;
-    
 }
 .short-abt .sh-abt-bx{
-    margin:20px 0px;
+    /* margin:20px 0px; */
 }
 .short-abt .progress{
     margin-bottom:10px;
@@ -69,14 +68,16 @@
     color:#fff;
 }
 .testbox{
-    background-size: 100% 600px;
+    background-size: cover;
     background-image: url("../images/banner/webpage.jpg");
     background-repeat: no-repeat;
+    background-position: 0 -500px;
 }
 .inn{
     width: 90%;
     background-color: #fff;
     margin: 0 auto;
+    border:1px solid red;
 }
 .main-bx{
     padding:100px 0px;
@@ -102,6 +103,11 @@
     height: 50px;
     border-radius: 50%;
     margin-top:10px;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:28px;
 }
 .rev-bx2{
     position: absolute;
@@ -124,7 +130,15 @@
 .logo-box img{
     scale: 0.6;
 }
-
+.short-img{
+    height:100%;
+}
+.short-img img{
+    height:100%;
+    object-fit: cover;
+}
+.sh-abt-bx{
+}
 
 
 

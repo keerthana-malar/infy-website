@@ -37,7 +37,9 @@ function aboutcounter(){
         <div className="short-abt">
           <div className="row">
             <div className="col-md-6">
+              <div className="short-img">
               <img className="img-fluid " src="./images/abt.jpg"></img>
+              </div>
             </div>
             <div className="col-md-6">
               <div className="sh-abt-bx p-5">

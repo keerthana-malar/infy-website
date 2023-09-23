@@ -1,4 +1,4 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { BiSolidQuoteAltLeft } from "react-icons/bi";
 function aboutclient(){
     return (
         <div className="client-sec">
@@ -10,7 +10,7 @@ function aboutclient(){
             </div>
             <div className="col-md-6">
             <div className="review-main">
-            <div className="client-con sh-abt-bx">
+            <div className="client-con sh-abt-bx mb-5">
                 <p className="mini-title main-color">CLIENT FEEDBACK</p>
                 <p className="s-title mb-5">What Our Clients Say</p>
                 <i className="text-muted">
@@ -25,7 +25,7 @@ function aboutclient(){
                 <div className="row">
                 <div className="col-md-2">
                     <div className="rev-bx1">
-                    <FontAwesomeIcon icon="fa fa-quote-left" />
+                    <BiSolidQuoteAltLeft />
                     </div>
                     <div className="rev-bx2">
                     <img className="img-fluid " src="./images/abt.jpg"></img>

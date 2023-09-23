@@ -10,11 +10,12 @@
   --bgs: rgba(0, 0, 0, 0.2);
 }
 
-
-*, *::before, *::after{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -102,6 +103,6 @@ body {
 .icon-sec:hover {
   color: var(--sec);
 }
-a{
+a {
   text-decoration: none;
 }

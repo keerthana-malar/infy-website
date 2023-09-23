@@ -191,3 +191,25 @@
 .cont-box {
   height: 120px;
 }
+
+/* Our Experience  */
+.ourExpSec {
+  padding: 50px 0;
+}
+.ourExpFoot {
+  display: flex;
+}
+.ourExpFootIconBox {
+  flex-basis: 20%;
+}
+.ourExpFootIconBox img {
+  scale: 0.8;
+}
+.ourExpList li {
+  margin-bottom: 10px;
+}
+@media (width <= 991px) {
+  .ourExpFootIconBox {
+    flex-basis: 40%;
+  }
+}

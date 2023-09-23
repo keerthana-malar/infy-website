@@ -14,19 +14,21 @@ import RecentProjects from './home/recentprojects';
 import Contact from './contact';
 import Header from './common/header';
 import About from './about';
+import OurExp from './home/experience';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Header/>
+    {/* <Header/>
     <Sliders />
     <Service />
     <HomeAbout />
     <SubService />
     <RecentProjects />
     <About/>
-    <Contact/>
+    <Contact/> */}
+    <OurExp />
   </React.StrictMode>
 );

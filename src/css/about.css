@@ -77,7 +77,6 @@
     width: 90%;
     background-color: #fff;
     margin: 0 auto;
-    border:1px solid red;
 }
 .main-bx{
     padding:100px 0px;
@@ -96,6 +95,9 @@
 .review{
     margin:50px 0px;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .rev-bx1{
     background-color: #5e6fb5;
@@ -137,7 +139,12 @@
     height:100%;
     object-fit: cover;
 }
-.sh-abt-bx{
+.client-pro{
+    height:100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

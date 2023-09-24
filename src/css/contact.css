@@ -11,10 +11,10 @@
     font-size: 20px;
     font-weight: 500;
     margin-top: 10px;
-    margin-left: 110px;
+    margin-left: 80px;
 }
 .locacon{
-    margin-left: 140px;
+    margin-left: 110px;
 }
 .main{
   background-color: #f2f5f6;
@@ -59,6 +59,27 @@
  
 
  
+ /* Media query for screens with a maximum width of 360px */
+@media (max-width: 500px) {
+  .main{
+    padding: 10px;
+  }
+}
+@media(max-width:494px){
+  .main{
+  padding-left:40px;
+}
+}
+@media(width:754px){
+  .main{
+    width: 800px;
+}
+}
+@media(min-width:355px){
+  .contactpara{
+   margin-left: 30px;
+}
+}
 
 
 

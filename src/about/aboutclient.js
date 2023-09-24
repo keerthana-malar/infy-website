@@ -1,4 +1,4 @@
-import { BiSolidQuoteAltLeft } from "react-icons/bi";
+import "../css/home.css";
 function aboutclient(){
     return (
         <div className="client-sec">
@@ -21,22 +21,20 @@ function aboutclient(){
                 veritatis quasi architecto beatae vitae.
                 </i>
             </div>
-            <div className="review">
-                <div className="row">
-                <div className="col-md-3">
-                    <div className="rev-bx1">
-                    <BiSolidQuoteAltLeft />
+            <div className="clientBox">
+                    <div className="clientImgBox">
+                        <div className="clientImg">
+                            <img className="img-fluid" src="/images/abt.jpg"></img>
+                        </div>
+                        <div className="clientQuote">
+                            <img src="/images/Quote.svg"></img>
+                        </div>
                     </div>
-                    <div className="rev-bx2">
-                    <img className="img-fluid " src="./images/abt.jpg"></img>
+                    <div className="clientName">
+                        <p className="mid-title">Ragan</p>
+                        <p className="text-muted">Ragan Dimension</p>
                     </div>
-                </div>
-                <div className="col-md-9">
-                    <p><b>John Smith</b></p>
-                    <p className="text-muted">A leading Company</p>
-                </div>
-                </div>
-            </div>
+                  </div>
             </div>
             </div>
         </div>

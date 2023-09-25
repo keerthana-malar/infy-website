@@ -1,3 +1,4 @@
+import Header from './common/header';
 import Sliders from './home/slider';
 import Service from './home/service';
 import HomeAbout from './home/about';
@@ -6,10 +7,12 @@ import RecentProjects from './home/recentprojects';
 import OurExp from './home/experience';
 import Testimonial from './home/Testimonial';
 import HomeBlog from './home/HomeBlog';
+import Footer from './common/footer';
 
 function Home(){
     return(
         <>
+        <Header/>
         <Sliders/>
         <Service/>
         <HomeAbout/>
@@ -18,6 +21,7 @@ function Home(){
         <OurExp />
         <Testimonial />
         <HomeBlog />
+        <Footer />
         </>
     );
 }

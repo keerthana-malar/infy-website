@@ -23,7 +23,7 @@ body {
 }
 
 .btns {
-  padding: 15px 25px;
+  padding: 10px 25px;
   background-color: var(--pri);
   border: none;
   border-radius: 10px;

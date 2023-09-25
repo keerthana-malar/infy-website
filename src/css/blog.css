@@ -2,7 +2,7 @@
     background-color: white;
 
 }
-.btns{
+/* .btns{
     padding: 7px 50px;
     background-color: var(--pri);
     border: none;
@@ -11,7 +11,7 @@
     text-transform: uppercase;
     font-weight: 500;
     font-size: 15px;
-}
+} */
 .datesection{
     margin-bottom: 200px;
     color: var(--sec);

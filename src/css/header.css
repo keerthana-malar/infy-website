@@ -21,6 +21,7 @@
     font-size: 18px;
     font-weight: 600;
     text-transform: uppercase;
+    margin:10px 20px;
 }
 .main-head-box{
     display: flex;
@@ -114,6 +115,7 @@
     width: 100%;
     top: -180px;
     transition: all 0.5s;
+    z-index: 5;
 }
 .menu-box-drop li{
 list-style: none;

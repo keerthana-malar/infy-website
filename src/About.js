@@ -1,3 +1,4 @@
+import Header from './common/header';
 import Aboutmain from './about/about';
 import Aboutcounter from "./about/aboutcounter";
 import HomeAbout from './home/about';
@@ -10,6 +11,7 @@ import './css/about.css';
 function About(){
     return(
         <>
+        <Header/>
         <Aboutmain/>
         <HomeAbout/>
         <Aboutcounter/>

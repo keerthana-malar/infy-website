@@ -24,7 +24,7 @@ function Footer() {
 
                         <div className='col-md-3 mb-3 nam'>
                             <h1 className='infyy'><b>Follow Us</b><br></br></h1>
-                            <p className='hari text-muted'> hari complex opp.prozone mall,
+                            <p className='hari text-muted'> Hari complex opp.prozone mall,
                                 Sathy Rd, Saravanampatti,
                                 Coimbatore, Tamil Nadu 641035</p>
                         </div>

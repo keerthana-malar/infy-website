@@ -80,6 +80,7 @@ color: var(--sec);
 .mainfooter li {
     list-style: none;
     margin-bottom: 10px;
+    border: 1px solid blue;
 }
 .infyy-icon{
     font-size: 10px;
@@ -92,7 +93,7 @@ color: var(--sec);
     margin-left: 10px;
 }
 
-.small-box {
+/* .small-box {
     margin:40px 20px;
     width:100%;
     border-bottom: 5px;
@@ -100,16 +101,18 @@ color: var(--sec);
     box-shadow:  1px 1px 6px #aaaaaa;
     background-color: white;
     border-radius: 10px;
+    border:1px solid red;
     margin-top: 100px;
-    /* height: 100px; */
-}
+    height: 100px;
+} */
 .nam-icon{
     background-color: white;
     border-radius: 10px;
 }
-.small{
-    border-radius: 200px;
-}
+/* .small{
+    border-radius: 10px;
+    border:1px solid green;
+} */
 
 .name {
     background-color: var(--pri);

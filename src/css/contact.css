@@ -5,7 +5,6 @@
     align-items: center;
     margin-top: 0px;
     margin-right: 0px;
-     
 }
 .location{
     font-size: 20px;
@@ -14,7 +13,10 @@
     margin-left: 80px;
 }
 .locacon{
-    margin-left: 110px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main{
   background-color: #f2f5f6;
@@ -56,9 +58,6 @@
   .aboutpicturesection{
     padding:50px 0px 0px 0px;
   }
- 
-
- 
  /* Media query for screens with a maximum width of 360px */
 @media (max-width: 500px) {
   .main{
@@ -80,6 +79,31 @@
    margin-left: 30px;
 }
 }
+.medium-title {
+  font-size: clamp(25px, 4vw, 60px);
+  font-weight: 400;
+}
+.maincontent{
+  margin:50px 10px;
+  background-color: #ffffff !important;
+  
+}
+.contactpara{
+  text-align: center;
+}
+
+.conbox1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tit1{
+  /* margin-left:70px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 
 

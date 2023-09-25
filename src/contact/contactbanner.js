@@ -4,16 +4,12 @@ import '../css/contact.css';
 function contact() {
     return (
         <>
-           
-            
             <div className="top-banner">
                 <div>
                     <p className="main-title">Contact Us</p>
                 </div>
             </div>
-            
             </>
-        
         );
     }
     

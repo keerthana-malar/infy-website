@@ -57,6 +57,32 @@ function Carousel() {
         slidesToScroll: 1,
         autoplay: true, // Enable autoplay
         autoplaySpeed: 1000, // Set the autoplay speed in milliseconds (3 seconds in this case)
+        responsive: [
+            {
+              breakpoint: 900,
+              settings: {
+                slidesToShow: 4,
+              }
+            },
+            {
+              breakpoint: 700,
+              settings: {
+                slidesToShow: 3,
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+              }
+            },
+            {
+                breakpoint: 400,
+                settings: {
+                  slidesToShow: 1,
+                }
+              }
+          ]
     };
 
     return (

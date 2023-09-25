@@ -10,8 +10,8 @@ function Contactus(){
         <>
         <Header/>
         <Contactbanner/>
-        <Contactform/>
         <Maincontent/>
+        <Contactform/>
         <Footer/>
         </>
     );

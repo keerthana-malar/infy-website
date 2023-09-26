@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,700;1,900&display=swap');
+.mainheadbx{
+    display: flex;
+    font-family: "Rubik", sans-serif;
+    height:900px;
+    background-color: #fff;
+}
+.headbx1{
+    background-image: url("/public/images/seo/bg-top.png");
+    background-position: -350px;
+    background-repeat: no-repeat;
+    width:80%;
+}
+.mainheadbx .headbx2{
+    margin:120px 0px 0px 0px;
+    position: relative;
+}
+.headbx2 .head-title{
+    font-weight: 700;
+    line-height: 80px;
+    font-size: clamp(50px, 6vw, 70px);
+}
+.headbx2 span{
+    font-weight: 300;
+}
+.headbx2 .head-con{
+    font-size: 22px;
+    line-height: 1.36;
+    width:60%;
+    color:#7e7f7f;
+}
+.head-btn{
+    width:300px;
+    height:60px;
+    background: linear-gradient(90deg, rgba(6,255,223,1) 35%, rgba(0,66,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-bottom:40px;
+}
+.head-btn:hover{
+    background: linear-gradient(90deg, rgba(0,66,255,1) 35%, rgba(6,255,223,1) 100%);
+}
+.headlink{
+    color: #0060FF;
+    font-size: 19px;
+    font-weight: 600;
+    margin-bottom:50px;
+    
+}
+.headbx2 li{
+    height: 30px;
+    width:30px;
+    background-color: #0060FF;
+    border-radius: 50%;
+    display: inline-block;
+    list-style: none;
+    margin:20px 10px 0px 0px;
+    font-size: 18px;
+   
+}
+.headbx2 li >a{
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.soicon{
+    margin-top:20px;
+}
+.rock img{
+    height:500px;
+    position: absolute;
+    top:300px;
+    right:30px;
+}
+.main-services{
+    border: 1px solid red;
+    background-image: url('/public/images/seo/service-bg.png');
+    height: 800px;
+}
+.featurebox{
+    width:250px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

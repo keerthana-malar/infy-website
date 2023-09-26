@@ -7,7 +7,9 @@ function Mainsection() {
             <div className='main'>
 
                 <div className=" blogsection">
-                    <button className='btns'>Infygain</button>    <button className='btns'>Infygain</button><br></br><br></br>
+                    <div className='row'>
+                        <div className='col-md-7'>
+                    <button className='btns'>Infygain</button>    <button className='btns blogbutton'>Infygain</button><br></br><br></br>
                     <time className='text-muted entry-date published'><i className="fa-solid fa-calendar-days"></i>September 27, 2023</time><br></br>
                     <div className='image'>
                     <img
@@ -28,8 +30,8 @@ function Mainsection() {
                     <p className='text-muted para'>Leos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                     <hr></hr>
                 </div>
-
-
+                </div>
+            </div>
             </div>
         </>
     );

@@ -9,7 +9,18 @@
     background-image: url("/public/images/seo/bg-top.png");
     background-position: -350px;
     background-repeat: no-repeat;
+    position: relative;
     width:80%;
+}
+.box1{
+    position: absolute;
+    left:50px;
+    top:400px;
+}
+.box2{
+    position: absolute;
+    left:400px;
+    top:250px;
 }
 .mainheadbx .headbx2{
     margin:120px 0px 0px 0px;
@@ -23,7 +34,7 @@
 .headbx2 span{
     font-weight: 300;
 }
-.headbx2 .head-con{
+.head-con{
     font-size: 22px;
     line-height: 1.36;
     width:60%;
@@ -58,7 +69,6 @@
     list-style: none;
     margin:20px 10px 0px 0px;
     font-size: 18px;
-   
 }
 .headbx2 li >a{
     color:#fff;
@@ -77,16 +87,176 @@
     right:30px;
 }
 .main-services{
-    border: 1px solid red;
-    background-image: url('/public/images/seo/service-bg.png');
-    height: 800px;
+    /* height: 800px; */
+    margin:100px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    background-color: #f0f7ff;
 }
 .featurebox{
-    width:250px;
+    width: 200px;
+    background-color: #0060FF;
+    height: 40px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.featurebox .iconbx{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    color:white;
+    font-size: 24px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 20%;
+}
+.featurebox .conbx{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    flex-basis: 70%;
+}
+.sercon .su-title{
+    font-family: "Rubik", sans-serif;
+    font-size: clamp(22px, 3vw, 70px);
+    font-weight: 700;
+    line-height: 0.5;
+    display: flex;
+    justify-content: center;
+}
+.su-titlebx{
+    font-family: "Rubik", sans-serif;
+    font-size: clamp(22px, 3vw, 70px);
+    font-weight: 600;
+    line-height: 0.5;
+    display: flex;
+    justify-content: start;
+}
+.sercon .stt{
+    font-weight: 300;
+    font-size: clamp(22px, 3vw, 70px);
+    display: flex;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.stbx{
+    font-weight: 300;
+    font-size: clamp(22px, 3vw, 70px);
+    display: flex;
+    line-height: 1.3;
+    justify-content: start;
+    margin-bottom:20px;
+}
+.head-conn{
+    font-size: 22px;
+    line-height: 1.36;
+    color:#7e7f7f;
+}
+.head-conbx{
+    font-size: 18px;
+    line-height: 1.36;
+    color:#7e7f7f;
+    line-break: strict;
+}
+.mserv{
+    margin:50px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 25%;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding:0px 50px;
+}
+.sb{
+    height: 450px;
+    width: 300px;
+    border-radius: 10px;
+}
+.sb:hover{
+    background-color: #fff;
+}
+.simgbox{
+    margin-top:50px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+.simgbox img{
+    width:100px;
+    box-shadow: 0 6px 18px rgba(2,8,38,.18);
+    margin-bottom: 24px;
+    border-radius: 50px;
+}
+.st{
     height: 50px;
-    border-radius: 20px;
-    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 600;
+    color: #161616;
+}
+.scon{
+    height: 100px;
+    padding:30px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.smore{
+    margin:50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(20px, 1vw, 30px);
+    font-weight: 600;
+}
+.smore a{
+    color:orangered;
+}
+/* .smb1 span{
+    color:linear-gradient(90deg, rgba(115,44,231,1) 35%, rgba(25,76,238,1) 100%) !important;
+}
+.smb2{
+    color:linear-gradient(90deg, rgba(255,101,0,1) 35%, rgba(255,205,0,1) 100%) !important;
+}
+.smb3{
+    color:linear-gradient(90deg, rgba(115,44,231,1) 35%, rgba(25,76,238,1) 100%);
+}
+.smb4{
+    color:linear-gradient(90deg, rgba(115,44,231,1) 35%, rgba(25,76,238,1) 100%);
+} */
+.mainaboutweb{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    gap:20px;
+    margin:50px;
+}
+.abtimgbx{
+    border:1px solid red;
+}
+.abtconbx{
+    padding:20px;
+    margin-top:30px;
+    justify-content: start;
+}
+.abtconbx .progress{
+    margin-bottom:10px;
+    height:8px;
+}
+.abtconbx .progress-bar{
+    width: 95%;
+}
+ 

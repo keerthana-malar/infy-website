@@ -15,7 +15,7 @@ function webservice(){
             </div>
             <div className='headbx2'>
                 <p className='head-title'>We make your<br></br> brand story<br></br><span>more powerful</span></p>
-                <p className="text-muted head-con">We use storytelling principles and techniques for the creation of narratives around a brand’s story and identity.</p>
+                <p className="head-con">We use storytelling principles and techniques for the creation of narratives around a brand’s story and identity.</p>
                 <div className='btns head-btn'>GET YOUR FREE CONSULT</div>
                 <a className='mid-title headlink' href="https://infygain.com">www.infygain.com</a>
                 <div className='soicon'>

@@ -2,6 +2,7 @@ import Header from './common/header';
 import Footer from './common/footer';
 import Seo from './services/seo';
 import Spotlight from './services/spotlight';
+import Aboutweb from './services/aboutwork';
 
 function ServiceSeo(){
     return(
@@ -9,6 +10,7 @@ function ServiceSeo(){
         <Header/>
         <Seo/>
         <Spotlight/>
+        <Aboutweb/>
         <Footer/>
         </>
     ); 

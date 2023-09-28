@@ -3,6 +3,10 @@ import Footer from './common/footer';
 import Seo from './services/seo';
 import Spotlight from './services/spotlight';
 import Aboutweb from './services/aboutwork';
+import Solution from './services/solution';
+import Subscribe from './services/subscribe';
+import Webblog from './services/webblog';
+
 
 function ServiceSeo(){
     return(
@@ -11,6 +15,9 @@ function ServiceSeo(){
         <Seo/>
         <Spotlight/>
         <Aboutweb/>
+        <Solution/>
+        <Subscribe/>
+        <Webblog/>
         <Footer/>
         </>
     ); 

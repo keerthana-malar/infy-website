@@ -1,6 +1,5 @@
 import { useState } from "react";
 import axios from "axios";
-import Cookies from "js-cookie";
 import "../css/admin.css";
 import Validation from "./LoginValidation";
 import { useNavigate } from "react-router-dom";
@@ -13,7 +12,7 @@ const Login = () => {
 
   const navigate = useNavigate();
   const [errors, setErrors] = useState({});
-  const [loginError, setLoginError] = useState(false);
+  const [loginError, setLoginError] = useState();
 
   function handleInput(e) {
     setValues((prev) => ({
@@ -29,13 +28,11 @@ const Login = () => {
       axios
         .post("http://localhost:5000/login", values)
         .then((res) => {
-          console.log(values)
-          Cookies.set("user", values, { expires: 10 });
+          console.log(values);
           navigate("/side");
         })
         .catch((err) => {
-          console.log(err);
-          setLoginError(true);
+          setLoginError(err.response.data.err);
         });
     }
   }
@@ -45,10 +42,8 @@ const Login = () => {
       <div className="loginSec vh-100">
         <div className="loginBox rounded-3">
           <p className="mini-title ">Admin Login</p>
-          {loginError && (
-            <span className="text-danger">Invalid Username or password</span>
-          )}
-          <form onSubmit={handleLogin}>
+          <span className="text-danger">{loginError}</span>
+          <form onSubmit={handleLogin} method="post">
             <div className="mb-3">
               <label htmlFor="username">User Name</label>
               <input

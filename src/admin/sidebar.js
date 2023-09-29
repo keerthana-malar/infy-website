@@ -1,36 +1,67 @@
 import { Link } from "react-router-dom";
 import "../css/admin.css";
-import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import Cookies from "js-cookie";
+import { MdSpaceDashboard, MdAccountCircle } from "react-icons/md";
+import { FaBlogger } from "react-icons/fa";
+import { BiSolidCategory, BiSolidCategoryAlt } from "react-icons/bi";
+import { Sidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
+import { useEffect, useState } from "react";
 
-const Sidebar = () => {
+const Sidebars = () => {
+  const [width, setWidth] = useState("");
+  const [collapse, setCollapse] = useState(false);
+
   useEffect(() => {
-    const userData = Cookies.get("user");
-    if (userData) {
-      console.log("User Data:", JSON.parse(JSON.stringify(userData)));
-    } else {
-      console.log("Hiiiiii");
+    function handleResize() {
+      setWidth(window.innerWidth);
+      if (window.innerWidth <= 800) {
+        setCollapse(true);
+      } else {
+        setCollapse(false);
+      }
     }
+    window.addEventListener("resize", handleResize);
+    handleResize();
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
+
+  const sideStyle = {
+    button: {
+      [`&.active`]: {
+        backgroundColor: "red",
+        color: "#b6c8d9",
+      },
+    },
+  };
 
   return (
     <>
-      <div className="sideBar">
-        <div className="logoBox mb-3">
-          <img src="/images/icons/logo-alt.svg"></img>
+      <Sidebar className="sideBar" collapsed={collapse}>
+        <div className="logoBox">
+          <img src="/images/icons/infylogo.svg"></img>
         </div>
-        <div className="menuBox">
-          <Link className="sideLinks active">Dashboard</Link>
-          <Link className="sideLinks">Users</Link>
-          <Link className="sideLinks">Blogs</Link>
+        <Menu className="menuBox" menuItemStyles={sideStyle}>
+          <MenuItem
+            icon={<MdSpaceDashboard />}
+            component={<Link to="/dashboard" />}
+          >
+            Dashboard
+          </MenuItem>
+          <SubMenu icon={<FaBlogger />} label="Blogs">
+            <MenuItem icon={<BiSolidCategory />} component={<Link to="/category" />}> Category </MenuItem>
+            <MenuItem icon={<BiSolidCategoryAlt />} component={<Link to="/subcategory" />}> Sub Category </MenuItem>
+            <MenuItem icon={<FaBlogger />} component={<Link to="/blog" />}> Blog</MenuItem>
+          </SubMenu>
+          <MenuItem icon={<MdAccountCircle />} component={<Link to="/users" />}> Users </MenuItem>
+        </Menu>
+        <div className="bottomBox p-1">
+          <button className="btn w-100 btn-danger">Logout</button>
         </div>
-        <div className="bottomBox">
-          <button className="btn btn-light">Logout</button>
-        </div>
-      </div>
+      </Sidebar>
     </>
   );
 };
 
-export default Sidebar;
+export default Sidebars;

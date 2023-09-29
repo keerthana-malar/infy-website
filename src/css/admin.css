@@ -14,21 +14,25 @@
   background-color: #5a8e53;
 }
 
-.sideBar {
-  background-color: var(--pri);
-  min-height: 100vh;
-  width: 250px;
+.adminMainBox {
   display: flex;
-  flex-direction: column;
+}
+
+/* Sidebar  */
+.sideBar {
+  height: 100vh;
 }
 .logoBox {
-  height: 10vh;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .logoBox img {
-  scale: 0.8;
+  width: 80%;
 }
 .menuBox {
-  height: 80vh;
+  height: 85vh;
 }
 .sideLinks {
   color: #fff;
@@ -44,5 +48,30 @@
   color: var(--sec);
 }
 .bottomBox {
-  justify-self: end;
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dashboard  */
+.mainContBox {
+  width: 100%;
+}
+.userDetailsBox {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 30px;
+}
+.dataBox {
+  height: 200px;
+  box-shadow: 0 0 10px var(--bgs);
+  padding: 30px;
+  border-radius: 10px;
+  border-bottom: 5px solid var(--sec);
+}
+.blogDetailsBox {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 30px;
 }

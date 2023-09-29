@@ -16,6 +16,19 @@ import Blogs from "./blog";
 import MainBlogs from "./mainblog";
 import Login from "./admin/Login";
 import Sidebar from "./admin/sidebar";
+import DashBoard from "./admin/Dashboard";
+import Category from "./admin/Category";
+import AddCategory from "./admin/AddCategory";
+import EditCategory from "./admin/EditCategory";
+// import SubCategory from "./admin/SubCategory";
+// import AddSubCategory from "./admin/AddSubCategory";
+// import EditSubCategory from "./admin/EditSubCategory";
+// import users from "./admin/users";
+// import AddUsers from "./admin/AddUsers";
+// import EditUsers from "./admin/EditUsers";
+// import Blog from "./admin/Blog";
+// import AddBlog from "./admin/AddBlog";
+// import EditBlog from "./admin/EditBlog";
 
 function App() {
   return (
@@ -28,7 +41,10 @@ function App() {
         <Route path="/MainBlogs" element={<MainBlogs />} />
         <Route path="/admin" element={<Login />} />
         <Route path="/side" element={<Sidebar />} />
-        <Route path="*" element={"Haiii"} />
+        <Route path="/dashboard" element={<DashBoard />} />
+        <Route path="/Category" element={<Category />} />
+        <Route path="/AddCategory" element={<AddCategory />} />
+        <Route path="*" element={"404 Page Not Found"} />
       </Routes>
     </BrowserRouter>
   );

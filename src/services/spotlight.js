@@ -20,7 +20,7 @@ function webservice() {
           <span className="stt">Grow Your Business</span>
           <p className="head-conn">
             As a SEO Advisor or web crawler expert, I help organizations
-            <br></br> adjust to the expanding significance of internet
+             adjust to the expanding significance of internet
             promoting.
           </p>
         </div>

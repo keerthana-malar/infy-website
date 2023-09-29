@@ -11,7 +11,7 @@ function websolution() {
             <div className="iconbx">
               <HiOutlineRocketLaunch />
             </div>
-            <div className="conbx">About Work Effort</div>
+            <div className="conbx">Reason of Success</div>
           </div>
           <div className="sercon">
             <p className="su-titlebx">

@@ -80,7 +80,7 @@ color: var(--sec);
 .mainfooter li {
     list-style: none;
     margin-bottom: 10px;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .infyy-icon{
     font-size: 10px;

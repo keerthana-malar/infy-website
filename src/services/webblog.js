@@ -16,9 +16,9 @@ function webblog() {
           </div>
           <div className="sercon">
             <p className="su-title">
-              We have achieved some great<br></br>
+              We have some interesting blog<br></br>
             </p>
-            <span className="stt">Funfacts for experiences</span>
+            <span className="stt">facts for experiences</span>
           </div>
         </div>
         <div className="blogbx2 container">

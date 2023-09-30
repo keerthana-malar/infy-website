@@ -15,9 +15,9 @@ function websolution() {
           </div>
           <div className="sercon">
             <p className="su-titlebx">
-              Why we are best<br></br>
+            The best is not a title<br></br>
             </p>
-            <span className="stbx">Increase Business Efficiency</span>
+            <span className="stbx">it's a reputation we've earned</span>
             <p className="head-conbx">
               Helping families live intelligently means we’re always working to
               bring our customers the latest technology. As one of the premier
@@ -34,7 +34,7 @@ function websolution() {
             <div className="soltit">Expert team</div>
             <div className="soline"></div>
             <div className="solcon">
-              What separates theme from all other web design agencies
+            We take pride in our expert team of professionals who excel in delivering top-notch services
             </div>
           </div>
           <div className="solbox solbx3">
@@ -44,7 +44,7 @@ function websolution() {
             <div className="soltit">Best Analysis</div>
             <div className="soline"></div>
             <div className="solcon">
-              What separates theme from all other web design agencies
+            We possess the best analysis skills with a strong commitment to business ethics
             </div>
           </div>
           <div className="solbox solbx4">
@@ -54,7 +54,7 @@ function websolution() {
             <div className="soltit">Auto Update</div>
             <div className="soline"></div>
             <div className="solcon">
-              What separates theme from all other web design agencies
+            We stay updated with the new technology through automatic updates and new release.
             </div>
           </div>
           <div className="solbox solbx5">
@@ -64,7 +64,7 @@ function websolution() {
             <div className="soltit">Target Fullfill</div>
             <div className="soline"></div>
             <div className="solcon">
-              What separates theme from all other web design agencies
+            We ensure that every target set is accomplished with the perfect excellence.
             </div>
           </div>
         </div>

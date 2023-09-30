@@ -1,7 +1,7 @@
 import "../css/seo.css";
 import "../css/common.css";
 import { MdWorkspacePremium } from "react-icons/md";
-import ProgressBar from 'react-bootstrap/ProgressBar';
+import ProgressBar from "react-bootstrap/ProgressBar";
 
 function aboutweb() {
   return (
@@ -19,25 +19,27 @@ function aboutweb() {
           </div>
           <div className="sercon">
             <p className="su-titlebx">
-              Get More Leads, Customers,<br></br>
+              Deal with the professional<br></br>
             </p>
-            <span className="stbx">and More Sales with us</span>
+            <span className="stbx">The Count of Our Success</span>
             <p className="head-conbx">
-              Helping families live intelligently means we’re always working to<br></br>
-              bring our customers the latest technology. As one of the<br></br> premier
-              providers of smart home technology.
+              We are constantly working to bring you the products you need, at
+              competitive prices. If you need a technology product that we don't
+              carry we work with over 25 vendors and can get you whatever you
+              need.
             </p>
           </div>
           <div className="webprogress">
             <div>
-                <p className="mini-title">Website / App Development</p>  
-                <ProgressBar variant="primary" now={99} label={`99%`}/>
-                <p className="mini-title">UI / UX Design</p>
-                <ProgressBar variant="primary" now={82} label={`82%`}/>
-                <p className="mini-title">IPS / IT Support</p>
-                <ProgressBar variant="primary" now={95} label={`95%`}/>
-                <p className="mini-title">Web / App Development</p>
-                <ProgressBar variant="primary" now={80} label={`80%`}/>
+              <p className="mini-title">Dynamic Websites</p>
+              <ProgressBar variant="primary" now={99} label={`99%`} />
+              <p className="mini-title">Search Engine Optimizer (SEO)</p>
+              <ProgressBar variant="primary" now={95} label={`95%`} />
+              <p className="mini-title">Application Development</p>
+              <ProgressBar variant="primary" now={90} label={`90%`} />
+              <p className="mini-title">UI / UX Design</p>
+              <ProgressBar variant="primary" now={82} label={`82%`} />
+              
             </div>
           </div>
         </div>

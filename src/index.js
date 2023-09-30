@@ -15,10 +15,14 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Contact from './contact';
 import Blogs from './blog';
 import MainBlogs from './mainblog';
+import Ispservice from './ispservice';
+
 
 
 function App(){
+  
   return(
+     
       <BrowserRouter>
       <Routes>
                 <Route path='/' element={<Home/>}/>
@@ -26,6 +30,8 @@ function App(){
                 <Route path='/About' element={<About/>}/>
                 <Route path='/Blogs' element={<Blogs/>}/>
                 <Route path='/MainBlogs' element={<MainBlogs/>}/>
+                <Route path='/Ispservice' element={<Ispservice/>}/>
+
                 <Route path="*" element={"Haiii"} />
       </Routes>
       </BrowserRouter>

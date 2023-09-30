@@ -16,6 +16,8 @@ import Blogs from './blog';
 import MainBlogs from './mainblog';
 import Ispservice from './ispservice';
 import ServiceSeo from './ServiceSeo';
+import Iotservices from './Iotservice';
+// import App from './App';
 
 
 
@@ -34,6 +36,7 @@ function App(){
 
                 {/* <Route path='/Seo' element={<Seo/>}/> */}
                 <Route path='/ServiceSeo' element={<ServiceSeo/>}/>
+                <Route path='/Iotservice' element={<Iotservices/>}/>
                 <Route path="*" element={"Haiii"} />
       </Routes>
       </BrowserRouter>
@@ -43,7 +46,6 @@ function App(){
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
-  {/* <Header/> */}
   <App/>
   </>
 );

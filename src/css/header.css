@@ -15,6 +15,9 @@
 .head-link svg{
    height:22px;
 }
+.head-link .sm{
+    padding-left: 10px;
+}
  .main-head{
     background-color: #fff;
     height:80px;

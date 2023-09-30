@@ -44,9 +44,6 @@
            margin: 0px;
        }
 
-       * {
-        box-sizing: border-box;
-      }
 
        .lists {
            margin-left: 1px;
@@ -858,7 +855,7 @@
            padding-left: 10px;
        }
 
-       .phone {
+       .phones {
            font-size: 55px;
            padding-left: 10px;
        }

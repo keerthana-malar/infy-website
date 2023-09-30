@@ -51,13 +51,11 @@ const Sidebars = () => {
           </MenuItem>
           <SubMenu icon={<FaBlogger />} label="Blogs">
             <MenuItem icon={<BiSolidCategory />} component={<Link to="/category" />}> Category </MenuItem>
-            <MenuItem icon={<BiSolidCategoryAlt />} component={<Link to="/subcategory" />}> Sub Category </MenuItem>
             <MenuItem icon={<FaBlogger />} component={<Link to="/blog" />}> Blog</MenuItem>
           </SubMenu>
-          <MenuItem icon={<MdAccountCircle />} component={<Link to="/users" />}> Users </MenuItem>
         </Menu>
         <div className="bottomBox p-1">
-          <button className="btn w-100 btn-danger">Logout</button>
+          <Link to="/admin" className="btn w-100 btn-danger">Logout</Link>
         </div>
       </Sidebar>
     </>

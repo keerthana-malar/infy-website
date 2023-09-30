@@ -41,11 +41,9 @@
   margin-bottom: 5px;
   font-weight: 600;
 }
-.active,
-.sideLinks:hover {
-  border-right: 6px solid var(--sec);
-  background-color: #fff;
-  color: var(--sec);
+.active a {
+  background-color: var(--sec) !important;
+  border: none;
 }
 .bottomBox {
   height: 7vh;
@@ -74,4 +72,12 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 30px;
+}
+.react-bootstrap-table {
+  background-color: #5a8e53 !important;
+}
+.editorBox {
+  border: 1px solid var(--bgs);
+  border-radius: 10px;
+  overflow: hidden;
 }

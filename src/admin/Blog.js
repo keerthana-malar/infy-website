@@ -8,8 +8,25 @@ import { MdDeleteForever } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
 import DataTable from "react-data-table-component";
 
-const Category = () => {
+const Blog = () => {
   const navigate = useNavigate();
+
+  const tableCustomStyles = {
+    headCells: {
+      style: {
+        fontSize: "18px",
+        fontWeight: "bold",
+        backgroundColor: "#0061ae",
+        color: "#fff",
+      },
+    },
+    rows: {
+      style: {
+        minHeight: "60px",
+        fontSize: "16px",
+      },
+    },
+  };
 
   const columns = [
     {
@@ -17,8 +34,20 @@ const Category = () => {
       selector: (row) => row.id,
     },
     {
-      name: "Name",
-      selector: (row) => row.name,
+      name: "Date",
+      selector: (row) => {
+        const rawDate = row.date;
+        const blogDate = rawDate.slice(0, 10);
+        return blogDate;
+      },
+    },
+    {
+      name: "Title",
+      selector: (row) => row.title,
+    },
+    {
+      name: "Category",
+      selector: (row) => row.category,
     },
     {
       name: "Status",
@@ -42,27 +71,10 @@ const Category = () => {
     },
   ];
 
-  const tableCustomStyles = {
-    headCells: {
-      style: {
-        fontSize: "18px",
-        fontWeight: "bold",
-        backgroundColor: "#0061ae",
-        color: "#fff",
-      },
-    },
-    rows: {
-      style: {
-        minHeight: "60px",
-        fontSize: "16px",
-      },
-    },
-  };
-
-  const [categories, setCategories] = useState([]);
+  const [blogs, setBlogs] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:5000/catdata").then((res) => {
-      setCategories(res.data);
+    axios.get("http://localhost:5000/blogdata").then((res) => {
+      setBlogs(res.data);
     });
   }, []);
 
@@ -73,10 +85,10 @@ const Category = () => {
           <Sidebars />
         </div>
         <div className="mainContBox p-5">
-          <h1 className="mb-5">Category</h1>
+          <h1 className="mb-5">Blogs</h1>
           <div className="topBtnBox d-flex justify-content-end mb-3">
             <button className="btn btn-primary">
-              <Link className="text-light" to="/AddCategory">
+              <Link className="text-light" to="/addblog">
                 Create
               </Link>
             </button>
@@ -84,7 +96,7 @@ const Category = () => {
           <DataTable
             pagination
             columns={columns}
-            data={categories}
+            data={blogs}
             customStyles={tableCustomStyles}
           />
         </div>
@@ -92,4 +104,4 @@ const Category = () => {
     </>
   );
 };
-export default Category;
+export default Blog;

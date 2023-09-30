@@ -10,6 +10,7 @@ const AddCategory = () => {
     status: "Active",
   });
 
+
   const [errors, setErrors] = useState("");
   const [show, setShow] = useState(false);
   const [showMsg, setShowMsg] = useState(false);
@@ -36,7 +37,6 @@ const AddCategory = () => {
         })
         .catch((err) => {
           console.log(err);
-          console.log("Ranjith");
         });
     }
   };
@@ -68,7 +68,7 @@ const AddCategory = () => {
           <Sidebars />
         </div>
         <div className="mainContBox p-5">
-          <h1 className="mb-5">Category</h1>
+          <h1 className="mb-5">Add Category</h1>
           {alertBox()}
           {msgBox()}
           <div className="formBox">

@@ -29,7 +29,7 @@ const Login = () => {
         .post("http://localhost:5000/login", values)
         .then((res) => {
           console.log(values);
-          navigate("/side");
+          navigate("/dashboard");
         })
         .catch((err) => {
           setLoginError(err.response.data.err);
@@ -67,7 +67,7 @@ const Login = () => {
               <span className="text-danger">{errors.password}</span>
             </div>
             <div>
-              <input type="submit" className="btns" />
+              <input type="submit" className="btns" value="SUBMIT"/>
             </div>
           </form>
         </div>

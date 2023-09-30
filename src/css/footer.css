@@ -64,7 +64,7 @@
 
 .icons {
     font-size: 20px;
-    margin-left: 35px;
+    /* margin-left: 35px; */
 color: var(--sec);
 }
 
@@ -73,9 +73,9 @@ color: var(--sec);
     margin-left: 34px;
 }
 
-.sm {
+/* .sm {
     margin-left: 10px;
-}
+} */
 
 .mainfooter li {
     list-style: none;
@@ -143,7 +143,7 @@ color: var(--sec);
 }
 .infyicon{
    
-    text-align: right;
+    text-align: center;
     padding: 20px;
     font-size: 20px;
     color: var(--sec);

@@ -1,12 +1,11 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './css/common.css';
+import './css/seo.css';
 import 'font-awesome/css/font-awesome.css'
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import Header from './common/header';
-import Footer from './common/footer';
 import About from './About';
 
 
@@ -16,6 +15,7 @@ import Contact from './contact';
 import Blogs from './blog';
 import MainBlogs from './mainblog';
 import Ispservice from './ispservice';
+import ServiceSeo from './ServiceSeo';
 
 
 
@@ -32,6 +32,8 @@ function App(){
                 <Route path='/MainBlogs' element={<MainBlogs/>}/>
                 <Route path='/Ispservice' element={<Ispservice/>}/>
 
+                {/* <Route path='/Seo' element={<Seo/>}/> */}
+                <Route path='/ServiceSeo' element={<ServiceSeo/>}/>
                 <Route path="*" element={"Haiii"} />
       </Routes>
       </BrowserRouter>

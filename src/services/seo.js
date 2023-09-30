@@ -1,15 +1,12 @@
 import "../css/seo.css";
 import "../css/common.css";
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
 import { BsFacebook, BsTwitter, BsInstagram, BsWhatsapp } from "react-icons/bs";
-// import { useEffect } from 'react';
 
-function webservice() {
+function Webservice() {
   return (
     <>
       <div className="mainheadbx">
-        <div className="headbx1">
+        <div className="headbx1" data-aos="fade-left">
           <div className="imgbox1">
             <img className="box1 img-fluid" src="./images/seo/flight.png"></img>
             <img className="box2 img-fluid" src="./images/seo/target.png"></img>
@@ -21,31 +18,31 @@ function webservice() {
             <span>more powerful</span>
           </p>
           <p className="head-con">
-            We use storytelling principles and techniques for the creation of
-            narratives around a brand’s story and identity.
+            "Infygain Technologies: Where Innovation Meets Excellence in
+            Website, App Development, SEO, and Graphic Design."
           </p>
           <div className="btns head-btn">GET YOUR FREE CONSULT</div>
-          <a className="mid-title headlink" href="https://infygain.com">
+          <a className="mid-title headlink" target="_blank" href="https://infygain.com">
             www.infygain.com
           </a>
           <div className="soicon">
             <li>
-              <a href="">
+              <a target="_blank" href="https://www.facebook.com/infygain/">
                 <BsFacebook />
               </a>
             </li>
             <li>
-              <a href="">
+              <a target="_blank" href="https://twitter.com/infygain">
                 <BsTwitter />
               </a>
             </li>
             <li>
-              <a href="">
+              <a target="_blank" href="https://www.instagram.com/infygain/">
                 <BsInstagram />
               </a>
             </li>
             <li>
-              <a href="">
+              <a target="_blank" href="https://wa.me/919952141444">
                 <BsWhatsapp />
               </a>
             </li>
@@ -58,4 +55,4 @@ function webservice() {
     </>
   );
 }
-export default webservice;
+export default Webservice;

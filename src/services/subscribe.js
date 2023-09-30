@@ -6,8 +6,8 @@ function subscribe() {
     <>
       <div className="subscribe">
         <div className="row">
-          <div className="col-6"></div>
-          <div className="col-6">
+          <div className="col-lg-6 col-1"></div>
+          <div className="col-lg-6 col-11">
             <div className="sercon">
               <p className="sub-titlebx">Stay connect with us</p>
               <span className="subx">

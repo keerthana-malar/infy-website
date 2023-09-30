@@ -11,7 +11,7 @@ function websolution() {
             <div className="iconbx">
               <HiOutlineRocketLaunch />
             </div>
-            <div className="conbx">Reason of Success</div>
+            <div className="conbx">Reason for Success</div>
           </div>
           <div className="sercon">
             <p className="su-titlebx">
@@ -34,7 +34,7 @@ function websolution() {
             <div className="soltit">Expert team</div>
             <div className="soline"></div>
             <div className="solcon">
-              What separates theme from all other web design agencies .
+              What separates theme from all other web design agencies
             </div>
           </div>
           <div className="solbox solbx3">
@@ -44,7 +44,7 @@ function websolution() {
             <div className="soltit">Best Analysis</div>
             <div className="soline"></div>
             <div className="solcon">
-              What separates theme from all other web design agencies .
+              What separates theme from all other web design agencies
             </div>
           </div>
           <div className="solbox solbx4">
@@ -54,7 +54,7 @@ function websolution() {
             <div className="soltit">Auto Update</div>
             <div className="soline"></div>
             <div className="solcon">
-              What separates theme from all other web design agencies .
+              What separates theme from all other web design agencies
             </div>
           </div>
           <div className="solbox solbx5">
@@ -64,7 +64,7 @@ function websolution() {
             <div className="soltit">Target Fullfill</div>
             <div className="soline"></div>
             <div className="solcon">
-              What separates theme from all other web design agencies .
+              What separates theme from all other web design agencies
             </div>
           </div>
         </div>

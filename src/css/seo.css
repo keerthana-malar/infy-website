@@ -265,7 +265,7 @@
     font-size: 18px;
     line-height: 1.36;
     color:#7e7f7f;
-    width:600px;
+    /* width:100%; */
 }
 .mserv{
     margin:50px 0px;
@@ -349,7 +349,6 @@
 .mainaboutweb{
     display: flex;
     flex-basis: 50%;
-    flex-wrap: nowrap;
     gap:20px;
     margin:50px;
 }
@@ -360,12 +359,16 @@
 }
 .abtimgbx img{
     height: 100%;
-    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
 }
 .abtconbx{
     padding:20px;
     margin-top:30px;
-    justify-content: start;
+    flex-basis: auto;
+    justify-content: center;
 }
 .abtconbx .progress{
     margin-bottom:10px;
@@ -374,41 +377,57 @@
 .abtconbx .progress-bar{
     width: 95%;
 }
+@media (width<=1322px){
+    .abtconbx{
+        width: 100%;
+    }
+    .su-titlebx{
+        line-height: 1.48;
+    }
+}
+@media (width<=999px){
+    .mainaboutweb{
+        flex-wrap: wrap;
+        flex-basis: auto;
+    }
+    .abtimgbx img{
+        width: 100%;
+    }
+}
+@media (width<700px){
+    .abtconbx{
+        width: 100%;
+    }
+}
 
 /* Soultion box */
 .mainsolution{
-    /* border:1px solid red; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     gap:30px;
     background-color: #eff5fc;
-    padding:130px;
+    padding:100px;
 }
 .sl{
-    
-    /* border:1px solid blue; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap:20px;
 }
 .solbox{
-    /* border:1px solid green; */
     flex-basis:45%;
     height: 300px;
     margin:0;
     padding:0;
     
 }
-.solbx1{
-    /* border:1px solid black; */
-   
-}
-.solbox2{
-    /* border:1px solid orangered; */
-}
+/* .solbx1{
+    border:1px solid black;
+} */
+/* .solbox2{
+    border:1px solid orangered;
+} */
 .solimgbx{
-    /* border:1px solid red; */
     height:70px;
     width:70px;
     border-radius: 50px;
@@ -425,16 +444,16 @@
     background:linear-gradient(90deg, rgba(254,220,24,1) 35%, rgba(251,74,5,1) 100%) !important;
 }
 .solcon{
-    /* border: 1px solid red; */
     margin: 30px 0px;
     width:90%;
     font-size: 18px;
     line-height: 1.36;
     color:#7e7f7f;
 }
-@media (width<=776px){
+@media (width<=976px){
     .mainsolution{
          flex-wrap: wrap;
+         padding:10px 20px;
     }
 }
 .subscribe{
@@ -460,6 +479,17 @@
     border-radius: 20px;
     border: none;
 }
+@media (width<=1000px){
+    .subscribe{
+        background-image :none;
+        background: linear-gradient(90deg, rgba(131,42,241,1) 0%, rgba(25,58,177,1) 100%);
+    }
+    .subx{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+}
 .web-blog{
     margin:50px 0px;
 }
@@ -474,34 +504,50 @@
 .blogbx2{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* border: 1px solid green; */
-    /* margin:30px 100px; */
 }
-.blogbx2:hover{
+.blogin:hover{
     .blgimbx img{
-        scale:0.9;
+        scale:1.1;
     }
 }
 .blogin{
     display: flex;
-    flex-wrap: wrap;
-    height: 350px;
-    margin:0px 20px;
-    /* border: 1px solid red; */
+    margin:0px 20px;overflow: hidden;
     border-radius: 10px;
     box-shadow: 0px 2px 13px grey;
 }
 .blgimbx{
-    width:250px;
+    overflow: hidden;
+    flex-basis: 50% !important;
 }
 .blgimbx img{
     object-fit: cover;
-    height: 350px;
-    border-radius: 10px;
+    height: 100%;
+    transition: all 1s;
+    border-radius: 10px 0px 0px 10px;
+}
+@media (width<=991px){
+    .blogin{
+        flex-wrap: wrap;
+    }
+    .blgimbx{
+        flex-basis: 100% !important;
+    }
+    .blgimbx img{
+        width: 100% !important;
+    }
+}
+@media (width<=767px){
+    .blogbx2{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .blgimbx img{
+        border-radius: 10px 10px 0 0;
+    }
 }
 .blgconbx{
     margin:30px;
-    /* border: 1px solid blue; */
     width: 250px;
 }
 .cat-tit{
@@ -509,7 +555,6 @@
     border-radius: 10px;
     background-color: #edf1f5;
     margin-bottom: 20px;
-    /* border: 1px solid red; */
 }
 .cat-tit span{
     text-transform: uppercase;

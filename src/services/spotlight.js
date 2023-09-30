@@ -11,11 +11,11 @@ function webservice() {
           <div className="iconbx">
             <FiSettings />
           </div>
-          <div className="conbx">Featured Service</div>
+          <div className="conbx">Featured Services</div>
         </div>
         <div className="sercon">
           <p className="su-title">
-            Additional Services that will<br></br>
+            Major Services that will<br></br>
           </p>
           <span className="stt">Grow Your Business</span>
           <p className="head-conn">

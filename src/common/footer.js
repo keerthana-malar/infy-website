@@ -13,22 +13,22 @@ function Footer() {
                 <div className='container'>
                 <div className='small-box '>
                     <div className='row small'>
-                        <div className='col-md-3 mb-3 name'>
+                        <div className='col-lg-3 mb-3 name'>
                             <p className='infy'>Infygain</p>
                         </div>
-                        <div className='col-md-3 mb-3 nam'>
+                        <div className='col-lg-3 mb-3 nam'>
                             <p className='call'><b>CALL FOR SUPPORT</b></p>
                             <p className='phone'>9952141444</p>
 
                         </div>
 
-                        <div className='col-md-3 mb-3 nam'>
+                        <div className='col-lg-3 mb-3 nam'>
                             <h1 className='infyy'><b>Follow Us</b><br></br></h1>
                             <p className='hari text-muted'> Hari complex opp.prozone mall,
                                 Sathy Rd, Saravanampatti,
                                 Coimbatore, Tamil Nadu 641035</p>
                         </div>
-                        <div className='col-md-3 mb-3 nam-icon'>
+                        <div className='col-lg-3 mb-3 nam-icon'>
                             <h1 className='infyy-icon'><b>Follow Us </b><br></br></h1>
                             <div className='infyicon'>
                             <a href="#" className="infyicon"><i className="fa fab fa-facebook"></i></a>
@@ -95,22 +95,22 @@ function Footer() {
                     <p className='mini-title follow'>Follow Us On</p>
                     <div className='icons'>
                         <a href="https://www.facebook.com/your-page-url" target="_blank" rel="noopener noreferrer" >
-                            <i className="fa fa-facebook"></i>
+                            <i className="fa fa-facebook facebook"></i>
                         </a>
                         <a className='sm' href="#" target="_blank" rel="noopener noreferrer">
-                            <i className="fa fa-twitter"></i>
+                            <i className="fa fa-twitter twitter"></i>
                         </a>
                         <a className='sm' href="#" target="_blank" rel="noopener noreferrer">
-                            <i className="fa fa-instagram"></i>
+                            <i className="fa fa-instagram instagram"></i>
                         </a>
                         <a className='sm' href="#" target="_blank" rel="noopener noreferrer">
-                            <i className="fa fa-whatsapp"></i>
+                            <i className="fa fa-whatsapp whatsapp"></i>
                         </a>
                         <a className='sm' href="#" target="_blank" rel="noopener noreferrer">
-                            <i className="fa fa-linkedin"></i>
+                            <i className="fa fa-linkedin linkedin"></i>
                         </a>
                         <a className='sm' href="#" target="_blank" rel="noopener noreferrer">
-                            <i className="fa fa-youtube"></i>
+                            <i className="fa fa-youtube youtube"></i>
                         </a>
                         <hr className='text-muted'></hr>
                         <div className='text-muted copyright'>

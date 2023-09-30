@@ -48,11 +48,7 @@ function aboutcounter(){
                   We deal With The Aspects Of Professional IT Services
                 </p>
                 <p>
-                  We take pride in ourselves being able to cater to the
-                  needs of big organizations, institutions, industries and
-                  individual clients, with the prime goal of providing
-                  top-class doorstep services at highly competitive rates
-                  and value for our customers.
+                we specialize in addressing every facet of professional IT services. We take immense pride in our ability to serve a diverse range of clients, including large organizations, institutions, industries, and individual customers. Our primary objective is to deliver top-tier doorstep services, consistently offering competitive rates and exceptional value to our clients."
                 </p>
                 <Progress />
               </div>

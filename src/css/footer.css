@@ -64,8 +64,9 @@
 
 .icons {
     font-size: 20px;
-    /* margin-left: 35px; */
+    margin-left: 35px;
 color: var(--sec);
+text-align: left;
 }
 
 .follow {
@@ -80,7 +81,6 @@ color: var(--sec);
 .mainfooter li {
     list-style: none;
     margin-bottom: 10px;
-    /* border: 1px solid blue; */
 }
 .infyy-icon{
     font-size: 10px;
@@ -163,7 +163,7 @@ background-color: white;
 .phone {
     text-align: center;
     color: var(--sec);
-    font-size: 25px;
+    font-size: 22px;
 }
 .email{
         text-align: center;
@@ -193,6 +193,24 @@ background-color: white;
     text-align: center;
     margin-left: 100px;
 }
+
+.facebook{
+    padding-right: 5px;
+}
+.twitter{
+    padding-right: 5px;
+}
+.instagram{
+    padding-right: 5px;
+}
+.whatsapp{
+    padding-right: 5px;
+}
+.linkedin{
+    padding-right: 5px;
+}
+
+
 
 
 

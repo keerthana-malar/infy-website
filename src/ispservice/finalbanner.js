@@ -29,7 +29,7 @@ function Finalbanner() {
                         <div className='row Boxss'>
                             <div className="servicebox col-lg-4"data-aos="fade-right"  data-aos-duration="1000">
                                 <div className="serviceContents">
-                                    <div className='des-blog'><i class="fa fa-solid fa-phone phone" style={{ color: "#9cc723" }}></i></div>
+                                    <div className='des-blog'><i class="fa fa-solid fa-phone phones" style={{ color: "#9cc723" }}></i></div>
 
                                     <h2 className="las-blo-title">Customer Services</h2>
                                     <p className="text-muted box-conin">

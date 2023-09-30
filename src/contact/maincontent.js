@@ -15,7 +15,7 @@ function Contactmain() {
                     <div className='row'>
                         <div className='conbox1'>
                             <div className='col-md-4'>
-                            <i className="fa fa-solid fa-phone"></i>
+                            <i className="fa fa-solid fa-location-arrow"></i>
                             </div>
                             <div className='col-md-8'>
                             <p className='mini-title tit1'>Location</p>

@@ -26,10 +26,10 @@ function Firstsection() {
                         </div>
                     </div>
 
-                    <div className=' col-lg-5 rightsidecontent' >
+                    <div className=' col-lg-5 rightsidecontent'data-aos="fade-left" >
                         <div className='row'>
                             <div className='rigonebox' >
-                                <div className='col-md-4' data-aos="fade-right">
+                                <div className='col-md-4' >
                                     <i className="fa fa-light fa-globe" style={{ color: "#a3bc24" }}></i>
                                 </div>
                                 <div className='col-md-6'>

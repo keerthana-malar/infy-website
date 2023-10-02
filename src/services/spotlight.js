@@ -1,5 +1,3 @@
-import "../css/seo.css";
-import "../css/common.css";
 import { FiSettings } from "react-icons/fi";
 import { HiArrowLongRight } from "react-icons/hi2";
 import { Link } from "react-router-dom";
@@ -15,10 +13,10 @@ function webservice() {
           <div className="conbx">Featured Services</div>
         </div>
         <div className="sercon">
-          <p className="su-title">
+          <p className="su-title" data-aos="fade-left" data-aos-duration="1000">
             Major Services That Will<br></br>
           </p>
-          <span className="stt">Grow Your Business</span>
+          <span className="stt"   data-aos="fade-left" data-aos-duration="3000">Grow Your Business</span>
           <p className="head-conn">
             These services are essential for a robust online presence and
             effective digital engagement.

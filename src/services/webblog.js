@@ -1,5 +1,3 @@
-import "../css/seo.css";
-import "../css/common.css";
 import { FaBloggerB } from "react-icons/fa";
 import { HiArrowLongRight } from "react-icons/hi2";
 
@@ -15,10 +13,10 @@ function webblog() {
             <div className="conbx">Latest Blog</div>
           </div>
           <div className="sercon">
-            <p className="su-title">
+            <p className="su-title" data-aos="fade-left" data-aos-duration="1000">
               We have some interesting blog<br></br>
             </p>
-            <span className="stt">facts for experiences</span>
+            <span className="stt" data-aos="fade-left" data-aos-duration="3000">facts for experiences</span>
           </div>
         </div>
         <div className="blogbx2 container">

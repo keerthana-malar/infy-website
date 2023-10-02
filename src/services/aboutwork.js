@@ -18,10 +18,10 @@ function aboutweb() {
             <div className="conbx">About Work Effort</div>
           </div>
           <div className="sercon">
-            <p className="su-titlebx">
+            <p className="su-titlebx" data-aos="fade-left" data-aos-duration="1000">
               Deal with the professional<br></br>
             </p>
-            <span className="stbx">The Count of Our Success</span>
+            <span className="stbx" data-aos="fade-left" data-aos-duration="3000">The Count of Our Success</span>
             <p className="head-conbx">
               We are constantly working to bring you the products you need, at
               competitive prices. If you need a technology product that we don't
@@ -33,7 +33,7 @@ function aboutweb() {
             <div>
               <p className="mini-title">Dynamic Websites</p>
               <ProgressBar variant="primary" now={99} label={`99%`} />
-              <p className="mini-title">Search Engine Optimizer (SEO)</p>
+              <p className="mini-title">Search Engine Optimization (SEO)</p>
               <ProgressBar variant="primary" now={95} label={`95%`} />
               <p className="mini-title">Application Development</p>
               <ProgressBar variant="primary" now={90} label={`90%`} />

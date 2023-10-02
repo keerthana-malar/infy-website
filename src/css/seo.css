@@ -588,4 +588,10 @@
     background: linear-gradient(90deg, rgba(255,93,0,1) 0%, rgba(255,204,0,1) 100% );
     background-repeat: no-repeat;
 }
-
+.webservice {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }

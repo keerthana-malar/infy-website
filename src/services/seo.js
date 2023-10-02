@@ -1,5 +1,3 @@
-import "../css/seo.css";
-import "../css/common.css";
 import { BsFacebook, BsTwitter, BsInstagram, BsWhatsapp } from "react-icons/bs";
 
 function Webservice() {

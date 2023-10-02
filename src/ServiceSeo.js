@@ -9,24 +9,26 @@ import Webblog from './services/webblog';
 import React, { useEffect } from 'react'; 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import './css/seo.css';
+import './css/common.css';
 
 
 function ServiceSeo(){
     useEffect(() => {
-   
         AOS.init();
            AOS.refresh();
-        
     }, []);
     return(
         <>
         <Header/>
+        <div className='webservice'>
         <Seo/>
         <Spotlight/>
         <Aboutweb/>
         <Solution/>
         <Subscribe/>
         <Webblog/>
+        </div>
         <Footer/>
         </>
     ); 

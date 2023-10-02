@@ -7,8 +7,6 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import About from './About';
-
-
 import Home from "./Home";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Contact from './contact';
@@ -17,7 +15,6 @@ import MainBlogs from './mainblog';
 import Ispservice from './ispservice';
 import ServiceSeo from './ServiceSeo';
 import Iotservices from './Iotservice';
-// import App from './App';
 
 
 

@@ -121,17 +121,17 @@ function header() {
                 </Link>
                 <div className="submenu">
                     <li>
-                      <Link className="mlink" to="/services">
+                      <Link className="mlink" to="/Iotservice">
                         IT Supports
                       </Link>
                     </li>
                     <li>
-                      <Link className="mlink" to="/services">
+                      <Link className="mlink" to="/ispservice">
                         ISP
                       </Link>
                     </li>
                     <li>
-                      <Link className="mlink" to="/services">
+                      <Link className="mlink" to="/ServiceSeo">
                         Web / App
                       </Link>
                     </li>

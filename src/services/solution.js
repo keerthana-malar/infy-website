@@ -1,5 +1,3 @@
-import "../css/seo.css";
-import "../css/common.css";
 import { HiOutlineRocketLaunch } from "react-icons/hi2";
 
 function websolution() {
@@ -14,10 +12,10 @@ function websolution() {
             <div className="conbx">Reason for Success</div>
           </div>
           <div className="sercon">
-            <p className="su-titlebx">
+            <p className="su-titlebx" data-aos="fade-left" data-aos-duration="1000">
             The best is not a title<br></br>
             </p>
-            <span className="stbx">it's a reputation we've earned</span>
+            <span className="stbx" data-aos="fade-left" data-aos-duration="3000">it's a reputation we've earned</span>
             <p className="head-conbx">
               Helping families live intelligently means we’re always working to
               bring our customers the latest technology. As one of the premier

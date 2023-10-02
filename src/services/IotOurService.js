@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../css/IotOurService.css';
 import { TfiAnnouncement } from "react-icons/tfi";
@@ -7,9 +7,15 @@ import { RiGlobalFill } from "react-icons/ri";
 import { SiWebtrees } from "react-icons/si";
 import { RiLightbulbFlashLine } from "react-icons/ri";
 import { GiProgression } from "react-icons/gi";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 
 function IotOurService() {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
     return (
         <div className='firsthead'>
 
@@ -39,7 +45,7 @@ function IotOurService() {
            
 
                 {/* first row */}
-                <div className='firstrow'>
+                <div className='firstrow' data-aos="zoom-in-right" >
                 <div className='divline'></div>
                    <TfiAnnouncement className='icons'/>
                     <h3>
@@ -52,7 +58,7 @@ function IotOurService() {
                     pillars of digital defense: firewall protection and cybersecurity.</p>
                 </div>
                 {/* second row */}
-                <div className='firstrow'>
+                <div className='firstrow' data-aos="zoom-in-up">
                 <div className='divline'></div>
                 <TfiLayoutMediaCenterAlt className='icons'/>
                     <h3>
@@ -64,7 +70,7 @@ function IotOurService() {
                         Convey that your devices can handle any task...</p>
                 </div>
                 {/* third row */}
-                <div className='firstrow'>
+                <div className='firstrow' data-aos="zoom-in-left">
                 <div className='divline'></div>
                 <RiGlobalFill className='icons'/>
                     <h3>
@@ -80,7 +86,7 @@ function IotOurService() {
             {/* rows 2 */}
        
                 {/* first row */}
-                <div className='firstrow'>
+                <div className='firstrow' data-aos="zoom-in-right">
                     <div className='divline'></div>
                     <SiWebtrees className='icons'/>
                     <h3>
@@ -93,7 +99,7 @@ function IotOurService() {
                         and intuitive interfaces, we redefine classroom and home entertainment interaction.</p>
                 </div>
                 {/* second row */}
-                <div className='firstrow'>
+                <div className='firstrow' data-aos="zoom-in-up">
                 <div className='divline'></div>
                 <RiLightbulbFlashLine className='icons'/>
                     <h3>
@@ -105,7 +111,7 @@ function IotOurService() {
                     We're here to make your tech journey seamless.</p>
                 </div>
                 {/* third row */}
-                <div className='firstrow'>
+                <div className='firstrow' data-aos="zoom-in-left">
                 <div className='divline'></div>
                 <GiProgression className='icons'/>
                     <h3>

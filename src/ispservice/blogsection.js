@@ -84,7 +84,7 @@ function Blogsection() {
             </div>
             <div className='container ispsservice'>
                 <div className='row ' >
-                    <div className='col-md-6'data-aos="fade-right"  >
+                    <div className='col-md-6'data-aos="fade-right" data-aos-duration="1000" >
                         <div className='back-blog'>
                             <div className='blo-tex'><h2 className=''>
                             Stay safe with our secure, firewall-protected connection.</h2>
@@ -94,7 +94,7 @@ function Blogsection() {
                         </div>
 
                     </div>
-                    <div className='col-md-6 nextblog'data-aos="fade-left"  >
+                    <div className='col-md-6 nextblog'data-aos="fade-left" data-aos-duration="1000" >
                         <div className='back-blog'>
                             <div className='blo-tex'><h2 className=''>
                             Next-Gen Wi-Fi® Tailored for Your Family's Connectivity Needs</h2>

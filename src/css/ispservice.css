@@ -4,7 +4,7 @@
        }
 
        .topbannersection {
-           height: 700px;
+           height: 600px;
            background-image: url("../images/banner/ban-4.jpg");
            background-size: cover;
            background-repeat: no-repeat;
@@ -64,7 +64,7 @@
        }
 
        .firstsection {
-           margin-top: 100px;
+           padding-top: 100px;
        }
 
        .ispimage {
@@ -137,7 +137,7 @@
            justify-content: center;
            margin: 0px;
            padding: 0;
-           height: 100px;
+           /* height: 100px; */
            object-fit: cover;
        }
 
@@ -198,12 +198,12 @@
                padding-right: 80px;
            }
        }
-
+/* 
        @media only screen and (max-width: 828px) {
        body {
         width: 100vw;
        }
-}
+} */
 
 
        .center-img {
@@ -800,7 +800,7 @@
        }
 
        .topbannersection2 {
-           background-image: url("../images/banner/global-connections.jpg");
+           background-image: url("../images/banner/isp.jpg");
            background-repeat: no-repeat;
            color: #fff;
            background-size: 100% 600px;
@@ -861,3 +861,11 @@
 
 
 
+       html,
+       body {
+         height: 100%;
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         overflow-x: hidden;
+       }

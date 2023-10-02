@@ -22,7 +22,7 @@ function Thirdbanner() {
                         </div>
                         <div className=' services'>
                             <div className='row Boxss'>
-                                <div className="servicebox col-lg-4"data-aos="fade-right"  data-aos-duration="1000">
+                                <div className="servicebox col-lg-4"data-aos="fade-right"  data-aos-duration="2000">
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
@@ -49,7 +49,7 @@ function Thirdbanner() {
 
                                     </div>
                                 </div>
-                                <div className="servicebox col-lg-4"data-aos="fade-up"  data-aos-duration="1000">
+                                <div className="servicebox col-lg-4"data-aos="fade-up"  data-aos-duration="2000">
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
@@ -77,7 +77,7 @@ function Thirdbanner() {
 
                                     </div>
                                 </div>
-                                <div className="servicebox col-lg-4"data-aos="fade-left"  data-aos-duration="1000">
+                                <div className="servicebox col-lg-4"data-aos="fade-left"  data-aos-duration="2000">
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"

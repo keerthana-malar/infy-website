@@ -1,5 +1,4 @@
 
-import './css/App.css';
 import IotAbout from './services/IotAbout';
 import IotActivities from './services/IotActivities';
 import IotBanner from './services/IotBanner';

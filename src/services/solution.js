@@ -8,7 +8,7 @@ function websolution() {
       <div className="mainsolution">
         <div className="solbx1">
           <div className="featurebox">
-            <div className="iconbx">
+            <div className="iconbx" >
               <HiOutlineRocketLaunch />
             </div>
             <div className="conbx">Reason for Success</div>

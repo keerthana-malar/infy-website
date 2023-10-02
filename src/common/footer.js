@@ -93,7 +93,7 @@ function Footer() {
 
                 <div className='socialmediaicons'>
                     <p className='mini-title follow'>Follow Us On</p>
-                    <div className='icons'>
+                    <div className='iconss'>
                         <a href="https://www.facebook.com/your-page-url" target="_blank" rel="noopener noreferrer" >
                             <i className="fa fa-facebook facebook"></i>
                         </a>

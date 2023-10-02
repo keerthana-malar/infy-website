@@ -5,7 +5,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "../css/IotService.css";
 import { TbBrandDatabricks } from "react-icons/tb";
-import { LuFileStack } from "react-icons/lu";
+import { MdNetworkWifi3Bar } from "react-icons/md";
+import { GrNetwork } from "react-icons/gr";
+import { LuLaptop2 } from "react-icons/lu";
+import { BsCodeSlash } from "react-icons/bs";
+import { GiCctvCamera } from "react-icons/gi";
 import { PiNotePencil } from "react-icons/pi";
 import { GiEyeShield } from "react-icons/gi";
 import { BsArrowRight } from 'react-icons/bs'
@@ -50,12 +54,12 @@ function IotService() {
             {/* Right Content Box  */}
             <div className="col-md-8">
               <div className="parent">
-                <div className="divBox div1 downbox1">
+                <div className="divBox div1 downbox1" data-aos="zoom-in">
                   <div className="row logo">
                     <div className="col-md-4">
                       <div className="rightsmall_line"></div>
                       <div>
-                        <LuFileStack className="icon_size" />
+                        <MdNetworkWifi3Bar className="icon_size" />
                       </div>
                     </div>
                     <div className="col-md-8 text">
@@ -68,43 +72,45 @@ function IotService() {
                     {/* hidden row */}
                     <div>
                       <div className="hidden">
-                        <p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p>
+                        <p className="right_para1">Read more<span className="service-arrow"><BsArrowRight /> </span>  </p>
+                       <p className="fullpara">Service for a website provides the infrastructure, connectivity.</p>
                       </div>
                     </div>
                     {/* hidden end */}
                   </div>
                 </div>
-                <div className="divBox div2 downbox1">
+                <div className="divBox div2 downbox1" data-aos="zoom-in">
                   <div className="row logo">
                     <div className="col-md-4">
                       <div className="rightsmall_line"></div>
                       <div>
-                        <LuFileStack className="icon_size" />
+                        <LuLaptop2 className="icon_size" />
                       </div>
                     </div>
                     <div className="col-md-8 text">
                       <h4> Laptop/Desktop Sales & Service</h4>
                       <p className="right_para">
                       Explore our curated  laptops and desktops,
-                       featuring  latest models.
+                       latest models.
 
                       </p>
                     </div>
                     {/* hidden row */}
                     <div>
-                      <div className="hidden">
-                      <p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p>
+                      <div className="hidden1">
+                      <p>Read more <span className="service-arrow"><BsArrowRight /> </span>  </p>
+                      <p>Services encompass maintenance, repair, and support for computers.</p>
                       </div>
                     </div>
                     {/* hidden end */}
                   </div>
                 </div>
-                <div className="divBox div3 downbox1">
+                <div className="divBox div3 downbox1" data-aos="zoom-in">
                   <div className="row ">
                     <div className="col-md-4">
                       <div className="rightsmall_line"></div>
                       <div>
-                        <PiNotePencil className="icon_size" />
+                        <BsCodeSlash className="icon_size" />
                       </div>
                     </div>
                     <div className="col-md-8 text">
@@ -116,19 +122,20 @@ function IotService() {
                     </div>
                     {/* hidden row */}
                     <div>
-                      <div className="hidden">
+                      <div className="hidden2">
                       <p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p>
+                      <p>Services involve the creation and development of functional websites..</p>
                       </div>
                     </div>
                     {/* hidden end */}
                   </div>
                 </div>
-                <div className="divBox div4 downbox1">
+                <div className="divBox div4 downbox1" data-aos="zoom-in">
                   <div className="row ">
                     <div className="col-md-4">
                       <div className="rightsmall_line"></div>
                       <div>
-                        <GiEyeShield className="icon_size" />
+                        <GiCctvCamera className="icon_size" />
                       </div>
                     </div>
                     <div className="col-md-8 text">
@@ -140,9 +147,11 @@ function IotService() {
                     </div>
                     {/* hidden row */}
                     <div>
-                      <div className="hidden">
+                      <div className="hidden3">
                       <p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p>
-                      </div>
+                      <p>
+                   CCTV and biometric technology are used for 
+                   security and access control.</p></div>
                     </div>
                     {/* hidden end */}
                   </div>

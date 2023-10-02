@@ -7,6 +7,7 @@ import Secondbanner from './ispservice/secondbanner';
 import Servbelowcont from './ispservice/service-below-con';
 import Services from './ispservice/services';
 import Footer from './common/footer';
+import './css/ispservice.css';
 
 import Thirdbanner from './ispservice/thirdbanner';
 import React, { useEffect } from 'react'; 
@@ -22,8 +23,8 @@ function Ispservice(){
     }, []); 
     return(
         <>
-        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
         <Header/>
+        <div className='ispmainservice'>
         <Banner/>
         <Firstsection/>
         <Secondbanner/>
@@ -32,6 +33,7 @@ function Ispservice(){
         <Thirdbanner/>
         <Blogsection/>
         <Finalbanner/>
+        </div>
         <Footer />
         </>
     );

@@ -7,7 +7,7 @@
     margin-right: 0px;
 }
 .location{
-    /* font-size: 32px; */
+    font-size: 32px;
     /* font-weight: 500; */
     /* margin-top: 10px;
     margin-left: 80px; */
@@ -17,6 +17,8 @@
     display: flex;
     justify-content: center;
     align-items: center; */
+    margin-top: 0px;
+    font-size: 15px;
 }
 .main{
   background-color: #f2f5f6;
@@ -42,9 +44,13 @@
     size: 100px;
     color: #2c46ad;
     /* padding-left:1px ; */
-    font-size: 40px;
+    font-size: 60px;
+   
+    padding-right:45px ; 
+
 
   }
+ 
   .fa-phone{
     color: #2c46ad;
     /* padding-right:3px ; */
@@ -53,14 +59,13 @@
   }
   .fa-user{
     color: #2c46ad;
-    /* padding-right:15px ;  */
     font-size: 40px;
   }
   .aboutpicturesection{
     padding:50px 0px 0px 0px;
   }
  /* Media query for screens with a maximum width of 360px */
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .main{
     padding: 10px;
   }
@@ -79,65 +84,68 @@
   .contactpara{
    margin-left: 30px;
 }
-}
+} */
 /* @media(min-width:360px){
   .phoness{
 margin-left: 30px;
 }
 }
-@media(min-width:756px){
+/* @media(min-width:756px){
   .fa-user{
    margin-left: 100px;
-}
-}
-@media(min-width:756px){
-  .fa-phone{
-   margin-left: 40px;
-}
 } */
+/* 
+@media(min-width:974px){
+  .fa-user{
+   margin-left: 60px;
+}
+}  */
+
 
 .medium-title {
   font-size: clamp(25px, 4vw, 60px);
   font-weight: 400;
 }
-.maincontent{
-  margin:50px 0px;
-  background-color: #ffffff !important;
-  
-}
+/* s */
 .contactpara{
   text-align: center;
 }
 
 .conbox1{
   display: flex;
+
+}
+
+.conbox2{
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin:50px 0px;
+  /* margin:50px 0px; */
   padding:0;
   height: 200px;
   object-fit: cover;
 }
-.conbox1 i{
+
+.conbox3{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.tit1{
-  /* margin-left:70px; */
-  display: flex;
-  justify-content: left;
-  align-items: center;
-  margin:0px 0px 10px 30px;
+  /* margin:50px 0px; */
   padding:0;
+  height: 200px;
+  object-fit: cover;
 }
-.locacon{
-  padding:0px 30px;
+/* .locacon{
+  padding-left: 20px
 }
+  .tit1{
+  padding-left: 20px
+  } */
 
-
-
-
-
-
+@media(max-width:724px){
+  .us-sup{
+   margin-left: 40px;
+    border: 1 2px solid red;
+  } 
   
+}

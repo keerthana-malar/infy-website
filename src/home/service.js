@@ -5,7 +5,7 @@ import "animate.css";
 const Service = () => {
   return (
     <>
-      <div className="serviceContainer container-lg text-center">
+      <div className="serviceContainer container-lg text-center issue">
         <div className="serviceTopBox">
             <p className="mini-title main-color">Our Service</p>
             <p className="sub-title">We Offer a Wide Variety of IT Services</p>

@@ -97,19 +97,19 @@ function Footer() {
                         <a href="https://www.facebook.com/your-page-url" target="_blank" rel="noopener noreferrer" >
                             <i className="fa fa-facebook facebook"></i>
                         </a>
-                        <a className='sm' href="#" target="_blank" rel="noopener noreferrer">
+                        <a className='' href="#" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-twitter twitter"></i>
                         </a>
-                        <a className='sm' href="#" target="_blank" rel="noopener noreferrer">
+                        <a className='' href="#" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-instagram instagram"></i>
                         </a>
-                        <a className='sm' href="#" target="_blank" rel="noopener noreferrer">
+                        <a className='' href="#" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-whatsapp whatsapp"></i>
                         </a>
-                        <a className='sm' href="#" target="_blank" rel="noopener noreferrer">
+                        <a className='' href="#" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-linkedin linkedin"></i>
                         </a>
-                        <a className='sm' href="#" target="_blank" rel="noopener noreferrer">
+                        <a className='' href="#" target="_blank" rel="noopener noreferrer">
                             <i className="fa fa-youtube youtube"></i>
                         </a>
                         <hr className='text-muted'></hr>

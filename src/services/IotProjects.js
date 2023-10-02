@@ -153,7 +153,7 @@ const IotProjects = () => {
 
         {/* column-2 */}
         <div className="col-2" >
-            <Slider ref={slider} {...settings} className='slider'>
+            <Slider ref={slider} {...settings} className='iot-slider'>
                 {images.map((image,index) => (
                     <div>
                         <div key={index}  className={`slider-item slide${index}`}>

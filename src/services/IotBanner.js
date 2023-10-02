@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import AOS from 'aos'
-import { FaCubes } from 'react-icons/fa'
-import { BsArrowRight } from 'react-icons/bs'
+import { GiNetworkBars } from 'react-icons/gi'
+import { BiSolidCctv} from 'react-icons/bi'
+import { BsArrowRight, BsLaptopFill , BsProjectorFill} from 'react-icons/bs'
 import 'aos/dist/aos.css';
 import '../css/IotBanner.css'
 
@@ -15,7 +16,7 @@ const IotBanner = () => {
 
     const images = [
         '/images/banner.jpg',
-        '/images/image2.jpg',
+        '/images/banner2.jpg',
         '/images/banner.jpg',
       ];
 
@@ -49,11 +50,11 @@ const IotBanner = () => {
         <div className='banner'>
           {(currSlide === 0 ) && (
               <div style={backgroundImage}>
-                <div  className='banner-content1'>
-                  <p data-aos="fade-up" data-aos-duration="1000" style={{color:"#ffffff"}}>We are IT</p>
-                  <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:600}}>Solution</p>
-                  <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:600}}>Provider</p>
-                </div>
+                   <div className='banner-content1'>
+                    <p data-aos="fade-up" data-aos-duration="1000" style={{color:"#ffffff"}}>Welcome to</p>
+                    <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:600}}>Infygain</p>
+                    <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:600}}>IOT Services</p>
+                  </div>
        
                 <div data-aos="fade-up" data-aos-duration="2000" className='banner-content2'>
                   <p style={{color:"#ffffff"}}>We've been lucky to collaborate with</p>
@@ -65,11 +66,11 @@ const IotBanner = () => {
         )}
         {(currSlide  === 1 ) && (
          <div style={backgroundImage}>
-              <div className='banner-content1'>
-                <p data-aos="fade-up" data-aos-duration="1000" style={{color:"#ffffff"}}>Infygain is</p>
-                <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:600}}>The Best</p>
-                <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:600}}>Corporate</p>
-              </div>
+               <div  className='banner-content1'>
+                  <p data-aos="fade-up" data-aos-duration="1000" style={{color:"#ffffff"}}>We are IT Solution </p>
+                  <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:600}}>Provider and</p>
+                  <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:600}}>We make IT Simple</p>
+                </div>
               <div data-aos="fade-up" data-aos-duration="2000" className='banner-content2'>
                 <p style={{color:"#ffffff"}}>We've been lucky to collaborate with</p>
                 <p style={{color:"#ffc000"}}>a long list of customers</p>
@@ -81,9 +82,9 @@ const IotBanner = () => {
          {(currSlide  === 2 ) && (
           <div style={backgroundImage}>
               <div className='banner-content1'>
-                <p data-aos="fade-up" data-aos-duration="1000" style={{color:"#ffffff"}}>Infygain is</p>
-                <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:600}}>The Best</p>
-                <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:600}}>Corporate</p>
+                <p data-aos="fade-up" data-aos-duration="1000" style={{color:"#ffffff"}}>You have the </p>
+                <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:600}}>Need, We have</p>
+                <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:600}}>the SOLUTION</p>
             </div>
             <div data-aos="fade-up" data-aos-duration="2000" className='banner-content2'>
               <p style={{color:"#ffffff"}}>We've been lucky to collaborate with</p>
@@ -120,7 +121,7 @@ const IotBanner = () => {
           <div className='bg1'>
             <div className='head'>
               <div className='sub-head'>
-                <h1 className='icon'><FaCubes style={iconStyles}/></h1>
+                <h1 className='icon'><GiNetworkBars style={iconStyles}/></h1>
                 <h1 className='title'>
                   Complete<br/>Network Solutions
                 </h1>
@@ -149,7 +150,7 @@ const IotBanner = () => {
           <div className='bg2'>
             <div className='head'>
               <div className='sub-head'>
-                <h1 className='icon'><FaCubes style={iconStyles}/></h1>
+                <h1 className='icon'><BiSolidCctv style={iconStyles}/></h1>
                 <h1 className='title'>
                   CCTV / Bio-Metrics <br /> Sales & Services
                 </h1>
@@ -178,7 +179,7 @@ const IotBanner = () => {
           <div className='bg3'>
             <div className='head'>
               <div className='sub-head'>
-                <h1 className='icon'><FaCubes style={iconStyles}/></h1>
+                <h1 className='icon'><BsProjectorFill style={iconStyles}/></h1>
                 <h1 className='title'>
                   Projectors / <br /> Smart TV
                 </h1>
@@ -206,7 +207,7 @@ const IotBanner = () => {
           <div className='bg4'>
             <div className='head'>
               <div className='sub-head'>
-                <h1 className='icon'><FaCubes style={iconStyles}/></h1>
+                <h1 className='icon'><BsLaptopFill style={iconStyles}/></h1>
                 <h1 className='title'>
                   Laptop / Desktop <br /> Sales & Services
                 </h1>

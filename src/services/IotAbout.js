@@ -20,7 +20,7 @@ function IotAbout() {
             <div className='row leftside'>
 
                 <div className='col-md-6 image'>
-                    <img className="img-fluid" src="/images/about_page.png" alt="about page" data-aos="fade-right" />
+                    <img className="img-fluid" src="/images/about_page.png" alt="about page" data-aos="zoom-in-up" />
                 </div>
                 
                 {/* 2 column start */}

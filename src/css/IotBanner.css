@@ -18,7 +18,7 @@
 
 .banner-content1 {
   font-size: 60px;
-  margin: 0px 80px;
+  /* margin: 0px 80px; */
   padding-top: 60px;
 }
 
@@ -33,7 +33,7 @@
 
 .banner-content2 {
   font-size: 24px;
-  margin: 30px 80px;
+  /* margin: 30px 80px; */
 }
 
 .banner button {
@@ -43,7 +43,7 @@
   background-color: var(--yellow);
   padding: 20px 50px;
   border-radius: 10px;
-  margin: 0px 80px;
+  margin-top: 20px;
   border: none;
 }
 
@@ -91,7 +91,7 @@
   position:absolute;
   width: 97%;
   margin: 0px 10px;
-  top: 90%;
+  bottom: -300px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap:30px;
@@ -142,7 +142,7 @@
   overflow: hidden;
 }
 .bg4{
-  background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)),url('/public/images/iot-projectors.png');
+  background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)),url('/public/images/iot-laptop.jpg');
   background-size:cover;
   background-repeat: no-repeat;
   border-radius: 5px;
@@ -254,6 +254,24 @@
     margin: 0px 30px;
   }
   .banner button{
-    margin: 0px 30px;
+    /* margin: 0px 30px; */
   }
+}
+
+@media screen and (min-width:1500px){
+  .banner-content1{
+    font-size: 100px;
+    padding-top: 100px;
+  }
+  .banner-content2{
+    font-size: 40px;
+    margin: 30px auto;
+  }
+  .banner button{
+    font-size: 25px;
+  }
+  .overlay-arrow{
+    left: 43%;
+  }
+
 }

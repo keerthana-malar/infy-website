@@ -64,10 +64,7 @@ function Footer() {
                                 <li><Link to="/blog">Blog</Link></li>
                                 <li> <Link to="/contact">Contact Us</Link></li>
                                 <li> <Link to="/contact">Online Store</Link></li>
-
                                 <li> <Link to="/contact">Book Services</Link></li>
-
-                             
                             </ul>
                         </div>
                         <div className='col-xs-6 col-sm-3'>

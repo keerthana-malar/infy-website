@@ -21,6 +21,14 @@ function header() {
       dropBox.classList.add("drop-show");
     }
   }
+ function DropdownMenuSub(e){
+  let eve = e.target.style.display;
+  if(eve == "block"){
+      eve="none";
+  }
+  else{eve = "block" }
+ }
+
 
   return (
     <>
@@ -116,7 +124,7 @@ function header() {
                 </Link>
               </li>
               <li className="sub">
-                <Link className="mlink " to="/services">
+                <Link className="mlink">
                   Services <IoMdArrowDropdown/>
                 </Link>
                 <div className="submenu">
@@ -188,22 +196,28 @@ function header() {
             About
           </Link>
         </li>
-        <li>
-          <Link className="mlink" to="/services">
-            Services
-          </Link>
-          <ul>
-            <li>
-              <Link className="mlink" to="/services"></Link>
-            </li>
-            <li>
-              <Link className="mlink" to="/services"></Link>
-            </li>
-            <li>
-              <Link className="mlink" to="/services"></Link>
-            </li>
-          </ul>
-        </li>
+        <li className="sub">
+                <Link className="mlink " onClick={DropdownMenuSub}>
+                  Services <IoMdArrowDropdown/>
+                </Link>
+                <div className="submenu">
+                    <li>
+                      <Link className="mlink" to="/Iotservice">
+                        IT Supports
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="mlink" to="/ispservice">
+                        ISP
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="mlink" to="/ServiceSeo">
+                        Web / App
+                      </Link>
+                    </li>
+                </div>
+              </li>
         <li>
           <Link className="mlink" to="/blogs">
             Blog

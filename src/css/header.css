@@ -154,6 +154,11 @@ margin-bottom: 10px;
  .drop-show{
     top: 130px;
  }
+@media (width<=767px){
+    .drop-show{
+        top: 100px;
+     }
+}
  .socialicons{
     display: flex;
     justify-content: center;

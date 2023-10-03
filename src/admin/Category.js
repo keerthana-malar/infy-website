@@ -33,7 +33,7 @@ const Category = () => {
               <BiSolidCommentEdit />
             </Link>
             &nbsp;&nbsp;
-            <Link className="btn btn-danger">
+            <Link onClick={()=>{handleDelete(row.id)}} className="btn btn-danger">
               <MdDeleteForever />
             </Link>
           </>
@@ -41,6 +41,26 @@ const Category = () => {
       },
     },
   ];
+
+  const handleDelete = (id) => {
+    const confirmDelete = window.confirm("Are you sure?");
+    if (confirmDelete) {
+      axios.delete(`http://localhost:5000/catdelete/${id}`)
+        .then((res) => {
+          alert("Deleted Successfully 😥");
+          axios.get("http://localhost:5000/catdata")
+          .then((res) => {
+            setCategories(res.data);
+          })
+          .catch((error) => {
+            console.error("Error fetching updated data:", error);
+          });
+        })
+        .catch((error) => {
+          console.error("Error deleting Category:", error);
+        });
+    }
+  };
 
   const tableCustomStyles = {
     headCells: {
@@ -60,6 +80,7 @@ const Category = () => {
   };
 
   const [categories, setCategories] = useState([]);
+
   useEffect(() => {
     axios.get("http://localhost:5000/catdata").then((res) => {
       setCategories(res.data);

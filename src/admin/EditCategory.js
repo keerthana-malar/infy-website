@@ -23,18 +23,13 @@ const EditCategory = () => {
       .get("http://localhost:5000/editcat/"+ id)
       .then((res) => {
         const catData = res.data.result[0];
-        console.log(catData);
-        console.log(catData.name);
         setValues({
           ...values,
           name: catData.name,
           status: catData.status,
         });
-        console.log(res);
-        console.log(values);
       })
       .catch((err) => {
-        console.log(err);
       });
   }, [id]);
   
@@ -45,6 +40,7 @@ const EditCategory = () => {
       [e.target.name]: [e.target.value],
     }));
   };
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     if (values.name === "") {

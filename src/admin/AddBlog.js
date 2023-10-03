@@ -1,17 +1,32 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "../css/admin.css";
 import Sidebars from "./sidebar";
 import Alert from "react-bootstrap/Alert";
 import axios from "axios";
 import "froala-editor/css/froala_style.min.css";
 import "froala-editor/css/froala_editor.pkgd.min.css";
-
 import FroalaEditor from "react-froala-wysiwyg";
 
 const AddBlog = () => {
+  const [categories, setCategories] = useState([]);
+  const [errors, setErrors] = useState("");
+  const [show, setShow] = useState(false);
+  const [showMsg, setShowMsg] = useState(false);
+
+  // ! Get Category Data
+  useEffect(() => {
+    axios
+      .get("http://localhost:5000/catdata")
+      .then((res) => {
+        setCategories(res.data);
+      })
+      .catch((error) => {});
+  }, []);
+
+  // ! For Data State
   const [values, setValues] = useState({
     title: "",
-    category: "Cat",
+    category: "Other",
     quote: "",
     metades: "",
     metakey: "",
@@ -20,12 +35,7 @@ const AddBlog = () => {
     status: "Active",
   });
 
-  const [errors, setErrors] = useState("");
-  const [show, setShow] = useState(false);
-  const [showMsg, setShowMsg] = useState(false);
-
   const handleInput = (e) => {
-    console.log("Content:", e.target.value);
     setValues((prev) => ({
       ...prev,
       [e.target.name]: e.target.value,
@@ -37,56 +47,36 @@ const AddBlog = () => {
   const handleFileChange = (e) => {
     const selectedFile = e.target.files[0];
     setFile(selectedFile);
-    setValues((prev) => ({
-      ...prev,
-      img: selectedFile ? selectedFile.name : "",
-    }));
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
     if (values.title === "") {
-      setErrors("Title Must Be Filled");
+      setErrors("Title Must Be Filled 🤔");
       setShow(true);
     } else {
       const formData = new FormData();
       formData.append("file", file);
+      formData.append("title", values.title);
+      formData.append("category", values.category);
+      formData.append("quote", values.quote);
+      formData.append("metades", values.metades);
+      formData.append("metakey", values.metakey);
+      formData.append("content", values.content);
+      formData.append("status", values.status);
 
-      try {
-        axios
-          .post("http://localhost:5000/img/upload", formData, {
-            headers: {
-              "Content-Type": "multipart/form-data",
-            },
-          })
-          .then((res) => {
-            console.log("File uploaded successfully!");
-            console.log(res);
-
-            axios
-              .post("http://localhost:5000/addblog", values)
-              .then((res) => {
-                document.querySelector(".form").reset();
-                setErrors(res.data.res);
-                setShowMsg(true);
-              })
-              .catch((err) => {
-                console.log(err);
-                setErrors("Something Wrong");
-                setShow(true);
-              });
-          })
-          .catch((err) => {
-            console.log(err);
-            setErrors("Something Wrong Image");
-            setShow(true);
-          });
-      } catch (error) {
-        console.error("Error uploading file:", error);
-        setErrors("Image Upload Failed");
-        setShow(true);
-      }
+      axios
+        .post("http://localhost:5000/addblog", formData)
+        .then((res) => {
+          document.querySelector(".form").reset();
+          setErrors("Blog Added Successfully 😊😊");
+          setShowMsg(true);
+        })
+        .catch((err) => {
+          setErrors("Something Wrong Pls Try again Later 😥");
+          setShow(true);
+        });
     }
   };
 
@@ -139,8 +129,12 @@ const AddBlog = () => {
                     name="category"
                     onChange={handleInput}
                   >
-                    <option value="Cat">Cat</option>
-                    <option value="Inactive">Inactive</option>
+                    <option value={"Other"}>Other</option>
+                    {categories.map((category) => (
+                      <option key={category.id} value={category.name}>
+                        {category.name}
+                      </option>
+                    ))}
                   </select>
                 </div>
               </div>

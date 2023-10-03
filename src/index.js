@@ -22,7 +22,7 @@ import AddCategory from "./admin/AddCategory";
 import EditCategory from "./admin/EditCategory";
 import Blog from "./admin/Blog";
 import AddBlog from "./admin/AddBlog";
-// import EditBlog from "./admin/EditBlog";
+import EditBlog from "./admin/EditBlog";
 
 function App() {
   return (
@@ -39,6 +39,7 @@ function App() {
         <Route path="/Category" element={<Category />} />
         <Route path="/AddCategory" element={<AddCategory />} />
         <Route path="/editcategory/:id" element={<EditCategory />} />
+        <Route path="/editblog/:id" element={<EditBlog />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/addblog" element={<AddBlog />} />
         <Route path="*" element={"404 Page Not Found"} />

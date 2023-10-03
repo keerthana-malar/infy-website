@@ -58,11 +58,11 @@ const Blog = () => {
       selector: (row) => {
         return (
           <>
-            <Link to={`/editcategory/${row.id}`} className="btn btn-warning">
+            <Link to={`/editblog/${row.id}`} className="btn btn-warning">
               <BiSolidCommentEdit />
             </Link>
             &nbsp;&nbsp;
-            <Link className="btn btn-danger">
+            <Link onClick={()=>{handleDelete(row.id)}} className="btn btn-danger">
               <MdDeleteForever />
             </Link>
           </>
@@ -77,6 +77,26 @@ const Blog = () => {
       setBlogs(res.data);
     });
   }, []);
+
+  const handleDelete = (id) => {
+    const confirmDelete = window.confirm("Are you sure?");
+    if (confirmDelete) {
+      axios.delete(`http://localhost:5000/blogdelete/${id}`)
+        .then((res) => {
+          alert("Deleted Successfully 😥");
+          axios.get("http://localhost:5000/blogdata")
+          .then((res) => {
+            setBlogs(res.data);
+          })
+          .catch((error) => {
+            console.error("Error fetching updated data:", error);
+          });
+        })
+        .catch((error) => {
+          console.error("Error deleting blog:", error);
+        });
+    }
+  };
 
   return (
     <>

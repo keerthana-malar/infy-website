@@ -1,93 +1,90 @@
-
 /*aboutus*/
 
 .make {
-    text-align: center;
-    color: var(--pri);
+  text-align: center;
+  color: var(--pri);
 }
 
 .team {
-    text-align: center;
+  text-align: center;
 }
 
 .photos {
-    margin: 50px 10px;
+  margin: 50px 10px;
 }
 
 .team-img {
-    height: 350px;
-    object-fit: cover;
-    border-radius: 20px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .ranjith {
-    text-align: center;
-    color: black;
-    font-size: 30px;
-    margin-top: 5px;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  margin-top: 5px;
 }
 
 .picture:hover {
-    display: block;
+  display: block;
 }
 
 .teammembers {
-    position: relative;
+  position: relative;
 }
 
 .social-icons {
-    width: 100%;
-    position: absolute;
-    bottom: 20px;
-    text-align: center;
-    font-size: 25px;
-    color: var(--pri)
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  font-size: 25px;
+  color: var(--pri);
 }
 
 .teammembers:hover .social-icons {
-    display: block;
+  display: block;
 }
 
 .social-icons {
-    display: none;
+  display: none;
 }
 
 .socialicon:hover {
-    color: var(--sec);
+  color: var(--sec);
 }
 
 .socialicon {
-    padding-left: 5px;
-    padding-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
-
-
 .ceo {
-    text-align: center;
-    color: black;
-    font-size: 16px;
-    margin-bottom: 30px;
-    margin-bottom: 20px;
-    line-height: 1px;
+  text-align: center;
+  color: black;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-bottom: 20px;
+  line-height: 1px;
 }
 
 .ranjith:hover {
-    color: var(--pri);
+  color: var(--pri);
 }
-.copyright{
-    font-size: 15px;
+.copyright {
+  font-size: 15px;
 }
-.footercon{
-    display: flex;
-    justify-content: right;
-    gap: 100px;
-    color: black;
+.footercon {
+  display: flex;
+  justify-content: right;
+  gap: 100px;
+  color: black;
 }
-.footercont{
-    display: flex;
-    justify-content: right;
+.footercont {
+  display: flex;
+  justify-content: right;
 }
-.abou:hover{
-color: var();
+.abou:hover {
+  color: var();
 }

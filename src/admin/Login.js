@@ -28,10 +28,10 @@ const Login = () => {
       axios
         .post("http://localhost:5000/login", values)
         .then((res) => {
-          console.log(values);
           navigate("/dashboard");
         })
         .catch((err) => {
+          console.log(err)
           setLoginError(err.response.data.err);
         });
     }

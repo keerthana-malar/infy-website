@@ -2,13 +2,13 @@ import React from 'react';
 import 'font-awesome/css/font-awesome.css'
 import '../css/footer.css';
 import {Link} from 'react-router-dom';
+import { TbArrowBigUpFilled } from "react-icons/tb";
 
 
 function Footer() {
     
     return (
         <footer>
-
             <div className="mainfooter">
                 <div className='container'>
                 <div className='small-box '>
@@ -19,10 +19,11 @@ function Footer() {
                         <div className='col-lg-3 col-md-4 col-sm-12  nam nam1'>
                             <p className='call'><b>CALL FOR SUPPORT</b></p>
                             <p className='phone'>9952141444</p>
-
                         </div>
 
+
                         <div className='col-lg-3 col-md-4 col-sm-12 nam'>
+
                             <h1 className='infyy'><b>Follow Us</b><br></br></h1>
                             <p className='hari text-muted'> Hari complex opp.prozone mall,
                                 Sathy Rd, Saravanampatti,
@@ -37,10 +38,8 @@ function Footer() {
                             <a href="#" className="infyicon infyicon1"><i className="fa fab fa-youtube"></i></a>
                             </div>
                         </div>
-
                     </div>
                 </div>
-
 
                 <div className='smallbox-1'>
                     <div className='row'>
@@ -126,7 +125,7 @@ function Footer() {
                 </div>
             </div>
             <div className="topmenu">
-                
+                <TbArrowBigUpFilled/>
             </div>
         </footer>
     );

@@ -2,33 +2,31 @@ import React from 'react';
 import 'font-awesome/css/font-awesome.css'
 import '../css/footer.css';
 import {Link} from 'react-router-dom';
+import { TbArrowBigUpFilled } from "react-icons/tb";
 
 
 function Footer() {
     
     return (
         <footer>
-
             <div className="mainfooter">
                 <div className='container'>
                 <div className='small-box '>
                     <div className='row small'>
-                        <div className='col-md-3 mb-3 name'>
+                        <div className='col-lg-3 mb-3 name'>
                             <p className='infy'>Infygain</p>
                         </div>
-                        <div className='col-md-3 mb-3 nam'>
+                        <div className='col-lg-3 mb-3 nam'>
                             <p className='call'><b>CALL FOR SUPPORT</b></p>
                             <p className='phone'>9952141444</p>
-
                         </div>
-
-                        <div className='col-md-3 mb-3 nam'>
+                        <div className='col-lg-3 mb-3 nam'>
                             <h1 className='infyy'><b>Follow Us</b><br></br></h1>
-                            <p className='hari text-muted'> hari complex opp.prozone mall,
+                            <p className='hari text-muted'> Hari complex opp.prozone mall,
                                 Sathy Rd, Saravanampatti,
                                 Coimbatore, Tamil Nadu 641035</p>
                         </div>
-                        <div className='col-md-3 mb-3 nam-icon'>
+                        <div className='col-lg-3 mb-3 nam-icon'>
                             <h1 className='infyy-icon'><b>Follow Us </b><br></br></h1>
                             <div className='infyicon'>
                             <a href="#" className="infyicon"><i className="fa fab fa-facebook"></i></a>
@@ -37,10 +35,8 @@ function Footer() {
                             <a href="#" className="infyicon"><i className="fa fab fa-youtube"></i></a>
                             </div>
                         </div>
-
                     </div>
                 </div>
-
 
                 <div className='smallbox-1'>
                     <div className='row'>
@@ -64,10 +60,7 @@ function Footer() {
                                 <li><Link to="/blog">Blog</Link></li>
                                 <li> <Link to="/contact">Contact Us</Link></li>
                                 <li> <Link to="/contact">Online Store</Link></li>
-
                                 <li> <Link to="/contact">Book Services</Link></li>
-
-                             
                             </ul>
                         </div>
                         <div className='col-xs-6 col-sm-3'>
@@ -93,24 +86,24 @@ function Footer() {
 
                 <div className='socialmediaicons'>
                     <p className='mini-title follow'>Follow Us On</p>
-                    <div className='icons'>
+                    <div className='iconss'>
                         <a href="https://www.facebook.com/your-page-url" target="_blank" rel="noopener noreferrer" >
-                            <i className="fa fa-facebook"></i>
+                            <i className="fa fa-facebook facebook"></i>
                         </a>
-                        <a className='sm' href="#" target="_blank" rel="noopener noreferrer">
-                            <i className="fa fa-twitter"></i>
+                        <a className='' href="#" target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-twitter twitter"></i>
                         </a>
-                        <a className='sm' href="#" target="_blank" rel="noopener noreferrer">
-                            <i className="fa fa-instagram"></i>
+                        <a className='' href="#" target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-instagram instagram"></i>
                         </a>
-                        <a className='sm' href="#" target="_blank" rel="noopener noreferrer">
-                            <i className="fa fa-whatsapp"></i>
+                        <a className='' href="#" target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-whatsapp whatsapp"></i>
                         </a>
-                        <a className='sm' href="#" target="_blank" rel="noopener noreferrer">
-                            <i className="fa fa-linkedin"></i>
+                        <a className='' href="#" target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-linkedin linkedin"></i>
                         </a>
-                        <a className='sm' href="#" target="_blank" rel="noopener noreferrer">
-                            <i className="fa fa-youtube"></i>
+                        <a className='' href="#" target="_blank" rel="noopener noreferrer">
+                            <i className="fa fa-youtube youtube"></i>
                         </a>
                         <hr className='text-muted'></hr>
                         <div className='text-muted copyright'>
@@ -124,6 +117,9 @@ function Footer() {
                     </div>
                 </div>
                 </div>
+            </div>
+            <div className="topmenu">
+                <TbArrowBigUpFilled/>
             </div>
         </footer>
     );

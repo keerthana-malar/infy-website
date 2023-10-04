@@ -47,8 +47,8 @@ const Testimonial = () => {
                         <img className="img-fluid" src="/images/icons/web-i.png"></img>
                     </div>
                     <div className="testiContBox">
-                        <p className="mid-title">Web Design</p>
-                        <p className="">Top Notch and Modern Design Websites</p>
+                        <p className="mid-title">Complete Networking</p>
+                        <p className="">Seamless Connectivity Solutions.</p>
                     </div>
                 </div>
                 <div className="testInn">
@@ -56,8 +56,8 @@ const Testimonial = () => {
                         <img className="img-fluid" src="/images/icons/web-i.png"></img>
                     </div>
                     <div className="testiContBox">
-                        <p className="mid-title">Web Design</p>
-                        <p className="">Top Notch and Modern Design Websites</p>
+                        <p className="mid-title">CCTV Camera</p>
+                        <p className="">24/7 Security Surveillance.</p>
                     </div>
                 </div>
                 <div className="testInn">
@@ -65,8 +65,8 @@ const Testimonial = () => {
                         <img className="img-fluid" src="/images/icons/web-i.png"></img>
                     </div>
                     <div className="testiContBox">
-                        <p className="mid-title">Web Design</p>
-                        <p className="">Top Notch and Modern Design Websites</p>
+                        <p className="mid-title">Web /Graphic Design</p>
+                        <p className="">Captivating Design Experiences.</p>
                     </div>
                 </div>
                 <div className="testInn">
@@ -74,8 +74,8 @@ const Testimonial = () => {
                         <img className="img-fluid" src="/images/icons/web-i.png"></img>
                     </div>
                     <div className="testiContBox">
-                        <p className="mid-title">Web Design</p>
-                        <p className="">Top Notch and Modern Design Websites</p>
+                        <p className="mid-title">Projectors/Biometrics</p>
+                        <p className="">Innovative Presentation and Access.</p>
                     </div>
                 </div>
                 <div className="testInn">
@@ -83,8 +83,8 @@ const Testimonial = () => {
                         <img className="img-fluid" src="/images/icons/web-i.png"></img>
                     </div>
                     <div className="testiContBox">
-                        <p className="mid-title">Web Design</p>
-                        <p className="">Top Notch and Modern Design Websites</p>
+                        <p className="mid-title">Computer & Laptop</p>
+                        <p className="">Reliable Business Computing.</p>
                     </div>
                 </div>
             </div>

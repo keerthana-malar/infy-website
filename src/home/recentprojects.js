@@ -8,11 +8,9 @@ const RecentProjects = () => {
           <div className="reProTopCont d-flex justify-content-center text-center mb-3">
             <div className="mb-5">
               <p className="mini-title main-color">WE MAKE CONNECTIONS</p>
-              <p className="sub-title">Explore Recent Projects</p>
+              <p className="sub-title">Discover Our Recent Projects</p>
               <p className="text-muted mb-5">
-                Software development outsourcing is just a tool to achieve
-                business goals. But there is no way to get worthwhile results
-                without cooperation and trust between a client company.
+              Explore the innovation and success of our most recent projects.
               </p>
               <a className="btns">
                 All Projects &nbsp; <span className="fa fa-arrow-right"></span>{" "}
@@ -52,7 +50,7 @@ const RecentProjects = () => {
                     <div className="cont-box-inn">
                       <p className="sm-title text-muted m-0">DEVELOPMENT</p>
                       <p className="mid-title m-0">
-                        <a className="links">Ecom Website</a>
+                        <a className="links">Travels Website</a>
                       </p>
                     </div>
                   </div>
@@ -70,7 +68,7 @@ const RecentProjects = () => {
                     <div className="cont-box-inn">
                       <p className="sm-title text-muted m-0">DEVELOPMENT</p>
                       <p className="mid-title m-0">
-                        <a className="links">Ecom Website</a>
+                        <a className="links">Boutique Website</a>
                       </p>
                     </div>
                   </div>

@@ -1,0 +1,132 @@
+.activities{
+    display: flex;
+    justify-content: center;
+    margin: 50px 50px;
+}
+.activity{
+    background-color: black;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(4,1fr);
+    margin: 30px 0px;
+    /* width: 60%; */
+}
+.activity-1{
+    display: flex;
+    /* flex-direction: column; */
+    margin: 20px 40px;
+}
+.activity-2{
+    display: flex;
+    
+    /* flex-direction: column; */
+    /* align-items: center; */
+
+}
+.person-icon {
+    font-size: 40px;
+    color: #ffbf00;
+}
+
+.activity-nos{
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+
+
+
+.help{
+    margin: 30px 0px;
+    background-color: #ffbf00;
+    padding: 20px;
+}
+.cont-help{
+    display: flex;
+    align-items: center;
+}
+.cont-help p{
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+}
+.cont-no{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 500;
+}
+.phone-icon{
+    font-size: 50px;
+    color: #383838;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.hover{
+    /* display: fles */
+    /* flex-direction: column; */
+}
+.hover-line{
+    border-left:6px solid #ffbf00;
+    height: 20px;
+    margin-bottom: 1px;
+   
+    /* width: 40px;
+    height: 5px;
+    color: #ffbf00;
+    background-color: #ffbf00;
+    margin: 12px; */
+}
+
+.line-hover{
+    border-left: 6px solid;
+    height: 27px;
+    /* margin-bottom: 1px; */
+    margin-right: 10px;
+}
+.lh-1{
+   color: #ffbf00;
+}
+.lh-2,.lh-3{
+    color: #383838;
+}
+
+.activity-1:hover .lh-1{
+    color: #383838;
+}
+.activity-1:hover .lh-2{
+    color: yellow;
+}
+.hover{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.activityName{
+    font-size: 18px;
+    color: #aaa9ab;
+}
+@media screen and (max-width:992px) and (min-width:600px) {
+    .activity{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .activities{
+        margin: 70px;
+    }
+}
+@media screen and (max-width:600px){
+    .activity{
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 0px;
+    }
+    .activities{
+        flex-direction: column;
+        margin: 50px;
+    }
+    .help{
+        margin-top: 0px;
+    }
+}

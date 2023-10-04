@@ -7,6 +7,10 @@ import { RiGlobalFill } from "react-icons/ri";
 import { SiWebtrees } from "react-icons/si";
 import { RiLightbulbFlashLine } from "react-icons/ri";
 import { GiProgression } from "react-icons/gi";
+import { MdNetworkWifi3Bar } from "react-icons/md";
+import { GiCctvCamera } from "react-icons/gi";
+import { LuLaptop2 } from "react-icons/lu";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -41,13 +45,13 @@ function IotOurService() {
 
 
             {/* rows 1 */}
-            <div className="rightsidegrid">
+            <div className="container rightsidegrid">
            
 
                 {/* first row */}
                 <div className='firstrow' data-aos="zoom-in-right" >
                 <div className='divline'></div>
-                   <TfiAnnouncement className='icons'/>
+                   <MdNetworkWifi3Bar className='icons'/>
                     <h3>
                        Computer Network Solutions 
                     </h3>
@@ -56,6 +60,8 @@ function IotOurService() {
                      Network Solutions that empower your enterprise to thrive in the connected world.
                     One of best network support and service in coimbatore. we specialize in two 
                     pillars of digital defense: firewall protection and cybersecurity.</p>
+                    <MdNetworkWifi3Bar className='icon2'/>
+                    {/* {hiddenrow} */}
                 </div>
                 {/* second row */}
                 <div className='firstrow' data-aos="zoom-in-up">
@@ -68,11 +74,12 @@ function IotOurService() {
                     <p className='param'>Highlight the power and performance 
                         of your laptops and desktops. 
                         Convey that your devices can handle any task...</p>
+                        <TfiLayoutMediaCenterAlt className='icon2'/>
                 </div>
                 {/* third row */}
                 <div className='firstrow' data-aos="zoom-in-left">
                 <div className='divline'></div>
-                <RiGlobalFill className='icons'/>
+                <GiCctvCamera className='icons'/>
                     <h3>
                         CCTV / Bio - Metrics
                     </h3>
@@ -80,12 +87,14 @@ function IotOurService() {
                     <p className='param'>Our CCTV systems offer 24/7 surveillance, 
                         keeping a vigilant eye on your property, both inside and out. We understand that every property is unique.
                          Our solutions are tailored to meet your specific needs and concerns.</p>
+                         <GiCctvCamera className='icon2'/>
                 </div>
                 {/* row completed */}
            
             {/* rows 2 */}
        
                 {/* first row */}
+                
                 <div className='firstrow' data-aos="zoom-in-right">
                     <div className='divline'></div>
                     <SiWebtrees className='icons'/>
@@ -97,7 +106,8 @@ function IotOurService() {
                         visuals that bring lessons and entertainment to life. With touch screens, 
                         interactive whiteboards, 
                         and intuitive interfaces, we redefine classroom and home entertainment interaction.</p>
-                </div>
+                        <SiWebtrees className='icon2'/>
+                        </div>
                 {/* second row */}
                 <div className='firstrow' data-aos="zoom-in-up">
                 <div className='divline'></div>
@@ -109,11 +119,14 @@ function IotOurService() {
                     <p className='param'>We provide top-notch products from trusted brands, 
                     ensuring reliability and performance. Your satisfaction is our priority. 
                     We're here to make your tech journey seamless.</p>
+                    <RiLightbulbFlashLine className='icon2'/>
+                    {/* {hidden row} */}
+                
                 </div>
                 {/* third row */}
                 <div className='firstrow' data-aos="zoom-in-left">
                 <div className='divline'></div>
-                <GiProgression className='icons'/>
+                <LuLaptop2 className='icons'/>
                     <h3>
                        Laptop / Desktop Rent
                     </h3>
@@ -122,6 +135,7 @@ function IotOurService() {
                     when you need them, without the commitment of ownership. 
                     Our rentals come with maintenance and support, 
                     ensuring your devices run smoothly throughout your rental period.</p>
+                    <LuLaptop2 className='icon2'/>
                 </div>
                 {/* row completed */}
            

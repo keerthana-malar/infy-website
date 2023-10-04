@@ -56,13 +56,7 @@
 .mainContBox {
   width: 100%;
 }
-.userDetailsBox {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  gap: 30px;
-}
 .dataBox {
-  height: 200px;
   box-shadow: 0 0 10px var(--bgs);
   padding: 30px;
   border-radius: 10px;
@@ -70,7 +64,7 @@
 }
 .blogDetailsBox {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 30px;
 }
 .react-bootstrap-table {

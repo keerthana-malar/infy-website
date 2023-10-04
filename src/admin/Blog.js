@@ -62,7 +62,12 @@ const Blog = () => {
               <BiSolidCommentEdit />
             </Link>
             &nbsp;&nbsp;
-            <Link onClick={()=>{handleDelete(row.id)}} className="btn btn-danger">
+            <Link
+              onClick={() => {
+                handleDelete(row.id);
+              }}
+              className="btn btn-danger"
+            >
               <MdDeleteForever />
             </Link>
           </>
@@ -81,16 +86,18 @@ const Blog = () => {
   const handleDelete = (id) => {
     const confirmDelete = window.confirm("Are you sure?");
     if (confirmDelete) {
-      axios.delete(`http://localhost:5000/blogdelete/${id}`)
+      axios
+        .delete(`http://localhost:5000/blogdelete/${id}`)
         .then((res) => {
           alert("Deleted Successfully 😥");
-          axios.get("http://localhost:5000/blogdata")
-          .then((res) => {
-            setBlogs(res.data);
-          })
-          .catch((error) => {
-            console.error("Error fetching updated data:", error);
-          });
+          axios
+            .get("http://localhost:5000/blogdata")
+            .then((res) => {
+              setBlogs(res.data);
+            })
+            .catch((error) => {
+              console.error("Error fetching updated data:", error);
+            });
         })
         .catch((error) => {
           console.error("Error deleting blog:", error);

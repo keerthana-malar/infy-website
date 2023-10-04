@@ -35,8 +35,8 @@
   color: var(--warning);
 }
 h1 {
-  font-weight: 500;
-  font-size: 45px;
+  font-weight: 600;
+  font-size: 60px;
   margin-bottom: 30px;
 }
 
@@ -44,22 +44,31 @@ h1 {
   font-size: 20px;
   font-weight: 400;
   margin-bottom: 40px;
+  text-align: justify;
 }
 
-.box1_btn {
+.box1_btn{
   width: 150px;
-  background-color: var(--dark);
   height: 50px;
   border-radius: 8px;
   font-weight: 650;
   color: var(--white);
+  background-color: var(--dark);;
+  cursor: pointer;
+  font-size: 20px;
 }
 
 .box1_btn:hover {
-  background-color: var(--warning);
-  color: var(--dark);
-  border: none;
+background-color: var(--warning);
+color: var(--dark);
 }
+.smallcode{
+  height: 50%;
+  width: 50%;
+}
+
+
+
 .rightsmall_line {
   height: 6px;
   width: 15px;
@@ -83,12 +92,18 @@ grid-auto-flow: row;
 }
 
 .icon_size {
-  height: 80%;
-  width: 80%;
-  margin-left: 15px;
-  margin-top: 10px;
+  height: 100%;
+  padding: 13px;
+  width: 95%;
   background-color: var(--white);
-  padding: 4px;
+  margin: 10px;
+  
+
+
+}
+.iconsiot{
+  text-align: center;
+  margin-top: 21px;
 }
 
 .heads{
@@ -96,11 +111,17 @@ grid-auto-flow: row;
 
   margin-bottom: 20px;
 }
+.iconhidden{
+  font-size: 50px;
+margin-left: 130%;
+color: var(--gray-dark);
+
+}
 
 .small_line {
   background-color: var(--warning);
   width: 80px;
-  height: 10px;
+  height: 5px;
 }
 .para {
   font-weight: 700;
@@ -221,7 +242,7 @@ grid-auto-flow: row;
   padding: 5px;
 }
 .divBox {
-  background-color: var(--light);
+  background-color: rgb(243, 243, 243);
   width: 100%;
   height: 105%;
   /* padding: 0px 20px; */
@@ -403,11 +424,9 @@ grid-auto-flow: row;
 .hidden{
   position: absolute;
   display: none;
-  text-align: center;
   z-index: 1;
-  top: 45%;
-  left: 20%;
-  padding:6px;
+  top: 50%;
+  left: 50%;
 }
 
 
@@ -420,8 +439,8 @@ grid-auto-flow: row;
   display: none;
   text-align: center;
   z-index: 1;
-  top: 45%;
-  left: 20%;
+  top: 50%;
+  left: 50%;
   padding:6px;
 }
 .hidden2{
@@ -429,8 +448,8 @@ grid-auto-flow: row;
   display: none;
   text-align: center;
   z-index: 1;
-  top: 45%;
-  left: 20%;
+  top: 50%;
+  left: 50%;
   padding:6px;
 }
 .hidden3{
@@ -438,8 +457,8 @@ grid-auto-flow: row;
   display: none;
   text-align: center;
   z-index: 1;
-  top: 45%;
-  left: 20%;
+  top: 50%;
+  left: 50%;
   padding:6px;
 }
 @media (width<=1196px){
@@ -465,7 +484,6 @@ grid-auto-flow: row;
   .hidden {
      top:60%;
     }
-
   .hidden1 {
     top:60%;
   }

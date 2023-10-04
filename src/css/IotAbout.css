@@ -22,6 +22,9 @@
     --dark: #000000;
   
   }
+  .downpart{
+    display: flex;
+  }
   
   .leftside {
     padding-top: 50px;
@@ -30,25 +33,23 @@
   .about {
     display: flex;
   }
-  .small_line {
-    height: 5px;
-    width: 70px;
-    background-color: var(--warning);
-    font-weight: 800;
-    margin-top: 13px;
-  }
   .aboutline_head {
     margin-left: 10px;
+  }
+  Modal{
+    background-color: black;
   }
   
   .span12 {
     color: var(--dark);
-    font-size: 30px;
+    font-size: 50px;
+    font-weight: 600;
   }
   
   .span13{
     color: var(--warning);
-    font-size: 30px;
+    font-size: 50px;
+    font-weight: 600;
   }
   
   .datawings {
@@ -57,7 +58,9 @@
   }
   
   .datawings_para {
-    font-size: 16px;
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
   }
   
   .imaging {
@@ -85,7 +88,7 @@
   .icon-container {
     position: absolute;
     top: 48%;
-    left: 40%;
+    left: 55%;
     transform: translate(-50%, -50%);
     z-index: 1;
     color: var(--warning);
@@ -100,7 +103,6 @@
   
   .round1 {
     height: 100px;
-    margin-left: 90px;
   }
   
   .about {
@@ -112,6 +114,10 @@
     margin: 0;
     padding: 0;
    
+  }
+  .img{
+    filter: grayscale(60%);
+    border-radius: 10px;
   }
   
   
@@ -133,15 +139,11 @@
     .down_icons {
       height: 80px;
       width: 80px;
-      /* margin-left: 200px; */
       margin-bottom: 30px; 
     }
   
     h3 b {
-      width: 2px;
       height: 20px;
-      text-align: center;
-      /* margin-left: 15px; */
   }
   
   .para p {
@@ -208,7 +210,7 @@
   .datawings img{
     width: 100%;
   }
-  
+
   .iconing
   {
     /* margin-left: 400px; */
@@ -379,3 +381,161 @@
         width: 100%;
       }
    }
+
+   @media (width<=1400px){
+    .icon-container{
+      left: 40%;
+      top:65%
+    }
+   }
+
+   @media (width<=1394px){
+    .icon-container{
+      left: 40%;
+      top:55%
+    }
+   }
+   @media (width<=1196px){
+    .img{
+    height: 80%;
+    width: 80%;
+    margin-top: 20px;
+    }
+    .datawings_para{
+      font-size: 200px;
+    }
+    .icon-container{
+      left: 40%;
+      top:60%;
+      margin:0;
+    }
+   }
+
+   @media (width<=990px){
+    .datawings_para{
+     font-weight: 600;
+    }
+    .containers img{
+     width: 300px;
+     margin: 0;
+     padding: 0;
+    }
+    .icon-container{
+      left: 65%;
+      top:50%;
+      margin:0;
+      font-size: 20%;
+    }
+    .downpart{
+      display: flex
+    }
+   }
+
+   @media (width<=760px){
+    .datawings_para{
+     font-weight: 600;
+    }
+    .containers img{
+     width: 500px;
+     margin: 0;
+     padding: 0;
+    }
+    .icon-container{
+      left: 65%;
+      top:50%;
+      margin:0;
+      font-size: 40%;
+    }
+   h3 b{
+   margin-left: 80px;
+    margin-top: 70px;
+    font-size: 40px;
+   }
+   .down_icons{
+    margin: 0;
+    margin-left: 190px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+   }
+   .value{
+    margin-left: 40px;
+  
+    
+   }
+   
+   }
+   @media (width<=560px){
+    .datawings_para{
+     font-weight: 600;
+    }
+    .containers img{
+     width: 500px;
+     margin: 0;
+     padding: 0;
+    }
+    .icon-container{
+      left: 45%;
+      top:50%;
+      margin:0;
+      font-size: 30%;
+    }
+   h3 b{
+   margin-left: 80px;
+    margin-top: 70px;
+    font-size: 40px;
+   }
+   .down_icons{
+    margin: 0;
+    margin-left: 190px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+   }
+   .value{
+    margin-left: 40px;
+  
+   }
+   
+   }
+
+   @media (width<=560px){
+    .icon-container{
+      left: 50%;
+      top:55%;
+      margin:0;
+    }
+    .containers img{
+      width: 380px;
+      margin: 0;
+      padding: 0;
+     }
+     h3 b{
+       margin-left: 90px;
+       margin-top: 70px;
+       font-size: 20px;
+      }
+      .down_icons{
+       margin: 0;
+       margin-left: 150px;
+       margin-top: 30px;
+       margin-bottom: 20px;
+      }
+   }
+
+   @media (width<=368px){
+  
+    .containers img{
+      width: 320px;
+      margin: 0;
+      padding: 0;
+     }
+ 
+   }
+   iframe{
+    width: 100%;
+    height: 500px;
+  }
+  
+
+
+
+

@@ -3,6 +3,7 @@ import AOS from 'aos'
 import { GiNetworkBars } from 'react-icons/gi'
 import { BiSolidCctv} from 'react-icons/bi'
 import { BsArrowRight, BsLaptopFill , BsProjectorFill} from 'react-icons/bs'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import 'aos/dist/aos.css';
 import '../css/IotBanner.css'
 
@@ -50,48 +51,52 @@ const IotBanner = () => {
         <div className='banner'>
           {(currSlide === 0 ) && (
               <div style={backgroundImage}>
-               <div className='banner-content1'>
+               <div className='banner-content1 container'>
                   <p data-aos="fade-up" data-aos-duration="1000" style={{color:"#ffffff"}}>Welcome to</p>
-                  <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:600}}>Infygain</p>
-                  <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:600}}>IOT Services</p>
+                  <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:900}}>Infygain</p>
+                  <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:900}}>IOT Services</p>
               </div>
        
-                <div data-aos="fade-up" data-aos-duration="2000" className='banner-content2'>
+                <div data-aos="fade-up" data-aos-duration="2000" className='banner-content2 container'>
                   <p style={{color:"#ffffff"}}>We've been lucky to collaborate with</p>
                   <p style={{color:"#ffc000"}}>a long list of customers</p>
+                  <button data-aos="fade-up" data-aos-duration="2100">About us</button>
                 </div>
 
-                <button data-aos="fade-up" data-aos-duration="2100">About us</button>
+               
             </div>
         )}
         {(currSlide  === 1 ) && (
          <div style={backgroundImage}>
-              <div  className='banner-content1'>
+              <div  className='banner-content1 container'>
                   <p data-aos="fade-up" data-aos-duration="1000" style={{color:"#ffffff"}}>We are IT Solution </p>
-                  <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:600}}>Provider and</p>
-                  <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:600}}>We make IT Simple</p>
+                  <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:900}}>Provider and</p>
+                  <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:900}}>We make IT Simple</p>
+                 
               </div>
-              <div data-aos="fade-up" data-aos-duration="2000" className='banner-content2'>
+              <div data-aos="fade-up" data-aos-duration="2000" className='banner-content2 container'>
                 <p style={{color:"#ffffff"}}>We've been lucky to collaborate with</p>
                 <p style={{color:"#ffc000"}}>a long list of customers</p>
+                <button data-aos="fade-up" data-aos-duration="2500">About us</button>
               </div>
 
-              <button data-aos="fade-up" data-aos-duration="2500">About us</button>
+             
           </div>
           )}
          {(currSlide  === 2 ) && (
           <div style={backgroundImage}>
-              <div className='banner-content1'>
+              <div className='banner-content1 container'>
                 <p data-aos="fade-up" data-aos-duration="1000" style={{color:"#ffffff"}}>You have the </p>
-                <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:600}}>Need, We have</p>
-                <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:600}}>the SOLUTION</p>
+                <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:900}}>Need, We have</p>
+                <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:900}}>the SOLUTION</p>
             </div>
-            <div data-aos="fade-up" data-aos-duration="2000" className='banner-content2'>
+            <div data-aos="fade-up" data-aos-duration="2000" className='banner-content2 container'>
               <p style={{color:"#ffffff"}}>We've been lucky to collaborate with</p>
               <p style={{color:"#ffc000"}}>a long list of customers</p>
+              <button data-aos="fade-up" data-aos-duration="2500">About us</button>
             </div>
 
-            <button data-aos="fade-up" data-aos-duration="2500">About us</button>
+            
           </div>
           )} 
       </div>
@@ -116,8 +121,9 @@ const IotBanner = () => {
       </div>
 
       {/* services */}
-      <div className='heading'>
-        <div className='containers'>
+      
+      <div className=' heading'>
+        <div className='containers container'>
           <div className='bg1'>
             <div className='head'>
               <div className='sub-head'>
@@ -146,7 +152,7 @@ const IotBanner = () => {
           </div>
         </div>
 
-        <div className='containers'>
+        <div className='containers container'>
           <div className='bg2'>
             <div className='head'>
               <div className='sub-head'>
@@ -175,7 +181,7 @@ const IotBanner = () => {
 
         </div>
 
-        <div className='containers'>
+        <div className='containers container'>
           <div className='bg3'>
             <div className='head'>
               <div className='sub-head'>
@@ -203,7 +209,7 @@ const IotBanner = () => {
 
         </div>
 
-        <div className='containers'>
+        <div className='containers container'>
           <div className='bg4'>
             <div className='head'>
               <div className='sub-head'>

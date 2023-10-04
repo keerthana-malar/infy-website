@@ -37,7 +37,6 @@
 .address {
     margin-left: 30px;
 }
-
 .online {
     padding: 5px 10px;
     background-color: var(--pri);
@@ -49,7 +48,6 @@
     font-size: 14px;
     margin-bottom: 2px;
 }
-
 .book {
     padding: 5px 10px;
     background-color: var(--pri);
@@ -60,9 +58,6 @@
     font-weight: 700;
     font-size: 14px;
 }
-
-
-
 .iconss {
     font-size: 20px;
     margin-left: 35px;
@@ -114,7 +109,6 @@ text-align: left;
     border-radius: 10px;
     border:1px solid green;
 } */
-
 .name {
     background-color: var(--pri);
     border-radius: 10px;
@@ -131,8 +125,7 @@ text-align: left;
     color: white;
     text-align: center;
     font-size: 30px;
-    padding: 50px;
-    
+    padding: 50px;    
 }
 .infyy{
     text-align: right;
@@ -149,7 +142,6 @@ text-align: left;
     font-size: 20px;
     color: var(--sec);
 }
-
 .call {
     margin-top: 15px;
     text-align: center;
@@ -171,16 +163,12 @@ background-color: white;
         color: var(--sec);
         font-size: 15px;
 }
-
 .mail {
     /* margin-bottom: 100px; */
     text-align: center;
     color: black;
 
 }
-
-
-
 .hari {
     color: black;
     display: flex;
@@ -189,12 +177,10 @@ background-color: white;
     font-size: 15px;
     margin-top: 5px;
 }
-
 .follows {
     text-align: center;
     margin-left: 100px;
 }
-
 .facebook{
     padding-right: 5px;
 }
@@ -211,21 +197,22 @@ background-color: white;
     padding-right: 5px;
 }
 
-/* .topmenu{
-    width:50px;
-    height: 50px;
-    display: none;  
+.topmenu{
+  width:50px;
+  height: 50px; 
   position: fixed; 
   bottom: 20px;
-  right: 20px;
-  padding: 10px 20px;
+  right: 30px;
   background-color: var(--pri); 
   color: #fff;
-  border: none;
   border-radius: 4px;
   cursor: pointer;
-  z-index: 999; 
-} */
+  z-index: 1000; 
+  font-size:28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
 

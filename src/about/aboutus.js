@@ -24,9 +24,7 @@ function aboutus() {
                                         <a href="#" className="socialicon"><i className="fa fab fa-youtube"></i></a>
                                     </div>
                                 </div>
-                                <div className="overlay">
                                     <div className="ranjith">Kupuraj</div><br></br><div className='text-muted ceo'>CEO</div>
-                                </div>
                             </div>
 
                             <div className="col-md-3 picture">

@@ -7,6 +7,7 @@ import Solution from './services/solution';
 import Subscribe from './services/subscribe';
 import Webblog from './services/webblog';
 import Flow from './services/flow';
+import Portfolio from './services/portfolio';
 import React, { useEffect } from 'react'; 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -30,6 +31,7 @@ function ServiceSeo(){
         <Subscribe/>
         <Webblog/>
         <Flow/>
+        <Portfolio/>
         </div>
         <Footer/>
         </>

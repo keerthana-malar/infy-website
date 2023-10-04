@@ -121,7 +121,8 @@ const IotBanner = () => {
       </div>
 
       {/* services */}
-      <div className='heading'>
+      
+      <div className=' heading'>
         <div className='containers container'>
           <div className='bg1'>
             <div className='head'>

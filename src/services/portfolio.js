@@ -72,8 +72,6 @@ function Portfolio() {
               </span>
             </div>
           </div>
-
-        
         </div>
       </div>
     </>

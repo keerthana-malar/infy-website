@@ -36,7 +36,7 @@ function webservice() {
             <div className="smore smb1">
             <Link to="/contact">
                 <span>Contact us &nbsp;
-                  <HiArrowLongRight />
+                  <HiArrowLongRight className="arr" />
                 </span>
             </Link>
             </div>

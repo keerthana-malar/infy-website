@@ -1,0 +1,80 @@
+.loginSec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginBox {
+  box-shadow: 0 0 10px var(--bgs);
+  width: 450px;
+  padding: 30px;
+  border-bottom: 5px solid var(--sec);
+}
+.login-btn {
+  padding: 10px 20px;
+  background-color: #5a8e53;
+}
+
+.adminMainBox {
+  display: flex;
+}
+
+/* Sidebar  */
+.sideBar {
+  height: 100vh;
+}
+.logoBox {
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoBox img {
+  width: 80%;
+}
+.menuBox {
+  height: 85vh;
+}
+.sideLinks {
+  color: #fff;
+  display: block;
+  padding: 10px 10px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+.active a {
+  background-color: var(--sec) !important;
+  border: none;
+}
+.bottomBox {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Dashboard  */
+.mainContBox {
+  width: 100%;
+}
+.dataBox {
+  box-shadow: 0 0 10px var(--bgs);
+  padding: 30px;
+  border-radius: 10px;
+  border-bottom: 5px solid var(--sec);
+}
+.blogDetailsBox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.react-bootstrap-table {
+  background-color: #5a8e53 !important;
+}
+.editorBox {
+  border: 1px solid var(--bgs);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.blogImg{
+  width: 300px;
+}

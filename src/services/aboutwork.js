@@ -1,12 +1,10 @@
-import "../css/seo.css";
-import "../css/common.css";
 import { MdWorkspacePremium } from "react-icons/md";
 import ProgressBar from "react-bootstrap/ProgressBar";
 
 function aboutweb() {
   return (
     <>
-      <div className="mainaboutweb">
+      <div className="mainaboutweb container">
         <div className="abtimgbx">
           <img className="img-fluid" src="./images/seo/seobanner.png"></img>
         </div>

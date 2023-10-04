@@ -48,10 +48,13 @@
   padding: 30px;
   transition: all 0.3s;
 }
+
 .serviceCont img {
   height: 60px;
   margin-bottom: 20px;
 }
+
+
 .serviceCont .mid-title {
   margin-bottom: 20px;
 }
@@ -60,7 +63,7 @@
   box-shadow: 0 0 10px rgba(122, 122, 122, 0.5);
 }
 .serviceCont:hover img {
-  animation: jello 1s;
+  animation: jello 2s;
 }
 .serviceCont:hover .mid-title {
   color: var(--pri);
@@ -141,28 +144,28 @@
   margin-top: 50px;
 }
 .service1::before {
-  background-image: url("/public/images/icons/web-i.png");
+  background-image: url("/public/images/webs1.png");
 }
 .service2::before {
-  background-image: url("/public/images/icons/web-i.png");
+  background-image: url("/public/images/webs2.png");
 }
 .service3::before {
-  background-image: url("/public/images/icons/web-i.png");
+  background-image: url("/public/images/webs3.png");
 }
 .service4::before {
-  background-image: url("/public/images/icons/web-i.png");
+  background-image: url("/public/images/webs4.png");
 }
 .service5::before {
-  background-image: url("/public/images/icons/web-i.png");
+  background-image: url("/public/images/webs5.png");
 }
 .service6::before {
-  background-image: url("/public/images/icons/web-i.png");
+  background-image: url("/public/images/webs6.png");
 }
 .service7::before {
-  background-image: url("/public/images/icons/web-i.png");
+  background-image: url("/public/images/webs7.png");
 }
 .service8::before {
-  background-image: url("/public/images/icons/web-i.png");
+  background-image: url("/public/images/webs8.png");
 }
 
 /* Recent Projects  */

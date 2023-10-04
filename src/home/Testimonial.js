@@ -44,7 +44,7 @@ const Testimonial = () => {
             <div className="testMainCont">
                 <div className="testInn">
                     <div className="testiIconBox">
-                        <img className="img-fluid" src="/images/icons/web-i.png"></img>
+                        <img className="img-fluid" src="/images/webs1.png"></img>
                     </div>
                     <div className="testiContBox">
                         <p className="mid-title">Complete Networking</p>
@@ -53,7 +53,7 @@ const Testimonial = () => {
                 </div>
                 <div className="testInn">
                     <div className="testiIconBox">
-                        <img className="img-fluid" src="/images/icons/web-i.png"></img>
+                        <img className="img-fluid" src="/images/cctv2.png"></img>
                     </div>
                     <div className="testiContBox">
                         <p className="mid-title">CCTV Camera</p>
@@ -62,7 +62,7 @@ const Testimonial = () => {
                 </div>
                 <div className="testInn">
                     <div className="testiIconBox">
-                        <img className="img-fluid" src="/images/icons/web-i.png"></img>
+                        <img className="img-fluid" src="/images/webs6.png"></img>
                     </div>
                     <div className="testiContBox">
                         <p className="mid-title">Web /Graphic Design</p>
@@ -71,7 +71,7 @@ const Testimonial = () => {
                 </div>
                 <div className="testInn">
                     <div className="testiIconBox">
-                        <img className="img-fluid" src="/images/icons/web-i.png"></img>
+                        <img className="img-fluid" src="/images/cctvs1.png"></img>
                     </div>
                     <div className="testiContBox">
                         <p className="mid-title">Projectors/Biometrics</p>
@@ -80,7 +80,7 @@ const Testimonial = () => {
                 </div>
                 <div className="testInn">
                     <div className="testiIconBox">
-                        <img className="img-fluid" src="/images/icons/web-i.png"></img>
+                        <img className="img-fluid" src="/images/laptops.png"></img>
                     </div>
                     <div className="testiContBox">
                         <p className="mid-title">Computer & Laptop</p>

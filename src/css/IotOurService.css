@@ -26,11 +26,115 @@
 
 }
 
+.hiddenrows{
+    position: absolute;
+    display: none;
+    background: url("/public/images/iot-laptop.jpg") no-repeat;
+    background-size: cover;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.hiddenrows1{
+    position: absolute;
+    display: none;
+    background: url("/public/images/iot-camera.png") no-repeat;
+    filter: grayscale(50%);
+    background-size: cover;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+.hiddenrows2{
+    position: absolute;
+    display: none;
+    background: url("/public/images/iot-network.jpg") no-repeat;
+    filter: grayscale(50%);
+    background-size: cover;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+.hiddenrows3{
+    position: absolute;
+    display: none;
+    background: url("/public/images/iot-projectors.png") no-repeat;
+    background-size: cover;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    filter: grayscale(50%);
+}
+.hiddenrows4{
+    position: absolute;
+    display: none;
+    background: url("/public/images/iot-network.jpg") no-repeat;
+    background-size: cover;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    filter: grayscale(50%);
+}
+.hiddenrows5{
+    position: absolute;
+    display: none;
+    background: url("/public/images/iot-camera.png") no-repeat;
+    filter: grayscale(50%);
+    background-size: cover;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+}
+
+.firstrow:hover {
+    display: block;
+    .hiddenrows{
+        display: block;
+    }
+}
+.firstrow:hover {
+    display: block;
+    .hiddenrows2{
+        display: block;
+    }
+}
+.firstrow:hover {
+    display: block;
+    .hiddenrows3{
+        display: block;
+    }
+}
+.firstrow:hover {
+    display: block;
+    .hiddenrows4{
+        display: block;
+    }
+}
+.firstrow:hover {
+    display: block;
+    .hiddenrows5{
+        display: block;
+    }
+}
+
+.firstrow:hover {
+    display: block;
+    .hiddenrows1{
+        display: block;
+    }
+}
+
 .firsthead{
     margin-top: 100px;
     margin-left: 50px;
     margin-right: 50px;
-    /* overflow: hidden;    */
 }
 
 .about{
@@ -88,6 +192,7 @@
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
         overflow: hidden;
 }
+
 
 .icon2{
      font-size:110px;

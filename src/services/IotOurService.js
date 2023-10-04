@@ -13,6 +13,7 @@ import { LuLaptop2 } from "react-icons/lu";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { Hidden } from '@mui/material';
 
 
 function IotOurService() {
@@ -62,8 +63,12 @@ function IotOurService() {
                     pillars of digital defense: firewall protection and cybersecurity.</p>
                     <MdNetworkWifi3Bar className='icon2'/>
                     {/* {hiddenrow} */}
-                </div>
+                    <div className='hiddenrows'>
+                    <p> hi this kiruthika</p>
+                    </div>
+                 </div>
                 {/* second row */}
+                <div className='firstrow1'>
                 <div className='firstrow' data-aos="zoom-in-up">
                 <div className='divline'></div>
                 <TfiLayoutMediaCenterAlt className='icons'/>
@@ -75,6 +80,12 @@ function IotOurService() {
                         of your laptops and desktops. 
                         Convey that your devices can handle any task...</p>
                         <TfiLayoutMediaCenterAlt className='icon2'/>
+                        {/* {Hidden} */}
+                        <div className='hiddenrows1'>
+                        <p> hi this kiruthika</p>
+                    </div>
+                        
+                </div>
                 </div>
                 {/* third row */}
                 <div className='firstrow' data-aos="zoom-in-left">
@@ -88,6 +99,10 @@ function IotOurService() {
                         keeping a vigilant eye on your property, both inside and out. We understand that every property is unique.
                          Our solutions are tailored to meet your specific needs and concerns.</p>
                          <GiCctvCamera className='icon2'/>
+                            {/* {Hidden} */}
+                        <div className='hiddenrows'>
+                    <p> hi this kiruthika</p>
+                    </div>
                 </div>
                 {/* row completed */}
            
@@ -107,6 +122,10 @@ function IotOurService() {
                         interactive whiteboards, 
                         and intuitive interfaces, we redefine classroom and home entertainment interaction.</p>
                         <SiWebtrees className='icon2'/>
+                           {/* {Hidden} */}
+                           <div className='hiddenrows'>
+                    <p> hi this kiruthika</p>
+                    </div>
                         </div>
                 {/* second row */}
                 <div className='firstrow' data-aos="zoom-in-up">
@@ -120,6 +139,10 @@ function IotOurService() {
                     ensuring reliability and performance. Your satisfaction is our priority. 
                     We're here to make your tech journey seamless.</p>
                     <RiLightbulbFlashLine className='icon2'/>
+                       {/* {Hidden} */}
+                       <div className='hiddenrows'>
+                    <p> hi this kiruthika</p>
+                    </div>
                     {/* {hidden row} */}
                 
                 </div>
@@ -136,6 +159,10 @@ function IotOurService() {
                     Our rentals come with maintenance and support, 
                     ensuring your devices run smoothly throughout your rental period.</p>
                     <LuLaptop2 className='icon2'/>
+                       {/* {Hidden} */}
+                       <div className='hiddenrows'>
+                    <p> hi this kiruthika</p>
+                    </div>
                 </div>
                 {/* row completed */}
            

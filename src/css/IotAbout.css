@@ -111,17 +111,12 @@
     display: flex;
     margin: 0;
     padding: 0;
-   
   }
-  
-  
-  
   @media screen and (min-width:320px) and (max-width:576px) {
     .image img {
       width: 400px !important;
       height: 300px !important;
       margin-left: 0px;
-    
     }
     .datawings_para{
       padding: 0;

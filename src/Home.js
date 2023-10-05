@@ -9,11 +9,13 @@ import Testimonial from './home/Testimonial';
 import HomeBlog from './home/HomeBlog';
 import Footer from './common/footer';
 
+
+
+
 function Home(){
 
     // var slickSlide = document.querySelector(".slick-track");
     // slickSlide.classList.add("d-none");
-    
     return(
         <>
         <Header/>

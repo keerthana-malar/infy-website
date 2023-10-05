@@ -17,6 +17,7 @@ function Home(){
     return(
         <>
         <Header/>
+        <div className="controlacc">
         <Sliders/>
         <Service/>
         <HomeAbout/>
@@ -25,6 +26,7 @@ function Home(){
         <OurExp />
         <Testimonial />
         <HomeBlog />
+        </div>
         <Footer />
         </>
     );

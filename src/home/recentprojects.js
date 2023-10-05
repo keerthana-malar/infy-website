@@ -1,4 +1,5 @@
 import "../css/home.css";
+import { Link } from "react-router-dom";
 
 const RecentProjects = () => {
   return (
@@ -12,9 +13,9 @@ const RecentProjects = () => {
               <p className="text-muted mb-5">
               Explore the innovation and success of our most recent projects.
               </p>
-              <a className="btns">
+              <Link to="/ServiceSeo" className="btns">
                 All Projects &nbsp; <span className="fa fa-arrow-right"></span>{" "}
-              </a>
+              </Link>
             </div>
           </div>
 
@@ -25,14 +26,14 @@ const RecentProjects = () => {
                   <div className="img-box">
                     <img
                       className="img-fluid"
-                      src="/images/project-1.jpg"
+                      src="/images/seo/trip.jpg"
                     ></img>
                   </div>
                   <div className="cont-box d-flex justify-content-center align-items-center text-center">
                     <div className="cont-box-inn">
                       <p className="sm-title text-muted m-0">DEVELOPMENT</p>
                       <p className="mid-title m-0">
-                        <a className="links">Ecom Website</a>
+                        <a className="links">Travel Website</a>
                       </p>
                     </div>
                   </div>
@@ -43,14 +44,14 @@ const RecentProjects = () => {
                   <div className="img-box">
                     <img
                       className="img-fluid"
-                      src="/images/project-1.jpg"
+                      src="/images/seo/seo.jpg"
                     ></img>
                   </div>
                   <div className="cont-box d-flex justify-content-center align-items-center text-center">
                     <div className="cont-box-inn">
-                      <p className="sm-title text-muted m-0">DEVELOPMENT</p>
+                      <p className="sm-title text-muted m-0">SEO</p>
                       <p className="mid-title m-0">
-                        <a className="links">Travels Website</a>
+                        <a className="links">Digital Marketing</a>
                       </p>
                     </div>
                   </div>
@@ -61,14 +62,14 @@ const RecentProjects = () => {
                   <div className="img-box">
                     <img
                       className="img-fluid"
-                      src="/images/project-1.jpg"
+                      src="/images/seo/bsite.jpg"
                     ></img>
                   </div>
                   <div className="cont-box d-flex justify-content-center align-items-center text-center">
                     <div className="cont-box-inn">
                       <p className="sm-title text-muted m-0">DEVELOPMENT</p>
                       <p className="mid-title m-0">
-                        <a className="links">Boutique Website</a>
+                        <a className="links">Ecommerce Website</a>
                       </p>
                     </div>
                   </div>

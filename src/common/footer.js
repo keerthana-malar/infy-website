@@ -6,6 +6,12 @@ import { TbArrowBigUpFilled } from "react-icons/tb";
 
 
 function Footer() {
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth', 
+        });
+      };
     
     return (
         <footer>
@@ -124,7 +130,7 @@ function Footer() {
                 </div>
                 </div>
             </div>
-            <div className="topmenu">
+            <div className="topmenu" onClick={scrollToTop}>
                 <TbArrowBigUpFilled/>
             </div>
         </footer>

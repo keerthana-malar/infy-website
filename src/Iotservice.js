@@ -16,8 +16,8 @@ function Iotservices() {
       <IotOverlay />
       <IotAbout />
       <IotService />
-      <IotProjects />
       <IotActivities />
+      <IotProjects />
       <IotOurService />
       <Footer/>
 

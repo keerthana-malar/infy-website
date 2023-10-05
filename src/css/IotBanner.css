@@ -65,7 +65,7 @@
   align-items: flex-end;
 }
 
-.dot {
+.dots {
   width: 14px;
   height: 14px;
   background-color: transparent;
@@ -87,6 +87,9 @@
 }
 
 /* services */
+.help_overlay{
+  height: 25vh;
+}
 .heading{
   position:absolute;
   width: 100%;
@@ -232,6 +235,12 @@
     gap:40px 20px;
    
   }
+  .number{
+    margin-top: -40px;
+  }
+  .help_overlay{
+    height: 10vh;
+  }
 }
 @media screen and (max-width:600px)  {
   .banner{
@@ -258,6 +267,12 @@
   .banner button{
     /* margin: 0px 30px; */
   }
+  .container{
+    margin-top: 20px;
+  }
+  .help_overlay{
+    height: 0vh;
+  }
 }
 
 @media screen and (min-width:1500px){
@@ -279,5 +294,12 @@
     padding: 0px 200px;
     gap:0px;
   }
-
+  .number{
+    margin-top: -40px;
+  }
+}
+@media screen and (min-width:991px){
+  .number{
+    margin-top: -40px;
+  }
 }

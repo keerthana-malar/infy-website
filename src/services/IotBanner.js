@@ -110,7 +110,7 @@ const IotBanner = () => {
             )}
             <span
               key={index}
-              className={currSlide === index ? 'dot active' : 'dot'}
+              className={currSlide === index ? 'dots active' : 'dots'}
               onClick={() => goToSlide(index)}
             ></span>
             {index < images.length+1 - 1 && (

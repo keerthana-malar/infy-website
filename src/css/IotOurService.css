@@ -29,35 +29,69 @@
 .hiddenrows{
     position: absolute;
     display: none;
+    background: url("/public/images/iot-network.jpg") no-repeat;
+    background-size: cover;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    perspective: 500px;
+    perspective-origin: right;
+}
+.pros{
+    transform: rotateX('130deg');
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 40%;
+}
+.edgehead{
+    color:var(--white);
+    align-items: center;
+}
+.buttongroup{
+    margin: 40px;
+}
+.butt{
+    background-color: var(--dark);
+    width: 20%;
+    height: 55px;
+    text-align: center;
+    margin: 0 auto;
+    color: var(--white);
+    font-size: 30px;
+    border-radius: 40px;
+}
+.btn1:hover{
+ background-color: var(--warning);
+ color: var(--dark);
+ box-shadow: 0px 0px 5px var(--warning), 0px 0px 25px var(--warning), 
+ 0px 0px 50px var(--warning),0px 0px 600px var(--warning);
+ border: none;
+}
+
+
+.hiddenrows1{
+    position: absolute;
+    display: none;
     background: url("/public/images/iot-laptop.jpg") no-repeat;
     background-size: cover;
     top: 0%;
     left: 0%;
     height: 100%;
     width: 100%;
-}
-
-.hiddenrows1{
-    position: absolute;
-    display: none;
-    background: url("/public/images/iot-camera.png") no-repeat;
-    filter: grayscale(50%);
-    background-size: cover;
-    top: 0%;
-    left: 0%;
-    height: 100%;
-    width: 100%;
+    perspective: 500px;
+    perspective-origin: right;
 }
 .hiddenrows2{
     position: absolute;
     display: none;
-    background: url("/public/images/iot-network.jpg") no-repeat;
-    filter: grayscale(50%);
+    background: url("/public/images/iot-camera.png") no-repeat;
     background-size: cover;
     top: 0%;
     left: 0%;
     height: 100%;
     width: 100%;
+    perspective: 500px;
+    perspective-origin: right;
 }
 .hiddenrows3{
     position: absolute;
@@ -68,29 +102,32 @@
     left: 0%;
     height: 100%;
     width: 100%;
-    filter: grayscale(50%);
+    perspective: 500px;
+    perspective-origin: right;
 }
 .hiddenrows4{
     position: absolute;
     display: none;
-    background: url("/public/images/iot-network.jpg") no-repeat;
+    background: url("/public/images/iot-projectors.png") no-repeat;
     background-size: cover;
     top: 0%;
     left: 0%;
     height: 100%;
     width: 100%;
-    filter: grayscale(50%);
+    perspective: 500px;
+    perspective-origin: right;
 }
 .hiddenrows5{
     position: absolute;
     display: none;
-    background: url("/public/images/iot-camera.png") no-repeat;
-    filter: grayscale(50%);
+    background: url("/public/images/slide1.jpg") no-repeat;
     background-size: cover;
     top: 0%;
     left: 0%;
     height: 100%;
     width: 100%;
+    perspective: 500px;
+    perspective-origin: right;
 }
 
 .firstrow:hover {
@@ -101,10 +138,17 @@
 }
 .firstrow:hover {
     display: block;
+    .hiddenrows1{
+        display: block;
+    }
+}
+.firstrow:hover {
+    display: block;
     .hiddenrows2{
         display: block;
     }
 }
+
 .firstrow:hover {
     display: block;
     .hiddenrows3{
@@ -117,6 +161,7 @@
         display: block;
     }
 }
+
 .firstrow:hover {
     display: block;
     .hiddenrows5{
@@ -124,12 +169,6 @@
     }
 }
 
-.firstrow:hover {
-    display: block;
-    .hiddenrows1{
-        display: block;
-    }
-}
 
 .firsthead{
     margin-top: 100px;
@@ -195,13 +234,12 @@
 
 
 .icon2{
-     font-size:110px;
+    font-size:100px;
     background-color: var(--white);
     color: var(--warning);
     float: right;
-    margin-top: 10px;
-    
-    
+    opacity: 0.3;
+
 }
 
 
@@ -293,3 +331,165 @@
         width: 100%;
     }
  }
+
+
+ @media (width<=1210px){
+    .icon2{
+        margin-top: 20px;
+        margin-bottom: 0;
+        padding: 0;
+        font-size: clamp(100px, 2vw, 150px);
+    }
+}
+@media (width<=1192px){
+    .icon2{
+        padding-top: 10px !important;
+        margin-bottom: 0;
+        padding: 0;
+        font-size: 90px !important;
+    }
+    .firstrow{
+        height:90%;
+    }
+}
+
+@media (width<=1242px){
+  .butt{
+    border-radius: 50%;
+    height: 20%;
+  }
+}
+
+@media (width<=1393px){
+  .butt{
+      border-radius: 50%;
+      height: 20%;
+    }
+  }
+@media (width<=1200px){
+  .butt{
+      border-radius: 50%;
+      width: 10%;
+    }
+  }
+  @media (width<=1182px){
+    .butt{
+      border-radius: 20px;
+      width: 10%;
+      font-size: 25px;
+    }
+  }
+  @media (width<=982px){
+    .butt{
+      border-radius: 20px;
+      width: 15%;
+      font-size: 22px;
+    }
+  }
+  /* @media (width<=982px){
+    button{
+      border-radius: 20px;
+      width: 19%;
+      font-size: 20px;
+    }
+  } */
+
+  @media (width<=514px){
+    .butt{
+      border-radius: 20px;
+      width: 13%;
+      font-size: 20px;
+    }
+  }
+
+  @media (width<=382px){
+    .butt{
+      border-radius: 20px;
+      width: 18%;
+      font-size: 20px;
+    }
+  }
+  @media (width<=735px){
+    .butt{
+      border-radius: 20px;
+      width: 20%;
+      font-size: 22px;
+    }
+  }
+  @media (width<=349px){
+    .butt{
+      border-radius: 20px;
+      width: 23%;
+      font-size: 20px;
+    }
+  }
+  @media (width<=764px){
+    .butt{
+      border-radius: 20px;
+      width: 20%;
+      font-size: 20px;
+    }
+  }
+  @media (width<=564px){
+    .butt{
+      border-radius: 22px;
+      font-size: 30px;
+      width: 15%;
+    }
+  }
+ /* }
+ .firstrow .iconbox{
+    border:1px solid red;
+    margin: 0;
+    padding: 0;
+ } */
+ @media (width<=516px){
+  .butt{
+      border-radius: 30px;
+      font-size: 25px;
+      width: 18%;
+    }
+  }
+
+  @media (width<=414px){
+    .butt{
+      border-radius: 30px;
+      font-size: 26px;
+      width: 22%;
+    }
+  }
+  @media (width<=380px){
+    .butt{
+      border-radius: 30px;
+      font-size: 28px;
+      width: 30%;
+    }
+  }
+  @media (width<=987px){
+    .butt{
+      border-radius: 30px;
+      font-size: 28px;
+      width: 15%;
+    }
+  }
+  @media (width<=752px){
+    .butt{
+      border-radius: 30px;
+      font-size: 28px;
+      width: 25%;
+    }
+  }
+  @media (width<=553px){
+    .butt{
+      border-radius: 30px;
+      font-size: 28px;
+      width: 18%;
+    }
+  }
+  @media (width<=422px){
+    .butt{
+      border-radius: 30px;
+      font-size: 25px;
+      width: 25%;
+    }
+  }

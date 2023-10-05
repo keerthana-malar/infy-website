@@ -59,12 +59,16 @@ function IotOurService() {
                     <div className='divideline'></div>
                     <p className='param'>We specialize in crafting cutting-edge Computer
                      Network Solutions that empower your enterprise to thrive in the connected world.
-                    One of best network support and service in coimbatore. we specialize in two 
-                    pillars of digital defense: firewall protection and cybersecurity.</p>
+                    One of best network support and service in coimbatore. </p>
                     <MdNetworkWifi3Bar className='icon2'/>
                     {/* {hiddenrow} */}
                     <div className='hiddenrows'>
-                    <p> hi this kiruthika</p>
+                   <div className='pros'>
+                   <h2 className='edgehead'> Computer Network Solutions </h2>
+                   <div className='buttongroup'>
+                   <button className='butt btn1'>+</button>
+                   </div>
+                   </div>
                     </div>
                  </div>
                 {/* second row */}
@@ -82,9 +86,15 @@ function IotOurService() {
                         <TfiLayoutMediaCenterAlt className='icon2'/>
                         {/* {Hidden} */}
                         <div className='hiddenrows1'>
-                        <p> hi this kiruthika</p>
+                        <div className='pros'>
+                   <h2 className='edgehead'>Laptop / Desktop Sales and Service </h2>
+                   <div className='buttongroup'>
+                   <button className='butt btn1'>+</button>
+                   </div>
+                   </div>
                     </div>
                         
+                
                 </div>
                 </div>
                 {/* third row */}
@@ -100,8 +110,13 @@ function IotOurService() {
                          Our solutions are tailored to meet your specific needs and concerns.</p>
                          <GiCctvCamera className='icon2'/>
                             {/* {Hidden} */}
-                        <div className='hiddenrows'>
-                    <p> hi this kiruthika</p>
+                        <div className='hiddenrows2'>
+                        <div className='pros'>
+                   <h2 className='edgehead'>   CCTV / Bio - Metrics </h2>
+                   <div className='buttongroup'>
+                   <button className='butt btn1'>+</button>
+                   </div>
+                   </div>
                     </div>
                 </div>
                 {/* row completed */}
@@ -120,11 +135,18 @@ function IotOurService() {
                     <p className='param'>Our projectors and Smart TVs deliver stunning 
                         visuals that bring lessons and entertainment to life. With touch screens, 
                         interactive whiteboards, 
-                        and intuitive interfaces, we redefine classroom and home entertainment interaction.</p>
+                        and intuitive interfaces.</p>
+                        {/* <div className='iconbox'> */}
                         <SiWebtrees className='icon2'/>
+                        {/* </div> */}
                            {/* {Hidden} */}
-                           <div className='hiddenrows'>
-                    <p> hi this kiruthika</p>
+                           <div className='hiddenrows3'>
+                           <div className='pros'>
+                   <h2 className='edgehead'>  Projectors / Smart Class Smart Tv </h2>
+                   <div className='buttongroup'>
+                   <button className='butt btn1'>+</button>
+                   </div>
+                   </div>
                     </div>
                         </div>
                 {/* second row */}
@@ -140,8 +162,13 @@ function IotOurService() {
                     We're here to make your tech journey seamless.</p>
                     <RiLightbulbFlashLine className='icon2'/>
                        {/* {Hidden} */}
-                       <div className='hiddenrows'>
-                    <p> hi this kiruthika</p>
+                       <div className='hiddenrows4'>
+                       <div className='pros'>
+                   <h2 className='edgehead'> Computer Accessories </h2>
+                   <div className='buttongroup'>
+                   <button className='butt btn1'>+</button>
+                   </div>
+                   </div>
                     </div>
                     {/* {hidden row} */}
                 
@@ -160,16 +187,17 @@ function IotOurService() {
                     ensuring your devices run smoothly throughout your rental period.</p>
                     <LuLaptop2 className='icon2'/>
                        {/* {Hidden} */}
-                       <div className='hiddenrows'>
-                    <p> hi this kiruthika</p>
+                       <div className='hiddenrows5'>
+                       <div className='pros'>
+                   <h2 className='edgehead'> Laptop / Desktop Rent </h2>
+                   <div className='buttongroup'>
+                   <button className='butt btn1'>+</button>
+                   </div>
+                   </div>
                     </div>
                 </div>
                 {/* row completed */}
-           
             </div>
-       
-           
-
         </div>
     )
 }

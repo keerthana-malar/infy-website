@@ -1,7 +1,20 @@
 import { HiOutlineRocketLaunch } from "react-icons/hi2";
 import { FaLink } from "react-icons/fa";
+import Slider from 'react-slick';
 
 function Portfolio() {
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4, 
+    slidesToScroll: 4,
+    autoplay: true,
+    autoplaySpeed: 2000, 
+    arrows:false,
+  };
+
   return (
     <>
       <div className="portbox1">
@@ -31,6 +44,7 @@ function Portfolio() {
         </div>
       </div>
       <div className="mainportbox">
+      <Slider {...settings}>
         <div className="portbox2">
           <div className="portbx">
             <img className="portimgbx" src="./images/seo/travel1.jpg"></img>
@@ -73,6 +87,7 @@ function Portfolio() {
             </div>
           </div>
         </div>
+        </Slider>
       </div>
     </>
   );

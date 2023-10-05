@@ -112,8 +112,8 @@ const IotProjects = () => {
                 <div className='under-line'></div>
                 <span> Projects</span>
             </div>
-            <p className='cont con-1'>We are very active to </p>
-            <p className='cont con-2'>perform any work!</p>
+            <p className='conts con-1'>We are very active to </p>
+            <p className='conts con-2'>perform any work!</p>
             <Accordion defaultActiveKey="0" id='accordion' >
                         <Accordion.Item eventKey="0" >
                             <Accordion.Header className='header'>

@@ -66,8 +66,12 @@
 .iconss {
     font-size: 20px;
     margin-left: 35px;
-color: var(--sec);
-text-align: left;
+    color: var(--sec);
+    text-align: left;
+}
+
+.iconss a{
+    margin-right: 10px;
 }
 
 .follow {
@@ -86,14 +90,18 @@ text-align: left;
 .infyy-icon{
     font-size: 10px;
     text-align: right;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     font-size: 20px;
     color: var(--pri);
     display: flex;
     justify-content: center;
     margin-left: 10px;
 }
-
+.small-box {
+    padding: 50px 0px;
+    /* margin-bottom: 50px; */
+}
 /* .small-box {
     margin:40px 20px;
     width:100%;
@@ -108,7 +116,9 @@ text-align: left;
 } */
 .nam-icon{
     background-color: white;
-    border-radius: 10px;
+    /* border-radius: 10px; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 /* .small{
     border-radius: 10px;
@@ -117,14 +127,17 @@ text-align: left;
 
 .name {
     background-color: var(--pri);
-    border-radius: 10px;
+    /* border-radius: 10px; */
     margin-top: 0px;
     margin-bottom: 0px; 
     height: 20;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .nam {
     background-color: white;
+    
 }
 
 .infy {
@@ -136,16 +149,17 @@ text-align: left;
 }
 .infyy{
     text-align: right;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     font-size: 20px;
     color: var(--pri);
     display: flex;
     justify-content: center;
 }
 .infyicon{
-   
+    margin-top: 0px;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     font-size: 20px;
     color: var(--sec);
 }
@@ -227,6 +241,63 @@ background-color: white;
   z-index: 999; 
 } */
 
+@media screen and (width<=767px) {
+    .call{
+        text-align: left;
+        padding-left: 15px;
+    }
+    .phone{
+        text-align: left;
+        padding-left: 15px;
+    }
+    .infyy{
+        justify-content: flex-start;
+        padding-left: 15px;
+    }
+    .hari{
+        margin-left: 0px;
+        padding-left: 15px;
+    }
+    .infyy-icon{
+        justify-content: flex-start;
+        margin-left: 0px;
+        padding-left: 15px;
+    }
+    .infyicon{
+        justify-content: flex-start;
+        padding: 0px;
+        text-align: left;
+    }
+    .infyicon1{
+        padding: 0px 0px 15px 15px;
+        padding-bottom: 15px;
+    }
+    .name {
+
+        border-top-right-radius: 10px;
+        
+        border-bottom-left-radius: 0px;
+    }
+    .nam-icon{
+        padding-bottom: 15px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+    
+}
+
+@media screen and (width>=767px) and (width<=991px){
+    .name{
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+    .nam-icon{
+        border-top-right-radius: 0px;
+    }
+    .nam1{
+        border-bottom-left-radius: 10px;
+    }
+}
 
 
 

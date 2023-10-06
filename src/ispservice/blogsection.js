@@ -3,6 +3,7 @@ import '../css/ispservice.css';
 function Blogsection() {
     return (
         <>
+        <div className='isp-blog'>
             <div className='container isps-service'>
                 <div className='row'>
                     <div className='col-md-3'></div>
@@ -22,7 +23,7 @@ function Blogsection() {
                             <div className="img-Box">
                                 <img
                                     className="img-fluid img-zoom"
-                                    src="/images/girl.jpg"
+                                    src="/images/provenrelaiable.webp"
                                 ></img>
                             </div>
 
@@ -42,7 +43,7 @@ function Blogsection() {
                             <div className="img-Box">
                                 <img
                                     className="img-fluid"
-                                    src="/images/girl.jpg"
+                                    src="/images/OC_KI_083.jpg"
                                 ></img>
                             </div>
 
@@ -63,7 +64,7 @@ function Blogsection() {
                             <div className="img-Box">
                                 <img
                                     className="img-fluid"
-                                    src="/images/girl.jpg"
+                                    src="/images/ispser.jpg"
                                 ></img>
                             </div>
 
@@ -82,6 +83,8 @@ function Blogsection() {
                 </div>
                 <div className='button-blog'><button className='btns-green-blog'>get started</button></div>
             </div>
+            </div>
+
             <div className='container ispsservice'>
                 <div className='row ' >
                     <div className='col-md-6'data-aos="fade-right" data-aos-duration="1000" >

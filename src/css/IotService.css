@@ -34,7 +34,7 @@
 .span2 {
   color: var(--warning);
 }
-h1 {
+.ser-h1 {
   font-weight: 600;
   font-size: 60px;
   margin-bottom: 30px;

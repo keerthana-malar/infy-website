@@ -5,7 +5,7 @@
 
        .topbannersection {
            height: 600px;
-           background-image: url("../images/banner/ban-4.jpg");
+           background-image: url("../images/banner/INFY BOY small (3).jpg");
            background-size: cover;
            background-repeat: no-repeat;
            color: #fff;
@@ -866,5 +866,5 @@
          width: 100%;
          margin: 0;
          padding: 0;
-         overflow-x: hidden;
+         overflow: hidden;
        }

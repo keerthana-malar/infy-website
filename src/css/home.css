@@ -34,7 +34,15 @@
     text-align: center;
   }
 }
+.banner-title{
+  font-size: clamp(80px, 4vw, 50px);
 
+}
+
+.home-baner-con{
+  font-size: 18px;
+  color: rgba(12, 9, 9, 0.5);
+}
 /* Service  */
 .serviceContainer {
   padding: 50px 0;
@@ -93,7 +101,40 @@
 .abtBoxInn .mid-title {
   margin-bottom: 4px;
 }
+.image-home-about{
+padding: 30px;
+}
+.home-about-ttle{
+  font-size:55px;
+}
+.experienceimg{
+ color: var(--pri);
+}
+.home-tit {
+  color: black; 
+  font-size: 25px;
+  font-weight: 600;
+}
 
+
+.home-tit:hover {
+  color:var(--pri);
+}
+.text-light{
+  padding: 20px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  font-size: 15px;
+}
+.home-ser-con{
+  font-size: 50px;
+}
+.home-ser-con-pink{
+  font-size: 30px; 
+  color: var(--sec);
+}
 /* Sub Service  */
 
 .subServiceSec {

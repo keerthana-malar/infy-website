@@ -6,8 +6,8 @@ const SubService = () => {
       <div className="subServiceSec text-light">
         <div className="container">
           <div className="subServiceTop">
-            <p className="mini-title text-center">Our Services</p>
-            <p className="sub-title text-center">
+            <p className="home-ser-con-pink text-center">Our Services</p>
+            <p className=" text-center home-ser-con">
               How why Help of Your Business Grow And Successful
             </p>
           </div>

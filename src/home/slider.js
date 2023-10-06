@@ -25,7 +25,7 @@ const Sliders = () => {
         <div className="slideCont">
           <div>
             <p className="main-title banner-title">{item.title}</p>
-            <p>{item.cont}</p>
+            <p className="home-baner-con">{item.cont}</p>
           </div>
         </div>
       </div>

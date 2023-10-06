@@ -5,11 +5,11 @@ const HomeAbout = () => {
     <>
       <div className="aboutSec container">
         <div className="row justify-content-center align-items-center">
-          <div className="col-lg-6">
+          <div className="col-lg-6 image-home-about">
             <div className="aboutImg">
               <img
                 className="img-fluid"
-                src="/images/about-img.png"
+                src="/images/about.png"
                 alt="Service Image"
               ></img>
             </div>
@@ -17,7 +17,7 @@ const HomeAbout = () => {
           <div className="col-lg-6">
             <div className="aboutCont">
               <p className="mini-title main-color">ABOUT US</p>
-              <p className="sub-title">
+              <p className=" home-about-ttle">
                 We are here to IT Solution with 10 years of experience
               </p>
               <p className="text-muted">
@@ -33,12 +33,12 @@ const HomeAbout = () => {
                     <div className="row abtBoxInn">
                       <div className="col-3">
                         <img
-                          className="img-fluid"
+                          className="img-fluid experienceimg"
                           src="/images/icons/certificate.png"
                         ></img>
                       </div>
                       <div className="col-9">
-                        <p className="mid-title">Experience</p>
+                        <p className="mid-title home-tit">Experience</p>
                         <p className="text-muted">
                           Our great team of more than 30 experts
                         </p>
@@ -54,7 +54,7 @@ const HomeAbout = () => {
                         ></img>
                       </div>
                       <div className="col-9">
-                        <p className="mid-title">Quick Support</p>
+                        <p className="mid-title home-tit">Quick Support</p>
                         <p className="text-muted">
                           No waiting, no hassle – Just quick solutions.
                         </p>

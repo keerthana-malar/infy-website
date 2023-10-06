@@ -10,11 +10,21 @@
     color: #fff;
 }
 
+
+       .topbannersection {
+           height: 600px;
+           background-image: url("../images/banner/INFY BOY small (3).jpg");
+           background-size: cover;
+           background-repeat: no-repeat;
+           color: #fff;
+       }
+
 .maintitle {
     font-size: clamp(35px, 4vw, 50px);
     font-weight: 600;
     padding-top: 80px;
 }
+
 
 .smalline {
     width: 50px;
@@ -849,6 +859,15 @@
     padding-top: 20px;
     padding-bottom: 10px;
 
+
+       .ispmainservice {
+         height: 100%;
+         width: 100%;
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+       }
+
 }
 
 .fa-envelope {
@@ -883,3 +902,4 @@
     text-decoration: none;
     
   }
+

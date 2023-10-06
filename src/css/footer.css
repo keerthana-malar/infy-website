@@ -161,7 +161,7 @@
     text-align: center;
     color: var(--pri);
     border-right: light black;
-    font-size:18px ;
+    font-size:20px ;
 }
 .calls{
 background-color: white;
@@ -285,7 +285,6 @@ background-color: white;
         border-bottom-left-radius: 10px;
     }
 }
-
 
 
 

@@ -614,7 +614,7 @@
     overflow-x: hidden;
 }
 .flowmain{
-    margin:100px 0px;
+    margin:100px 0 0 0;
     padding: 0;
     background-color: #f0f7ff;
 }
@@ -713,12 +713,12 @@
     margin:10px 100px;
 }
 .mainportbox{
-    margin:100px 0;
+    margin:50px 0 0 0;
     height: 100%;
 }
 
 .portbox2{
-    display: grid;
+    display: inline-grid;
     grid-template-columns: auto auto auto auto;
     gap:3px;
 }
@@ -771,4 +771,25 @@
 
 .portbx:hover .portoverbx{
     opacity: 0.8;
+}
+@media (width<=970px){
+    .linkbx{
+        width:70px;
+        height: 70px;
+        font-size: 22px;
+    }
+}
+@media (width<=749px){
+    .linkbx{
+        width:50px;
+        height: 50px;
+        font-size: 22px;
+    }
+}
+@media (width<599px){
+    .linkbx{
+        width:40px;
+        height: 40px;
+        font-size: 22px;
+    }
 }

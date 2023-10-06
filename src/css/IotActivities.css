@@ -4,7 +4,8 @@
     margin: 50px 50px;
 }
 .activity{
-    background-color: black;
+    /* background-color: black; */
+    background-image: url('/public/images/black-texture.jpg');
     display: grid;
     align-items: center;
     grid-template-columns: repeat(4,1fr);
@@ -63,6 +64,7 @@
     padding: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .hover{
     /* display: fles */
@@ -97,7 +99,7 @@
     color: #383838;
 }
 .activity-1:hover .lh-2{
-    color: yellow;
+    color: #ffbf00;
 }
 .hover{
     display: flex;

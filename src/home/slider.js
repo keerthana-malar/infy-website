@@ -7,7 +7,7 @@ import "../css/home.css";
 const Sliders = () => {
   const sliderImg = [
     {
-      img: "/images/banner/banner2.jpg",
+      img: "/images/Banner11.jpg",
       title: "Welcome to Infygain Technologies",
       cont: "Best computer service in Coimbatore, We specialize in providing high-quality, professional computer repair and maintenance services to both individuals and businesses.",
     },

@@ -48,7 +48,7 @@ const Testimonial = () => {
                     </div>
                     <div className="testiContBox">
                         <p className="mid-title">Complete Networking</p>
-                        <p className="">Seamless Connectivity Solutions.</p>
+                        <p className="">Seamless Connectivity Solutions</p>
                     </div>
                 </div>
                 <div className="testInn">
@@ -57,7 +57,7 @@ const Testimonial = () => {
                     </div>
                     <div className="testiContBox">
                         <p className="mid-title">CCTV Camera</p>
-                        <p className="">24/7 Security Surveillance.</p>
+                        <p className="">24/7 Security Surveillance</p>
                     </div>
                 </div>
                 <div className="testInn">
@@ -66,7 +66,7 @@ const Testimonial = () => {
                     </div>
                     <div className="testiContBox">
                         <p className="mid-title">Web /Graphic Design</p>
-                        <p className="">Captivating Design Experiences.</p>
+                        <p className="">Captivating Design Experiences</p>
                     </div>
                 </div>
                 <div className="testInn">
@@ -75,7 +75,7 @@ const Testimonial = () => {
                     </div>
                     <div className="testiContBox">
                         <p className="mid-title">Projectors/Biometrics</p>
-                        <p className="">Innovative Presentation and Access.</p>
+                        <p className="">Innovative Presentation and Access</p>
                     </div>
                 </div>
                 <div className="testInn">
@@ -84,7 +84,7 @@ const Testimonial = () => {
                     </div>
                     <div className="testiContBox">
                         <p className="mid-title">Computer & Laptop</p>
-                        <p className="">Reliable Business Computing.</p>
+                        <p className="">Reliable Business Computing</p>
                     </div>
                 </div>
             </div>

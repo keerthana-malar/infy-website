@@ -53,6 +53,9 @@
 }
 .short-abt{
     background-color: #fff;
+    border-radius:10px;
+    /* border:1px solid red; */
+    box-shadow: 0 0 5px 0 ;
 }
 .short-abt .progress{
     margin-bottom:10px;
@@ -65,15 +68,16 @@
     color:#fff;
 }
 .testbox{
-    background-size: cover;
+    background-size: fit-content;
     background-image: url("../images/banner/webpage.jpg");
     background-repeat: no-repeat;
-    background-position: 0 -500px;
+    background-position-x: right;
 }
 .inn{
     width: 90%;
-    background-color: #fff;
+    /* background-color: #fff; */
     margin: 0 auto;
+    
 }
 .main-bx{
     padding:100px 0px;
@@ -135,6 +139,7 @@
 .short-img img{
     height:100%;
     object-fit: cover;
+    border-radius: 10px 0 0 10px;
 }
 .client-pro{
     height:100%;

@@ -13,7 +13,7 @@ function Iotservices() {
     <div className="App">
       <Header/>
       <IotBanner />
-      <IotOverlay />
+      {/* <IotOverlay /> */}
       <IotAbout />
       <IotService />
       <IotActivities />

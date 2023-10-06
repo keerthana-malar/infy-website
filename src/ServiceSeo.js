@@ -27,11 +27,12 @@ function ServiceSeo(){
         <Seo/>
         <Spotlight/>
         <Aboutweb/>
-        <Solution/>
         <Subscribe/>
+        <Portfolio/>
+        <Solution/>
         <Webblog/>
         <Flow/>
-        <Portfolio/>
+        
         </div>
         <Footer/>
         </>

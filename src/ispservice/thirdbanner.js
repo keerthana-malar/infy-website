@@ -1,5 +1,7 @@
 import 'font-awesome/css/font-awesome.css';
 import '../css/ispservice.css';
+import { Link } from "react-router-dom";
+
 function Thirdbanner() {
     return (
         <>
@@ -9,7 +11,7 @@ function Thirdbanner() {
                     <div className='container thi-ban'
                     ><div className='row'>
                             <div className='col-md-3'></div>
-                            <div className='col-md-6 banner-thi-con'data-aos="fade-up"  data-aos-duration="2000">
+                            <div className='col-md-6 banner-thi-con' data-aos="fade-up" data-aos-duration="2000">
                                 <div className=' contentsection'>
                                     <div className='button'><button className='btns-greens-third'>choose your package</button></div>
                                     <p className="maintitlethi">Unlock the Biggest Savings Ever on Home Satellite Internet!</p>
@@ -22,7 +24,7 @@ function Thirdbanner() {
                         </div>
                         <div className=' services'>
                             <div className='row Boxss'>
-                                <div className="servicebox col-lg-4"data-aos="fade-right"  data-aos-duration="2000">
+                                <div className="servicebox col-lg-4" data-aos="fade-right" data-aos-duration="2000">
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
@@ -44,12 +46,14 @@ function Thirdbanner() {
                                         <p className='pac-amount'> <sup >$</sup> 39<br></br><p className='par-package'>/Monthly</p></p>
 
 
-                                        <div className='buttons'><button className='btns-greenbox'>subscribe now</button></div>
+                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mlink" to="/contact">
+                                            subscribe now                </Link>
+                                        </button></div>
 
 
                                     </div>
                                 </div>
-                                <div className="servicebox col-lg-4"data-aos="fade-up"  data-aos-duration="2000">
+                                <div className="servicebox col-lg-4" data-aos="fade-up" data-aos-duration="2000">
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
@@ -72,12 +76,13 @@ function Thirdbanner() {
                                         <p className='pac-amount'> <sup >$</sup> 79<br></br><p className='par-package'>/Monthly</p></p>
 
 
-                                        <div className='buttons'><button className='btns-greenbox'>subscribe now</button></div>
-
+                                        <div className='buttons'><button className='btns-greenbox'>                <Link className="mlink" to="/contact">
+                                            subscribe now                </Link>
+                                        </button></div>
 
                                     </div>
                                 </div>
-                                <div className="servicebox col-lg-4"data-aos="fade-left"  data-aos-duration="2000">
+                                <div className="servicebox col-lg-4" data-aos="fade-left" data-aos-duration="2000">
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
@@ -99,8 +104,12 @@ function Thirdbanner() {
 
 
 
-                                        <div className='buttons'><button className='btns-greenbox'>subscribe now</button></div>
+                                        <div className='buttons'><button className='btns-greenbox'>
 
+                                            <Link className="mlink" to="/contact">
+                                                subscribe now
+                                            </Link>
+                                        </button></div>
 
                                     </div>
                                 </div>

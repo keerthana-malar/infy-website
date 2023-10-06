@@ -34,7 +34,7 @@ function Finalbanner() {
                                     <h2 className="las-blo-title">Customer Services</h2>
                                     <p className="text-muted box-conin">
                                     At Infygain technologies, exceptional customer service is our promise. We're here to assist you every step of the way.                                    </p>
-                                    <div className='buttons'><button className='btns-greenbox'>chat now</button></div>
+                                    <div className='buttons'> <a href="tel:+1234567890" className='btns-greenbox'>Call now</a></div>
 
 
                                 </div>
@@ -46,7 +46,7 @@ function Finalbanner() {
                                     <h2 className="las-blo-title">Ticket Support</h2>
                                     <p className="text-muted box-conin">
                                     Efficient Ticket Support: Quick solutions to your technical queries. Submit a ticket, track progress, and get back to what matters.                                    </p>
-                                    <div className='buttons'><button className='btns-greenbox'>chat now</button></div>
+                                    <div className='buttons'> <a href="mailto:info@infygain.com" className='btns-greenbox'>mail now</a></div>
 
 
                                 </div>
@@ -58,7 +58,7 @@ function Finalbanner() {
                                     <h2 className="las-blo-title">Insight</h2>
                                     <p className="text-muted box-conin">
                                     Our in-depth analysis helps you make informed decisions for a superior online experience. Explore the power of insights today.                                    </p>
-                                    <div className='buttons'><button className='btns-greenbox'>chat now</button></div>
+                                    <div className='buttons'> <a href="https://api.whatsapp.com/send?phone=9952141444" className='btns-greenbox'>chat now</a></div>
 
 
                                 </div>

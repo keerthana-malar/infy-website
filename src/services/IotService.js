@@ -36,7 +36,7 @@ function IotService() {
                   <p className="para">Services</p>
                 </div>
               </div>
-              <h1>
+              <h1 className="ser-h1">
                 We provide the <br></br>{" "}
                 <span className="span2">best services.</span>
               </h1>

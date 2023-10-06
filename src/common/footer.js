@@ -30,13 +30,13 @@ function Footer() {
 
                         <div className='col-lg-3 col-md-4 col-sm-12 nam'>
 
-                            <h1 className='infyy'><b>Follow Us</b><br></br></h1>
+                            <h1 className='infyy'><b>FOLLOW US</b><br></br></h1>
                             <p className='hari text-muted'> Hari complex opp.prozone mall,
                                 Sathy Rd, Saravanampatti,
                                 Coimbatore, Tamil Nadu 641035</p>
                         </div>
                         <div className='col-lg-3 col-md-4 col-sm-12  nam-icon'>
-                            <h1 className='infyy-icon'><b>Follow Us </b><br></br></h1>
+                            <h1 className='infyy-icon'><b>FOLLOW US </b><br></br></h1>
                             <div className='infyicon'>
                             <a href="#" className="infyicon infyicon1"><i className="fa fab fa-facebook"></i></a>
                             <a href="#" className="infyicon infyicon1"><i className="fa fab fa-twitter"></i></a>
@@ -77,7 +77,7 @@ function Footer() {
                         </div>
                         <div className='col-xs-6 col-sm-3'>
                             <h1 className='mini-title three'>Address</h1>
-                            <p className='text-muted address'><b>hari complex opp.prozone mall,
+                            <p className='text-muted address'><b>Hari complex opp.prozone mall,
                                 Sathy Rd, Saravanampatti,
                                 Coimbatore, Tamil Nadu 641035</b></p><hr className='text-muted'></hr>
                             <p className='text-muted address'>9952141444</p>

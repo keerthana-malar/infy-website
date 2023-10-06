@@ -215,56 +215,56 @@
 }
 
 /* Testimonial   */
-.testimonialSec{
+.testimonialSec {
   padding: 50px 0;
   background-image: url(../../public/images/h1-bg04.jpg);
   background-position: 0px 200px;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.testimonialBox{
+.testimonialBox {
   box-shadow: 0 0 10px var(--bgs);
   border-radius: 10px;
   margin-bottom: 50px;
   background-color: #fff;
 }
-.testiTopCont{
+.testiTopCont {
   margin-bottom: 50px;
   color: #fff;
 }
-.clientBox{
+.clientBox {
   display: flex;
   align-items: center;
 }
-.clientBox p{
+.clientBox p {
   padding: 0;
   margin: 0;
 }
-.clientImgBox{
+.clientImgBox {
   display: flex;
   align-items: center;
 }
-.clientQuote{
+.clientQuote {
   height: 60px;
   width: 60px;
   background-color: var(--pri);
   border-radius: 50%;
   margin-left: -120px;
 }
-.clientQuote img{
+.clientQuote img {
   scale: 0.5;
 }
-.clientImg{
+.clientImg {
   height: 80px;
   width: 80px;
   overflow: hidden;
   border-radius: 50%;
   margin-left: 40px;
 }
-.clientName{
+.clientName {
   margin-left: 80px;
 }
-.testMainCont{
+.testMainCont {
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -272,11 +272,11 @@
   color: #fff;
 }
 @media (width <= 991px) {
-  .testMainCont{
+  .testMainCont {
     flex-wrap: wrap;
   }
 }
-.testiIconBox{
+.testiIconBox {
   height: 150px;
   width: 150px;
   background-color: var(--pri);
@@ -285,17 +285,17 @@
   align-items: center;
   border-radius: 50%;
 }
-.testiIconBox img{
+.testiIconBox img {
   height: 50%;
   width: 50%;
 }
-.testiIconBox{
+.testiIconBox {
   margin: 10px auto;
   transition: all 0.3s;
 }
-.testiContBox{
+.testiContBox {
   text-align: center;
 }
-.testInn:hover .testiIconBox{
+.testInn:hover .testiIconBox {
   background-color: var(--sec);
 }

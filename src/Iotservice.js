@@ -7,6 +7,7 @@ import IotOverlay from './services/IotOverlay';
 // import IotProjects from './services/IotProjects';
 import IotService from './services/IotService';
 import Footer from './common/footer';
+import IotBlogs from './services/IotBlogs';
 
 function Iotservices() {
   return (
@@ -17,8 +18,10 @@ function Iotservices() {
       <IotAbout />
       <IotService />
       <IotActivities />
+      <IotBlogs />
       {/* <IotProjects /> */}
       <IotOurService />
+      
       <Footer/>
 
     

@@ -14,6 +14,8 @@ import { GiEyeShield } from "react-icons/gi";
 import { BsArrowRight } from 'react-icons/bs'
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { LuLaptop2 } from "react-icons/lu";
+import { MdOutlineSecurity } from "react-icons/md";
+
 
 function IotService() {
   useEffect(() => {
@@ -26,10 +28,11 @@ function IotService() {
       <br></br>
 
       <div className="bgBox mb-5">
-        <div className="container">
+        <div>
           <div className="row align-items-center">
             {/* Left Content Box  */}
             <div className="col-md-4 leftContBox">
+              <div className="leftparagraph">
               <div className="heads">
                 <div className="small_line"></div>
                 <div>
@@ -37,18 +40,19 @@ function IotService() {
                 </div>
               </div>
               <h1 className="ser-h1">
-                We provide the <br></br>{" "}
+                We provide the{" "}
                 <span className="span2">best services.</span>
               </h1>
-              <p className="box1_para">
-                We understand that each client is unique,<br></br>
-                and we tailor our services to meet your<br></br> specific needs.
+              <p className="box1_para text-muted">
+                We understand that each client is unique,
+                and we tailor our services to meet your specific needs.
               </p>
-              <button type="button" className="box1_btn button">
+              <button type="button" className="btn btn-lg box1_btn button">
                 {" "}
                 Services
                 <div className="smallcode"></div>
               </button>
+            </div>
             </div>
             {/* Left Content Box End  */}
             {/* Right Content Box  */}
@@ -63,7 +67,7 @@ function IotService() {
                       </div>
                     </div>
                     <div className="col-md-8 text">
-                      <h4> Computer Network Solutions</h4>
+                      <h4> Complete Network Solutions</h4>
                       <p className="right_para">
                       Protect your digital assets with  
                        network security services.
@@ -87,7 +91,7 @@ function IotService() {
                       </div>
                     </div>
                     <div className="col-md-8 text">
-                      <h4> Laptop/Desktop Sales & Service</h4>
+                      <h4> Laptop / Desktop <br></br>Sales, Service</h4>
                       <p className="right_para">
                       Explore our curated  laptops and desktops,
                        latest models.
@@ -109,11 +113,11 @@ function IotService() {
                     <div className="col-md-4">
                       <div className="rightsmall_line"></div>
                       <div className="iconsiot">
-                        <BsCodeSlash className="icon_size" />
+                        <MdOutlineSecurity className="icon_size" />
                       </div>
                     </div>
                     <div className="col-md-8 text">
-                      <h4> Web Design</h4>
+                      <h4> Security Services</h4>
                       <p className="right_para">
                       We specialize in responsive web design, ensuring your site
                        looks.
@@ -137,7 +141,7 @@ function IotService() {
                       </div>
                     </div>
                     <div className="col-md-8 text">
-                      <h4> CCTV / Bio-Metrics</h4>
+                      <h4>AV Solutions</h4>
                       <p className="right_para">
                       Our CCTV systems to meet your specific 
                       security needs.

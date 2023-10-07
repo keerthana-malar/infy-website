@@ -135,19 +135,24 @@ function header() {
                     </li>
                     <li>
                       <Link className="mlink" to="/ispservice">
-                        ISP
+                        ISP Service
                       </Link>
                     </li>
                     <li>
                       <Link className="mlink" to="/ServiceSeo">
-                        Web / App
+                        Website / App
                       </Link>
                     </li>
                 </div>
               </li>
               <li>
                 <Link className="mlink" to="/blogs">
-                  Blog
+                  Career
+                </Link>
+              </li>
+              <li>
+                <Link className="mlink" to="/blogs">
+                  Partner
                 </Link>
               </li>
               <li>

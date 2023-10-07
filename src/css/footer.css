@@ -1,41 +1,59 @@
 .mainfooter {
-    background-color: var(--bgc);
+    /* background-color: var(--bgc); */
+    background-image: url('/public/images/footer-bg.jpg');
     position: relative;
+    color:white;
     
 }
-
+.smallbox-1 li{
+    color:#fff;
+}
 .one {
     margin-left: 30px;
-    color: var(--pri);
+    color:#fff;
+    font-size:22px;
+    font-weight: 600;
 
 }
-
+.hrline{
+    color:#fff;
+}
 .two {
     margin-left: 30px;
-    color: var(--pri);
+    color:#fff;
+    font-size:22px;
+    font-weight: 600;
 }
 .two Link{
-    color:grey;
+    color:#fff;
 }
-.quicklinks Link{
-    color:grey;
+.quicklinks a{
+    color:#fff;
+}
+.quicklinks a:hover{
+    color:var(--sec);
 }
 
 .three {
     margin-left: 30px;
-    color: var(--pri);
-
-
+    color:#fff;
+    font-size:22px;
+    font-weight: 600;
 }
 
 .four {
     margin-left: 30px;
-    color: var(--pri);
-
+    color:#fff;
+    font-size:22px;
+    font-weight: 600;
 }
 
 .address {
     margin-left: 30px;
+    color:#fff;
+}
+.address p{
+    color:#fff;
 }
 .online {
     padding: 5px 10px;
@@ -127,6 +145,7 @@
     height: 20;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    
 }
 
 .nam {
@@ -134,11 +153,14 @@
     
 }
 
-.infy {
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    padding: 50px;    
+.infy{
+    /* color: white; */
+    /* text-align: center; */
+    /* font-size: 30px; */
+    padding: 25px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .infyy{
     text-align: right;
@@ -152,7 +174,7 @@
 .infyicon{
     margin-top: 0px;
     text-align: center;
-    padding: 15px;
+    padding: 5px;
     font-size: 20px;
     color: var(--sec);
 }
@@ -165,12 +187,11 @@
 }
 .calls{
 background-color: white;
-
 }
 .phone {
     text-align: center;
     color: var(--sec);
-    font-size: 22px;
+    font-size: 20px;
 }
 .email{
         text-align: center;
@@ -284,6 +305,18 @@ background-color: white;
     .nam1{
         border-bottom-left-radius: 10px;
     }
+}
+.authorize img{
+    width:100px;
+}
+.auth{
+    margin-left:20px;
+}
+.authorize{
+    padding-bottom:50px;
+}
+.ph{
+    font-size: 22px;
 }
 
 

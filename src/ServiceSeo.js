@@ -32,7 +32,6 @@ function ServiceSeo(){
         <Solution/>
         <Webblog/>
         <Flow/>
-        
         </div>
         <Footer/>
         </>

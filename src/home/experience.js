@@ -1,4 +1,5 @@
 import "../css/home.css";
+import 'font-awesome/css/font-awesome.css';
 
 const ourExp = () => {
   return (
@@ -7,12 +8,10 @@ const ourExp = () => {
         <div className="container">
           <div className="ourExp">
             <div className="row align-items-center">
-              <div className="col-md-6">
-                <img className="img-fluid" src="/images/IT-10YEARS.png"></img>
-              </div>
+             
               <div className="col-md-6">
                 <p className="mini-title main-color">OUR EXPERIENCE</p>
-                <p className="sub-title">Experts With Experience</p>
+                <p className="home-about-ttle">Experts With Experience</p>
                 <p className="text-muted">
                 Our journey is a testament to our expertise. With years of experience and a 
                 commitment to quality, we've honed our skills to deliver excellence. 
@@ -20,21 +19,23 @@ const ourExp = () => {
                 </p>
                 <div class="row align-items-center ourExpList">
                   <div class="col-md-6">
-                    <li> Complete Network Solutions</li>
-                    <li>Computer/Laptop Sales and Service</li>
-                    <li>CCTV / Biometrics</li>
-                    <li>Computer Accessories</li>
-                    <li>AMC for Computers</li>
-
+                  <ul class="list-home">
+                    <li> <i className="fa fas fa-check-circle ico-list-colo"></i>Complete Network Solutions</li>
+                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>Computer/Laptop Sales and Service</li>
+                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>CCTV / Biometrics</li>
+                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>Computer Accessories</li>
+                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>AMC for Computers</li>
+                    </ul>
 
                   </div>
                   <div class="col-md-6">
-                    <li> Website/SEO Development</li>
-                    <li>Graphic Designs</li>
-                    <li> Doorstep Computer Services</li>
-                    <li>Network Components</li>
-                    <li> POS / Billing Software</li>
-
+                  <ul class="list-home">
+                    <li><i className="fa fas fa-check-circle ico-list-colo"></i> Website/SEO Development</li>
+                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>Graphic Designs</li>
+                    <li><i className="fa fas fa-check-circle ico-list-colo"></i> Doorstep Computer Services</li>
+                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>Network Components</li>
+                    <li><i className="fa fas fa-check-circle ico-list-colo"></i> POS / Billing Software</li>
+                    </ul>
 
                   </div>
                 </div>
@@ -55,6 +56,9 @@ const ourExp = () => {
                     </p>
                   </div>
                 </div>
+              </div>
+              <div className="col-md-6">
+                <img className="img-fluid" src="/images/Experience 1.jpg"></img>
               </div>
             </div>
           </div>

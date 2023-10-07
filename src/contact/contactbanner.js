@@ -4,7 +4,7 @@ import '../css/contact.css';
 function contact() {
     return (
         <>
-            <div className="top-banner">
+            <div className="contact-banner">
                 <div>
                     <p className="main-title">Contact Us</p>
                 </div>

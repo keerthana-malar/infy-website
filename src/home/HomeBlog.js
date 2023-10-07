@@ -7,7 +7,7 @@ const HomeBlog = () => {
         <div className="container">
             <div className="homeBlogTopCont text-center">
                 <p className="mini-title main-color">From Our Blogs</p>
-                <p className="sub-title">Here’s What’s Happening</p>
+                <p className="test-head">Here’s What’s Happening</p>
             </div>
             <div className="homeBlogBox">
                 <div className="row p-1">

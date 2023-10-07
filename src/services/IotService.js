@@ -67,7 +67,7 @@ function IotService() {
                       </div>
                     </div>
                     <div className="col-md-8 text">
-                      <h4> Computer Network Solutions</h4>
+                      <h4> Complete Network Solutions</h4>
                       <p className="right_para">
                       Protect your digital assets with  
                        network security services.
@@ -141,7 +141,7 @@ function IotService() {
                       </div>
                     </div>
                     <div className="col-md-8 text">
-                      <h4> CCTV / Bio-Metrics</h4>
+                      <h4>AV Solutions</h4>
                       <p className="right_para">
                       Our CCTV systems to meet your specific 
                       security needs.

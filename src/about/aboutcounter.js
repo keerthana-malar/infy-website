@@ -1,9 +1,15 @@
+import React, { useState } from "react";
 import Progress from "../progress";
 import CountUp from 'react-countup';
+import ScrollTrigger from "react-scroll-trigger";
 
 
-function aboutcounter(){
+function AboutCounter(){
+
+  const [counterOn, setCounterOn] = useState();
+
     return(
+      <ScrollTrigger onEnter= {()=> setCounterOn(true)} onExit={()=> setCounterOn(false)}>
 <div className="load">
     <div className="testbox">
         <div className="counter-sec">
@@ -11,7 +17,7 @@ function aboutcounter(){
               <div className="col-md-4 main-bx">
                 <div className="coun-box">
                   <div className="count">
-                    <CountUp start={0} end={31} duration={5} delay={0}/>
+                  {counterOn && <CountUp start={0} end={487} duration={5} delay={0}/>}+
                   </div>
                 </div>
                 <div className="title">
@@ -21,7 +27,7 @@ function aboutcounter(){
               <div className="col-md-4 main-bx">
                 <div className="coun-box">
                   <div className="count">
-                  <CountUp start={0} end={750} duration={5} delay={0}/>
+                  {counterOn && <CountUp start={0} end={416} duration={5} delay={0}/>}
                   </div>
                 </div>
                 <div className="title">
@@ -31,7 +37,7 @@ function aboutcounter(){
               <div className="col-md-4 main-bx">
                 <div className="coun-box">
                   <div className="count">
-                  <CountUp start={0} end={27} duration={5} delay={0}/>
+                  {counterOn && <CountUp start={0} end={68} duration={5} delay={0}/>}+
                   </div>
                 </div>
                 <div className="title">
@@ -53,10 +59,10 @@ function aboutcounter(){
               <div className="sh-abt-bx p-5">
                 <p className="mini-title main-color">about us</p>
                 <p className="s-title">
-                  We deal With The Aspects Of Professional IT Services
+                  We Deal With The Aspects Of Professional IT Services
                 </p>
                 <p>
-                we specialize in addressing every facet of professional IT services. We take immense pride in our ability to serve a diverse range of clients, including large organizations, institutions, industries, and individual customers. Our primary objective is to deliver top-tier doorstep services, consistently offering competitive rates and exceptional value to our clients."
+                We specialize in addressing every facet of professional IT services. We take immense pride in our ability to serve a diverse range of clients, including large organizations, institutions, industries, and individual customers. Our primary objective is to deliver top-tier doorstep services, consistently offering competitive rates and exceptional value to our clients."
                 </p>
                 <Progress />
               </div>
@@ -66,7 +72,8 @@ function aboutcounter(){
        </div>
     </div>
  </div>
+ </ScrollTrigger>
     );
 }
 
-export default aboutcounter;
+export default AboutCounter;

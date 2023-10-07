@@ -1,3 +1,6 @@
+.load{
+    margin:100px 0;
+}
 .abt-sec{
     margin:100px;
 }
@@ -41,12 +44,18 @@
     justify-content: center;
 }
 .coun-box .count{
-    font-size: clamp(80px, 5vw, 90px);
-    font-weight: 400;
+        font-size: clamp(100px, 5vw, 110px);
+        font-weight: 300;
+        font-family: barlow,Sans-serif;
+        background-image: linear-gradient(#ee6196, #5e6fb5);
+        background-clip: text;
+        color:transparent;
 }
 .counter-sec .title{
     color:#fff;
     text-align: center;
+    font-weight: 400;
+    line-height: 1.2em;
 }
 .counter-sec .title p{
     font-size: clamp(22px, 2vw, 25px);
@@ -54,7 +63,6 @@
 .short-abt{
     background-color: #fff;
     border-radius:10px;
-    /* border:1px solid red; */
     box-shadow: 0 0 5px 0 ;
 }
 .short-abt .progress{
@@ -64,18 +72,14 @@
 .short-abt .progress-bar{
     width: 95%;
 }
-.count{
-    color:#fff;
-}
 .testbox{
     background-size: fit-content;
-    background-image: url("../images/banner/webpage.jpg");
+    background-image: url("/public/images/banner/h2-bg1.jpg");
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position: top center;
 }
 .inn{
     width: 90%;
-    /* background-color: #fff; */
     margin: 0 auto;
     
 }
@@ -83,6 +87,7 @@
     padding:100px 0px;
 }
 .client-sec{
+   margin:0 0 100px 0;
    padding:20px 50px;
 }
 .client-con i{

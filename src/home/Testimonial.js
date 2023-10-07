@@ -10,10 +10,10 @@ const Testimonial = () => {
               <div className="row align-items-center">
                 <div className="col-md-6">
                   <p className="mini-title main-color">Our Client's</p>
-                  <p className="sub-title">Trusted From Over 1,500 Clients</p>
+                  <p className="home-about-ttle">Trusted From Over<br></br> 1,500 Clients</p>
                 </div>
                 <div className="col-md-6">
-                  <p className="text-muted">
+                  <p className="text-muted  home-baner-con-below">
                     "Great team to work with, they understood my requirements
                     and helped me go live within hours, and delivered the
                     results ahead of schedule."
@@ -39,7 +39,7 @@ const Testimonial = () => {
           <div className="testiCont">
             <div className="testiTopCont text-center">
                 <p className="mini-title sec-color">TECHNOLOGY INDEX</p>
-                <p className="sub-title">We Deliver Solution with the Goal of Trusting Relationships</p>
+                <p className="test-head">We Deliver Solution with the Goal of<br></br> Trusting Relationships</p>
             </div>
             <div className="testMainCont">
                 <div className="testInn">
@@ -48,7 +48,7 @@ const Testimonial = () => {
                     </div>
                     <div className="testiContBox">
                         <p className="mid-title">Complete Networking</p>
-                        <p className="">Seamless Connectivity Solutions</p>
+                        <p className="tech-desc">Seamless Connectivity <br></br>Solutions</p>
                     </div>
                 </div>
                 <div className="testInn">
@@ -57,7 +57,7 @@ const Testimonial = () => {
                     </div>
                     <div className="testiContBox">
                         <p className="mid-title">CCTV Camera</p>
-                        <p className="">24/7 Security Surveillance</p>
+                        <p className="tech-desc">24/7 Security Surveillance</p>
                     </div>
                 </div>
                 <div className="testInn">
@@ -66,7 +66,7 @@ const Testimonial = () => {
                     </div>
                     <div className="testiContBox">
                         <p className="mid-title">Web /Graphic Design</p>
-                        <p className="">Captivating Design Experiences</p>
+                        <p className="tech-desc">Captivating Design<br></br>Experiences</p>
                     </div>
                 </div>
                 <div className="testInn">
@@ -75,7 +75,7 @@ const Testimonial = () => {
                     </div>
                     <div className="testiContBox">
                         <p className="mid-title">Projectors/Biometrics</p>
-                        <p className="">Innovative Presentation and Access</p>
+                        <p className="tech-desc">Innovative Presentation <br></br>and Access</p>
                     </div>
                 </div>
                 <div className="testInn">
@@ -84,7 +84,7 @@ const Testimonial = () => {
                     </div>
                     <div className="testiContBox">
                         <p className="mid-title">Computer & Laptop</p>
-                        <p className="">Reliable Business Computing</p>
+                        <p className="tech-desc">Reliable Business<br></br> Computing</p>
                     </div>
                 </div>
             </div>

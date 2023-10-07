@@ -52,8 +52,6 @@
   color: var(--white);
 }
 
-
-
 /* Dots container */
 .dots-container {
   position: absolute;
@@ -119,6 +117,7 @@
 }
 .containers:hover .overlay{
   display: block;
+  opacity: 1;
 }
 .bg1{
   background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)), url('/public/images/iot-network.jpg');
@@ -167,11 +166,11 @@
     height: 100%;
     padding: 0px 20px;
     top: 0%;
-    transition:all .3s ease;
     background-color:var(--overlay);
     border-radius: 15px;
     display: none;
-    transition: all .8 ease;
+    opacity: 1;
+    transition: opcaity .8s ease-in;
 }
 
 /* icon */
@@ -280,7 +279,7 @@
 
 @media screen and (min-width:1500px){
   .banner-content1{
-    font-size: 100px;
+    font-size: 80px;
     padding-top: 100px;
   }
   .banner-content2{

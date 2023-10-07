@@ -16,9 +16,9 @@ const IotBanner = () => {
     const [currSlide, setCurrSlide] = useState(0)
 
     const images = [
-        '/images/banner.jpg',
-        '/images/banner2.jpg',
-        '/images/banner.jpg',
+        '/images/Banner1.jpg',
+        '/images/Baner2.jpg',
+        '/images/Banner3.jpg',
       ];
 
     useEffect(() => {

@@ -122,8 +122,8 @@ const IotBanner = () => {
 
       {/* services */}
       
-      <div className=' heading'>
-        <div className='containers container'>
+      <div className='container heading'>
+        <div className='containers container '>
           <div className='bg1'>
             <div className='head'>
               <div className='sub-head'>
@@ -152,13 +152,13 @@ const IotBanner = () => {
           </div>
         </div>
 
-        <div className='containers container'>
+        <div className='containers container '>
           <div className='bg2'>
             <div className='head'>
               <div className='sub-head'>
                 <h1 className='icon'><BiSolidCctv style={iconStyles}/></h1>
                 <h1 className='title'>
-                  CCTV / Bio-Metrics <br /> Sales & Services
+                  Security<br />Services
                 </h1>
               </div>
 
@@ -170,10 +170,10 @@ const IotBanner = () => {
 
           <div className='overlay'> 
             <div className='texts'>
-              <h4> CCTV / Bio-Metrics <br /> Sales & Services</h4>
+              <h4> Security<br />Services</h4>
               <div className='texts-line'/>
               <p>
-                  CCTV/Bio-Metrics Sales & Services offer security solutions through cameras and biometric systems for effective monitoring and access control.</p>
+              Enhance security with our advanced CCTV and biometric systems for comprehensive protection and peace of mind.</p>
             </div>
              {/* arrow */}
             <div className='overlay-arrow'><BsArrowRight style={{fontSize:"22px",marginTop:"10px"}}/></div>
@@ -187,7 +187,7 @@ const IotBanner = () => {
               <div className='sub-head'>
                 <h1 className='icon'><BsProjectorFill style={iconStyles}/></h1>
                 <h1 className='title'>
-                  Projectors / <br /> Smart TV
+                  AV <br /> Solutions
                 </h1>
               </div>
 
@@ -199,9 +199,9 @@ const IotBanner = () => {
 
           <div className='overlay '>
             <div className='texts'>
-              <h4> Projectors / <br /> Smart TV</h4>
+              <h4>  AV <br /> Solutions</h4>
               <div className='texts-line'/>
-                <p>Projectors provide large screen displays, while Smart TVs offer internet connectivity and interactive features.  </p>
+                <p>Enhance your space with our seamless AV solutions for effortless and immersive audio-visual experiences.  </p>
               </div>
               {/* arrow */}
               <div className='overlay-arrow'><BsArrowRight className='arrow-icon' style={{fontSize:"22px",marginTop:"10px"}}/></div>

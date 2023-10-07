@@ -109,7 +109,7 @@ const IotActivities = () => {
                     <BiSolidPhoneCall className='phone-icon'/>
                     <p>Call For Help</p>
                 </div>
-            <p className='cont-no'>+234-13-1810</p>
+            <p className='cont-no'>+91 99342567810</p>
             </div>
         </div>
     </ScrollTrigger>

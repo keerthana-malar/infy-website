@@ -91,11 +91,14 @@
   height: 25vh;
 }
 .heading{
-  position:absolute;
+  /* position:absolute; */
+  position: relative;
+  top: -100px;
   width: 100%;
   /* margin: 0px 10px; */
-  bottom: -280px;
+  /* bottom: -280px; */
   display: grid;
+  /* margin-left: 100px; */
   grid-template-columns: repeat(4,1fr);
   /* gap:30px; */
   /* margin: 10px 20px; */
@@ -110,7 +113,7 @@
 
 .containers{
   position: relative;
-  width: 90%;
+  width: 100%;
   height: auto;
   display: inline-block;
 }
@@ -267,7 +270,7 @@
   .banner button{
     /* margin: 0px 30px; */
   }
-  .container{
+  .containers{
     margin-top: 20px;
   }
   .help_overlay{
@@ -291,7 +294,7 @@
     left: 43%;
   }
   .heading{
-    padding: 0px 200px;
+    /* padding: 0px 200px; */
     gap:0px;
   }
   .number{

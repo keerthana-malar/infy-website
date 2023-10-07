@@ -480,11 +480,13 @@ font-size: 40px;
 .home-slide .hom-sld-img{
   width: 95%;
   height: 100%;
+  border-radius:20px;
 }
 .home-cont-overlay img{
   width: 60px;
   height: 60px;
   margin-bottom: 20px;
+
   /* var(--pri) */ color: #1f3195;
 }
 
@@ -501,6 +503,7 @@ font-size: 40px;
 
 .home-slide:hover .home-cont-overlay{
   display: block;
+  border-radius:10px;
 }
 .home-slider:hover .home-arrow{
   display: block;
@@ -555,8 +558,11 @@ font-size: 40px;
   font-size: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   display: none;
-  
+}
 .tech-desc{
   color: #b3bdd1;
 
+}
+.home-sliderr{
+  margin-top:100px;
 }

@@ -92,10 +92,6 @@
     margin-left: 34px;
 }
 
-/* .sm {
-    margin-left: 10px;
-} */
-
 .mainfooter li {
     list-style: none;
     margin-bottom: 10px;
@@ -133,10 +129,7 @@
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-/* .small{
-    border-radius: 10px;
-    border:1px solid green;
-} */
+
 .name {
     background-color: var(--pri);
     /* border-radius: 10px; */

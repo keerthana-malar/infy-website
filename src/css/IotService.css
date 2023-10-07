@@ -50,11 +50,10 @@
   font-weight: 600;
   transition: all 1s;
 }
+.box1_btn:hover{
+  box-shadow: inset -140px 0px 0px 0px var(--warning), inset 140px 0px 0px 0px;
 
-.button:hover{
-box-shadow: inset -140px 0px 0px 0px var(--warning), inset 140px 0px 0px 0px;
 }
-
 
 
 
@@ -224,7 +223,7 @@ color: var(--gray-dark);
 }
 
 .leftContBox{
-background: url("E:\Project\infy-website\public\images\stone-texture.jpg") no-repeat;
+background: url("/public/images/stone-texture.jpg") no-repeat;
 height: 600px;
  }
 

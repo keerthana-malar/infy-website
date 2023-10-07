@@ -70,7 +70,7 @@ function IotAbout() {
                     </div>
 
                     <div className='about'>
-                        <div className='small'></div>
+                        <div className='smallsss'></div>
                         <h4 className='aboutline_head'>About us</h4>
                     </div>
                     

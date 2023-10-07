@@ -4,7 +4,7 @@ import IotActivities from './services/IotActivities';
 import IotBanner from './services/IotBanner';
 import IotOurService from './services/IotOurService';
 import IotOverlay from './services/IotOverlay';
-import IotProjects from './services/IotProjects';
+// import IotProjects from './services/IotProjects';
 import IotService from './services/IotService';
 import Footer from './common/footer';
 
@@ -17,7 +17,7 @@ function Iotservices() {
       <IotAbout />
       <IotService />
       <IotActivities />
-      <IotProjects />
+      {/* <IotProjects /> */}
       <IotOurService />
       <Footer/>
 

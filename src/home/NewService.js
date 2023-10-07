@@ -16,7 +16,7 @@ const NewService = () => {
 
       };
   return (
-    <div className='container home-slider' >
+    <div className='container home-sliderr' >
             {/* arrows */}
              {/* <div className='ho-arr'>
                 <button className='home-arrow'><BsArrowLeft /></button>

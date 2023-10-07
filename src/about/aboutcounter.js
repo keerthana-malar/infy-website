@@ -1,4 +1,5 @@
 import Progress from "../progress";
+import CountUp from 'react-countup';
 
 
 function aboutcounter(){
@@ -9,7 +10,9 @@ function aboutcounter(){
             <div className="row">
               <div className="col-md-4 main-bx">
                 <div className="coun-box">
-                  <div className="count"></div>
+                  <div className="count">
+                    <CountUp start={0} end={31} duration={5} delay={0}/>
+                  </div>
                 </div>
                 <div className="title">
                   <p className="sub-title">Completed Projects</p>
@@ -17,7 +20,9 @@ function aboutcounter(){
               </div>
               <div className="col-md-4 main-bx">
                 <div className="coun-box">
-                  <div className="count"></div>
+                  <div className="count">
+                  <CountUp start={0} end={750} duration={5} delay={0}/>
+                  </div>
                 </div>
                 <div className="title">
                   <p className="sub-title">Happy Clients</p>
@@ -25,7 +30,9 @@ function aboutcounter(){
               </div>
               <div className="col-md-4 main-bx">
                 <div className="coun-box">
-                  <div className="count"></div>
+                  <div className="count">
+                  <CountUp start={0} end={27} duration={5} delay={0}/>
+                  </div>
                 </div>
                 <div className="title">
                   <p className="sub-title">Services Provider</p>

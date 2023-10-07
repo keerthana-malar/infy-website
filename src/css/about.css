@@ -10,7 +10,7 @@
 .abt-box{
     border:0.5px solid grey;
 }
-@property --num {
+/* @property --num {
     syntax: "<integer>";
     initial-value: 0;
     inherits: false;
@@ -31,7 +31,7 @@
     to {
         --num: 100;
    }
-}
+} */
 .counter-sec{
     padding:20px 100px;
 }

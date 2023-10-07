@@ -23,12 +23,12 @@ function IotOurService() {
       }, []);
     return (
         <div className='firsthead'>
-
+           <div className='container'>
             {/* left side start  */}
-           <div className='Ourservice_leftside'>
-               
-                    <div className='header1'>
-                        <div className='about'>
+           <div className=' row Ourservice_leftside'>
+
+                    <div className='col-md-6 header1'>
+                        <div className='abouts'>
                             <div className='small_line'></div>
                             <h4 className='aboutline_head'>Services</h4>
                         </div>
@@ -36,7 +36,7 @@ function IotOurService() {
                             range of services tailored to meet your needs.</p>
                     </div>
                
-                    <div className='header2'>
+                    <div className='col-md-6 header2 text-muted'>
                         <p>Join us on a journey of digital excellence.
                          Let's shape your vision into reality and take your online presence 
                          and technology infrastructure to new heights.</p>
@@ -64,6 +64,7 @@ function IotOurService() {
                     {/* {hiddenrow} */}
                     <div className='hiddenrows'>
                    <div className='pros'>
+                   <div className='divline'></div>
                    <h2 className='edgehead'> Computer Network Solutions </h2>
                    <div className='buttongroup'>
                    <button className='butt btn1'>+</button>
@@ -87,6 +88,7 @@ function IotOurService() {
                         {/* {Hidden} */}
                         <div className='hiddenrows1'>
                         <div className='pros'>
+                        <div className='divline'></div>
                    <h2 className='edgehead'>Laptop / Desktop Sales and Service </h2>
                    <div className='buttongroup'>
                    <button className='butt btn1'>+</button>
@@ -112,6 +114,7 @@ function IotOurService() {
                             {/* {Hidden} */}
                         <div className='hiddenrows2'>
                         <div className='pros'>
+                        <div className='divline'></div>
                    <h2 className='edgehead'>   CCTV / Bio - Metrics </h2>
                    <div className='buttongroup'>
                    <button className='butt btn1'>+</button>
@@ -142,6 +145,7 @@ function IotOurService() {
                            {/* {Hidden} */}
                            <div className='hiddenrows3'>
                            <div className='pros'>
+                           <div className='divline'></div>
                    <h2 className='edgehead'>  Projectors / Smart Class Smart Tv </h2>
                    <div className='buttongroup'>
                    <button className='butt btn1'>+</button>
@@ -164,6 +168,7 @@ function IotOurService() {
                        {/* {Hidden} */}
                        <div className='hiddenrows4'>
                        <div className='pros'>
+                       <div className='divline'></div>
                    <h2 className='edgehead'> Computer Accessories </h2>
                    <div className='buttongroup'>
                    <button className='butt btn1'>+</button>
@@ -189,6 +194,7 @@ function IotOurService() {
                        {/* {Hidden} */}
                        <div className='hiddenrows5'>
                        <div className='pros'>
+                       <div className='divline'></div>
                    <h2 className='edgehead'> Laptop / Desktop Rent </h2>
                    <div className='buttongroup'>
                    <button className='butt btn1'>+</button>
@@ -197,6 +203,7 @@ function IotOurService() {
                     </div>
                 </div>
                 {/* row completed */}
+            </div>
             </div>
         </div>
     )

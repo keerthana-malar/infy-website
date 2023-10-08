@@ -8,6 +8,7 @@ import OurExp from './home/experience';
 import Testimonial from './home/Testimonial';
 import HomeBlog from './home/HomeBlog';
 import Footer from './common/footer';
+import NewService from './home/NewService';
 
 function Home(){
 
@@ -19,7 +20,8 @@ function Home(){
         <Header/>
         <div className="controlacc">
         <Sliders/>
-        <Service/>
+        <NewService />
+        {/* <Service/> */}
         <HomeAbout/>
         <SubService/>
         <RecentProjects/>

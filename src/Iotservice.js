@@ -4,9 +4,10 @@ import IotActivities from './services/IotActivities';
 import IotBanner from './services/IotBanner';
 import IotOurService from './services/IotOurService';
 import IotOverlay from './services/IotOverlay';
-import IotProjects from './services/IotProjects';
+// import IotProjects from './services/IotProjects';
 import IotService from './services/IotService';
 import Footer from './common/footer';
+import IotBlogs from './services/IotBlogs';
 
 function Iotservices() {
   return (
@@ -17,8 +18,10 @@ function Iotservices() {
       <IotAbout />
       <IotService />
       <IotActivities />
-      <IotProjects />
+      <IotBlogs />
+      {/* <IotProjects /> */}
       <IotOurService />
+      
       <Footer/>
 
     

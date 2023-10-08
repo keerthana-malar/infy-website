@@ -120,7 +120,8 @@ const IotBanner = () => {
         ))}
       </div>
 
-      {/* services */}
+      {/* services */} 
+      {/* hhh */}
       
       <div className='container heading'>
         <div className='containers container '>

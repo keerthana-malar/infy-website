@@ -206,7 +206,7 @@ margin-left: 10px;
   border: 1px solid #fff;
   border-radius: 10px;
   padding: 20px;
-  height: 280px;
+  height: 310px;
   transition: all 0.5s;
   position: relative;
   margin-bottom: 70px;
@@ -325,7 +325,7 @@ color: #f7f9fa;
 .sm-titles{
   font-size: 20px;
 }
-.mid-titles{
+.home-slide .mid-titles{
   font-size: 23px;
   font-weight: 200;
 }
@@ -494,7 +494,7 @@ font-size: 40px;
 .home-slider {
   position: relative;
 }
-.mid-title{
+.home-slide .mid-titles{
   color: #1f3195;
   font-size: 26px;
 }
@@ -555,8 +555,12 @@ font-size: 40px;
   font-size: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   display: none;
+}
   
 .tech-desc{
   color: #b3bdd1;
+}
 
+.exp-home-tit{
+  font-size: 30px;
 }

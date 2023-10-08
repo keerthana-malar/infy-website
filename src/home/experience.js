@@ -48,7 +48,7 @@ const ourExp = () => {
                     ></img>
                   </div>
                   <div className="ourExpFootContBox">
-                    <p className="mid-title">
+                    <p className="mid-title exp-home-tit">
                     Built on Expertise and Experience
                     </p>
                     <p className="text-muted">

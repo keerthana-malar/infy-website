@@ -119,22 +119,27 @@ a {
 }
 
 /* Blog  */
-.homeBlogSec{
+.homeBlogSec {
   padding: 50px 0;
 }
-.blogBoxInn{
-  box-shadow:  0 0 10px var(--bgs);
+.blogBoxInn {
+  box-shadow: 0 0 10px var(--bgs);
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 30px;
 }
-.blogImgBox{
+.blogImgBox {
   height: 350px;
+  overflow: hidden;
 }
-.blogImgBox img{
+.blogImgBox img {
   object-fit: cover;
   height: 100%;
+  transition: all 1s;
 }
-.blogContBox{
+.blogContBox {
   padding: 20px;
+}
+.blogBoxInn:hover .blogImgBox img {
+  scale: 1.1;
 }

@@ -14,21 +14,28 @@ const ourExp = () => {
                 <p className="mini-title main-color">OUR EXPERIENCE</p>
                 <p className="sub-title">Experts With Experience</p>
                 <p className="text-muted">
-                  Quality & Customer version of lorem ipsum proin gravida nibh
-                  vel velit auctor aliquet aenean sollicitudin lorem quis
-                  bibendum auctor nisi elit consequat ipsum nec sagittis sem
-                  nibh id elit.
+                Our journey is a testament to our expertise. With years of experience and a 
+                commitment to quality, we've honed our skills to deliver excellence. 
+                At Infygain Technologies, we're not just experts; we're your partners in success
                 </p>
                 <div class="row align-items-center ourExpList">
                   <div class="col-md-6">
-                    <li>Experience in AMC</li>
-                    <li>Experience in AMC</li>
-                    <li>Experience in AMC</li>
+                    <li> Complete Network Solutions</li>
+                    <li>Computer/Laptop Sales and Service</li>
+                    <li>CCTV / Biometrics</li>
+                    <li>Computer Accessories</li>
+                    <li>AMC for Computers</li>
+
+
                   </div>
                   <div class="col-md-6">
-                    <li>Experience in AMC</li>
-                    <li>Experience in AMC</li>
-                    <li>Experience in AMC</li>
+                    <li> Website/SEO Development</li>
+                    <li>Graphic Designs</li>
+                    <li> Doorstep Computer Services</li>
+                    <li>Network Components</li>
+                    <li> POS / Billing Software</li>
+
+
                   </div>
                 </div>
                 <hr></hr>
@@ -41,11 +48,10 @@ const ourExp = () => {
                   </div>
                   <div className="ourExpFootContBox">
                     <p className="mid-title">
-                      Best Practices From Industry Experts
+                    Built on Expertise and Experience
                     </p>
                     <p className="text-muted">
-                      We've designed a culture that allows our stewards to
-                      assimilate with our clients and bring.
+                    expertise isn't just a word; it's our foundation. Our seasoned team of industry veterans brings a wealth of knowledge and a passion for excellence to every project.
                     </p>
                   </div>
                 </div>

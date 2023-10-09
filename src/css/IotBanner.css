@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto&display=swap');
+
+
+:root{
+  --yellow: #ffc000;
+  --grey:#313131;
+  --white: #ffffff;
+  --black: #000000;
+  --dot : #aaa;
+  --overlay: rgba(255, 255, 255, 1);
+}
+
+/* Banner */
+.banner {
+  font-family: 'Roboto', sans-serif;
+  /* position: relative; */
+}
+
+.banner-content1 {
+  font-size: 60px;
+  margin: 0px 80px;
+  padding-top: 60px;
+}
+
+.banner-content1 p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.banner-content2 p {
+  margin: 0px;
+}
+
+.banner-content2 {
+  font-size: 24px;
+  margin: 30px 80px;
+}
+
+.banner button {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--grey);
+  background-color: var(--yellow);
+  padding: 20px 50px;
+  border-radius: 10px;
+  margin: 0px 80px;
+  border: none;
+}
+
+.banner button:hover {
+  background-color: var(--grey);
+  color: var(--white);
+}
+
+
+
+/* Dots container */
+.dots-container {
+  position: absolute;
+  top: 50%;
+  right: 30px; 
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  background-color: transparent;
+  border: 1px solid var(--dot);
+  border-radius: 50%;
+  margin: 5px 0px; 
+  cursor: pointer;
+}
+
+.dot.active {
+  background-color: var(--yellow);
+}
+
+.line {
+  width: 2px;
+  height: 35px; 
+  background-color: var(--grey);
+  margin: 5px 5px;
+}
+
+/* services */
+.heading{
+  position:absolute;
+  width: 97%;
+  margin: 0px 10px;
+  top: 90%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:30px;
+  /* margin: 10px 20px; */
+}
+
+.title{
+  color:  var(--white);
+  font-size: 20px;
+}
+
+.containers{
+  position: relative;
+  width: 90%;
+  height: auto;
+  display: inline-block;
+}
+.containers:hover .overlay{
+  display: block;
+}
+.bg1{
+  background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)), url('/public/images/iot-network.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  border-radius: 5px;
+  /* display: block; */
+  width:100%;
+  height: 200px;
+}
+.bg2{  background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)), url('/public/images/iot-camera.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  display: block;
+  width:100%;
+  height: 200px;
+  overflow: hidden;
+}
+.bg3{
+  background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)), url('/public/images/iot-projectors.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  display: block;
+  width:100%;
+  height: 200px;
+  overflow: hidden;
+}
+.bg4{
+  background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)),url('/public/images/iot-projectors.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+  display: block;
+  width:100%;
+  height: 200px;
+  overflow: hidden;
+}
+.overlay{
+    position: absolute;
+    /* opacity: 0; */
+    /* left: 30%; */
+    width: 100%;
+    height: 100%;
+    padding: 0px 20px;
+    top: 0%;
+    transition:all .3s ease;
+    background-color:var(--overlay);
+    border-radius: 5px;
+    display: none;
+    transition: all .8 ease;
+}
+
+/* icon */
+.sub-head{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 25px;
+}
+.sub-head .icon{
+  margin: 30px 0px 20px 0    
+}
+.number{
+  margin-top: -20px;        
+  margin-bottom: 10px;
+  margin-right: 10px;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 0px;
+  position: relative;
+  float: right;
+  color:var(--yellow)
+}
+.texts h4{
+  font-size: 22px;
+  margin: 15px 0px;
+}
+.texts p{
+  font-size: 14px;
+}
+.texts-line{    
+  width:30%;
+  padding-top: 0px;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  border: 2px solid var(--yellow);
+}
+.overlay-arrow{
+  width: 50px;
+  height: 50px;
+  background-color: var(--yellow);
+  border-radius: 50%;
+  position: absolute;
+  top: 85%;
+  left: 40%;
+  text-align: center;
+}
+
+
+/* .arrow-icon:hover{
+  animation: aniArrow01 1s cubic-bezier(0, 0.6, 1, 0.4) 1 0.5s;
+ } */
+ 
+
+
+@media screen and (max-width:1200px) and (min-width:600px)  {
+
+  .banner{
+    margin-bottom: 30px;
+  }
+  .heading{
+    position: static;
+    grid-template-columns: repeat(2,1fr);
+    gap:40px 20px;
+   
+  }
+}
+@media screen and (max-width:600px)  {
+  .banner{
+    margin-bottom: 30px;
+  }
+  .heading{
+    position: static;
+    grid-template-columns: repeat(1,1fr);
+  }
+  .overlay{
+    width: 100%;
+  }
+  .banner-content2 { 
+    font-size: 16px;
+    margin: 30px 30px;
+  }
+  .banner-content1{
+    font-size: 40px;
+  }
+  .banner-content1  {
+    padding-top: 100px;
+    margin: 0px 30px;
+  }
+  .banner button{
+    margin: 0px 30px;
+  }
+}

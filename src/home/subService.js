@@ -8,7 +8,7 @@ const SubService = () => {
           <div className="subServiceTop">
             <p className="mini-title text-center">Our Services</p>
             <p className="sub-title text-center">
-              How Ghy Help of Your Business Grow And Successful
+              How why Help of Your Business Grow And Successful
             </p>
           </div>
           <div className="subServiceBox row">

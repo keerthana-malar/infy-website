@@ -1,5 +1,6 @@
 .mainfooter {
     background-color: var(--bgc);
+    position: relative;
     
 }
 
@@ -12,6 +13,12 @@
 .two {
     margin-left: 30px;
     color: var(--pri);
+}
+.two Link{
+    color:grey;
+}
+.quicklinks Link{
+    color:grey;
 }
 
 .three {
@@ -30,7 +37,6 @@
 .address {
     margin-left: 30px;
 }
-
 .online {
     padding: 5px 10px;
     background-color: var(--pri);
@@ -42,7 +48,6 @@
     font-size: 14px;
     margin-bottom: 2px;
 }
-
 .book {
     padding: 5px 10px;
     background-color: var(--pri);
@@ -53,13 +58,11 @@
     font-weight: 700;
     font-size: 14px;
 }
-
-
-
-.icons {
+.iconss {
     font-size: 20px;
     margin-left: 35px;
 color: var(--sec);
+text-align: left;
 }
 
 .follow {
@@ -67,9 +70,9 @@ color: var(--sec);
     margin-left: 34px;
 }
 
-.sm {
+/* .sm {
     margin-left: 10px;
-}
+} */
 
 .mainfooter li {
     list-style: none;
@@ -86,7 +89,7 @@ color: var(--sec);
     margin-left: 10px;
 }
 
-.small-box {
+/* .small-box {
     margin:40px 20px;
     width:100%;
     border-bottom: 5px;
@@ -94,17 +97,18 @@ color: var(--sec);
     box-shadow:  1px 1px 6px #aaaaaa;
     background-color: white;
     border-radius: 10px;
+    border:1px solid red;
     margin-top: 100px;
-    /* height: 100px; */
-}
+    height: 100px;
+} */
 .nam-icon{
     background-color: white;
     border-radius: 10px;
 }
-.small{
-    border-radius: 200px;
-}
-
+/* .small{
+    border-radius: 10px;
+    border:1px solid green;
+} */
 .name {
     background-color: var(--pri);
     border-radius: 10px;
@@ -120,9 +124,8 @@ color: var(--sec);
 .infy {
     color: white;
     text-align: center;
-    margin-top: 30px;
     font-size: 30px;
-    
+    padding: 50px;    
 }
 .infyy{
     text-align: right;
@@ -134,12 +137,11 @@ color: var(--sec);
 }
 .infyicon{
    
-    text-align: right;
+    text-align: center;
     padding: 20px;
     font-size: 20px;
     color: var(--sec);
 }
-
 .call {
     margin-top: 15px;
     text-align: center;
@@ -154,23 +156,19 @@ background-color: white;
 .phone {
     text-align: center;
     color: var(--sec);
-    font-size: 25px;
+    font-size: 22px;
 }
 .email{
         text-align: center;
         color: var(--sec);
         font-size: 15px;
 }
-
 .mail {
     /* margin-bottom: 100px; */
     text-align: center;
     color: black;
 
 }
-
-
-
 .hari {
     color: black;
     display: flex;
@@ -179,11 +177,44 @@ background-color: white;
     font-size: 15px;
     margin-top: 5px;
 }
-
 .follows {
     text-align: center;
     margin-left: 100px;
 }
+.facebook{
+    padding-right: 5px;
+}
+.twitter{
+    padding-right: 5px;
+}
+.instagram{
+    padding-right: 5px;
+}
+.whatsapp{
+    padding-right: 5px;
+}
+.linkedin{
+    padding-right: 5px;
+}
+
+.topmenu{
+  width:50px;
+  height: 50px; 
+  position: fixed; 
+  bottom: 20px;
+  right: 30px;
+  background-color: var(--pri); 
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  z-index: 1000; 
+  font-size:28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 
 
 

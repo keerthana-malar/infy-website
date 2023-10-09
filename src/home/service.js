@@ -5,7 +5,7 @@ import "animate.css";
 const Service = () => {
   return (
     <>
-      <div className="serviceContainer container-lg text-center">
+      <div className="serviceContainer container-lg text-center issue">
         <div className="serviceTopBox">
             <p className="mini-title main-color">Our Service</p>
             <p className="sub-title">We Offer a Wide Variety of IT Services</p>
@@ -16,8 +16,7 @@ const Service = () => {
             <img src="/images/icons/it.png" alt="service icons"></img>
             <h2 className="mid-title">IOT Services</h2>
             <p className="text-muted">
-              Expertise in a IT consultancy for the many companies, for their
-              different working areas.
+            Unlock IoT's Power. Strategy, Devices, Insights, and Security. Innovate with Us.
             </p>
           </div>
         </div>
@@ -26,8 +25,7 @@ const Service = () => {
             <img src="/images/icons/web.png" alt="service icons"></img>
             <h2 className="mid-title">Web Development</h2>
             <p className="text-muted">
-              Expertise in a IT consultancy for the many companies, for their
-              different working areas.
+            Crafting Digital Excellence. Custom Websites, E-Commerce, SEO, Maintenance.
             </p>
           </div>
         </div>
@@ -36,8 +34,7 @@ const Service = () => {
             <img src="/images/icons/isp.png" alt="service icons"></img>
             <h2 className="mid-title">ISP Services</h2>
             <p className="text-muted">
-              Expertise in a IT consultancy for the many companies, for their
-              different working areas.
+            Seamless Connectivity. High-Speed Internet, Network Security, 24/7 Support.
             </p>
           </div>
         </div>

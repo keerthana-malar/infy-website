@@ -21,12 +21,15 @@ padding-right: 0px;
 }
 .firstbutton{
     margin-left: 20px;
+
 }
 .secondbutton{
     margin-left: 10px;
+    margin-top: 10px; 
+    margin-left: 20px;
 }
 .buttons {
-    bottom: 0px; 
+    bottom: 0px;
     left: 50px;
 }
 .detailscontent{

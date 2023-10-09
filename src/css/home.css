@@ -299,3 +299,6 @@
 .testInn:hover .testiIconBox {
   background-color: var(--sec);
 }
+.issue {
+  margin-top: -600px !important;
+}

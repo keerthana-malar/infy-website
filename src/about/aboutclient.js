@@ -14,11 +14,9 @@ function aboutclient(){
                 <p className="mini-title main-color">CLIENT FEEDBACK</p>
                 <p className="s-title mb-5">What Our Clients Say</p>
                 <i className="text-muted">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim laborum. Sed ut perspiciatis
-                unde omnis iste natus error sit voluptatem accusantium
-                doloremque laudantiumtam rem aperiam eaque ipsa quae inventore
-                veritatis quasi architecto beatae vitae.
+                "Great team to work with, they understood my requirements
+                    and helped me go live within hours, and delivered the
+                    results ahead of schedule."
                 </i>
             </div>
             <div className="clientBox">

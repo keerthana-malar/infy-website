@@ -1,14 +1,10 @@
 import {
   FaRegClock,
   FaLocationDot,
-  FaHeadset,
-  FaSquareXTwitter,
-  FaSquareFacebook,
-  FaSquareInstagram,
-  FaLinkedin,
-  FaSquareWhatsapp,
-  FaSquareYoutube,
+  FaHeadset
 } from "react-icons/fa6";
+import { IoMdArrowDropdown } from "react-icons/io";
+import { LiaFacebookF, LiaInstagram, LiaLinkedinIn, LiaWhatsapp, LiaYoutube, LiaTwitter } from "react-icons/lia";
 import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import "../css/header.css";
@@ -25,6 +21,14 @@ function header() {
       dropBox.classList.add("drop-show");
     }
   }
+ function DropdownMenuSub(e){
+  let eve = e.target.style.display;
+  if(eve == "block"){
+      eve="none";
+  }
+  else{eve = "block" }
+ }
+
 
   return (
     <>
@@ -64,34 +68,34 @@ function header() {
                   className="head-link sm"
                   href="https://www.facebook.com/infygain/"
                 >
-                  <FaSquareFacebook />
+                  <LiaFacebookF />
                 </a>
                 <a
                   className="head-link sm"
                   href="https://www.instagram.com/infygain/"
                 >
-                  <FaSquareInstagram />
+                  <LiaInstagram />
                 </a>
                 <a className="head-link sm" href="https://twitter.com/infygain">
-                  <FaSquareXTwitter />
+                  <LiaTwitter />
                 </a>
                 <a
                   className="head-link sm"
                   href="https://www.linkedin.com/company/infygain-technologies/"
                 >
-                  <FaLinkedin />
+                  <LiaLinkedinIn />
                 </a>
                 <a
                   className="head-link sm"
                   href="https://api.whatsapp.com/send/?phone=919952141444&text&type=phone_number&app_absent=0"
                 >
-                  <FaSquareWhatsapp />
+                  <LiaWhatsapp />
                 </a>
                 <a
                   className="head-link sm"
                   href="https://www.youtube.com/@infygain6707"
                 >
-                  <FaSquareYoutube />
+                  <LiaYoutube />
                 </a>
               </div>
             </div>
@@ -119,10 +123,27 @@ function header() {
                   About
                 </Link>
               </li>
-              <li>
-                <Link className="mlink" to="/services">
-                  Services
+              <li className="sub">
+                <Link className="mlink">
+                  Services <IoMdArrowDropdown/>
                 </Link>
+                <div className="submenu">
+                    <li>
+                      <Link className="mlink" to="/Iotservice">
+                        IT Supports
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="mlink" to="/ispservice">
+                        ISP
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="mlink" to="/ServiceSeo">
+                        Web / App
+                      </Link>
+                    </li>
+                </div>
               </li>
               <li>
                 <Link className="mlink" to="/blogs">
@@ -175,11 +196,28 @@ function header() {
             About
           </Link>
         </li>
-        <li>
-          <Link className="mlink" to="/services">
-            Services
-          </Link>
-        </li>
+        <li className="sub">
+                <Link className="mlink " onClick={DropdownMenuSub}>
+                  Services <IoMdArrowDropdown/>
+                </Link>
+                <div className="submenu">
+                    <li>
+                      <Link className="mlink" to="/Iotservice">
+                        IT Supports
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="mlink" to="/ispservice">
+                        ISP
+                      </Link>
+                    </li>
+                    <li>
+                      <Link className="mlink" to="/ServiceSeo">
+                        Web / App
+                      </Link>
+                    </li>
+                </div>
+              </li>
         <li>
           <Link className="mlink" to="/blogs">
             Blog

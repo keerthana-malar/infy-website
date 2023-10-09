@@ -9,7 +9,7 @@ const HomeAbout = () => {
             <div className="aboutImg">
               <img
                 className="img-fluid"
-                src="/images/IT.png"
+                src="/images/about-img.png"
                 alt="Service Image"
               ></img>
             </div>

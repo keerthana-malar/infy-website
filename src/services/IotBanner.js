@@ -55,7 +55,7 @@ const IotBanner = () => {
                <div className='banner-content1 container'>
                   <p data-aos="fade-up" data-aos-duration="1000" style={{color:"#ffffff"}}>Welcome to</p>
                   <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:900}}>Infygain</p>
-                  <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:900}}>IOT Services</p>
+                  <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:900}}>IT Supports</p>
               </div>
        
                 <div data-aos="fade-up" data-aos-duration="2000" className='banner-content2 container'>

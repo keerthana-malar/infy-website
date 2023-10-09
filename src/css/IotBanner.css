@@ -443,3 +443,39 @@ color:white;
     margin-top: -40px;
   }
 }
+
+
+@media screen and (min-width:1700px){
+  .banner-content1{
+    font-size: 100px;
+    padding-top: 100px;
+  }
+  .banner-content2{
+    font-size: 40px;
+    margin: 30px auto;
+  }
+  .banner button{
+    font-size: 25px;
+  }
+  .overlay-arrow{
+    left: 43%;
+  }
+  .heading{
+    /* padding: 0px 200px; */
+    gap:0px;
+  }
+  .number{
+    margin-top: -40px;
+  }
+
+  @keyframes ani1 {
+    from {
+      left: 90px;
+      top: 200px;
+    }
+    to {  
+      left: 90px;
+      top: 250px;
+    }
+  }
+}

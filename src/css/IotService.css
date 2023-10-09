@@ -64,7 +64,7 @@
   color: #fff;
   background-color: black;
   padding: 15px 0px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 20px 0px;
   border: none;
   z-index:1;
@@ -88,7 +88,7 @@
 .about-btns:hover .about-sc{
   width:150px;
 color:white ;
-  border-radius: 8px ;
+  border-radius: 3px ;
   transition: .2s ease-in;
 }
 .about-sc p{

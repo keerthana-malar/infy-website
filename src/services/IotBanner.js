@@ -3,6 +3,7 @@ import AOS from 'aos'
 import { GiNetworkBars } from 'react-icons/gi'
 import { BiSolidCctv} from 'react-icons/bi'
 import { BsArrowRight, BsLaptopFill , BsProjectorFill} from 'react-icons/bs'
+import { MdOutlineSecurity } from "react-icons/md";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'aos/dist/aos.css';
 import '../css/IotBanner.css'
@@ -68,6 +69,8 @@ const IotBanner = () => {
                     </span>
                   </button>
                 </div>
+                {/* <img className='iot-ani-img' src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2021/02/slider-shape3.png'/>
+               <img className='iot-ani1-img' src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2021/02/slider-shape4.png'/> */}
 
                
             </div>
@@ -92,7 +95,8 @@ const IotBanner = () => {
                   </button>
               </div>
 
-             
+              {/* <img className='iot-ani-img' src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2021/02/slider-shape3.png'/>
+               <img className='iot-ani1-img' src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2021/02/slider-shape4.png'/> */}
           </div>
           )}
          {(currSlide  === 2 ) && (
@@ -113,8 +117,9 @@ const IotBanner = () => {
                     </span>
                   </button>
             </div>
-
-            
+{/* 
+            <img className='iot-ani-img' src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2021/02/slider-shape3.png'/>
+               <img className='iot-ani1-img' src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2021/02/slider-shape4.png'/> */}
           </div>
           )} 
       </div>
@@ -128,7 +133,7 @@ const IotBanner = () => {
             )}
             <span
               key={index}
-              className={currSlide === index ? 'dots iot-active' : 'dots'}
+              className={currSlide === index ? 'dots active' : 'dots'}
               onClick={() => goToSlide(index)}
             ></span>
             {index < images.length+1 - 1 && (
@@ -174,7 +179,7 @@ const IotBanner = () => {
           <div className='bg2'>
             <div className='head'>
               <div className='sub-head'>
-                <h1 className='icon'><BiSolidCctv style={iconStyles}/></h1>
+                <h1 className='icon'><MdOutlineSecurity style={iconStyles}/></h1>
                 <h1 className='title'>
                   Security<br />Services
                 </h1>

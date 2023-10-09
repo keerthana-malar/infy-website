@@ -36,6 +36,7 @@
 
 .banner-content2 {
   font-size: 24px;
+  z-index: 3;
   /* margin: 30px 80px; */
 }
 
@@ -64,7 +65,7 @@
   color: #313131;
   background-color: #ffc000;
   padding: 15px 0px;
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 20px 0px;
   border: none;
   z-index:1;
@@ -88,7 +89,7 @@
 .test-btns:hover .test-sc{
   width:150px;
 color:white;
-  border-radius: 8px ;
+  border-radius: 3px ;
   transition: .2s ease-in;
 }
 .test-sc p{
@@ -124,8 +125,46 @@ color:white;
 
 .iot-bgimg{
   animation: shrink 12s linear infinite;
+  /* z-index: 4; */
 } 
 
+.iot-ani-img{
+  position: absolute; 
+  /* right: 0px;
+  bottom: 50px; */
+  animation: ani 1s ease-out;
+  animation-fill-mode: forwards;
+  z-index: 2;
+}
+.iot-ani1-img{
+  position: absolute; 
+  /* right: 0px;
+  bottom: 50px; */
+  animation: ani1 1s ease-out;
+  animation-fill-mode: forwards;
+  z-index: 1;
+}
+
+@keyframes ani {
+  from {
+    right: 100px;
+    bottom: 100px;
+  }
+  to {  
+    right: 100px;
+    bottom: 50px;
+  }
+}
+  @keyframes ani1 {
+    from {
+      right: 550px;
+      top: 200px;
+    }
+    to {  
+      right: 550px;
+      top: 250px;
+    }
+  }
 
 @keyframes shrink {
   0% {
@@ -157,7 +196,7 @@ color:white;
   cursor: pointer;
 }
 
-.dot.active {
+.dots.active {
   background-color: var(--yellow);
 }
 
@@ -386,6 +425,17 @@ color:white;
   }
   .number{
     margin-top: -40px;
+  }
+
+  @keyframes ani1 {
+    from {
+      right: 690px;
+      top: 200px;
+    }
+    to {  
+      right: 690px;
+      top: 250px;
+    }
   }
 }
 @media screen and (min-width:991px){

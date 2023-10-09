@@ -24,7 +24,7 @@ const NewService = () => {
             <div className='ho-arr1'>
                 <button className='home-arrow1'><BsArrowRight /></button>
             </div> */}
-         
+         <p className='home-about-ttles'>We Make IT Simple</p>
         <Slider  {...settings}>
             <div className='home-slide'>
            
@@ -37,7 +37,6 @@ const NewService = () => {
                     <p className="text-muted">
                     Unlock IoT's Power. Strategy, Devices, Insights, and Security. Innovate with Us. </p>
                 </div>
-            
             </div>
 
             <div className='home-slide'>

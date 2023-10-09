@@ -134,15 +134,7 @@ function Footer() {
             </div>
           </div>
 
-          <div className="authorize">
-            <div className="row">
-              <div className="col-12">
-                <img className="img-fluid auth" src="./images/others/iso.svg"></img>
-                <img className="img-fluid auth" src="./images/others/gem.svg"></img>
-                <img className="img-fluid auth" src="./images/others/bni-logo.png"></img>
-              </div>
-            </div>
-          </div>
+          
 
           {/* <div className="socialmediaicons">
             <p className="mini-title follow">Follow Us On</p>

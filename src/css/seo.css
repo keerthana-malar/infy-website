@@ -672,6 +672,12 @@
     font-weight: 600;
     cursor: pointer;
 }
+.flowbox2{
+    background-image: url("/public/images/others/line-process.png");
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position:85px 100px;
+}
 .flowbox2 .fbox:nth-child(even){
     margin-top:100px;
 }

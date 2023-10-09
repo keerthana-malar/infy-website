@@ -47,11 +47,21 @@ function IotService() {
                 We understand that each client is unique,
                 and we tailor our services to meet your specific needs.
               </p>
-              <button type="button" className="btn btn-lg box1_btn button">
+
+              <button className="about-btns">
+                    <span className="about-sc"> 
+                    </span>
+                    <span className="iot-about-text">Services
+                    <BsArrowRight className='about-btns-icons1'/>
+                    </span>
+              </button>
+              {/* <button type="button" className="btn btn-lg box1_btn button">
                 {" "}
                 Services
                 <div className="smallcode"></div>
-              </button>
+              </button> */}
+
+
             </div>
             </div>
             {/* Left Content Box End  */}

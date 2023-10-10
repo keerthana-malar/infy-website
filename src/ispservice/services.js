@@ -12,7 +12,7 @@ function Services() {
 
               <h2 className="mids-title">Internet Leased Line </h2>
               <p className="text-muted box-conin">
-              Our Internet Leased Line service provides high-speed, dedicated Internet connectivity to ensure your business stays connected 24/7.              </p>
+                Our Internet Leased Line service provides high-speed, dedicated Internet connectivity to ensure your business stays connected 24/7.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
               <div className='buttons'><button className='btns-greenbox'>View Details</button></div>
 
@@ -25,7 +25,7 @@ function Services() {
 
               <h2 className="mids-title">SME Line</h2>
               <p className="text-muted box-conin">
-              Tailored connectivity solutions for small and medium-sized enterprises, designed to boost productivity and efficiency.              </p>
+                Tailored connectivity solutions for small and medium-sized enterprises, designed to boost productivity and efficiency.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
               <div className='buttons'><button className='btns-greenbox'>View Details</button></div>
 
@@ -37,7 +37,7 @@ function Services() {
 
               <h2 className="mids-title">Business Broadband</h2>
               <p className="text-muted box-conin">
-              Reliable broadband solutions that deliver consistent, high-speed Internet access for your business needs.              </p>
+                Reliable broadband solutions that deliver consistent, high-speed Internet access for your business needs.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
               <div className='buttons'><button className='btns-greenbox'>View Details</button></div>
 
@@ -54,7 +54,7 @@ function Services() {
 
                 /IPTV/Voice</h2>
               <p className="text-muted box-conin">
- Explore our comprehensive range of Broadband, IPTV, and Voice services, designed to elevate your digital experience to new heights.              </p>
+                Explore our comprehensive range of Broadband, IPTV, and Voice services, designed to elevate your digital experience to new heights.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
               <div className='buttons'><button className='btns-greenbox'>View Details</button></div>
 
@@ -67,7 +67,7 @@ function Services() {
 
               <h2 className="mids-title">Intranet</h2>
               <p className="text-muted box-conin">
-              Build a secure and efficient internal network to enhance collaboration and information sharing within your organization.              </p>
+                Build a secure and efficient internal network to enhance collaboration and information sharing within your organization.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
               <div className='buttons'><button className='btns-greenbox'>View Details</button></div>
 
@@ -80,7 +80,7 @@ function Services() {
 
               <h2 className="mids-title">VPN Solutions</h2>
               <p className="text-muted box-conin">
-              Protect your data and communications with our robust Virtual Private Network solutions, ensuring privacy and security.              </p>
+                Protect your data and communications with our robust Virtual Private Network solutions, ensuring privacy and security.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
               <div className='buttons'><button className='btns-greenbox'>View Details</button></div>
 

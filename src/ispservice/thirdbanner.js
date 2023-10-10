@@ -32,18 +32,18 @@ function Thirdbanner() {
                                         </img></div>
                                         <p className="midss-title">BASIC PACKAGE</p>
                                         <p className="midess-title">
-                                            25 Mbps</p>
+                                        50 Mbps</p>
                                         <p className="text-muted  midesss-title">Speed Up to 50 Mbps</p><hr className='smallserline'></hr>
 
-                                        <p className="text-muted midesss-title">Free Fair Usage policy </p><hr className='smallserline'></hr>
+                                        <p className="text-muted midesss-title">Unlimited Data</p><hr className='smallserline'></hr>
 
-                                        <p className="text-muted midesss-title">WiFi Fiber Modem</p><hr className='smallserline'></hr>
+                                        <p className="text-muted midesss-title">100% Uptime</p><hr className='smallserline'></hr>
 
-                                        <p className="text-muted midesss-title">50 Mbps</p><hr className='smallserline'></hr>
+                                        <p className="text-muted midesss-title">IP Private</p><hr className='smallserline'></hr>
 
-                                        <p className="text-muted midesss-title">IP Dynamic Private</p>
+                                        <p className="text-muted midesss-title">24/7 customer support</p>
 
-                                        <p className='pac-amount'> <sup >$</sup> 39<br></br><p className='par-package'>/Monthly</p></p>
+                                        <p className='pac-amount'> <sup >Rs</sup> 1500/-<br></br><p className='par-package'>/Monthly</p></p>
 
 
                                         <div className='buttons'><button className='btns-greenbox'>                <Link className="mlink" to="/contact">
@@ -62,18 +62,18 @@ function Thirdbanner() {
 
                                         <p className="midss-title">PREMIUM PACKAGE</p>
                                         <p className="midess-title">
-                                            50 Mbps</p>
-                                        <p className="text-muted  midesss-title">Speed Up to 50 Mbps</p><hr className='smallserline'></hr>
+                                        100 Mbps</p>
+                                        <p className="text-muted  midesss-title">Speed Up to 100 Mbps</p><hr className='smallserline'></hr>
 
-                                        <p className="text-muted midesss-title">Free Fair Usage policy </p><hr className='smallserline'></hr>
+                                        <p className="text-muted midesss-title">Unlimited Data </p><hr className='smallserline'></hr>
 
-                                        <p className="text-muted midesss-title">WiFi Fiber Modem</p><hr className='smallserline'></hr>
+                                        <p className="text-muted midesss-title">100% Uptime</p><hr className='smallserline'></hr>
 
-                                        <p className="text-muted midesss-title">50 Mbps</p><hr className='smallserline'></hr>
+                                        <p className="text-muted midesss-title">Free Public IP</p><hr className='smallserline'></hr>
 
-                                        <p className="text-muted midesss-title">IP Dynamic Private</p>
+                                        <p className="text-muted midesss-title">24/7 customer support</p>
 
-                                        <p className='pac-amount'> <sup >$</sup> 79<br></br><p className='par-package'>/Monthly</p></p>
+                                        <p className='pac-amount'> <sup >Rs</sup> 2500/-<br></br><p className='par-package'>/Monthly</p></p>
 
 
                                         <div className='buttons'><button className='btns-greenbox'>                <Link className="mlink" to="/contact">
@@ -90,17 +90,17 @@ function Thirdbanner() {
                                         </img></div>
                                         <p className="midss-title">HYPE PACKAGE</p>
                                         <p className="midess-title">
-                                            80 Mbps</p>
-                                        <p className="text-muted  midesss-title">Speed Up to 50 Mbps</p><hr className='smallserline'></hr>
+                                        250 Mbps</p>
+                                        <p className="text-muted  midesss-title">Speed Up to  250 Mbps</p><hr className='smallserline'></hr>
 
-                                        <p className="text-muted midesss-title">Free Fair Usage policy </p><hr className='smallserline'></hr>
+                                        <p className="text-muted midesss-title">Unlimited Data </p><hr className='smallserline'></hr>
 
-                                        <p className="text-muted midesss-title">WiFi Fiber Modem</p><hr className='smallserline'></hr>
+                                        <p className="text-muted midesss-title">100% Uptime</p><hr className='smallserline'></hr>
 
-                                        <p className="text-muted midesss-title">50 Mbps</p><hr className='smallserline'></hr>
+                                        <p className="text-muted midesss-title">Free Public IP</p><hr className='smallserline'></hr>
 
-                                        <p className="text-muted midesss-title">IP Dynamic Private</p>
-                                        <p className='pac-amount'> <sup >$</sup> 129<br></br><p className='par-package'>/Monthly</p></p>
+                                        <p className="text-muted midesss-title">24/7 customer support</p>
+                                        <p className='pac-amount'> <sup >Rs</sup> 5000/-<br></br><p className='par-package'>/Monthly</p></p>
 
 
 

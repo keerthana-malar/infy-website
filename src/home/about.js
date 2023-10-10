@@ -35,7 +35,7 @@ const HomeAbout = () => {
               </p>
               <div className="abtBoxes">
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-12 col-md-6 mb-3 ">
                     <div className="row abtBoxInn">
                       <div className="col-3">
                         <img
@@ -51,7 +51,7 @@ const HomeAbout = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-12 col-md-6">
                     <div className="row abtBoxInn">
                       <div className="col-3">
                         <img

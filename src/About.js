@@ -1,7 +1,8 @@
 import Header from './common/header';
 import Aboutmain from './about/about';
 import Aboutcounter from "./about/aboutcounter";
-import HomeAbout from './home/about';
+// import HomeAbout from './home/about';
+import Enquiry from './common/enquiry';
 import Aboutclient from "./about/aboutclient";
 import Carouselabout from './about/carousel';
 // import Aboutus from './about/aboutus';
@@ -20,11 +21,12 @@ function About(){
         <>
         <Header/>
         <Aboutmain/>
-        <HomeAbout/>
+        {/* <HomeAbout/> */}
         <Aboutcounter/>
         <Aboutclient/>
         <Carouselabout/>
         {/* <Aboutus/> */}
+        <Enquiry/>
         <Footer/>
         </>
     );

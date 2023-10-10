@@ -25,9 +25,9 @@ function IotOurService() {
         <div className='firsthead'>
            <div className='container'>
             {/* left side start  */}
-           <div className=' row Ourservice_leftside'>
+           <div className=' Ourservice_leftside'>
 
-                    <div className='col-md-6 header1'>
+                    <div className=' header1'>
                         <div className='abouts'>
                             <div className='small_line'></div>
                             <h4 className='aboutline_head'>Services</h4>
@@ -36,7 +36,7 @@ function IotOurService() {
                             range of services tailored to meet your needs.</p>
                     </div>
                
-                    <div className='col-md-6 header2 text-muted'>
+                    <div className=' header2 text-muted'>
                         <p>Join us on a journey of digital excellence.
                          Let's shape your vision into reality and take your online presence 
                          and technology infrastructure to new heights.</p>
@@ -59,7 +59,7 @@ function IotOurService() {
                     <div className='divideline'></div>
                     <p className='param'>We specialize in crafting cutting-edge Computer
                      Network Solutions that empower your enterprise to thrive in the connected world.
-                    One of best network support and service in coimbatore. </p>
+                  </p>
                     <MdNetworkWifi3Bar className='icon2'/>
                     {/* {hiddenrow} */}
                     <div className='hiddenrows'>
@@ -108,8 +108,8 @@ function IotOurService() {
                     </h3>
                     <div className='divideline'></div>
                     <p className='param'>Our CCTV systems offer 24/7 surveillance, 
-                        keeping a vigilant eye on your property, both inside and out. We understand that every property is unique.
-                         Our solutions are tailored to meet your specific needs and concerns.</p>
+                        keeping a vigilant eye on your property, both inside and out. 
+                       </p>
                          <GiCctvCamera className='icon2'/>
                             {/* {Hidden} */}
                         <div className='hiddenrows2'>
@@ -136,9 +136,7 @@ function IotOurService() {
                     </h3>
                     <div className='divideline'></div>
                     <p className='param'>Our projectors and Smart TVs deliver stunning 
-                        visuals that bring lessons and entertainment to life. With touch screens, 
-                        interactive whiteboards, 
-                        and intuitive interfaces.</p>
+                        visuals that bring lessons and entertainment to life.</p>
                         {/* <div className='iconbox'> */}
                         <SiWebtrees className='icon2'/>
                         {/* </div> */}
@@ -163,7 +161,7 @@ function IotOurService() {
                     <div className='divideline'></div>
                     <p className='param'>We provide top-notch products from trusted brands, 
                     ensuring reliability and performance. Your satisfaction is our priority. 
-                    We're here to make your tech journey seamless.</p>
+                </p>
                     <RiLightbulbFlashLine className='icon2'/>
                        {/* {Hidden} */}
                        <div className='hiddenrows4'>
@@ -188,8 +186,7 @@ function IotOurService() {
                     <div className='divideline'></div>
                     <p className='param'>Get access to high-quality laptops and desktops 
                     when you need them, without the commitment of ownership. 
-                    Our rentals come with maintenance and support, 
-                    ensuring your devices run smoothly throughout your rental period.</p>
+            </p>
                     <LuLaptop2 className='icon2'/>
                        {/* {Hidden} */}
                        <div className='hiddenrows5'>

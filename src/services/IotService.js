@@ -15,6 +15,8 @@ import { BsArrowRight } from 'react-icons/bs'
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { LuLaptop2 } from "react-icons/lu";
 import { MdOutlineSecurity } from "react-icons/md";
+import { LuFileAudio2 } from "react-icons/lu";
+
 
 
 function IotService() {
@@ -95,8 +97,7 @@ function IotService() {
                       <p className="right_para">
                       Explore our curated  laptops and desktops,
                        latest models.
-
-                      </p>
+                      </p>  
                     </div>
                     {/* hidden row */}
                     <div>
@@ -105,9 +106,11 @@ function IotService() {
                       
                       </div>
                     </div>
+                   
                     {/* hidden end */}
                   </div>
-                </div>
+                  
+                  </div>
                 <div className="divBox div3 downbox1" data-aos="zoom-in">
                   <div className="row ">
                     <div className="col-md-4">
@@ -119,8 +122,8 @@ function IotService() {
                     <div className="col-md-8 text">
                       <h4> Security Services</h4>
                       <p className="right_para">
-                      We specialize in responsive web design, ensuring your site
-                       looks.
+                      A more advanced security system that not only detects
+                       but also actively.
                       </p>
                     </div>
                     {/* hidden row */}
@@ -137,14 +140,13 @@ function IotService() {
                     <div className="col-md-4">
                       <div className="rightsmall_line"></div>
                       <div className="iconsiot">
-                        <GiCctvCamera className="icon_size" />
+                        <LuFileAudio2 className="icon_size" />
                       </div>
                     </div>
                     <div className="col-md-8 text">
                       <h4>AV Solutions</h4>
                       <p className="right_para">
-                      Our CCTV systems to meet your specific 
-                      security needs.
+                      Audio and video services encompass a wide range of solutions.
                       </p>
                     </div>
                     {/* hidden row */}

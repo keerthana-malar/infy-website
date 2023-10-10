@@ -27,6 +27,12 @@ import EditCategory from "./admin/EditCategory";
 import Blog from "./admin/Blog";
 import AddBlog from "./admin/AddBlog";
 import EditBlog from "./admin/EditBlog";
+import PrivacyPolicy from "./footermainpages/PrivacyPolicy";
+import Termspage from './footermainpages/Termspage';
+import Delivery from './footermainpages/Delivery';
+import Refund from './footermainpages/refund';
+import Quality  from "./footermainpages/quality";
+
 
 function App() {
   return (
@@ -49,9 +55,16 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/addblog" element={<AddBlog />} />
         <Route path="*" element={"404 Page Not Found"} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy/>} />
+        <Route path="/termspage" element={<Termspage/>} />
+        <Route path="/delivery" element={<Delivery/>} />
+        <Route path="/refund" element={<Refund/>} />
+        <Route path="/quality" element={<Quality/>} />
+
 
       </Routes>
     </BrowserRouter>
+    
   );
 }
 

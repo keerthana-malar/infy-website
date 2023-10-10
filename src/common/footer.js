@@ -161,11 +161,11 @@ function Footer() {
               <div className="col-xs-6 col-sm-3">
                 <h1 className="mini-title four">Legal Links</h1>
                 <ul className="text-muted legallinks">
-                  <li>Privacy Policy</li>
-                  <li>Terms and Conditions</li>
-                  <li> Delivery and Shipping Policy</li>
-                  <li> Refund and Cancellation Policy</li>
-                  <li> Quality Policy</li>
+                  <li><Link to="/privacypolicy">Privacy Policy</Link></li>
+                  <li><Link to="/termspage">Terms and Conditions</Link></li>
+                  <li><Link to="/delivery">Delivery and Shipping Policy</Link></li>
+                  <li><Link to="/refund">Refund and Cancellation Policy</Link></li>
+                  <li><Link to="/quality">Quality Policy</Link></li>
                 </ul>
               </div>
             </div>
@@ -250,7 +250,7 @@ function Footer() {
           </g>
         </svg>
 
-        <TbArrowBigUpFilled className="topIcon"/>
+        <TbArrowBigUpFilled className="topIcon" />
       </div>
     </footer>
   );

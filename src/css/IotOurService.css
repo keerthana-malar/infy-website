@@ -187,11 +187,10 @@
 
 
 .header2 p {
-    font-size: 22px;
+    font-size: 20px;
     margin-top: 50px;
     font-weight: 400;
     margin-left: 40px;
-
 }
 .service-head{
     font-size: 35px;
@@ -207,7 +206,7 @@
 
 .firstrow {
   background-color: var(--white);
-  height: 450px;
+  height: 430px;
   width: 90%;
   text-align: center;
   white-space: none;
@@ -263,6 +262,10 @@
     margin-top: 30px;
     margin-bottom: 30px;
 }
+.Ourservice_leftside{
+  display: flex;
+  
+}
 
 @media screen and (max-width:576px){
    .Ourservice_leftside{
@@ -290,17 +293,12 @@
 
 
 @media screen and (min-width:567px ) and (max-width:1200px){
-    .Ourservice_leftside{
-        flex-direction: column;
-
-    }
     .header1{
      margin-left: 10px ;
     }
     .header2 p{
         margin-top: 20px;
         margin-left: 10px;
-        font-size: 26px;
     }
     .rightsidegrid{
         grid-template-columns: repeat(2,1fr);
@@ -312,6 +310,8 @@
     .divline{
         width: 100%;
     }
+
+
  }
 
 
@@ -353,6 +353,9 @@
       border-radius: 50%;
       width: 10%;
     }
+    .abouts{
+      margin: 0;
+    }
   }
   @media (width<=1182px){
     .butt{
@@ -360,6 +363,7 @@
       width: 10%;
       font-size: 25px;
     }
+   
   }
   @media (width<=982px){
     .butt{
@@ -368,19 +372,17 @@
       font-size: 22px;
     }
   }
-  /* @media (width<=982px){
-    button{
-      border-radius: 20px;
-      width: 19%;
-      font-size: 20px;
-    }
-  } */
 
   @media (width<=514px){
     .butt{
       border-radius: 20px;
       width: 13%;
       font-size: 20px;
+    }
+  }
+  @media (width<=1288px){
+    .service-head{
+      font-size: 30px;
     }
   }
 
@@ -396,6 +398,18 @@
       border-radius: 20px;
       width: 20%;
       font-size: 22px;
+    }
+  }
+
+  @media (width<=1200px){
+    .service-head{
+      font-size: 22px;
+      margin: 10px;
+      margin-left: 10px;
+    }
+    .header2 p{
+    font-size: 18px;
+    margin-top: 25px;
     }
   }
   @media (width<=349px){

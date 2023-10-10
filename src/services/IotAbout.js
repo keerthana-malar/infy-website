@@ -44,31 +44,34 @@ function IotAbout() {
 
     return (
         <div className='container'>
+            <div className='coffefullbox'>
             <div className='row leftside'>
-                <div className='col-md-1'></div>
-                <div className='col-md-5 image'>
+                <div className='col-lg-6 image'>
                 <Tilt options={defaultOptions}>
                     <img className="img-fluid" src="/images/about_page.png" 
                     alt="about page" data-aos="fade-right" />
                      </Tilt>
-                </div>
-                {/* 2 column start */}
-                <div className='col-md-5 rightside'>
-                    <div className='custom-modal-background'>
-                    <Modal size="lg" show={showVideo} onHide={toggleclose} >
+                     
+            <div className='abtshvd'>
+            <Modal size="lg" show={showVideo} onHide={toggleclose} >
                         <Modal.Header closeButton>
                         </Modal.Header>
                         <Modal.Body>
-                            <iframe
+                            <iframe 
                                 src="https://www.youtube.com/embed/CdP9VCScVmQ"
                                 title="INFYGAIN - Leading Computer Service at Doorstep in Coimbatore"
                                 frameborder="0" allow="accelerometer; autoplay; clipboard-write;
                                encrypted-media; gyroscope; picture-in-picture; 
-                               web-share" allowfullscreen></iframe></Modal.Body>
+                               web-share" allowfullscreen>
+                                
+                               </iframe>
+                               </Modal.Body>
 
                     </Modal>
-                    </div>
-
+            </div>
+                </div>
+                {/* 2 column start */}
+                <div className='col-lg-6 rightside'>
                     <div className='about'>
                         <div className='smallsss'></div>
                         <h4 className='aboutline_head'>About us</h4>
@@ -77,10 +80,8 @@ function IotAbout() {
                      <div className='paragraph'>
                         <h3><span className='span12'>The future of computing,</span>
                             <span className='span13'>  available today</span></h3>
-
-                      
+                            
                     </div> 
-                    {/* datawings line */}
                    
                     <div className='datawings'>
                         <p className="datawings_para text-muted">
@@ -95,28 +96,31 @@ function IotAbout() {
                             </div>
                         </div>
                     </div>
-
+     
                     <hr />
                     <div className='row downpart'>
-                        <div className='col-md-2'>
+                        <div className='col-lg-2'>
                             <FaUserCog className='down_icons' />
                         </div>
-                        <div className='col-md-3 value' >
+                        <div className='col-lg-3 value' >
                             <h3>Proficient Service</h3>
                         </div>
-                    <div className='col-md-1 vertical_line'></div>
-                        <div className='col-md-2'>
+                    <div className='col-lg-1 vertical_line'></div>
+                        <div className='col-lg-2 r2'>
                             <GoGoal className='down_icons' />
                         </div>
-                        <div className='col-md-3 value' >
+                        <div className='col-lg-3 value' >
                             <h3> Time Efficiency</h3>
                         </div>
+                        
+                      
                     </div>
+                    
                 </div >
-                <div className='col-md-1'>
-                      <img src="/images/round 2.png" alt="round" className='round1' />
-                </div>
+            
+              
             </div >
+            </div>
         </div>
 
     )

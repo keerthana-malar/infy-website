@@ -7,7 +7,7 @@
 
 /* Heading styles */
 .privacy-policy-heading {
-    font-size: 34px;
+    font-size: 36px;
     margin-bottom: 16px;
     font-weight: 600;
     color: var(--pri);
@@ -15,7 +15,7 @@
 
 /* Section heading styles */
 .section-headings {
-    font-size: 20px;
+    font-size: 22px;
     margin-top: 24px;
     margin-bottom: 12px;
     color: var(--sec);
@@ -40,5 +40,5 @@
 }
 
 .privacy-para-con {
-    font-size: 16px;
+    font-size: 18px;
 }

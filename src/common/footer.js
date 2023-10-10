@@ -161,11 +161,11 @@ function Footer() {
               <div className="col-xs-6 col-sm-3">
                 <h1 className="mini-title four">Legal Links</h1>
                 <ul className="text-muted legallinks">
-                  <li><Link to="/privacypolicy">Privacy Policy</Link></li>
-                  <li><Link to="/termspage">Terms and Conditions</Link></li>
-                  <li><Link to="/delivery">Delivery and Shipping Policy</Link></li>
-                  <li><Link to="/refund">Refund and Cancellation Policy</Link></li>
-                  <li><Link to="/quality">Quality Policy</Link></li>
+                  <li className="quicklinks"><Link to="/privacypolicy">Privacy Policy</Link></li>
+                  <li className="quicklinks"><Link to="/termspage">Terms and Conditions</Link></li>
+                  <li className="quicklinks"><Link to="/delivery">Delivery and Shipping Policy</Link></li>
+                  <li className="quicklinks"><Link to="/refund">Refund and Cancellation Policy</Link></li>
+                  <li className="quicklinks"><Link to="/quality">Quality Policy</Link></li>
                 </ul>
               </div>
             </div>

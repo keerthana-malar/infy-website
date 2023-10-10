@@ -620,7 +620,7 @@
     border:1px solid #f0f7ff;
 }
 .flowbox1{
-    margin:20px 0px;
+    margin:0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -798,5 +798,26 @@
         width:40px;
         height: 40px;
         font-size: 22px;
+    }
+}
+@media (width<=875px){
+    .flowbox2 {
+        background-image:none;
+    }
+}
+@media (width<=650px){
+    .portbox2{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .portbox1{
+        margin:10px 50px;
+    }
+}
+@media (width<=450px){
+    .portbox2{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .portbox1{
+        margin:10px 20px;
     }
 }

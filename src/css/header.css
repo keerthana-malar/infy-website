@@ -44,7 +44,7 @@
     width: 200px;
 }
 .menu-box{
-    flex-basis: 50%;
+    flex-basis: 70%;
 }
 .menu-box li{
     list-style-type: none;
@@ -64,7 +64,7 @@
     color: var(--sec);
 }
 .contact-box{
-    flex-basis: 20%;
+    flex-basis: 0%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -83,6 +83,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.enquiry-box svg{
+    font-size: clamp(22px, 2vw, 32px);
+    color:var(--pri);
+    margin-left:20px;
 }
 .query svg{
     color:var(--pri);

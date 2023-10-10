@@ -6,7 +6,7 @@ function Enquiry() {
       <div className="mainenqbx">
         <div className="enqbx-head">
           <h5 className="mini-title main-color">CONTACT US</h5>
-          <p className="home-about-ttle">We Alway Here To Helps You</p>
+          <p className="home-about-ttle">We Always Here To Helps You</p>
         </div>
         <div className="enqbx-main">
           <div className="inn">

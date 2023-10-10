@@ -1,6 +1,7 @@
 import {
   FaRegClock,
   FaLocationDot,
+  FaCartPlus,
   FaHeadset
 } from "react-icons/fa6";
 import { IoMdArrowDropdown } from "react-icons/io";
@@ -135,15 +136,20 @@ function header() {
                     </li>
                     <li>
                       <Link className="mlink" to="/ispservice">
-                        ISP Service
+                        ISP Services
                       </Link>
                     </li>
                     <li>
                       <Link className="mlink" to="/ServiceSeo">
-                        Website / App
+                        Web Services
                       </Link>
                     </li>
                 </div>
+              </li>
+              <li>
+                <Link className="mlink" to="/blogs">
+                  Blogs
+                </Link>
               </li>
               <li>
                 <Link className="mlink" to="/blogs">
@@ -161,7 +167,7 @@ function header() {
                 </Link>
               </li>
             </div>
-            <div className="contact-box">
+            {/* <div className="contact-box">
               <div className="row align-items-center">
                 <div className="col-md-2 query">
                   <a className="head-link" href="#">
@@ -175,14 +181,18 @@ function header() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div className="enquiry-box">
               <a className="head-link" href="/contact">
                 <button className="btn btns">
                   Get a quote &nbsp;&nbsp;<i className="fa fa-arrow-right"></i>
                 </button>
               </a>
+              <a className="head-link" target="_blank" href="https://infygain.com/onlinestore/">
+                <FaCartPlus/>
+              </a>
             </div>
+          
             <div className="dropDownMenu">
               <HiMenuAlt1 role="button" onClick={() => DropdownMenu()} />
             </div>

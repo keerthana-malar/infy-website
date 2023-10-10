@@ -65,7 +65,7 @@ function Portfolio() {
               data-aos="fade-left"
               data-aos-duration="3000"
             >
-              but why choose us?
+              Reason to Choose us?
             </span>
           </div>
         </div>

@@ -22,15 +22,17 @@
     --danger: #dc3545;
     --light: #f8f9fa;
     --dark: #000000;
-  
   }
+ 
 
   .downpart{
     display: flex;
   }
-  .custom-modal-background{
-    color: #FFA500;
+
+  .coffefullbox{
+    overflow: hidden;
   }
+
   .leftside {
     padding-top: 50px;
     margin: 0 auto;
@@ -43,10 +45,6 @@
   font-size: 20px;
   font-weight: 700;
 }
-  Modal{
-    background-color: black;
-  }
-  
   .span12 {
     color: var(--dark);
     font-size: 46px;
@@ -80,16 +78,9 @@
     margin-right: 10px;
   }
   
-  .imaging {
-    height: 600;
-    width: 160px;
-    border-radius: 10px;
-    filter: grayscale(90%);
-  }
-  
   .down_icons {
-    height: 100%;
-    width: 100%;
+    height:80%;
+    width: 80%;
     color: var(--warning);
   }
   .vertical_line {
@@ -108,7 +99,7 @@
   .icon-container {
     position: absolute;
     top: 45%;
-    left: 52%;
+    left: 45%;
     transform: translate(-50%, -50%);
     z-index: 1;
     color: var(--warning);
@@ -126,428 +117,23 @@
     margin-top: 10px;
   }
   
-  
+  .rightside{
+    position: relative;
+  }
   .round1 {
     height: 100px;
+    margin-left: 10px;
   }
   
   .about {
     display: flex;
   }
-  
 
   .img{
     border-radius: 30px;
     padding: 10px;
     filter: grayscale(150%);
   }
-  
-  @media screen and (min-width:320px) and (max-width:576px) {
-    .image img {
-      width: 400px !important;
-      height: 300px !important;
-      margin-left: 0px;
-    
-    }
-    .datawings_para{
-      padding: 0;
-    }
-    .vertical_line{
-        display: none;
-    }
-  
-    .down_icons {
-      height: 80px;
-      width: 80px;
-      margin-bottom: 30px; 
-    }
-  
-    h3 b {
-      height: 20px;
-  }
-  
-  .para p {
-    font-size: 20px;
-  }
-  .para img{
-    display: none;
-  }
-  .datawings{
-    display: flex;
-    flex-direction: column;
-  }
-  .datawings p{
-    font-size: 20px;
-    text-align: justify;
-    margin-bottom: 20px;
-  }
-  .datawings img{
-    width: 500px;
-  }
-  .iconing{
-    height: 400px;
-    width: 100px;
-    margin-left: 100px;
-  }
-  .para img{
-    display: none;
-  }
-  .about{
-    margin-top: 20px;
-  }
-  }
-  @media screen and (min-width:576px) and (max-width:768px) {
-  
-    .about {
-      margin-top: 30px;
-    }
-    .para h3 {
-      margin-bottom: 20px;
-    }
-    .para img{
-      display: none;
-    }
-    .container{
-      overflow: hidden;
-    }
-  
-    h3 b {
-      width: 2px;
-      height: 20px;
-      /* margin-left: 135px; */
-    }
-  
-  .datawings{
-    display: flex;
-    flex-direction: column;
-  }
-  .datawings p{
-    font-size: 20px;
-    /* text-align: justify; */
-    margin-bottom: 20px;
-  }
-  
-  .datawings img{
-    width: 100%;
-  }
-
-  .iconing
-  {
-    /* margin-left: 400px; */
-    /* height: 400px; */
-    /* width: 100px;
-    margin-top: 20px; */
-  }
-  .para{
-    display: grid;
-  }
-  hr{
-    width: 700px;
-  
-  }
-  
-  .vertical_line{
-    display: none;
-  }
-  
-  .down_icons {
-    display: flex;
-    height: 80px;
-    width: 80px;
-;
-    /* margin-left: 350px; */
-    margin-bottom: 40px; 
-    /* display: grid; */
-  }
-  
-  h3 b {
-    height: 20px;
-    /* display: grid; */
-  /* margin-left: 320px; */
-  margin-bottom: 60px;
-    
-  }
-  
-  }
-  
-  @media screen and (min-width:767px) and (max-width:992px) {
-  .about{
-    font-size: 15px;
-  
-  }
-  .para img{
-   display: none;
-  }
-  
-  .para p {
-    text-align: justify;
-     margin: 0;
-     font-size: 10px;
-  }
-  
-  .vertical_line{
-    display: none;
-  }
-  
-  .iconing{
-   
-    margin-right: 70px;
-    
-  }
-  .datawings {
-    display: grid;
-  }
-  .datawings img{
-    width: 150px;
-  }
-  .datawings p{
-    font-size: 15px;
-    text-align: justify;
-    margin-bottom: 20px;
-  }
-  .downpart{
-    display: grid;
-  }
-  .down_icons {
-    height: 50px;
-    width: 50px;
-    margin-bottom: 30px; 
-    margin-left: 10px;
-  }
-  h3 b{
-    font-size: 13px;
-    display: grid;
-    margin-left: 20px;
-    margin-top: 6px;
-  }
-  }
-  
-  @media screen and (min-width:992px) and (max-width:1200px) {
-    .para {
-     display: grid;
-    }
-   .iconing{
-   margin-left: 45px;
-   margin-bottom: 30px;
-   height: 30px;
-   width: 30px;
-   }
-   .para img{
-    display: none;
-   }
-   .datawings img{
-    width: 200px;
-   }
-  .datawings p{
-    font-size: 15px;
-  }
-  }
-  
-  @media (min-width:1200px) and (max-width:1400px) {
-    .para p{
-     font-size: 30px !important;
-     padding: 0;
-     margin: 0;
-     display: inline;
-      
-    }
-  
-   .iconing{
-   margin-left: 45px;
-   margin-bottom: 30px;
-   height: 30px;
-   width: 30px;
-   }
-   .para img{
-    margin-right: 50px;
-  
-   }
-  h3 b{
-    margin: 0;
-  }
-  .para img{
-    height: 80px;
-    width: 80px;
-  }
-  .icon{
-    margin-top: 20px;
-  }
-  .datawings img{
-    height: 140px;
-  }
-   
-  }
-  @media screen and (max-width:300px){
-   .vertical_line{
-    display: none;
-   }
-  
-   .leftside img{
-    display: none;
-   }
-   
-    
-  }
-  
-  @media (min-width:1400px) and (max-width:1800px) {
-  .datawings img{
-    height: 150px;
-  }
-   }
-
-   @media screen and (max-width:514px){
-    .datawings img{
-        width: 100%;
-      }
-   }
-
-   @media (width<=1400px){
-    .icon-container{
-      left: 40%;
-      top:65%
-    }
-   }
-
-   @media (width<=1394px){
-    .icon-container{
-      left: 40%;
-      top:55%
-    }
-   }
-   @media (width<=1196px){
-    .img{
-    height: 80%;
-    width: 80%;
-    margin-top: 20px;
-    }
-    .datawings_para{
-      font-size: 200px;
-    }
-    .icon-container{
-      left: 40%;
-      top:60%;
-      margin:0;
-    }
-   }
-
-   @media (width<=990px){
-    .datawings_para{
-     font-weight: 600;
-    }
-    .containers img{
-     width: 300px;
-     margin: 0;
-     padding: 0;
-    }
-    .icon-container{
-      left: 65%;
-      top:50%;
-      margin:0;
-      font-size: 20%;
-    }
-    .downpart{
-      display: flex
-    }
-   }
-
-   @media (width<=760px){
-    .datawings_para{
-     font-weight: 600;
-    }
-    .containers img{
-     width: 500px;
-     margin: 0;
-     padding: 0;
-    }
-    .icon-container{
-      left: 65%;
-      top:50%;
-      margin:0;
-      font-size: 40%;
-    }
-   h3 b{
-   margin-left: 80px;
-    margin-top: 70px;
-    font-size: 40px;
-   }
-   .down_icons{
-    margin: 0;
-    margin-left: 190px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-   }
-   .value{
-    margin-left: 40px;
-    
-   }
-   
-   }
-   @media (width<=560px){
-    .datawings_para{
-     font-weight: 600;
-    }
-    .containers img{
-     width: 500px;
-     margin: 0;
-     padding: 0;
-    }
-    .icon-container{
-      left: 45%;
-      top:50%;
-      margin:0;
-      font-size: 30%;
-    }
-   h3 b{
-   margin-left: 80px;
-    margin-top: 70px;
-    font-size: 40px;
-   }
-   .down_icons{
-    margin: 0;
-    margin-left: 190px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-   }
-   .value{
-    margin-left: 40px;
-  
-   }
-   
-   }
-
-   @media (width<=560px){
-    .icon-container{
-      left: 50%;
-      top:55%;
-      margin:0;
-    }
-    .containers img{
-      width: 380px;
-      margin: 0;
-      padding: 0;
-     }
-     h3 b{
-       margin-left: 90px;
-       margin-top: 70px;
-       font-size: 20px;
-      }
-      .down_icons{
-       margin: 0;
-       margin-left: 150px;
-       margin-top: 30px;
-       margin-bottom: 20px;
-      }
-   }
-
-   @media (width<=368px){
-  
-    .containers img{
-      width: 320px;
-      margin: 0;
-      padding: 0;
-     }
- 
-   }
    iframe{
     width: 100%;
     height: 500px;
@@ -557,3 +143,60 @@
     font-family: 'Roboto', sans-serif;
    }
 
+   @media (width<=991px){
+
+    .rightside{
+    margin-left:10%;
+    margin-top: 30px;
+    }
+    .paragraph h3{
+   font-size: 2px;
+    }
+    .datawings_para{
+      font-size: 17px;
+     padding: 20px;
+    }
+    .datawings img{
+      width:150%;
+      height: 100%;
+    }
+   .vertical_line{
+    margin-left: 10px;
+    margin-right: 0;
+   }
+   .icon-container{
+    left: 40%;
+   }
+   .datawings{
+    flex-direction: column;
+   }
+   .datawings img{
+    height: 90%;
+    width: 90%;
+   }
+   .downpart{
+    flex-direction: column;
+    text-align: center;
+    margin-left: px;
+   }
+   .vertical_line{
+    display:none;
+   }
+   .down_icons {
+    height:15%;
+    width: 15%;
+   }
+
+   }
+    
+  
+ 
+
+   
+   
+
+   
+   
+
+
+  

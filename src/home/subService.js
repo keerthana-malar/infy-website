@@ -145,6 +145,7 @@ function SubService() {
               </div>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
+
               <svg className="hexShape">
                 <g id="Layer_2" data-name="Layer 2">
                   <g id="Layer_1-2" data-name="Layer 1">
@@ -169,9 +170,14 @@ function SubService() {
                 }}
               >
                 <p className="mid-title subser-title">Infrastructure</p>
+
                 <li>Structured Cabling</li>
-                <li>IP Telephony</li>
+           
                 <li>Wifi Solutions</li>
+
+                <li>AV Solutions</li>
+           
+
               </div>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
@@ -199,9 +205,10 @@ function SubService() {
                 }}
               >
                 <p className="mid-title subser-title">Website Development</p>
-                <li>Static Website</li>
-                <li>Dynamic Websites</li>
+                <li>Static/Dynamic Website</li>
                 <li>E-commerce Sites</li>
+                <li>Search Engine Optimization</li>
+
               </div>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
@@ -258,6 +265,7 @@ function SubService() {
                 <p className="mid-title subser-title">Security Systems</p>
                 <li>CCTV Solutions</li>
                 <li>Access Control Systems</li>
+
                 <li>AV Intercom</li>
               </div>
             </div>

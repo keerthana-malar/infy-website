@@ -1,5 +1,5 @@
 .load{
-    margin:100px 0;
+    margin:0;
 }
 .abt-sec{
     margin:100px;
@@ -13,28 +13,7 @@
 .abt-box{
     border:0.5px solid grey;
 }
-/* @property --num {
-    syntax: "<integer>";
-    initial-value: 0;
-    inherits: false;
-}
-.count {
-    animation: counter 5s infinite alternate ease-in-out;
-    counter-reset: num var(--num);
-    font: 800 40px system-ui;
-    padding: 2rem;
-}
-.count::after {
-    content: counter(num);
-}
-@keyframes counter {
-    from {
-        --num: 0;
-   }
-    to {
-        --num: 100;
-   }
-} */
+
 .counter-sec{
     padding:20px 100px;
 }
@@ -87,7 +66,7 @@
     padding:100px 0px;
 }
 .client-sec{
-   margin:0 0 100px 0;
+   margin:0 0 50px 0;
    padding:20px 50px;
 }
 .client-con i{
@@ -133,10 +112,10 @@
     display: flex !important;
     justify-content: center;
     align-items: center;
-    height: 150px;
+    height: 100px;
 }
 .logo-box img{
-    scale: 0.6;
+    scale: 0.5;
 }
 .short-img{
     height:100%;
@@ -153,6 +132,13 @@
     justify-content: center;
     align-items: center;
 }
+.pbar{
+    margin-bottom: 20px;
+}
+.ptit{
+    font-size: clamp(22px, 2vw, 28px);
+}
+
 
 
 

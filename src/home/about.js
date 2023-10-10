@@ -40,7 +40,7 @@ const HomeAbout = () => {
                       <div className="col-3">
                         <img
                           className="img-fluid experienceimg"
-                          src="/images/icons/certificate copy.png"
+                          src="/images/icons/certificatenew.png"
                         ></img>
                       </div>
                       <div className="col-9">
@@ -56,7 +56,7 @@ const HomeAbout = () => {
                       <div className="col-3">
                         <img
                           className="img-fluid"
-                          src="/images/icons/support copy.png"
+                          src="/images/icons/supportnew.png"
                         ></img>
                       </div>
                       <div className="col-9">
@@ -69,6 +69,7 @@ const HomeAbout = () => {
                   </div>
                 </div>
               </div>
+              
               <p className="text-muted home-baner-con-below">
                 We take pride in ourselves being able to cater to the needs of
                 big organizations, institutions, industries and individual

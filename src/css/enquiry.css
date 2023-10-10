@@ -1,0 +1,27 @@
+.mainenqbx{
+    height: 600px;
+    margin:80px 50px 0px 50px;
+}
+.enqbx-main{
+    height:500px;
+}
+.enqbx-head{
+    text-align: center;
+}
+.shortt-img{
+    border-radius: 10px;
+}
+.shortt-img img{
+    width: 100%;
+    border-radius: 10px 0 10px 0;
+}
+.enqformm{
+   padding:50px;
+   margin:0;
+}
+.enqbx2{
+    background-image: url("/public/images/others/enquiry-bg.jpg");
+     background-position: -50px 50px;
+     background-repeat:no-repeat;
+     background-size: cover;
+}

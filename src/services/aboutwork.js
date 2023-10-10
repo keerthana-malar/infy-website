@@ -1,9 +1,20 @@
 import { MdWorkspacePremium } from "react-icons/md";
-import ProgressBar from "react-bootstrap/ProgressBar";
+import React, { useState } from "react";
+import ScrollTrigger from "react-scroll-trigger";
+import ProgressBar from "@ramonak/react-progress-bar";
 
-function aboutweb() {
+function Aboutweb() {
+  const [bar, setBar] = useState();
   return (
     <>
+    <ScrollTrigger
+      onEnter={() => 
+        setBar(true)
+      }
+      onExit={() => 
+        setBar(false)
+      }
+    >
       <div className="mainaboutweb container">
         <div className="abtimgbx">
           <img className="img-fluid" src="./images/seo/seobanner.png"></img>
@@ -28,21 +39,67 @@ function aboutweb() {
             </p>
           </div>
           <div className="webprogress">
-            <div>
-              <p className="mini-title">Dynamic Websites</p>
-              <ProgressBar variant="primary" now={99} label={`99%`} />
-              <p className="mini-title">Search Engine Optimization (SEO)</p>
-              <ProgressBar variant="primary" now={95} label={`95%`} />
-              <p className="mini-title">Application Development</p>
-              <ProgressBar variant="primary" now={90} label={`90%`} />
-              <p className="mini-title">UI / UX Design</p>
-              <ProgressBar variant="primary" now={82} label={`82%`} />
-              
-            </div>
+            <p className="mini-title mb-0">Dynamic Websites</p>
+                    {bar && (
+                      <ProgressBar
+                        className="pbar"
+                        completed={100}
+                        bgColor="linear-gradient(90deg, rgba(244,53,159,1) 0%, rgba(255,132,67,1) 63%)"
+                        labelColor="#ffffff"
+                        transitionDuration="2s"
+                        animateOnRender
+                        maxCompleted={98}
+                        customLabel="100%"
+                        height="15px"
+                      />
+                    )}
+                    <p className="mini-title mb-0">Search Engine Optimization (SEO)</p>
+                    {bar && (
+                      <ProgressBar
+                        className="pbar"
+                        completed={100}
+                        bgColor="linear-gradient(90deg, rgba(244,53,159,1) 0%, rgba(255,132,67,1) 63%)"
+                        labelColor="#ffffff"
+                        transitionDuration="3s"
+                        animateOnRender
+                        maxCompleted={99}
+                        customLabel="100%"
+                        height="15px"
+                      />
+                    )}
+                    <p className="mini-title mb-0">Application Development</p>
+                    {bar && (
+                      <ProgressBar
+                        className="pbar"
+                        completed={100}
+                        bgColor="linear-gradient(90deg, rgba(244,53,159,1) 0%, rgba(255,132,67,1) 63%)"
+                        labelColor="#ffffff"
+                        transitionDuration="2s"
+                        animateOnRender
+                        maxCompleted={98}
+                        customLabel="98%"
+                        height="15px"
+                      />
+                    )}
+                    <p className="mini-title mb-0">UI / UX Design</p>
+                    {bar && (
+                      <ProgressBar
+                        className="pbar"
+                        completed={100}
+                        bgColor="linear-gradient(90deg, rgba(244,53,159,1) 0%, rgba(255,132,67,1) 63%)"
+                        labelColor="#ffffff"
+                        transitionDuration="3s"
+                        animateOnRender
+                        maxCompleted={98}
+                        customLabel="99%"
+                        height="15px"
+                      />
+                    )}
           </div>
         </div>
       </div>
+      </ScrollTrigger>
     </>
   );
 }
-export default aboutweb;
+export default Aboutweb;

@@ -16,7 +16,7 @@ const Testimonial = () => {
                 </div>
                 <div className="col-md-6">
                   <p className="text-muted  home-baner-con-below">
-                    "Great team to work with, they understood my requirements
+                  "Great team to work with, they understood my requirements
                     and helped me go live within hours, and delivered the
                     results ahead of schedule."
                   </p>

@@ -26,7 +26,6 @@ const NewService = () => {
             <div className='ho-arr1'>
                 <button className='home-arrow1'><BsArrowRight /></button>
             </div> */}
-
             <div className='container slider-below-content'>
                 <p className=' mains-heading-color'>OUR SERVICE</p>
 
@@ -46,20 +45,6 @@ const NewService = () => {
 
                 </div>
 
-
-         <p className='home-about-ttles'>We Make IT Simple</p>
-        <Slider  {...settings}>
-            <div className='home-slide'>
-           
-                <img className='hom-sld-img' src='/images/IT-img.jpg' />
-        
-                <div className='home-cont-overlay'>
-                    
-                    <img src="/images/icons/it.png" alt="service icons"></img>
-                    <h2 className="mid-title">IT Services</h2>
-                    <p className="text-muted">
-                    Unlock IoT's Power. Strategy, Devices, Insights, and Security. Innovate with Us. </p>
-                </div>
             </div>
 
             {/* <Slider  {...settings}> */}
@@ -137,4 +122,4 @@ const NewService = () => {
     )
 }
 
-export default NewService
+export default NewService;

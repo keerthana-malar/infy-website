@@ -1,7 +1,6 @@
 /* Slider  */
 .slider {
   height: 80vh;
-  overflow: hidden;
 }
 .sliderBox {
   display: grid;
@@ -15,14 +14,12 @@
   grid-area: 1 / 1 / 5 / 5;
   object-fit: cover;
   width: 100%;
-  height: 100%;
 }
 .slideCont {
   grid-area: 2 / 1 / 3 / 2;
   padding: 0 0 0 100px;
   display: flex;
   align-items: center;
-  /* color: #fff; */
 }
 .banner-title {
   color: var(--pri);
@@ -34,19 +31,17 @@
     text-align: center;
   }
 }
-.banner-title{
+.banner-title {
   font-size: clamp(70px, 4vw, 50px);
-
 }
 
-.home-baner-con{
+.home-baner-con {
   font-size: 17px;
   color: rgba(12, 9, 9, 0.5);
 }
 @media (width <= 600px) {
   .banner-title {
     font-size: clamp(50px, 4vw, 50px);
-
   }
 }
 /* Service  */
@@ -62,13 +57,10 @@
   padding: 30px;
   transition: all 0.3s;
 }
-
 .serviceCont img {
   height: 60px;
   margin-bottom: 20px;
 }
-
-
 .serviceCont .mid-title {
   margin-bottom: 20px;
 }
@@ -93,7 +85,7 @@
 .abtBoxes {
   margin-bottom: 50px;
 }
-.abtBoxes .row .col-6 {
+.abtBoxes .row .col-12 {
   padding: 0 30px;
 }
 .abtBoxInn {
@@ -107,26 +99,25 @@
 .abtBoxInn .mid-title {
   margin-bottom: 4px;
 }
-.image-home-about{
-padding: 30px;
+.image-home-about {
+  padding: 30px;
 }
-.home-about-ttle{
-  font-size:45px;
+.home-about-ttle {
+  font-size: 45px;
 }
-.experienceimg{
- color: var(--pri);
+.experienceimg {
+  color: var(--pri);
 }
 .home-tit {
-  color: black; 
+  color: black;
   font-size: 20px;
   font-weight: 600;
 }
 
-
 .home-tit:hover {
-  color:var(--pri);
+  color: var(--pri);
 }
-.text-light{
+.text-light {
   padding: 20px;
   padding-right: 40px;
   padding-left: 40px;
@@ -134,41 +125,38 @@ padding: 30px;
   padding-bottom: 22px;
   font-size: 15px;
 }
-.home-ser-con{
+.home-ser-con {
   font-size: 50px;
 }
-.home-ser-con-pink{
-  font-size: 30px; 
+.home-ser-con-pink {
+  font-size: 30px;
   color: var(--sec);
 }
 @media (width <= 600px) {
   .home-about-ttle {
     font-size: clamp(30px, 4vw, 50px);
-text-align: center;
+    text-align: center;
   }
 }
 @media (width <= 600px) {
   .main-color {
- 
-text-align: center;
+    text-align: center;
   }
 }
 
 @media (width <= 600px) {
   .home-baner-con {
- 
-text-align: center;
+    text-align: center;
   }
 }
-.home-baner-con-below{
+.home-baner-con-below {
   font-size: 18px;
   color: rgba(12, 9, 9, 0.5);
 }
 
 @media (width <= 600px) {
-  .home-baner-con-below{
- 
-margin-left: 10px;
+  .home-baner-con-below {
+    margin-left: 10px;
   }
 }
 /* Sub Service  */
@@ -177,21 +165,18 @@ margin-left: 10px;
   /* margin-top: 60px; */
   /* padding: 80px 0 30px 0; */
   background-image: url("/public/images/Banner\ web.jpg");
-
   background-repeat: no-repeat;
   color: #fff;
-  background-size: 100% 1300px;
+  background-size: cover;
   object-fit: cover;
   height: 100%;
 }
-.subser-title{
+.subser-title {
   font-size: 22px;
   font-weight: 500;
-
 }
 
-.vide-img-services{
-
+.vide-img-services {
   display: flex;
   justify-content: center;
 }
@@ -200,18 +185,18 @@ margin-left: 10px;
 }
 .subServiceBoxInn {
   padding: 20px;
+  position: relative;
 }
 .subServiceCont {
   background-color: rgba(255, 255, 255, 0.1);
   border: 1px solid #fff;
   border-radius: 10px;
   padding: 20px;
-  height: 310px;
   transition: all 0.5s;
   position: relative;
   margin-bottom: 70px;
 }
-.subServiceCont::before {
+/* .subServiceCont::before {
   content: "";
   display: block;
   background-color: var(--sec);
@@ -225,18 +210,42 @@ margin-left: 10px;
   position: absolute;
   top: -50px;
   margin-left: 25%;
+} */
+.hexShape {
+  overflow: hidden;
+  position: absolute;
+  z-index: 10;
+  top: -40px;
+  left: calc(50% - 50px);
+}
+.cls-1 {
+  fill: var(--sec);
+  scale: 0.3;
+  transition: all 0.5s;
 }
 .subServiceCont:hover {
   background-color: rgba(255, 255, 255, 1);
   color: #222;
 }
-.subServiceCont:hover::before {
+/* .subServiceCont:hover::before {
   background-color: var(--pri);
+} */
+.subServiceCont:hover path {
+  fill: var(--pri) !important;
+  scale: 10;
 }
 .subServiceCont .mid-title {
   margin-top: 50px;
 }
-.service1::before {
+.hexIcon {
+  filter: invert(1);
+  height: 50px;
+  position: absolute;
+  top: -8px;
+  left: calc(50% - 23px);
+  z-index: 11;
+}
+/* .service1::before {
   background-image: url("/public/images/webs1.png");
 }
 .service2::before {
@@ -257,33 +266,36 @@ margin-left: 10px;
 .service7::before {
   background-image: url("/public/images/webs7.png");
 }
-.service8::before {
+.service8::before { 
   background-image: url("/public/images/webs8.png");
-}
+} */
 
-.vid-home{
+.vid-home {
   border-radius: 20px;
 }
-.video-thumbnail{
+.video-thumbnail {
   position: relative;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
 }
-.play-button{
+.play-button {
   /* position:absolute;
   top:100px;
 text-align: center;
-left: 100px;
-border: 2px solid red; */
-position: absolute;
-top: 100px;
-text-align: center;
-left: 200px;
-cursor: pointer; 
-margin-top: 60px;
-box-shadow: 0 8px 19px rgb(238, 235, 235);
+left: 100px;*/
+  left: 70px;
+  position: absolute;
+  /* top: 100px;
+  text-align: center;
+  left: 200px; */
+  cursor: pointer;
+  /* margin-top: 60px; */
+  box-shadow: 0 8px 19px rgb(238, 235, 235);
 }
-.iconings{
-font-size: 60px;
-color: #f7f9fa;
+.iconings {
+  font-size: 60px;
+  color: #f7f9fa;
 }
 /* Recent Projects  */
 
@@ -319,16 +331,17 @@ color: #f7f9fa;
   color: #ffffff; /* Set the desired color */
 }
 
-.sm-titles{
+.sm-titles {
   font-size: 20px;
 }
-.home-slide .mid-titles{
+.home-slide .mid-titles {
   font-size: 23px;
   font-weight: 200;
 }
 /* Our Experience  */
 .ourExpSec {
   padding: 50px 0;
+
 }
 .ourExpFoot {
   display: flex;
@@ -344,16 +357,16 @@ color: #f7f9fa;
   list-style: none;
 }
 .ico-list-colo{
-  color:var(--sub);
+  color:var(--pri);
   padding-right: 8px;
   font-size: 19px;
 }
 .testimonialBox{
-  /* height: 300px; */
+  padding: 50px;
 }
 .list-home li:hover {
-  color: var(--pri); 
-  cursor: pointer; 
+  color: var(--pri);
+  cursor: pointer;
 }
 @media (width <= 991px) {
   .ourExpFootIconBox {
@@ -362,96 +375,106 @@ color: #f7f9fa;
 }
 
 /* Testimonial   */
-.testimonialSec{
+.testimonialSec {
   padding: 50px 0;
   background-image: url(../../public/images/h1-bg04.jpg);
   background-position: 0px 200px;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: var(--bgc);
+
+
+  
 }
-.testimonialBox{
+.testimonialBox {
   box-shadow: 0 0 10px var(--bgs);
   border-radius: 10px;
   margin-bottom: 50px;
   background-color: #fff;
-  background-image:  url(../../public/images/review-bg.jpg);
+  background-image: url(../../public/images/review-bg.jpg);
 }
-.testiTopCont{
+.testiTopCont {
   margin-bottom: 50px;
   color: #fff;
 }
-.clientBox{
+.clientBox {
   display: flex;
   align-items: center;
 }
-.clientBox p{
+.clientBox p {
   padding: 0;
   margin: 0;
 }
-.clientImgBox{
+.clientImgBox {
   display: flex;
   align-items: center;
 }
-.clientQuote{
+.clientQuote {
   height: 60px;
   width: 60px;
   background-color: var(--pri);
   border-radius: 50%;
   margin-left: -120px;
 }
-.clientQuote img{
+.clientQuote img {
   scale: 0.5;
 }
-.clientImg{
+.clientImg {
   height: 80px;
   width: 80px;
   overflow: hidden;
   border-radius: 50%;
   margin-left: 40px;
 }
-.clientName{
+.clientName {
   margin-left: 80px;
 }
-.testMainCont{
+.testMainCont {
   display: flex;
   gap: 70px;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   color: #fff;
 }
 @media (width <= 991px) {
-  .testMainCont{
+  .testMainCont {
     flex-wrap: wrap;
   }
 }
-.test-head{
-font-size: 40px;
+.test-head {
+  font-size: 40px;
 }
-.testiIconBox{
-  height: 150px;
+.testiIconBox {
+  /* height: 150px;
   width: 150px;
-  background-color: var(--pri);
+  background-color: var(--pri); */
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 50%;
+  /* border-radius: 50%; */
+  position: relative;
 }
-.testiIconBox img{
-  height: 50%;
-  width: 50%;
+.testiIconBox svg {
+  width: 100px;
+  fill: var(--pri);
+  transition: all 0.5s;
 }
-.testiIconBox{
+.testiIconBox img {
+  width: 50px;
+  position: absolute;
+}
+.testiIconBox {
   margin: 10px auto;
   transition: all 0.3s;
 }
-.testiContBox{
+.testiContBox {
   text-align: center;
 }
-.testInn:hover .testiIconBox{
-  background-color: var(--sec);
+.testInn:hover .testiIconBox svg {
+  fill: var(--sec);
 }
-.issue{
-  margin-top:-600px !important;
+.issue {
+  margin-top: -600px !important;
 }
 .controlacc {
   height: 100%;
@@ -463,7 +486,7 @@ font-size: 40px;
 
 /* NewService */
 
-.home-cont-overlay{
+.home-cont-overlay {
   background-color: #fff;
   width: 85%;
   margin: 0px 20px;
@@ -473,47 +496,47 @@ font-size: 40px;
   flex-direction: column;
   padding: 10px;
   display: none;
+
 }
-.home-slide .hom-sld-img{
-  width: 95%;
-  height: 100%;
-  border-radius:20px;
+.home-slide .hom-sld-img {
+  width: 98%;
+  border-radius: 20px;
 }
-.home-cont-overlay img{
+.home-cont-overlay img {
   width: 60px;
   height: 60px;
   margin-bottom: 20px;
-
-  /* var(--pri) */ color: #1f3195;
+  color: var(--pri);
 }
 
 .home-slide {
   position: relative;
+
 }
 .home-slider {
   position: relative;
 }
 .home-slide .mid-titles{
-  color: #1f3195;
+  color: var(--pri);
   font-size: 26px;
 }
 
-.home-slide:hover .home-cont-overlay{
+.home-slide:hover .home-cont-overlay {
   display: block;
   border-radius:10px;
 }
-.home-slider:hover .home-arrow{
+.home-slider:hover .home-arrow {
   display: block;
 }
-.home-slider:hover .home-arrow1{
+.home-slider:hover .home-arrow1 {
   display: block;
 }
 
-.ho-arr{  
+.ho-arr {
   position: relative;
   top: 200px;
 }
-.home-arrow{
+.home-arrow {
   position: fixed;
   z-index: 2;
   background-color: #fff;
@@ -526,24 +549,25 @@ font-size: 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   display: none;
 }
+.ho-arr1 {
+  background-color: red;}
 .home-arrow:hover{
-  background-color: #1f3195;
+  background-color: var(--pri);
   color: #fff;
 }
 .home-arrow1:hover{
-  background-color: #1f3195;
+  background-color: var(--pri);
   color: #fff;
 }
 
 .ho-arr1{
-  background-color: red;
   position: relative; 
   right: 20px;
   top: 200px;
   display: flex;
   justify-content: flex-end;
 }
-.home-arrow1{
+.home-arrow1 {
   position: fixed;
   z-index: 2;
   background-color: #fff;
@@ -556,15 +580,51 @@ font-size: 40px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   display: none;
 }
-.tech-desc{
+.tech-desc {
   color: #b3bdd1;
 }
-.exp-home-tit{
+.exp-home-tit {
   font-size: 30px;
 }
-.home-sliderr{
-  margin-top:100px;
+.home-sliderr {
+  margin-top: 100px;
 }
+.mains-heading-color{
+  font-size: 20px;
+  color: var(--pri);
+}
+.home-about-title{
+  font-size: 45px;
+}
+.home-ourservice-des{
+  font-size: 16px;
+  color: #7b7d86 !important;
+}
+.text-lights{
+  color: #f7f9fa;
+  font-size: 15px; 
+}
+.text-lights:hover{
+  color: white;
+}
+.ourser-btn{
+  padding-top: 20px;
+}
+.slider-below-content{
+  padding-bottom: 50px;
+}
+.btn-servicehome {
+  background-color: var(--pri);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 15px;
+  padding: 20px;
+}
+.serviceIt{
+  color: var(--pri);}
 .home-about-ttles{
   font-size: 40px;
   text-align: center;

@@ -225,23 +225,6 @@ background-color: white;
     padding-right: 5px;
 }
 
-.topmenu{
-  width:50px;
-  height: 50px; 
-  position: fixed; 
-  bottom: 20px;
-  right: 30px;
-  background-color: var(--pri); 
-  color: #fff;
-  border-radius: 4px;
-  cursor: pointer;
-  z-index: 1000; 
-  font-size:28px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 @media screen and (width<=767px) {
     .call{
         text-align: left;
@@ -300,7 +283,7 @@ background-color: white;
     }
 }
 .authorize img{
-    width:100px;
+    width:150px;
 }
 .auth{
     margin-left:20px;
@@ -312,6 +295,25 @@ background-color: white;
     font-size: 22px;
 }
 
+/* Go Top  */
+.topmenu{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+  .topmenu svg{
+    fill: var(--pri);
+  }
+  .topIcon{
+    position: absolute;
+    color: #fff;
+  }
 
 
 

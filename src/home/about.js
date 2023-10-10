@@ -1,6 +1,6 @@
 import "../css/home.css";
-import { Tilt } from 'react-tilt';
-import {Link} from 'react-router-dom';
+import { Tilt } from "react-tilt";
+import { Link } from "react-router-dom";
 
 const HomeAbout = () => {
   return (
@@ -8,18 +8,17 @@ const HomeAbout = () => {
       <div className="aboutSec container">
         <div className="row justify-content-center align-items-center">
           <div className="col-lg-6 image-home-about">
-    
-    <div className="aboutImg">
-      <Tilt className="Tilt" options={{ max: 35, scale: 1.1 }}>
-        <div className="Tilt-inner">
-          <img
-            className="img-fluid"
-            src="/images/about_us.png"
-            alt="Service Image"
-          />
-        </div>
-      </Tilt>
-    </div>
+            <div className="aboutImg">
+              <Tilt className="Tilt" options={{ max: 35, scale: 1.1 }}>
+                <div className="Tilt-inner">
+                  <img
+                    className="img-fluid"
+                    src="/images/about_us.png"
+                    alt="Service Image"
+                  />
+                </div>
+              </Tilt>
+            </div>
           </div>
           <div className="col-lg-6">
             <div className="aboutCont">
@@ -36,28 +35,28 @@ const HomeAbout = () => {
               </p>
               <div className="abtBoxes">
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-12 col-md-6 mb-3 ">
                     <div className="row abtBoxInn">
                       <div className="col-3">
                         <img
                           className="img-fluid experienceimg"
-                          src="/images/icons/certificate copy.png"
+                          src="/images/icons/certificatenew.png"
                         ></img>
                       </div>
                       <div className="col-9">
                         <p className="mid-title home-tit">Experience</p>
                         <p className="text-muted">
-                        30+ experts, years of experience.
+                          30+ experts, years of experience.
                         </p>
                       </div>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-12 col-md-6">
                     <div className="row abtBoxInn">
                       <div className="col-3">
                         <img
                           className="img-fluid"
-                          src="/images/icons/support copy.png"
+                          src="/images/icons/supportnew.png"
                         ></img>
                       </div>
                       <div className="col-9">
@@ -70,6 +69,7 @@ const HomeAbout = () => {
                   </div>
                 </div>
               </div>
+              
               <p className="text-muted home-baner-con-below">
                 We take pride in ourselves being able to cater to the needs of
                 big organizations, institutions, industries and individual
@@ -77,10 +77,10 @@ const HomeAbout = () => {
                 services at highly competitive rates and value for our
                 customers.
               </p>
-              <Link to="/about"  className="btns links text-light">
+              <Link to="/about" className="btns links text-light">
                 Learn More &nbsp; <span className="fa fa-arrow-right"></span>
-                </Link>          
-                  </div>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

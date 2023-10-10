@@ -19,17 +19,21 @@ function Footer() {
           <div className="small-box">
             <div className="row small">
               <div className="col-lg-3  name">
-                <p className="infy"><img
-                className="img-fluid"
-                src="./images/others/footer-logo.png"
-                alt="infygain logo"
-              ></img></p>
+                <p className="infy">
+                  <img
+                    className="img-fluid"
+                    src="./images/others/footer-logo.png"
+                    alt="infygain logo"
+                  ></img>
+                </p>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-12  nam nam1">
                 <p className="call">
                   <b>CALL FOR SUPPORT</b>
                 </p>
-                <p className="phone">0422 3500770<br></br>+91 99521 41444</p>
+                <p className="phone">
+                  0422 3500770<br></br>+91 99521 41444
+                </p>
               </div>
 
               <div className="col-lg-3 col-md-4 col-sm-12 nam">
@@ -49,22 +53,46 @@ function Footer() {
                   <br></br>
                 </h1>
                 <div className="infyicon">
-                  <a target="_blank" href="https://www.facebook.com/infygain/" className="infyicon infyicon1">
+                  <a
+                    target="_blank"
+                    href="https://www.facebook.com/infygain/"
+                    className="infyicon infyicon1"
+                  >
                     <i className="fa fab fa-facebook"></i>
                   </a>
-                  <a target="_blank" href="https://wa.me/919952141444" className="infyicon infyicon1">
+                  <a
+                    target="_blank"
+                    href="https://wa.me/919952141444"
+                    className="infyicon infyicon1"
+                  >
                     <i className="fa fab fa-whatsapp"></i>
                   </a>
-                  <a target="_blank" href="https://www.instagram.com/infygain/" className="infyicon infyicon1">
+                  <a
+                    target="_blank"
+                    href="https://www.instagram.com/infygain/"
+                    className="infyicon infyicon1"
+                  >
                     <i className="fa fab fa-instagram"></i>
                   </a>
-                  <a target="_blank" href="https://www.linkedin.com/company/infygain-technologies/" className="infyicon infyicon1">
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/company/infygain-technologies/"
+                    className="infyicon infyicon1"
+                  >
                     <i className="fa fab fa-linkedin"></i>
                   </a>
-                  <a target="_blank" href="https://twitter.com/infygain" className="infyicon infyicon1">
+                  <a
+                    target="_blank"
+                    href="https://twitter.com/infygain"
+                    className="infyicon infyicon1"
+                  >
                     <i className="fa fab fa-twitter"></i>
                   </a>
-                  <a target="_blank" href="https://www.youtube.com/@infygain6707" className="infyicon infyicon1">
+                  <a
+                    target="_blank"
+                    href="https://www.youtube.com/@infygain6707"
+                    className="infyicon infyicon1"
+                  >
                     <i className="fa fab fa-youtube"></i>
                   </a>
                 </div>
@@ -77,11 +105,15 @@ function Footer() {
               <div className="col-xs-6 col-sm-3 mb-3 ">
                 <h1 className="mini-title one">Our Services</h1>
                 <ul>
-            
-                  <li className="quicklinks"><Link to="/Iotservice">IT Supports</Link></li>
-                  <li className="quicklinks"><Link to="/ServiceSeo">Website / App</Link></li>
-                  <li className="quicklinks"><Link to="/ispservice">ISP Services</Link></li>
-                  
+                  <li className="quicklinks">
+                    <Link to="/Iotservice">IT Supports</Link>
+                  </li>
+                  <li className="quicklinks">
+                    <Link to="/ServiceSeo">Website / App</Link>
+                  </li>
+                  <li className="quicklinks">
+                    <Link to="/ispservice">ISP Services</Link>
+                  </li>
                 </ul>
               </div>
               <div className="col-xs-6 col-sm-3">
@@ -102,7 +134,12 @@ function Footer() {
                   </li>
                   <li>
                     {" "}
-                    <Link target="_blank" to="https://infygain.com/onlinestore/">Online Store</Link>
+                    <Link
+                      target="_blank"
+                      to="https://infygain.com/onlinestore/"
+                    >
+                      Online Store
+                    </Link>
                   </li>
                   {/* <li> <Link to="/contact">Book Services</Link></li> */}
                 </ul>
@@ -134,15 +171,6 @@ function Footer() {
             </div>
           </div>
 
-          <div className="authorize">
-            <div className="row">
-              <div className="col-12">
-                <img className="img-fluid auth" src="./images/others/iso.svg"></img>
-                <img className="img-fluid auth" src="./images/others/gem.svg"></img>
-                <img className="img-fluid auth" src="./images/others/bni-logo.png"></img>
-              </div>
-            </div>
-          </div>
 
           {/* <div className="socialmediaicons">
             <p className="mini-title follow">Follow Us On</p>
@@ -207,7 +235,22 @@ function Footer() {
         </div>
       </div>
       <div className="topmenu" onClick={scrollToTop}>
-        <TbArrowBigUpFilled />
+        <svg
+          className="testIcon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 357.6 401.37"
+        >
+          <g id="Layer_2" data-name="Layer 2">
+            <g id="Layer_1-2" data-name="Layer 1">
+              <path
+                class="cls-3"
+                d="M357.6,282.36V119a37.33,37.33,0,0,0-18.66-32.33L197.47,5a37.32,37.32,0,0,0-37.33,0L18.67,86.68A37.33,37.33,0,0,0,0,119V282.36a37.32,37.32,0,0,0,18.67,32.33l141.47,81.68a37.32,37.32,0,0,0,37.33,0l141.47-81.68A37.31,37.31,0,0,0,357.6,282.36Z"
+              />
+            </g>
+          </g>
+        </svg>
+
+        <TbArrowBigUpFilled className="topIcon"/>
       </div>
     </footer>
   );

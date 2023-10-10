@@ -3,6 +3,7 @@ import AOS from 'aos'
 import { GiNetworkBars } from 'react-icons/gi'
 import { BiSolidCctv} from 'react-icons/bi'
 import { BsArrowRight, BsLaptopFill , BsProjectorFill} from 'react-icons/bs'
+import { MdOutlineSecurity } from "react-icons/md";
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'aos/dist/aos.css';
 import '../css/IotBanner.css'
@@ -16,9 +17,9 @@ const IotBanner = () => {
     const [currSlide, setCurrSlide] = useState(0)
 
     const images = [
-        '/images/banner.jpg',
-        '/images/banner2.jpg',
-        '/images/banner.jpg',
+        '/images/Banner1.jpg',
+        '/images/Baner2.jpg',
+        '/images/Banner3.jpg',
       ];
 
     useEffect(() => {
@@ -46,28 +47,36 @@ const IotBanner = () => {
     }
 
   return (
-    <div>
+    <div className='iot-ban-and-serv'>
         {/* banner */}
         <div className='banner'>
           {(currSlide === 0 ) && (
-              <div style={backgroundImage}>
+              <div className='iot-bgimg' style={backgroundImage}>
                <div className='banner-content1 container'>
                   <p data-aos="fade-up" data-aos-duration="1000" style={{color:"#ffffff"}}>Welcome to</p>
                   <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:900}}>Infygain</p>
-                  <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:900}}>IOT Services</p>
+                  <p data-aos="fade-up" data-aos-duration="1400" style={{color:"#ffffff",fontWeight:900}}>IT Supports</p>
               </div>
        
                 <div data-aos="fade-up" data-aos-duration="2000" className='banner-content2 container'>
                   <p style={{color:"#ffffff"}}>We've been lucky to collaborate with</p>
                   <p style={{color:"#ffc000"}}>a long list of customers</p>
-                  <button data-aos="fade-up" data-aos-duration="2100">About us</button>
+                  <button  data-aos="fade-up" data-aos-duration="2500"  className="test-btns">
+                    <span className="test-sc"> 
+                    </span>
+                    <span className="iot-text">About Us
+                    <BsArrowRight className='btns-icons1'/>
+                    </span>
+                  </button>
                 </div>
+                {/* <img className='iot-ani-img' src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2021/02/slider-shape3.png'/>
+               <img className='iot-ani1-img' src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2021/02/slider-shape4.png'/> */}
 
                
             </div>
         )}
         {(currSlide  === 1 ) && (
-         <div style={backgroundImage}>
+         <div className='iot-bgimg' style={backgroundImage}>
               <div  className='banner-content1 container'>
                   <p data-aos="fade-up" data-aos-duration="1000" style={{color:"#ffffff"}}>We are IT Solution </p>
                   <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:900}}>Provider and</p>
@@ -77,14 +86,21 @@ const IotBanner = () => {
               <div data-aos="fade-up" data-aos-duration="2000" className='banner-content2 container'>
                 <p style={{color:"#ffffff"}}>We've been lucky to collaborate with</p>
                 <p style={{color:"#ffc000"}}>a long list of customers</p>
-                <button data-aos="fade-up" data-aos-duration="2500">About us</button>
+                <button  data-aos="fade-up" data-aos-duration="2500"  className="test-btns">
+                    <span className="test-sc"> 
+                    </span>
+                    <span className="iot-text">About Us
+                    <BsArrowRight className='btns-icons1'/>
+                    </span>
+                  </button>
               </div>
 
-             
+              {/* <img className='iot-ani-img' src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2021/02/slider-shape3.png'/>
+               <img className='iot-ani1-img' src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2021/02/slider-shape4.png'/> */}
           </div>
           )}
          {(currSlide  === 2 ) && (
-          <div style={backgroundImage}>
+          <div className='iot-bgimg' style={backgroundImage}>
               <div className='banner-content1 container'>
                 <p data-aos="fade-up" data-aos-duration="1000" style={{color:"#ffffff"}}>You have the </p>
                 <p data-aos="fade-up" data-aos-duration="1200" style={{color:"#ffc000",fontWeight:900}}>Need, We have</p>
@@ -93,10 +109,17 @@ const IotBanner = () => {
             <div data-aos="fade-up" data-aos-duration="2000" className='banner-content2 container'>
               <p style={{color:"#ffffff"}}>We've been lucky to collaborate with</p>
               <p style={{color:"#ffc000"}}>a long list of customers</p>
-              <button data-aos="fade-up" data-aos-duration="2500">About us</button>
+              <button  data-aos="fade-up" data-aos-duration="2500"  className="test-btns">
+                    <span className="test-sc"> 
+                    </span>
+                    <span className="iot-text">About Us
+                    <BsArrowRight className='btns-icons1'/>
+                    </span>
+                  </button>
             </div>
-
-            
+{/* 
+            <img className='iot-ani-img' src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2021/02/slider-shape3.png'/>
+               <img className='iot-ani1-img' src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2021/02/slider-shape4.png'/> */}
           </div>
           )} 
       </div>
@@ -156,7 +179,7 @@ const IotBanner = () => {
           <div className='bg2'>
             <div className='head'>
               <div className='sub-head'>
-                <h1 className='icon'><BiSolidCctv style={iconStyles}/></h1>
+                <h1 className='icon'><MdOutlineSecurity style={iconStyles}/></h1>
                 <h1 className='title'>
                   Security<br />Services
                 </h1>

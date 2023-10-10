@@ -45,7 +45,6 @@ import { BsPlay } from "react-icons/bs";function SubService() {
                 <li>Multiple Connections</li>
                 <li>Intelligent Management</li>
                 <li>Data Security</li>
-                <li>Open Ecosystem</li>
               </div>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
@@ -58,24 +57,23 @@ import { BsPlay } from "react-icons/bs";function SubService() {
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
               <div className="subServiceCont service5">
-                <p className="mid-title subser-title">Infrastructure Systems Group</p>
+                <p className="mid-title subser-title">Infrastructure Systems </p>
                 <li>Structured Cabling</li>
-                <li>IP Telephony</li>
+           
                 <li>Wifi Solutions</li>
                 <li>AV Solutions</li>
-                <li>Wifi Solutions</li>
+           
                 <li>IP Telephony</li>
-                <li>Structured Cabling</li>
+           
               </div>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
               <div className="subServiceCont service6">
                 <p className="mid-title subser-title">Website Development</p>
-                <li>Static Website</li>
-                <li>Dynamic Websites</li>
+                <li>Static/Dynamic Website</li>
                 <li>E-commerce Sites</li>
-                <li>Business Mail</li>
-                <li>Social Media Marketing</li>
+            
+               
                 <li>Search Engine Optimization</li>
                 <li>Graphic Design</li>
               </div>
@@ -95,7 +93,6 @@ import { BsPlay } from "react-icons/bs";function SubService() {
                 <li>CCTV Solutions</li>
                 <li>Access Control Systems</li>
                 <li>Gate Barrier</li>
-                <li>Bollards</li>
                 <li>AV Intercom</li>
               </div>
             </div>

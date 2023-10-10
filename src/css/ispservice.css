@@ -1,3 +1,10 @@
+:root {
+    --isppri: #038B1C;
+    --ispsec: #8cc013;
+    --ispsmallbackground-color: #07af26;
+    --ispround-tick-icon-color: #acd109;
+}
+
 .ispservice {
     font-family: sans-serif;
 }
@@ -11,13 +18,13 @@
 }
 
 
-       .topbannersection {
-           height: 600px;
-           background-image: url("../images/banner/INFY BOY small (3).jpg");
-           background-size: cover;
-           background-repeat: no-repeat;
-           color: #fff;
-       }
+.topbannersection {
+    height: 600px;
+    background-image: url("../images/banner/INFY BOY small (3).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
 
 .maintitle {
     font-size: clamp(35px, 4vw, 50px);
@@ -29,8 +36,8 @@
 .smalline {
     width: 50px;
     height: 100px;
-    background-color: #99CC03;
-    border: 3px #7da505;
+    background-color: var(--ispsec);
+    border: 3px var(--ispsec);
 }
 
 
@@ -63,7 +70,7 @@
 
 .btns-green {
     padding: 18px 50px;
-    background-color: #038B1C;
+    background-color: var(--isppri);
     border: none;
     border-radius: 6px;
     color: white;
@@ -85,16 +92,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
 /*first section*/
 .firstsection {
     font-family: sans-serif;
@@ -102,7 +99,7 @@
 
 .another {
     padding: 5px 25px;
-    background-color: #8cc013;
+    background-color: var(--ispsec);
     border: none;
     border-radius: 3px;
     color: white;
@@ -146,7 +143,7 @@
     justify-content: center;
     margin: 0px;
     padding: 0;
-    /* height: 100px; */
+  
     object-fit: cover;
 }
 
@@ -208,22 +205,12 @@
     }
 }
 
-/* 
-       @media only screen and (max-width: 828px) {
-       body {
-        width: 100vw;
-       }
-} */
 
 
 .center-img {
     display: flex;
     justify-content: center;
 }
-
-
-
-
 
 
 /*small box*/
@@ -242,9 +229,7 @@
 }
 
 .ispsmallbox {
-    background-color: #07af26;
-    /* margin-left: 20px; */
-    /* margin-right: 10px; */
+    background-color: var(--ispsmallbackground-color);
     border-radius: 20px;
     font-family: sans-serif;
 
@@ -255,15 +240,12 @@
 }
 
 .smallconten {
-    /* display: flex; */
     padding-left: 20px;
-    /* justify-content: left; */
-    /* padding-top: 20px; */
     font-size: 19px;
     color: white;
     font-weight: 800;
     display: flex;
-    /* padding-top: 60px; */
+
 }
 
 .smallpara {
@@ -275,7 +257,7 @@
 
 .getanobtn {
     padding: 9px 40px;
-    background-color: #038B1C;
+    background-color: var(--isppri);
     border: none;
     border-radius: 3px;
     color: white;
@@ -286,7 +268,6 @@
 }
 
 .btncolor {
-    /* padding-top: 40px; */
     text-align: center;
 }
 
@@ -305,10 +286,6 @@
 
 
 
-
-
-
-
 /*bannertwo*/
 
 .topbannersection1 {
@@ -320,7 +297,6 @@
     background-repeat: no-repeat;
     object-fit: cover;
     color: #fff;
-    /* object-fit: cover; */
 
 }
 
@@ -331,7 +307,7 @@
 
 .btns-greens {
     padding: 8px 35px;
-    background-color: #8cc013;
+    background-color: var(--ispsec);
     border: none;
     border-radius: 6px;
     color: white;
@@ -354,11 +330,6 @@
 
 
 
-
-
-
-
-
 /*banner2belowcontent*/
 
 .ban-two-bel {
@@ -377,7 +348,7 @@
 
 .btns-green-learn {
     padding: 8px 38px;
-    background-color: #038B1C;
+    background-color: var(--isppri);
     border: none;
     border-radius: 6px;
     color: white;
@@ -386,11 +357,6 @@
     font-size: 12px;
     height: 44px;
 }
-
-
-
-
-
 
 
 
@@ -439,8 +405,8 @@
 .smalline {
     width: 50px;
     height: 1px;
-    background-color: #038B1C;
-    border: 3px #99CC03;
+    background-color: var(--isppri);
+    border: 3px var(--ispsec);
     display: flex;
 
 }
@@ -454,7 +420,7 @@
 
 .btns-greenbox {
     padding: 12px 30px;
-    background-color: #038B1C;
+    background-color: var(--isppri);
     border: none;
     border-radius: 6px;
     color: white;
@@ -501,15 +467,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
 /* service below section*/
 .service-below-sec {
     font-family: sans-serif;
@@ -546,7 +503,7 @@
 
 .roundicon {
     font-size: 50px;
-    color: #acd109;
+    color: var(--ispround-tick-icon-color);
 }
 
 .servlistlines {
@@ -560,18 +517,11 @@
 
 
 
-
-
-
-
-
-
-
 /*third banner*/
 
 .btns-greens-third {
     padding: 10px 30px;
-    background-color: #8fc511;
+    background-color: var(--ispsec);
     border: none;
     border-radius: 6px;
     color: white;
@@ -589,7 +539,6 @@
 }
 
 .topbannersectionthird {
-    /* height: 600px; */
     background-image: url("../images/banner/ban-3.jpg");
     background-repeat: no-repeat;
     color: #fff;
@@ -622,7 +571,7 @@
 }
 
 .midess-title {
-    color: #038B1C;
+    color: var(--isppri);
     font-size: 24px;
     font-weight: 800;
     display: flex;
@@ -650,13 +599,12 @@
     color: black;
     font-size: 40px;
     text-align: center;
-    /* padding: 20px; */
     margin-right: 40px;
-    color: #038B1C;
+    color: var(--isppri);
     font-weight: 700;
 }
 
-.pac-para { 
+.pac-para {
     color: black;
     display: flex;
     justify-content: center;
@@ -666,9 +614,10 @@
     color: black;
     font-size: 18px;
 }
-.isp-blog{
-      background-color: rgb(238, 238, 238);
-  
+
+.isp-blog {
+    background-color: rgb(238, 238, 238);
+
 }
 
 .isps-service {
@@ -714,7 +663,7 @@
 .btns-green-blog {
     padding: 18px 50px;
 
-    background-color: #038B1C;
+    background-color: var(--isppri);
     border: none;
     border-radius: 6px;
     color: white;
@@ -743,12 +692,6 @@
 
 
 
-
-
-
-
-
-
 /*back-blog*/
 
 .back-blog {
@@ -765,9 +708,8 @@
     font-weight: 600;
     font-size: 20px;
     padding-top: 200px;
-    /* padding-left: 70px; */
     text-align: center;
-    /* padding-right: 20px; */
+
 
 
 }
@@ -790,7 +732,7 @@
 
 .btns-green-learnmoreanother {
     padding: 18px 50px;
-    background-color: #038B1C;
+    background-color: var(--isppri);
     border: none;
     border-radius: 6px;
     color: white;
@@ -804,9 +746,6 @@
 .buttonlearan {
     text-align: left;
     text-align: center;
-    /* padding-left: 70px; */
-    /* padding-bottom: 90px; */
-
 }
 
 
@@ -860,13 +799,13 @@
     padding-bottom: 10px;
 
 
-       .ispmainservice {
-         height: 100%;
-         width: 100%;
-         margin: 0;
-         padding: 0;
-         overflow: hidden;
-       }
+    .ispmainservice {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
 
 }
 
@@ -897,9 +836,8 @@
 }
 
 .mlink {
-    color: white; 
-    
-    text-decoration: none;
-    
-  }
+    color: white;
 
+    text-decoration: none;
+
+}

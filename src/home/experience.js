@@ -9,7 +9,7 @@ const ourExp = () => {
           <div className="ourExp">
             <div className="row align-items-center">
              
-              <div className="col-md-6">
+              <div className="col-lg-6">
                 <p className="mini-title main-color">OUR EXPERIENCE</p>
                 <p className="home-about-ttle">Experts With Experience</p>
                 <p className="text-muted">
@@ -30,11 +30,11 @@ const ourExp = () => {
                   </div>
                   <div class="col-md-6">
                   <ul class="list-home">
-                    <li><i className="fa fas fa-check-circle ico-list-colo"></i> Website/SEO Development</li>
+                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>Website/SEO Development</li>
                     <li><i className="fa fas fa-check-circle ico-list-colo"></i>Graphic Designs</li>
-                    <li><i className="fa fas fa-check-circle ico-list-colo"></i> Doorstep Computer Services</li>
+                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>Doorstep Computer Services</li>
                     <li><i className="fa fas fa-check-circle ico-list-colo"></i>Network Components</li>
-                    <li><i className="fa fas fa-check-circle ico-list-colo"></i> POS / Billing Software</li>
+                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>POS / Billing Software</li>
                     </ul>
 
                   </div>
@@ -44,7 +44,7 @@ const ourExp = () => {
                   <div className="ourExpFootIconBox">
                     <img
                       className="img-fluid"
-                      src="/images/top-rated.svg"
+                      src="/images/top-rated (2).svg"
                     ></img>
                   </div>
                   <div className="ourExpFootContBox">
@@ -57,7 +57,7 @@ const ourExp = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-md-6">
+              <div className="col-lg-6">
                 <img className="img-fluid" src="/images/Experience 1.jpg"></img>
               </div>
             </div>

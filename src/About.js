@@ -1,10 +1,8 @@
 import Header from './common/header';
 import Aboutmain from './about/about';
 import Aboutcounter from "./about/aboutcounter";
-// import HomeAbout from './home/about';
 import Enquiry from './common/enquiry';
 import Carouselabout from './about/carousel';
-// import Aboutus from './about/aboutus';
 import Footer from './common/footer';
 import React, { useEffect } from 'react'; 
 import './css/about.css';
@@ -20,6 +18,7 @@ function About(){
     return(
         <>
         <Header/>
+        <div className='about-page-main'>
         <Aboutmain/>
         {/* <HomeAbout/> */}
         <Aboutcounter/>
@@ -27,6 +26,7 @@ function About(){
         <Carouselabout/>
         {/* <Aboutus/> */}
         <Enquiry/>
+        </div>
         <Footer/>
         </>
     );

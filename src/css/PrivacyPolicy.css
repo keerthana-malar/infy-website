@@ -1,0 +1,44 @@
+/* Container styles */
+.privacy-policy-container {
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Blinker", sans-serif;
+}
+
+/* Heading styles */
+.privacy-policy-heading {
+    font-size: 36px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    color: var(--pri);
+}
+
+/* Section heading styles */
+.section-headings {
+    font-size: 22px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+    color: var(--sec);
+    font-weight: 600;
+}
+
+
+/* Link styles */
+.contact-link {
+    color: var(--pri);
+    text-decoration: none;
+}
+
+.contact-link:hover {
+    text-decoration: underline;
+}
+
+/* Address styles */
+.mailing-address {
+    font-style: normal;
+    color: #444;
+}
+
+.privacy-para-con {
+    font-size: 18px;
+}

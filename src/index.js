@@ -6,13 +6,9 @@ import './css/seo.css';
 import "font-awesome/css/font-awesome.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-import Header from "./common/header";
-import Footer from "./common/footer";
 import About from "./About";
-
 import Home from "./Home";
-import { BrowserRouter, Routes, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "./contact";
 import Blogs from "./blog";
 import MainBlogs from "./mainblog";
@@ -28,6 +24,12 @@ import Blog from "./admin/Blog";
 import AddBlog from "./admin/AddBlog";
 import EditBlog from "./admin/EditBlog";
 import Bookservicepage from './Bookservicepage';
+import PrivacyPolicy from "./footermainpages/PrivacyPolicy";
+import Termspage from './footermainpages/Termspage';
+import Delivery from './footermainpages/Delivery';
+import Refund from './footermainpages/refund';
+import Quality  from "./footermainpages/quality";
+
 
 function App() {
   return (
@@ -51,9 +53,16 @@ function App() {
         <Route path="/addblog" element={<AddBlog />} />
         <Route path="/Bookservicepage" element={<Bookservicepage />} />
         <Route path="*" element={"404 Page Not Found"} />
+        <Route path="/privacypolicy" element={<PrivacyPolicy/>} />
+        <Route path="/termspage" element={<Termspage/>} />
+        <Route path="/delivery" element={<Delivery/>} />
+        <Route path="/refund" element={<Refund/>} />
+        <Route path="/quality" element={<Quality/>} />
+
 
       </Routes>
     </BrowserRouter>
+    
   );
 }
 

@@ -14,8 +14,8 @@ function Contactus(){
         <Contactbanner/>
         <Maincontent/>
         <Contactform/>
-        <Footer/>
         <Enquiry/>
+        <Footer/>
         </>
     );
 }

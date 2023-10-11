@@ -28,14 +28,14 @@ function Iotservices() {
       <Aboutclient/>
       {/* <Testimonialing/> */}
       <IotBlogs />
-      <IotOurService /
+      <IotOurService />
       {/* <BookforServices/>
       <Existinguser/> */}
 
-      
+      <Enquiry/>
       <IotFooter />
       {/* <Footer/> */}
-      <Enquiry/>
+      
 
       
     </div>

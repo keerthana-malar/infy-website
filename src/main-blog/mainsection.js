@@ -11,12 +11,12 @@ function Mainsection() {
                   <div className="img">
                     <img
                       className="img-fluid"
-                      src="/images/girl.jpg"
+                      src="/images/desktop.jpg"
                     ></img>
                   </div>
-                  <div className="buttons">
-                            <button className="btns firstbutton">infygain</button>
-                            <button className="btns secondbutton">infygain</button>
+                  <div className="buttonss">
+                            <button className="btns firstbutton">Desktop</button>
+                            {/* <button className="btns secondbutton">infygain</button> */}
                         </div>
                   <div className="content-box ">
                     <div className="content-box-content">

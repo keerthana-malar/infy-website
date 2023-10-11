@@ -11,8 +11,8 @@ function aboutclient() {
         <div className="col-md-6">
           <div className="review-main">
             <div className="client-con sh-abt-bx mb-5">
-              <p className="mini-title main-color">CLIENT FEEDBACK</p>
-              <p className="s-title mb-5">What Our Clients Say</p>
+              <p className="mini-title">CLIENT FEEDBACK</p>
+              <p className="s-title clienttitle mb-5">What Our Clients Say</p>
               <i className="text-muted">
                 "I Got Excellent Technical services from Infygain !!!
 We tried Past 1 week could not install payroll software in my system due to some technical error. They said it was due to an OS error.

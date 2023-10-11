@@ -1,0 +1,23 @@
+.fixedline{
+    position: fixed;
+     top:25%;
+     bottom:10%;
+     right: 0%;
+     height:101px;
+     width:3%;
+    background-color:rgb(245, 238, 238);
+    border-radius: 5px 0 0 5px  ;
+    align-items: center;
+}
+
+.iconvalue{
+    display: grid;
+    font-size: 22px;
+    margin-left: 10px;
+}
+
+.valuekiller{
+    margin-bottom: 1px;
+    margin-top: 2px;
+    color:black
+}

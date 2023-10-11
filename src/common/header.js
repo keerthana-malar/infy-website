@@ -11,6 +11,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import "../css/header.css";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import Fixedline from '../services/Fixedline';
 
 function header() {
   function DropdownMenu() {
@@ -147,7 +148,7 @@ function header() {
                 </div>
               </li>
               <li>
-                <Link className="mlink" to="/blogs">
+                <Link className="mlink" to="/mainblogs">
                   Blogs
                 </Link>
               </li>
@@ -188,7 +189,7 @@ function header() {
                   Get a quote &nbsp;&nbsp;<i className="fa fa-arrow-right"></i>
                 </button>
               </a>
-              <a className="head-link" target="_blank" href="https://infygain.com/onlinestore/">
+              <a className="head-links" target="_blank" href="https://infygain.com/onlinestore/">
                 <FaCartPlus/>
               </a>
             </div>
@@ -243,6 +244,7 @@ function header() {
             Contact
           </Link>
         </li>
+        <Fixedline/>
       </div>
     </>
   );

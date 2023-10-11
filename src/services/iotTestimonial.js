@@ -13,7 +13,7 @@ import { Tilt } from 'react-tilt'
 
 
 
-function Testimonial() {
+function Testimonialing() {
   const defaultOptions = {
     reverse:        false,  // reverse the tilt direction
     max:            35,     // max tilt rotation (degrees)
@@ -42,10 +42,8 @@ function Testimonial() {
   return (
     <div className='container' >
       <div className='row fulline'>
-        
         <div className='col-md-12 col-sm-12 col-lg-6 fullleftcompany'>
           <div className='line_with_testimonial' >
-            <div className='yellowline'></div>
             <p>Testimonials</p>
           </div>
           <div className='header'>
@@ -53,7 +51,7 @@ function Testimonial() {
             honarble Clients</span> </h1>
           {" "}
           </div>
-          <div className='slider'>
+          <div className='movingslick'>
             <div className="slide">
             <Slider ref={sliderRef} {...settings} >
                 <div>
@@ -148,4 +146,4 @@ function Testimonial() {
   )
 }
 
-export default Testimonial;
+export default Testimonialing;

@@ -6,25 +6,38 @@ import IotOurService from './services/IotOurService';
 import IotService from './services/IotService';
 import Footer from './common/footer';
 import IotBlogs from './services/IotBlogs';
+// import Testimonialing from './services/iotTestimonial';
+// import BookforServices from './services/BookforServices';
+// import Existinguser from './services/Existinguser';
+import Aboutclient from "./about/aboutclient";
 import Testimonial from './services/iotTestimonial';
+import IotFooter from './services/IotFooter';
+import IotHeader from './services/IotHeader';
 import Enquiry from "./common/enquiry";
 
 
 function Iotservices() {
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/> */}
+      <IotHeader />
       <IotBanner />
       <IotAbout />
       <IotService />
       <IotActivities />
-      <Testimonial/>
+      <Aboutclient/>
+      {/* <Testimonialing/> */}
       <IotBlogs />
-      <IotOurService />
-      <Enquiry/>
-      <Footer/>
+      <IotOurService /
+      {/* <BookforServices/>
+      <Existinguser/> */}
 
-    
+      
+      <IotFooter />
+      {/* <Footer/> */}
+      <Enquiry/>
+
+      
     </div>
   );
 }

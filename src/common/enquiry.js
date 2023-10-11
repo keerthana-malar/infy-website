@@ -12,16 +12,16 @@ function Enquiry() {
           <div className="inn">
             <div className="short-abt">
               <div className="row">
-                <div className="col">
+                <div className="col-md-6">
                   <div className="shortt-img">
                     <img className="img-fluid " src="./images/abt.jpg"></img>
                   </div>
                 </div>
-                <div className="col">
+                <div className="col-md-6">
                   <div className="enqbx2">
                   <form className="enqformm">
                     <div className="row box">
-                      <div className="col-md-6 form-group">
+                      <div className="col-lg-6 form-group">
                         <input
                           type="text"
                           className="form-control"
@@ -29,7 +29,7 @@ function Enquiry() {
                           required
                         />
                       </div>
-                      <div className="col-md-6 form-group">
+                      <div className="col-lg-6 form-group">
                         <input
                           type="phone"
                           className="form-control"
@@ -37,7 +37,7 @@ function Enquiry() {
                           required
                         />
                       </div>
-                      <div className="col-md-6 form-group">
+                      <div className="col-lg-6 form-group">
                         <input
                           type="email"
                           className="form-control"
@@ -45,7 +45,7 @@ function Enquiry() {
                           required
                         />
                       </div>
-                      <div className="col-md-6 form-group">
+                      <div className="col-lg-6 form-group">
                         <select
                           className="form-control"
                           name="category"
@@ -90,12 +90,16 @@ function Enquiry() {
                           required
                         />
                       </div>
-                    </div>
-                    <button className="btns send">
+                  
+                    <div className="send-enquiry">
+                    <button className="btns send-enquiry">
                       Send Message &nbsp;
                       <span className="fa fa-arrow-right"></span>
                     </button>
+                    </div>
+                    </div>
                   </form>
+                  
                   </div>
                 </div>
               </div>

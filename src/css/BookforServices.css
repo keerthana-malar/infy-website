@@ -1,0 +1,73 @@
+.rightboxing{
+    margin: 0;
+    padding: 0;
+}
+
+.boycontainer img{
+ height: 500px;
+ object-fit: cover;
+ padding: 0;
+ margin: 0;
+}
+.grandgrandparent{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.headingregisteration{
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.headingtag{
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.headingtagunder{
+    font-size: 20px;
+}
+.iconpotti{
+    color:rgb(255, 218, 8);
+    font-size: 25px;
+    margin-bottom: 12px;
+    margin-right: 20px;
+}
+.orders{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.rightboxborder
+{
+    box-shadow: 2px 2px 2px 2px rgb(121, 120, 120);
+    border-radius: 80px 0 80px 0;
+    padding: 20px;
+ 
+}
+
+.buttontaging{
+    text-align: center;
+    margin-top: 10px;
+}
+.insidebtn{
+    background-color:rgb(0, 89, 255);
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: white;
+  
+}
+.insidebtn:hover{
+    background-color: rgb(255, 218, 8);
+    color: black;
+}
+.bookforserivceimage{
+    margin-top: 90px;
+    height: 420px;
+}
+.boycontainer{
+    text-align: center;
+}
+
+
+

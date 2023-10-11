@@ -28,7 +28,7 @@ function Iotservices() {
       <Aboutclient/>
       {/* <Testimonialing/> */}
       <IotBlogs />
-      <IotOurService /
+      <IotOurService />
       {/* <BookforServices/>
       <Existinguser/> */}
 

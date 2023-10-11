@@ -48,8 +48,8 @@ const NewService = () => {
             </div>
 
             {/* <Slider  {...settings}> */}
-            <div className='row'>
-                <div className='col-md-4 col-lg-4'>
+            <div className='row '>
+                <div className='col-md-4 col-lg-4 serv-home-sec'>
                     <div className='home-slide'>
 
                         <img className='hom-sld-img' src='/images/Services IT.jpg' />
@@ -68,7 +68,7 @@ const NewService = () => {
 
                     </div>
                 </div>
-                <div className='col-md-4 col-lg-4'>
+                <div className='col-md-4 col-lg-4 serv-home-sec'>
 
                     <div className='home-slide'>
                         <img className='hom-sld-img' src='/images/Services WEB.jpg' />
@@ -85,7 +85,7 @@ const NewService = () => {
 
                     </div>
                 </div>
-                <div className='col-md-4 col-lg-4'>
+                <div className='col-md-4 col-lg-4 serv-home-sec'>
 
                     <div className='home-slide'>
                         <img className='hom-sld-img' src='/images/isp (3).jpg' />

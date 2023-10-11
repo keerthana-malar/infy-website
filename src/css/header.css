@@ -12,6 +12,7 @@
 .head-link:hover{
     color: var(--sec);
 }
+
 .head-link svg{
    height:22px;
 }

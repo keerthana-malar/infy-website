@@ -58,7 +58,7 @@ const ourExp = () => {
                 </div>
               </div>
               <div className="col-lg-6">
-                <img className="img-fluid" src="/images/Experience 1.jpg"></img>
+                <img className="img-fluid" src="/images/finalexperience.jpg"></img>
               </div>
             </div>
           </div>

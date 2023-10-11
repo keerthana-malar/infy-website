@@ -18,6 +18,7 @@ function About(){
     return(
         <>
         <Header/>
+        <div className='about-page-main'>
         <Aboutmain/>
         {/* <HomeAbout/> */}
         <Aboutcounter/>
@@ -25,6 +26,7 @@ function About(){
         <Carouselabout/>
         {/* <Aboutus/> */}
         <Enquiry/>
+        </div>
         <Footer/>
         </>
     );

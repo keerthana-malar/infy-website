@@ -22,7 +22,7 @@ function Footer() {
                 <p className="infy">
                   <img
                     className="img-fluid"
-                    src="./images/others/footer-logo.png"
+                    src="./images/others/logo-alt.svg"
                     alt="infygain logo"
                   ></img>
                 </p>
@@ -32,7 +32,7 @@ function Footer() {
                   <b>CALL FOR SUPPORT</b>
                 </p>
                 <p className="phone">
-                  0422 3500770<br></br>+91 99521 41444
+                  +91 99521 41444<br></br>+91 9488576307
                 </p>
               </div>
 
@@ -154,6 +154,9 @@ function Footer() {
                 </p>
                 <hr className="hrline"></hr>
                 <p className="address ph">+91 &nbsp;9952141444</p>
+                <p className="address ph">+91 &nbsp;9488576307</p>
+                <p className="address ph">0422 3500770</p>
+
                 <p className="address">
                   <b>info@infygain.com</b>
                 </p>

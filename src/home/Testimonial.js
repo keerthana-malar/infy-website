@@ -25,7 +25,7 @@ const Testimonial = () => {
                       <div className="clientImg">
                         <img className="img-fluid" src="/images/abt.jpg"></img>
                       </div>
-                      <div className="clientQuote">
+                      <div className="clientQuotes">
                         <img src="/images/Quote.svg"></img>
                       </div>
                     </div>
@@ -88,10 +88,10 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/cctv2.png"></img>
+                  <img className="img-fluid 5" src="/images/fingerprint-modified.png"></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title">CCTV Camera</p>
+                  <p className="mid-title">Security Systems</p>
                   <p className="tech-desc">24/7 Security Surveillance</p>
                 </div>
               </div>
@@ -139,7 +139,7 @@ const Testimonial = () => {
                   <img className="img-fluid" src="/images/cctvs1.png"></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title">Projectors/Biometrics</p>
+                  <p className="mid-title">AV Solutions</p>
                   <p className="tech-desc">
                     Innovative Presentation <br></br>and Access
                   </p>

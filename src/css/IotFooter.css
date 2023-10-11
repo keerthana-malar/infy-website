@@ -1,0 +1,347 @@
+
+:root {
+    --iotpri: #f3be1e;
+    --iotsecc: #acacac;
+   
+  }
+
+.iot-mainfooter a{
+    text-decoration: none;
+}
+.iot-legallinks a{
+    color: #f3be1e;
+    text-decoration: none;
+}
+.iot-mainfooter {
+    /* background-color: var(--bgc); */
+    background-image: url('/public/images/black-texture.jpg');
+    /* background-color: black; */
+    position: relative;
+    color:white;
+    
+}
+.iot-smallbox-1 li{
+    color:#fff;
+}
+.iot-one {
+    margin-left: 30px;
+    color:#fff;
+    font-size:22px;
+    font-weight: 600;
+
+}
+.iot-hrline{
+    color:#fff;
+}
+.iot-two {
+    margin-left: 30px;
+    color:#fff;
+    font-size:22px;
+    font-weight: 600;
+}
+.iot-two Link{
+    color:#fff;
+}
+.iot-quicklinks a{
+    color:#fff;
+}
+.iot-quicklinks a:hover{
+    color:var(--iotpri);
+}
+
+.iot-three {
+    margin-left: 30px;
+    color:#fff;
+    font-size:22px;
+    font-weight: 600;
+}
+
+.iot-four {
+    margin-left: 30px;
+    color:#fff;
+    font-size:22px;
+    font-weight: 600;
+}
+
+.iot-address {
+    margin-left: 30px;
+    color:#fff;
+}
+.iot-address p{
+    color:#fff;
+}
+.iot-online {
+    padding: 5px 10px;
+    background-color: var(--iotpri);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.iot-book {
+    padding: 5px 10px;
+    background-color: var(--iotpri);
+    border: none;
+    border-radius: 7px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+.iot-iconss {
+    font-size: 20px;
+    margin-left: 35px;
+    color: var(--iotsecc);
+    text-align: left;
+}
+
+.iot-infyicon a:hover{
+    color: #f3be1e;
+}
+
+.iot-iconss a{
+    margin-right: 10px;
+}
+
+.iot-follow {
+    color: var(--iotpri);
+    margin-left: 34px;
+}
+
+.iot-mainfooter li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.iot-infyy-icon{
+    font-size: 10px;
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: var(--iotpri);
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+}
+.iot-small-box {
+    padding: 50px 0px;
+    /* margin-bottom: 50px; */
+}
+/* .small-box {
+    margin:40px 20px;
+    width:100%;
+    border-bottom: 5px;
+    margin-right: 10px;
+    box-shadow:  1px 1px 6px #aaaaaa;
+    background-color: white;
+    border-radius: 10px;
+    border:1px solid red;
+    margin-top: 100px;
+    height: 100px;
+} */
+.iot-nam-icon{
+    background-color: white;
+    /* border-radius: 10px; */
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.iot-name {
+    background-color: var(--iotpri);
+    /* border-radius: 10px; */
+    margin-top: 0px;
+    margin-bottom: 0px; 
+    height: 20;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+
+.iot-nam {
+    background-color: white;
+    
+}
+
+.iot-infy{
+    /* color: white; */
+    /* text-align: center; */
+    /* font-size: 30px; */
+    padding: 25px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.iot-infyy{
+    text-align: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: var(--iotpri);
+    display: flex;
+    justify-content: center;
+}
+.iot-infyicon{
+    margin-top: 0px;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    color: var(--iotsecc);
+}
+.iot-call {
+    margin-top: 15px;
+    text-align: center;
+    color: var(--iotpri);
+    border-right: light black;
+    font-size:20px ;
+}
+.iot-calls{
+background-color: white;
+}
+.iot-phone {
+    text-align: center;
+    color: var(--iotsecc);
+    font-size: 20px;
+}
+.iot-email{
+        text-align: center;
+        color: var(--iotsecc);
+        font-size: 15px;
+}
+.iot-mail {
+    /* margin-bottom: 100px; */
+    text-align: center;
+    color: black;
+
+}
+.iot-hari {
+    color: black;
+    display: flex;
+    justify-self:center;
+    margin-left: 30px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.iot-follows {
+    text-align: center;
+    margin-left: 100px;
+}
+.facebook{
+    padding-right: 5px;
+}
+.iot-twitter{
+    padding-right: 5px;
+}
+.iot-instagram{
+    padding-right: 5px;
+}
+.iot-whatsapp{
+    padding-right: 5px;
+}
+.iot-linkedin{
+    padding-right: 5px;
+}
+
+@media screen and (width<=767px) {
+    .iot-call{
+        text-align: left;
+        padding-left: 15px;
+    }
+    .iot-phone{
+        text-align: left;
+        padding-left: 15px;
+    }
+    .iot-infyy{
+        justify-content: flex-start;
+        padding-left: 15px;
+    }
+    .iot-hari{
+        margin-left: 0px;
+        padding-left: 15px;
+    }
+    .iot-infyy-icon{
+        justify-content: flex-start;
+        margin-left: 0px;
+        padding-left: 15px;
+    }
+    .iot-infyicon{
+        justify-content: flex-start;
+        padding: 0px;
+        text-align: left;
+    }
+    .iot-infyicon1{
+        padding: 0px 0px 15px 15px;
+        padding-bottom: 15px;
+    }
+    .iot-name {
+
+        border-top-right-radius: 10px;
+        
+        border-bottom-left-radius: 0px;
+    }
+    .iot-nam-icon{
+        padding-bottom: 15px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+    
+}
+
+@media screen and (width>=767px) and (width<=991px){
+    .iot-name{
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+    }
+    .iot-nam-icon{
+        border-top-right-radius: 0px;
+    }
+    .iot-nam1{
+        border-bottom-left-radius: 10px;
+    }
+}
+.iot-authorize img{
+    width:150px;
+}
+.iot-auth{
+    margin-left:20px;
+}
+.iot-authorize{
+    padding-bottom:50px;
+}
+.iot-ph{
+    font-size: 22px;
+}
+
+/* Go Top  */
+.iot-topmenu{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+  }
+  .iot-topmenu svg{
+    fill: var(--iotpri);
+  }
+  .iot-topIcon{
+    position: absolute;
+    color: #fff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+

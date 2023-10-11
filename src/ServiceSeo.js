@@ -1,5 +1,6 @@
 import Header from './common/header';
 import Footer from './common/footer';
+import Enquiry from "./common/enquiry";
 import Seo from './services/seo';
 import Spotlight from './services/spotlight';
 import Aboutweb from './services/aboutwork';
@@ -33,6 +34,7 @@ function ServiceSeo(){
         <Webblog/>
         <Flow/>
         </div>
+        <Enquiry/>
         <Footer/>
         </>
     ); 

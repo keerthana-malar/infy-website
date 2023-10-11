@@ -9,6 +9,8 @@ import Testimonial from './home/Testimonial';
 import HomeBlog from './home/HomeBlog';
 import Footer from './common/footer';
 import NewService from './home/NewService';
+import Enquiry from "./common/enquiry";
+
 
 function Home(){
 
@@ -29,6 +31,7 @@ function Home(){
         <Testimonial />
         <HomeBlog />
         </div>
+        <Enquiry/>
         <Footer />
         </>
     );

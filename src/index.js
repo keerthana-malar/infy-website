@@ -6,13 +6,9 @@ import './css/seo.css';
 import "font-awesome/css/font-awesome.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-import Header from "./common/header";
-import Footer from "./common/footer";
 import About from "./About";
-
 import Home from "./Home";
-import { BrowserRouter, Routes, Route, Switch } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Contact from "./contact";
 import Blogs from "./blog";
 import MainBlogs from "./mainblog";

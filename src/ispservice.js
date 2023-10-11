@@ -7,6 +7,8 @@ import Secondbanner from './ispservice/secondbanner';
 import Servbelowcont from './ispservice/service-below-con';
 import Services from './ispservice/services';
 import Footer from './common/footer';
+import Enquiry from "./common/enquiry";
+
 import './css/ispservice.css';
 
 import Thirdbanner from './ispservice/thirdbanner';
@@ -34,6 +36,7 @@ function Ispservice(){
         <Blogsection/>
         <Finalbanner/>
         </div>
+        <Enquiry/>
         <Footer />
         </>
     );

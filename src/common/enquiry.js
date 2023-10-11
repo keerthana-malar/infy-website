@@ -12,12 +12,12 @@ function Enquiry() {
           <div className="inn">
             <div className="short-abt">
               <div className="row">
-                <div className="col-md-5">
+                <div className="col">
                   <div className="shortt-img">
                     <img className="img-fluid " src="./images/abt.jpg"></img>
                   </div>
                 </div>
-                <div className="col-md-7">
+                <div className="col">
                   <div className="enqbx2">
                   <form className="enqformm">
                     <div className="row box">

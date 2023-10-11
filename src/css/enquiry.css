@@ -1,17 +1,17 @@
 .mainenqbx{
-    height: 700px;
+    height: 600px;
     margin-top:80px;
     background-image: url("/public/images/footer-bg.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
+    overflow: visible;
 }
 .enqbx-main{
-    /* height:500px; */
+    height:500px;
     border-radius:50px;
 }
 .enqbx-main .inn{
-    border:1px solid red;
     border-radius: 10px;
     
 }
@@ -19,11 +19,11 @@
     text-align: center;
 }
 .shortt-img{
-    border-radius: 10px;
+    border-radius: 10px 0 0 10px;
 }
 .shortt-img img{
-    width: 100%;
-    border-radius: 10px 0 10px 0;
+    /* width: 100%; */
+    border-radius: 10px 0;
 }
 .enqformm{
    padding:50px;
@@ -33,5 +33,19 @@
     background-image: url("/public/images/others/enquiry-bg.jpg");
      background-repeat:no-repeat;
      background-size: cover;
-     background-position: cover;
+     background-position: center;
+}
+@media (width<=976px){
+    .enqformm{
+        padding:0;
+        margin:0;
+     }
+}
+@media (width<=767px){
+    .shortt-img{
+        display: none;
+     }
+     .enqformm{
+        display: block;
+     }
 }

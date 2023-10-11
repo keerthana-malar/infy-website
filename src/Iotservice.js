@@ -6,6 +6,10 @@ import IotOurService from './services/IotOurService';
 import IotService from './services/IotService';
 import Footer from './common/footer';
 import IotBlogs from './services/IotBlogs';
+// import Testimonialing from './services/iotTestimonial';
+// import BookforServices from './services/BookforServices';
+// import Existinguser from './services/Existinguser';
+import Aboutclient from "./about/aboutclient";
 import Testimonial from './services/iotTestimonial';
 import IotFooter from './services/IotFooter';
 import IotHeader from './services/IotHeader';
@@ -21,14 +25,19 @@ function Iotservices() {
       <IotAbout />
       <IotService />
       <IotActivities />
-      <Testimonial/>
+      <Aboutclient/>
+      {/* <Testimonialing/> */}
       <IotBlogs />
-      <IotOurService />
+      <IotOurService /
+      {/* <BookforServices/>
+      <Existinguser/> */}
+
       
       <IotFooter />
       {/* <Footer/> */}
       <Enquiry/>
-      <Footer/>
+
+      
     </div>
   );
 }

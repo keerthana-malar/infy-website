@@ -23,6 +23,7 @@ import EditCategory from "./admin/EditCategory";
 import Blog from "./admin/Blog";
 import AddBlog from "./admin/AddBlog";
 import EditBlog from "./admin/EditBlog";
+import Bookservicepage from './Bookservicepage';
 import PrivacyPolicy from "./footermainpages/PrivacyPolicy";
 import Termspage from './footermainpages/Termspage';
 import Delivery from './footermainpages/Delivery';
@@ -50,6 +51,7 @@ function App() {
         <Route path="/editblog/:id" element={<EditBlog />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/addblog" element={<AddBlog />} />
+        <Route path="/Bookservicepage" element={<Bookservicepage />} />
         <Route path="*" element={"404 Page Not Found"} />
         <Route path="/privacypolicy" element={<PrivacyPolicy/>} />
         <Route path="/termspage" element={<Termspage/>} />

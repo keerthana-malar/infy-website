@@ -7,13 +7,16 @@ import IotService from './services/IotService';
 import Footer from './common/footer';
 import IotBlogs from './services/IotBlogs';
 import Testimonial from './services/iotTestimonial';
+import IotFooter from './services/IotFooter';
+import IotHeader from './services/IotHeader';
 import Enquiry from "./common/enquiry";
 
 
 function Iotservices() {
   return (
     <div className="App">
-      <Header/>
+      {/* <Header/> */}
+      <IotHeader />
       <IotBanner />
       <IotAbout />
       <IotService />
@@ -21,10 +24,11 @@ function Iotservices() {
       <Testimonial/>
       <IotBlogs />
       <IotOurService />
+      
+      <IotFooter />
+      {/* <Footer/> */}
       <Enquiry/>
       <Footer/>
-
-    
     </div>
   );
 }

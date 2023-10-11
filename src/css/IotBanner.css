@@ -14,6 +14,7 @@
 .banner {
   font-family: 'Roboto', sans-serif;
   /* position: relative; */
+  overflow: hidden;
 }
 .iot-ban-and-serv{
   font-family: 'Roboto', sans-serif;
@@ -252,7 +253,9 @@ color:white;
   width:100%;
   height: 200px;
 }
-.bg2{  background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)), url('/public/images/iot-camera.png');
+.bg2{  
+  /* background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)), url('/public/images/security.jpg'); */
+  background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.9)), url('/public/images/iot-camera.png');
   background-size:cover;
   background-repeat: no-repeat;
   border-radius: 15px;
@@ -427,16 +430,7 @@ color:white;
     margin-top: -40px;
   }
 
-  @keyframes ani1 {
-    from {
-      right: 690px;
-      top: 200px;
-    }
-    to {  
-      right: 690px;
-      top: 250px;
-    }
-  }
+
 }
 @media screen and (min-width:991px){
   .number{
@@ -448,7 +442,7 @@ color:white;
 @media screen and (min-width:1700px){
   .banner-content1{
     font-size: 100px;
-    padding-top: 100px;
+    padding-top: 200px;
   }
   .banner-content2{
     font-size: 40px;
@@ -468,14 +462,21 @@ color:white;
     margin-top: -40px;
   }
 
-  @keyframes ani1 {
-    from {
-      left: 90px;
-      top: 200px;
-    }
-    to {  
-      left: 90px;
-      top: 250px;
-    }
+  
+}
+@media screen and (max-width:1000px){
+  .iot-ani-img{
+    display: none;
+  }
+  .iot-ani1-img{
+    display: none;
+  }
+}
+
+@media screen and (max-width:400px){
+  .banner-content1 {
+    font-size: 30px;
+    /* margin: 0px 80px; */
+    padding-top: 150px;
   }
 }

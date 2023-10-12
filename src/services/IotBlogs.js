@@ -93,7 +93,7 @@ const IotBlogs = () => {
         <Slider className='blog-sliders'  {...settings}>
             <div className='blog-slide '>
               
-                <img className='bl-image'  src='/images/image1.jpg'/>
+                <img className='bl-image'  src='/images/image1.webp'/>
                 <div className=' blog-overtext' >
                     
                     <div className='bl-col1'>
@@ -111,7 +111,7 @@ const IotBlogs = () => {
 
 
             <div className='blog-slide'>
-                <img className='bl-image' src='/images/image1.jpg'/>
+                <img className='bl-image' src='/images/image1.webp'/>
                 <div className=' blog-overtext' >
                     
                     <div className='bl-col1'>
@@ -127,7 +127,7 @@ const IotBlogs = () => {
               </div>
             </div>
             <div className='blog-slide'>
-                <img className='bl-image' src='/images/image1.jpg'/>
+                <img className='bl-image' src='/images/image1.webp'/>
                 <div className=' blog-overtext' >
                     
                     <div className='bl-col1'>
@@ -143,7 +143,7 @@ const IotBlogs = () => {
               </div>
             </div>
             <div className='blog-slide'>
-                <img className='bl-image' src='/images/image1.jpg'/>
+                <img className='bl-image' src='/images/image1.webp'/>
                 <div className=' blog-overtext' >
                     
                     <div className='bl-col1'>
@@ -159,7 +159,7 @@ const IotBlogs = () => {
               </div>
             </div>
             <div className='blog-slide'>
-                <img className='bl-image' src='/images/image1.jpg'/>
+                <img className='bl-image' src='/images/image1.webp'/>
                 <div className=' blog-overtext' >
                     
                     <div className='bl-col1'>
@@ -175,7 +175,7 @@ const IotBlogs = () => {
               </div>
             </div>
             <div className='blog-slide'>
-                <img className='bl-image'  src='/images/image1.jpg'/>
+                <img className='bl-image'  src='/images/image1.webp'/>
                 <div className=' blog-overtext' >
                     
                     <div className='bl-col1'>

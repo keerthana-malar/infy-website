@@ -9,18 +9,18 @@
     font-family: sans-serif;
 }
 
-.topbannersection {
+/* .topbannersection {
     height: 700px;
     background-image: url("../images/banner/ban-4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
-}
+} */
 
 
 .topbannersection {
     height: 600px;
-    background-image: url("../images/banner/INFY BOY small (3).jpg");
+    background-image: url("../images/banner/INFY\ BOY-green-web.webp");
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
@@ -292,7 +292,7 @@
     display: flex;
     align-items: center;
     height: 500px;
-    background-image: url("../images/banner/ispservices.jpg");
+    background-image: url("../images/banner/ispservices-webp.webp");
     background-size: cover;
     background-repeat: no-repeat;
     object-fit: cover;
@@ -539,7 +539,7 @@
 }
 
 .topbannersectionthird {
-    background-image: url("../images/banner/ban-3.jpg");
+    background-image: url("../images/banner/ban-3.webp");
     background-repeat: no-repeat;
     color: #fff;
     background-size: 100% 600px;
@@ -597,7 +597,7 @@
 
 .pac-amount {
     color: black;
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     margin-right: 40px;
     color: var(--isppri);
@@ -695,7 +695,7 @@
 /*back-blog*/
 
 .back-blog {
-    background-image: url("../images/banner/ethernet-cables-connected-to-the-internet.webp");
+    background-image: url("../images/banner/ethernet-cables.webp");
     border-radius: 10px;
     height: 480px;
     margin-top: 20px;
@@ -755,7 +755,7 @@
 }
 
 .topbannersection2 {
-    background-image: url("../images/banner/hologram-projector-screen-with-cloud-system-technology.jpg");
+    background-image: url("../images/banner/hologram-projector.webp");
     background-repeat: no-repeat;
     color: #fff;
     background-size: 100% 600px;

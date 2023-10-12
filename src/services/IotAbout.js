@@ -42,30 +42,30 @@
             setShowVideo(false);
         };
 
-        return (
-            <div className='container'>
-                <div className='coffefullbox'>
-                <div className='row leftside'>
-                    <div className='col-lg-6 image'>
-                    <Tilt options={defaultOptions}>
-                        <img className="img-fluid" src="/images/about_page.png" 
-                        alt="about page" data-aos="fade-right" />
-                        </Tilt>
-                        
-                <div className='abtshvd'>
-                <Modal size="lg" show={showVideo} onHide={toggleclose} >
-                            <Modal.Header closeButton>
-                            </Modal.Header>
-                            <Modal.Body>
-                                <iframe 
-                                    src="https://www.youtube.com/embed/CdP9VCScVmQ"
-                                    title="INFYGAIN - Leading Computer Service at Doorstep in Coimbatore"
-                                    frameborder="0" allow="accelerometer; autoplay; clipboard-write;
-                                encrypted-media; gyroscope; picture-in-picture; 
-                                web-share" allowfullscreen>
-                                    
-                                </iframe>
-                                </Modal.Body>
+    return (
+        <div className='container'>
+            <div className='coffefullbox'>
+            <div className='row leftside'>
+                <div className='col-lg-6 imageboxer'>
+                <Tilt options={defaultOptions}>
+                    <img className="img-fluid" src="/images/about_page.png" 
+                    alt="about page" data-aos="fade-right" />
+                     </Tilt>
+                     
+            <div className='abtshvd'>
+            <Modal size="lg" show={showVideo} onHide={toggleclose} >
+                        <Modal.Header closeButton>
+                        </Modal.Header>
+                        <Modal.Body>
+                            <iframe 
+                                src="https://www.youtube.com/embed/CdP9VCScVmQ"
+                                title="INFYGAIN - Leading Computer Service at Doorstep in Coimbatore"
+                                frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+                               encrypted-media; gyroscope; picture-in-picture; 
+                               web-share" allowfullscreen>
+                                
+                               </iframe>
+                               </Modal.Body>
 
                         </Modal>
                 </div>

@@ -35,7 +35,7 @@ function Contactmain() {
                             </div>
                             <div className='col-md-9'>
                             <p className='mini-title tit1'>Support</p>
-                            <p className='text-muted locacon'>Mobile:9952141444 support:0422 3500770</p>
+                            <p className='text-muted locacon'>Mobile: 9952141444 support: 0422 3500770 and 9488576307</p>
                             </div>
                         </div>
                     </div>

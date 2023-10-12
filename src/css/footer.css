@@ -11,7 +11,7 @@
 .one {
     margin-left: 30px;
     color:#fff;
-    font-size:22px;
+    font-size:20px;
     font-weight: 600;
 
 }
@@ -21,7 +21,7 @@
 .two {
     margin-left: 30px;
     color:#fff;
-    font-size:22px;
+    font-size:20px;
     font-weight: 600;
 }
 .two Link{
@@ -33,24 +33,29 @@
 .quicklinks a:hover{
     color:var(--sec);
 }
-
+.quicklinks{
+    font-size: 17px;
+    font-weight: 300;
+}
 .three {
     margin-left: 30px;
     color:#fff;
-    font-size:22px;
+    font-size:20px;
     font-weight: 600;
 }
 
 .four {
     margin-left: 30px;
     color:#fff;
-    font-size:22px;
+    font-size:20px;
     font-weight: 600;
 }
 
 .address {
     margin-left: 30px;
     color:#fff;
+    font-size: 17px;
+    font-weight: 300;
 }
 .address p{
     color:#fff;
@@ -292,7 +297,7 @@ background-color: white;
     padding-bottom:50px;
 }
 .ph{
-    font-size: 22px;
+    font-size: 18px;
 }
 
 /* Go Top  */
@@ -314,7 +319,6 @@ background-color: white;
     position: absolute;
     color: #fff;
   }
-
 
 
 

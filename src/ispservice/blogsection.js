@@ -43,7 +43,7 @@ function Blogsection() {
                                 <div className="img-Box">
                                     <img
                                         className="img-fluid"
-                                        src="/images/OC_KI_083.jpg"
+                                        src="/images/OC_KI_083-web.webp"
                                     ></img>
                                 </div>
 
@@ -64,7 +64,7 @@ function Blogsection() {
                                 <div className="img-Box">
                                     <img
                                         className="img-fluid"
-                                        src="/images/ispser.jpg"
+                                        src="/images/ispserweb.webp"
                                     ></img>
                                 </div>
 

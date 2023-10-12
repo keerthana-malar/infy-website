@@ -52,7 +52,7 @@ const NewService = () => {
                 <div className='col-md-4 col-lg-4 serv-home-sec'>
                     <div className='home-slide'>
 
-                        <img className='hom-sld-img' src='/images/Services IT.jpg' />
+                        <img className='hom-sld-img' src='/images/Services-IT-1.webp' />
 
                         <div className='home-cont-overlay'>
 
@@ -71,7 +71,7 @@ const NewService = () => {
                 <div className='col-md-4 col-lg-4 serv-home-sec'>
 
                     <div className='home-slide'>
-                        <img className='hom-sld-img' src='/images/Services WEB.jpg' />
+                        <img className='hom-sld-img' src='/images/Services-WEB.webp' />
                         <div className='home-cont-overlay'>
 
                             <img src="/images/icons/web.png" alt="service icons"></img>
@@ -88,7 +88,7 @@ const NewService = () => {
                 <div className='col-md-4 col-lg-4 serv-home-sec'>
 
                     <div className='home-slide'>
-                        <img className='hom-sld-img' src='/images/isp (3).jpg' />
+                        <img className='hom-sld-img' src='/images/isp-3-web.webp' />
                         <div className='home-cont-overlay'>
 
                             <img src="/images/icons/isp.png" alt="service icons"></img>

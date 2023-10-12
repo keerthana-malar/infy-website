@@ -133,7 +133,7 @@ function Testimonialing() {
 
         <div className='col-md-12 col-sm-12 col-lg-6'>
         <Tilt options={defaultOptions} >
-          <img src="https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2021/02/testimonials-group.png"
+          <img src="./images/testimonials-group.png"
             alt="value"
             data-aos="zoom-in-up" 
            className='reviewphoto'/>

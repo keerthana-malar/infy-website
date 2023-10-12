@@ -1,4 +1,4 @@
-// import "../css/home.css";
+import "../css/home.css";
 import { Tilt } from "react-tilt";
 
 function about() {
@@ -37,12 +37,12 @@ function about() {
               </p>
               <div className="abtBoxes">
                 <div className="row">
-                  <div className="col-6">
+                  <div className="col-12 col-md-6 mb-3 ">
                     <div className="row abtBoxInn">
                       <div className="col-3">
                         <img
                           className="img-fluid experienceimg"
-                          src="/images/icons/certificate copy.png"
+                          src="/images/icons/certificatenew.png"
                         ></img>
                       </div>
                       <div className="col-9">
@@ -53,12 +53,12 @@ function about() {
                       </div>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-12 col-md-6">
                     <div className="row abtBoxInn">
                       <div className="col-3">
                         <img
                           className="img-fluid"
-                          src="/images/icons/support copy.png"
+                          src="/images/icons/supportnew.png"
                         ></img>
                       </div>
                       <div className="col-9">
@@ -71,7 +71,6 @@ function about() {
                   </div>
                 </div>
               </div>
-
               <div className="authorize">
               <p className="home-tit">We Trusted ISO Certified and GEM Authorized Partner for Success</p>
                 <div className="row">

@@ -68,7 +68,7 @@ function AboutCounter() {
               <div className="row">
                 <div className="col-md-6">
                   <div className="short-img">
-                    <img className="img-fluid " src="./images/abt.jpg"></img>
+                    <img className="img-fluid " src="./images/abt.webp"></img>
                   </div>
                 </div>
                 <div className="col-md-6">

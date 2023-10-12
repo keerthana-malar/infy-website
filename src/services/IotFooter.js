@@ -22,7 +22,7 @@ function IotFooter() {
                 <p className="iot-infy">
                   <img
                     className="img-fluid"
-                    src="http://localhost:3000/images/others/footer-logo.png"
+                    src="./images/others/logo-alt.svg"
                     alt="infygain logo"
                   ></img>
                 </p>
@@ -32,7 +32,7 @@ function IotFooter() {
                   <b>CALL FOR SUPPORT</b>
                 </p>
                 <p className="iot-phone">
-                +91 99521 41444<br></br>+91 9488576307
+                +91 99521 41444<br></br>+91 9087724444
                 </p>
               </div>
 
@@ -154,8 +154,7 @@ function IotFooter() {
                 </p>
                 <hr className="iot-hrline"></hr>
                 <p className="iot-address iot-ph">+91 &nbsp;9952141444</p>
-                <p className="iot-address iot-ph">+91 &nbsp;9488576307</p>
-                <p className="iot-address iot-ph">0422 3500770</p>
+                <p className="iot-address iot-ph">+91 &nbsp;9087724444</p>
                 <p className="iot-address">
                   <b>info@infygain.com</b>
                 </p>

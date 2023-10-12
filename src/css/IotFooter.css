@@ -9,8 +9,11 @@
     text-decoration: none;
 }
 .iot-legallinks a{
-    color: #f3be1e;
+    color: #fff;
     text-decoration: none;
+}
+.iot-legallinks a:hover{
+    color:var(--iotpri) ;
 }
 .iot-mainfooter {
     /* background-color: var(--bgc); */

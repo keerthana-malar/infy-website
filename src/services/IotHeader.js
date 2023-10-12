@@ -110,7 +110,7 @@ import {
               <div className="iot-logoo-box">
                 <img
                   className="img-fluid"
-                  src="./images/others/footer-logo.png"
+                  src="./images/others/logo-alt.svg"
                   alt="infygain logo"
                 ></img>
               </div>

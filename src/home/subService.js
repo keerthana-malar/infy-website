@@ -277,7 +277,7 @@ function SubService() {
               <div className="video-thumbnail">
                 <img
                   className="img-fluid vid-home"
-                  src="/images/icons/Readmore Banner 1.jpg"
+                  src="/images/icons/Readmore Banner web.webp"
                   alt="Video Thumbnail"
                 />
                 <div className="play-button" onClick={openVideo}>

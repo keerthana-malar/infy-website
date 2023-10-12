@@ -154,8 +154,7 @@ function Footer() {
                 </p>
                 <hr className="hrline"></hr>
                 <p className="address ph">+91 &nbsp;9952141444</p>
-                <p className="address ph">+91 &nbsp;9488576307</p>
-                <p className="address ph">0422 3500770</p>
+                {/* <p className="address ph">+91 &nbsp;9488576307</p> */}
 
                 <p className="address">
                   <b>info@infygain.com</b>

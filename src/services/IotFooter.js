@@ -32,7 +32,7 @@ function IotFooter() {
                   <b>CALL FOR SUPPORT</b>
                 </p>
                 <p className="iot-phone">
-                  0422 3500770<br></br>+91 99521 41444
+                +91 99521 41444<br></br>+91 9488576307
                 </p>
               </div>
 
@@ -154,6 +154,8 @@ function IotFooter() {
                 </p>
                 <hr className="iot-hrline"></hr>
                 <p className="iot-address iot-ph">+91 &nbsp;9952141444</p>
+                <p className="iot-address iot-ph">+91 &nbsp;9488576307</p>
+                <p className="iot-address iot-ph">0422 3500770</p>
                 <p className="iot-address">
                   <b>info@infygain.com</b>
                 </p>

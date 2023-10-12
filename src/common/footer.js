@@ -32,7 +32,7 @@ function Footer() {
                   <b>CALL FOR SUPPORT</b>
                 </p>
                 <p className="phone">
-                  +91 99521 41444<br></br>+91 9488576307
+                  +91 99521 41444<br></br>+91 9087724444
                 </p>
               </div>
 
@@ -154,7 +154,7 @@ function Footer() {
                 </p>
                 <hr className="hrline"></hr>
                 <p className="address ph">+91 &nbsp;9952141444</p>
-                {/* <p className="address ph">+91 &nbsp;9488576307</p> */}
+                <p className="address ph">+91 &nbsp;9087724444</p>
 
                 <p className="address">
                   <b>info@infygain.com</b>

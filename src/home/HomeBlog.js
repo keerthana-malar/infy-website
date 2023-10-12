@@ -14,7 +14,7 @@ const HomeBlog = () => {
                     <div className="col-md-4">
                         <div className="blogBoxInn">
                             <div className="blogImgBox">
-                                <img className="img-fluid" src="/images/project-1.jpg"></img>
+                                <img className="img-fluid" src="/images/project-1web.webp"></img>
                             </div>
                             <div className="blogContBox">
                                 <p className="text-muted">OCTOBER 14, 2023</p>
@@ -26,7 +26,7 @@ const HomeBlog = () => {
                     <div className="col-md-4">
                         <div className="blogBoxInn">
                             <div className="blogImgBox">
-                                <img className="img-fluid" src="/images/project-1.jpg"></img>
+                                <img className="img-fluid" src="/images/project-1web.webp"></img>
                             </div>
                             <div className="blogContBox">
                                 <p className="text-muted">OCTOBER 14, 2023</p>
@@ -38,7 +38,7 @@ const HomeBlog = () => {
                     <div className="col-md-4">
                         <div className="blogBoxInn">
                             <div className="blogImgBox">
-                                <img className="img-fluid" src="/images/project-1.jpg"></img>
+                                <img className="img-fluid" src="/images/project-1web.webp"></img>
                             </div>
                             <div className="blogContBox">
                                 <p className="text-muted">OCTOBER 14, 2023</p>

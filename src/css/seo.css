@@ -821,3 +821,9 @@
         margin:10px 20px;
     }
 }
+@media (width<=824px){
+    .mainaboutweb{
+        margin:0;
+        padding:10px;
+    }
+}

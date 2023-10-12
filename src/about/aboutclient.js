@@ -25,7 +25,7 @@ function aboutclient() {
                 <div className="clientImg">
                   <img className="img-fluid" src="/images/abt.webp"></img>
                 </div>
-                <div className="clientQuote clientquotation">
+                <div className="clientQuote">
                   <img src="/images/Quote.svg"></img>
                 </div>
               </div>

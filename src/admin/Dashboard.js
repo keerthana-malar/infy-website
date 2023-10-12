@@ -20,7 +20,7 @@ const Dashboard = () => {
   // ! Get Dash Data
   useEffect(() => {
     axios
-      .get("http://localhost:5000/dash")
+      .get("http://infygain.in/api/dash")
       .then((res) => {
         console.log("Dash Data :" + JSON.stringify(res));
         setData(res.data)

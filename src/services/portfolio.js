@@ -74,7 +74,7 @@ function Portfolio() {
       {/* <Slider {...settings}> */}
         <div className="portbox2">
           <div className="portbx pbx">
-            <img className="portimgbx" src="./images/seo/travel1.jpg"></img>
+            <img className="portimgbx" src="./images/seo/travel1.webp"></img>
             <div className="portoverbx">
               <button className="btn portbtn mb-3">TRAVEL WEBSITE</button>
               <p className="porttit mb-3">Aspire Holidays</p>
@@ -84,7 +84,7 @@ function Portfolio() {
             </div>
           </div>
           <div className="portbx pbx">
-            <img className="portimgbx" src="./images/seo/college.jpg"></img>
+            <img className="portimgbx" src="./images/seo/college.webp"></img>
             <div className="portoverbx">
               <button className="btn portbtn mb-3">COLLEGE WEBSITE</button>
               <p className="porttit mb-3">United Educational Institution</p>
@@ -94,7 +94,7 @@ function Portfolio() {
             </div>
           </div>
           <div className="portbx pbx">
-            <img className="portimgbx" src="./images/seo/boutique.jpg"></img>
+            <img className="portimgbx" src="./images/seo/boutique.webp"></img>
             <div className="portoverbx">
               <button className="btn portbtn mb-3">ECOMMERCE SITE</button>
               <p className="porttit mb-3">Magizh Boutique</p>
@@ -104,7 +104,7 @@ function Portfolio() {
             </div>
           </div>
           <div className="portbx pbx">
-            <img className="portimgbx" src="./images/seo/travel2.jpg"></img>
+            <img className="portimgbx" src="./images/seo/travel2.webp"></img>
             <div className="portoverbx">
               <button className="btn portbtn mb-3">TRAVEL SITE</button>
               <p className="porttit mb-3">Royal Travels</p>

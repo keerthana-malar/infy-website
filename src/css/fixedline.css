@@ -21,3 +21,30 @@
     margin-top: 2px;
     color:black
 }
+@media (width<=1199px){
+    .fixedline{
+    width: 4%;
+    }
+}
+@media (width<=992px){
+    .fixedline{
+    width: 5%;
+    }
+}
+@media (width<=767px){
+    .fixedline{
+    width: 6%;
+    }
+}
+@media (width<=575px){
+    .fixedline{
+    width: 7%;
+    }
+}
+
+@media (width<=507px){
+    .fixedline{
+    width: 9%;
+    }
+}
+

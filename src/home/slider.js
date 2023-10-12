@@ -37,7 +37,12 @@ const Sliders = () => {
     </div>
   ));
 
-  const settings = {};
+  const settings = {
+    fade: true,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 7000,
+  };
 
   return <Slider {...settings}>{slides}</Slider>;
 };

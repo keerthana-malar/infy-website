@@ -8,7 +8,10 @@ import IotOverlay from './services/IotOverlay';
 import IotService from './services/IotService';
 import Footer from './common/footer';
 import IotBlogs from './services/IotBlogs';
-import Testimonial from './services/iotTestimonial';
+// import Testimonialing from './services/iotTestimonial';
+// import BookforServices from './services/BookforServices';
+// import Existinguser from './services/Existinguser';
+import Aboutclient from "./about/aboutclient";
 
 function Iotservices() {
   return (
@@ -19,11 +22,13 @@ function Iotservices() {
       <IotAbout />
       <IotService />
       <IotActivities />
-      <Testimonial/>
+      <Aboutclient/>
+      {/* <Testimonialing/> */}
       <IotBlogs />
       {/* <IotProjects /> */}
       <IotOurService />
-      
+      {/* <BookforServices/>
+      <Existinguser/> */}
       <Footer/>
 
     

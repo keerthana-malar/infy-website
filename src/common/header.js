@@ -11,6 +11,7 @@ import { HiOutlineMail } from "react-icons/hi";
 import "../css/header.css";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import Fixedline from '../services/Fixedline';
 
 function header() {
   function DropdownMenu() {
@@ -243,6 +244,7 @@ function header() {
             Contact
           </Link>
         </li>
+        <Fixedline/>
       </div>
     </>
   );

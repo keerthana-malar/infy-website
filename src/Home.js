@@ -9,6 +9,7 @@ import Testimonial from './home/Testimonial';
 import HomeBlog from './home/HomeBlog';
 import Footer from './common/footer';
 import NewService from './home/NewService';
+import Bookservicepage from './Bookservicepage';
 
 function Home(){
 

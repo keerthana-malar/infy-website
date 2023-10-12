@@ -45,10 +45,10 @@ const Category = () => {
   const handleDelete = (id) => {
     const confirmDelete = window.confirm("Are you sure?");
     if (confirmDelete) {
-      axios.delete(`http://localhost:5000/catdelete/${id}`)
+      axios.delete(`http://infygain.in/api/catdelete/${id}`)
         .then((res) => {
           alert("Deleted Successfully 😥");
-          axios.get("http://localhost:5000/catdata")
+          axios.get("http://infygain.in/api/catdata")
           .then((res) => {
             setCategories(res.data);
           })
@@ -82,7 +82,7 @@ const Category = () => {
   const [categories, setCategories] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/catdata").then((res) => {
+    axios.get("http://infygain.in/api/catdata").then((res) => {
       setCategories(res.data);
     });
   }, []);

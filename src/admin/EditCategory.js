@@ -20,7 +20,7 @@ const EditCategory = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/editcat/"+ id)
+      .get("http://infygain.in/api/editcat/"+ id)
       .then((res) => {
         const catData = res.data.result[0];
         setValues({
@@ -48,7 +48,7 @@ const EditCategory = () => {
       setShow(true);
     } else {
       axios
-        .post("http://localhost:5000/catupdate", values)
+        .post("http://infygain.in/api/catupdate", values)
         .then((res) => {
           setErrors(res.data.res);
           setShowMsg(true);

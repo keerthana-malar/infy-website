@@ -16,7 +16,7 @@ const AddBlog = () => {
   // ! Get Category Data
   useEffect(() => {
     axios
-      .get("http://localhost:5000/catdata")
+      .get("http://infygain.in/api/catdata")
       .then((res) => {
         setCategories(res.data);
       })

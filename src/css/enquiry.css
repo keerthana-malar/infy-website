@@ -1,7 +1,7 @@
 .mainenqbx {
     height: 100%;
     margin-top: 80px;
-    padding-bottom: 20px;
+    padding-bottom: 130px;
     background-image: url("/public/images/footer-bg.jpg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -11,8 +11,8 @@
 }
 
 .enqbx-main {
-    height: 500px;
-    border-radius: 50px;
+    height: 400px;
+    border-radius: 500px;
     width:100%;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .shortt-img {
-    border-radius: 10px 0 0 10px;
+    border-radius: 10px 0px 0px 10px;
     height: 100%;
  
 }
@@ -35,7 +35,7 @@
     /* width: 100%; */
     height: 100%;
 
-    border-radius: 10px 0;
+    border-radius: 10px 0px 0px 10px;
 }
 
 .enqformm {
@@ -48,6 +48,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    border-radius: 10px;
 }
 
 @media (width<=976px) {
@@ -70,5 +71,11 @@
 
 .send-enquiry {
 margin-left: 5px;
-    /* bottom: 29px; */
+    bottom: 29px;
+}
+@media (width<=992px) {
+    .send-enquiry {
+        margin-left: 5px;
+           margin-bottom: 29px;
+        }
 }

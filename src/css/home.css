@@ -439,7 +439,10 @@ left: 100px;*/
   margin-left: -120px;
   background-color: var(--warning);
 }
-
+.clientQuotes img {
+  scale: 0.5;
+ 
+}
 
 .clientQuote img {
   scale: 0.5;

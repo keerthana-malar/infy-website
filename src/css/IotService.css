@@ -293,6 +293,23 @@ color: var(--gray-dark);
   .head {
     justify-content: center;
   }
+  .div3{
+    margin-left: 0;
+  }
+  .div1{
+    margin-left: 5px;
+  }
+  .div4{
+    margin-right: 5px;
+  }
+  .div1{
+    margin-right: 5px;
+  }
+  .right_para{
+    margin: 0;
+   padding: 20px;
+   margin-right: 22px;
+  }
 }
 .leftparagraph{
   margin-left: 130px;
@@ -304,10 +321,9 @@ background: url("/public/images/stone-texture.jpg") no-repeat;
 height: 600px;
  }
 
-.align-items-center{
+.indeed{
   font-family: 'Roboto', sans-serif;
 }
-
 
 @media (width<=575px) {
   .parent {
@@ -525,7 +541,7 @@ height: 600px;
 }
 .divBox{
   height: 110%;
-  width: 100%;
+  width:90%;
 }
 .text h4{
   font-size: 18px;
@@ -553,21 +569,24 @@ height: 600px;
       }
 
       @media (width<=767px){
-    
+         
         .div2{
           margin-left: 5px;
+        }
+        .div1{
+          margin-left: 15px;
         }
         .div4{
          margin-left: 5px;
          margin-top: 60px;
         }
         .div3{
-          margin-left: 5px;
           margin-top: 60px;
+          margin-left: 15px;
          }
         .divBox{
           height: 110%;
-          width: 100%;
+          width: 90%;
         }
         .text h4{
           font-size: 16px;
@@ -589,7 +608,7 @@ height: 600px;
         .right_para{
           display: flex;
           font-size: 20px;
-          padding: 8px;
+          padding: 25px;
         }
         .hidden{
           top:75%;
@@ -610,6 +629,9 @@ height: 600px;
         .hidden p{
        font-size: 20px;
         }
+       .leftContBox{
+        height: 20%;
+       }
         .hidden1 p{
           font-size: 20px;
            }
@@ -619,11 +641,16 @@ height: 600px;
              .hidden3 p{
               font-size: 20px;
                }
+               .leftparagraph{
+                margin: 15px;
+               }
           }
           @media (width<=575px){
             .divBox{
               height: 90%;
-              margin-left: 20px;
+              margin-left: 30px;
+              margin-right:30px;
+
             }
             .hidden{
               top:80%;
@@ -642,6 +669,14 @@ height: 600px;
               left: 40%;
             }
             .right_para{
-              padding: 20px;
+              padding-right: 30px;
+            }
+            
+          }
+          @media (width<=500px){
+            .hidden{
+          margin: 0;
+          padding: 0;
+          text-align: center;
             }
           }

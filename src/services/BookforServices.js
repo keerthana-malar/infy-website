@@ -24,7 +24,7 @@ function BookforServices(){
                   
                   <div className='contentpara'>
 
-                    {/* 1 */}ssss
+                    {/* 1 */}
                   <div className='orders'>
                   <div className='iconpotti'>
                      <FaHandPointRight/>

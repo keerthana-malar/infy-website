@@ -31,7 +31,7 @@ function IotService() {
 
       <div className="bgBox mb-5">
         <div>
-          <div className="row align-items-center">
+          <div className="row align-items-center indeed">
             {/* Left Content Box  */}
             <div className="col-md-4 leftContBox">
               <div className="leftparagraph">

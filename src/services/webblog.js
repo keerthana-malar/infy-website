@@ -22,7 +22,7 @@ function webblog() {
         <div className="blogbx2 container">
           <div className="blogin">
             <div className="blgimbx">
-              <img className="img-fluid" src="./images/seo/blog.jpg"></img>
+              <img className="img-fluid" src="./images/seo/blog.webp"></img>
             </div>
             <div className="blgconbx">
               <div className="cat-tit">
@@ -39,7 +39,7 @@ function webblog() {
           </div>
           <div className="blogin">
             <div className="blgimbx">
-              <img className="img-fluid" src="./images/seo/blog.jpg"></img>
+              <img className="img-fluid" src="./images/seo/blog.webp"></img>
             </div>
             <div className="blgconbx">
               <div className="cat-tit">

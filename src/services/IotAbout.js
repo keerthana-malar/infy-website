@@ -46,7 +46,7 @@ function IotAbout() {
         <div className='container'>
             <div className='coffefullbox'>
             <div className='row leftside'>
-                <div className='col-lg-6 image'>
+                <div className='col-lg-6 imageboxer'>
                 <Tilt options={defaultOptions}>
                     <img className="img-fluid" src="/images/about_page.png" 
                     alt="about page" data-aos="fade-right" />
@@ -90,7 +90,7 @@ function IotAbout() {
                    
                         </p>
                         <div className='containers'>
-                            <img src="/images/small boy.jpg" alt="intro" className='image-fluid imaginary' />
+                            <img src="/images/small boy.webp" alt="intro" className='image-fluid imaginary' />
                             <div className="icon-container">
                                 <BsFillPlayFill onClick={toggleVideo} className='iconing' />
                             </div>

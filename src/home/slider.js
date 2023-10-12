@@ -41,7 +41,7 @@ const Sliders = () => {
     fade: true,
     autoplay: true,
     speed: 2000,
-    autoplaySpeed: 7000,
+    autoplaySpeed: 3000,
   };
 
   return <Slider {...settings}>{slides}</Slider>;

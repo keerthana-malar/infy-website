@@ -11,6 +11,7 @@ import {
   import "../css/IotHeader.css";
   import { HiMenuAlt1 } from "react-icons/hi";
   import { Link } from "react-router-dom";
+  import Fixedline from './Fixedline';
   
   function IotHeader() {
     function DropdownMenu() {
@@ -243,6 +244,7 @@ import {
               Contact
             </Link>
           </li>
+          <Fixedline/>     
         </div>
       </>
     );

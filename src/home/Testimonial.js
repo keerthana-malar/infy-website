@@ -25,7 +25,7 @@ const Testimonial = () => {
                       <div className="clientImg">
                         <img className="img-fluid" src="/images/abt.jpg"></img>
                       </div>
-                      <div className="clientQuote">
+                      <div className="clientQuotes">
                         <img src="/images/Quote.svg"></img>
                       </div>
                     </div>

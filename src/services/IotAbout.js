@@ -90,7 +90,7 @@ function IotAbout() {
                    
                         </p>
                         <div className='containers'>
-                            <img src="/images/small boy.jpg" alt="intro" className='image-fluid imaginary' />
+                            <img src="/images/small boy.webp" alt="intro" className='image-fluid imaginary' />
                             <div className="icon-container">
                                 <BsFillPlayFill onClick={toggleVideo} className='iconing' />
                             </div>

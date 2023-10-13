@@ -7,14 +7,19 @@ import "../css/home.css";
 const Sliders = () => {
   const sliderImg = [
     {
-      img: "/images/banner/banner-bg2web.webp",
+      img: "/images/banner/BANNER1-new.jpg",
       title: "Welcome to Infygain Technologies",
       cont: "Best computer service in Coimbatore, We specialize in providing high-quality, professional computer repair and maintenance services to both individuals and businesses.",
     },
     {
-      img: "/images/banner/banner-bg1web.webp",
+      img: "/images/banner/BANNER 2-new.jpg",
       title: "We Make IT Simple",
       cont: "We provide all the services related to computer, Laptop, Networking, Printer, Biometrics, AMC, Server, CCTV, and also Web Development and Graphics Designs",
+    },
+    {
+      img: "/images/banner/BANNER 3-new.jpg",
+      title: "You Have the need, We have the solutions",
+      cont: "Experience lightning-speed internet with our ISP! Stream, game, and work seamlessly with our high-speed, reliable connectivity.",
     },
     // {
     //   img: "/images/banner/banner33.jpg",
@@ -40,7 +45,7 @@ const Sliders = () => {
   const settings = {
     fade: true,
     autoplay: true,
-    speed: 2000,
+    speed: 1000,
     autoplaySpeed: 3000,
   };
 

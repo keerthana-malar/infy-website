@@ -684,3 +684,8 @@ left: 100px;*/
   
 }
 }
+@media (width <= 360px) {
+  .home-about-title{
+padding-bottom: 1250px;
+  }
+}

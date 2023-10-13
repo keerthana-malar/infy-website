@@ -29,7 +29,7 @@ const AddCategory = () => {
       setShow(true);
     } else {
       axios
-        .post("http://infygain.in/api/cat", values)
+        .post("https://infygain.in/api/cat", values)
         .then((res) => {
           setValues({ name: "", status: "Active" });
           document.querySelector(".form").reset()

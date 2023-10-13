@@ -1,8 +1,21 @@
 import 'font-awesome/css/font-awesome.css';
 import '../css/blog.css';
 import '../css/common.css';
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 function Mainsection() {
+
+    const [blogs, setBlogs] = useState([]);
+
+    useEffect(() => {
+      axios.get("https://infygain.in/api/catdata").then((res) => {
+        setBlogs(res.data);
+        console.log(res.data);
+      });
+    }, []);
+   
+
     return (
         <>
             <div className='main'>

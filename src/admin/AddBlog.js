@@ -16,7 +16,7 @@ const AddBlog = () => {
   // ! Get Category Data
   useEffect(() => {
     axios
-      .get("http://infygain.in/api/catdata")
+      .get("https://infygain.in/api/catdata")
       .then((res) => {
         setCategories(res.data);
       })
@@ -67,7 +67,7 @@ const AddBlog = () => {
       formData.append("status", values.status);
 
       axios
-        .post("http://localhost:5000/addblog", formData)
+        .post("https://localhost:5000/addblog", formData)
         .then((res) => {
           document.querySelector(".form").reset();
           setErrors("Blog Added Successfully 😊😊");

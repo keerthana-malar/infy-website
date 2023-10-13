@@ -684,8 +684,12 @@ left: 100px;*/
   
 }
 }
-@media (width <= 360px) {
-  .home-about-title{
-padding-bottom: 1250px;
+
+@media (width=360px){
+  .slider-below-content {
+margin-top: -140px;
   }
 }
+
+
+

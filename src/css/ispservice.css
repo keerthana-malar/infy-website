@@ -24,6 +24,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     color: #fff;
+    object-fit: cover;
 }
 
 .maintitle {

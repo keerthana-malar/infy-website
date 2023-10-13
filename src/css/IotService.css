@@ -334,6 +334,9 @@ height: 600px;
     grid-row-gap: 20px;
     place-items: center;
   }
+  .right_para{
+    margin-right: 50px;
+  }
 
   .div1 {
     grid-area: 1 / 1 / 2 / 2;
@@ -351,6 +354,11 @@ height: 600px;
   .icon_size {
     width: 40%;
   }
+  .hidden{
+    left: 10%;
+ 
+  }
+
 }
 
 @media (width<=762px){
@@ -519,7 +527,8 @@ height: 600px;
   }
 @media (width<=1118px){
 .leftparagraph{
-  margin-left: 40px;
+  margin-left: 50px;
+  height: 120%;
 }
 .ser-h1{
   font-size: 45px;
@@ -680,3 +689,40 @@ height: 600px;
           text-align: center;
             }
           }
+
+          @media (width<=866px){
+            .leftparagraph{
+              height: 150%;
+            }
+          }
+          @media (width<=863px){
+            .leftparagraph{
+              height: 150%;
+            }
+           .box1_para{
+            font-size: 20px;
+            margin: 0;
+           }
+           .about-btns{
+              padding: 20px;
+           }
+          }
+          @media (width<=471px){
+            .hidden{
+              top: 75%;
+              left: 30%;
+            }
+            .hidden1{
+              top: 75%;
+              left: 30%;
+            }
+            .hidden2{
+              top: 75%;
+              left: 30%;
+            }
+            .hidden3{
+              top: 75%;
+              left: 30%;
+            }
+          }
+   

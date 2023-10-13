@@ -673,3 +673,15 @@ left: 100px;*/
 .serv-home-sec{
   padding-bottom: 20px;
 }
+
+@media (width<=360px){
+  .client-pro {
+    margin: 0;
+    padding: 0;
+  }
+.client-pro img{
+  height: 100%;
+  width: 130%;
+  
+}
+}

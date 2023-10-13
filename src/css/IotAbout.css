@@ -213,7 +213,19 @@
       margin-bottom: 20px;
     }
    }
-    
+    @media (width<=992px) {
+      .imageboxer img{
+        height: 70%;
+        width: 70%;
+        margin-left: 20%;
+      }
+      .value{
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+
+
   
  
 

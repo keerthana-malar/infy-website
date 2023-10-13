@@ -490,8 +490,10 @@
     }
     .firstrow{
       height: 90%;
-      width: 100%;
+      width: 120%;
+      margin:0;
+      padding:0;
     }
-    
   }
+ 
  

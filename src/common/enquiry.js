@@ -3,7 +3,7 @@ import "../css/enquiry.css";
 function Enquiry() {
   return (
     <>
-      <div className="container mainenqbx">
+      <div className="mainenqbx">
         <div className="enqbx-head">
           <h5 className="mini-title main-color">CONTACT US</h5>
           <p className="home-about-ttle">We Always Here To Helps You</p>
@@ -14,7 +14,7 @@ function Enquiry() {
               <div className="row">
                 <div className="col-lg-5">
                   <div className="shortt-img">
-                    <img className="img-fluid " src="./images/abt _page-0001.jpg"></img>
+                    <img className="img-fluid " src="./images/enquiry.webp"></img>
                   </div>
                 </div>
                 <div className="col-lg-7">

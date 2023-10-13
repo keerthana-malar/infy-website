@@ -684,3 +684,8 @@ left: 100px;*/
   
 }
 }
+@media (width=360px){
+  .slider-below-content {
+margin-top: -140px;
+  }
+}

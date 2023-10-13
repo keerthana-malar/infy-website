@@ -1,0 +1,40 @@
+:root{
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #000000;
+}
+.firstlineflex{
+    display: flex;
+}
+.yellowbreak{
+    width: 8%;
+    height: 5px;
+    background-color: var(--warning);
+    margin-top: 25px;
+    
+}
+.firstheading h1{
+    font-size: 40px;
+    font-weight: 750;
+}
+.firstheading{
+    margin-left: 20px;
+}
+.rightboxheadcol{
+    text-align: center;
+    align-items: center;
+}
+
+.rightbox{
+    height: 60px;
+    width: 80%;
+    background-color: rgb(219, 216, 216);
+    margin-top: 20px;
+    font-size:23px;
+    
+}
+.rightbox:hover{
+    background-color: black;
+    color: white;
+}

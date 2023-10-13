@@ -320,7 +320,16 @@ background-color: white;
     color: #fff;
   }
 
-
+  @media screen and (width<=500px) {
+    .authorize img{
+        /* display: flex;
+        flex-direction: column; */
+        width:100px;
+    }
+    .authorize p{
+        text-align: center;
+    }
+  }
 
 
 

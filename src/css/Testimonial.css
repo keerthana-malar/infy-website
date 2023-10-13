@@ -177,3 +177,13 @@
   padding: 2px;
 }
 }
+
+@media screen and (max-width:400px){
+  .fullleftcompany{
+    padding-left: 30px;
+    margin-bottom: 30px;
+  }
+  .line_with_testimonial p{
+    margin-left: 0px;
+   }
+}

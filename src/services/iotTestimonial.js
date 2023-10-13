@@ -40,7 +40,7 @@ function Testimonialing() {
     afterChange: (current) => setCurrentSlide(current),
   };
   return (
-    <div className='container' >
+    <div className='container tm-about' >
       <div className='row fulline'>
         <div className='col-md-12 col-sm-12 col-lg-6 fullleftcompany'>
           <div className='line_with_testimonial' >

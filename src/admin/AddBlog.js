@@ -67,14 +67,16 @@ const AddBlog = () => {
       formData.append("status", values.status);
 
       axios
-        .post("https://localhost:5000/addblog", formData)
+        .post("https://infygain.in/api/addblog", formData)
         .then((res) => {
           document.querySelector(".form").reset();
           setErrors("Blog Added Successfully 😊😊");
           setShowMsg(true);
         })
         .catch((err) => {
+          console.log("helloooo" + err);
           setErrors("Something Wrong Pls Try again Later 😥");
+          // setErrors(err);
           setShow(true);
         });
     }

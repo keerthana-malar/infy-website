@@ -1,4 +1,5 @@
 import React from 'react'
+import { saveAs } from 'file-saver';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -7,10 +8,27 @@ import '../css/IotServSlider.css';
 import { FaLocationDot } from 'react-icons/fa6';
 import { BiSolidDownload  } from 'react-icons/bi';
 import { BsFillTelephoneFill } from 'react-icons/bs';
-import { AiFillMail } from 'react-icons/ai';
-import { LuStickyNote } from 'react-icons/lu';
+import { AiFillMail } from 'react-icons/ai';;
+
 
 const IotServSlider = () => {
+
+  // pdf download fn
+  const downloadPdf = () => {
+    // Path to your PDF file
+    const pdfFilePath = '/Brochure/Infy Brochure Final_compressed.pdf';
+
+    // Fetch the PDF file as a blob
+    fetch(pdfFilePath)
+      .then(response => response.blob())
+      .then(blob => {
+        saveAs(blob, 'Infygain-Brochure.pdf'); 
+      })
+      .catch(error => {
+        console.error('Error downloading PDF:', error);
+      });
+  };
+ 
     var settings = {
         dots: true,
         infinite: false,
@@ -22,7 +40,7 @@ const IotServSlider = () => {
             {
               breakpoint: 1024,
               settings: {
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 infinite: false,
                 dots: true
@@ -49,17 +67,41 @@ const IotServSlider = () => {
     <div className='container servicepage-head'>
         <div className='service-slider'>
         <Slider className='serv-sliders'  {...settings}>
-           <div>
-                <img src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2019/11/theme-05-475x600.jpg' />
+           <div className='servsl-head'>
+                <img src='/images/iot-network.webp' />
+                <div className=' servsl-overlay'>
+                  <p>Complete Network Solutions</p>
+                </div>
            </div>
-           <div>
-                <img src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2019/11/theme-05-475x600.jpg' />
+           <div className='servsl-head'>
+                <img src='/images/iot-laptop.webp'/>
+                <div className=' servsl-overlay'>
+                  <p>Laptop / Desktop Sales & Services</p>
+                </div>
            </div>
-           <div>
-                <img src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2019/11/theme-05-475x600.jpg' />
+           <div className='servsl-head'>
+                <img src='/images/iot-camera.png'/>
+                <div className=' servsl-overlay'>
+                  <p>CCTV / Bio - Metrics</p>
+                </div>
            </div>
-           <div>
-                <img src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2019/11/theme-05-475x600.jpg' />
+           <div className='servsl-head'>
+                <img src='/images/iot-projectors.png'/>
+                <div className=' servsl-overlay'>
+                  <p>Projectors / Smart Class Smart Tv</p>
+                </div>
+           </div>
+           <div className='servsl-head'>
+              <img src='/images/PC.webp'/>
+              <div className=' servsl-overlay'>
+                  <p>Computer Accessories</p>
+                </div>
+           </div>
+           <div className='servsl-head'>
+                <img src='/images/lapcon.webp' />
+                <div className=' servsl-overlay'>
+                  <p>Laptop / Desktop Rent</p>
+                </div>
            </div>
         </Slider>
         </div>
@@ -81,15 +123,14 @@ const IotServSlider = () => {
                 </div>
                 <div className='serv-details2'>
                     <AiFillMail className='servpage-icon'/>
-                    <span>Infygain@gmail.com</span>
+                    <span>Info@infygain.com</span>
                 </div>
 
             </div>
             <div className='serv-details3'>
                 <h3>Brochures</h3>
                 <div className='serv-details4'>
-                    <button><span className='serv-btn-icon'><BiSolidDownload /> </span>&nbsp;<span className='serv-btn-cont'>Download Brochure</span> </button> <br/>
-                    <button><span className='serv-btn-icon'><LuStickyNote /> </span> <span className='serv-btn-cont'>Characteristics</span></button>
+                      <button onClick={downloadPdf}><span className='serv-btn-icon'><BiSolidDownload /> </span>&nbsp;<span className='serv-btn-cont'>Download Brochure</span> </button>
                 </div>
             </div>
         </div>
@@ -97,4 +138,4 @@ const IotServSlider = () => {
   )
 }
 
-export default IotServSlider;
+export default IotServSlider

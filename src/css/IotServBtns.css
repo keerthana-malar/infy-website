@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Poppins:wght@200;400&family=Roboto&display=swap');
+
+.serv-accd-btn{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #222222;
+}
+.serv-accd-btn button{
+    border: none;
+    background-color: #fff;
+    color: #222222;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.serv-accd-btn .active{
+    background-color: #ffc000;
+    color: #fff;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 5px;
+}
+.serv-accd-cont .sev-cont1{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #383838;
+}
+.serv-acc-head{
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:750px){
+
+    .serv-accd-btn button{
+        font-size: 16px;
+    }
+    .serv-accd-btn .active{
+        padding: 10px 20px;
+    }
+    .serv-accd-cont .sev-cont1{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:450px){
+    .serv-accd-btn{
+        justify-content: space-evenly;
+    }
+    .serv-accd-btn button{
+        font-size: 14px;
+    }
+    .serv-accd-btn .active{
+        padding: 10px 10px;
+    }
+    .serv-accd-cont .sev-cont1{
+        font-size: 12px;
+    }
+    .serv-accd-cont p{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+

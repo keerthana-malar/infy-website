@@ -168,6 +168,7 @@
     margin-left: 50px;
     margin-right: 50px;
     font-family: 'Roboto', "sans-serif";
+    overflow: hidden;
 }
 
 .abouts{
@@ -391,6 +392,11 @@
       border-radius: 20px;
       width: 18%;
       font-size: 20px;
+    }
+    .firstrow h3{
+      display: flex;
+      flex-wrap: wrap;
+      padding: 10px;
     }
   }
   @media (width<=735px){

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 :root{
     --warning: #ffc107;
     --danger: #dc3545;
@@ -6,6 +7,13 @@
 }
 .firstlineflex{
     display: flex;
+    padding: 30px 0 0 30px;
+    margin-top: 20px;
+}
+.overall{
+    font-family: 'Roboto', "sans-serif";
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 .yellowbreak{
     width: 8%;
@@ -22,19 +30,424 @@
     margin-left: 20px;
 }
 .rightboxheadcol{
-    text-align: center;
     align-items: center;
+    margin-top: 50px;
+    margin: 0 auto;
+    margin-top: 14%;
+    position: relative;
 }
 
 .rightbox{
     height: 60px;
-    width: 80%;
-    background-color: rgb(219, 216, 216);
+    width: 90%;
+    background-color: rgb(242, 242, 242);
     margin-top: 20px;
-    font-size:23px;
-    
+    font-size:20px;
+    display: flex; 
+    margin: 0 auto;
 }
 .rightbox:hover{
     background-color: black;
     color: white;
+    transition: all 0.5s;
+}
+
+.firstparavalue{
+    font-size: 17px;
+}
+
+.secondparavalue{
+    font-size: 17px;
+}
+.paraoutdoor{
+    padding: 30px 30px 0 30px;
+}
+.paraoutdoor1{
+    padding: 0 30px;
+}
+.downparasession{
+    display: flex;
+}
+.iconboutique{
+    height:10%;
+    width: 3%;
+    background-color: var(--warning);
+    text-align: center;
+    border-radius: 20px;
+}
+.downsession{
+ margin: 40px;
+}
+.clinicpara{
+    margin-left: 10px;
+}
+.rightbox p{
+   padding: 10px;
+   font-weight: 600;
+  
+}
+.iconindex1{
+    margin-left: 35%;
+    margin-top: 2%; 
+}
+.iconindex2{
+    margin-left: 1%;
+    margin-top: 3%; 
+}
+.iconindex3{
+    margin-left: 37%;
+    margin-top: 2%; 
+}
+.iconindex4{
+    margin-left: 51%;
+    margin-top: 2%; 
+}
+.iconindex5{
+    margin-left: 22%;
+    margin-top: 2%; 
+}
+
+@media (width<=1399px){
+    .rightbox p{
+        font-size: 17px;
+    }
+    .rightbox{
+     height: 5%;
+    }
+    .iconindex1{
+        margin-left: 100px;
+    }
+    .iconindex2{
+        margin-right: 40px;
+        padding: 0;
+        margin-top: 20px;
+    }
+    .iconindex3{
+        margin-left: 110px;
+    }
+    .iconindex4{
+        margin-left: 160px;
+    }
+    .iconindex5{
+        margin-left:65px;
+    }
+    .iconboutique{
+        width: 4%;
+        height: 25px;
+    }
+}
+@media (width<=1199px){
+    .iconindex1{
+        margin-left: 50px;
+        margin-top: 13px;
+    }
+    .iconindex2{
+        margin-right: 30px;
+        padding: 0;
+        margin-top: 25px;
+    }
+    .iconindex3{
+        margin-left: 55px;
+        margin-top: 20px;
+    }
+    .iconindex4{
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    .iconindex5{
+        margin-left:8px;
+        margin-top: 17px;
+    }
+    .iconboutique{
+        width: 6%;
+        height: 30px;
+    }
+    .rightbox p{
+        margin-top: 10px;
+    }
+}
+@media (width<=991px){
+    .iconindex1{
+        margin-left: 8px;
+        margin-top: 18px;
+    }
+    .iconindex2{
+        margin-right: 18px;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .iconindex3{
+        margin-left: 20px;
+    }
+    .iconindex4{
+        margin-left: 60px;
+    }
+    .iconindex5{
+        margin-right:20px;
+        margin-top: 30px;
+    }
+    .iconboutique{
+        width: 6%;
+        height: 30px;
+    }
+    .firstheading h1{
+        font-size: 35px;
+    }
+    .paraoutdoor p{
+        font-size: 15px;
+    }
+    .yellowbreak{
+        width: 12%;
+    }
+    .iconboutique{
+        width: 9%;
+        height: 30px;
+    }
+    .rightboxheadcol{
+        margin-top: 20%;
+    }
+    .rightbox{
+        width: 100%;
+    }
+}
+@media (width<=767px){
+    .rightbox{
+        width: 100%;
+    }  
+    .iconindex1{
+        margin-left: 200px;
+    }
+    .iconindex2{
+        margin-left: 80px;
+        padding: 0;
+        margin-top: 18px;
+    }
+    .iconindex3{
+        margin-left: 215px;
+    }
+    .iconindex4{
+        margin-left: 270px;
+    }
+    .iconindex5{
+        margin-left: 155px;
+        margin-top: 18px;
+    } 
+    .rightbox p{
+        font-size: 20px;
+    }
+    .rightboxheadcol{
+        margin-top:10%;
+    }
+    .iconboutique{
+   width: 30px;
+    }
+    .rightbox{
+        width: 90%;
+    }
+  
+}
+@media (width<=500px){
+    .iconindex1{
+        margin-left: 180px;
+    }
+    .iconindex2{
+        margin-left: 50px;
+        padding: 0;
+        margin-top: 18px;
+    }
+    .iconindex3{
+        margin-left: 190px;
+    }
+    .iconindex4{
+        margin-left: 240px;
+    }
+    .iconindex5{
+        margin-left: 125px;
+        margin-top: 18px;
+    }  
+}
+@media (width<=470px){
+    .iconindex1{
+        margin-left: 160px;
+    }
+    .iconindex2{
+        margin-left: 28px;
+        padding: 0;
+        margin-top: 18px;
+    }
+    .iconindex3{
+        margin-left: 170px;
+    }
+    .iconindex4{
+        margin-left: 220px;
+    }
+    .iconindex5{
+        margin-left: 100px;
+        margin-top: 18px;
+    } 
+    .rightbox p{
+        font-size: 20px;
+    }
+}
+@media (width<=454px){
+    .iconindex1{
+        margin-left: 140px;
+    }
+    .iconindex2{
+        margin-left: 12px;
+        padding: 0;
+        margin-top: 18px;
+    }
+    .iconindex3{
+        margin-left: 150px;
+    }
+    .iconindex4{
+        margin-left: 200px;
+    }
+    .iconindex5{
+        margin-left: 85px;
+        margin-top: 18px;
+    } 
+    .yellowbreak{
+        width: 15%;
+    }
+}
+
+@media (width<=436px){
+    .iconindex1{
+        margin-left: 130px;
+    }
+    .iconindex2{
+        margin-left: 10px;
+        padding: 0;
+        margin-top: 18px;
+    }
+    .iconindex3{
+        margin-left: 142px;
+    }
+    .iconindex4{
+        margin-left:190px;
+    }
+    .iconindex5{
+        margin-left: 80px;
+        margin-top: 18px;
+    } 
+    .yellowbreak{
+        width: 18%;
+    }
+    .rightbox p{
+        font-size: 18px;
+    }
+}
+@media (width<=403px){
+    .iconindex1{
+        margin-left: 120px;
+    }
+    .iconindex2{
+        margin-left: 2px;
+        padding: 0;
+        margin-top: 15px;
+    }
+    .iconindex3{
+        margin-left: 125px;
+    }
+    .iconindex4{
+        margin-left: 175px;
+    }
+    .iconindex5{
+        margin-left: 70px;
+        margin-top: 18px;
+    } 
+}
+@media (width<=392px){
+    .iconindex1{
+        margin-left: 100px;
+    }
+    .iconindex2{
+        margin-right: 28px;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .iconindex3{
+        margin-left: 115px;
+    }
+    .iconindex4{
+        margin-left: 160px;
+    }
+    .iconindex5{
+        margin-left: 60px;
+        margin-top: 18px;
+    } 
+}
+@media (width<=392px){
+    .iconindex1{
+        margin-left: 90px;
+    }
+    
+    .iconindex2{
+        margin-right: 50px;
+        padding: 0;
+        margin-top: 30px;
+    }
+    .iconindex3{
+        margin-left: 100px;
+    }
+    .iconindex4{
+        margin-left: 140px;
+    }
+    .iconindex5{
+        margin-left:40px;
+        margin-top: 18px;
+    } 
+}
+@media (width<=380px){
+    .iconindex1{
+        margin-left: 80px;
+    }
+    
+    .iconindex2{
+        margin-right: 15%;
+        padding: 0;
+        margin-top: 10%;
+    }
+    .iconindex3{
+        margin-left: 25%;
+    }
+    .iconindex4{
+        margin-left: 40%;
+    }
+    .iconindex5{
+        margin-left:8%;
+        margin-top: 18px;
+    } 
+}
+
+
+    .fullparaview {
+        height: 300px;
+        background-image: url("/public/images/killer.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: #fff;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+    .mainvaluepreview{
+        font-size: clamp(18px, 1.2vw, 22px);
+        font-weight: 500;
+        font-size: 60px;
+      }
+.opaque{
+    opacity: 0.5;
+}
+.opaque1{
+    opacity: 1;
+}
+.centeralised{
+    position: absolute;
+    top:90%;
+    left: 55%;
 }

@@ -24,7 +24,6 @@ function Fixedline() {
                     <a href="https://infygain.com/onlinestore/"  target='_blank'>
                     <ShoppingCartCheckoutIcon data-tooltip-id="my-tooltip-1" className='valuekiller'/> 
                      </a>  
-
                      <Link to="/Bookservicepage" target='_blank'><LocalActivityIcon data-tooltip-id="my-tooltip-2" className='valuekiller' /></Link>
                  
                  

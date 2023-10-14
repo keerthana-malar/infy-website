@@ -29,6 +29,7 @@ import Termspage from './footermainpages/Termspage';
 import Delivery from './footermainpages/Delivery';
 import Refund from './footermainpages/refund';
 import Quality  from "./footermainpages/quality";
+import ServicePage from "./ServicePage";
 
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
         <Route path="/delivery" element={<Delivery/>} />
         <Route path="/refund" element={<Refund/>} />
         <Route path="/quality" element={<Quality/>} />
+        <Route path="/ServicePage" element={<ServicePage/>} />
 
 
       </Routes>

@@ -54,10 +54,10 @@ function SubService() {
                   handleHoverOut(0);
                 }}
               >
-                <p className="mid-title subser-title">Enterprise Systems</p>
-                <li>Data Services</li>
-                <li>Network Services</li>
-                <li>Cloud Services</li>
+                <p className="mid-title subser-title">Enterprise Solutions</p>
+                <li>Laptop Services</li>
+                <li>Desktop Services</li>
+                <li>Server Services</li>
               </div>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
@@ -84,10 +84,10 @@ function SubService() {
                   handleHoverOut(1);
                 }}
               >
-                <p className="mid-title subser-title">Information Security</p>
-                <li>Application Security</li>
-                <li>Mobile Application</li>
-                <li>Network Security</li>
+                <p className="mid-title subser-title">Security Solutions</p>
+                <li>CCTV Services</li>
+                <li>Biometrics</li>
+                <li>Firewall</li>
               </div>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
@@ -111,10 +111,10 @@ function SubService() {
                   handleHoverOut(2);
                 }}
               >
-                <p className="mid-title subser-title">IoT Services</p>
-                <li>Flexible Deployment</li>
-                <li>Multiple Connections</li>
-                <li>Intelligent Management</li>
+                <p className="mid-title subser-title">Network Solutions</p>
+                <li>Active</li>
+                <li>Passive</li>
+                <li>Wireless</li>
               </div>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
@@ -139,9 +139,9 @@ function SubService() {
                 }}
               >
                 <p className="mid-title subser-title">AV Solutions</p>
-                <li>Intelligent Video Solutions</li>
-                <li>Command & Control Centers</li>
-                <li>Crisis Management Centers</li>
+                <li>Projector</li>
+                <li>Interactive Panel</li>
+                <li>Smart TV</li>
               </div>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
@@ -171,11 +171,11 @@ function SubService() {
               >
                 <p className="mid-title subser-title">Infrastructure</p>
 
-                <li>Structured Cabling</li>
+                <li>IP PBX</li>
            
-                <li>Wifi Solutions</li>
+                <li>EPABX</li>
 
-                <li>AV Solutions</li>
+                <li>Wifi Solutions</li>
            
 
               </div>
@@ -262,11 +262,10 @@ function SubService() {
                   handleHoverOut(7);
                 }}
               >
-                <p className="mid-title subser-title">Security Systems</p>
-                <li>CCTV Solutions</li>
-                <li>Access Control Systems</li>
-
-                <li>AV Intercom</li>
+                <p className="mid-title subser-title">ISP Solutions</p>
+                <li>Broadbrand</li>
+                <li>SME</li>
+                <li>ILL</li>
               </div>
             </div>
           </div>

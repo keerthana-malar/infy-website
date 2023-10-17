@@ -11,7 +11,7 @@ function Blogs(){
         <Header/>
         <Banner/>
         <Mainsection/>
-        <Enquiry/>
+        <Enquiry />
         <Footer/>
         </>
     );

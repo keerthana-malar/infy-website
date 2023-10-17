@@ -39,18 +39,18 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/Contact" element={<Contact />} />
         <Route path="/About" element={<About />} />
-        <Route path="/Blogs" element={<Blogs />} />
+        <Route path="/Blogs/:id" element={<Blogs />} />
         <Route path="/MainBlogs" element={<MainBlogs />} />
-                          <Route path='/Ispservice' element={<Ispservice/>}/>
-                <Route path='/ServiceSeo' element={<ServiceSeo/>}/>
-                <Route path='/Iotservice' element={<Iotservices/>}/>
+        <Route path='/Ispservice' element={<Ispservice/>}/>
+        <Route path='/ServiceSeo' element={<ServiceSeo/>}/>
+        <Route path='/Iotservice' element={<Iotservices/>}/>
         <Route path="/admin" element={<Login />} />
         <Route path="/dashboard" element={<DashBoard />} />
         <Route path="/Category" element={<Category />} />
         <Route path="/AddCategory" element={<AddCategory />} />
-        <Route path="/editcategory/:id" element={<EditCategory />} />
         <Route path="/editblog/:id" element={<EditBlog />} />
-        <Route path="/blog" element={<Blog />} />
+        <Route path="/editcategory/:id" element={<EditCategory />} />
+        <Route path="/adminblog" element={<Blog />} />
         <Route path="/addblog" element={<AddBlog />} />
         <Route path="/Bookservicepage" element={<Bookservicepage />} />
         <Route path="*" element={"404 Page Not Found"} />

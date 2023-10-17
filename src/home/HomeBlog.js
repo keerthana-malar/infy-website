@@ -1,6 +1,23 @@
 import "../css/home.css";
+import { useEffect, useState } from "react";
+import {Link} from "react-router-dom";
+import axios from "axios";
 
 const HomeBlog = () => {
+    const [blogs, setBlogs] = useState([]);
+
+  useEffect(() => {
+    axios.get("https://infygain.in/api/blogdata").then((res) => {
+      setBlogs(res.data);
+      
+    });
+  }, []);
+  function dateSlice(id){
+    const rawDate = blogs[id].date;
+    const blogDate = rawDate.slice(0, 10);
+    return blogDate;
+}
+console.log(blogs[0])
   return (
     <>
       <section className="homeBlogSec">
@@ -11,48 +28,28 @@ const HomeBlog = () => {
             </div>
             <div className="homeBlogBox">
                 <div className="row p-1">
-                    <div className="col-md-4">
+            {blogs.map((value, index)=>(
+                    <div key={value.id} className="col-md-4">
                         <div className="blogBoxInn">
                             <div className="blogImgBox">
-                                <img className="img-fluid" src="/images/project-1web.webp"></img>
+                                <img className="img-fluid" src={"uploads/" + value.img}></img>
                             </div>
                             <div className="blogContBox">
-                                <p className="text-muted">OCTOBER 14, 2023</p>
-                                <p className="mid-title">The Next Big Challenge for Content Marketer</p>
-                                <a className="links">READ MORE</a>
+                                <p className="text-muted">{dateSlice(index)}</p>
+                                <p className="mid-title">{value.title}</p>
+                                <a className="links"><Link to={"/blogs/"+value.id}>READ MORE</Link></a>
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-4">
-                        <div className="blogBoxInn">
-                            <div className="blogImgBox">
-                                <img className="img-fluid" src="/images/project-1web.webp"></img>
-                            </div>
-                            <div className="blogContBox">
-                                <p className="text-muted">OCTOBER 14, 2023</p>
-                                <p className="mid-title">The Next Big Challenge for Content Marketer</p>
-                                <a className="links">READ MORE</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="blogBoxInn">
-                            <div className="blogImgBox">
-                                <img className="img-fluid" src="/images/project-1web.webp"></img>
-                            </div>
-                            <div className="blogContBox">
-                                <p className="text-muted">OCTOBER 14, 2023</p>
-                                <p className="mid-title">The Next Big Challenge for Content Marketer</p>
-                                <a className="links">READ MORE</a>
-                            </div>
-                        </div>
-                    </div>
+                ))}
                 </div>
             </div>
         </div>
       </section>
     </>
   );
+
 };
+
 
 export default HomeBlog;

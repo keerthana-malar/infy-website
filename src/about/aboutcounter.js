@@ -6,7 +6,7 @@ import ProgressBar from "@ramonak/react-progress-bar";
 function AboutCounter() {
   const [counterOn, setCounterOn] = useState();
   const [bar, setBar] = useState(true);
-
+  
   return (
     <ScrollTrigger
       onEnter={() => {
@@ -65,13 +65,13 @@ function AboutCounter() {
 
           <div className="inn">
             <div className="short-abt">
-              <div className="row">
-                <div className="col-md-6">
+              <div className="row ">
+                <div className="col-lg-5 col-md-6">
                   <div className="short-img">
                     <img className="img-fluid " src="./images/abt.webp"></img>
                   </div>
                 </div>
-                <div className="col-md-6">
+                <div className="col-lg-7 col-md-6">
                   <div className="sh-abt-bx p-5">
                     <p className="mini-title main-color">about us</p>
                     <p className="s-title">
@@ -147,6 +147,7 @@ function AboutCounter() {
       </div>
     </ScrollTrigger>
   );
+
 }
 
 export default AboutCounter;

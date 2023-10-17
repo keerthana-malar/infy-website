@@ -1,6 +1,7 @@
-import 'font-awesome/css/font-awesome.css';
-import '../css/mainblog.css';
+import "font-awesome/css/font-awesome.css";
+import "../css/mainblog.css";
 import { useEffect, useState } from "react";
+import {Link} from "react-router-dom";
 import axios from "axios";
 
 function Mainsection() {
@@ -11,37 +12,46 @@ function Mainsection() {
       setBlogs(res.data);
     });
   }, []);
-    return (
-        <>
-        <div className='main-blogs'>
-           <div className='row'>
-            <div className="col-md-8  mainblogsection">
-                <div className=" image-section">
-                  <div className="img">
-                    <img
-                      className="img-fluid"
-                      src="/images/desktop.jpg"
-                    ></img>
-                  </div>
-                  <div className="buttonss">
-                            <button className="btns firstbutton">Desktop</button>
-                            {/* <button className="btns secondbutton">infygain</button> */}
-                        </div>
-                  <div className="content-box ">
-                    <div className="content-box-content">
-                      <p className=" text-muted detailscontent ">We are a prominent IT service provider, based in Coimbatore, with a wide range of products and services, to meet the exclusive needs of our customers. </p>
-                      
-                    </div>
-                  </div>
-                  <div className='readmorelink'>
-                    <p className=' readmoretext'>READ MORE</p>
-                  </div>
+  return (
+    <>
+      <div className="container main-blogs">
+          {blogs.map((index)=>(
+            <div key={index.id} className="row">
+              <div className="col-md-12  mainblogsection">
+            <div className=" image-section">
+              <div className="img">
+                <img className="img-fluid" src={"uploads/" + index.img}></img>
+              </div>
+              <div className="buttonss">
+                {/* <button className="btns firstbutton">Desktop</button> */}
+                {/* <button className="btns secondbutton">infygain</button> */}
+              </div>
+              <div className="content-box p-3">
+                <div className="content-box-content">
+              <p className="sub-title pri-color">{index.title}</p>
+                  <p className=" text-muted detailscontent ">
+                    {stripHTMLTags(index.content)}
+                  </p>
                 </div>
               </div>
+              <div className="readmorelink">
+                <p className=" readmoretext"><Link to={"/blogs/"+index.id}>READ MORE</Link></p>
               </div>
-              </div>
-        </>
-    );
+            </div>
+          </div>
+            </div>
+          )
+            
+          )}
+      </div>
+    </>
+  );
+}
+
+function stripHTMLTags(html) {
+  const temp = document.createElement('div');
+  temp.innerHTML = html;
+  return temp.textContent || temp.innerText;
 }
 
 export default Mainsection;

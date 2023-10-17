@@ -38,8 +38,8 @@ const NewService = () => {
                     </div>
                     <div className=' col-lg-2 ourser-btn'>
 
-                        <Link to="/about" className="btns btn-servicehome">
-                            ALL SERVICES &nbsp; <span className="fa fa-arrow-right"></span>
+                        <Link to="/contact" className="btns btn-servicehome">
+                            REACH US &nbsp; <span className="fa fa-arrow-right"></span>
                         </Link>
                     </div>
 

@@ -292,12 +292,13 @@ background-color: white;
     }
 }
 .authorize img{
-    width:150px;
+    height:80px;
 }
 .auth{
     margin-left:20px;
 }
 .authorize{
+    text-align: center;
     padding-bottom:50px;
 }
 .ph{
@@ -324,14 +325,9 @@ background-color: white;
     color: #fff;
   }
 
-  @media screen and (width<=500px) {
+  @media screen and (width<=481px) {
     .authorize img{
-        /* display: flex;
-        flex-direction: column; */
-        width:100px;
-    }
-    .authorize p{
-        text-align: center;
+        height:55px;
     }
   }
 

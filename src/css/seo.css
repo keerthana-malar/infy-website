@@ -55,6 +55,32 @@
 .head-btn:hover{
     background: linear-gradient(90deg, rgba(0,66,255,1) 35%, rgba(6,255,223,1) 100%);
 }
+
+@media (width<=2000px){
+    .headbx1{
+        background-position: -220px;
+    }
+    .box2{
+        position: absolute;
+        left:350px;
+        top:250px;
+    }
+}
+@media (width<=1620px){
+    .headbx1{
+        background-position: -320px;
+    }
+}
+@media (width<=1440px){
+    .headbx1{
+        background-position: -420px;
+    }
+}
+@media (width<=1230px){
+    .headbx1{
+        background-position: -500px;
+    }
+}
 @media (width<=1170px){
     .headbx1{
         background-position: -520px;
@@ -175,7 +201,7 @@
     right:30px;
 }
 .main-services{
-    margin:50px 0px;
+    margin:0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -401,6 +427,16 @@
     }
     .su-titlebx{
         line-height: 1.48;
+    }
+}
+@media (width<=1050px){
+    .mainheadbx{
+        height: 800px;
+    }
+}
+@media (width<=567px){
+    .mainheadbx{
+        height: 900px;
     }
 }
 @media (width<=999px){

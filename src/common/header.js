@@ -224,12 +224,12 @@ function header() {
                     </li>
                     <li>
                       <Link className="mlink" to="/ispservice">
-                        ISP
+                        ISP Services
                       </Link>
                     </li>
                     <li>
                       <Link className="mlink" to="/ServiceSeo">
-                        Web / App
+                        Web Services
                       </Link>
                     </li>
                 </div>

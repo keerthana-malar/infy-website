@@ -1,15 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&family=Poppins:wght@200;400&family=Roboto&display=swap'); 
 
-
+.servsl-overlay{
+    position: absolute;
+    bottom: 20px;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    padding: 30px;
+    margin-left: 35px;
+    text-align: center;
+    display: none;
+}
+.servsl-head{
+    position: relative;
+}
+.servsl-overlay:hover p{
+    color: #ffc000;
+}
+.servsl-head:hover .servsl-overlay{
+    display: block;
+}
 .service-slider{
     width: 50vw;
 }
 .serv-sliders img{
  max-width: 98%;
-
+ height: 500px;
 }
 .servicepage-head{
     display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 100px;
 }
 .serv-details{
     margin: 0px 30px;
@@ -22,6 +45,7 @@
 }
 .serv-details3 h3{
     font-size: 30px;
+    margin-top: 30px;
     margin-bottom: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -87,6 +111,10 @@
     .service-slider{
         width: 90vw;
     }
+    .serv-sliders img{
+        max-width: 98%;
+        height: 400px;
+       }
     .servicepage-head{
         flex-direction: column;
         justify-content: center;

@@ -10,12 +10,11 @@
  margin: 0;
 }
 .grandgrandparent{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin:60px;
 }
 .headingregisteration{
     text-align: center;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
 }
 
 .headingtag{
@@ -40,7 +39,7 @@
 
 .rightboxborder
 {
-    box-shadow: 2px 2px 2px 2px rgb(121, 120, 120);
+    box-shadow: 2px 0px 5px 0px grey;
     border-radius: 80px 0 80px 0;
     padding: 20px;
  
@@ -51,15 +50,15 @@
     margin-top: 10px;
 }
 .insidebtn{
-    background-color:rgb(0, 89, 255);
+    background-color:rgb(255, 218, 8);
     font-size: 20px;
     margin-bottom: 30px;
-    color: white;
+    color: black;
   
 }
 .insidebtn:hover{
-    background-color: rgb(255, 218, 8);
-    color: black;
+    background-color: rgb(0, 89, 255);
+    color: white;
 }
 .bookforserivceimage{
     margin-top: 90px;

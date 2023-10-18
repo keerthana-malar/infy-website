@@ -278,7 +278,7 @@ const IotBanner = () => {
                 <h1 className="title">
                   Security
                   <br />
-                  Services
+                  Solutions
                 </h1>
               </div>
 

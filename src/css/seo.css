@@ -916,3 +916,33 @@
     padding: 10px;
   }
 }
+
+.portimgbxk{
+  height: 100%;
+  width: 98%;
+  row-gap: 20px;
+}
+.portoverbxk{
+  text-align: center;
+  height: 100%;
+  width: 98%;
+  background: linear-gradient(90deg, rgba(6, 255, 223, 1) 35%, rgba(0, 66, 255, 1) 100%);
+  display: flex;
+  opacity: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:0;
+  transition: all 1s;
+}
+
+.portbxk:hover .portoverbxk{
+  opacity: 0.8;
+}
+
+.portbxk{
+  position: relative;
+  height: 150%;
+}
+

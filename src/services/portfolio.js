@@ -1,46 +1,46 @@
 import { HiOutlineRocketLaunch } from "react-icons/hi2";
 import { FaLink } from "react-icons/fa";
-// import Slider from 'react-slick';
-// import 'slick-carousel/slick/slick.css';
-// import 'slick-carousel/slick/slick-theme.css';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
 
 function Portfolio() {
-  // const settings = {
-  //   dots: false,
-  //   infinite: true,
-  //   speed: 500,
-  //   slidesToShow: 5,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   autoplaySpeed: 1000,
-  //   responsive: [
-  //     {
-  //       breakpoint: 900,
-  //       settings: {
-  //         slidesToShow: 4,
-  //       },
-  //     },
-  //     {
-  //       breakpoint: 700,
-  //       settings: {
-  //         slidesToShow: 3,
-  //       },
-  //     },
-  //     {
-  //       breakpoint: 600,
-  //       settings: {
-  //         slidesToShow: 2,
-  //       },
-  //     },
-  //     {
-  //       breakpoint: 400,
-  //       settings: {
-  //         slidesToShow: 1,
-  //       },
-  //     },
-  //   ],
-  // };
+  const settings = {
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    responsive: [
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 4,
+        },
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 400,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  };
 
   return (
     <>
@@ -71,50 +71,87 @@ function Portfolio() {
         </div>
       </div>
       <div className="mainportbox">
-      {/* <Slider {...settings}> */}
-        <div className="portbox2">
-          <div className="portbx pbx">
-            <img className="portimgbx" src="./images/seo/travel1.webp"></img>
-            <div className="portoverbx">
-              <button className="btn portbtn mb-3">TRAVEL WEBSITE</button>
-              <p className="porttit mb-3">Aspire Holidays</p>
+      <Slider {...settings}>
+         
+          <div className="portbxk ">
+            <img className="portimgbxk" src="./images/seo/physiotherapy.webp"></img>
+            <div className="portoverbxk">
+              <button className="btn portbtn mb-3">COLLEGE WEBSITE OF PHYSIOTHERAPY</button>
+              <p className="porttit mb-3">United College Of Physiotherapy</p>
               <span className="linkbx">
-                <a target="_blank" href="https://aspireholidays.in/"><FaLink /></a>
+                <a target="_blank" href="https://ucpt.ac.in/"><FaLink /></a>
               </span>
             </div>
           </div>
-          <div className="portbx pbx">
-            <img className="portimgbx" src="./images/seo/college.webp"></img>
-            <div className="portoverbx">
-              <button className="btn portbtn mb-3">COLLEGE WEBSITE</button>
-              <p className="porttit mb-3">United Educational Institution</p>
+          <div className="portbxk pbx">
+            <img className="portimgbxk" src="./images/seo/college.webp"></img>
+            <div className="portoverbxk">
+              <button className="btn portbtn mb-3">COLLEGE WEBSITE Of ARTS</button>
+              <p className="porttit mb-3">United College of Arts & Science</p>
               <span className="linkbx">
-                <a target="_blank" href="http://uit.ac.in/"><FaLink /></a>
+                <a target="_blank" href="https://ucas.ac.in/"><FaLink /></a>
               </span>
             </div>
           </div>
-          <div className="portbx pbx">
-            <img className="portimgbx" src="./images/seo/boutique.webp"></img>
-            <div className="portoverbx">
-              <button className="btn portbtn mb-3">ECOMMERCE SITE</button>
-              <p className="porttit mb-3">Magizh Boutique</p>
+          <div className="portbxk pbx">
+            <img className="portimgbxk" src="./images/seo/pharmacys (1).webp"></img>
+            <div className="portoverbxk">
+              <button className="btn portbtn mb-3">COLLEGE WEBSITE OF PHARMACY</button>
+              <p className="porttit mb-3">United College Of Pharmacy</p>
               <span className="linkbx">
-                <a target="_blank" href="https://infygain.com/magizhapparels/"><FaLink /></a>
+                <a target="_blank" href="https://ucp.org.in/"><FaLink /></a>
               </span>
             </div>
           </div>
-          <div className="portbx pbx">
-            <img className="portimgbx" src="./images/seo/travel2.webp"></img>
-            <div className="portoverbx">
-              <button className="btn portbtn mb-3">TRAVEL SITE</button>
-              <p className="porttit mb-3">Royal Travels</p>
+          <div className="portbxk pbx">
+            <img className="portimgbxk" src="./images/seo/MRDICAL.webp"></img>
+            <div className="portoverbxk">
+              <button className="btn portbtn mb-3">MEDICAL SCIENCE WEBSITE</button>
+              <p className="porttit mb-3">United College Of Medical Science</p>
               <span className="linkbx">
-                <a target="_blank" href="https://travelscoimbatore.in/"><FaLink /></a>
+                <a target="_blank" href="https://ucms.edu.in/"><FaLink /></a>
               </span>
             </div>
+            
           </div>
-        </div>
-        {/* </Slider> */}
+
+          <div className="portbxk pbx">
+            <img className="portimgbxk" src="./images/seo/NURSING.webp"></img>
+            <div className="portoverbxk">
+              <button className="btn portbtn mb-3">COLLEGE WEBSITE OF NURSING</button>
+              <p className="porttit mb-3">United College Of Nursing</p>
+              <span className="linkbx">
+                <a target="_blank" href="https://ucn.ac.in/"><FaLink /></a>
+              </span>
+            </div>
+            
+          </div>
+
+          <div className="portbxk pbx">
+            <img className="portimgbxk" src="./images/seo/account.webp"></img>
+            <div className="portoverbxk">
+              <button className="btn portbtn mb-3">ACCOUNT SITE</button>
+              <p className="porttit mb-3">Meethalal Jain & Co</p>
+              <span className="linkbx">
+               <a target="_blank" href="https://kaudit.org/"><FaLink /></a>
+              </span>
+            </div>
+            
+          </div>
+
+          <div className="portbxk pbx">
+            <img className="portimgbxk" src="./images/seo/god.webp"></img>
+            <div className="portoverbxk">
+              <button className="btn portbtn mb-3">SCULPTURE SITE</button>
+              <p className="porttit mb-3">Niagara Exports LLC</p>
+              <span className="linkbx">
+               . <a target="_blank" href="https://niagaraexports.com/"><FaLink /></a>
+              </span>
+            </div>
+            
+          </div>
+        
+        </Slider>
       </div>
     </>
   );

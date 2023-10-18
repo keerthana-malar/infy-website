@@ -18,7 +18,7 @@ function BookforServices(){
                 data-aos="zoom-in-left">
                     <div className='rightboxborder'>
                     <div className='headingregisteration'>
-                  <h3 className='headingtag'>New user </h3>
+                  <h3 className='headingtag'>New User </h3>
                   <p className='headingtagunder'>You don't have the username and password</p>
                   </div>
                   

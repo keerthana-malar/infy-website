@@ -157,13 +157,11 @@ function BestService() {
                             <span className='iconindex1'><IoIosArrowForward /></span>
                         </div>
                         <br></br>
-
                         <div className='rightbox' onClick={Clickon2}> <p>Laptop Desktop Sales and Service </p>
                             <span className='iconindex2'><IoIosArrowForward /></span></div><br></br>
                         <div className='rightbox' onClick={Clickon3}> <p>Custom PC Build</p>
                             <span className='iconindex3'><IoIosArrowForward /></span></div><br></br>
-                        <div className='rightbox' onClick={Clickon4}> <p>Complete Networking
-</p>
+                        <div className='rightbox' onClick={Clickon4}> <p>Complete Networking</p>
                             <span className='iconindex4'>
                                 <IoIosArrowForward /></span></div><br></br>
                         <div className='rightbox' onClick={Clickon5}><p>Laptop and Desktop Rent</p>
@@ -183,7 +181,7 @@ function BestService() {
                     <div className='firstlineflex'>
                         <div className='yellowbreak'></div>
                         <div className='firstheading'>
-                            <h1>We give the best Services </h1>
+                            <h1>We give the Best Services </h1>
                         </div>
                     </div>
                     <div className='paraoutdoor'>

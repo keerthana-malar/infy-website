@@ -56,7 +56,7 @@ function Mainsection() {
               {/* <button className='btns'>Infygain</button>    <button className='btns blogbutton'>Infygain</button><br></br><br></br> */}
               
               <div className="image">
-                <img className="img-fluid" src={"uploads/"+ blogs.img}></img>
+                <img className="img-fluid" src={"../uploads/"+ blogs.img}></img>
               </div>
               <p className="sub-title">
                 {blogs.title}

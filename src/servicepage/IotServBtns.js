@@ -9,7 +9,7 @@ const IotServBtns = () => {
         <div className='serv-accd-btn'>
             <button className={`${show === 'pc1' ? "active" : ""}`} onClick={() => setShow('pc1')}>Our Vision</button>
             <button className={`${show === 'pc2' ? "active" : ""}`} onClick={() => setShow('pc2')}>Our Mission</button>
-            <button className={`${show === 'pc3' ? "active" : ""}`} onClick={() => setShow('pc3')}>Phiosophy</button>
+            <button className={`${show === 'pc3' ? "active" : ""}`} onClick={() => setShow('pc3')}>Philosophy</button>
             <hr />
         </div>
 

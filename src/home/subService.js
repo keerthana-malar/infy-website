@@ -2,6 +2,7 @@ import "../css/home.css";
 import React, { useState } from "react";
 import { Modal, Button } from "react-bootstrap";
 import { BsPlay } from "react-icons/bs";
+import { Link } from "react-router-dom";
 function SubService() {
   const [showVideo, setShowVideo] = useState(false);
 
@@ -45,20 +46,22 @@ function SubService() {
                 </g>
               </svg>
               <img className="hexIcon" src="/images/icons/cloud.png"></img>
-              <div
-                className="subServiceCont service1"
-                onMouseOver={() => {
-                  handleHover(0);
-                }}
-                onMouseLeave={() => {
-                  handleHoverOut(0);
-                }}
-              >
-                <p className="mid-title subser-title">Enterprise Solutions</p>
-                <li>Laptop Services</li>
-                <li>Desktop Services</li>
-                <li>Server Services</li>
-              </div>
+              <Link to={"/iotservice"}>
+                <div
+                  className="subServiceCont service1"
+                  onMouseOver={() => {
+                    handleHover(0);
+                  }}
+                  onMouseLeave={() => {
+                    handleHoverOut(0);
+                  }}
+                >
+                  <p className="mid-title subser-title">Enterprise Solutions</p>
+                  <li>Laptop Services</li>
+                  <li>Desktop Services</li>
+                  <li>Server Services</li>
+                </div>
+              </Link>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
               <svg className="hexShape">
@@ -75,20 +78,22 @@ function SubService() {
                 className="hexIcon"
                 src="/images/icons/data-security.png"
               ></img>
-              <div
-                className="subServiceCont service2"
-                onMouseOver={() => {
-                  handleHover(1);
-                }}
-                onMouseLeave={() => {
-                  handleHoverOut(1);
-                }}
-              >
-                <p className="mid-title subser-title">Security Solutions</p>
-                <li>CCTV Services</li>
-                <li>Biometrics</li>
-                <li>Firewall</li>
-              </div>
+              <Link to={"/iotservice"}>
+                <div
+                  className="subServiceCont service2"
+                  onMouseOver={() => {
+                    handleHover(1);
+                  }}
+                  onMouseLeave={() => {
+                    handleHoverOut(1);
+                  }}
+                >
+                  <p className="mid-title subser-title">Security Solutions</p>
+                  <li>CCTV Services</li>
+                  <li>Biometrics</li>
+                  <li>Firewall</li>
+                </div>
+              </Link>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
               <svg className="hexShape">
@@ -102,20 +107,22 @@ function SubService() {
                 </g>
               </svg>
               <img className="hexIcon" src="/images/icons/iot.png"></img>
-              <div
-                className="subServiceCont service3"
-                onMouseOver={() => {
-                  handleHover(2);
-                }}
-                onMouseLeave={() => {
-                  handleHoverOut(2);
-                }}
-              >
-                <p className="mid-title subser-title">Network Solutions</p>
-                <li>Active</li>
-                <li>Passive</li>
-                <li>Wireless</li>
-              </div>
+              <Link to={"/iotservice"}>
+                <div
+                  className="subServiceCont service3"
+                  onMouseOver={() => {
+                    handleHover(2);
+                  }}
+                  onMouseLeave={() => {
+                    handleHoverOut(2);
+                  }}
+                >
+                  <p className="mid-title subser-title">Network Solutions</p>
+                  <li>Active</li>
+                  <li>Passive</li>
+                  <li>Wireless</li>
+                </div>
+              </Link>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
               <svg className="hexShape">
@@ -129,23 +136,24 @@ function SubService() {
                 </g>
               </svg>
               <img className="hexIcon" src="/images/icons/audio.png"></img>
-              <div
-                className="subServiceCont service4"
-                onMouseOver={() => {
-                  handleHover(3);
-                }}
-                onMouseLeave={() => {
-                  handleHoverOut(3);
-                }}
-              >
-                <p className="mid-title subser-title">AV Solutions</p>
-                <li>Projector</li>
-                <li>Interactive Panel</li>
-                <li>Smart TV</li>
-              </div>
+              <Link to={"/iotservice"}>
+                <div
+                  className="subServiceCont service4"
+                  onMouseOver={() => {
+                    handleHover(3);
+                  }}
+                  onMouseLeave={() => {
+                    handleHoverOut(3);
+                  }}
+                >
+                  <p className="mid-title subser-title">AV Solutions</p>
+                  <li>Projector</li>
+                  <li>Interactive Panel</li>
+                  <li>Smart TV</li>
+                </div>
+              </Link>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
-
               <svg className="hexShape">
                 <g id="Layer_2" data-name="Layer 2">
                   <g id="Layer_1-2" data-name="Layer 1">
@@ -160,25 +168,25 @@ function SubService() {
                 className="hexIcon"
                 src="/images/icons/wifi-router.png"
               ></img>
-              <div
-                className="subServiceCont service5"
-                onMouseOver={() => {
-                  handleHover(4);
-                }}
-                onMouseLeave={() => {
-                  handleHoverOut(4);
-                }}
-              >
-                <p className="mid-title subser-title">Infrastructure</p>
+              <Link to={"/iotservice"}>
+                <div
+                  className="subServiceCont service5"
+                  onMouseOver={() => {
+                    handleHover(4);
+                  }}
+                  onMouseLeave={() => {
+                    handleHoverOut(4);
+                  }}
+                >
+                  <p className="mid-title subser-title">Infrastructure</p>
 
-                <li>IP PBX</li>
-           
-                <li>EPABX</li>
+                  <li>IP PBX</li>
 
-                <li>Wifi Solutions</li>
-           
+                  <li>EPABX</li>
 
-              </div>
+                  <li>Wifi Solutions</li>
+                </div>
+              </Link>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
               <svg className="hexShape">
@@ -195,21 +203,22 @@ function SubService() {
                 className="hexIcon"
                 src="/images/icons/app-development.png"
               ></img>
-              <div
-                className="subServiceCont service6"
-                onMouseOver={() => {
-                  handleHover(5);
-                }}
-                onMouseLeave={() => {
-                  handleHoverOut(5);
-                }}
-              >
-                <p className="mid-title subser-title">Website Development</p>
-                <li>Static/Dynamic Website</li>
-                <li>E-commerce Sites</li>
-                <li>Search Engine Optimization</li>
-
-              </div>
+              <Link to={"/ServiceSeo"}>
+                <div
+                  className="subServiceCont service6"
+                  onMouseOver={() => {
+                    handleHover(5);
+                  }}
+                  onMouseLeave={() => {
+                    handleHoverOut(5);
+                  }}
+                >
+                  <p className="mid-title subser-title">Website Development</p>
+                  <li>Static/Dynamic Website</li>
+                  <li>E-commerce Sites</li>
+                  <li>Search Engine Optimization</li>
+                </div>
+              </Link>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
               <svg className="hexShape">
@@ -223,20 +232,22 @@ function SubService() {
                 </g>
               </svg>
               <img className="hexIcon" src="/images/icons/feature.png"></img>
-              <div
-                className="subServiceCont service7"
-                onMouseOver={() => {
-                  handleHover(6);
-                }}
-                onMouseLeave={() => {
-                  handleHoverOut(6);
-                }}
-              >
-                <p className="mid-title subser-title">Web Applications</p>
-                <li>Stand-alone Software</li>
-                <li>CRM software</li>
-                <li>ERP Software</li>
-              </div>
+              <Link to={"/ServiceSeo"}>
+                <div
+                  className="subServiceCont service7"
+                  onMouseOver={() => {
+                    handleHover(6);
+                  }}
+                  onMouseLeave={() => {
+                    handleHoverOut(6);
+                  }}
+                >
+                  <p className="mid-title subser-title">Web Applications</p>
+                  <li>Stand-alone Software</li>
+                  <li>CRM software</li>
+                  <li>ERP Software</li>
+                </div>
+              </Link>
             </div>
             <div className="col-sm-12 col-md-6 col-xl-3 subServiceBoxInn">
               <svg className="hexShape">
@@ -253,20 +264,22 @@ function SubService() {
                 className="hexIcon"
                 src="/images/icons/security-system.png"
               ></img>
-              <div
-                className="subServiceCont service8"
-                onMouseOver={() => {
-                  handleHover(7);
-                }}
-                onMouseLeave={() => {
-                  handleHoverOut(7);
-                }}
-              >
-                <p className="mid-title subser-title">ISP Solutions</p>
-                <li>Broadbrand</li>
-                <li>SME</li>
-                <li>ILL</li>
-              </div>
+              <Link to={"/ispservice"}>
+                <div
+                  className="subServiceCont service8"
+                  onMouseOver={() => {
+                    handleHover(7);
+                  }}
+                  onMouseLeave={() => {
+                    handleHoverOut(7);
+                  }}
+                >
+                  <p className="mid-title subser-title">ISP Solutions</p>
+                  <li>Broadbrand</li>
+                  <li>SME</li>
+                  <li>ILL</li>
+                </div>
+              </Link>
             </div>
           </div>
         </div>

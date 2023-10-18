@@ -3,7 +3,6 @@ import "font-awesome/css/font-awesome.css";
 import "../css/footer.css";
 import { Link } from "react-router-dom";
 import { TbArrowBigUpFilled } from "react-icons/tb";
-import { useEffect } from "react";
 
 function Footer() {
   const scrollToTop = () => {
@@ -12,14 +11,7 @@ function Footer() {
       behavior: "smooth",
     });
   };
- 
-  useEffect(()=>{
-    window.scrollTo(0,0);
-  }, []);
 
-//   componentDidMount() {
-//     window.scrollTo(0, 0);
-// }
 
   return (
     <footer>

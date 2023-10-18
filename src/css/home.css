@@ -203,6 +203,7 @@
   transition: all 0.5s;
   position: relative;
   margin-bottom: 70px;
+  color: #fff;
 }
 /* .subServiceCont::before {
   content: "";

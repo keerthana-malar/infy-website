@@ -3,7 +3,6 @@ import Contactbanner from './contact/contactbanner';
 import Contactform from './contact/contactform';
 import Maincontent from './contact/maincontent';
 import Footer from './common/footer';
-import Enquiry from "./common/enquiry";
 
 
 
@@ -14,7 +13,6 @@ function Contactus(){
         <Contactbanner/>
         <Maincontent/>
         <Contactform/>
-        <Enquiry/>
         <Footer/>
         </>
     );

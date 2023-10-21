@@ -3,12 +3,13 @@ import '../css/CareerForm.css'
 
 const CareerForm = () => {
   return (
-    <div className='container test-job'>
-        <div className='form-img'>
+    <div className='test-job'>
+        {/* <div className='form-img'>
            <img src='/images/careerForm.webp'/>
-        </div>
+        </div> */}
 
-        <div className=' job-allhead'>
+        <div className='form-main-bxx'>
+        <div className='job-allhead container'>
             <div className='job-form-head'>
                 <h2>Apply Now</h2>
                 <span>Opportunities don’t happen, you create them.</span>
@@ -61,6 +62,9 @@ const CareerForm = () => {
                 </form>
             </div>
         </div>
+        </div>
+
+        
     </div>
   )
 }

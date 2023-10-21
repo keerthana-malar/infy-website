@@ -266,3 +266,56 @@
   }
 
   }
+
+  .main-con {
+    height: 100%;
+  }
+  .main-con .main-row {
+    height: 100%;
+  }
+
+  .card {
+    border: none;
+    box-shadow: 3px 3px 10px grey;
+    border-bottom: 3px solid var(--sec);
+  }
+  .card-body {
+    padding: 20px;
+  }
+  .card-header {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  .card-header,
+  .form-box {
+    background-color: var(--pri);
+    color: white;
+  }
+  .form-box {
+    width: 60%;
+    padding: 20px;
+    border-bottom: 3px solid orange;
+    border-radius: 5px;
+  }
+  .form-group {
+    margin-bottom: 20px;
+  }
+  .job-sub {
+    font-weight: bold;
+  }
+  .btn-apply {
+    margin-top: 10px;
+  }
+  .btn-apply input:hover {
+    background-color: #fff;
+  }
+
+
+  .form-main-bxx{
+    background-image: url("/public/images/career.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+
+  }

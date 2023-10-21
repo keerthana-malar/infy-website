@@ -30,6 +30,7 @@ import Refund from "./footermainpages/refund";
 import Quality from "./footermainpages/quality";
 import ServicePage from "./ServicePage";
 import ScrollToTop from "./common/scrollToTop";
+import Partner from "./partner/Partner";
 
 function App() {
   return (
@@ -53,7 +54,7 @@ function App() {
         <Route path="/adminblog" element={<Blog />} />
         <Route path="/addblog" element={<AddBlog />} />
         <Route path="/Bookservicepage" element={<Bookservicepage />} />
-        <Route path="*" element={"404 Page Not Found"} />
+        <Route path="/Partner" element={<Partner/>} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/termspage" element={<Termspage />} />
         <Route path="/delivery" element={<Delivery />} />

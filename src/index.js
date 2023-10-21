@@ -31,6 +31,7 @@ import Quality from "./footermainpages/quality";
 import ServicePage from "./ServicePage";
 import ScrollToTop from "./common/scrollToTop";
 import Partner from "./partner/Partner";
+import CareerPage from "./Career/CareerPage";
 
 function App() {
   return (
@@ -61,6 +62,7 @@ function App() {
         <Route path="/refund" element={<Refund />} />
         <Route path="/quality" element={<Quality />} />
         <Route path="/ServicePage" element={<ServicePage />} />
+        <Route path="/Career" element={<CareerPage />} />
       </Routes>
     </BrowserRouter>
   );

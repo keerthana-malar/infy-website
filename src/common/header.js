@@ -153,7 +153,7 @@ function header() {
                 </Link>
               </li>
               <li>
-                <Link className="mlink" to="/blogs">
+                <Link className="mlink" to="/career">
                   Career
                 </Link>
               </li>

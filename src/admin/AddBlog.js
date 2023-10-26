@@ -69,6 +69,7 @@ const AddBlog = () => {
       axios
         .post("https://infygain.in/api/addblog", formData)
         .then((res) => {
+          console.log(res)
           document.querySelector(".form").reset();
           setErrors("Blog Added Successfully 😊😊");
           setShowMsg(true);

@@ -32,6 +32,9 @@ import ServicePage from "./ServicePage";
 import ScrollToTop from "./common/scrollToTop";
 import Partner from "./partner/Partner";
 import CareerPage from "./Career/CareerPage";
+import Careers from "./admin/Careers";
+import AddCareer from "./admin/AddCareer";
+import EditCareers from "./admin/EditCareers";
 
 function App() {
   return (
@@ -63,6 +66,9 @@ function App() {
         <Route path="/quality" element={<Quality />} />
         <Route path="/ServicePage" element={<ServicePage />} />
         <Route path="/Career" element={<CareerPage />} />
+        <Route path="/Careers" element={<Careers />} />
+        <Route path="/AddCareer" element={<AddCareer />} />
+        <Route path="/edit-career/:id" element={<EditCareers />} />
       </Routes>
     </BrowserRouter>
   );

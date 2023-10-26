@@ -1,7 +1,27 @@
+import React,{useState,useEffect} from "react";
 import { FaBloggerB } from "react-icons/fa";
 import { HiArrowLongRight } from "react-icons/hi2";
+import axios from "axios";
 
-function webblog() {
+
+function Webblog() {
+
+  const [blogs, setBlogs] = useState([]);
+
+  useEffect(() => {
+    axios.get("https://infygain.in/api/blogdata").then((res) => {
+      setBlogs(res.data);
+    });
+  }, []);
+
+  function dateSlice(id){
+    const rawDate = blogs[id].date;
+    const blogDate = rawDate.slice(0, 10);
+    return blogDate;
+}
+console.log(blogs[0]);
+
+
   return (
     <>
       <div className="web-blog">
@@ -24,6 +44,7 @@ function webblog() {
             <div className="blgimbx">
               <img className="img-fluid" src="./images/seo/blog.webp"></img>
             </div>
+            {blogs.map((value, index)=>(
             <div className="blgconbx">
               <div className="cat-tit">
                 <span>optimization</span>
@@ -32,10 +53,11 @@ function webblog() {
                 Strategy for Norway’s Peion to Fund Global
               </div>
               <div className="bgparabx">
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+              {dateSlice(index)}
               </div>
               <div className="btn read-btn">Read More <HiArrowLongRight/></div>
             </div>
+            ))}
           </div>
           <div className="blogin">
             <div className="blgimbx">
@@ -59,4 +81,4 @@ function webblog() {
     </>
   );
 }
-export default webblog;
+export default Webblog;

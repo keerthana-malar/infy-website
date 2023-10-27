@@ -109,7 +109,7 @@ console.log(blogfilter);
         </div>
         
         <Slider className='blog-sliders'  {...settings}> 
-        {blogs.map((value, index)=>(
+        {blogfilter.map((value, index)=>(
             <div className='blog-slide '>
               
             

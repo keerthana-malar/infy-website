@@ -15,9 +15,10 @@ function Mainsection() {
   return (
     <>
       <div className="container main-blogs">
-          {blogs.map((index)=>(
-            <div key={index.id} className="row">
-              <div className="col-md-6  mainblogsection">
+          
+            <div  className="row">
+            {blogs.map((index)=>(
+              <div key={index.id} className="col-md-6  mainblogsection">
             <div className=" image-section">
               <div className="img">
                 <img className="img-fluid" src={"uploads/" + index.img}></img>
@@ -39,9 +40,10 @@ function Mainsection() {
               </div>
             </div>
           </div>
-            </div>
           ) 
           )}
+            </div>
+          
       </div>
     </>
   );

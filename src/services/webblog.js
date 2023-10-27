@@ -6,22 +6,6 @@ import axios from "axios";
 
 function Webblog() {
 
-  const [blogs, setBlogs] = useState([]);
-
-  useEffect(() => {
-    axios.get("https://infygain.in/api/blogdata").then((res) => {
-      setBlogs(res.data);
-    });
-  }, []);
-
-  function dateSlice(id){
-    const rawDate = blogs[id].date;
-    const blogDate = rawDate.slice(0, 10);
-    return blogDate;
-}
-console.log(blogs[0]);
-
-
   return (
     <>
       <div className="web-blog">
@@ -44,7 +28,7 @@ console.log(blogs[0]);
             <div className="blgimbx">
               <img className="img-fluid" src="./images/seo/blog.webp"></img>
             </div>
-            {blogs.map((value, index)=>(
+          
             <div className="blgconbx">
               <div className="cat-tit">
                 <span>optimization</span>
@@ -53,11 +37,11 @@ console.log(blogs[0]);
                 Strategy for Norway’s Peion to Fund Global
               </div>
               <div className="bgparabx">
-              {dateSlice(index)}
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
               </div>
               <div className="btn read-btn">Read More <HiArrowLongRight/></div>
             </div>
-            ))}
+          
           </div>
           <div className="blogin">
             <div className="blgimbx">

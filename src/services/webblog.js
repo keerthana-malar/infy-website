@@ -1,7 +1,11 @@
+import React,{useState,useEffect} from "react";
 import { FaBloggerB } from "react-icons/fa";
 import { HiArrowLongRight } from "react-icons/hi2";
+import axios from "axios";
 
-function webblog() {
+
+function Webblog() {
+
   return (
     <>
       <div className="web-blog">
@@ -24,6 +28,7 @@ function webblog() {
             <div className="blgimbx">
               <img className="img-fluid" src="./images/seo/blog.webp"></img>
             </div>
+          
             <div className="blgconbx">
               <div className="cat-tit">
                 <span>optimization</span>
@@ -36,6 +41,7 @@ function webblog() {
               </div>
               <div className="btn read-btn">Read More <HiArrowLongRight/></div>
             </div>
+          
           </div>
           <div className="blogin">
             <div className="blgimbx">
@@ -59,4 +65,4 @@ function webblog() {
     </>
   );
 }
-export default webblog;
+export default Webblog;

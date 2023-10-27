@@ -12,6 +12,7 @@ function Mainsection() {
     id: "",
     date: "",
     title: "",
+    
     category: "",
     quote: "",
     metades: "",
@@ -49,10 +50,10 @@ function Mainsection() {
 
   return (
     <>
-      <div className="container main">
-        <div className=" blogsection">
+      <div className="container main mt-5 ">
+        <div className="blogsection ">
           <div className="row">
-            <div className="col-md-12">
+            <div className="col-md-12 outer">
               {/* <button className='btns'>Infygain</button>    <button className='btns blogbutton'>Infygain</button><br></br><br></br> */}
               
               <div className="image">

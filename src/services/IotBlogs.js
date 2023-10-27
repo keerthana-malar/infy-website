@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import Slider from 'react-slick';
 import {BsFillPersonFill} from 'react-icons/bs'
 import {AiFillCalendar} from 'react-icons/ai'
@@ -6,12 +6,30 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import '../css/IotBlogs.css'
-
+import axios from "axios";
+import { useNavigate, useParams } from "react-router-dom";
 
 const IotBlogs = () => {
-  const customDots = () => {
-   
-  }
+
+  const [blogs, setBlogs] = useState([]);
+
+  useEffect(() => {
+    axios.get("https://infygain.in/api/blogdata").then((res) => {
+      setBlogs(res.data);
+    });
+  }, []);
+
+  function dateSlice(id){
+    const rawDate = blogs[id].date;
+    const blogDate = rawDate.slice(0, 10);
+    return blogDate;
+}
+const blogfilter = blogs.filter((val, index) => (
+  val.category === "IT Supports"
+));
+
+console.log(blogfilter);
+ 
     var settings = {
         dots: true,
         infinite: true,
@@ -67,9 +85,9 @@ const IotBlogs = () => {
             }
           ]
     };
+    
   return (
     <div className='container iot-blogs'>
-        
         <div className='container blogs-row1'>
 
             <div className='container blog-col1'>
@@ -89,10 +107,98 @@ const IotBlogs = () => {
             </div>
 
         </div>
-
-        <Slider className='blog-sliders'  {...settings}>
+        
+        <Slider className='blog-sliders'  {...settings}> 
+        {blogfilter.map((value, index)=>(
             <div className='blog-slide '>
               
+            
+                <img className='bl-image'  src='/images/image1.webp'/>
+                <div className=' blog-overtext' >
+                
+                    <div className='bl-col1'>
+                      <p><AiFillCalendar className='bl-icons'/> &nbsp; {dateSlice(index)} &nbsp;</p>
+                      {/* <p><BsFillPersonFill className='bl-icons'/> &nbsp; Rinnah</p> */}
+                    </div>
+                    
+                        <p className='bl-over-para1'>{value.title}</p>
+
+                    <div className='blog-overlay-text'>
+                      <p className='bl-overlay-para1'> {value.title}</p>
+                      <p className='bl-overlay-para2'>Read More &gt;&gt;</p>
+                  </div>
+                  </div>
+           
+       
+            </div>
+            
+
+
+             /* <div className='blog-slide'>
+                <img className='bl-image' src='/images/image1.webp'/>
+                <div className=' blog-overtext' >
+                    
+                    <div className='bl-col1'>
+                      <p><AiFillCalendar className='bl-icons'/> &nbsp; 5Nov,2019 &nbsp;</p>
+                      <p><BsFillPersonFill className='bl-icons'/> &nbsp; Rinnah</p>
+                    </div>
+                    <p className='bl-over-para1'> {blogs.title}</p>
+
+                    <div className='blog-overlay-text'>
+                      <p className='bl-overlay-para1'> {blogs.title}</p>
+                      <p className='bl-overlay-para2'>Read More &gt;&gt;</p>
+                  </div>
+              </div>
+            </div>
+            <div className='blog-slide'>
+                <img className='bl-image' src='/images/image1.webp'/>
+                <div className=' blog-overtext' >
+                    
+                    <div className='bl-col1'>
+                      <p><AiFillCalendar className='bl-icons'/> &nbsp; 5Nov,2019 &nbsp;</p>
+                      <p><BsFillPersonFill className='bl-icons'/> &nbsp; Rinnah</p>
+                    </div>
+                    <p className='bl-over-para1'> {blogs.title}</p>
+
+                    <div className='blog-overlay-text'>
+                      <p className='bl-overlay-para1'> {blogs.title}</p>
+                      <p className='bl-overlay-para2'>Read More &gt;&gt;</p>
+                  </div>
+              </div>
+            </div>
+            <div className='blog-slide'>
+                <img className='bl-image' src='/images/image1.webp'/>
+                <div className=' blog-overtext' >
+                    
+                    <div className='bl-col1'>
+                      <p><AiFillCalendar className='bl-icons'/> &nbsp; 5Nov,2019 &nbsp;</p>
+                      <p><BsFillPersonFill className='bl-icons'/> &nbsp; Rinnah</p>
+                    </div>
+                    <p className='bl-over-para1'>Reason to explian fast business builder</p>
+
+                    <div className='blog-overlay-text'>
+                      <p className='bl-overlay-para1'>Reason to explian fast business builder</p>
+                      <p className='bl-overlay-para2'>Read More &gt;&gt;</p>
+                  </div>
+              </div>
+            </div>
+            <div className='blog-slide'>
+                <img className='bl-image' src='/images/image1.webp'/>
+                <div className=' blog-overtext' >
+                    
+                    <div className='bl-col1'>
+                      <p><AiFillCalendar className='bl-icons'/> &nbsp; 5Nov,2019 &nbsp;</p>
+                      <p><BsFillPersonFill className='bl-icons'/> &nbsp; Rinnah</p>
+                    </div>
+                    <p className='bl-over-para1'>Reason to explian fast business builder</p>
+
+                    <div className='blog-overlay-text'>
+                      <p className='bl-overlay-para1'>Reason to explian fast business builder</p>
+                      <p className='bl-overlay-para2'>Read More &gt;&gt;</p>
+                  </div>
+              </div>
+            </div>
+            <div className='blog-slide'>
                 <img className='bl-image'  src='/images/image1.webp'/>
                 <div className=' blog-overtext' >
                     
@@ -107,94 +213,19 @@ const IotBlogs = () => {
                       <p className='bl-overlay-para2'>Read More &gt;&gt;</p>
                   </div>
               </div>
-            </div>
-
-
-            <div className='blog-slide'>
-                <img className='bl-image' src='/images/image1.webp'/>
-                <div className=' blog-overtext' >
-                    
-                    <div className='bl-col1'>
-                      <p><AiFillCalendar className='bl-icons'/> &nbsp; 5Nov,2019 &nbsp;</p>
-                      <p><BsFillPersonFill className='bl-icons'/> &nbsp; Rinnah</p>
-                    </div>
-                    <p className='bl-over-para1'>Reason to explian fast business builder</p>
-
-                    <div className='blog-overlay-text'>
-                      <p className='bl-overlay-para1'>Reason to explian fast business builder</p>
-                      <p className='bl-overlay-para2'>Read More &gt;&gt;</p>
-                  </div>
-              </div>
-            </div>
-            <div className='blog-slide'>
-                <img className='bl-image' src='/images/image1.webp'/>
-                <div className=' blog-overtext' >
-                    
-                    <div className='bl-col1'>
-                      <p><AiFillCalendar className='bl-icons'/> &nbsp; 5Nov,2019 &nbsp;</p>
-                      <p><BsFillPersonFill className='bl-icons'/> &nbsp; Rinnah</p>
-                    </div>
-                    <p className='bl-over-para1'>Reason to explian fast business builder</p>
-
-                    <div className='blog-overlay-text'>
-                      <p className='bl-overlay-para1'>Reason to explian fast business builder</p>
-                      <p className='bl-overlay-para2'>Read More &gt;&gt;</p>
-                  </div>
-              </div>
-            </div>
-            <div className='blog-slide'>
-                <img className='bl-image' src='/images/image1.webp'/>
-                <div className=' blog-overtext' >
-                    
-                    <div className='bl-col1'>
-                      <p><AiFillCalendar className='bl-icons'/> &nbsp; 5Nov,2019 &nbsp;</p>
-                      <p><BsFillPersonFill className='bl-icons'/> &nbsp; Rinnah</p>
-                    </div>
-                    <p className='bl-over-para1'>Reason to explian fast business builder</p>
-
-                    <div className='blog-overlay-text'>
-                      <p className='bl-overlay-para1'>Reason to explian fast business builder</p>
-                      <p className='bl-overlay-para2'>Read More &gt;&gt;</p>
-                  </div>
-              </div>
-            </div>
-            <div className='blog-slide'>
-                <img className='bl-image' src='/images/image1.webp'/>
-                <div className=' blog-overtext' >
-                    
-                    <div className='bl-col1'>
-                      <p><AiFillCalendar className='bl-icons'/> &nbsp; 5Nov,2019 &nbsp;</p>
-                      <p><BsFillPersonFill className='bl-icons'/> &nbsp; Rinnah</p>
-                    </div>
-                    <p className='bl-over-para1'>Reason to explian fast business builder</p>
-
-                    <div className='blog-overlay-text'>
-                      <p className='bl-overlay-para1'>Reason to explian fast business builder</p>
-                      <p className='bl-overlay-para2'>Read More &gt;&gt;</p>
-                  </div>
-              </div>
-            </div>
-            <div className='blog-slide'>
-                <img className='bl-image'  src='/images/image1.webp'/>
-                <div className=' blog-overtext' >
-                    
-                    <div className='bl-col1'>
-                      <p><AiFillCalendar className='bl-icons'/> &nbsp; 5Nov,2019 &nbsp;</p>
-                      <p><BsFillPersonFill className='bl-icons'/> &nbsp; Rinnah</p>
-                    </div>
-                    <p className='bl-over-para1'>Reason to explian fast business builder</p>
-
-                    <div className='blog-overlay-text'>
-                      <p className='bl-overlay-para1'>Reason to explian fast business builder</p>
-                      <p className='bl-overlay-para2'>Read More &gt;&gt;</p>
-                  </div>
-              </div>
-            </div>
-
+            </div>  */
+            ))}
 
         </Slider>
+        
     </div>
   )
+}
+
+function stripHTMLTags(html) {
+  const temp = document.createElement('div');
+  temp.innerHTML = html;
+  return temp.textContent || temp.innerText;
 }
 
 export default IotBlogs

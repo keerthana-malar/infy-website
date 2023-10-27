@@ -16,7 +16,6 @@ const IotBlogs = () => {
   useEffect(() => {
     axios.get("https://infygain.in/api/blogdata").then((res) => {
       setBlogs(res.data);
-      
     });
   }, []);
 
@@ -25,7 +24,11 @@ const IotBlogs = () => {
     const blogDate = rawDate.slice(0, 10);
     return blogDate;
 }
-console.log(blogs[0])
+const blogfilter = blogs.filter((val, index) => (
+  val.category === "IT Supports"
+));
+
+console.log(blogfilter);
  
     var settings = {
         dots: true,
@@ -82,6 +85,7 @@ console.log(blogs[0])
             }
           ]
     };
+    
   return (
     <div className='container iot-blogs'>
         <div className='container blogs-row1'>
@@ -103,17 +107,20 @@ console.log(blogs[0])
             </div>
 
         </div>
+        
         <Slider className='blog-sliders'  {...settings}> 
+        {blogs.map((value, index)=>(
             <div className='blog-slide '>
               
+            
                 <img className='bl-image'  src='/images/image1.webp'/>
-                {blogs.map((value, index)=>(
                 <div className=' blog-overtext' >
                 
                     <div className='bl-col1'>
                       <p><AiFillCalendar className='bl-icons'/> &nbsp; {dateSlice(index)} &nbsp;</p>
-                      <p><BsFillPersonFill className='bl-icons'/> &nbsp; Rinnah</p>
+                      {/* <p><BsFillPersonFill className='bl-icons'/> &nbsp; Rinnah</p> */}
                     </div>
+                    
                         <p className='bl-over-para1'>{value.title}</p>
 
                     <div className='blog-overlay-text'>
@@ -121,11 +128,13 @@ console.log(blogs[0])
                       <p className='bl-overlay-para2'>Read More &gt;&gt;</p>
                   </div>
                   </div>
-                  ))}  
+           
+       
             </div>
+            
 
 
-             <div className='blog-slide'>
+             /* <div className='blog-slide'>
                 <img className='bl-image' src='/images/image1.webp'/>
                 <div className=' blog-overtext' >
                     
@@ -204,10 +213,11 @@ console.log(blogs[0])
                       <p className='bl-overlay-para2'>Read More &gt;&gt;</p>
                   </div>
               </div>
-            </div> 
-
+            </div>  */
+            ))}
 
         </Slider>
+        
     </div>
   )
 }

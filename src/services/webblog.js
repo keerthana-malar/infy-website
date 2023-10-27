@@ -77,6 +77,15 @@ function Webblog() {
  
 console.log(blogs)
 console.log(blogFiltered)
+
+import React,{useState,useEffect} from "react";
+import { FaBloggerB } from "react-icons/fa";
+import { HiArrowLongRight } from "react-icons/hi2";
+import axios from "axios";
+
+
+function Webblog() {
+
   return (
     <>
       <div className="web-blog">
@@ -123,6 +132,7 @@ console.log(blogFiltered)
             <div className="blgimbx">
               <img className="img-fluid" src="./images/seo/blog.webp"></img>
             </div>
+          
             <div className="blgconbx">
               <div className="cat-tit">
                 <span>optimization</span>
@@ -135,6 +145,7 @@ console.log(blogFiltered)
               </div>
               <div className="btn read-btn">Read More <HiArrowLongRight/></div>
             </div>
+          
           </div>
 
           <div className="blogin">

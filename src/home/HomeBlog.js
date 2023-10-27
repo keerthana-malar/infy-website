@@ -36,7 +36,7 @@ console.log(blogs[0])
                             </div>
                             <div className="blogContBox">
                                 <p className="text-muted">{dateSlice(index)}</p>
-                                <p className="mid-title">{value.title}</p>
+                                <p className="mid-title ">{value.title}</p>
                                 <a className="links"><Link to={"/blogs/"+value.id}>READ MORE</Link></a>
                             </div>
                         </div>
@@ -48,8 +48,5 @@ console.log(blogs[0])
       </section>
     </>
   );
-
 };
-
-
 export default HomeBlog;

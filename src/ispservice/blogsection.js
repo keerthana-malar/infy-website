@@ -1,6 +1,30 @@
 import 'font-awesome/css/font-awesome.css';
 import '../css/ispservice.css';
+import axios from "axios";
+import { useNavigate, useParams } from "react-router-dom";
+import React,{useState,useEffect} from 'react'
+import { Link } from "react-router-dom";
+import '../css/DwBlog.css';
+
 function Blogsection() {
+    const [blogs, setBlogs] = useState([]);
+
+    useEffect(() => {
+      axios.get("https://infygain.in/api/blogdata").then((res) => {
+        setBlogs(res.data);
+      });
+    }, []);
+  
+    function dateSlice(id){
+      const rawDate = blogs[id].date;
+      const blogDate = rawDate.slice(0, 10);
+      return blogDate;
+  }
+  const blogfilter = blogs.filter((val, index) => (
+    val.category === "ISP Services"
+  ));
+  
+  console.log(blogfilter);
     return (
         <>
             <div className='isp-blog'>
@@ -9,7 +33,7 @@ function Blogsection() {
                         <div className='col-md-3' ></div>
                         <div className='col-md-6 banner-thi-con'>
                             <div className=' contentsection' data-aos="fade-up" data-aos-duration="2000" >
-                                <div className='button'><button className='btns-greens-third'>why choose us</button></div>
+                                <div className='button'><button className='btns-greens-third'>Blog</button></div>
                                 <p className="maintitle-thi">Experience the pinnacle of speed with our fiber-optic internet</p>
                                 <p className='text-muted details-blog-content'>Surpass the speed limits with our fiber-optic internet experience. Elevate your connectivity to the pinnacle of speed and performance.</p>
 
@@ -18,7 +42,31 @@ function Blogsection() {
                         <div className='col-md-3'></div>
                     </div>
                     <div className='row'>
-                        <div className='col-md-4' data-aos="zoom-in-right" data-aos-duration="2000" >
+                    <div className=' col-md-12 dw-blogs'>
+               {blogfilter.map((value, index) => (
+
+            <div className='dw-blogs1'>
+
+            <img src={"../uploads/" + value.img} alt='' />
+            <div className='dw-blogs2'>
+              <span>Insight</span>
+            </div>
+            <div className='dw-bg'>
+              {/* hiii */}
+            </div>
+            <div className='dw-blogs3'>
+              <Link className=' blog-inn-conse' to="/overblog"><span className=' blog-inn-conse '>{value.title}</span></Link>
+              <p className='blog-main-contentss'>
+                {stripHTMLTags(value.content)}  </p>
+              <span className='dw-blog-date'>{dateSlice(index)}</span>
+            </div>
+          </div>
+        ))}
+
+
+
+      </div>
+                        {/* <div className='col-md-4' data-aos="zoom-in-right" data-aos-duration="2000" >
                             <div className=" image-sectionano-blog">
                                 <div className="img-Box">
                                     <img
@@ -37,8 +85,8 @@ function Blogsection() {
 
                             </div>
 
-                        </div>
-                        <div className='col-md-4 ' data-aos="zoom-in-right" data-aos-duration="2000">
+                        </div> */}
+                        {/* <div className='col-md-4 ' data-aos="zoom-in-right" data-aos-duration="2000">
                             <div className=" image-sectionano-blog">
                                 <div className="img-Box">
                                     <img
@@ -79,7 +127,7 @@ function Blogsection() {
 
                             </div>
 
-                        </div>
+                        </div> */}
                     </div>
                     <div className='button-blog'><button className='btns-green-blog'>get started</button></div>
                 </div>
@@ -113,5 +161,10 @@ function Blogsection() {
 
     );
 }
+function stripHTMLTags(html) {
+    const temp = document.createElement('div');
+    temp.innerHTML = html;
+    return temp.textContent || temp.innerText;
+  }
 
 export default Blogsection;

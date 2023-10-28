@@ -4,8 +4,25 @@ import Sidebars from "./sidebar";
 import Alert from "react-bootstrap/Alert";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
+import ReactQuill from "react-quill";
+import 'react-quill/dist/quill.snow.css';
+
 
 const EditCareers = () => {
+
+  
+  const modules = {
+    toolbar: [
+      [{ 'header': '1'}, { 'header': '2' }, { 'header': '3' }, { 'header': '4' }, 'bold', 'italic', 'underline', 'strike', 'blockquote', 'code-block'],
+      [{ 'list': 'ordered'}, { 'list': 'bullet' }, ],
+      ['undo', 'redo'], 
+       [{ 'indent': '-1'}, { 'indent': '+1' }],
+      ['clean'],
+      [{ 'align': [] }],
+      ['horizontal-line'],
+    ],
+  };
+
   const { id } = useParams();
   const [values, setValues] = useState({
     id: id,
@@ -14,6 +31,7 @@ const EditCareers = () => {
     qualification:"",
     experience:"",
     jd:"",
+    content:"",
     intro:""
   });
 
@@ -27,7 +45,7 @@ const EditCareers = () => {
       .get("https://infygain.in/api/edit-career/"+ id)
       .then((res) => {
         const carData = res.data.result[0];
-        console.log("cardata",carData)
+        // console.log("cardata",carData)
         setValues({
           ...values,
           title: carData.title,
@@ -35,6 +53,7 @@ const EditCareers = () => {
           qualification: carData.degree,
           experience: carData.exp,
           jd: carData.content,
+          content:carData.jdcontent,
           intro: carData.intro,
         });
        
@@ -42,6 +61,8 @@ const EditCareers = () => {
       .catch((err) => {
       });
   }, [id]);
+
+  console.log("jdc",values.jd)
   
 
   const handleInput = (e) => {
@@ -54,13 +75,13 @@ const EditCareers = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (values.name === "") {
-      setErrors("Category Name Must Be Filled");
+      setErrors("Career Name Must Be Filled");
       setShow(true);
     } else {
       axios
         .post("https://infygain.in/api/carupdate", values)
         .then((res) => {
-          console.log(res)
+          // console.log("check",res.data)
           setErrors(res.data.res);
           setShowMsg(true);
         })
@@ -88,7 +109,7 @@ const EditCareers = () => {
       );
     }
   }
-  console.log("sam",values)
+  // console.log("sam",values)
   return (
     <>
       <div className="adminMainBox">
@@ -156,7 +177,7 @@ const EditCareers = () => {
                     value={values.intro}
                   ></textarea>
                 </div>
-              <div className="col">
+              {/* <div className="col">
               <textarea
                   className="form-control"
                   name="jd"
@@ -164,8 +185,36 @@ const EditCareers = () => {
                   onChange={handleInput}
                   value={values.jd}
                 ></textarea>
-              </div>
+              </div> */}
             </div>
+
+            <div className="row mb-3">
+              <div className="col">
+                <ReactQuill
+                  theme="snow"
+                  value={values.jd}
+                  onChange={(jd) =>
+                  handleInput({
+                    target: { name: "jd", value: jd },
+                  })
+                }
+                placeholder={"Write something awesome..."}
+                modules={modules}
+                />
+
+              {/* <ReactQuill
+                 theme="snow"
+                  value={values.content}
+                  onChange={(content) =>
+                  handleInput({
+                    target: { name: "content", value: content },
+                  })
+                }
+                placeholder={"Write something awesome..."}
+                modules={modules}
+              /> */}
+                </div>
+              </div>
 
             <div className="col">
               <button className="btn btn-success" type="submit">

@@ -3,8 +3,24 @@ import "../css/admin.css";
 import Sidebars from "./sidebar";
 import Alert from "react-bootstrap/Alert";
 import axios from "axios";
+import ReactQuill from "react-quill";
+import 'react-quill/dist/quill.snow.css';
 
 const AddCareer = () => {
+
+  const modules = {
+    toolbar: [
+      [{ 'header': '1'}, { 'header': '2' }, { 'header': '3' }, { 'header': '4' }, 'bold', 'italic', 'underline', 'strike', 'blockquote', 'code-block'],
+      [{ 'list': 'ordered'}, { 'list': 'bullet' }, ],
+      ['undo', 'redo'], 
+       [{ 'indent': '-1'}, { 'indent': '+1' }],
+      ['clean'],
+      [{ 'align': [] }],
+      ['horizontal-line'],
+    ],
+  };
+
+
   const [values, setValues] = useState({
     title: "",
     status: "Active",
@@ -15,7 +31,7 @@ const AddCareer = () => {
   });
 
   useEffect(() => {
-    console.log(values)
+    console.log("val",values)
   },[values])
 
   const [errors, setErrors] = useState("");
@@ -39,6 +55,7 @@ const AddCareer = () => {
       axios
         .post("https://infygain.in/api/addcar", values)
         .then((res) => {
+          console.log("upd",res)
           setValues({ title: "", status: "Active" ,degree:"",
           exp:"",
           content:"",
@@ -136,15 +153,45 @@ const AddCareer = () => {
                   onChange={handleInput}
                 ></textarea>
               </div>
-              <div className="col">
+              
+              {/* <div className="col">
               <textarea
                   className="form-control"
                   name="jd"
                   placeholder="Job Description"
                   onChange={handleInput}
                 ></textarea>
+              </div> */}
+            </div>
+
+            <div className="row mb-3">
+              <div className="col">
+                <ReactQuill
+                  theme="snow"
+                  value={values.jd}
+                  onChange={(jd) =>
+                  handleInput({
+                    target: { name: "jd", value: jd },
+                  })
+                }
+                placeholder={"Write something awesome..."}
+                modules={modules}
+                />
+
+              {/* <ReactQuill
+                  theme="snow"
+                  value={values.content}
+                  onChange={(content) =>
+                  handleInput({
+                    target: { name: "content", value: content },
+                  })
+                }
+                placeholder={"Write something awesome..."}
+                modules={modules}
+              /> */}
               </div>
             </div>
+
             <div className="col">
               <button className="btn btn-success" type="submit">
                 Add

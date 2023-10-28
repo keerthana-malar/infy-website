@@ -168,7 +168,7 @@ const AddCareer = () => {
               <div className="col">
                 <ReactQuill
                   theme="snow"
-                  value={values.jd}
+                  // value={values.jd}
                   onChange={(jd) =>
                   handleInput({
                     target: { name: "jd", value: jd },

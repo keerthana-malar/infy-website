@@ -110,6 +110,10 @@ const EditCareers = () => {
     }
   }
   // console.log("sam",values)
+
+  useEffect(() => {
+    console.log("jdval",values.jd[0])
+  },[values])
   return (
     <>
       <div className="adminMainBox">
@@ -192,7 +196,7 @@ const EditCareers = () => {
               <div className="col">
                 <ReactQuill
                   theme="snow"
-                  value={values.jd}
+                  value={values.jd.toString()}
                   onChange={(jd) =>
                   handleInput({
                     target: { name: "jd", value: jd },

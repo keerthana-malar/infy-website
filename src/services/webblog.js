@@ -74,18 +74,6 @@ function Webblog() {
       //   console.log(11)
       // }
 
- 
-console.log(blogs)
-console.log(blogFiltered)
-
-import React,{useState,useEffect} from "react";
-import { FaBloggerB } from "react-icons/fa";
-import { HiArrowLongRight } from "react-icons/hi2";
-import axios from "axios";
-
-
-function Webblog() {
-
   return (
     <>
       <div className="web-blog">

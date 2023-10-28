@@ -15,9 +15,10 @@ function Mainsection() {
   return (
     <>
       <div className="container main-blogs">
-          {blogs.map((index)=>(
-            <div key={index.id} className="row">
-              <div className="col-md-12  mainblogsection">
+          
+            <div  className="row">
+            {blogs.map((index)=>(
+              <div key={index.id} className="col-md-6  mainblogsection">
             <div className=" image-section">
               <div className="img">
                 <img className="img-fluid" src={"uploads/" + index.img}></img>
@@ -28,21 +29,22 @@ function Mainsection() {
               </div>
               <div className="content-box p-3">
                 <div className="content-box-content">
-              <p className="sub-title pri-color">{index.title}</p>
+              <p className="sub-title pri-color t-c">{index.title}</p>
                   <p className=" text-muted detailscontent ">
                     {stripHTMLTags(index.content)}
                   </p>
                 </div>
               </div>
-              <div className="readmorelink">
-                <p className=" readmoretext"><Link to={"/blogs/"+index.id}>READ MORE</Link></p>
+              <div className="readmorelink t-c pb-3">
+                <p className=" readmoretext"><Link to={"/blogs/"+index.id}>
+                  <button className="btn btn-primary">READ MORE</button></Link></p>
               </div>
             </div>
           </div>
-            </div>
-          )
-            
+          ) 
           )}
+            </div>
+          
       </div>
     </>
   );

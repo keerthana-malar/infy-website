@@ -56,6 +56,11 @@
 .para{
     font-size: 17px;
 }
+.outer{
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+
 @media only screen and (max-width: 514px) {
     .blogbutton {
      margin-top: 10px;

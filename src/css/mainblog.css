@@ -8,6 +8,7 @@
 }
 .image-section{
 background-color: #fff;
+height: 400px;
 border-radius: 20px ;
 box-shadow: 0 0 10px var(--bgs);
 margin-top: 2px;
@@ -44,4 +45,8 @@ padding-right: 0px;
 }
 .readmorelink{
     margin-bottom: 10px;
+
+}
+.t-c{
+    text-align: center;
 }

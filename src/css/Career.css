@@ -419,17 +419,29 @@ margin-left: 80px;
   font-weight: 700;
 }
 
+
 .boxs {
   width: 350px;
   height: 390px;
   margin-right: 10px;
+
+/* .box {
+  width: 300px;
+  height: 200px;
+
   background-color: #ffffff;
   border-radius: 10px;
   text-align: center;
+
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
    
 }
 .car-boxs{
+
+  
+} */
+.car-box{
+
   padding: 20px;
 }
 @media (width<=767px){

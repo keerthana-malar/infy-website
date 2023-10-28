@@ -1,27 +1,101 @@
+import { useState, useEffect } from "react";
+import Alert from "react-bootstrap/Alert";
 import 'font-awesome/css/font-awesome.css';
 import '../css/contact.css';
+import axios from "axios";
 
 function Contactform() {
+    const [values, setValues] = useState({
+        name: "",
+        phone: "",
+        email:"",
+        category: "",
+        subject: "",
+        message: ""
+      });
+    
+    
+      const [errors, setErrors] = useState("");
+      const [show, setShow] = useState(false);
+      const [showMsg, setShowMsg] = useState(false);
+    
+      const handleInput = (e) => {
+        setValues((prev) => ({
+          ...prev,
+          [e.target.name]: [e.target.value],
+        }));
+      };
+      
+      const handleSubmit = (e) => {
+        e.preventDefault();
+          axios
+            .post("https://infygain.in/api/contact", values)
+            .then((res) => {
+                if(res.data.info){
+                    setValues({
+                        name: "",
+                        phone: "",
+                        email:"",
+                        category: "",
+                        subject: "",
+                        message: ""
+                      });
+                      document.querySelector(".form").reset()
+                      setErrors(res.data.info);
+                      setShowMsg(true);
+                }
+                else{
+                    setErrors(res.data.err);
+                    setShow(true);
+                }
+              
+            })
+            .catch((err) => {
+              console.log(err);
+            });
+      };
+      
+    
+      function alertBox() {
+        if (show) {
+          return (
+            <Alert variant="danger" onClose={() => setShow(false)} dismissible>
+              {errors}
+            </Alert>
+          );
+        }
+      }
+      function msgBox() {
+        if (showMsg) {
+          return (
+            <Alert variant="success" onClose={() => setShowMsg(false)} dismissible>
+              {errors}
+            </Alert>
+          );
+        }
+      }
     return (
         <>
             <div className='main container'>
                 <div className="row">
                     <div className='col-md-6 form-details'>
                         <h className='medium-title ready'>Ready to Get started ?</h><br></br><br></br>
+                        {alertBox()}
+                        {msgBox()}
                         <p className='text-muted'>You may simply complete the form below and click ‘send’ to submit an enquiry. Our customer service team will get in touch with you within 3 business days.</p>
-                        <form>
+                        <form className="form" method='POST' onSubmit={handleSubmit}>
                             <div className="row box">
                                 <div className="col-md-6 form-group">
-                                    <input type="text" className="form-control" placeholder="Your name *" required />
+                                    <input name="name" type="text" className="form-control" placeholder="Your name *" onChange={handleInput} required />
                                 </div>
                                 <div className="col-md-6 form-group">
-                                    <input type="phone" className="form-control" placeholder="Phone *" required />
+                                    <input name="phone" type="phone" className="form-control" placeholder="Phone *" onChange={handleInput} required />
                                 </div>
                                 <div className="col-md-6 form-group">
-                                    <input type="email" className="form-control" placeholder="Email *" required />
+                                    <input name="email" type="email" className="form-control" placeholder="Email *" onChange={handleInput} required />
                                 </div>
                                 <div className="col-md-6 form-group">
-                                    <select className="form-control" name="category" required>
+                                    <select className="form-control" name="category" required onChange={handleInput}>
                                         <option className="text-muted" value="nil">Requirement Category</option>
                                         <optgroup label="IT Services">
                                             <option value="Hardware">Hardware Issues</option>
@@ -40,10 +114,10 @@ function Contactform() {
                                     </select>
                                 </div>
                                 <div className="form-group">
-                                    <input type="text" className="form-control" placeholder="Subject" required />
+                                    <input name="subject" type="text" className="form-control" placeholder="Subject" required onChange={handleInput} />
                                 </div>
                                 <div className=" form-group">
-                                    <input type="textarea" className="form-control" placeholder="Your Message" required />
+                                    <input name="message" type="textarea" className="form-control" placeholder="Your Message" required onChange={handleInput}/>
                                 </div>
                             </div>
                             <button className="btns send">

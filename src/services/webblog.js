@@ -68,16 +68,18 @@ function Webblog() {
     });
   }, []);
 
-  const blogFiltered = blogs.filter((val,index) => val.category === "Web Services")
+//   const blogFiltered = blogs.filter((val,index) => val.category === "Web Services")
 
-      function dateSlice(id){
-        const rawDate = blogs[id].date;
-        const blogDate = rawDate.slice(0, 10);
-        return blogDate;
-    }
+
+//       function dateSlice(id){
+//         const rawDate = blogs[id].date;
+//         const blogDate = rawDate.slice(0, 10);
+//         return blogDate;
+//     }
  
-console.log(blogs)
-console.log(blogFiltered)
+// console.log(blogs)
+// console.log(blogFiltered)
+
 
   return (
     <>

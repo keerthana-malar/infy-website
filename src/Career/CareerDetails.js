@@ -33,7 +33,7 @@ const CareerDetails = () => {
         status: dataa.status,
         qualification:dataa.degree,
         experience:dataa.exp,
-        jd:dataa.jdcontent,
+        jd:dataa.content,
         intro:dataa.intro
       });
       console.log('car',dataa)
@@ -86,7 +86,6 @@ const CareerDetails = () => {
                     <li>To be a good team player and self motivated</li>
                     <li>To increase sales in routine base</li> */}
                   </ul>
-                  <button className="btns btns-main">Read More</button>
                 </div>
               </div>
             </div>

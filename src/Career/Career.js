@@ -66,6 +66,115 @@
 //                     <p class="job-sub">Experience</p>
 //                     <p>{data.exp}</p>
   
+
+                    <p class="job-sub">Required Skills</p>
+                    {data.intro}
+                    {/* <ul>
+                      <li>{data.intro}</li> */}
+                      {/* <li>
+                        To generate the leads by applying effective strategies
+                      </li>
+                      <li>
+                        To maintain effective relationship with the customers
+                      </li>
+                      <li>To be a good team player and self motivated</li>
+                      <li>To increase sales in routine base</li> */}
+                    {/* </ul> */} <br/>
+                    <Link to={"/career/"+data.id}><button className="btns btns-main">Read More</button></Link>
+                  </div>
+                </div>
+                </div>
+              ))
+            }
+            {/* <div className="col-md-4">
+              <div class="card">
+                <h3 class="card-header">Marketing</h3>
+
+                <div class="card-body">
+                  <p class="job-sub">Qualification</p>
+                  <p>Any degree</p>
+
+                  <p class="job-sub">Experience</p>
+                  <p>1 Year / Fresher</p>
+
+                  <p class="job-sub">Required Skills</p>
+                  <ul>
+                    <li>
+                      To generate the leads by applying effective strategies
+                    </li>
+                    <li>
+                      To maintain effective relationship with the customers
+                    </li>
+                    <li>To be a good team player and self motivated</li>
+                    <li>To increase sales in routine base</li>
+                  </ul>
+                  <button className="btns btns-main">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div class="card">
+                <h3 class="card-header">Marketing</h3>
+
+                <div class="card-body">
+                  <p class="job-sub">Qualification</p>
+                  <p>Any degree</p>
+
+                  <p class="job-sub">Experience</p>
+                  <p>1 Year / Fresher</p>
+
+                  <p class="job-sub">Required Skills</p>
+                  <ul>
+                    <li>
+                      To generate the leads by applying effective strategies
+                    </li>
+                    <li>
+                      To maintain effective relationship with the customers
+                    </li>
+                    <li>To be a good team player and self motivated</li>
+                    <li>To increase sales in routine base</li>
+                  </ul>
+                  <button className="btns btns-main">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div class="card">
+                <h3 class="card-header">Marketing</h3>
+
+                <div class="card-body">
+                  <p class="job-sub">Qualification</p>
+                  <p>Any degree</p>
+
+                  <p class="job-sub">Experience</p>
+                  <p>1 Year / Fresher</p>
+
+                  <p class="job-sub">Required Skills</p>
+                  <ul>
+                    <li>
+                      To generate the leads by applying effective strategies
+                    </li>
+                    <li>
+                      To maintain effective relationship with the customers
+                    </li>
+                    <li>To be a good team player and self motivated</li>
+                    <li>To increase sales in routine base</li>
+                  </ul>
+                  <button className="btns btns-main">Read More</button>
+                </div>
+              </div>
+            </div> */}
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  );
+};
+
+export default Career;
+
 //                     <p class="job-sub">Required Skills</p>
 //                     <ul>
 //                       {/* <li>{data.content}</li> */}
@@ -219,3 +328,4 @@
 // };
 
 // export default Career;
+

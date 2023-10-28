@@ -34,7 +34,7 @@ const CareerForm = () => {
          You have a opportunities for career advancement and growth within Infygain.
           This might include details on mentorship programs, 
           training, or pathways for career progression.</p>
-             </div>
+    </div>
 
         <div className='form-img'>
            <img src='/images/careerForm.webp' className='image-fluid'/>
@@ -53,7 +53,6 @@ const CareerForm = () => {
             <div className='job-form'>
                 <form className=''>
                     <div className='form-input'>
-
                         {/* <label>Name <span className='label-star'>*</span></label> */}
                         <input type='text'  placeholder='Name' required/>
                     </div>
@@ -79,31 +78,6 @@ const CareerForm = () => {
                     <div className='form-input'>
                         {/* <label>Experience <span className='label-star'>*</span></label> */}
                         <select>
-
-                        <label>Name <span className='label-star'>*</span></label>
-                        <input type='text' name='name' required/>
-                    </div>
-                <div className='form-input' > 
-                        <label>Email <span className='label-star'>*</span></label>
-                        <input type='text' name='email' required/>
-                </div>
-                    <div className='form-input'>
-                        <label>Phone No <span className='label-star'>*</span></label>
-                        <input type='text' name='phno' required/>
-                    </div>
-                    <div className='form-input'>
-                    <label>Position <span className='label-star'>*</span></label>
-                        <select name='position'>
-                            <option>Please Choose an Position</option>
-                            <option>Web Developer</option>
-                            <option>Web Developer</option>
-                            <option>Web Developer</option>
-                        </select>
-                    </div>
-                    <div className='form-input'>
-                        <label>Experience <span className='label-star'>*</span></label>
-                        <select name='exp'>
-
                             <option>Please Choose an Experience</option>
                             <option>1</option>
                             <option>2</option>
@@ -114,15 +88,11 @@ const CareerForm = () => {
                 <div className='form-input'>
                         {/* <label>A brief about the candidate <span className='label-star'>*</span></label> */}
                         {/* <label>Comments <span className='label-star'>*</span></label> */}
-
                         <textarea type='text' placeholder='Comment here' required/> 
-
-                        <textarea type='text' name='selfintro' required/> 
-
                 </div>
                 <div className='form-input'>
                     <label>Upload Resume <span className='label-star'>*</span></label>
-                        <input type='file' name="img" required/>
+                        <input type='file' required/>
                 </div>
                 <div className='job-btn'>
                         <button>Submit</button>
@@ -139,4 +109,4 @@ const CareerForm = () => {
   )
 }
 
-export default CareerForm
+export default CareerForm;

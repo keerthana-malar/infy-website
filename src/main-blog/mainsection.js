@@ -36,7 +36,8 @@ function Mainsection() {
                 </div>
               </div>
               <div className="readmorelink t-c pb-3">
-                <p className=" readmoretext"><Link to={"/blogs/"+index.id}><button className="btn btn-primary">READ MORE</button></Link></p>
+                <p className=" readmoretext"><Link to={"/blogs/"+index.id}>
+                  <button className="btn btn-primary">READ MORE</button></Link></p>
               </div>
             </div>
           </div>

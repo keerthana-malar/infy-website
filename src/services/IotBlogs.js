@@ -8,6 +8,7 @@ import "slick-carousel/slick/slick-theme.css";
 import '../css/IotBlogs.css'
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const IotBlogs = () => {
 
@@ -125,7 +126,7 @@ console.log(blogfilter);
 
                     <div className='blog-overlay-text'>
                       <p className='bl-overlay-para1'> {value.title}</p>
-                      <p className='bl-overlay-para2'>Read More &gt;&gt;</p>
+                      <p className='bl-overlay-para2'> <Link to={"/blogs/"+value.id} style={{color:"#ffc107"}}>Read More &gt;&gt;</Link></p>
                   </div>
                   </div>
            

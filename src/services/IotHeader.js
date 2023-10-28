@@ -148,17 +148,17 @@ import {
                   </div>
                 </li>
                 <li>
-                  <Link className="iot-mlink" to="/blogs">
+                  <Link className="iot-mlink" to="/mainblogs">
                     Blogs
                   </Link>
                 </li>
                 <li>
-                  <Link className="iot-mlink" to="/blogs">
+                  <Link className="iot-mlink" to="/career">
                     Career
                   </Link>
                 </li>
                 <li>
-                  <Link className="iot-mlink" to="/blogs">
+                  <Link className="iot-mlink" to="/Partner">
                     Partner
                   </Link>
                 </li>

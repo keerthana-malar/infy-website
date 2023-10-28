@@ -236,7 +236,7 @@ const EditBlog = () => {
                 <div className="col">
                   <textarea
                     className="form-control"
-                    name="metades"
+                    name="intro"
                     placeholder="Intro"
                     value={values.intro}
                     onChange={handleInput}

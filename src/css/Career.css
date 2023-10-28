@@ -1,4 +1,4 @@
-
+/* 
 
 .img-bg{
     position: absolute;
@@ -11,19 +11,14 @@
     background-image:none;
 }
 
-.job-head{
-    /* margin: 500px 0px; */
-}
+
 .job-head span {
     font-size: 35px;
     color: var(--pri);
     margin: 25px 0px;
     text-align: center;
 }
-.c-serv-home-sec {
-    /* margin: 500px 0px; */
-    /* margin-bottom: 20px; */
-}
+
 
 .c-home-cont-overlay button:hover .c-job-arrow{
     transform: translateX(5px);
@@ -59,10 +54,9 @@
     position: absolute;
     bottom: 10px;
     border-radius: 10px;
-    /* display: flex;
-    flex-direction: column; */
+    
     padding: 10px;
-    /* display: none; */
+  
     z-index: 2;
   }
   .c-home-slide .hom-sld-img {
@@ -197,7 +191,7 @@
     color: #5e6fb5}
   .home-about-ttles{
     font-size: 40px;
-    /* text-align: center; */
+
   }
   @media (width <= 1200px) {
     .btn-servicehome {
@@ -261,7 +255,7 @@
   }
   @media screen and (max-width:980px){
     .c-serv-home-sec {
-      /* margin: 500px 0px; */
+
       margin-bottom: 20px;
   }
 
@@ -318,4 +312,45 @@
     background-position: center;
     padding: 100px 0;
 
-  }
+  } */
+  .smalliness {
+    width: 50px;
+    height: 5px;
+    background-color: var(--pri);
+    border: 3px var(--ispsec);
+    margin-top: 13px;
+}
+.carhead{
+  padding-top: 20px;
+  padding-left: 160px;
+  padding-top: 70px;
+
+}
+.car-heading{
+  font-size: 20px;
+}
+.carhead1{
+  padding-left: 145px;
+ 
+}
+.car-para{
+  font-size: 20px;
+}
+.car-para1{
+  font-size: 37px;
+  font-weight: 700;
+}
+
+.box {
+  width: 300px;
+  height: 200px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  text-align: center;
+  
+}
+.car-box{
+  padding: 20px;
+}

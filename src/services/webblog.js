@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { FaBloggerB } from "react-icons/fa";
 import { HiArrowLongRight } from "react-icons/hi2";
 import Slider from "react-slick";
+import {Link} from "react-router-dom";
 
 function Webblog() {
   const [blogs, setBlogs] = useState([]);
@@ -68,11 +69,18 @@ function Webblog() {
     });
   }, []);
 
-  const blogFiltered = blogs.filter(val => val.category === "Web Services")
+//   const blogFiltered = blogs.filter((val,index) => val.category === "Web Services")
 
-      // if(val.title === "Ecommerce website "){
-      //   console.log(11)
-      // }
+
+//       function dateSlice(id){
+//         const rawDate = blogs[id].date;
+//         const blogDate = rawDate.slice(0, 10);
+//         return blogDate;
+//     }
+ 
+// console.log(blogs)
+// console.log(blogFiltered)
+
 
   return (
     <>
@@ -96,7 +104,7 @@ function Webblog() {
 
           {/* <Slider {...settings}> */}
           {
-            blogFiltered.map((blog => (
+            blogFiltered.map((blog, index) => (
               <div className="blogin">
               <div className="blgimbx">
                 <img className="img-fluid" src={blog.img}></img>
@@ -111,10 +119,12 @@ function Webblog() {
                 <div className="bgparabx">
                 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
                 </div>
-                <div className="btn read-btn">Read More <HiArrowLongRight/></div>
+                <div className="btn read-btn">
+                  <Link to={"/blogs/" + blog.id}> Read More <HiArrowLongRight/></Link> 
+                  </div>
               </div>
               </div>
-            )))
+            ))
           }
           {/* <div className="blogin">
             <div className="blgimbx">
@@ -159,4 +169,13 @@ function Webblog() {
     </>
   );
 }
+
+function stripHTMLTags(html) {
+  const temp = document.createElement('div');
+  temp.innerHTML = html;
+  return temp.textContent || temp.innerText;
+}
+
+
+
 export default Webblog;

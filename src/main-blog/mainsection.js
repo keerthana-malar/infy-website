@@ -30,7 +30,7 @@ function Mainsection() {
               <div className="content-box p-3">
                 <div className="content-box-content">
               <p className="sub-title pri-color t-c">{index.title}</p>
-                  <p className=" text-muted detailscontent ">
+                  <p className=" text-muted detailscontent">
                     {stripHTMLTags(index.content)}
                   </p>
                 </div>

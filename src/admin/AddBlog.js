@@ -6,6 +6,10 @@ import axios from "axios";
 import "froala-editor/css/froala_style.min.css";
 import "froala-editor/css/froala_editor.pkgd.min.css";
 import FroalaEditor from "react-froala-wysiwyg";
+import ReactQuill from "react-quill";
+import 'react-quill/dist/quill.snow.css';
+import 'react-quill/dist/quill.bubble.css';
+
 
 const AddBlog = () => {
   const [categories, setCategories] = useState([]);
@@ -13,7 +17,18 @@ const AddBlog = () => {
   const [show, setShow] = useState(false);
   const [showMsg, setShowMsg] = useState(false);
 
-  // ! Get Category Data
+  const modules = {
+    toolbar: [
+      [{ 'header': '1'}, { 'header': '2' }, { 'header': '3' }, { 'header': '4' }, 'bold', 'italic', 'underline', 'strike', 'blockquote', 'code-block'],
+      [{ 'list': 'ordered'}, { 'list': 'bullet' }, ],
+      ['undo', 'redo'], 
+       [{ 'indent': '-1'}, { 'indent': '+1' }],
+      ['clean'],
+      [{ 'align': [] }],
+      ['horizontal-line'],
+    ],
+  };
+
   useEffect(() => {
     axios
       .get("https://infygain.in/api/catdata")
@@ -33,6 +48,7 @@ const AddBlog = () => {
     content: "",
     img: "",
     status: "Active",
+    intor:"",
   });
 
   const handleInput = (e) => {
@@ -65,6 +81,7 @@ const AddBlog = () => {
       formData.append("metakey", values.metakey);
       formData.append("content", values.content);
       formData.append("status", values.status);
+      formData.append("intro", values.intro);
 
       axios
         .post("https://infygain.in/api/addblog", formData)
@@ -180,11 +197,31 @@ const AddBlog = () => {
                   ></textarea>
                 </div>
               </div>
-
               {/* Row 4 */}
+              <div className="row mb-3 p-2">
+              <textarea
+                    className="form-control"
+                    name="metakey"
+                    placeholder="intro"
+                    onChange={handleInput}
+                  ></textarea>
+              </div>
+              
+              {/* Row 5 */}
               <div className="row mb-3">
                 <div className="col">
-                  <FroalaEditor
+                <ReactQuill
+                 theme="snow"
+                 value={values.content}
+                 onChange={(content) =>
+                handleInput({
+                  target: { name: "content", value: content },
+                })
+              }
+              placeholder={"Write something awesome..."}
+              modules={modules}
+              />
+                  {/* <FroalaEditor
                     tag="textarea"
                     name="content"
                     value={values.content}
@@ -193,7 +230,9 @@ const AddBlog = () => {
                         target: { name: "content", value: content },
                       })
                     }
-                  />
+                  /> */}
+
+                  
                 </div>
               </div>
               {/* Row 5 */}

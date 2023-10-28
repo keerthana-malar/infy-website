@@ -11,7 +11,6 @@ function PartnerBlog() {
     useEffect(() => {
         AOS.init();
         AOS.refresh();
-
     }, []);
     const partnerLogos = [
         "/images/partner/1.svg",
@@ -91,7 +90,7 @@ function PartnerBlog() {
                     </div>
                 </div>
                 {/* first one */}
-                <div className='row firstonebox'>
+                <div className='row firstonebox mt-5'>
                     <div className='col-md-8 box1withtext' data-aos="fade-right" 
      data-aos-duration="1000">
                         <p className='parabullet'>Effective business partners are those who bring complementary skills,
@@ -104,12 +103,12 @@ function PartnerBlog() {
                             resolution processes.</p>
                     </div>
                     <div className=' col-md-4 partnerphoto' data-aos="fade-left" 
-     data-aos-duration="1000">
+                      data-aos-duration="1000">
                         <img src="/images/partner2members.webp" />
                     </div>
                 </div>
                 {/* second one */}
-                <div className='row firstonebox '>
+                <div className='row firstonebox mt-5'>
                     <div className=' col-md-4 partnerphoto2' data-aos="fade-right" 
      data-aos-duration="1000">
                         <img src="/images/partner_groupcirlce.webp" />

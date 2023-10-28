@@ -66,8 +66,7 @@ function Mainsection() {
                 <i className="fa-solid fa-calendar-days"></i>{blogDate}
               </time>
               <br></br>
-              <p className="text-muted blog-content">
-                {stripHTMLTags(blogs.content)}
+              <p className="text-muted blog-content" dangerouslySetInnerHTML={{ __html: blogs.content}} >
               </p>
               <div className="reviewsection">
                 <i class="fa fa-solid fa-quote-left"></i>

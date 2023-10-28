@@ -63,14 +63,13 @@
    
 }
 .partnerphoto2 img{
-    
     border-radius: 25px;
     height: 35vh;
-   
 }
 .firsttow1{
     background-color: var(--sec);
     color: white;
+
 }
 /* .slidepoint{
     height: 200px;
@@ -187,7 +186,14 @@ width: 100%;
     
 }
 @media (width<=415px){
-    .redline{
+    .redline
+    {
         width: 120px;
+    }
+}
+
+@media (width<=1700px){
+    .partnerphoto2 img{
+        height:32vh;
     }
 }

@@ -5,15 +5,19 @@
 .mainblogsection{
     margin-top: 40px;
     padding-left: 60px;
+   
+
 }
 .image-section{
 background-color: #fff;
 border-radius: 20px ;
 box-shadow: 0 0 10px var(--bgs);
+height: 500px;
 margin-top: 2px;
 padding-left: 0px;
 padding-right: 0px;
 }
+
 .img img {
     max-height: 100%; 
     max-width: 100%;

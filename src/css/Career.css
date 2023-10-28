@@ -12,6 +12,7 @@
 }
 
 
+
 .job-head span {
     font-size: 35px;
     color: var(--pri);
@@ -314,18 +315,95 @@
 
   } */
   .smalliness {
-    width: 50px;
-    height: 5px;
+    width: 60px;
+    height: 2px;
     background-color: var(--pri);
     border: 3px var(--ispsec);
+    padding: 2px;
     margin-top: 13px;
+}
+.headerpart{
+  font-size: 30px;
+  padding: 8px;
+}
+.title_side{
+  height: 50px;
+  padding: 5px;
+  margin-top: 3px;
+}
+.imc{
+  display: grid;
+  margin-top: 20px;
+}
+.parl{
+   padding-left: 10px;
 }
 .carhead{
   padding-top: 20px;
-  padding-left: 160px;
+  padding-left: 10px;
   padding-top: 70px;
+  display: flex;
+}
+
+.title_head{
+  display: flex;
+  border-bottom: 2px solid var(--pri);
+}
+.qua{
+  height: 25px;
+  
+}
+.loc{
+  height: 25px;
+}
+.ope{
+  height: 30px;
 
 }
+.open{
+  padding: 2px;
+  margin-left: 25px;
+  display: flex;
+}
+.exp{
+  height: 20px;
+
+}
+.bop1{
+justify-content: center;
+margin-top: 2px;
+align-items: center;
+text-align: center;
+margin-left: 80px;
+
+}
+.bop{
+  border-radius: 8px;
+  background-color: black;
+  width: 150px;
+  height: 45px;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  column-gap: 6px;
+  transition: 1s;
+
+}
+
+.bop:hover{
+  box-shadow: inset -200px 0px 0px 0px var(--pri), inset 0px 0px  0px  0px;
+  /* box-shadow: 0 0 0 50max var(--pri); */
+  transition: 1s;
+}
+.bop img{
+  height: 25px;
+}
+
+.bth{
+  padding: 9px;
+  text-align: center;
+}
+
 .car-heading{
   font-size: 20px;
 }
@@ -341,16 +419,46 @@
   font-weight: 700;
 }
 
+
+.boxs {
+  width: 350px;
+  height: 390px;
+  margin-right: 10px;
+
 /* .box {
   width: 300px;
   height: 200px;
+
   background-color: #ffffff;
   border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 50px;
   text-align: center;
+
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
+}
+.car-boxs{
+
   
 } */
 .car-box{
+
   padding: 20px;
+}
+@media (width<=767px){
+
+}
+@media (width<=991px){
+  .boxs{
+    margin-top: 20px;
+  }
+}
+@media (width<=371px){
+  .boxs{
+    height: 420px;
+  }
+}
+@media (width<=347px){
+  .bop1{
+    margin-left: 60px;
+  }
 }

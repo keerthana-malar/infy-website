@@ -1,0 +1,90 @@
+.job-overall-head{
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3,1fr);
+    filter: drop-shadow(0 0 10px rgba(0,0,0,.15));
+}
+.job-open{
+    text-align: center;
+    color: var(--warning);
+    font-size: 34px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.Ec-jd{
+    display: flex;
+    flex-direction: column;
+}
+.job-head{
+    padding: 20px;
+    background-color: #fff;
+}
+.Ec-jd span{
+    color: #939393;
+    font-size: 18px;
+}
+.Ec-jd .jd{
+    margin: 10px 0px;
+    font-size: 20px;
+}
+.job-head button{
+    background-color:var(--warning);
+    color: #fff ;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.job-icon{
+    font-size: 20px;
+    padding-right: 1px;
+}
+.btn{
+    padding-left: 10px;
+    color: #fff !important;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.form-head{
+    display: flex;
+    flex-direction: column; 
+    ; 
+}
+.form-head input, .form-head select{
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.form-head h3{
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    
+  
+    /* border-bottom: 1px solid #ced4da; */
+}
+
+.submit{
+    background-color:var(--pri);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+.close{
+    background-color: #939393;
+    margin-right: 10px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+}
+.btn-load{
+    opacity: .5;
+}

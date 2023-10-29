@@ -17,6 +17,71 @@ const CareerForm = () => {
           console.log(err);
         });
       },[]);
+
+      const [values, setValues] = useState({
+        name: "",
+        email: "",
+        phno: "",
+        position: "",
+        exp: "",
+        selfintro: "",
+        img: "",
+      });
+
+      const [file, setFile] = useState(null);
+
+      const handleInput = (e) => {
+        setValues((prev) => ({
+          ...prev,
+          [e.target.name]: e.target.value,
+        }));
+      };
+
+      const handleFileChange = (e) => {
+        const selectedFile = e.target.files[0];
+        setFile(selectedFile);
+      };
+
+      const handleSubmit = (e) => {
+        e.preventDefault();
+        // console.log(values)
+        // console.log(file)
+
+        if (values.name === "") {
+            // setErrors("Title Must Be Filled 🤔");
+            // setShow(true);
+            console.log(1)
+          } else {
+            console.log(0)
+            const formData = new FormData();
+            formData.append("file", file);
+            formData.append("name", values.name);
+            formData.append("email", values.email);
+            formData.append("phno", values.phno);
+            formData.append("position", values.position);
+            formData.append("exp", values.exp);
+            formData.append("selfintro", values.selfintro);
+
+
+            console.log("fd",formData)
+
+            axios.post("https://infygain.in/api/carformdata", formData)
+
+            .then((res) => {
+              console.log(res)
+              document.querySelector(".careerForm").reset();
+            //   setErrors("Blog Added Successfully 😊😊");
+            //   setShowMsg(true);
+            })
+            .catch((err) => {
+              console.log("helloooo" + err);
+            //   setErrors("Something Wrong Pls Try again Later 😥");
+            //   // setErrors(err);
+            //   setShow(true);
+            });
+          }
+        
+      };
   return (
     <div className='cop'>
   <div className='container'>
@@ -51,22 +116,22 @@ const CareerForm = () => {
                 {/* <span>Opportunities don’t happen, you create them.</span> */}
             </div>
             <div className='job-form'>
-                <form className=''>
+                <form className='careerForm' onSubmit={handleSubmit}>
                     <div className='form-input'>
                         {/* <label>Name <span className='label-star'>*</span></label> */}
-                        <input type='text'  placeholder='Name' required/>
+                        <input type='text' name='name' placeholder='Name' onChange={handleInput} required/>
                     </div>
                 <div className='form-input' > 
                         {/* <label>Email <span className='label-star'>*</span></label> */}
-                        <input type='text' placeholder='Email' required/>
+                        <input type='text' name='email' placeholder='Email'  onChange={handleInput} required/>
                 </div>
                     <div className='form-input'>
                         {/* <label>Phone No <span className='label-star'>*</span></label> */}
-                        <input type='text' placeholder='Phone No'required/>
+                        <input type='text' name='phno' placeholder='phno'  onChange={handleInput} required/>
                     </div>
                     <div className='form-input'>
                     {/* <label>Position <span className='label-star'>*</span></label> */}
-                    <select>
+                    <select name='position'  onChange={handleInput}>
            <option>--Please select the position--</option>
             {data.map((vale, index) => (
             <option key={index} value={vale.title}>
@@ -77,7 +142,7 @@ const CareerForm = () => {
                     </div>
                     <div className='form-input'>
                         {/* <label>Experience <span className='label-star'>*</span></label> */}
-                        <select>
+                        <select name='exp'  onChange={handleInput}>
                             <option>Please Choose an Experience</option>
                             <option>1</option>
                             <option>2</option>
@@ -92,10 +157,18 @@ const CareerForm = () => {
                 </div>
                 <div className='form-input'>
                     <label>Upload Resume <span className='label-star'>*</span></label>
-                        <input type='file' required/>
+                    <input
+                            type="file"
+                            name="img"
+                            className="form-group"
+                            onChange={(e) => {
+                            handleInput(e);
+                            handleFileChange(e);
+                    }}
+                  ></input>
                 </div>
                 <div className='job-btn'>
-                        <button>Submit</button>
+                        <button type='submit'>Submit</button>
                 </div>
                 </form>
             </div>

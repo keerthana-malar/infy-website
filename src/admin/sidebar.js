@@ -55,6 +55,7 @@ const Sidebars = () => {
           </SubMenu>
         
           <MenuItem icon={<BiSolidCategory />} component={<Link to="/Careers" />}> Career </MenuItem>
+          <MenuItem icon={<BiSolidCategory />} component={<Link to="/candidate" />}> Candidate </MenuItem>
         
         </Menu>
         <div className="bottomBox p-1">

@@ -68,7 +68,7 @@ function Webblog() {
     });
   }, []);
 
-//   const blogFiltered = blogs.filter((val,index) => val.category === "Web Services")
+  const blogFiltered = blogs.filter((val,index) => val.category === "Web Services")
 
 
 //       function dateSlice(id){

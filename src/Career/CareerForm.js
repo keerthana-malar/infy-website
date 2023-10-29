@@ -28,7 +28,7 @@ const CareerForm = () => {
         </div>
         <h1 className='hthing'> Opportunities Never happen, your Create them..!</h1>
         <div className='prk'>
-        <p className='text-muted' >Details about the company’s commitment to diversity, equity,
+        <p className='text-muted' >We are commitment to diversity, equity,
          and inclusion. This might include programs, initiatives,
          or employee resource groups focused on fostering a diverse and inclusive workplace.
          You have a opportunities for career advancement and growth within Infygain.

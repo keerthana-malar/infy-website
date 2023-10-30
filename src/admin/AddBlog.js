@@ -71,7 +71,7 @@ const AddBlog = () => {
       formData.append("content", values.content);
       formData.append("status", values.status);
       formData.append("intro", values.intro);
-
+      
       axios
         .post("https://infygain.in/api/addblog", formData)
         .then((res) => {

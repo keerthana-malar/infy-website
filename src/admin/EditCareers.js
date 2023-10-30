@@ -30,6 +30,7 @@ const EditCareers = () => {
     status: "Active",
     qualification:"",
     experience:"",
+    openings:"",
     jd:"",
     content:"",
     intro:""
@@ -45,7 +46,7 @@ const EditCareers = () => {
       .get("https://infygain.in/api/edit-career/"+ id)
       .then((res) => {
         const carData = res.data.result[0];
-        // console.log("cardata",carData)
+        console.log("cardata",carData)
         setValues({
           ...values,
           title: carData.title,
@@ -53,6 +54,7 @@ const EditCareers = () => {
           qualification: carData.degree,
           experience: carData.exp,
           jd: carData.content,
+          openings:carData.noofopening,  
           content:carData.jdcontent,
           intro: carData.intro,
         });
@@ -62,7 +64,7 @@ const EditCareers = () => {
       });
   }, [id]);
 
-  console.log("jdc",values.jd)
+  console.log("jdc",values)
   
 
   const handleInput = (e) => {
@@ -74,10 +76,17 @@ const EditCareers = () => {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (values.name === "") {
+    if (values.title === "") {
       setErrors("Career Name Must Be Filled");
       setShow(true);
-    } else {
+    }
+    else if(!parseInt(values.openings[0])){
+      console.log(1)
+      setErrors("No of openings must be in numbers");
+      setShow(true);
+    }
+    
+    else {
       axios
         .post("https://infygain.in/api/carupdate", values)
         .then((res) => {
@@ -109,7 +118,7 @@ const EditCareers = () => {
       );
     }
   }
-  // console.log("sam",values)
+  console.log("sam",!parseInt(values.openings[0]))
 
   useEffect(() => {
     console.log("jdval",values.jd[0])
@@ -173,21 +182,30 @@ const EditCareers = () => {
 
             <div className="row mb-3">
               <div className="col">
-                <textarea
-                    className="form-control"
-                    name="intro"
-                    placeholder="Intro"
-                    onChange={handleInput}
-                    value={values.intro}
-                  ></textarea>
+              <input
+                  className="form-control"
+                  name="openings"
+                  value={values.openings}
+                  placeholder="No.of.openings"
+                  onChange={handleInput}
+                />
                 </div>
+              <div className="col">
+              <input
+                  className="form-control"
+                  name="intro"
+                  value={values.intro}
+                  placeholder="Intro"
+                  onChange={handleInput}
+                ></input>
+              </div>
+              
               {/* <div className="col">
               <textarea
                   className="form-control"
                   name="jd"
                   placeholder="Job Description"
                   onChange={handleInput}
-                  value={values.jd}
                 ></textarea>
               </div> */}
             </div>

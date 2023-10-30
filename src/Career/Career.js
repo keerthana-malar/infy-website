@@ -19,17 +19,83 @@ const Career =()=>{
   const [resume, setResume] = useState('')
   const [data, setData] = useState([]);
   const [fd,setFd] = useState('')
-  const [carData, setCarData] = useState({
-    title: "",
-    status: "Active",
-    qualification:"",
-    experience:"",
-    jd:"",
-    intro:""
-  })
+  const [file, setFile] = useState(null);
+  const [values, setValues] = useState({
+    name: "",
+    email: "",
+    phno: "",
+    position: "",
+    exp: "",
+    openings:"",
+    selfintro: "",
+    img: "",
+  });
 
   const showModal = () => {
     setOpen(true);
+  };
+
+  const handleInput = (e) => {
+    setValues((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+  };
+
+  const handleFileChange = (e) => {
+    const selectedFile = e.target.files[0];
+    setFile(selectedFile);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // console.log(values)
+    // console.log(file)
+
+    if (values.name === "") {
+        // setErrors("Title Must Be Filled 🤔");
+        // setShow(true);
+        console.log(1)
+      } else {
+        console.log(0)
+        const formData = new FormData();
+        formData.append("file", file);
+        formData.append("name", values.name);
+        formData.append("email", values.email);
+        formData.append("phno", values.phno);
+        formData.append("position", values.position);
+        formData.append("exp", values.exp);
+        formData.append("selfintro", values.selfintro);
+
+
+        console.log("fd",formData)
+
+        axios.post("https://infygain.in/api/carformdata", formData)
+
+        .then((res) => {
+          console.log(res)
+          document.querySelector(".careerForm").reset();
+        //   setErrors("Blog Added Successfully 😊😊");
+        //   setShowMsg(true);
+        })
+        .catch((err) => {
+          console.log("helloooo" + err);
+        //   setErrors("Something Wrong Pls Try again Later 😥");
+        //   // setErrors(err);
+        //   setShow(true);
+        });
+      }
+      setOpen(false);
+      setValues({
+        name: "",
+        email: "",
+        phno: "",
+        position: "",
+        exp: "",
+        selfintro: "",
+        img: "",
+      });
+    
   };
 
   const handleOk = () => {
@@ -73,7 +139,7 @@ const Career =()=>{
     });
   },[]);
 
-  
+
   return (
 
  <div className="container careerpage">
@@ -108,7 +174,7 @@ const Career =()=>{
         <div className="open">
           <img src="/images/openings.png" className="ope"/>
        
-       <p className="parl"> {values.degree} </p>
+       <p className="parl"> {values.noofopening} </p>
         </div>
         <div className="open">
         <img src="/images/experience.png" className="exp"/> 
@@ -147,16 +213,13 @@ const Career =()=>{
          <div className='container form-head'>
           
             <h3>Enter Your Details</h3>
-            <form onSubmit={(e) => {
-                e.preventDefault()
-                handleOk()}}
-                >   
+            <form className='careerForm' onSubmit={handleSubmit}>   
                   
-                <input type='text' placeholder='Name' value={name} onChange={(e) => setName(e.target.value)} required />
-                <input type='email' placeholder='Email-Id' value={email} onChange={(e) => setEmail(e.target.value)} required />
-                <input type='text' placeholder='Phone No' value={phno} onChange={(e) => setPhno(e.target.value)} required />
+                <input type='text' name='name' placeholder='Name' value={values.name} onChange={handleInput} required/>
+                <input type='text' name='email' placeholder='Email' value={values.email} onChange={handleInput} required/>
+                <input type='text' name='phno' placeholder='phno' value={values.phno}  onChange={handleInput} required/>
 
-                <select value={position} onChange={(e) => setPosition(e.target.value)} required>
+                <select name='position' value={values.position} onChange={handleInput}>
            <option>--Please select the position--</option>
             {data.map((vale, index) => (
             <option key={index} value={vale.title}>
@@ -167,7 +230,7 @@ const Career =()=>{
                 
                 <div className='form-input'>
                    
-                        <select>
+                <select name='exp' value={values.exp} onChange={handleInput}>
                             <option>Please Choose an Experience</option>
                             <option>1</option>
                             <option>2</option>
@@ -177,10 +240,19 @@ const Career =()=>{
                 <div className='form-input'>
                         {/* <label>A brief about the candidate <span className='label-star'>*</span></label> */}
                         {/* <label>Comments <span className='label-star'>*</span></label> */}
-                        <textarea type='text' placeholder='Comment here' required/> 
+                        <textarea type='text'  value={values.selfintro} placeholder='Comment here' required/> 
                 </div>
                
-                <input type='file' value={resume} onChange={(e) => setResume(e.target.value)} required />
+                <input
+                            type="file"
+                            name="img"
+                            value={values.img}
+                            className="form-group"
+                            onChange={(e) => {
+                            handleInput(e);
+                            handleFileChange(e);
+                    }}
+                  ></input>
                 <button className={`submit ${loading ? "btn-load" : ""}`} type="submit">Submit</button>
             </form>
        

@@ -29,9 +29,10 @@ function webservice() {
             </div>
             <div className="st">Websites</div>
             <div className="scon text-muted">
-              We provide custom website design and development solutions that
-              are not only visually striking but also optimized for performance
-              and user experience and elevate your brand with us.
+            We sketch the essential requirement listed out by clients and satisfy them.
+We provide custom website design and development solutions that are not 
+only visually striking but also optimized for performance and user experience.
+.
             </div>
             <div className="smore smb1">
             <Link to="/contact">
@@ -47,9 +48,10 @@ function webservice() {
             </div>
             <div className="st">SEO</div>
             <div className="scon text-muted">
-              Our goal is to drive organic traffic, boost your online authority,
-              and help you reach a wider audience, ultimately leading to
-              increased brand recognition and higher conversion rates.
+            Our main motive is to eventually diminish the buffering in our websites.
+            SEO is an investment just like a tree that needs effort,
+             patience and time to grow before you can see the result, 
+             ultimately leading.
             </div>
             <div className="smore smb2">
             <Link to="/contact">
@@ -65,9 +67,8 @@ function webservice() {
             </div>
             <div className="st">Applications</div>
             <div className="scon text-muted">
-              Web application service is all about bringing your ideas to life
-              with cutting-edge technology. We develop custom web applications
-              that cater to your specific business needs and goals.
+            Web application service is all about bringing your ideas to life with cutting-edge technology.
+             We develop custom web applications that cater to your specific business needs and goals.
             </div>
             <div className="smore smb3">
             <Link to="/contact">
@@ -83,9 +84,10 @@ function webservice() {
             </div>
             <div className="st">Designing</div>
             <div className="scon text-muted">
-              We craft captivating visuals, from logos to marketing materials,
-              that align with your brand identity and engage your audience. We
-              offer a wide range of design solutions to elevate branding.
+            We provide a customized crafted design that will 
+            help your customers to fascinate. And that helps to
+             align with your brand identity and engage your audience.
+              We offer a wide range of design solutions.
             </div>
             <div className="smore smb4">
             <Link to="/contact">

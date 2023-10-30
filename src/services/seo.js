@@ -16,8 +16,9 @@ function Webservice() {
             <span>more powerful</span>
           </p>
           <p className="head-con">
-            "Infygain Technologies: Where Innovation Meets Excellence in
-            Website, App Development, SEO, and Graphic Design."
+            "We infygains offer comprehensive web design 
+            and development services that are predominantly 
+            tailored to meet the unique needs of our customers."
             
           </p>
           <div className="btns head-btn">GET YOUR FREE CONSULT</div>

@@ -36,6 +36,7 @@ import Careers from "./admin/Careers";
 import AddCareer from "./admin/AddCareer";
 import EditCareers from "./admin/EditCareers";
 import CareerDetails from "./Career/CareerDetails";
+import Candidate from "./admin/Candidate";
 
 function App() {
   return (
@@ -71,6 +72,7 @@ function App() {
         <Route path="/AddCareer" element={<AddCareer />} />
         <Route path="/edit-career/:id" element={<EditCareers />} />
         <Route path="/career/:id" element={<CareerDetails />} />
+        <Route path="/candidate" element={<Candidate />} />
       </Routes>
     </BrowserRouter>
   );

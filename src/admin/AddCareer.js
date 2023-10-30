@@ -27,7 +27,8 @@ const AddCareer = () => {
     qualification:"",
     experience:"",
     jd:"",
-    intro:""
+    intro:"",
+    openings:""
   });
 
   useEffect(() => {
@@ -47,10 +48,19 @@ const AddCareer = () => {
   
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (values.title === "" || values.degree === "" || values.content === "" || values.intro === "" || values.exp === "") {
-      setErrors("Category Name Must Be Filled");
+    if (values.title === "" || values.degree === "" || values.content === "" || values.intro === "" || values.exp === "" || values.openings === "") {
+      setErrors("All fields Must Be Filled");
       setShow(true);
-    } else {
+    }
+    else if(values.intro[0].length > 100){
+      setErrors("Intro should be max 100 char's");
+      setShow(true);
+    }
+    else if(!parseInt(values.openings[0])){
+      setErrors("No of openings must be in numbers");
+      setShow(true);
+    }
+    else {
       console.log(1)
       axios
         .post("https://infygain.in/api/addcar", values)
@@ -68,6 +78,7 @@ const AddCareer = () => {
           console.log(err);
         });
     }
+  
   };
   
 
@@ -89,7 +100,7 @@ const AddCareer = () => {
       );
     }
   }
-
+  // console.log(!parseInt(values.openings[0]))
   return (
     <>
     <div className="adminMainBox">
@@ -146,12 +157,20 @@ const AddCareer = () => {
 
             <div className="row mb-3">
               <div className="col">
-              <textarea
+              <input
+                  className="form-control"
+                  name="openings"
+                  placeholder="No.of.openings"
+                  onChange={handleInput}
+                />
+                </div>
+              <div className="col">
+              <input
                   className="form-control"
                   name="intro"
                   placeholder="Intro"
                   onChange={handleInput}
-                ></textarea>
+                ></input>
               </div>
               
               {/* <div className="col">

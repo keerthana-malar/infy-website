@@ -81,8 +81,8 @@ function IotService() {
                     <div className="col-md-8 text">
                       <h4> Complete Network Solutions</h4>
                       <p className="right_para">
-                      Protect your digital assets with  
-                       network security services.
+                      Network Solutions provides 
+                      web services such as web hosting.
                       </p>
                     </div>
                     {/* hidden row */}
@@ -105,8 +105,9 @@ function IotService() {
                     <div className="col-md-8 text">
                       <h4> Laptop / Desktop <br></br>Sales, Service</h4>
                       <p className="right_para">
-                      Explore our curated  laptops and desktops,
-                       latest models.
+                      Network Solutions provides 
+                      web services such as web hosting, 
+                      website design and online marketing
                       </p>  
                     </div>
                     {/* hidden row */}
@@ -132,8 +133,9 @@ function IotService() {
                     <div className="col-md-8 text">
                       <h4> Security Services</h4>
                       <p className="right_para">
-                      A more advanced security system that not only detects
-                       but also actively.
+                      Enhance security with our advanced 
+                      CCTV and biometric systems for
+                       comprehensive protection.
                       </p>
                     </div>
                     {/* hidden row */}
@@ -156,7 +158,8 @@ function IotService() {
                     <div className="col-md-8 text">
                       <h4>AV Solutions</h4>
                       <p className="right_para">
-                      Audio and video services encompass a wide range of solutions.
+                      Audio and video solutions used for
+                       improved communication and collaboration. 
                       </p>
                     </div>
                     {/* hidden row */}

@@ -24,14 +24,13 @@ const HomeAbout = () => {
             <div className="aboutCont">
               <p className="mini-title main-color">ABOUT US</p>
               <p className=" home-about-ttle">
-                We are here to IT Solution with 10 years of experience
+              We are ISO certified and GEM authorized company
               </p>
               <p className="text-muted  home-baner-con">
-                We are a prominent IT service provider, based in Coimbatore,
-                with a wide range of products and services, to meet the
-                exclusive needs of our customers. We offer end-to-end solutions
-                to enable a reliable and uninterrupted workflow for our
-                customers.
+              We predominantly provide IT services in our company 
+              in and around Coimbatore, Our main purpose is to amplify
+               our services to the best with a wide range of product and services. 
+              We help our clients to address their needs and challenges effectively.
               </p>
               <div className="abtBoxes">
                 <div className="row">

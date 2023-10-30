@@ -1,0 +1,313 @@
+:root{
+    --success: #28a745;
+    --info: #17a2b8;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #000000;
+  }
+
+.fullimageview{
+    margin-top: 5%;
+    /* background-image:  url("/public/images/backgroundimage.jpg"); */
+    background-attachment: fixed;
+    background-size: cover;
+    height: 90vh;
+
+  
+}
+.parentviewing{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.right_col_value{
+    background-color: rgba(0,0,0,.6); 
+    height: 90vh; 
+}
+
+.zero{
+    margin-left: 50px;
+    margin-top: 20%;
+}
+
+.first{
+    color: var(--pri);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.second{
+    color: var(--light);
+}
+.second h1{
+    font-size: 55px;
+    font-weight: 800;
+}
+.third{
+    color: var(--light);
+    font-size: 18px;
+    margin-top: 22px;
+    font-weight: 500;
+    padding-right: 120px;
+}
+.puffy{
+    margin-top: 10%;
+}
+
+.puffy1{
+    height: 55px;
+    width: 25%;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: var(--warning);
+    font-weight: 750;
+    transition: all 0.5s;
+    border: none;
+}
+
+.puffy1:hover{
+    color: var(--light);
+    background-color: var(--dark);
+    transition: all 0.5s;
+}
+.downgirl{
+    background-image: url('/public/images/banner/gr-bg.webp');
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50vh;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.parajick{
+    padding-top: 10%;
+    text-align: center;
+    
+}
+.paranick{
+    color: var(--light);
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+/* common */
+.codeview{
+    height: 80px;
+    background-color: var(--sec);
+    cursor: pointer;
+    width: 10px; 
+    margin: 0;
+
+}
+.code{
+    height: 80px;
+    width: 5px;
+    background-color: var(--light);
+    margin-left: 3px;
+    cursor: pointer;
+   
+}
+.code1{
+    height: 80px;
+    width: 5px;
+    background-color: var(--light);
+    margin-left: 3px;
+    cursor: pointer;
+    
+}
+.code2{
+    height: 80px;
+    width: 5px;
+    background-color: var(--light);
+    margin-left: 3px;
+    cursor: pointer;
+}
+.gridcontroller{
+   
+}
+.coding{
+    margin-top: 7%;
+    position: relative;
+    width: 40px;
+}
+        .ourpara1{
+            color: var(--light);
+            font-size: 22px;
+            line-height: 30px;
+            font-weight: 500;
+            margin-top: 26px;
+        }
+
+        .ourpara2{
+            color: var(--light);
+        }
+
+        .parapart{
+            margin-left: 30px;
+            margin-top: 9%;
+          
+        }
+
+        @media (width<=1199px){
+            .second h1{
+                font-size: 45px;
+            }
+          
+            .puffy1{
+                width: 30%;
+            }
+            .parajick{
+                margin: 0;
+            }
+          
+            .paranick{
+                font-size: 23px;
+            }
+        }
+        
+   @media (width<=1394px){
+    .parajick{
+        margin-top: 3%;
+    }
+    .coding{
+        margin-top: 10%;
+    }
+    .parapart{
+     padding: 0;
+     margin-top: 10%;
+    }
+   } 
+        @media (width<=991px){
+            .second h1{
+                font-size: 45px;
+            }
+            .puffy1{
+                width: 50%;
+            }
+             
+            .paranick{
+                font-size: 20px;
+                padding: 0;
+            }
+            .coding{
+                
+                margin-top: 10%;
+            }
+            .parapart{
+                margin-top: 8%;
+            }
+            .third{
+                padding: 0;
+            }
+            .parajick{
+                margin-top: 8%;
+            }
+         
+            .ourpara1{
+                font-size: 20px;
+            }
+          
+        
+        }
+        @media (width<=767px){
+            .second h1{
+                font-size: 45px;
+            }
+            .puffy1{
+                width: 30%;
+            }
+            .parajick{
+               margin-top: 0;
+              
+                
+            }
+            .paranick{
+                font-size: 25px;
+            }
+            .coding{
+                display: none;
+            }
+            .parapart{
+                margin:0;
+                
+              
+            }
+            .ourpara1{
+                padding: 10px;
+            }
+       
+           
+        }
+
+        @media (width<=575px){
+       .coding{
+         display: none;
+         }
+         .gridcontroller{
+           flex-direction: column;
+          
+         }
+         .parajick{
+         
+          padding: 0;
+          margin-top: 5%;
+         }
+    
+         .paranick{
+            font-size: 30px;
+         
+         }
+         .parapart{
+            margin:0;
+         }
+         .downgirl{
+            height: 80vh;
+         }
+         .parapart{
+          padding: 12px;
+         }
+
+        }
+        @media (width<=519px){
+            .parajick{
+                margin-top:15px;
+                padding: 0;
+                
+            }
+
+        }
+
+        @media (width<=456px){
+            .parajick{
+            
+            }
+        }
+
+        @media (width<=400px){
+            .downgirl{
+                height: 80vh;
+            }
+            .parapart{
+                padding-right: 10px;
+            }
+            .parajick{
+                margin-left: 20%;
+            }
+        }
+
+        @media (width<=1400px){
+            .downgirl{
+                height:70vh;
+            }
+        }
+        @media (width<=399px){
+            .parajick{
+             margin: 0;
+             margin-top: 10px;
+            
+              
+            }
+            .paranick{
+                
+                margin: 0;
+            }
+        }

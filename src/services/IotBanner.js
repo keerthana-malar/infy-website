@@ -57,21 +57,20 @@ const IotBanner = () => {
                 data-aos-duration="1000"
                 style={{ color: "#ffffff" }}
               >
-                Welcome to
+                We are lucky 
               </p>
               <p
                 data-aos="fade-up"
                 data-aos-duration="1200"
                 style={{ color: "#ffc000", fontWeight: 900 }}
               >
-                Infygain
+             to help 
               </p>
               <p
                 data-aos="fade-up"
                 data-aos-duration="1400"
                 style={{ color: "#ffffff", fontWeight: 900 }}
-              >
-                IT Supports
+              >you out!!!
               </p>
             </div>
 

@@ -11,9 +11,13 @@ function Banner() {
                         <div className='row'>
                             <div className='col-md-7' data-aos="fade-up" data-aos-duration="1000">
                                 <div className=' contentsection'>
-                                    <p className="maintitle" >Your World, Our Network.</p>
+                                    <p className="maintitle" >“Your network our future”.</p>
                                     <div className='smalline'></div>
-                                    <p className='bannercontent' data-aos="fade-up" data-aos-duration="2000">Discover lightning-fast Internet, crystal-clear Voice, and immersive IPTV entertainment with Infygain technologies, your trusted ISP. Explore our broadband solutions, unbeatable connectivity, and competitive pricing today.</p>
+                                    <p className='bannercontent' data-aos="fade-up" data-aos-duration="2000">
+                                    Internet service provider (ISP) we provide access to the internet to both 
+                                    personal and business customers.
+                                     ISPs make it possible for their customers to surf the web, shop online, 
+                                     conduct business, and connect with family and friends.</p>
 
                                 </div>
                                 <div className='lists' data-aos="fade-up" data-aos-duration="2000">

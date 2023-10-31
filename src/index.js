@@ -66,7 +66,7 @@ function App() {
         <Route path="/delivery" element={<Delivery />} />
         <Route path="/refund" element={<Refund />} />
         <Route path="/quality" element={<Quality />} />
-        <Route path="/ServicePage" element={<ServicePage />} />
+        <Route path="/ServicePage/:id" element={<ServicePage />} />
         <Route path="/Career" element={<CareerPage />} />
         <Route path="/Careers" element={<Careers />} />
         <Route path="/AddCareer" element={<AddCareer />} />

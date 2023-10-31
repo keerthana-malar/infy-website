@@ -22,7 +22,7 @@ function IotFooter() {
                 <p className="iot-infy">
                   <img
                     className="img-fluid"
-                    src="./images/others/logo-alt.svg"
+                    src="/images/others/logo-alt.svg"
                     alt="infygain logo"
                   ></img>
                 </p>

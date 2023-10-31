@@ -27,7 +27,7 @@
 }
 .serv-sliders img{
  max-width: 98%;
- height: 500px;
+ height: 400px;
 }
 .servicepage-head{
     display: flex;
@@ -98,7 +98,12 @@
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
-
+@media screen and (min-width:1400px){
+    .serv-sliders img{
+        max-width: 98%;
+        height: 450px;
+       }
+}
 @media screen and (min-width:1750px){
     .serv-details4{
         width: 90%;
@@ -106,6 +111,10 @@
     .serv-details{
         margin: 20px 50px;
     }
+    .serv-sliders img{
+        max-width: 98%;
+        height: 600px;
+       }
 }
 @media screen and (max-width:750px){
     .service-slider{

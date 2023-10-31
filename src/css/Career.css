@@ -232,10 +232,10 @@ margin-top: -140px;
   margin: 0 auto;
 }
 
-.slick-slide img {
+/* .slick-slide img {
   width: 100%;
   height: auto;
-}
+} */
 
 .overlay {
   position: absolute;
@@ -290,7 +290,7 @@ margin-top: -140px;
   border-bottom: 3px solid orange;
   border-radius: 5px;
 }
-.form-group {
+input[type="file"] {
   margin-bottom: 20px;
 }
 .job-sub {

@@ -65,7 +65,7 @@
 .partnerphoto2 img{
     
     border-radius: 25px;
-    height: 35vh;
+    height: 33vh;
    
 }
 .firsttow1{
@@ -107,8 +107,10 @@
 @media (width<=1500px){
     .partnerphoto img{
         margin-top: 10px;
+        height: 45vh;
     }
     .partnerphoto2 img{
+        height: 45vh;
         width: 100%;
     }
 }

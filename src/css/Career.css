@@ -334,7 +334,7 @@ display: grid;
 margin-top: 20px;
 }
 .parl{
- padding-left: 10px;
+ padding-left: 20px;
 }
 .carhead{
 padding-top: 20px;
@@ -355,16 +355,16 @@ height: 25px;
 height: 25px;
 }
 .ope{
-height: 30px;
+height: 25px;
 
 }
 .open{
 padding: 2px;
-margin-left: 25px;
+margin-left: 20px;
 display: flex;
 }
 .exp{
-height: 20px;
+height: 25px;
 
 }
 .bop1{

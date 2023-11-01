@@ -127,7 +127,7 @@ const CareerForm = () => {
                 </div>
                     <div className='form-input'>
                         {/* <label>Phone No <span className='label-star'>*</span></label> */}
-                        <input type='text' name='phno' placeholder='phno'  onChange={handleInput} required/>
+                        <input type='text' name='phno' placeholder='phone No'  onChange={handleInput} required/>
                     </div>
                     <div className='form-input'>
                     {/* <label>Position <span className='label-star'>*</span></label> */}

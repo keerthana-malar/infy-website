@@ -217,7 +217,7 @@ const Career =()=>{
                   
                 <input type='text' name='name' placeholder='Name' value={values.name} onChange={handleInput} required/>
                 <input type='text' name='email' placeholder='Email' value={values.email} onChange={handleInput} required/>
-                <input type='text' name='phno' placeholder='phno' value={values.phno}  onChange={handleInput} required/>
+                <input type='text' name='phno' placeholder='phone No' value={values.phno}  onChange={handleInput} required/>
 
                 <select name='position' value={values.position} onChange={handleInput}>
            <option>--Please select the position--</option>

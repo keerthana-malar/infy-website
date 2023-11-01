@@ -5,14 +5,13 @@ import { BiBadge } from 'react-icons/bi';
 
 
 function AboutBackground(){
-  
-      
 
     const [para1,setPara1]=useState(true);
     const [para2,setPara2]=useState(false);
     const [para3,setPara3]=useState(false);
 
-    const Clickonme=()=>{
+    const Clickonme=()=>
+    {
         setPara1(true);
         setPara2(false);
         setPara3(false);
@@ -30,6 +29,7 @@ function AboutBackground(){
         setPara2(false);
         setPara3(true);
     }
+    
     return(
         <div>
             {/* <div className='fullimageview'>
@@ -65,8 +65,8 @@ function AboutBackground(){
                 <div className='col-md-12'>
                 <div className='inview'>
                     <div className='row gridcontroller'>
-                    <div className='col-md-3 parajick'>
-                    <p className='paranick'  onClick={Clickonme}>Our Value</p>
+                    <div className='col-md-5 parajick'>
+                    <p className='paranick'  onClick={Clickonme}>Our Vision</p>
                     <p className='paranick' onClick={Clickonme1}>Our Misssion</p>
                     <p className='paranick' onClick={Clickonme2}>Our Values</p>
                     </div>
@@ -91,19 +91,13 @@ function AboutBackground(){
                              everything we do. We prioritize 
                              understanding our clients' needs, offering tailored solutions, 
                              and providing exceptional service to guarantee a positive.
-
                            </p> : null}
-                      
                              </div>
                     </div>
                 </div>
                 </div>
-                <div className='col-md-4'>
-
-                </div>
                 </div>
             </div>
-
         </div>
     )
 }

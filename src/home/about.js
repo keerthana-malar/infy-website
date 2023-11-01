@@ -45,7 +45,7 @@ const HomeAbout = () => {
                       <div className="col-9">
                         <p className="mid-title home-tit">Experience</p>
                         <p className="text-muted">
-                          30+ experts, years of experience.
+                          10+ experts, years of experience.
                         </p>
                       </div>
                     </div>

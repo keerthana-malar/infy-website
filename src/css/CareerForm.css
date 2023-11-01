@@ -105,11 +105,11 @@
     /* width: 600px; */
     /* width: 800px; */
     border-radius: 10px;
-    border-bottom:10px solid var(--sec);
+    /* border-bottom:10px solid var(--sec); */
 }
 .job-form-head h2{
-    padding-top: 20px;
-    color:var(--sec);
+   padding: 10px;
+    color:white;
 }
 .job-form-head span{
     font-size: 25px;

@@ -8,7 +8,8 @@ import '../css/IotServSlider.css';
 import { FaLocationDot } from 'react-icons/fa6';
 import { BiSolidDownload  } from 'react-icons/bi';
 import { BsFillTelephoneFill } from 'react-icons/bs';
-import { AiFillMail } from 'react-icons/ai';;
+import { AiFillMail } from 'react-icons/ai';import { Link } from 'react-router-dom';
+;
 
 
 const IotServSlider = () => {
@@ -68,37 +69,37 @@ const IotServSlider = () => {
         <div className='service-slider'>
         <Slider className='serv-sliders'  {...settings}>
            <div className='servsl-head'>
-                <img src='/images/iot-network.webp' />
+                <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"><img src='/images/iot-network.webp' /></Link>
                 <div className=' servsl-overlay'>
                   <p>Complete Network Solutions</p>
                 </div>
            </div>
            <div className='servsl-head'>
-                <img src='/images/iot-laptop.webp'/>
+           <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"><img src='/images/iot-laptop.webp'/></Link>
                 <div className=' servsl-overlay'>
                   <p>Laptop / Desktop Sales & Services</p>
                 </div>
            </div>
            <div className='servsl-head'>
-                <img src='/images/iot-camera.png'/>
+           <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"> <img src='/images/iot-camera.png'/></Link>
                 <div className=' servsl-overlay'>
                   <p>CCTV / Bio - Metrics</p>
                 </div>
            </div>
            <div className='servsl-head'>
-                <img src='/images/iot-projectors.png'/>
+           <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"><img src='/images/iot-projectors.png'/></Link>
                 <div className=' servsl-overlay'>
                   <p>Projectors / Smart Class Smart Tv</p>
                 </div>
            </div>
            <div className='servsl-head'>
-              <img src='/images/PC.webp'/>
+           <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"><img src='/images/PC.webp'/></Link>
               <div className=' servsl-overlay'>
                   <p>Computer Accessories</p>
                 </div>
            </div>
            <div className='servsl-head'>
-                <img src='/images/lapcon.webp' />
+           <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"><img src='/images/lapcon.webp' /></Link>
                 <div className=' servsl-overlay'>
                   <p>Laptop / Desktop Rent</p>
                 </div>

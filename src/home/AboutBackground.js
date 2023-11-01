@@ -16,7 +16,7 @@ function AboutBackground(){
         setPara2(false);
         setPara3(false);
     }
-
+    
     const Clickonme1=()=>{
        
         setPara1(false);
@@ -29,7 +29,7 @@ function AboutBackground(){
         setPara2(false);
         setPara3(true);
     }
-    
+
     return(
         <div>
             {/* <div className='fullimageview'>

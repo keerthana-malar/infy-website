@@ -679,13 +679,13 @@ function BestService({load,setLoad}) {
             </div>
             </div>
 
-               {showLoader ?(
+               {/* {showLoader ?(
                 <div className="centeralised">
                   <Spinner animation="border" role="status">
                     <span className="sr-only">Loading...</span>
                   </Spinner>
                 </div>
-              ): null} 
+              ): null}  */}
         </div>
     )
 }

@@ -5,6 +5,27 @@
     --light: #f8f9fa;
     --dark: #000000;
 }
+a{
+    text-decoration: none;
+}
+.btn-categ{
+    font-size: 20px;
+    padding: 20px 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(242, 242, 242);
+    border: none;
+    margin-bottom: 20px;
+}
+.categ-active{
+    background-color: black;
+    color: white;
+}
+.btn-categ:hover{
+    background-color: black;
+    color: white;
+}  
 .firstlineflex{
     display: flex;
     padding: 30px 0 0 30px;
@@ -452,7 +473,11 @@
     opacity: 1;
 }
 .centeralised{
-    position: absolute;
-    top:90%;
-    left: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    color: var(--warning);
 }

@@ -21,7 +21,10 @@ function Mainsection() {
               <div key={index.id} className="col-md-6  mainblogsection">
             <div className=" image-section">
               <div className="img">
-                <img className="img-fluid" src={"uploads/" + index.img}></img>
+                <img className="img-fluid" 
+                // src="/images/registeration.jpg"
+                src={"uploads/" + index.img}
+                ></img>
               </div>
               <div className="buttonss">
                 {/* <button className="btns firstbutton">Desktop</button> */}

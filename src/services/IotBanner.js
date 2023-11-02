@@ -247,7 +247,7 @@ const IotBanner = () => {
             </div>
           </div>
 
-          <div className="overlay">
+          <div className="overlay1">
             <div className="texts">
               <h4>
                 {" "}
@@ -285,7 +285,7 @@ const IotBanner = () => {
             </div>
           </div>
 
-          <div className="overlay">
+          <div className="overlay1">
             <div className="texts">
               <h4>
                 {" "}
@@ -322,7 +322,7 @@ const IotBanner = () => {
             </div>
           </div>
 
-          <div className="overlay ">
+          <div className="overlay1 ">
             <div className="texts">
               <h4>
                 {" "}
@@ -360,7 +360,7 @@ const IotBanner = () => {
             </div>
           </div>
 
-          <div className="overlay">
+          <div className="overlay1">
             <div className="texts">
               <h4>
                 Laptop / Desktop <br /> Sales & Services

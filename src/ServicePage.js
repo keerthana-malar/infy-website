@@ -11,6 +11,7 @@ import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import IotHeader from './services/IotHeader';
 
+
 function ServicePage(){
     const [load, setLoad] = useState(false)
     const {id} = useParams()
@@ -26,10 +27,10 @@ function ServicePage(){
                 <IotHeader />
                  <ServiceBanner/>
                  <BestService load={load} setLoad={setLoad}/>
-                 <IotServSlider/>
+                 {/* <IotServSlider/> */}
                  <IotServBtns/>
                  <Enquiry/>
-                <IotFooter/>
+                  <IotFooter/>
                 </> :
                 !valuePaths.includes(id)  && !load ?
                 <>

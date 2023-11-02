@@ -96,7 +96,7 @@ function IotOurService() {
                    <h2 className='edgehead'>Laptop / Desktop Sales and Service </h2>
                    <div className='buttongroup'>
                    <Link to="/ServicePage/2" target='_blank'>
-                    <button className='butt btn1'>+</button></Link>Li
+                    <button className='butt btn1'>+</button></Link>
 
                    </div>
                    </div>

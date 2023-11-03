@@ -10,13 +10,14 @@ import IotLoadPage from './services/IotLoadPage';
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import IotHeader from './services/IotHeader';
+import IotServ from './servicepage/IotServ';
 
 
 function ServicePage(){
     const [load, setLoad] = useState(false)
     const {id} = useParams()
 
-    const valuePaths = ['1','2','3','4','5','6','7','8']
+    const valuePaths = ['networking','laptop&desktop','cctv','Projectors','Accessories','Laptop&DesktopRent']
 
     console.log(id)
     return(
@@ -28,6 +29,7 @@ function ServicePage(){
                  <ServiceBanner/>
                  <BestService load={load} setLoad={setLoad}/>
                  {/* <IotServSlider/> */}
+                 {/* <IotServ /> */}
                  <IotServBtns/>
                  <Enquiry/>
                   <IotFooter/>

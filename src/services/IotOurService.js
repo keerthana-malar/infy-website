@@ -68,7 +68,7 @@ function IotOurService() {
                    <div className='divline'></div>
                    <h2 className='edgehead'> Computer Network Solutions </h2>
                    <div className='buttongroup'>
-                   <Link to="/ServicePage/1" target='_blank'>
+                   <Link to="/ServicePage/networking" target='_blank'>
                    <button className='butt btn1'>+</button>
                     </Link>
                    
@@ -95,7 +95,7 @@ function IotOurService() {
                         <div className='divline'></div>
                    <h2 className='edgehead'>Laptop / Desktop Sales and Service </h2>
                    <div className='buttongroup'>
-                   <Link to="/ServicePage/2" target='_blank'>
+                   <Link to="/ServicePage/laptop&desktop" target='_blank'>
                     <button className='butt btn1'>+</button></Link>
 
                    </div>
@@ -123,7 +123,7 @@ function IotOurService() {
                         <div className='divline'></div>
                    <h2 className='edgehead'>   CCTV / Bio - Metrics </h2>
                    <div className='buttongroup'>
-                    <Link to="/ServicePage/3" target='_blank'>
+                    <Link to="/ServicePage/cctv" target='_blank'>
                         <button className='butt btn1'>+</button></Link>
                    </div>
                    </div>
@@ -153,7 +153,7 @@ function IotOurService() {
                            <div className='divline'></div>
                    <h2 className='edgehead'>  Projectors / Smart Class Smart Tv </h2>
                    <div className='buttongroup'>
-                   <Link to="/ServicePage/4" target='_blank'>
+                   <Link to="/ServicePage/Projectors" target='_blank'>
                     <button className='butt btn1'>+</button></Link>
                    </div>
                    </div>
@@ -177,7 +177,7 @@ function IotOurService() {
                        <div className='divline'></div>
                    <h2 className='edgehead'> Computer Accessories </h2>
                    <div className='buttongroup'>
-                   <Link to="/ServicePage/5" target='_blank'>
+                   <Link to="/ServicePage/Accessories" target='_blank'>
                     <button className='butt btn1'>+</button></Link>
                    </div>
                    </div>
@@ -203,7 +203,7 @@ function IotOurService() {
                        <div className='divline'></div>
                    <h2 className='edgehead'> Laptop / Desktop Rent </h2>
                    <div className='buttongroup'>
-                   <Link to="/ServicePage/6" target='_blank'>
+                   <Link to="/ServicePage/Laptop&DesktopRent" target='_blank'>
                     <button className='butt btn1'>+</button></Link>
                    </div>
                    </div>

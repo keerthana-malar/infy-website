@@ -5,6 +5,10 @@
     --light: #f8f9fa;
     --dark: #000000;
 }
+.butks a{
+    text-decoration: none;
+    color: #ffff;
+}
 a{
     text-decoration: none;
 }
@@ -69,6 +73,12 @@ text-align: center;
 
 .nmk1{
     display: flex;
+    align-self: center;
+}
+.nmk1 h2{
+    /* font-size: ; */
+    display: flex;
+    align-self: center;
 }
 /* .lmk1 img{
     height: 500px;
@@ -530,7 +540,7 @@ text-align: center;
 }
 .butks{
     background-color: var(--pri);
-    width: 120px;  
+    /* width: 120px;   */
     font-size: 20px;
     justify-content: space-evenly
 }
@@ -580,6 +590,7 @@ ul li{
     height: 400px;
    }
    .lmk1 img {
+    /* max-width: 350px; */
     height: 250px;
    }
 }
@@ -633,11 +644,11 @@ color: white;
     position: absolute;
     bottom: 20px;
     font-size: 20px;
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
     width: 80%;
-    padding: 10px;
+    /* padding: 10px; */
     margin-left: 35px;
     text-align: center;
     display: none;
@@ -648,28 +659,30 @@ color: white;
 }
 .servsl-head img{
    width: 100%;
-   height: 100%;
+   height: 450px;
+   border-radius: 10px;
 }
 .servsl-overlay:hover p{
-    color: #ffc000;
+    /* color: #ffc000; */
 }
 .servsl-head:hover .servsl-overlay{
     display: block;
 }
-.service-slider{
-    width: 50vw;
+.servicepage-head{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: 600px 1fr;
     gap: 10px;
+    margin-top: 50px;
+    overflow: hidden;
 }
 .serv-sliders img{
  width: 10px;
  height: 50px;
 }
 .servicepage-head{
-    display: flex;
+    /* display: flex; */
     font-family: 'Roboto', sans-serif;
-    margin-bottom: 100px;
+    /* margin: 50px 0px; */
 }
 .serv-details{
     margin: 0px 30px;
@@ -756,8 +769,7 @@ color: white;
         height: 400px;
        }
     .servicepage-head{
-        flex-direction: column;
-        justify-content: center;
+        grid-template-columns: repeat(1,1fr);
     }
     .serv-details{
         margin:0px;
@@ -794,4 +806,15 @@ color: white;
         width: 80%;
         height: 100%;
     }
+}
+@media screen and (min-width:340px) and (max-width:500px){
+    .servsl-head img{
+        max-width: 400px;
+    }
+    .lmk1 img {
+        max-width: 350px;
+    }
+    .lmk img{
+        max-width: 350px;
+       }
 }

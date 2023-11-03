@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import "../css/BestService.css";
+import '../css/IotServSlider.css';
 import { BsCheckLg } from "react-icons/bs";
 import { IoIosArrowForward } from "react-icons/io";
 import 'bootstrap/dist/css/bootstrap.min.css'; 
@@ -37,7 +38,7 @@ function BestService({load,setLoad}) {
     const [sm, setSm] = useState(false) 
 
     useEffect(() => {
-        if(id==='1'){
+        if(id==='networking'){
             setCns(true)
             setLds(false)
             setCb(false)
@@ -47,7 +48,7 @@ function BestService({load,setLoad}) {
             setIp(false)
             setSm(false)
         }
-        if(id==='2'){
+        if(id==='laptop&desktop'){
             setCns(false)
             setLds(true)
             setCb(false)
@@ -57,7 +58,7 @@ function BestService({load,setLoad}) {
             setIp(false)
             setSm(false)
         }
-        if(id==='3'){
+        if(id==='cctv'){
             setCns(false)
             setLds(false)
             setCb(true)
@@ -67,7 +68,7 @@ function BestService({load,setLoad}) {
             setIp(false)
             setSm(false)
         }
-        if(id==='4'){
+        if(id==='Projectors'){
             setCns(false)
             setLds(false)
             setCb(false)
@@ -76,7 +77,7 @@ function BestService({load,setLoad}) {
             setLdr(false)
             setIp(false)
             setSm(false)
-        }if(id==='5'){
+        }if(id==='Accessories'){
             setCns(false)
             setLds(false)
             setCb(false)
@@ -86,7 +87,7 @@ function BestService({load,setLoad}) {
             setIp(false)
             setSm(false)
         }
-        if(id==='6'){
+        if(id==='Laptop&DesktopRent'){
             setCns(false)
             setLds(false)
             setCb(false)
@@ -685,7 +686,8 @@ function BestService({load,setLoad}) {
     
     <>
     {/* 1 */}
-    {cns ? (<div className='container mt-5 mb-5'>
+    {lds ? (
+    <div className='container mt-5 mb-5'>
         <div className='hkl'>
         <h1 className='bril mb-5'> Laptop and Desktop Sales and Services </h1>
         </div>
@@ -739,6 +741,7 @@ function BestService({load,setLoad}) {
           </div>
 
         </div>
+
         <div className='row'>
               <div className='col-md-7 col-lg-7 wifit1' data-aos="fade-right"  data-aos-duration="1000">
             <div className='nmk1'>
@@ -778,10 +781,59 @@ function BestService({load,setLoad}) {
               </div>
 
         </div>
+
+        <div className='container servicepage-head' >
+        <div className='service-slider'  data-aos="fade-right"  data-aos-duration="1000">
+      
+           <div className='servsl-head'>
+                {/* <img src='https://img.freepik.com/free-vector/computer-repair-support-service-isometric-illustration_1284-57663.jpg?w=740&t=st=1698987668~exp=1698988268~hmac=a05e8453345cbe4ab2154b3f4d4509d0ca8a775b35f00269a08a1b1a0ad7ef26' /> */}
+                <img src='/images/ld.avif' />
+                {/* <div className='servsl-overlay'>
+                
+                  <button className='btn butks'>
+                <a href="https://infygain.com/onlinestore/"><FaCartPlus/> buy now </a></button>
+
+                </div> */}
+           </div>
+           
+        </div> 
+
+        <div className='serv-details '  data-aos="fade-left"  data-aos-duration="1000">
+        <div className='nmk1'>
+                <div className='libra'>
+                </div>
+               <h2>Discover Our Services</h2>
+               </div>
+           <ul className='text-muted'>
+            <li><p>Explore a wide range of laptops for various needs and budgets, including business and gaming laptops.</p></li>
+            <li><p>We prioritize your privacy, employing strict protocols to handle your data securely during repairs.</p></li>
+            <li><p>Trust our certified technicians for quick and transparent laptop repairs, ensuring your device functions flawlessly.</p></li>
+            <li><p>Experience prompt service with our fast turnaround times, minimizing downtime and inconvenience.</p></li>
+            <li><p>Count on our knowledgeable and friendly staff for excellent customer support, guiding you through laptop purchases and repairs.</p></li>
+            <li><p>Count on our knowledgeable and friendly staff for excellent customer support, guiding you through laptop purchases and repairs.</p></li>
+
+{/*             
+            <li>Hardware problem diagnosis, repair and rectification</li>
+            <li>Fabrication of physically damaged units</li>
+            <li>Thermal pad replacement</li>
+            <li>Internal dust cleaning</li>
+            <li>Power supply repair</li>
+            <li>Monitor repair</li>
+           <li> Operating system repair</li>
+           <li> Formatting, installing and configuring drivers and softwares</li>
+            <li>Spare replacements</li>
+            <li>Upgradation of memory, hard disk drive and processor, system boards</li>
+            <li>Warranty extension care packs</li>
+           <li> Complete health check-up</li> */}
+           </ul>
+        </div>
+        </div>
+
+
         
     </div>) :null}
     {/* 2 */}
-    {lds? (<div className='container mt-5 mb-5'>
+    {cns? (<div className='container mt-5 mb-5'>
         <div className='hkl'>
         <h1 className='bril mb-5'> Complete Network Solutions </h1>
         </div>
@@ -874,6 +926,53 @@ function BestService({load,setLoad}) {
                </div>
 
         </div>
+
+        <div className='container servicepage-head' >
+        <div className='service-slider'  data-aos="fade-right"  data-aos-duration="1000">
+      
+           <div className='servsl-head'>
+                {/* <img src='https://img.freepik.com/free-vector/computer-repair-support-service-isometric-illustration_1284-57663.jpg?w=740&t=st=1698987668~exp=1698988268~hmac=a05e8453345cbe4ab2154b3f4d4509d0ca8a775b35f00269a08a1b1a0ad7ef26' /> */}
+                <img src='/images/cns.jpg' />
+                {/* <div className='servsl-overlay'>
+                
+                  <button className='btn butks'>
+                <a href="https://infygain.com/onlinestore/"><FaCartPlus/> buy now </a></button>
+
+                </div> */}
+           </div>
+           
+        </div> 
+
+        <div className='serv-details '  data-aos="fade-left"  data-aos-duration="1000">
+        <div className='nmk1'>
+                <div className='libra'>
+                </div>
+               <h2>Discover Our Services</h2>
+               </div>
+           <ul className='text-muted'>
+            <li><p> Customized and efficient networking solutions designed to match your business needs.</p></li>
+            <li><p>Hassle-free installation and seamless setup of networking equipment for reliable operations.</p></li>
+            <li><p>Robust security measures, including firewalls and encryption, ensuring data confidentiality and protection against cyber threats.</p></li>
+            <li><p>Experience prompt service with our fast turnaround times, minimizing downtime and inconvenience.</p></li>
+            <li><p>Future-ready networks that scale with your business, accommodating new devices and increasing traffic demands effortlessly.</p></li>
+            <li><p>Comprehensive integration of cloud services, enhancing collaboration, data storage, and accessibility for maximum productivity.</p></li>
+
+{/*             
+            <li>Hardware problem diagnosis, repair and rectification</li>
+            <li>Fabrication of physically damaged units</li>
+            <li>Thermal pad replacement</li>
+            <li>Internal dust cleaning</li>
+            <li>Power supply repair</li>
+            <li>Monitor repair</li>
+           <li> Operating system repair</li>
+           <li> Formatting, installing and configuring drivers and softwares</li>
+            <li>Spare replacements</li>
+            <li>Upgradation of memory, hard disk drive and processor, system boards</li>
+            <li>Warranty extension care packs</li>
+           <li> Complete health check-up</li> */}
+           </ul>
+        </div>
+        </div>
         
     </div>) :null}
     {/* 3 */}
@@ -963,6 +1062,53 @@ function BestService({load,setLoad}) {
                </div>
                </div>
 
+        </div>
+
+        <div className='container servicepage-head' >
+        <div className='service-slider'  data-aos="fade-right"  data-aos-duration="1000">
+      
+           <div className='servsl-head'>
+                {/* <img src='https://img.freepik.com/free-vector/computer-repair-support-service-isometric-illustration_1284-57663.jpg?w=740&t=st=1698987668~exp=1698988268~hmac=a05e8453345cbe4ab2154b3f4d4509d0ca8a775b35f00269a08a1b1a0ad7ef26' /> */}
+                <img src='/images/cb.jpg' />
+                {/* <div className='servsl-overlay'>
+                
+                  <button className='btn butks'>
+                <a href="https://infygain.com/onlinestore/"><FaCartPlus/> buy now </a></button>
+
+                </div> */}
+           </div>
+           
+        </div> 
+
+        <div className='serv-details '  data-aos="fade-left"  data-aos-duration="1000">
+        <div className='nmk1'>
+                <div className='libra'>
+                </div>
+               <h2>Discover Our Services</h2>
+               </div>
+           <ul className='text-muted'>
+            <li><p> Cutting-edge CCTV systems ensuring real-time monitoring and secure premises, enhancing safety and deterring potential threats.</p></li>
+            <li><p> State-of-the-art biometric technology for secure access, allowing seamless and efficient control over entry points, safeguarding sensitive areas..</p></li>
+            <li><p> Tailored CCTV and biometric solutions designed to fit your specific requirements, providing personalized security solutions for your business.</p></li>
+            <li><p> Access your CCTV feeds remotely via mobile devices, ensuring 24/7 monitoring and peace of mind, even when you're not on-site.</p></li>
+            <li><p>High-accuracy biometric systems for precise identification, minimizing unauthorized access and enhancing overall security protocols.</p></li>
+            <li><p>: Expert installation services for both CCTV and biometric systems, backed by reliable technical support, ensuring optimal performance and customer satisfaction.</p></li>
+
+{/*             
+            <li>Hardware problem diagnosis, repair and rectification</li>
+            <li>Fabrication of physically damaged units</li>
+            <li>Thermal pad replacement</li>
+            <li>Internal dust cleaning</li>
+            <li>Power supply repair</li>
+            <li>Monitor repair</li>
+           <li> Operating system repair</li>
+           <li> Formatting, installing and configuring drivers and softwares</li>
+            <li>Spare replacements</li>
+            <li>Upgradation of memory, hard disk drive and processor, system boards</li>
+            <li>Warranty extension care packs</li>
+           <li> Complete health check-up</li> */}
+           </ul>
+        </div>
         </div>
         
     </div>) :null}
@@ -1057,6 +1203,53 @@ function BestService({load,setLoad}) {
                </div>
                </div>
         </div>
+
+        <div className='container servicepage-head' >
+        <div className='service-slider'  data-aos="fade-right"  data-aos-duration="1000">
+      
+           <div className='servsl-head'>
+                {/* <img src='https://img.freepik.com/free-vector/computer-repair-support-service-isometric-illustration_1284-57663.jpg?w=740&t=st=1698987668~exp=1698988268~hmac=a05e8453345cbe4ab2154b3f4d4509d0ca8a775b35f00269a08a1b1a0ad7ef26' /> */}
+                <img src='/images/pro.jpg' />
+                {/* <div className='servsl-overlay'>
+                
+                  <button className='btn butks'>
+                <a href="https://infygain.com/onlinestore/"><FaCartPlus/> buy now </a></button>
+
+                </div> */}
+           </div>
+           
+        </div> 
+
+        <div className='serv-details '  data-aos="fade-left"  data-aos-duration="1000">
+        <div className='nmk1'>
+                <div className='libra'>
+                </div>
+               <h2>Discover Our Services</h2>
+               </div>
+           <ul className='text-muted'>
+            <li><p>Cutting-edge projectors and Smart TVs for immersive and interactive learning experiences in classrooms, promoting better understanding and engagement.</p></li>
+            <li><p>High-quality projectors and Smart TVs for clear and impactful business presentations, ensuring effective communication in professional environments.</p></li>
+            <li><p> Intuitive interfaces on Smart TVs, making it easy to access educational apps and multimedia content, enhancing teaching and learning efficiency.</p></li>
+            <li><p>Smart classroom solutions with interactive features, enabling collaborative learning and dynamic content delivery for students and educators.</p></li>
+            <li><p>Expert installation services for seamless setup of projectors and Smart TVs, ensuring optimal performance and reliability.</p></li>
+            <li><p>Reliable technical support and assistance for educators and presenters, ensuring smooth operation and addressing any issues promptly.</p></li>
+
+{/*             
+            <li>Hardware problem diagnosis, repair and rectification</li>
+            <li>Fabrication of physically damaged units</li>
+            <li>Thermal pad replacement</li>
+            <li>Internal dust cleaning</li>
+            <li>Power supply repair</li>
+            <li>Monitor repair</li>
+           <li> Operating system repair</li>
+           <li> Formatting, installing and configuring drivers and softwares</li>
+            <li>Spare replacements</li>
+            <li>Upgradation of memory, hard disk drive and processor, system boards</li>
+            <li>Warranty extension care packs</li>
+           <li> Complete health check-up</li> */}
+           </ul>
+        </div>
+        </div>
     </div>) :null}
     {/* 5 */}
     {ca? (<div className='container mt-5 mb-5'>
@@ -1132,6 +1325,53 @@ function BestService({load,setLoad}) {
                 </button>
                </div>
                </div>
+        </div>
+
+        <div className='container servicepage-head' >
+        <div className='service-slider'  data-aos="fade-right"  data-aos-duration="1000">
+      
+           <div className='servsl-head'>
+                {/* <img src='https://img.freepik.com/free-vector/computer-repair-support-service-isometric-illustration_1284-57663.jpg?w=740&t=st=1698987668~exp=1698988268~hmac=a05e8453345cbe4ab2154b3f4d4509d0ca8a775b35f00269a08a1b1a0ad7ef26' /> */}
+                <img src='/images/ca.jpg' />
+                {/* <div className='servsl-overlay'>
+                
+                  <button className='btn butks'>
+                <a href="https://infygain.com/onlinestore/"><FaCartPlus/> buy now </a></button>
+
+                </div> */}
+           </div>
+           
+        </div> 
+
+        <div className='serv-details '  data-aos="fade-left"  data-aos-duration="1000">
+        <div className='nmk1'>
+                <div className='libra'>
+                </div>
+               <h2>Discover Our Services</h2>
+               </div>
+           <ul className='text-muted'>
+            <li><p>Explore a diverse selection of computer accessories, including keyboards, mice, headphones, and more, catering to various needs and preferences.</p></li>
+            <li><p> Offering high-quality accessories from trusted brands, ensuring durability and optimal performance for your computer setup.</p></li>
+            <li><p> Ergonomic keyboards, precision mice, and other accessories designed for comfort, boosting productivity and reducing strain during extended computer use.</p></li>
+            <li><p>Specialized gaming keyboards, mice, and headphones for gamers, providing a competitive edge and immersive gaming experience.</p></li>
+            <li><p>Cable organizers, extensions, and management tools to keep your workspace tidy and free from clutter, enhancing efficiency and aesthetics.</p></li>
+            <li><p>Knowledgeable staff providing expert recommendations, helping you choose the right accessories tailored to your specific needs and requirements.</p></li>
+
+{/*             
+            <li>Hardware problem diagnosis, repair and rectification</li>
+            <li>Fabrication of physically damaged units</li>
+            <li>Thermal pad replacement</li>
+            <li>Internal dust cleaning</li>
+            <li>Power supply repair</li>
+            <li>Monitor repair</li>
+           <li> Operating system repair</li>
+           <li> Formatting, installing and configuring drivers and softwares</li>
+            <li>Spare replacements</li>
+            <li>Upgradation of memory, hard disk drive and processor, system boards</li>
+            <li>Warranty extension care packs</li>
+           <li> Complete health check-up</li> */}
+           </ul>
+        </div>
         </div>
         
     </div>) :null}
@@ -1243,6 +1483,53 @@ function BestService({load,setLoad}) {
                </div>
                </div>
         </div>  
+
+        <div className='container servicepage-head' >
+        <div className='service-slider'  data-aos="fade-right"  data-aos-duration="1000">
+      
+           <div className='servsl-head'>
+                {/* <img src='https://img.freepik.com/free-vector/computer-repair-support-service-isometric-illustration_1284-57663.jpg?w=740&t=st=1698987668~exp=1698988268~hmac=a05e8453345cbe4ab2154b3f4d4509d0ca8a775b35f00269a08a1b1a0ad7ef26' /> */}
+                <img src='/images/laptop.jpg' />
+                {/* <div className='servsl-overlay'>
+                
+                  <button className='btn butks'>
+                <a href="https://infygain.com/onlinestore/"><FaCartPlus/> buy now </a></button>
+
+                </div> */}
+           </div>
+           
+        </div> 
+
+        <div className='serv-details '  data-aos="fade-left"  data-aos-duration="1000">
+        <div className='nmk1'>
+                <div className='libra'>
+                </div>
+               <h2>Discover Our Services</h2>
+               </div>
+           <ul className='text-muted'>
+            <li><p> Choose from a range of laptops and desktops available for short-term and long-term rental, tailored to your specific requirements and duration.</p></li>
+            <li><p>Access up-to-date laptops and desktops featuring the latest hardware and software, ensuring optimal performance and compatibility with modern applications</p></li>
+            <li><p>Renting eliminates the need for significant upfront investments, offering a budget-friendly alternative for businesses, events, and temporary projects.</p></li>
+            <li><p> Customize your rental package with specific hardware configurations, software installations, and accessories, meeting your exact computing needs.</p></li>
+            <li><p>Benefit from dedicated technical support throughout the rental period, ensuring smooth operation and timely assistance in case of issues or queries.</p></li>
+            <li><p>Enjoy hassle-free service with punctual delivery and pickup of rented laptops and desktops, saving you time and effort.</p></li>
+
+{/*             
+            <li>Hardware problem diagnosis, repair and rectification</li>
+            <li>Fabrication of physically damaged units</li>
+            <li>Thermal pad replacement</li>
+            <li>Internal dust cleaning</li>
+            <li>Power supply repair</li>
+            <li>Monitor repair</li>
+           <li> Operating system repair</li>
+           <li> Formatting, installing and configuring drivers and softwares</li>
+            <li>Spare replacements</li>
+            <li>Upgradation of memory, hard disk drive and processor, system boards</li>
+            <li>Warranty extension care packs</li>
+           <li> Complete health check-up</li> */}
+           </ul>
+        </div>
+        </div>
     </div>) : null}
     </>
     )

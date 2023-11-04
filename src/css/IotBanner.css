@@ -9,7 +9,12 @@
   --dot : #aaa;
   --overlay: rgba(255, 255, 255, 1);
 }
-
+.overlay-arrow a{
+  color: #000;
+}
+.iot-text a{
+  color: var(--grey);
+}
 /* Banner */
 .banner {
   font-family: 'Roboto', sans-serif;
@@ -92,6 +97,9 @@
 color:white;
   border-radius: 3px ;
   transition: .2s ease-in;
+}
+.test-btns:hover  a{
+  color: #fff;
 }
 .test-sc p{
   display: none;

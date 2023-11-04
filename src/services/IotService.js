@@ -16,10 +16,11 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 import { LuLaptop2 } from "react-icons/lu";
 import { MdOutlineSecurity } from "react-icons/md";
 import { LuFileAudio2 } from "react-icons/lu";
+import { Link } from "react-router-dom";
 
 
 
-function IotService() {
+function IotService({scrollToComponent}) {
   useEffect(() => {
     AOS.init();
     AOS.refresh();
@@ -53,7 +54,7 @@ function IotService() {
               <button className="about-btns">
                     <span className="about-sc"> 
                     </span>
-                    <span className="iot-about-text">Services
+                    <span className="iot-about-text" onClick={() => scrollToComponent()}>Services
                     <BsArrowRight className='about-btns-icons1'/>
                     </span>
               </button>
@@ -88,7 +89,7 @@ function IotService() {
                     {/* hidden row */}
                     <div>
                       <div className="hidden">
-                        <p className="right_para1">Read more<span className="service-arrow"><BsArrowRight /> </span>  </p>
+                        <Link to='/ServicePage/networking' target="_blank"><p className="right_para1">Read more<span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
                         </div>
                     </div>
                     {/* hidden end */}
@@ -113,7 +114,7 @@ function IotService() {
                     {/* hidden row */}
                     <div>
                       <div className="hidden1">
-                      <p>Read more <span className="service-arrow"><BsArrowRight /> </span>  </p>
+                      <Link to='/ServicePage/laptop&desktop' target="_blank"><p>Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
                       
                       </div>
                     </div>
@@ -131,7 +132,7 @@ function IotService() {
                       </div>
                     </div>
                     <div className="col-md-8 text">
-                      <h4> Security Services</h4>
+                      <h4> Security Solutions</h4>
                       <p className="right_para">
                       Enhance security with our advanced 
                       CCTV and biometric systems for
@@ -141,7 +142,7 @@ function IotService() {
                     {/* hidden row */}
                     <div>
                       <div className="hidden2">
-                      <p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p>
+                      <Link to='/ServicePage/cctv' target="_blank"><p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
                       </div>
                     </div>
                     {/* hidden end */}
@@ -165,7 +166,7 @@ function IotService() {
                     {/* hidden row */}
                     <div>
                       <div className="hidden3">
-                      <p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p>
+                      <Link to='/ServicePage/Projectors' target="_blank"><p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
                 </div>
                     </div>
                     {/* hidden end */}

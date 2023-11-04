@@ -15,21 +15,27 @@ import IotFooter from './services/IotFooter';
 import IotHeader from './services/IotHeader';
 import Enquiry from "./common/enquiry";
 import { Link } from 'react-router-dom';
+import { useRef } from 'react';
 
 
 function Iotservices() {
+  const componentRef = useRef(null);
+
+  const scrollToComponent = () => {
+    componentRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <div className="App">
       {/* <Header/> */}
       <IotHeader />
       <IotBanner />
       <IotAbout />
-      <IotService />
+      <IotService scrollToComponent={scrollToComponent}/>
       <IotActivities />
       <Aboutclient/>
       {/* <Testimonialing/> */}
       <IotBlogs />
-      <IotOurService />
+      <IotOurService componentRef={componentRef}/>
       {/* <BookforServices/>
       <Existinguser/> */}
 

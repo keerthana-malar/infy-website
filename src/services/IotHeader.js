@@ -70,33 +70,38 @@ import {
                   <a
                     className="iot-head-link iot-sm"
                     href="https://www.facebook.com/infygain/"
+                    target="_blank"
                   >
                     <LiaFacebookF />
                   </a>
                   <a
                     className="iot-head-link iot-sm"
                     href="https://www.instagram.com/infygain/"
+                    target="_blank"
                   >
                     <LiaInstagram />
                   </a>
-                  <a className="iot-head-link iot-sm" href="https://twitter.com/infygain">
+                  <a className="iot-head-link iot-sm" href="https://twitter.com/infygain"  target="_blank">
                     <LiaTwitter />
                   </a>
                   <a
                     className="iot-head-link iot-sm"
                     href="https://www.linkedin.com/company/infygain-technologies/"
+                    target="_blank"
                   >
                     <LiaLinkedinIn />
                   </a>
                   <a
                     className="iot-head-link iot-sm"
                     href="https://api.whatsapp.com/send/?phone=919952141444&text&type=phone_number&app_absent=0"
+                    target="_blank"
                   >
                     <LiaWhatsapp />
                   </a>
                   <a
                     className="iot-head-link iot-sm"
                     href="https://www.youtube.com/@infygain6707"
+                    target="_blank"
                   >
                     <LiaYoutube />
                   </a>

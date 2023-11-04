@@ -27,7 +27,10 @@
   color: var(--dark);
   margin-left: 8px;
 }
-
+.hidden a,.hidden1 a,.hidden2 a,.hidden3 a{
+  text-decoration: none;
+  color: #fff;
+}
 .downline-right{
   height: 6px;
   width: 100px;

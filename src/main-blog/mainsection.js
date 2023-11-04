@@ -18,7 +18,7 @@ function Mainsection() {
           
             <div  className="row">
             {blogs.map((index)=>(
-              <div key={index.id} className="col-md-6  mainblogsection">
+              <div key={index.id} className="col-md-4 col-sm-4 mainblogsection">
             <div className=" image-section">
               <div className="img">
                 <img className="img-fluid" src={"uploads/" + index.img}></img>

@@ -12,6 +12,8 @@ import "../css/header.css";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import Fixedline from '../services/Fixedline';
+import { FaCcAmazonPay } from "react-icons/fa";
+
 
 function header() {
   function DropdownMenu() {
@@ -191,6 +193,10 @@ function header() {
               </a>
               <a className="head-links" target="_blank" href="https://infygain.com/onlinestore/">
                 <FaCartPlus/>
+              </a>
+             
+              <a className="head-links" target="_blank" href="https://grayquest.com/institute/united-master">
+                < FaCcAmazonPay/>
               </a>
             </div>
           

@@ -82,7 +82,7 @@ function IotService() {
                       <h4> Complete Network Solutions</h4>
                       <p className="right_para">
                       Network Solutions provides 
-                      web services such as web hosting.
+                      web services such as web hosting, website design.
                       </p>
                     </div>
                     {/* hidden row */}
@@ -105,10 +105,10 @@ function IotService() {
                     <div className="col-md-8 text">
                       <h4> Laptop / Desktop <br></br>Sales, Service</h4>
                       <p className="right_para">
-                      Network Solutions provides 
-                      web services such as web hosting, 
-                      website design and online marketing
-                      </p>  
+                      Advises customers on technical matters and 
+                      recommends appropriate. 
+            
+                       </p>
                     </div>
                     {/* hidden row */}
                     <div>
@@ -135,7 +135,7 @@ function IotService() {
                       <p className="right_para">
                       Enhance security with our advanced 
                       CCTV and biometric systems for
-                       comprehensive protection.
+                       comprehensive.
                       </p>
                     </div>
                     {/* hidden row */}

@@ -8,6 +8,24 @@
 a{
     text-decoration: none;
 }
+
+.lolp
+{
+  overflow: hidden;
+}
+
+.servsl-head{
+   
+    position: relative;
+}
+.servsl-head img{
+    /* width: 50%; */
+    /* height: 450px; */
+
+ }
+ .servsl-head:hover .servsl-overlay{
+    display: block;
+}
 .btn-categ{
     font-size: 20px;
     padding: 20px 10px;
@@ -26,6 +44,47 @@ a{
     background-color: black;
     color: white;
 }
+ul {
+    list-style:square;
+}
+.pinar{
+   margin-top: 35px;
+   margin-bottom: 30px;
+}
+.div10{
+    height: 200px;
+    width: 300px;
+    /* background-color: red; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    background-color: var(--sec);
+    color: white;
+  
+}
+.idioy4{
+align-items: center;
+}
+.div11{
+    margin-top: 50px;
+    height: 200px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--pri);
+    color: white;
+ 
+    padding: 25px;
+}
+.mirrow{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+}
+.bul{
+    margin-top: 30px;
+}
+.bul li{
+    font-size: 20px;
+    line-height: 35px;
+}
 .btn-categ:hover{
     background-color: black;
     color: white;
@@ -43,12 +102,13 @@ a{
 }
 .wifit1 p{
   font-size: 20px;
-  padding-right: 20px;
+  /* padding-right: 20px; */
 }
 .wifit p{
    padding-left: 10%;
    margin-bottom: 50px;
 font-size: 20px;
+margin-top: 20px;
 }
 .nmk{
     display: flex;
@@ -73,10 +133,13 @@ text-align: center;
 /* .lmk1 img{
     height: 500px;
 } */
+.probl li{
+    font-size: 20px;
+}
 .libra{
     height: 10%;
     width:80px;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-right: 20px;
     /* color: var(--warning); */
     border: 3px solid var(--warning);
@@ -92,6 +155,9 @@ text-align: center;
     background-color: var(--warning);
     margin-top: 25px;
     
+}
+.coverage img{
+  height: 400px;
 }
 .iconroller{
     height: 30px;
@@ -193,6 +259,11 @@ text-align: center;
     .iconindex1{
         margin-left: 100px;
     }
+    .servsl-head img{
+        width: 110%;
+        margin-top: 30px;
+        
+    }
     .iconindex2{
         margin-right: 40px;
         padding: 0;
@@ -217,6 +288,16 @@ text-align: center;
         margin-left: 50px;
         margin-top: 13px;
     }
+    .covera img{
+        height: 450px;
+    }
+
+    .servsl-head img{
+        width: 120%;
+        margin-top: 50px;
+        height: 300px;
+    }
+    
     .iconindex2{
         margin-right: 30px;
         padding: 0;
@@ -246,6 +327,34 @@ text-align: center;
     .iconindex1{
         margin-left: 8px;
         margin-top: 18px;
+    }
+    .covera img{
+    width: 350px;
+        /* border: 3px solid red; */
+    }
+ .mirrow{
+    grid-template-columns: repeat(1,1fr);
+ }
+ .div11{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding: 30px !important;
+    height: 200px !important;
+ }
+ .div10{
+    margin-top: 12px;
+    height: 200px !important;
+    padding: 30px !important;
+ }
+
+    
+    .piol p{
+        font-size: 20px;
+      
+    }
+    .ul{
+        line-height: 30px;
+        background-color: red;
     }
     .iconindex2{
         margin-right: 18px;
@@ -289,15 +398,31 @@ text-align: center;
 @media (width<=767px){
     .rightbox{
         width: 100%;
-    }  
+    } 
+    .covera{
+        margin-top: 50px;
+        margin-bottom: 10px;
+
+    }
+     
+    .coved{
+        margin-top: 30px;
+    }
     .iconindex1{
         margin-left: 200px;
+    }
+    .nmk{
+        margin-top: 30px;
     }
     .iconindex2{
         margin-left: 80px;
         padding: 0;
         margin-top: 18px;
     }
+    .idioy4{
+        margin-left: 10pxs;
+    }
+   
     .iconindex3{
         margin-left: 215px;
     }
@@ -319,6 +444,14 @@ text-align: center;
     }
     .rightbox{
         width: 90%;
+    }
+    .wifit p{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    .wifit1 p{
+        margin-top: 10px;
+        margin-bottom: 15px; 
     }
   
 }
@@ -497,6 +630,9 @@ text-align: center;
         margin-top: 18px;
     } 
 }
+.probl{
+    margin-top: 20px;
+}
 
 
     .fullparaview {
@@ -560,6 +696,14 @@ ul li{
    .nmk{
     padding-left:120px ;
    }
+   .div10{
+    width: 95%;
+    padding: 10px;
+   }
+   .div11{
+    width: 95%;
+    padding: 10px;
+   }
 }
 @media (width<=1199px){
     .wifit {
@@ -574,6 +718,16 @@ ul li{
     .lmk1 img{
         height: 280px;
     }
+    .div10{
+        height: 250px;
+        margin-bottom: 30px;
+        padding: 12px;
+   
+    }
+    .div11{
+        height: 250px;
+       
+    }
 }
 @media (width<=991px){
    .lmk img{
@@ -581,6 +735,13 @@ ul li{
    }
    .lmk1 img {
     height: 250px;
+   }
+   .servsl-head img{
+    width: 100%;
+    height: 400px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 30px;
    }
 }
 .butk a{
@@ -591,6 +752,11 @@ color: white;
         padding: 0;
         margin: 0;
     }
+    .coverage img{
+        margin-top: 20px !important;
+        margin-bottom: 10px;
+    }
+    
     .wifit p{
         padding-left: 0;
     }
@@ -601,21 +767,65 @@ color: white;
         text-align: center;
     }
     .lmk img{
-        margin-top: 0;
+        margin-top: 0 ;
     
+    }
+    .lmk2 img{
+        margin-top: 0 !important;
+        margin-bottom: 30px;
+    }
+}
+
+@media (width<=620px){
+    .servsl-head img{
+        width: 80%;
+        border: 3px solid red;
     }
 }
 
 @media (width<=575px){
     .wifit p{
-        padding: 30px;
+       padding-left: 30px;
+       padding-right: 30px;
         margin: 0;
+        font-size: 16px;
+        margin-top: 10px;
+  
+    }
+    .klop{
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+   
+    }
+    .klop h1{
+        font-size: 30px;
+    }
+    .klop li {
+        font-size: 16px
+    }
+   .mirrow{
+     margin-left: 30px;
+    padding-right: 30px;
+   }
+
+    .lmk2 img{
+        height: 350px;
+    }
+    .libra{
+        width: 50px;
+        margin-right: 5px;
+    }
+    .wifit1 p{
+        font-size: 16px;
     }
     .nmk{
         padding-left: 30px;
     }
     .lmk img{
         height: 300px;
+    }
+    .probl li{
+        font-size: 16px;
     }
     .bril{
         font-size: 35px;
@@ -642,35 +852,30 @@ color: white;
     text-align: center;
     display: none;
 }
-.servsl-head{
-   
-    position: relative;
+
+.servicepage-head{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
 }
-.servsl-head img{
-   width: 100%;
-   height: 100%;
-}
+
+
 .servsl-overlay:hover p{
     color: #ffc000;
 }
-.servsl-head:hover .servsl-overlay{
-    display: block;
-}
+
 .service-slider{
-    width: 50vw;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px;
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
+    /* gap: 10px; */
 }
 .serv-sliders img{
  width: 10px;
  height: 50px;
 }
-.servicepage-head{
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 100px;
-}
+
 .serv-details{
     margin: 0px 30px;
 }
@@ -752,13 +957,14 @@ color: white;
         width: 90vw;
     }
     .serv-sliders img{
-        max-width: 98%;
+        max-width: 50%;
         height: 400px;
        }
-    .servicepage-head{
-        flex-direction: column;
-        justify-content: center;
-    }
+       .servsl-head img{
+        max-width: 80%;
+        height: 400px;
+       }
+    
     .serv-details{
         margin:0px;
         margin-top: 30px;
@@ -786,12 +992,65 @@ color: white;
     .service-slider{
         width: 90vw;
     }
-    .servicepage-head{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .serv-sliders img{
+    
+    /* .serv-sliders img{
         width: 80%;
         height: 100%;
+    } */
+}
+@media screen and (max-width:750px){
+    .service-slider{
+        width: 90vw;
+    }
+    /* .serv-sliders img{
+        max-width: 98%;
+        height: 400px;
+       } */ss
+    .servicepage-head{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .serv-details{
+        margin:0px;
+        margin-top: 30px;
+    }
+    .serv-details4 button{
+        padding-left: 15px;
+    }
+    .serv-btn-icon{
+        margin-right: 15px;
+    }
+    .serv-details2 span{
+        font-size: 16px;
+    }
+   .serv-btn-icon{
+       padding-bottom: 10px;
     }
 }
+
+@media screen and (min-width:750px) and (max-width:1000px){
+    .service-slider{
+        /* width: 90vw; */
+    }
+    .servicepage-head{
+        /* flex-direction: column;
+        justify-content: center; */
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* .serv-sliders img{
+        width: 80%;
+        height: 100%;
+    } */
+    /* .servsl-head img
+    {
+        width: 70%;
+    } */
+}
+
+@media screen and (min-width:340px) and (max-width:500px)
+{
+    .servsl-head img
+    {
+        max-width: 400px;
+    }
+}
+

@@ -37,7 +37,7 @@ function BestService({load,setLoad}) {
     const [sm, setSm] = useState(false) 
 
     useEffect(() => {
-        if(id==='1'){
+        if(id==='networking'){
             setCns(true)
             setLds(false)
             setCb(false)
@@ -47,7 +47,7 @@ function BestService({load,setLoad}) {
             setIp(false)
             setSm(false)
         }
-        if(id==='2'){
+        if(id==='laptop&desktop'){
             setCns(false)
             setLds(true)
             setCb(false)
@@ -57,7 +57,7 @@ function BestService({load,setLoad}) {
             setIp(false)
             setSm(false)
         }
-        if(id==='3'){
+        if(id==='cctv'){
             setCns(false)
             setLds(false)
             setCb(true)
@@ -67,7 +67,7 @@ function BestService({load,setLoad}) {
             setIp(false)
             setSm(false)
         }
-        if(id==='4'){
+        if(id==='Projectors'){
             setCns(false)
             setLds(false)
             setCb(false)
@@ -76,7 +76,7 @@ function BestService({load,setLoad}) {
             setLdr(false)
             setIp(false)
             setSm(false)
-        }if(id==='5'){
+        }if(id==='Accessories'){
             setCns(false)
             setLds(false)
             setCb(false)
@@ -86,7 +86,7 @@ function BestService({load,setLoad}) {
             setIp(false)
             setSm(false)
         }
-        if(id==='6'){
+        if(id==='Laptop&DesktopRent'){
             setCns(false)
             setLds(false)
             setCb(false)
@@ -682,10 +682,9 @@ function BestService({load,setLoad}) {
     //             </div>
     //           ): null}  */}
     //     </div>
-    
     <>
     {/* 1 */}
-    {cns ? (<div className='container mt-5 mb-5'>
+    {lds ? (<div className='container lolp mt-5 mb-5'>
         <div className='hkl'>
         <h1 className='bril mb-5'> Laptop and Desktop Sales and Services </h1>
         </div>
@@ -704,9 +703,11 @@ function BestService({load,setLoad}) {
             <div className='nmk'>
                 <div className='libra'>
                 </div>
-               <h1>Laptops</h1>
+               
+               <h3>Laptops</h3>
+            
                </div>
-                <p className='text-muted mt-2'>
+                <p className='text-muted '>
                 Our expert technicians
                  specialize in professional 
                  laptop repair service in 
@@ -739,13 +740,97 @@ function BestService({load,setLoad}) {
           </div>
 
         </div>
+        <div className='pinar'>
+        
+          <div className='row idiot'>
+            <div className='col-md-6 klop' data-aos="fade-right"  data-aos-duration="1000">
+                 <h1> We are Specialized in repair of all varieties of Laptops and Desktops </h1>
+                 <div className='bul'>
+                 <ul className='text-muted'>
+                  <li>Broken, Cracked Screen Replacement </li>
+                  <li>Troubleshoot Internet Related Issues</li>
+                  <li> Notebook Computer Hinge Repair</li>
+                  <li>Laptop Screen Repair / Replacement</li>
+                  <li>Memory Upgrade And Replacement</li>
+                  <li>Laptop Keyboard Repair / Replacement</li>
+                  <li>Hardware problem diagnosis, repair and rectification</li>
+                  <li>Fabrication of physically damaged units</li>
+                  <li>Complete health check-up</li>
+                  <li>Spare replacements</li>
+                  <li>Monitor repair</li>
+                  <li>Power supply repair</li>
+                  <li>Spare replacements</li>
+                  <li>Fabrication of physically damaged units</li>
+                  <li>Warranty extension care packs</li>
+                 </ul>
+                 </div>
+            </div>
+            <div className='col-md-6 idioy4'>
+             <div className='mirrow'>
+              <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+                <h2>Door Step Repair</h2>
+                <p>The impact of home computer repairs 
+                  can be felt quickly by the whole family if your computer runs slowly,
+                   freezes up or even refuses to start.</p>
+              </div>
+              <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+              <h2>System Service </h2>
+              <p>Most desktops these days, 
+                either from a reputed brand manufacturer 
+                or assembled, can easily be serviced by a good technician. </p>
+              </div>
+              <div>
+
+              </div>
+
+             </div>
+             <div className='mirrow'>
+              <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+              <h2>Auto Backup</h2>
+              <p>With the aid of our deft team of experts, 
+                we are engaged in providing Auto Data Backup Service to our patrons.</p>
+              </div>
+              <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+              <h2>Desktop Support</h2>
+              <p> On-demand technical support serving custimers globally which relieves your clients from the discomfort.</p>
+              </div>
+              <div>
+
+              </div>
+
+             </div>
+             <div className='mirrow'>
+              <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+              <h2>Desktop Repair</h2>
+              <p>We are spcialist in providing on site Desktop 
+                Repair service and Network support for all sized business, 
+                on site computer and network services.</p>
+              </div>
+              <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+              <h2>Laptop Service</h2>
+              <p>We are laptop service specialist having more experience 
+                and technicians
+                 in repair, upgrade, maintenance and replacement of all laptops.</p>
+              </div>
+              <div>
+
+              </div>
+
+             </div>
+            </div>
+            
+
+          </div>
+
+        </div>
         <div className='row'>
               <div className='col-md-7 col-lg-7 wifit1' data-aos="fade-right"  data-aos-duration="1000">
             <div className='nmk1'>
                 <div className='libra'>
                 </div>
-               <h1>Desktops</h1>
+               <h3>Desktops</h3>
                </div>
+               <div className='piol'>
                 <p className='text-muted mt-2'>
                 Don't let technical issues hinder you. 
                 Our experienced technicians specialize 
@@ -763,6 +848,7 @@ function BestService({load,setLoad}) {
                 Details about 24/7 customer assistance for 
                 any desktop-related queries.
                     </p>
+                    </div>
            
 
           </div>
@@ -779,9 +865,45 @@ function BestService({load,setLoad}) {
 
         </div>
         
+
+        <div className='row'>
+            <div className='col-md-6 col-lg-6 popp' data-aos="fade-right" data-aos-duration="1000">
+             <div className='lmk1 coverage'>
+               <img src="/images/cns.jpg" className='image-fluid'/>
+             </div>
+             
+               
+            </div>
+            <div className='col-md-6 col-lg-6 probl' data-aos="fade-left"  data-aos-duration="1000" >
+            
+            <div className='nmk1'>
+                <div className='libra'>
+                </div>
+               <h2>Discover Our Services</h2>
+               </div>
+           <ul className='text-muted'>
+            <li><p> Customized and efficient networking solutions designed to match your business needs.</p></li>
+            <li><p>Hassle-free installation and seamless setup of networking equipment for reliable operations.</p></li>
+            <li><p>Robust security measures, including firewalls and encryption, ensuring data confidentiality and protection against cyber threats.</p></li>
+            <li><p>Experience prompt service with our fast turnaround times, minimizing downtime and inconvenience.</p></li>
+            <li><p>Future-ready networks that scale with your business, accommodating new devices and increasing traffic demands effortlessly.</p></li>
+            <li><p>Comprehensive integration of cloud services, enhancing collaboration, data storage, and accessibility for maximum productivity.</p></li>
+
+
+           </ul>
+                
+           
+
+          </div>
+
+        </div>
+
+        
+        
+       
     </div>) :null}
     {/* 2 */}
-    {lds? (<div className='container mt-5 mb-5'>
+    {cns? (<div className='container lolp mt-5 mb-5'>
         <div className='hkl'>
         <h1 className='bril mb-5'> Complete Network Solutions </h1>
         </div>
@@ -800,7 +922,7 @@ function BestService({load,setLoad}) {
             <div className='nmk'>
                 <div className='libra'>
                 </div>
-               <h1 >Server and Firewall</h1>
+               <h3 >Server and Firewall</h3>
                </div>
                 <p className='text-muted mt-2'>
                 A server is a computer program or device
@@ -833,12 +955,100 @@ function BestService({load,setLoad}) {
           </div>
 
         </div>
+        <div className='pinar'>
+        
+        <div className='row idiot'>
+          <div className='col-md-6 klop' data-aos="fade-right"  data-aos-duration="1000">
+               <h1> We are Specialized in repair of all varieties of Laptops and Desktops </h1>
+               <div className='bul'>
+               <ul className='text-muted'>
+               <li>Internet Service </li>
+                <li>Intranet Service</li>
+                <li> Extranet Service</li>
+                <li>Virtual Private Network (VPN)</li>
+                <li>Wireless Services</li>
+                <li>Email Services</li>
+                <li>File Transfer Services</li>
+                <li>Domain Name System (DNS)</li>
+                <li>VoIP Services</li>
+                <li>Network Security Services</li>
+                <li>Cloud Services</li>
+                <li>Remote Access Services</li>
+                <li>Firewall Maintenance</li>
+                <li>Network Installation</li>
+                <li>Server Maintenance</li>
+                <li>IT Man Power Solution</li>
+                <li>Corporate AMC Services</li>
+       
+               </ul>
+               </div>
+          </div>
+          <div className='col-md-6 idioy4'>
+           <div className='mirrow'>
+            <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+              <h2>Man Power  </h2>
+              <p>Service is teamed up with an average of 40+ employees 
+                in Coimbatore and Banglore and each of our 
+                competence is fully insured and licensed.</p>
+            </div>
+            <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+            <h2>Amc Service </h2>
+            <p> we acquire complete computer
+               service contract from corporate companies
+                and serve them in affordable price.  </p>
+            </div>
+            <div>
+
+            </div>
+
+           </div>
+           <div className='mirrow'>
+            <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+            <h2>Server</h2>
+            <p>As we know server is the heart of any IT sector,
+               we help in proactive server maintenance and prevent
+                your data before the problem arrives.</p>
+            </div>
+            <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+            <h2>Network </h2>
+            <p>Under expert guidance 
+              of our skilled professionals, we provide quality of 
+              work that meets international standards</p>
+            </div>
+            <div>
+
+            </div>
+
+           </div>
+           <div className='mirrow'>
+            <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+            <h2>Firewall</h2>
+            <p>The advanced level of 
+              implementation done on security systems 
+              in a company is equal to the monetary investment.</p>
+            </div>
+            <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+            <h2>Cloud Services</h2>
+            <p>Offer various network-based services such as storage, 
+              computing power, and software applications over the internet.</p>
+            </div>
+            <div>
+
+            </div>
+
+           </div>
+          </div>
+          
+
+        </div>
+
+      </div>
         <div className='row'>
               <div className='col-md-7 col-lg-7 wifit1' data-aos="fade-right"  data-aos-duration="1000">
             <div className='nmk1'>
                 <div className='libra'>
                 </div>
-               <h1>Router & Switch</h1>
+               <h3>Router & Switch</h3>
                </div>
                 <p className='text-muted mt-2'>
                 A router is a device that connects
@@ -874,10 +1084,42 @@ function BestService({load,setLoad}) {
                </div>
 
         </div>
+
+       
+        <div className='row'>
+            <div className='col-md-6 col-lg-6 popp' data-aos="fade-right" data-aos-duration="1000">
+             <div className='lmk coved'>
+               <img src="/images/ld.avif" className='image-fluid'/>
+             </div>
+             
+               
+            </div>
+            <div className='col-md-6 col-lg-6 probl' data-aos="fade-left"  data-aos-duration="1000" >
+            
+            <div className='nmk1'>
+                <div className='libra'>
+                </div>
+               <h2>Discover Our Services</h2>
+               </div>
+           <ul className='text-muted'>
+           <li><p>Explore a wide range of laptops for various needs and budgets, including business and gaming laptops.</p></li>
+            <li><p>We prioritize your privacy, employing strict protocols to handle your data securely during repairs.</p></li>
+            <li><p>Trust our certified technicians for quick and transparent laptop repairs, ensuring your device functions flawlessly.</p></li>
+            <li><p>Experience prompt service with our fast turnaround times, minimizing downtime and inconvenience.</p></li>
+            <li><p>Count on our knowledgeable and friendly staff for excellent customer support, guiding you through laptop purchases and repairs.</p></li>
+            <li><p>Count on our knowledgeable and friendly staff for excellent customer support, guiding you through laptop purchases and repairs.</p></li>
+           </ul>
+                
+           
+
+          </div>
+
+        </div>
+
         
     </div>) :null}
     {/* 3 */}
-    {cb? (<div className='container mt-5 mb-5'>
+    {cb? (<div className='container lolp mt-5 mb-5'>
         <div className='hkl'>
         <h1 className='bril mb-5'> CCTV Camera and Biometrics Sales and Serives </h1>
         </div>
@@ -896,7 +1138,7 @@ function BestService({load,setLoad}) {
             <div className='nmk'>
                 <div className='libra'>
                 </div>
-               <h1>CCTV</h1>
+               <h3>CCTV</h3>
                </div>
                 <p className='text-muted mt-2'>
                 Infygain Technologies is the company 
@@ -914,12 +1156,94 @@ function BestService({load,setLoad}) {
           </div>
 
         </div>
+        <div className='pinar'>
+        
+        <div className='row idiot'>
+          <div className='col-md-6 klop' data-aos="fade-right"  data-aos-duration="1000">
+               <h1>Best CCTV Camera and Biometrics Sales and Service Provider </h1>
+               <div className='bul'>
+               <ul className='text-muted'>
+                <li>Dome Cameras </li>
+                <li>Bullet Cameras</li>
+                <li> PTZ Cameras (Pan-Tilt-Zoom)</li>
+                <li>Day/Night Cameras</li>
+                <li>Wireless Cameras</li>
+                <li>IP Cameras</li>
+                <li>Thermal Cameras</li>
+                <li>Fingerprint Recognition</li>
+                <li>Facial Recognition</li>
+                <li>Iris Recognition</li>
+                <li>Voice Recognition</li>
+                <li>Hand Geometry Recognition</li>
+                <li>Vein Pattern Recognition</li>
+                <li>Gait Recognition</li>
+               </ul>
+               </div>
+          </div>
+          <div className='col-md-6 idioy4'>
+           <div className='mirrow'>
+            <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+              <h2>Door Step Repair</h2>
+              <p>The impact of home camera repairs 
+                can be felt quickly by the whole family if your camera have a problem,
+                 freezes up or even refuses to start.</p>
+            </div>
+            <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+            <h2>Wireless Cameras </h2>
+            <p>Wireless cameras use Wi-Fi or Bluetooth to connect to a network,
+               enabling them to transmit video and data without 
+               relying on physical cables. </p>
+            </div>
+            <div>
+
+            </div>
+
+           </div>
+           <div className='mirrow'>
+            <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+            <h2>Facial Recognition</h2>
+            <p>We are identifies individuals by analyzing
+               and comparing patterns based on facial features.
+             </p>
+            </div>
+            <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+            <h2>IP Cameras</h2>
+            <p> We provide best Digital cameras that send and receive data via the internet or a computer network. </p>
+            </div>
+            <div>
+
+            </div>
+
+           </div>
+           <div className='mirrow'>
+            <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+            <h2>Bullet Cameras</h2>
+            <p>Shaped like a cylinder, these are suitable 
+              for outdoor surveillance due to their weatherproof design.
+               They're often easily noticeable.</p>
+            </div>
+            <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+            <h2>Voice Recognition</h2>
+            <p>Analyzes a person's voice for identification.
+               It’s utilized in authentication processes and automated telephone systems.</p>
+            </div>
+            <div>
+
+            </div>
+
+           </div>
+          </div>
+          
+
+        </div>
+
+      </div>
         <div className='row'>
               <div className='col-md-7 col-lg-7 wifit1' data-aos="fade-right"  data-aos-duration="1000" >
             <div className='nmk1'>
                 <div className='libra'>
                 </div>
-               <h1>Bio-Metrics</h1>
+               <h3>Bio-Metrics</h3>
                </div>
                 <p className='text-muted mt-2'>
                 Biometrics service allow organizations 
@@ -965,9 +1289,42 @@ function BestService({load,setLoad}) {
 
         </div>
         
+
+       
+
+        <div className='row'>
+            <div className='col-md-6 col-lg-6 popp' data-aos="fade-right" data-aos-duration="1000">
+             <div className='lmk covera'>
+               <img src="/images/cb.jpg" className='image-fluid'/>
+             </div>
+             
+               
+            </div>
+            <div className='col-md-6 col-lg-6 probl' data-aos="fade-left"  data-aos-duration="1000" >
+            
+            <div className='nmk1'>
+                <div className='libra'>
+                </div>
+               <h2>Discover Our Services</h2>
+               </div>
+           <ul className='text-muted'>
+           <li><p> Cutting-edge CCTV systems ensuring real-time monitoring and secure premises, enhancing safety and deterring potential threats.</p></li>
+            <li><p> State-of-the-art biometric technology for secure access, allowing seamless and efficient control over entry points, safeguarding sensitive areas..</p></li>
+            <li><p> Tailored CCTV and biometric solutions designed to fit your specific requirements, providing personalized security solutions for your business.</p></li>
+            <li><p> Access your CCTV feeds remotely via mobile devices, ensuring 24/7 monitoring and peace of mind, even when you're not on-site.</p></li>
+            <li><p>High-accuracy biometric systems for precise identification, minimizing unauthorized access and enhancing overall security protocols.</p></li>
+            <li><p>: Expert installation services for both CCTV and biometric systems, backed by reliable technical support, ensuring optimal performance and customer satisfaction.</p></li>
+           </ul>
+                
+           
+
+          </div>
+
+        </div>
+
     </div>) :null}
     {/* 4 */}
-    {pro? (<div className='container mt-5 mb-5'>
+    {pro? (<div className='container lolp mt-5 mb-5'>
         <div className='hkl'>
         <h1 className='bril mb-5'> Projectors, Smart Class And Smart Tv </h1>
         </div>
@@ -986,64 +1343,130 @@ function BestService({load,setLoad}) {
             <div className='nmk'>
                 <div className='libra'>
                 </div>
-               <h1>Projectors </h1>
+               <h3>Projectors </h3>
                </div>
                 <p className='text-muted mt-2'>
-                A server is a computer program or device
-                 that provides a service to another 
-                 computer program and its user, also 
-                 known as the client. In a data center, 
-                 the physical computer that a server
-                  program runs on is also frequently 
-                  referred to as a server.Having one 
-                  central repository to manage the
-                   identity of all users and to store
-                    all company files, application data,
-                     and other resources ensures that 
-                     every team member will have access 
-                     to what they need when they need it.
+                Our projectors offer high-resolution images that are bright
+                 and clear, making them perfect for presentations, movies,
+                  and other uses.Our projectors offer high-resolution images 
+                  that are bright and clear, making them perfect for
+                   presentations, movies, and other uses.
+                   Our projectors are built with high-quality lamps that
+                    last a long time, so you won't have to replace
+                     them as often. This means less downtime and lower costs over the long term.
+                  
                 </p>
                 <p className='text-muted '>
-                    A Firewall is a network security 
-                    device that monitors and filters 
-                    incoming and outgoing network traffic
-                     based on an organization's previously
-                      established security policies.
-                       At its most basic, a firewall 
-                       is essentially the barrier that
-                        sits between a private internal
-                         network and the public Internet.
+                Our projectors are lightweight and easy to transport,
+                 making them perfect for traveling professionals, 
+                 educators, and anyone who needs a high-quality projector.Our projectors come with a variety of customizable features,
+                 such as zoom, focus, and keystone correction, 
+                 so you can adjust the image to fit your specific needs.
                     </p>
           </div>
 
         </div>
+        <div className='pinar'>
+        
+        <div className='row idiot'>
+          <div className='col-md-6 klop' data-aos="fade-right"  data-aos-duration="1000">
+               <h1> We are Specialized in repair of all varieties of Projectors, Smart Class and Smart TV </h1>
+               <div className='bul'>
+               <ul className='text-muted'>
+                <li>Projection Equipment </li>
+                <li>Installation and Maintenance</li>
+                <li>Interactive Whiteboards and Software</li>
+                <li>Professional Development </li>
+                <li>Content Integration</li>
+                <li>Smart TV Installation</li>
+                <li>Content and Educational Apps</li>
+                <li>User Interface and Management</li>
+                <li>Security and Access Control</li>
+                <li>Collaborative Features</li>
+                <li>Projector Repair</li>
+                <li>Projection Installation</li>
+                <li>Smart Tv Repair</li>
+                <li>Fabrication of physically damaged units</li>
+                <li>Warranty extension care packs</li>
+               </ul>
+               </div>
+          </div>
+          <div className='col-md-6 idioy4'>
+           <div className='mirrow'>
+            <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+              <h2>Security</h2>
+              <p>Providers can assist in implementing security 
+                measures and access controls to manage content 
+                and restrict access as necessary.</p>
+            </div>
+            <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+            <h2>User Interface </h2>
+            <p> Services might include setting up user-friendly 
+              interfaces and providing tools for managing and controlling multiple smart TV. </p>
+            </div>
+            <div>
+
+            </div>
+
+           </div>
+           <div className='mirrow'>
+            <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+            <h2>High-quality</h2>
+            <p>Our projectors offer high-resolution images that are bright and clear,
+               making them perfect for presentations, movies, and other uses.</p>
+            </div>
+            <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+            <h2>Portable</h2>
+            <p>Our projectors are lightweight and easy to transport,
+               making them perfect for traveling professionals, 
+              educators, who needs a high-quality projector.</p>
+            </div>
+            <div>
+
+            </div>
+
+           </div>
+           <div className='mirrow'>
+            <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+            <h2>Projection </h2>
+            <p>Service providers offer a range of projectors suitable for 
+              classrooms, with varying brightness, resolution, and connectivity options. </p>
+            </div>
+            <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+            <h2>Long lamp life</h2>
+            <p>Our projectors are built with high-quality lamps that last a long time,
+               so you won't have to replace them as often. </p>
+            </div>
+            <div>
+
+            </div>
+
+           </div>
+          </div>
+          
+
+        </div>
+
+      </div>
         <div className='row'>
               <div className='col-md-7 col-lg-7 wifit1' data-aos="fade-right"  data-aos-duration="1000">
             <div className='nmk1'>
                 <div className='libra'>
                 </div>
-               <h1>Smart Class and Smart Tv</h1>
+               <h3>Smart Class and Smart Tv</h3>
                </div>
                 <p className='text-muted mt-2'>
-                A router is a device that connects
-                 two or more packet-switched networks 
-                 or subnetworks.It serves two primary 
-                 functions: managing traffic between 
-                 these networks by forwarding data 
-                 packets to their intended IP addresses, 
-                 and allowing multiple devices to use the
-                  same Internet connection.
+                A Smart TVs are very much like smartphones; 
+                they stream entertainment straight to your 
+                TV via an internet connection. This means 
+                that you can watch all the 
+                latest films, box sets and play games on 
+                your smart TV without the need for an aerial, cable or separate streaming device.
                 </p>
                 <p className='text-muted'>
-                    A switch is used in a wired network
-                     to connect to other devices using 
-                     Ethernet cables. The switch allows
-                      each connected device to talk to 
-                      the others. Wireless-only networks
-                       do not use switches because devices
-                        such as wireless routers and 
-                        adapters communicate directly 
-                        with one another.
+                Stream your favourite shows,
+                Voice recognition,Streamline your devices 
+                They're filled with the latest tech and developments,Surf the web.
                     </p>
             </div>
           <div className='col-md-5 col-lg-5 olk' data-aos="fade-left"  data-aos-duration="1000">
@@ -1057,11 +1480,45 @@ function BestService({load,setLoad}) {
                </div>
                </div>
         </div>
+
+       
+     
+        <div className='row'>
+            <div className='col-md-6 col-lg-6 popp' data-aos="fade-right" data-aos-duration="1000">
+             <div className='lmk1 coverage'>
+               <img src="/images/pro.jpg" className='image-fluid'/>
+             </div>
+             
+               
+            </div>
+            <div className='col-md-6 col-lg-6 probl' data-aos="fade-left"  data-aos-duration="1000" >
+            
+            <div className='nmk1'>
+                <div className='libra'>
+                </div>
+               <h2>Discover Our Services</h2>
+               </div>
+           <ul className='text-muted'>
+           <li><p>Cutting-edge projectors and Smart TVs for immersive and interactive learning experiences in classrooms, promoting better understanding and engagement.</p></li>
+            <li><p>High-quality projectors and Smart TVs for clear and impactful business presentations, ensuring effective communication in professional environments.</p></li>
+            <li><p> Intuitive interfaces on Smart TVs, making it easy to access educational apps and multimedia content, enhancing teaching and learning efficiency.</p></li>
+            <li><p>Smart classroom solutions with interactive features, enabling collaborative learning and dynamic content delivery for students and educators.</p></li>
+            <li><p>Expert installation services for seamless setup of projectors and Smart TVs, ensuring optimal performance and reliability.</p></li>
+            <li><p>Reliable technical support and assistance for educators and presenters, ensuring smooth operation and addressing any issues promptly.</p></li>
+           </ul>
+                
+           
+
+          </div>
+
+        </div>
+        
+
     </div>) :null}
     {/* 5 */}
-    {ca? (<div className='container mt-5 mb-5'>
+    {ca? (<div className='container lolp mt-5 mb-5'>
         <div className='hkl'>
-        <h1 className='bril mb-5'>Computer Accessories </h1>
+        <h1 className='bril'>Computer Accessories </h1>
         </div>
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right"  data-aos-duration="1000">
@@ -1078,7 +1535,7 @@ function BestService({load,setLoad}) {
             <div className='nmk'>
                 <div className='libra'>
                 </div>
-               <h1>Keyboards and Monitors</h1>
+               <h3>Keyboards and Monitors</h3>
                </div>
                 <p className='text-muted mt-2'>
                 Explore our diverse collection of keyboards and mice featuring
@@ -1098,12 +1555,97 @@ function BestService({load,setLoad}) {
           </div>
 
         </div>
+        <div className='pinar'>
+        
+        <div className='row idiot'>
+          <div className='col-md-6 klop' data-aos="fade-right"  data-aos-duration="1000">
+               <h1> We are Specialized in repair of all varieties of Computer Accessories</h1>
+               <div className='bul'>
+               <ul className='text-muted'>
+              <li>Sales and Distribution Services</li>
+              <li>Installation and Setup Services</li>
+              <li>Repair and Maintenance Services</li>
+              <li>Customization and Upgrades</li>
+              <li>Warranty and Support Services</li>
+              <li>Consultation and Recommendations</li>
+              <li>Trade-in and Recycling Programs</li>
+              <li>Technical Training Services</li>
+              <li>Bulk Purchase and Corporate Services</li>
+              <li>Security and Anti-Theft Services for Accessories</li>
+              <li>Accessories Rental Services</li>
+              <li>Compatibility Testing and Verification Services</li>
+              <li>Refurbishment and Resale Services</li>
+              <li>Asset Management Services for Accessories</li>
+              <li>Custom Manufacturing and Design Services</li>
+              <li>Specialized Cable Management Services</li>
+              <li>On-Site Setup and Configuration Services</li>
+                
+               </ul>
+               </div>
+          </div>
+          <div className='col-md-6 idioy4'>
+           <div className='mirrow'>
+            <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+              <h2>Sales</h2>
+              <p>Provide a wide range of computer accessories, 
+                including monitors, keyboards, mice, cables,
+                 adapters, storage devices, and more.</p>
+            </div>
+            <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+            <h2>Setup Services </h2>
+            <p>Assistance in setting up and installing hardware components
+               such as graphics cards, RAM, hard drives,etc., </p>
+            </div>
+            <div>
+
+            </div>
+
+           </div>
+           <div className='mirrow'>
+            <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+            <h2>Repair</h2>
+            <p>Repairs and maintenance for damaged or malfunctioning
+               computer accessories including keyboards, 
+               mice, monitors, printers, and external drives.</p>
+            </div>
+            <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+            <h2>Customization</h2>
+            <p>  Assistance in building custom systems, 
+              upgrading components, and optimizing hardware for better performance.</p>
+            </div>
+            <div>
+
+            </div>
+
+           </div>
+           <div className='mirrow'>
+            <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+            <h2>Consultation</h2>
+            <p>Consultation services to assist customers in selecting the right 
+              accessories for their specific needs, based on budget and requirements.</p>
+            </div>
+            <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+            <h2>Warranty  </h2>
+            <p> Warranty coverage for accessories, technical support, 
+              and customer service for troubleshooting issues.</p>
+            </div>
+            <div>
+
+            </div>
+
+           </div>
+          </div>
+          
+
+        </div>
+
+      </div>
         <div className='row'>
               <div className='col-md-7 col-lg-7 wifit1' data-aos="fade-right"  data-aos-duration="1000">
             <div className='nmk1'>
                 <div className='libra'>
                 </div>
-               <h1>External Storage, Cables and Adaptors  </h1>
+               <h3>External Storage, Cables and Adaptors  </h3>
                </div>
                 <p className='text-muted mt-2'>
                 Find the right connectivity solutions with our 
@@ -1123,7 +1665,7 @@ function BestService({load,setLoad}) {
                     </p>
             </div>
           <div className='col-md-5 col-lg-5 olk' data-aos="fade-left"  data-aos-duration="1000">
-               <div className='lmk2'>
+               <div className='lmk2 covera'>
                  <img src="/images/com_acc.jpg" className='image-fluid mt-5'/>
                </div>
                <div className='butk'>
@@ -1133,12 +1675,44 @@ function BestService({load,setLoad}) {
                </div>
                </div>
         </div>
+
+        
+
+        <div className='row'>
+            <div className='col-md-6 col-lg-6 popp' data-aos="fade-right" data-aos-duration="1000">
+             <div className='lmk'>
+               <img src="/images/ca.jpg" className='image-fluid'/>
+             </div>
+             
+               
+            </div>
+            <div className='col-md-6 col-lg-6 probl' data-aos="fade-left"  data-aos-duration="1000" >
+            
+            <div className='nmk1'>
+                <div className='libra'>
+                </div>
+               <h2>Discover Our Services</h2>
+               </div>
+           <ul className='text-muted'>
+           <li><p>Explore a diverse selection of computer accessories, including keyboards, mice, headphones, and more, catering to various needs and preferences.</p></li>
+            <li><p> Offering high-quality accessories from trusted brands, ensuring durability and optimal performance for your computer setup.</p></li>
+            <li><p> Ergonomic keyboards, precision mice, and other accessories designed for comfort, boosting productivity and reducing strain during extended computer use.</p></li>
+            <li><p>Specialized gaming keyboards, mice, and headphones for gamers, providing a competitive edge and immersive gaming experience.</p></li>
+            <li><p>Cable organizers, extensions, and management tools to keep your workspace tidy and free from clutter, enhancing efficiency and aesthetics.</p></li>
+            <li><p>Knowledgeable staff providing expert recommendations, helping you choose the right accessories tailored to your specific needs and requirements.</p></li>
+           </ul>
+                
+           
+
+          </div>
+
+        </div>
         
     </div>) :null}
     {/* 6 */}
-    {ldr? (<div className='container mt-5 mb-5'>
+    {ldr? (<div className='container lolp mt-5 mb-5'>
         <div className='hkl'>
-        <h1 className='bril mb-5'> Laptop Desktop Rent </h1>
+        <h1 className='bril '> Laptop Desktop Rent </h1>
         </div>
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right"  data-aos-duration="1000">
@@ -1155,7 +1729,7 @@ function BestService({load,setLoad}) {
             <div className='nmk'>
                 <div className='libra'>
                 </div>
-               <h1>Laptop for Rent</h1>
+               <h3>Laptops for Rent</h3>
                </div>
                 <p className='text-muted mt-2'>
                 Choose from a wide array of laptops suited for various purposes, 
@@ -1178,42 +1752,96 @@ function BestService({load,setLoad}) {
           </div>
 
         </div>
+        <div className='pinar'>
+        
+        <div className='row idiot'>
+          <div className='col-md-6 klop' data-aos="fade-right"  data-aos-duration="1000">
+               <h1> We are Provide wide range of Desktops and Laptops for Rent </h1>
+               <div className='bul'>
+               <ul className='text-muted'>
+                <li>Device Selection and Configuration</li>
+                <li>Short-Term and Long-Term Rental Options</li>
+                <li> Delivery and Setup Services</li>
+                <li>Technical Support and Maintenance</li>
+                <li>Software Installation and Configuration</li>
+                <li>Accessories and Peripherals</li>
+                <li>Upgrades and Customization</li>
+                <li>Data Security and Wipe Services</li>
+                <li>Insurance and Liability Coverage</li>
+                <li>Pickup and Return Services</li>
+                <li>Monitor repair</li>
+                <li>Power supply repair</li>
+                <li>Spare replacements</li>
+                <li>Fabrication of physically damaged units</li>
+                <li>Warranty extension care packs</li>
+               </ul>
+               </div>
+          </div>
+          <div className='col-md-6 idioy4'>
+           <div className='mirrow'>
+            <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+              <h2>Device Selection</h2>
+              <p>Various models of desktops and laptops 
+                for rent, with different specifications,
+                 processing power, memory, storage, etc.</p>
+            </div>
+            <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+            <h2> Rental Options </h2>
+            <p>Flexibility in rental terms, whether short-term 
+              (daily, weekly) or long-term (monthly, annually).</p>
+            </div>
+            <div>
 
-{/* 
-    <div className='mt-5 servicepage-head'>
-        <div className='service-slider'>
-      
-           <div className='servsl-head'>
-                <img src='/images/laptop.jpg' />
-                <div className='servsl-overlay'>
-                  <p>Complete Network Solutions</p>
-                </div>
-           </div>
-           <div className='servsl-head'>
-                <img src='/images/lap1.avif'/>
-                <div className='servsl-overlay'>
-                  <p>Laptop / Desktop Sales & Services</p>
-                </div>
-           </div>
-           
-        </div> 
+            </div>
 
-        <div className='serv-details'>
-           <ul>
-            <li>Explore a wide range of laptops for various needs and budgets, including business and gaming laptops.</li>
-            <li>We prioritize your privacy, employing strict protocols to handle your data securely during repairs.</li>
-            <li>Trust our certified technicians for quick and transparent laptop repairs, ensuring your device functions flawlessly.</li>
-            <li>Experience prompt service with our fast turnaround times, minimizing downtime and inconvenience.</li>
-            <li>Count on our knowledgeable and friendly staff for excellent customer support, guiding you through laptop purchases and repairs.</li>
-           </ul>
+           </div>
+           <div className='mirrow'>
+            <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+            <h2>Setup Services</h2>
+            <p>On-site delivery, setup, and installation of
+               rented devices at the customer's location.</p>
+            </div>
+            <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+            <h2>Technical Support</h2>
+            <p> Assistance for technical issues, 
+              maintenance services, and repairs during the rental period.</p>
+            </div>
+            <div>
+
+            </div>
+
+           </div>
+           <div className='mirrow'>
+            <div className='div10' data-aos="fade-right"  data-aos-duration="1000">
+            <h2>Customization</h2>
+            <p>Options to upgrade or customize the 
+              devices according to specific customer 
+              needs during the rental period.</p>
+            </div>
+            <div className='div11' data-aos="fade-left"  data-aos-duration="1000">
+            <h2>Data Security</h2>
+            <p>Ensuring the secure erasure of any user 
+              data before and after the rental period.</p>
+            </div>
+            <div>
+
+            </div>
+
+           </div>
+          </div>
+          
+
         </div>
-    </div> */}
+
+      </div>
+
+
         <div className='row'>
               <div className='col-md-7 col-lg-7 wifit1' data-aos="fade-right"  data-aos-duration="1000">
             <div className='nmk1'>
                 <div className='libra'>
                 </div>
-               <h1>Desktop for Rent</h1>
+               <h3>Desktops for Rent</h3>
                </div>
                 <p className='text-muted mt-2'>
                 Explore our selection of high-performance desktops tailored
@@ -1243,6 +1871,39 @@ function BestService({load,setLoad}) {
                </div>
                </div>
         </div>  
+
+        
+
+        <div className='row'>
+            <div className='col-md-6 col-lg-6 popp' data-aos="fade-right" data-aos-duration="1000">
+             <div className='lmk1'>
+               <img src="/images/laptop.jpg" className='image-fluid'/>
+             </div>
+             
+               
+            </div>
+            <div className='col-md-6 col-lg-6 probl' data-aos="fade-left"  data-aos-duration="1000" >
+            
+            <div className='nmk1'>
+                <div className='libra'>
+                </div>
+               <h2>Discover Our Services</h2>
+               </div>
+           <ul className='text-muted'>
+           <li><p> Choose from a range of laptops and desktops available for short-term and long-term rental, tailored to your specific requirements and duration.</p></li>
+            <li><p>Access up-to-date laptops and desktops featuring the latest hardware and software, ensuring optimal performance and compatibility with modern applications</p></li>
+            <li><p>Renting eliminates the need for significant upfront investments, offering a budget-friendly alternative for businesses, events, and temporary projects.</p></li>
+            <li><p> Customize your rental package with specific hardware configurations, software installations, and accessories, meeting your exact computing needs.</p></li>
+            <li><p>Benefit from dedicated technical support throughout the rental period, ensuring smooth operation and timely assistance in case of issues or queries.</p></li>
+            <li><p>Enjoy hassle-free service with punctual delivery and pickup of rented laptops and desktops, saving you time and effort.</p></li>
+           </ul>
+                
+           
+
+          </div>
+
+        </div>
+
     </div>) : null}
     </>
     )

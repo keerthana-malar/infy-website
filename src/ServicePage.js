@@ -4,7 +4,6 @@ import ServiceBanner from './servicepage/ServiceBanner';
 import IotServSlider from './servicepage/IotServSlider';
 import IotServBtns from './servicepage/IotServBtns';
 import IotFooter from './services/IotFooter';
-
 import Enquiry from './common/enquiry';
 import IotLoadPage from './services/IotLoadPage';
 import { useState } from 'react';
@@ -16,7 +15,7 @@ function ServicePage(){
     const [load, setLoad] = useState(false)
     const {id} = useParams()
 
-    const valuePaths = ['1','2','3','4','5','6','7','8']
+    const valuePaths = ['networking','laptop&desktop','cctv','Projectors','Accessories','Laptop&DesktopRent'];
 
     console.log(id)
     return(

@@ -12,6 +12,7 @@ import {
   import { HiMenuAlt1 } from "react-icons/hi";
   import { Link } from "react-router-dom";
   import Fixedline from './Fixedline';
+  import { FaCcAmazonPay } from "react-icons/fa";
   
   function IotHeader() {
     function DropdownMenu() {
@@ -192,6 +193,9 @@ import {
                 <a className="iot-head-link" target="_blank" href="https://infygain.com/onlinestore/">
                   <FaCartPlus/>
                 </a>
+                <a className="iot-head-link" target="_blank" href="https://grayquest.com/institute/united-master">
+                < FaCcAmazonPay/>
+              </a>
               </div>
             
               <div className="iot-dropDownMenu">

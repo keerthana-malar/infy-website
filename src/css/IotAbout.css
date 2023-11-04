@@ -158,8 +158,11 @@
     }
     .datawings_para{
       font-size: 17px;
-     padding: 20px;
+     padding-right: 20px;
     }
+ .span12,.span13{
+  font-size: 40px;
+ }
     .datawings img{
       width:150%;
       height: 100%;

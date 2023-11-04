@@ -11,7 +11,6 @@ import { MdNetworkWifi3Bar } from "react-icons/md";
 import { GiCctvCamera } from "react-icons/gi";
 import { LuLaptop2 } from "react-icons/lu";
 import { Link } from 'react-router-dom';
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Hidden } from '@mui/material';
@@ -68,10 +67,9 @@ function IotOurService() {
                    <div className='divline'></div>
                    <h2 className='edgehead'> Computer Network Solutions </h2>
                    <div className='buttongroup'>
-                   <Link to="/ServicePage/1" target='_blank'>
-                   <button className='butt btn1'>+</button>
+                   <Link to="/ServicePage/networking" target='_blank'>
+                   <button className='butt'>+</button>
                     </Link>
-                   
                    </div>
                    </div>
                     </div>
@@ -95,8 +93,8 @@ function IotOurService() {
                         <div className='divline'></div>
                    <h2 className='edgehead'>Laptop / Desktop Sales and Service </h2>
                    <div className='buttongroup'>
-                   <Link to="/ServicePage/2" target='_blank'>
-                    <button className='butt btn1'>+</button></Link>
+                   <Link to="/ServicePage/laptop&desktop" target='_blank'>
+                    <button className='butt'>+</button></Link>
 
                    </div>
                    </div>
@@ -123,8 +121,8 @@ function IotOurService() {
                         <div className='divline'></div>
                    <h2 className='edgehead'>   CCTV / Bio - Metrics </h2>
                    <div className='buttongroup'>
-                    <Link to="/ServicePage/3" target='_blank'>
-                        <button className='butt btn1'>+</button></Link>
+                    <Link to="/ServicePage/cctv" target='_blank'>
+                        <button className='butt '>+</button></Link>
                    </div>
                    </div>
                     </div>
@@ -153,8 +151,8 @@ function IotOurService() {
                            <div className='divline'></div>
                    <h2 className='edgehead'>  Projectors / Smart Class Smart Tv </h2>
                    <div className='buttongroup'>
-                   <Link to="/ServicePage/4" target='_blank'>
-                    <button className='butt btn1'>+</button></Link>
+                   <Link to="/ServicePage/Projectors" target='_blank'>
+                    <button className='butt '>+</button></Link>
                    </div>
                    </div>
                     </div>
@@ -177,8 +175,8 @@ function IotOurService() {
                        <div className='divline'></div>
                    <h2 className='edgehead'> Computer Accessories </h2>
                    <div className='buttongroup'>
-                   <Link to="/ServicePage/5" target='_blank'>
-                    <button className='butt btn1'>+</button></Link>
+                   <Link to="/ServicePage/Accessories" target='_blank'>
+                    <button className='butt '>+</button></Link>
                    </div>
                    </div>
                     </div>
@@ -203,8 +201,8 @@ function IotOurService() {
                        <div className='divline'></div>
                    <h2 className='edgehead'> Laptop / Desktop Rent </h2>
                    <div className='buttongroup'>
-                   <Link to="/ServicePage/6" target='_blank'>
-                    <button className='butt btn1'>+</button></Link>
+                   <Link to="/ServicePage/Laptop&DesktopRent" target='_blank'>
+                    <button className='butt'>+</button></Link>
                    </div>
                    </div>
                     </div>

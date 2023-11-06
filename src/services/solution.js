@@ -1,4 +1,5 @@
 import { HiOutlineRocketLaunch } from "react-icons/hi2";
+import {Link} from "react-router-dom";
 
 function websolution() {
   return (
@@ -21,7 +22,9 @@ function websolution() {
               bring our customers the latest technology. As one of the premier
               providers of smart home technology.
             </p>
+            <Link to="/contact">
             <div className="btns cont-btn">Contact US</div>
+            </Link>
           </div>
         </div>
         <div className="sl">

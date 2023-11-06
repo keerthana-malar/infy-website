@@ -1,4 +1,5 @@
 import "../css/home.css";
+import {Link} from "react-router-dom"
 
 const Testimonial = () => {
   return (
@@ -48,6 +49,7 @@ const Testimonial = () => {
             </div>
             <div className="testMainCont">
               <div className="testInn">
+              <Link to="/ServicePage/networking">
                 <div className="testiIconBox">
                   <svg
                     className="testIcon"
@@ -56,23 +58,34 @@ const Testimonial = () => {
                   >
                     <g id="Layer_2" data-name="Layer 2">
                       <g id="Layer_1-2" data-name="Layer 1">
+                       
                         <path
                           class="cls-2"
                           d="M357.6,282.36V119a37.33,37.33,0,0,0-18.66-32.33L197.47,5a37.32,37.32,0,0,0-37.33,0L18.67,86.68A37.33,37.33,0,0,0,0,119V282.36a37.32,37.32,0,0,0,18.67,32.33l141.47,81.68a37.32,37.32,0,0,0,37.33,0l141.47-81.68A37.31,37.31,0,0,0,357.6,282.36Z"
                         />
+                        
                       </g>
                     </g>
                   </svg>
+                 
+             
                   <img className="img-fluid" src="/images/webs1.png"></img>
+                 
                 </div>
+                 </Link>
+               
                 <div className="testiContBox">
                   <p className="mid-title">Complete Networking</p>
                   <p className="tech-desc">
                     Seamless Connectivity <br></br>Solutions
                   </p>
                 </div>
+           
+                
               </div>
+              
               <div className="testInn">
+              <Link to="/ServicePage/cctv" >
                 <div className="testiIconBox">
                   <svg
                     className="testIcon"
@@ -90,12 +103,14 @@ const Testimonial = () => {
                   </svg>
                   <img className="img-fluid 5" src="/images/fingerprint-modified.png"></img>
                 </div>
+                </Link>
                 <div className="testiContBox">
                   <p className="mid-title">Security Systems</p>
                   <p className="tech-desc">24/7 Security Surveillance</p>
                 </div>
               </div>
               <div className="testInn">
+              <a to="/ServiceSeo" >
                 <div className="testiIconBox">
                   <svg
                     className="testIcon"
@@ -113,6 +128,7 @@ const Testimonial = () => {
                   </svg>
                   <img className="img-fluid" src="/images/webs6.png"></img>
                 </div>
+                </a>
                 <div className="testiContBox">
                   <p className="mid-title">Web /Graphic Design</p>
                   <p className="tech-desc">
@@ -121,6 +137,7 @@ const Testimonial = () => {
                 </div>
               </div>
               <div className="testInn">
+              <Link to="/ServicePage/Projectors">
                 <div className="testiIconBox">
                   <svg
                     className="testIcon"
@@ -138,6 +155,7 @@ const Testimonial = () => {
                   </svg>
                   <img className="img-fluid" src="/images/cctvs1.png"></img>
                 </div>
+                </Link>
                 <div className="testiContBox">
                   <p className="mid-title">AV Solutions</p>
                   <p className="tech-desc">
@@ -146,6 +164,7 @@ const Testimonial = () => {
                 </div>
               </div>
               <div className="testInn">
+                <a href="/ServicePage/laptop&desktop">
                 <div className="testiIconBox">
                   <svg
                     className="testIcon"
@@ -163,6 +182,7 @@ const Testimonial = () => {
                   </svg>
                   <img className="img-fluid" src="/images/laptops.png"></img>
                 </div>
+                </a>
                 <div className="testiContBox">
                   <p className="mid-title">Computer & Laptop</p>
                   <p className="tech-desc">

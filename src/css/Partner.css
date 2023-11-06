@@ -65,17 +65,15 @@
 .partnerphoto2 img{
     
     border-radius: 25px;
-    height: 33vh;
+    height: 32vh;
    
 }
 .firsttow1{
     background-color: var(--sec);
     color: white;
+
 }
-/* .slidepoint{
-    height: 200px;
-    width: 650px;
-} */
+
 .logo-box1{
    
    align-items: center;
@@ -192,4 +190,9 @@ width: 100%;
     .redline{
         width: 120px;
     }
+}
+@media screen and  (min-width=1701px) and (max-width=1800px){
+  .partnerphoto2 img{
+    height: 200px;
+  }
 }

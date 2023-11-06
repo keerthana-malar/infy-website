@@ -9,6 +9,7 @@ import IotLoadPage from './services/IotLoadPage';
 import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import IotHeader from './services/IotHeader';
+import ScrollToTop from "./common/scrollToTop";
 
 
 function ServicePage(){
@@ -23,6 +24,7 @@ function ServicePage(){
             {
                 valuePaths.includes(id)  && !load ?
                 <>
+                 <ScrollToTop />
                 <IotHeader />
                  <ServiceBanner/>
                  <BestService load={load} setLoad={setLoad}/>

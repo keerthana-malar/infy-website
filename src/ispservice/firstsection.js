@@ -1,5 +1,6 @@
 import 'font-awesome/css/font-awesome.css';
 import '../css/ispservice.css';
+import {Link} from "react-router-dom";
 
 function Firstsection() {
 
@@ -39,7 +40,7 @@ function Firstsection() {
                             </div>
 
                         </div>
-                        <div className='row second'>
+                        <div className='row soc'>
                             <div className='rigonebox'>
                                 <div className='col-md-4'>
                                     <i class="fa fa-regular fa-desktop " style={{ color: "#9cc723" }}></i>
@@ -51,7 +52,7 @@ function Firstsection() {
                             </div>
 
                         </div>
-                        <div className='row third'>
+                        <div className='row trd'>
                             <div className='rigonebox'>
                                 <div className='col-md-4'>
                                     <i class="fa fa-phone" style={{ color: "#9cc723" }}></i>
@@ -81,8 +82,11 @@ function Firstsection() {
                             <p className='smallpara'>Unlock unlimited internet access with our simple, reliable, and affordable solution</p>
                         </div>
                         <div className='col-lg-3 commonbac'>
-                            <div className='btncolor'>
-                                <button className='btns-green getanobtn'>get started</button>
+                            <div className='btncolor'><Link to="/contact">
+                                <button className='btns-green getanobtn'>
+                                     get started
+                                    </button>
+                                    </Link>
                             </div>
                             <div className='row'>
 

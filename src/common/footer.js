@@ -155,8 +155,6 @@ function Footer() {
                 </p>
                 <hr className="hrline"></hr>
                 <p className="address ph">+91 &nbsp;9952141444</p>
-              
-
                 <p className="address">
                   <b>info@infygain.com</b>
                 </p>

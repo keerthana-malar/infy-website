@@ -54,7 +54,6 @@ function Enquiry() {
         });
   };
   
-
   function alertBox() {
     if (show) {
       return (

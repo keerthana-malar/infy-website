@@ -37,6 +37,7 @@ import AddCareer from "./admin/AddCareer";
 import EditCareers from "./admin/EditCareers";
 import CareerDetails from "./Career/CareerDetails";
 import Candidate from "./admin/Candidate";
+import Four from "./404";
 
 function App() {
   return (
@@ -73,6 +74,8 @@ function App() {
         <Route path="/edit-career/:id" element={<EditCareers />} />
         <Route path="/career/:id" element={<CareerDetails />} />
         <Route path="/candidate" element={<Candidate />} />
+        <Route path="*" element={<Four />} />
+
       </Routes>
     </BrowserRouter>
   );

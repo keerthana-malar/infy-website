@@ -88,3 +88,15 @@
 .abou:hover {
   color: var();
 }
+
+
+/*404page*/
+.fournotfour{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.four-button{
+  text-align: center;
+}

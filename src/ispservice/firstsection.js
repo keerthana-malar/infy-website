@@ -39,7 +39,7 @@ function Firstsection() {
                             </div>
 
                         </div>
-                        <div className='row second'>
+                        <div className='row seconds'>
                             <div className='rigonebox'>
                                 <div className='col-md-4'>
                                     <i class="fa fa-regular fa-desktop " style={{ color: "#9cc723" }}></i>
@@ -51,7 +51,7 @@ function Firstsection() {
                             </div>
 
                         </div>
-                        <div className='row third'>
+                        <div className='row thirds'>
                             <div className='rigonebox'>
                                 <div className='col-md-4'>
                                     <i class="fa fa-phone" style={{ color: "#9cc723" }}></i>

@@ -25,15 +25,16 @@ const IotActivities = () => {
                     </div>
                     <div className='active-1' style={{display:"flex", flexDirection:"column"}}>
                         <div style={{display:"flex",alignItems:"center"}}>
-                        <BsPersonFill className='person-icon'/>
+                        {/* <BsPersonFill className='person-icon'/> */}
+                        <img className='person-icon' style={{color:"#ffc000"}} src='/images/proj.png'/>
                         {scroll && 
                         <>
-                            <CountUp className='activity-nos' start={0} end={105} duration={2} delay={0} /> <span className='activity-nos'>+</span>
+                            <CountUp className='activity-nos' start={0} end={487} duration={5} delay={0} /> <span className='activity-nos'>+</span>
                         </>
                         }
                         </div>
                         <div className='activityName'>
-                          <p>Winning awards</p>
+                          <p>Completed Projects</p>
                         </div>
                     </div>
                 </div>
@@ -49,12 +50,12 @@ const IotActivities = () => {
                         <BsPersonFill className='person-icon'/>
                         {scroll && 
                         <>
-                            <CountUp className='activity-nos' start={0} end={15} duration={5} delay={0} /> <span className='activity-nos'>+</span>
+                            <CountUp className='activity-nos' start={0} end={416} duration={5} delay={0} /> <span className='activity-nos'>+</span>
                         </>
                         }
                         </div>
                         <div className='activityName'>
-                          <p>Completed project</p>
+                          <p>Happy Clients</p>
                         </div>
                     </div>
                 </div>
@@ -67,15 +68,16 @@ const IotActivities = () => {
                     </div>
                     <div style={{display:"flex", flexDirection:"column"}}>
                         <div style={{display:"flex",alignItems:"center"}}>
-                        <BsPersonFill className='person-icon'/>
+                        {/* <BsPersonFill className='person-icon'/> */}
+                        <img className='person-icon' style={{color:"#ffc000"}} src='/images/sp.png'/>
                         {scroll && 
                         <>
-                            <CountUp className='activity-nos' start={0} end={10} duration={5} delay={0} /> <span className='activity-nos'>K+</span>
+                            <CountUp className='activity-nos' start={0} end={68} duration={5} delay={0} /> <span className='activity-nos'>+</span>
                         </>
                         }
                         </div>
                         <div className='activityName'>
-                          <p>Client’s reviews</p>
+                          <p>Services Provider</p>
                         </div>
                     </div>
                 </div>
@@ -88,15 +90,15 @@ const IotActivities = () => {
                     </div>
                     <div style={{display:"flex", flexDirection:"column"}}>
                         <div style={{display:"flex",alignItems:"center"}}>
-                        <BsPersonFill className='person-icon'/>
+                        <img className='person-icon' style={{color:"#ffc000"}} src='/images/eng.png'/>
                         {scroll && 
                         <>
-                            <CountUp className='activity-nos' start={0} end={805} duration={2} delay={0} /> <span className='activity-nos'>+</span>
+                            <CountUp className='activity-nos' start={0} end={12} duration={5} delay={0} /> <span className='activity-nos'>+</span>
                         </>
                         }
                         </div>
                         <div className='activityName'>
-                         <p>Team Members</p>
+                         <p>Service engineers</p>
                         </div>
                     </div>
                 </div>

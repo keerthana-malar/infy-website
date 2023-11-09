@@ -7,6 +7,7 @@ import { MdOutlineSecurity } from "react-icons/md";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "aos/dist/aos.css";
 import "../css/IotBanner.css";
+import { Link } from "react-router-dom";
 
 const IotBanner = () => {
   // services icons style
@@ -89,10 +90,15 @@ const IotBanner = () => {
                 className="test-btns"
               >
                 <span className="test-sc"></span>
-                <span className="iot-text">
-                  About Us
-                  <BsArrowRight className="btns-icons1" />
-                </span>
+                
+                  <span className="iot-text">
+                  <Link to="/about">
+                    About Us
+                    <BsArrowRight className="btns-icons1" />
+                    </Link>
+                  </span>
+               
+               
               </button>
             </div>
             <img
@@ -146,8 +152,10 @@ const IotBanner = () => {
               >
                 <span className="test-sc"></span>
                 <span className="iot-text">
-                  About Us
-                  <BsArrowRight className="btns-icons1" />
+                <Link to="/about">
+                    About Us
+                    <BsArrowRight className="btns-icons1" />
+                    </Link>
                 </span>
               </button>
             </div>
@@ -197,8 +205,10 @@ const IotBanner = () => {
               >
                 <span className="test-sc"></span>
                 <span className="iot-text">
-                  About Us
-                  <BsArrowRight className="btns-icons1" />
+                <Link to="/about">
+                    About Us
+                    <BsArrowRight className="btns-icons1" />
+                    </Link>
                 </span>
               </button>
             </div>
@@ -262,7 +272,7 @@ const IotBanner = () => {
 
             {/* arrow */}
             <div className="overlay-arrow">
-              <BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} />
+            <Link to='/ServicePage/networking' target="_blank"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /></Link>
             </div>
           </div>
         </div>
@@ -301,7 +311,7 @@ const IotBanner = () => {
             </div>
             {/* arrow */}
             <div className="overlay-arrow">
-              <BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} />
+            <Link to='/ServicePage/cctv' target="_blank"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /></Link>
             </div>
           </div>
         </div>
@@ -336,10 +346,10 @@ const IotBanner = () => {
             </div>
             {/* arrow */}
             <div className="overlay-arrow">
-              <BsArrowRight
+            <Link to='/ServicePage/Projectors' target="_blank"><BsArrowRight
                 className="arrow-icon"
                 style={{ fontSize: "22px", marginTop: "10px" }}
-              />
+              /></Link>
             </div>
           </div>
         </div>
@@ -373,7 +383,7 @@ const IotBanner = () => {
             </div>
             {/* arrow */}
             <div className="overlay-arrow">
-              <BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} />
+            <Link to='/ServicePage/laptop&desktop' target="_blank"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /> </Link>
             </div>
           </div>
         </div>

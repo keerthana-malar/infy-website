@@ -16,13 +16,13 @@ import "aos/dist/aos.css";
 import { Hidden } from '@mui/material';
 
 
-function IotOurService() {
+function IotOurService({componentRef}) {
     useEffect(() => {
         AOS.init();
         AOS.refresh();
       }, []);
     return (
-        <div className='firsthead'>
+        <div className='firsthead' ref={componentRef}>
            <div className='container'>
             {/* left side start  */}
            <div className=' Ourservice_leftside'>
@@ -108,7 +108,7 @@ function IotOurService() {
                 <div className='divline'></div>
                 <GiCctvCamera className='icons'/>
                     <h3>
-                        CCTV / Bio - Metrics
+                     Security Solutions
                     </h3>
                     <div className='divideline'></div>
                     <p className='param'>Our CCTV systems offer 24/7 surveillance, 
@@ -119,7 +119,7 @@ function IotOurService() {
                         <div className='hiddenrows2'>
                         <div className='pros'>
                         <div className='divline'></div>
-                   <h2 className='edgehead'>   CCTV / Bio - Metrics </h2>
+                   <h2 className='edgehead'>    Security Solutions </h2>
                    <div className='buttongroup'>
                     <Link to="/ServicePage/cctv" target='_blank'>
                         <button className='butt '>+</button></Link>
@@ -137,7 +137,7 @@ function IotOurService() {
                     <div className='divline'></div>
                     <SiWebtrees className='icons'/>
                     <h3>
-                       Projectors / Smart Class Smart Tv
+                        AV Solutions
                     </h3>
                     <div className='divideline'></div>
                     <p className='param'>Our projectors and Smart TVs deliver stunning 
@@ -149,7 +149,7 @@ function IotOurService() {
                            <div className='hiddenrows3'>
                            <div className='pros'>
                            <div className='divline'></div>
-                   <h2 className='edgehead'>  Projectors / Smart Class Smart Tv </h2>
+                   <h2 className='edgehead'>   AV Solutions </h2>
                    <div className='buttongroup'>
                    <Link to="/ServicePage/Projectors" target='_blank'>
                     <button className='butt '>+</button></Link>

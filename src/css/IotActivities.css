@@ -26,6 +26,8 @@
 }
 .person-icon {
     font-size: 40px;
+    width: 45px;
+    margin-right: 5px;
     color: #ffbf00;
 }
 

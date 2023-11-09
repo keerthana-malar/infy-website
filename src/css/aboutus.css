@@ -92,6 +92,7 @@
 
 /*404page*/
 .fournotfour{
+
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -99,4 +100,10 @@
 }
 .four-button{
   text-align: center;
+  
+}
+
+.four-text{
+  text-align: center;
+  padding-bottom: 20px;
 }

@@ -45,7 +45,7 @@ function SubService() {
                   </g>
                 </g>
               </svg>
-              <img className="hexIcon" src="/images/icons/cloud.png"></img>
+              <img className="hexIcon" src="/images/icons/cloud.png" alt="best Enterprise Solutions"></img>
               <Link to={"/iotservice"}>
                 <div
                   className="subServiceCont service1"
@@ -77,6 +77,7 @@ function SubService() {
               <img
                 className="hexIcon"
                 src="/images/icons/data-security.png"
+                alt="best Security Solutions"
               ></img>
               <Link to={"/iotservice"}>
                 <div
@@ -106,7 +107,7 @@ function SubService() {
                   </g>
                 </g>
               </svg>
-              <img className="hexIcon" src="/images/icons/iot.png"></img>
+              <img className="hexIcon" src="/images/icons/iot.png" alt="best Network Solutions"></img>
               <Link to={"/iotservice"}>
                 <div
                   className="subServiceCont service3"
@@ -135,7 +136,7 @@ function SubService() {
                   </g>
                 </g>
               </svg>
-              <img className="hexIcon" src="/images/icons/audio.png"></img>
+              <img className="hexIcon" src="/images/icons/audio.png" alt="best AV Solutions"></img>
               <Link to={"/iotservice"}>
                 <div
                   className="subServiceCont service4"
@@ -167,6 +168,7 @@ function SubService() {
               <img
                 className="hexIcon"
                 src="/images/icons/wifi-router.png"
+                alt="best Infrastructure"
               ></img>
               <Link to={"/iotservice"}>
                 <div
@@ -202,6 +204,7 @@ function SubService() {
               <img
                 className="hexIcon"
                 src="/images/icons/app-development.png"
+                alt="best Website Development services"
               ></img>
               <Link to={"/ServiceSeo"}>
                 <div
@@ -231,7 +234,7 @@ function SubService() {
                   </g>
                 </g>
               </svg>
-              <img className="hexIcon" src="/images/icons/feature.png"></img>
+              <img className="hexIcon" src="/images/icons/feature.png" alt="best web application services"></img>
               <Link to={"/ServiceSeo"}>
                 <div
                   className="subServiceCont service7"
@@ -263,6 +266,7 @@ function SubService() {
               <img
                 className="hexIcon"
                 src="/images/icons/security-system.png"
+                alt="best ISP Solutions"
               ></img>
               <Link to={"/ispservice"}>
                 <div
@@ -290,7 +294,7 @@ function SubService() {
                 <img
                   className="img-fluid vid-home"
                   src="/images/icons/Readmore Banner web.webp"
-                  alt="Video Thumbnail"
+                  alt="best it,web and isp services in coimbatore"
                 />
                 <div className="play-button" onClick={openVideo}>
                   <BsPlay className="iconings" />

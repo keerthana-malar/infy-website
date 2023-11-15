@@ -49,7 +49,7 @@
                 <div className='col-lg-6 imageboxer'>
                 <Tilt options={defaultOptions}>
                     <img className="img-fluid" src="/images/about_page.png" 
-                    alt="about page" data-aos="fade-right" />
+                    alt="top it services in coimbatore" data-aos="fade-right" />
                      </Tilt>
                      
             <div className='abtshvd'>

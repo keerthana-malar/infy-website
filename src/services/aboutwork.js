@@ -11,7 +11,7 @@ function Aboutweb() {
         <div className="container">
           <div className="mainaboutweb">
             <div className="abtimgbx">
-              <img className="img-fluid" src="./images/seo/seobanner.png"></img>
+              <img className="img-fluid" alt="top seo services" src="./images/seo/seobanner.png"></img>
             </div>
             <div className="abtconbx">
               <div className="featurebox">

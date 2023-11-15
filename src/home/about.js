@@ -13,8 +13,8 @@ const HomeAbout = () => {
                 <div className="Tilt-inner">
                   <img
                     className="img-fluid"
-                    src="/images/about_us.png"
-                    alt="Service Image"
+                    src="/images/about_us.webp"
+                    alt="best It, web, and isp services in coimbatore"
                   />
                 </div>
               </Tilt>
@@ -39,7 +39,7 @@ const HomeAbout = () => {
                       <div className="col-3">
                         <img
                           className="img-fluid experienceimg"
-                          src="/images/icons/certificatenew.png"
+                          src="/images/icons/certificatenew.webp"
                         ></img>
                       </div>
                       <div className="col-9">
@@ -55,7 +55,7 @@ const HomeAbout = () => {
                       <div className="col-3">
                         <img
                           className="img-fluid"
-                          src="/images/icons/supportnew.png"
+                          src="/images/icons/supportnew.webp"
                         ></img>
                       </div>
                       <div className="col-9">

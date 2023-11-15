@@ -25,7 +25,7 @@ function webservice() {
         <div className="mserv">
           <div className="sb sbox1">
             <div className="simgbox" data-aos="flip-left" data-aos-duration="1000">
-              <img className="fluid" src="./images/seo/website.png"></img>
+              <img className="fluid" alt="top seo services" src="./images/seo/website.png"></img>
             </div>
             <div className="st">Websites</div>
             <div className="scon text-muted">
@@ -44,7 +44,7 @@ only visually striking but also optimized for performance and user experience.
           </div>
           <div className="sb sbox2">
             <div className="simgbox" data-aos="flip-left" data-aos-duration="1000">
-              <img className="fluid" src="./images/seo/seo.png"></img>
+              <img className="fluid" alt="best seo services" src="./images/seo/seo.png"></img>
             </div>
             <div className="st">SEO</div>
             <div className="scon text-muted">
@@ -63,7 +63,7 @@ only visually striking but also optimized for performance and user experience.
           </div>
           <div className="sb sbox3">
             <div className="simgbox" data-aos="flip-left" data-aos-duration="1000">
-              <img className="fluid" src="./images/seo/app.png"></img>
+              <img className="fluid" alt="seo services in coimbatore" src="./images/seo/app.png"></img>
             </div>
             <div className="st">Applications</div>
             <div className="scon text-muted">
@@ -80,7 +80,7 @@ only visually striking but also optimized for performance and user experience.
           </div>
           <div className="sb sbox4">
             <div className="simgbox" data-aos="flip-left" data-aos-duration="1000">
-              <img className="fluid" src="./images/seo/graphic.png"></img>
+              <img className="fluid" alt="top seo services" src="./images/seo/graphic.png"></img>
             </div>
             <div className="st">Designing</div>
             <div className="scon text-muted">

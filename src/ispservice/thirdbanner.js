@@ -28,7 +28,8 @@ function Thirdbanner() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group 1 copy.jpg">
+                                            src="../images/banner/Group 1 copy.jpg"
+                                            alt='best network services'>
                                         </img></div>
                                         <p className="midss-title">BASIC PACKAGE</p>
                                         <p className="midess-title">
@@ -57,6 +58,7 @@ function Thirdbanner() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
+                                            alt='best wifi solution'
                                             src="../images/banner/Group 2 copy.jpg">
                                         </img></div>
 
@@ -86,6 +88,7 @@ function Thirdbanner() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
+                                            alt='top isp services'
                                             src="../images/banner/Group 3 copy.jpg">
                                         </img></div>
                                         <p className="midss-title">HYPE PACKAGE</p>

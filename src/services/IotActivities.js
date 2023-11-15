@@ -26,7 +26,7 @@ const IotActivities = () => {
                     <div className='active-1' style={{display:"flex", flexDirection:"column"}}>
                         <div style={{display:"flex",alignItems:"center"}}>
                         {/* <BsPersonFill className='person-icon'/> */}
-                        <img className='person-icon' style={{color:"#ffc000"}} src='/images/proj.png'/>
+                        <img className='person-icon' alt='top iot services' style={{color:"#ffc000"}} src='/images/proj.png'/>
                         {scroll && 
                         <>
                             <CountUp className='activity-nos' start={0} end={487} duration={5} delay={0} /> <span className='activity-nos'>+</span>

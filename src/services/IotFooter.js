@@ -23,7 +23,7 @@ function IotFooter() {
                   <img
                     className="img-fluid"
                     src="/images/others/logo-alt.svg"
-                    alt="infygain logo"
+                    alt="best it services"
                   ></img>
                 </p>
               </div>

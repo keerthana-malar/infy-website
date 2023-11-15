@@ -118,7 +118,7 @@ function header() {
               <img
                 className="img-fluid"
                 src="./images/icons/infy-logo.png"
-                alt="infygain logo"
+                alt="best web services"
               ></img>
             </div>
             <div className="menu-box">

@@ -74,7 +74,7 @@ function Portfolio() {
       <Slider {...settings}>
          
           <div className="portbxk ">
-            <img className="portimgbxk" src="./images/seo/physiotherapy.webp"></img>
+            <img className="portimgbxk" alt="best projects" src="./images/seo/physiotherapy.webp"></img>
             <div className="portoverbxk">
               <button className="btn portbtn mb-3">COLLEGE WEBSITE OF PHYSIOTHERAPY</button>
               <p className="porttit mb-3">United College Of Physiotherapy</p>
@@ -84,7 +84,7 @@ function Portfolio() {
             </div>
           </div>
           <div className="portbxk pbx">
-            <img className="portimgbxk" src="./images/seo/college.webp"></img>
+            <img className="portimgbxk" alt="top projects" src="./images/seo/college.webp"></img>
             <div className="portoverbxk">
               <button className="btn portbtn mb-3">COLLEGE WEBSITE Of ARTS</button>
               <p className="porttit mb-3">United College of Arts & Science</p>
@@ -94,7 +94,7 @@ function Portfolio() {
             </div>
           </div>
           <div className="portbxk pbx">
-            <img className="portimgbxk" src="./images/seo/pharmacys (1).webp"></img>
+            <img className="portimgbxk" alt="best seo services" src="./images/seo/pharmacys (1).webp"></img>
             <div className="portoverbxk">
               <button className="btn portbtn mb-3">COLLEGE WEBSITE OF PHARMACY</button>
               <p className="porttit mb-3">United College Of Pharmacy</p>
@@ -104,7 +104,7 @@ function Portfolio() {
             </div>
           </div>
           <div className="portbxk pbx">
-            <img className="portimgbxk" src="./images/seo/MRDICAL.webp"></img>
+            <img className="portimgbxk" alt="best seo services" src="./images/seo/MRDICAL.webp"></img>
             <div className="portoverbxk">
               <button className="btn portbtn mb-3">MEDICAL SCIENCE WEBSITE</button>
               <p className="porttit mb-3">United College Of Medical Science</p>
@@ -128,7 +128,7 @@ function Portfolio() {
           </div>
 
           <div className="portbxk pbx">
-            <img className="portimgbxk" src="./images/seo/account.webp"></img>
+            <img className="portimgbxk" alt="best project" src="./images/seo/account.webp"></img>
             <div className="portoverbxk">
               <button className="btn portbtn mb-3">ACCOUNT SITE</button>
               <p className="porttit mb-3">Meethalal Jain & Co</p>
@@ -140,7 +140,7 @@ function Portfolio() {
           </div>
 
           <div className="portbxk pbx">
-            <img className="portimgbxk" src="./images/seo/god.webp"></img>
+            <img className="portimgbxk" alt="top seo services" src="./images/seo/god.webp"></img>
             <div className="portoverbxk">
               <button className="btn portbtn mb-3">SCULPTURE SITE</button>
               <p className="porttit mb-3">Niagara Exports LLC</p>

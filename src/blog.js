@@ -127,7 +127,7 @@ function Blogs(){
               <img
                 className="img-fluid"
                 src="../images/icons/infy-logo.png"
-                alt="infygain logo"
+                alt="best isp services"
               ></img>
             </div>
             <div className="menu-box">
@@ -280,7 +280,7 @@ function Blogs(){
               <div className="row">
                 <div className="col-lg-5">
                   <div className="shortt-img">
-                    <img className="img-fluid " src="../images/abt.webp"></img>
+                    <img className="img-fluid " src="../images/abt.webp" alt='best web services'></img>
                   </div>
                 </div>
                 <div className="col-lg-7">
@@ -391,7 +391,7 @@ function Blogs(){
                   <img
                     className="img-fluid"
                     src="../images/others/logo-alt.svg"
-                    alt="infygain logo"
+                    alt="best it supports"
                   ></img>
                 </p>
               </div>

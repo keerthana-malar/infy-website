@@ -691,7 +691,7 @@ function BestService({load,setLoad}) {
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right" data-aos-duration="1000">
              <div className='lmk'>
-               <img src="/images/laptopabout.jpg" className='image-fluid'/>
+               <img src="/images/laptopabout.webp" alt='best laptop services' className='image-fluid'/>
              </div>
              <div className='butk'>
                <button className='btn butks'>
@@ -856,7 +856,7 @@ function BestService({load,setLoad}) {
                
         
                <div className='lmk1'>
-                 <img src="/images/desk.jpg" className='image-fluid'/>
+                 <img src="/images/desk.webp" alt='best desktop services' className='image-fluid'/>
                </div>
                <div className='butk'>
                <button className='btn butks'><a href="https://infygain.com/onlinestore/products/ca/148" className='hol '><FaCartPlus/>  buy now</a></button>
@@ -869,7 +869,7 @@ function BestService({load,setLoad}) {
         <div className='row'>
             <div className='col-md-6 col-lg-6 popp' data-aos="fade-right" data-aos-duration="1000">
              <div className='lmk1 coverage'>
-               <img src="/images/cns.jpg" className='image-fluid'/>
+               <img src="/images/cns.webp" alt='best computer services'  className='image-fluid'/>
              </div>
              
                
@@ -910,7 +910,7 @@ function BestService({load,setLoad}) {
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right"  data-aos-duration="1000">
              <div className='lmk'>
-               <img src="/images/systemadmin_1.jpg" className='image-fluid'/>
+               <img src="/images/systemadmin_1.webp" alt='best Complete Network services' className='image-fluid'/>
              </div>
              <div className='butk'>
                <button className='btn butks'>
@@ -1074,7 +1074,7 @@ function BestService({load,setLoad}) {
             </div>
           <div className='col-md-5 col-lg-5 olk' data-aos="fade-left"  data-aos-duration="1000">
                <div className='lmk2'>
-                 <img src="/images/network1.jpg" className='image-fluid'/>
+                 <img src="/images/network1.webp" alt='best server services' className='image-fluid'/>
                </div>
                <div className='butk'>
                <button className='btn butks'>
@@ -1089,7 +1089,7 @@ function BestService({load,setLoad}) {
         <div className='row'>
             <div className='col-md-6 col-lg-6 popp' data-aos="fade-right" data-aos-duration="1000">
              <div className='lmk coved'>
-               <img src="/images/ld.avif" className='image-fluid'/>
+               <img src="/images/ld.webp" alt="best cctv and bio-metrices services" className='image-fluid'/>
              </div>
              
                
@@ -1126,7 +1126,7 @@ function BestService({load,setLoad}) {
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right"  data-aos-duration="1000">
              <div className='lmk'>
-               <img src="/images/cctvservice.avif" className='image-fluid'/>
+               <img src="/images/cctvservice.webp" alt="best CCTV services" className='image-fluid'/>
              </div>
              <div className='butk'>
                <button className='btn butks'>
@@ -1278,7 +1278,7 @@ function BestService({load,setLoad}) {
             </div>
           <div className='col-md-5 col-lg-5 olk' data-aos="fade-left"  data-aos-duration="1000">
                <div className='lmk2'>
-                 <img src="/images/biometric.avif" className='image-fluid'/>
+                 <img src="/images/biometric.webp" alt="best bio-metrices services" className='image-fluid'/>
                </div>
                <div className='butk'>
                <button className='btn butks'>
@@ -1295,7 +1295,7 @@ function BestService({load,setLoad}) {
         <div className='row'>
             <div className='col-md-6 col-lg-6 popp' data-aos="fade-right" data-aos-duration="1000">
              <div className='lmk covera'>
-               <img src="/images/cb.jpg" className='image-fluid'/>
+               <img src="/images/cb.webp" alt='best cctv services' className='image-fluid'/>
              </div>
              
                
@@ -1331,7 +1331,7 @@ function BestService({load,setLoad}) {
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right"  data-aos-duration="1000">
              <div className='lmk'>
-               <img src="/images/projectorsservice.avif" className='image-fluid'/>
+               <img src="/images/projectorsservice.webp" alt='best projector services' className='image-fluid'/>
              </div>
              <div className='butk'>
                <button className='btn butks'>
@@ -1471,7 +1471,7 @@ function BestService({load,setLoad}) {
             </div>
           <div className='col-md-5 col-lg-5 olk' data-aos="fade-left"  data-aos-duration="1000">
                <div className='lmk2'>
-                 <img src="/images/smartclass.avif" className='image-fluid'/>
+                 <img src="/images/smartclass.webp" alt='best smarttv services' className='image-fluid'/>
                </div>
                <div className='butk'>
                <button className='btn butks'>
@@ -1486,7 +1486,7 @@ function BestService({load,setLoad}) {
         <div className='row'>
             <div className='col-md-6 col-lg-6 popp' data-aos="fade-right" data-aos-duration="1000">
              <div className='lmk1 coverage'>
-               <img src="/images/pro.jpg" className='image-fluid'/>
+               <img src="/images/pro.webp" alt='best av solution' className='image-fluid'/>
              </div>
              
                
@@ -1523,7 +1523,7 @@ function BestService({load,setLoad}) {
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right"  data-aos-duration="1000">
              <div className='lmk1'>
-               <img src="/images/compurter_access.avif" className='image-fluid'/>
+               <img src="/images/compurter_access.webp" alt='best computer accessories' className='image-fluid'/>
              </div>
              <div className='butk'>
                <button className='btn butks'>
@@ -1666,7 +1666,7 @@ function BestService({load,setLoad}) {
             </div>
           <div className='col-md-5 col-lg-5 olk' data-aos="fade-left"  data-aos-duration="1000">
                <div className='lmk2 covera'>
-                 <img src="/images/com_acc.jpg" className='image-fluid mt-5'/>
+                 <img src="/images/com_acc.webp" alt='best computer accessories' className='image-fluid mt-5'/>
                </div>
                <div className='butk'>
                <button className='btn butks'>
@@ -1681,7 +1681,7 @@ function BestService({load,setLoad}) {
         <div className='row'>
             <div className='col-md-6 col-lg-6 popp' data-aos="fade-right" data-aos-duration="1000">
              <div className='lmk'>
-               <img src="/images/ca.jpg" className='image-fluid'/>
+               <img src="/images/ca.webp" alt='best computer accessories' className='image-fluid'/>
              </div>
              
                
@@ -1717,7 +1717,7 @@ function BestService({load,setLoad}) {
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right"  data-aos-duration="1000">
              <div className='lmk1'>
-               <img src="/images/7832583.jpg" className='image-fluid'/>
+               <img src="/images/7832583.webp" alt='best Laptop Desktop Rent and services' className='image-fluid'/>
              </div>
              <div className='butk'>
                <button className='btn butks mt-5'>
@@ -1862,7 +1862,7 @@ function BestService({load,setLoad}) {
             </div>
           <div className='col-md-5 col-lg-5 olk' data-aos="fade-left"  data-aos-duration="1000">
                <div className='lmk2'>
-                 <img src="/images/desktop_rent.jpg" className='image-fluid'/>
+                 <img src="/images/desktop_rent.webp" alt='best desktop services' className='image-fluid'/>
                </div>
                <div className='butk'>
                <button className='btn butks'>
@@ -1877,7 +1877,7 @@ function BestService({load,setLoad}) {
         <div className='row'>
             <div className='col-md-6 col-lg-6 popp' data-aos="fade-right" data-aos-duration="1000">
              <div className='lmk1'>
-               <img src="/images/laptop.jpg" className='image-fluid'/>
+               <img src="/images/laptop.webp" alt='best laptop and desktop services' className='image-fluid'/>
              </div>
              
                

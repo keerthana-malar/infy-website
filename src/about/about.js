@@ -15,8 +15,8 @@ function about() {
                 <div className="Tilt-inner">
                   <img
                     className="img-fluid"
-                    src="/images/others/services.png"
-                    alt="Service Image"
+                    src="/images/others/services.webp"
+                    alt="best services"
                   />
                 </div>
               </Tilt>
@@ -42,7 +42,7 @@ function about() {
                       <div className="col-3">
                         <img
                           className="img-fluid experienceimg"
-                          src="/images/icons/certificatenew.png"
+                          src="/images/icons/certificatenew.webp"
                         ></img>
                       </div>
                       <div className="col-9">
@@ -58,7 +58,7 @@ function about() {
                       <div className="col-3">
                         <img
                           className="img-fluid"
-                          src="/images/icons/supportnew.png"
+                          src="/images/icons/supportnew.webp"
                         ></img>
                       </div>
                       <div className="col-9">

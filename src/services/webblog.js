@@ -106,7 +106,7 @@ function Webblog() {
             blogFiltered.map((blog, index) => (
               <div className="blogin">
               <div className="blgimbx">
-                <img className="img-fluid" src={"uploads/" + blog.img}></img>
+                <img className="img-fluid" alt="best seo blogs" src={"uploads/" + blog.img}></img>
               </div>
               <div className="blgconbx">
                 <div className="cat-tit">

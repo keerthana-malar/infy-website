@@ -102,7 +102,7 @@ const CareerForm = () => {
     </div>
 
         <div className='form-img'>
-           <img src='/images/careerForm.webp' className='image-fluid'/>
+           <img src='/images/careerForm.webp' alt='best jobs' className='image-fluid'/>
         </div> 
     </div>
     <div className='col-md-6 col-lg-6'>

@@ -163,26 +163,26 @@ const Career =()=>{
   <div class="col-md-4 col-lg-4 col-sm-4 boxs" >
   
       <div className="title_head">
-      <img src="/images/title.png" className="title_side"/>
+      <img src="/images/title.png" alt="best career" className="title_side"/>
         <div className="headerpart" >{values.title}</div>
         </div>
         <div className="imc">
           <div className="open">
-        <img src="/images/qulification.png" className="qua"/>
+        <img src="/images/qulification.png" alt="best career" className="qua"/>
         <p className="parl">{values.degree} </p>
         </div >
         <div className="open">
-          <img src="/images/openings.png" className="ope"/>
+          <img src="/images/openings.png" alt="best career" className="ope"/>
        
        <p className="parl"> {values.noofopening} </p>
         </div>
         <div className="open">
-        <img src="/images/experience.png" className="exp"/> 
+        <img src="/images/experience.png" alt="best career" className="exp"/> 
         
         <p className="parl">{values.exp} </p>
         </div>
       <div className="open">
-        <img src="/images/location.png" className="loc"/>
+        <img src="/images/location.png" alt="best career" className="loc"/>
          <p className="parl" >Coimbatore </p></div>
       </div>
       <div className="bth">

@@ -52,7 +52,7 @@ function PartnerBlog() {
 
     const logos = partnerLogos.map((item, index) => (
         <div key={index} className="logo-box1">
-            <img src={item} alt={`Logo ${index}`} className='infyimg' />
+            <img src={item} alt='best partners' className='infyimg'  />
         </div>
     ));
     const settings = {
@@ -105,14 +105,14 @@ function PartnerBlog() {
                     </div>
                     <div className=' col-md-4 partnerphoto' data-aos="fade-left" 
      data-aos-duration="1000">
-                        <img src="/images/partner2members.webp" />
+                        <img src="/images/partner2members.webp" alt='best partners'/>
                     </div>
                 </div>
                 {/* second one */}
                 <div className='row firstonebox '>
                     <div className=' col-md-4 partnerphoto2' data-aos="fade-right" 
      data-aos-duration="1000">
-                        <img src="/images/partner_groupcirlce.webp" />
+                        <img src="/images/partner_groupcirlce.webp" alt='best partners'/>
                     </div>
                     <div className='col-md-8 box1withtext firsttow1' data-aos="fade-left"
      data-aos-duration="1000">

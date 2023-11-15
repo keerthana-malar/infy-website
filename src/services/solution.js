@@ -27,7 +27,7 @@ function websolution() {
         <div className="sl">
           <div className="solbox solbx2">
             <div className="solimgbx">
-              <img className="img-fluid" src="./images/seo/expert.png"></img>
+              <img className="img-fluid" alt="best seo services" src="./images/seo/expert.png"></img>
             </div>
             <div className="soltit">Expert team</div>
             <div className="soline"></div>
@@ -37,7 +37,7 @@ function websolution() {
           </div>
           <div className="solbox solbx3">
             <div className="solimgbx">
-              <img className="img-fluid" src="./images/seo/progress.png"></img>
+              <img className="img-fluid" alt="best seo services" src="./images/seo/progress.png"></img>
             </div>
             <div className="soltit">Best Analysis</div>
             <div className="soline"></div>
@@ -47,7 +47,7 @@ function websolution() {
           </div>
           <div className="solbox solbx4">
             <div className="solimgbx">
-              <img className="img-fluid" src="./images/seo/update.png"></img>
+              <img className="img-fluid" alt="best seo services" src="./images/seo/update.png"></img>
             </div>
             <div className="soltit">Auto Update</div>
             <div className="soline"></div>
@@ -57,7 +57,7 @@ function websolution() {
           </div>
           <div className="solbox solbx5">
             <div className="solimgbx">
-              <img className="img-fluid" src="./images/seo/achieve.png"></img>
+              <img className="img-fluid" alt="best seo services" src="./images/seo/achieve.png"></img>
             </div>
             <div className="soltit">Target Fullfill</div>
             <div className="soline"></div>

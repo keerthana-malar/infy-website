@@ -104,10 +104,12 @@ const IotBanner = () => {
             <img
               className="iot-ani-img"
               src="/images/slider-shape1.png"
+              alt="best it supports"
             />
             <img
               className="iot-ani1-img"
               src="/images/slider-shape2.png"
+              alt="best it services"
             />
           </div>
         )}

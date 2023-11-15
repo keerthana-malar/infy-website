@@ -23,10 +23,10 @@ function aboutclient() {
             <div className="clientBox">
               <div className="clientImgBox">
                 <div className="clientImg">
-                  <img className="img-fluid" src="/images/abt.webp"></img>
+                  <img className="img-fluid" src="/images/abt.webp" alt="top reviews"></img>
                 </div>
                 <div className="clientQuote">
-                  <img src="/images/Quote.svg"></img>
+                  <img src="/images/Quote.svg" alt="best feedback"></img>
                 </div>
               </div>
               <div className="clientName">

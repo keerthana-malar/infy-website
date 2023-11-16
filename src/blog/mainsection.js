@@ -66,9 +66,9 @@ function Mainsection() {
                 <i className="fa-solid fa-calendar-days"></i>{blogDate}
               </time>
               <br></br>
-              <p className="text-muted blog-content">
-                {stripHTMLTags(blogs.content)}
-              </p>
+              <div dangerouslySetInnerHTML={{__html:blogs.content}} className="text-muted blog-content">
+                
+              </div>
               <div className="reviewsection">
                 <i class="fa fa-solid fa-quote-left"></i>
                 <p className="review">
@@ -79,7 +79,6 @@ function Mainsection() {
                 </p>
               </div>
               <br></br>
-              
               <hr></hr>
             </div>
           </div>
@@ -88,9 +87,9 @@ function Mainsection() {
     </>
   );
 }
-function stripHTMLTags(html) {
-  const temp = document.createElement('div');
-  temp.innerHTML = html;
-  return temp.textContent || temp.innerText;
-}
+// function stripHTMLTags(html) {
+//   const temp = document.createElement('div');
+//   temp.innerHTML = html;
+//   return temp.textContent || temp.innerText;
+// }
 export default Mainsection;

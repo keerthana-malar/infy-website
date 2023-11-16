@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 :root {
   --warning: #ffc107;
-  --wh:rgb(243, 243, 243);
+  --wh: rgb(243, 243, 243);
   --dark: #000000;
   --pri: #5e6fb5;
   --sec: #ee6196;
   --sub: #2c46ad;
-
 }
 /* .slider {
   height: 80vh;
 } */
-.blogDate{
+.blogDate {
   background-color: var(--pri);
   width: 50px;
   height: 50px;
@@ -24,7 +23,7 @@
   bottom: 0px;
   margin: 0px 20px;
 }
-.blogDate1{
+.blogDate1 {
   background-color: var(--pri);
   width: 50px;
   height: 50px;
@@ -40,14 +39,14 @@
   /* margin-bottom: 200px; */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-.blogh{
+.blogh {
   height: 420px;
 }
-.blogh img{
+.blogh img {
   width: 100%;
   height: 100%;
 }
-.blogp{
+.blogp {
   margin-top: 30px;
 }
 .sliderBox {
@@ -345,8 +344,8 @@ left: 100px;*/
   font-size: 60px;
   color: #f7f9fa;
 }
-.iconings:hover{
-  color:var(--sec);
+.iconings:hover {
+  color: var(--sec);
 }
 /* Recent Projects  */
 
@@ -392,7 +391,6 @@ left: 100px;*/
 /* Our Experience  */
 .ourExpSec {
   padding: 50px 0;
-
 }
 .ourExpFoot {
   display: flex;
@@ -407,12 +405,12 @@ left: 100px;*/
   margin-bottom: 10px;
   list-style: none;
 }
-.ico-list-colo{
-  color:var(--pri);
+.ico-list-colo {
+  color: var(--pri);
   padding-right: 8px;
   font-size: 19px;
 }
-.testimonialBox{
+.testimonialBox {
   padding: 50px;
 }
 .list-home li:hover {
@@ -433,9 +431,6 @@ left: 100px;*/
   background-repeat: no-repeat;
   background-size: cover;
   background-color: var(--bgc);
-
-
-  
 }
 .testimonialBox {
   box-shadow: 0 0 10px var(--bgs);
@@ -460,10 +455,10 @@ left: 100px;*/
   display: flex;
   align-items: center;
 }
-.clienttitle{
+.clienttitle {
   color: var(--warning);
   font-weight: 750;
-  font-family: 'Roboto', "sans-serif";
+  font-family: "Roboto", "sans-serif";
 }
 .clientQuotes {
   height: 60px;
@@ -481,12 +476,10 @@ left: 100px;*/
 }
 .clientQuotes img {
   scale: 0.5;
- 
 }
 
 .clientQuote img {
   scale: 0.5;
- 
 }
 .clientImg {
   height: 80px;
@@ -565,7 +558,6 @@ left: 100px;*/
   flex-direction: column;
   padding: 10px;
   display: none;
-
 }
 .home-slide .hom-sld-img {
   width: 98%;
@@ -580,19 +572,18 @@ left: 100px;*/
 
 .home-slide {
   position: relative;
-
 }
 .home-slider {
   position: relative;
 }
-.home-slide .mid-titles{
+.home-slide .mid-titles {
   color: var(--pri);
   font-size: 26px;
 }
 
 .home-slide:hover .home-cont-overlay {
   display: block;
-  border-radius:10px;
+  border-radius: 10px;
 }
 .home-slider:hover .home-arrow {
   display: block;
@@ -619,18 +610,19 @@ left: 100px;*/
   display: none;
 }
 .ho-arr1 {
-  background-color: red;}
-.home-arrow:hover{
+  background-color: red;
+}
+.home-arrow:hover {
   background-color: var(--pri);
   color: #fff;
 }
-.home-arrow1:hover{
+.home-arrow1:hover {
   background-color: var(--pri);
   color: #fff;
 }
 
-.ho-arr1{
-  position: relative; 
+.ho-arr1 {
+  position: relative;
   right: 20px;
   top: 200px;
   display: flex;
@@ -658,28 +650,28 @@ left: 100px;*/
 .home-sliderr {
   margin-top: 50px;
 }
-.mains-heading-color{
+.mains-heading-color {
   font-size: 20px;
   color: var(--pri);
 }
-.home-about-title{
+.home-about-title {
   font-size: 45px;
 }
-.home-ourservice-des{
+.home-ourservice-des {
   font-size: 16px;
   color: #7b7d86 !important;
 }
-.text-lights{
+.text-lights {
   color: #f7f9fa;
-  font-size: 15px; 
+  font-size: 15px;
 }
-.text-lights:hover{
+.text-lights:hover {
   color: white;
 }
-.ourser-btn{
+.ourser-btn {
   padding-top: 20px;
 }
-.slider-below-content{
+.slider-below-content {
   padding-bottom: 50px;
 }
 .btn-servicehome {
@@ -692,9 +684,10 @@ left: 100px;*/
   font-size: 15px;
   padding: 20px;
 }
-.serviceIt{
-  color: var(--pri);}
-.home-about-ttles{
+.serviceIt {
+  color: var(--pri);
+}
+.home-about-ttles {
   font-size: 40px;
   text-align: center;
 }
@@ -706,32 +699,26 @@ left: 100px;*/
 @media (width <= 1200px) {
   .iconings {
     font-size: 40px;
-    
   }
 }
 
-.serv-home-sec{
+.serv-home-sec {
   padding-bottom: 20px;
 }
 
-@media (width<=360px){
+@media (width<=360px) {
   .client-pro {
     margin: 0;
     padding: 0;
   }
-.client-pro img{
-  height: 100%;
-  width: 130%;
-  
-}
-}
-
-@media (width=360px){
-  .slider-below-content {
-margin-top: -140px;
+  .client-pro img {
+    height: 100%;
+    width: 130%;
   }
 }
 
-
-
-
+@media (width=360px) {
+  .slider-below-content {
+    margin-top: -140px;
+  }
+}

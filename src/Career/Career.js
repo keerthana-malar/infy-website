@@ -55,9 +55,9 @@ const Career =()=>{
     if (values.name === "") {
         // setErrors("Title Must Be Filled 🤔");
         // setShow(true);
-        console.log(1)
+        // console.log(1)
       } else {
-        console.log(0)
+        // console.log(0)
         const formData = new FormData();
         formData.append("file", file);
         formData.append("name", values.name);
@@ -68,7 +68,7 @@ const Career =()=>{
         formData.append("selfintro", values.selfintro);
 
 
-        console.log("fd",formData)
+        // console.log("fd",formData)
 
         axios.post("https://infygain.in/api/carformdata", formData)
 
@@ -98,23 +98,23 @@ const Career =()=>{
     
   };
 
-  const handleOk = () => {
-    setLoading(true);
-    setFd({
-        name,
-        email,
-        phno,
-        position,
-        resume
-    })
-    setLoading(false);
-    setOpen(false);
-    setName('')
-    setEmail('')
-    setPhno('')
-    setPosition('')
-    setResume('')  
-  };
+  // const handleOk = () => {
+  //   setLoading(true);
+  //   setFd({
+  //       name,
+  //       email,
+  //       phno,
+  //       position,
+  //       resume
+  //   })
+  //   setLoading(false);
+  //   setOpen(false);
+  //   setName('')
+  //   setEmail('')
+  //   setPhno('')
+  //   setPosition('')
+  //   setResume('')  
+  // };
 
   const handleCancel = () => {
     setOpen(false);
@@ -200,11 +200,11 @@ const Career =()=>{
     <Modal
         footer={null}
         open={open}
-        onOk={
-            () => {
-                handleOk()
-            }
-        }
+        // onOk={
+        //     () => {
+        //         handleOk()
+        //     }
+        // }
         onCancel={handleCancel}
         centered
    
@@ -215,14 +215,14 @@ const Career =()=>{
             <h3>Enter Your Details</h3>
             <form className='careerForm' onSubmit={handleSubmit}>   
                   
-                <input type='text' name='name' placeholder='Name' value={values.name} onChange={handleInput} required/>
-                <input type='text' name='email' placeholder='Email' value={values.email} onChange={handleInput} required/>
-                <input type='text' name='phno' placeholder='phone No' value={values.phno}  onChange={handleInput} required/>
+                <input type='text' name='name' placeholder='Name'  onChange={handleInput} required/>
+                <input type='text' name='email' placeholder='Email'  onChange={handleInput} required/>
+                <input type='text' name='phno' placeholder='phone No'   onChange={handleInput} required/>
 
-                <select name='position' value={values.position} onChange={handleInput}>
+                <select name='position' onChange={handleInput}>
            <option>--Please select the position--</option>
             {data.map((vale, index) => (
-            <option key={index} value={vale.title}>
+            <option key={index}>
                {vale.title}
            </option>
     ))}
@@ -230,7 +230,7 @@ const Career =()=>{
                 
                 <div className='form-input'>
                    
-                <select name='exp' value={values.exp} onChange={handleInput}>
+                <select name='exp'  onChange={handleInput}>
                             <option>Please Choose an Experience</option>
                             <option>1</option>
                             <option>2</option>
@@ -240,13 +240,13 @@ const Career =()=>{
                 <div className='form-input'>
                         {/* <label>A brief about the candidate <span className='label-star'>*</span></label> */}
                         {/* <label>Comments <span className='label-star'>*</span></label> */}
-                        <textarea type='text'  value={values.selfintro} placeholder='Comment here' required/> 
+                        <textarea name='selfintro' onChange={handleInput}  placeholder='Comment here' required/> 
                 </div>
                
                 <input
                             type="file"
                             name="img"
-                            value={values.img}
+                            
                             className="form-group"
                             onChange={(e) => {
                             handleInput(e);

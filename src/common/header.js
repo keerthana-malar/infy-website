@@ -246,8 +246,18 @@ function header() {
                 </div>
               </li>
         <li>
-          <Link className="mlink" to="/blogs">
+          <Link className="mlink" to="/mainblogs">
             Blog
+          </Link>
+        </li>
+        <li>
+          <Link className="mlink" to="/career">
+          Career
+          </Link>
+        </li>
+        <li>
+          <Link className="mlink" to="/partner">
+            Partner
           </Link>
         </li>
         <li>

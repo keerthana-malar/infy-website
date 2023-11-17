@@ -187,9 +187,6 @@ const EditCareers = () => {
                   value={values.experience}
                 ></input>
               </div>
-            </div>
-
-            <div className="row mb-3">
               <div className="col">
               <input
                   className="form-control"
@@ -199,14 +196,18 @@ const EditCareers = () => {
                   onChange={handleInput}
                 />
                 </div>
+            </div>
+
+            <div className="row mb-3">
+             
               <div className="col">
-              <input
+              <textarea
                   className="form-control"
                   name="intro"
                   value={values.intro}
                   placeholder="Intro"
                   onChange={handleInput}
-                ></input>
+                ></textarea>
               </div>
               
               {/* <div className="col">

@@ -53,7 +53,7 @@ function Mainsection() {
       <div className="container main mt-5 ">
         <div className="blogsection ">
           <div className="row">
-            <div className="col-md-12 outer">
+            <div className="col-md-12 ">
               {/* <button className='btns'>Infygain</button>    <button className='btns blogbutton'>Infygain</button><br></br><br></br> */}
               
               <div className="image1">

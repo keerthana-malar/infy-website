@@ -45,7 +45,7 @@ function Mainsection() {
       });
   }, [id]);
   const rawDate = blogs.date;
-        const blogDate = rawDate.slice(0, 10);
+    const blogDate = rawDate.slice(0, 10);
         
 
   return (
@@ -56,8 +56,12 @@ function Mainsection() {
             <div className="col-md-12 outer">
               {/* <button className='btns'>Infygain</button>    <button className='btns blogbutton'>Infygain</button><br></br><br></br> */}
               
-              <div className="image">
-                <img className="img-fluid" src={"../uploads/"+ blogs.img}></img>
+              <div className="image1">
+                <img className="" 
+                src={"../uploads/"+ blogs.img}
+                // src="https://infygain.com/images/blogs/2c3db84bd22a9675578ea9fc1c4cd276.jpg"
+                >
+                </img>
               </div>
               <p className="sub-title">
                 {blogs.title}

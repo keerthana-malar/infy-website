@@ -9,7 +9,13 @@ function Mainsection() {
 
   useEffect(() => {
     axios.get("https://infygain.in/api/blogdata").then((res) => {
-      setBlogs(res.data);
+      // sorted by date
+      const sortedBlogs = res.data.sort((a, b) => {
+        const dateA = new Date(a.date);
+        const dateB = new Date(b.date);
+        return dateB - dateA;
+      });
+      setBlogs(sortedBlogs);
     });
   }, []);
 

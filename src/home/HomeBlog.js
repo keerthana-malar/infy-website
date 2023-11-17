@@ -60,7 +60,15 @@ const HomeBlog = () => {
 
   useEffect(() => {
     axios.get("https://infygain.in/api/blogdata").then((res) => {
-      setBlogs(res.data);
+
+    // sorted by date
+      const sortedBlogs = res.data.sort((a, b) => {
+        const dateA = new Date(a.date);
+        const dateB = new Date(b.date);
+        return dateB - dateA;
+      });
+
+      setBlogs( sortedBlogs);
       
     });
   }, []);
@@ -69,7 +77,6 @@ const HomeBlog = () => {
     const timestamp = new Date(rawDate);
     const month = timestamp.getMonth() + 1;
     const date = timestamp.getDate();
-  
     return date
   }
   function month(id) {
@@ -84,7 +91,7 @@ const HomeBlog = () => {
     const monthName = monthNames[monthIndex];
     return monthName;
 }
-console.log(blogs[0])
+
   return (
     <>
       <section className="homeBlogSec">

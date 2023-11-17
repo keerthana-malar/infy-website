@@ -27,7 +27,7 @@ const IotBanner = () => {
     // console.log(currSlide)
     const interval = setInterval(() => {
       setCurrSlide((prevSlide) => (prevSlide + 1) % images.length);
-    }, 5000);
+    }, 500000);
 
     return () => clearInterval(interval);
   });
@@ -39,11 +39,17 @@ const IotBanner = () => {
 
   // banner slider bg image style
   const backgroundImage = {
+    // backgroundImage: `url(${images[currSlide]})`,
+    // height: "100vh",
+    // backgroundSize: "cover",
+    // backgroundPosition: "center",
+    // gridArea:" 1 / 1 / 5 / 5",
+    // width: "100%"
     backgroundImage: `url(${images[currSlide]})`,
     height: "100vh",
     backgroundSize: "cover",
-    backgroundPosition: "60%",
-    // backgroundAttachment: "fixed",
+    backgroundPosition: "70%",
+    width: "100vw",
   };
 
   return (

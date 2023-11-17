@@ -1,19 +1,19 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import "../css/admin.css";
 import Sidebars from "./sidebar";
 import Alert from "react-bootstrap/Alert";
 import axios from "axios";
-import "froala-editor/css/froala_style.min.css";
-import "froala-editor/css/froala_editor.pkgd.min.css";
-import FroalaEditor from "react-froala-wysiwyg";
-import "react-quill/dist/quill.snow.css";
-import ReactQuill from "react-quill";
+import ReactQuill from 'react-quill';
+import 'react-quill/dist/quill.snow.css'; // Quill styles
+
 
 const AddBlog = () => {
   const [categories, setCategories] = useState([]);
   const [errors, setErrors] = useState("");
   const [show, setShow] = useState(false);
   const [showMsg, setShowMsg] = useState(false);
+
+
 
   // ! Get Category Data
   useEffect(() => {
@@ -37,6 +37,10 @@ const AddBlog = () => {
     status: "Active",
     intro:"",
   });
+
+
+
+
 
   console.log(values.title);
 
@@ -110,16 +114,26 @@ const AddBlog = () => {
     }
   }
   const modules = {
+    
     toolbar: [
-      [{ 'header': '1'}, { 'header': '2' }, { 'header': '3' }, { 'header': '4' }, 'bold', 'italic', 'underline', 'strike', 'blockquote', 'code-block'],
-      [{ 'list': 'ordered'}, { 'list': 'bullet' }, ],
-      ['undo', 'redo'], 
-       [{ 'indent': '-1'}, { 'indent': '+1' }],
-      ['clean'],
-      [{ 'align': [] }],
-      ['horizontal-line'],
-    ],
+      // Define other toolbar options as needed
+      [{ 'header': '1'}, {'header': '2'}, { 'font': [] }],
+      [{size: []}],
+      ['bold', 'italic', 'underline', 'strike', 'blockquote'],
+      [{'list': 'ordered'}, {'list': 'bullet'}, 
+       {'indent': '-1'}, {'indent': '+1'}],
+      ['link', 'image', 'video'],
+      ['clean']
+    ]
   };
+
+  const formats = [
+    'header', 'font', 'size',
+    'bold', 'italic', 'underline', 'strike', 'blockquote',
+    'list', 'bullet', 'indent',
+    'link', 'image', 'video'
+  ];
+
 
   return (
     <>
@@ -234,6 +248,7 @@ const AddBlog = () => {
                 }
                   placeholder={"Write something awesome..."}
                   modules={modules}
+                  formats={formats}
               />
                   
                 </div>

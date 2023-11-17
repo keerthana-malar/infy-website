@@ -3,6 +3,8 @@ import { useEffect, useState } from "react";
 import { FaBloggerB } from "react-icons/fa";
 import { HiArrowLongRight } from "react-icons/hi2";
 import Slider from "react-slick";
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 import {Link} from "react-router-dom";
 
 function Webblog() {
@@ -68,7 +70,7 @@ function Webblog() {
     });
   }, []);
 
-  const blogFiltered = blogs.filter((val,index) => val.category === "Web Services")
+  const blogFiltered = blogs.filter((val,index) => val.category === "Web and App")
 
 
 //       function dateSlice(id){
@@ -99,14 +101,17 @@ function Webblog() {
           </div>
         </div>
 
-        <div className="blogbx2 container">
+        <div className="blogbx container">
 
-          {/* <Slider {...settings}> */}
+          <Slider {...settings}>
           {
             blogFiltered.map((blog, index) => (
               <div className="blogin">
               <div className="blgimbx">
-                <img className="img-fluid" alt="best seo blogs" src={"uploads/" + blog.img}></img>
+                <img className="img-fluid" alt="best seo blogs" 
+                src={"uploads/" + blog.img}
+                // src="/images/cb.webp"
+                ></img>
               </div>
               <div className="blgconbx">
                 <div className="cat-tit">
@@ -115,8 +120,8 @@ function Webblog() {
                 <div className="bgconbx">
                  {blog.title}
                 </div>
-                <div className="bgparabx">
-                It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                <div className="bgparabx" dangerouslySetInnerHTML={{__html:blog.intro}}>
+
                 </div>
                 <div className="btn read-btn">
                   <Link to={"/blogs/" + blog.id}> Read More <HiArrowLongRight/></Link> 
@@ -162,7 +167,7 @@ function Webblog() {
               <div className="btn read-btn">Read More <HiArrowLongRight/></div>
             </div>
           </div> */}
-          {/* </Slider> */}
+          </Slider>
         </div>
       </div>
     </>

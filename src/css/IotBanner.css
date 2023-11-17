@@ -133,7 +133,7 @@ color:white;
 }
 
 .iot-bgimg{
-  animation: shrink 12s linear infinite;
+  /* animation: shrink 12s linear infinite; */
   /* z-index: 4; */
 } 
 

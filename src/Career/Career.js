@@ -159,7 +159,9 @@ const Career =()=>{
  
 
   <div className="row car-boxs">
-  {data.map((values, index) =>(
+  {
+    data ?
+  data.map((values, index) =>(
   <div class="col-md-4 col-lg-4 col-sm-4 boxs" >
   
       <div className="title_head">
@@ -194,7 +196,12 @@ const Career =()=>{
       </div>
       
     </div>
-   ))}
+   ))
+  : 
+  <>
+    <span className="car-info">Currently No Openings</span>
+  </>
+  }
     </div>
   
     <Modal

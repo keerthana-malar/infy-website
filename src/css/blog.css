@@ -45,6 +45,7 @@
     color: var(--pri);
     font-size: 40px;
     padding-left: 40px;
+    margin-right: 10px;
 }
 .review{
     margin-top: 4px;

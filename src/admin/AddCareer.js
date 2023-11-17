@@ -162,9 +162,6 @@ const AddCareer = () => {
                   onChange={handleInput}
                 ></input>
               </div>
-            </div>
-
-            <div className="row mb-3">
               <div className="col">
               <input
                   className="form-control"
@@ -173,10 +170,13 @@ const AddCareer = () => {
                   onChange={handleInput}
                 />
                 </div>
+            </div>
+
+            <div className="row mb-3">
               <div className="col">
               <textarea
-                  rows="1.5"
-                  className="form-control car-textarea"
+                 
+                  className="form-control "
                   name="intro"
                   placeholder="Intro"
                   onChange={handleInput}

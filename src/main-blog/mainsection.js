@@ -7,8 +7,22 @@ function Mainsection() {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 6;
 
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  },[currentPage])
+
+
   useEffect(() => {
     axios.get("https://infygain.in/api/blogdata").then((res) => {
+
+      const d = res.data
+
+      console.log(new Date (d[8].date) + d[8].title)
+
       // sorted by date
       const sortedBlogs = res.data.sort((a, b) => {
         const dateA = new Date(a.date);
@@ -17,7 +31,7 @@ function Mainsection() {
       });
       setBlogs(sortedBlogs);
     });
-  }, []);
+  }, [blogs]);
 
   const totalItems = blogs.length;
   const totalPages = Math.ceil(totalItems / itemsPerPage);
@@ -54,8 +68,6 @@ function Mainsection() {
   };
 
 
-
-
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = blogs.slice(indexOfFirstItem, indexOfLastItem);
@@ -65,35 +77,70 @@ function Mainsection() {
       <div className="container main-blogs">
         {/* Blog content... */}
         <div className="row">
-        {currentItems.map((item) => (
-          <div key={item.id} className="col-md-4 col-sm-4 mainblogsection">
-            <div className="image-section">
-              <div className="img">
-                <img
-                  className="img-fluid"
-                  src={"uploads/" + item.img}
-                  alt={item.title} 
-                />
-              </div>
-              <div className="content-box p-3">
-                <div className="content-box-content">
-                  <p className="sub-title pri-color t-c">{item.title}</p>
-                  <div
-                    dangerouslySetInnerHTML={{
-                      __html: item.intro,
-                    }}
-                    className="text-muted detailscontent"
-                  ></div>
-                </div>
-              </div>
-              <div className="readmorelink t-c pb-3">
-                <p className="readmoretext">
-                  <Link to={"/blogs/" + item.id}>
-                    <button className="btns">READ MORE</button>
-                  </Link>
-                </p>
-              </div>
+        {currentItems.map((value) => (
+          // <div key={item.id} className="col-md-4 col-sm-4 mainblogsection">
+          //   <div className="image-section">
+          //     <div className="img">
+          //       <img
+          //         className="img-fluid"
+          //         // src={"uploads/" + item.img}
+          //         src="/images/ca.webp"
+          //         alt={item.title} 
+          //       />
+          //     </div>
+          //     <div className="content-box p-3">
+          //       <div className="content-box-content">
+          //         <p className="sub-title pri-color t-c">{item.title}</p>
+          //         <div
+          //           dangerouslySetInnerHTML={{
+          //             __html: item.intro,
+          //           }}
+          //           className="text-muted detailscontent"
+          //         ></div>
+          //       </div>
+          //     </div>
+          //     <div className="readmorelink t-c pb-3">
+          //       <p className="readmoretext">
+          //         <Link to={"/blogs/" + item.id}>
+          //           <button className="btns">READ MORE</button>
+          //         </Link>
+          //       </p>
+          //     </div>
+          //   </div>
+          // </div>
+
+          <div key={value.id} className="col-md-4 blog-one-boxes">
+                  
+          <div className="blogBoxInn ">
+            <div className="blogImgBox">
+            {/* <div className="blogDate">
+                13 <br/>
+                May
+              </div> */}
+              <a className="links" href='/mainblogs'>
+                  <img className="" 
+                  src={`uploads/${value.img}`}
+                
+                  alt={value.title} />  
+                </a>
+                
             </div>
+        
+            <div className="blogContBox blogp">
+              {/* <p className="text-muted">{dateSlice(index)}</p> */}
+              <p className="mid-title">{value.title}</p>
+              <p className="mid-title">{value.intro}</p>
+              
+                   <p className="readmoretext">
+                     <Link to={"/blogs/" + value.id}>
+                       <button className="btns">READ MORE</button>
+                     </Link>
+                   </p>
+           
+              {/* Alternatively, you can use React Router's Link component:
+              <Link to={`/blogs/${value.id}`}>READ MORE</Link> */}
+            </div>
+          </div>
           </div>
         ))}
         </div>

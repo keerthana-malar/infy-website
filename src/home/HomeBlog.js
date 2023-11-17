@@ -92,13 +92,16 @@ console.log(blogs[0])
             <div className="homeBlogTopCont text-center">
                 <p className="mini-title main-color">From Our Blogs</p>
                 <p className="test-head">Here’s What’s Happening</p>
+                <Link to="/mainblogs" className="btns text-light-blogss">
+               View Blogs &nbsp; <span className="fa fa-arrow-right"></span>{" "}
+              </Link>
             </div>
             
               <div className="homeBlogBox">
               <Slider {...settings}>
         {blogs.map((value, index) => (
           
-          <div key={value.id} className="col-md-4">
+          <div key={value.id} className="col-md-4 blog-one-boxes">
            
             <div className="blogBoxInn blogh">
               <div className="blogImgBox">
@@ -122,7 +125,7 @@ console.log(blogs[0])
               <div className="blogContBox blogp">
                 {/* <p className="text-muted">{dateSlice(index)}</p> */}
                 <p className="mid-title">{value.title}</p>
-                <a className="links" href='/mainblogs'>
+                <a className="links" href={"/blogs/"+value.id}>
                   READ MORE
                 </a>
                 {/* Alternatively, you can use React Router's Link component:

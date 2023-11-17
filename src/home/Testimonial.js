@@ -1,5 +1,5 @@
 import "../css/home.css";
-
+import { Link } from "react-router-dom";
 const Testimonial = () => {
   return (
     <>
@@ -15,7 +15,7 @@ const Testimonial = () => {
                   </p>
                 </div>
                 <div className="col-md-6">
-                  <p className="text-muted  home-baner-con-below">
+                  <p className="text-muted  home-baner-con-belows">
                   "Great team to work with, they understood my requirements
                     and helped me go live within hours, and delivered the
                     results ahead of schedule."
@@ -66,7 +66,7 @@ const Testimonial = () => {
                   <img className="img-fluid" src="/images/webs1.png"></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title">Complete Networking</p>
+                  <p className="mid-title"><Link to="/ServicePage/networking">Complete Networking</Link></p>
                   <p className="tech-desc">
                     Seamless Connectivity <br></br>Solutions
                   </p>
@@ -91,7 +91,7 @@ const Testimonial = () => {
                   <img className="img-fluid 5" src="/images/fingerprint-modified.png"></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title">Security Systems</p>
+                  <p className="mid-title"><Link to="/ServicePage/cctv">Security Systems</Link></p>
                   <p className="tech-desc">24/7 Security Surveillance</p>
                 </div>
               </div>
@@ -114,7 +114,7 @@ const Testimonial = () => {
                   <img className="img-fluid" src="/images/webs6.png"></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title">Web /Graphic Design</p>
+                  <p className="mid-title"><Link to="/ServiceSeo">Web /Graphic Design</Link></p>
                   <p className="tech-desc">
                     Captivating Design<br></br>Experiences
                   </p>
@@ -139,7 +139,7 @@ const Testimonial = () => {
                   <img className="img-fluid" src="/images/cctvs1.png"></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title">AV Solutions</p>
+                  <p className="mid-title"><Link to="/ServicePage/Projectors">AV Solutions</Link></p>
                   <p className="tech-desc">
                     Innovative Presentation <br></br>and Access
                   </p>
@@ -164,7 +164,7 @@ const Testimonial = () => {
                   <img className="img-fluid" src="/images/laptops.png"></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title">Computer & Laptop</p>
+                  <p className="mid-title"><Link to="/ServicePage/laptop&desktop">Computer & Laptop</Link></p>
                   <p className="tech-desc">
                     Reliable Business<br></br> Computing
                   </p>

@@ -1,6 +1,6 @@
 import "../css/home.css";
 import 'font-awesome/css/font-awesome.css';
-
+import { Link } from 'react-router-dom';
 const ourExp = () => {
   return (
     <>
@@ -20,21 +20,21 @@ const ourExp = () => {
                 <div class="row align-items-center ourExpList">
                   <div class="col-md-6">
                   <ul class="list-home">
-                    <li> <i className="fa fas fa-check-circle ico-list-colo"></i>Complete Network Solutions</li>
-                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>Computer/Laptop Sales and Service</li>
-                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>CCTV / Biometrics</li>
-                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>Computer Accessories</li>
-                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>AMC for Computers</li>
+                    <li className="network-solutions-item"> <i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/networking">Complete Network Solutions</Link></li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/laptop&desktop">Computer/Laptop Sales and Service</Link></li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/cctv">CCTV / Biometrics</Link></li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/laptop&desktop">Computer Accessories</Link></li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/laptop&desktop">AMC for Computers</Link></li>
                     </ul>
 
                   </div>
                   <div class="col-md-6">
                   <ul class="list-home">
-                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>Website/SEO Development</li>
-                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>Graphic Designs</li>
-                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>Doorstep Computer Services</li>
-                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>Network Components</li>
-                    <li><i className="fa fas fa-check-circle ico-list-colo"></i>POS / Billing Software</li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServiceSeo">Website/SEO Development</Link></li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServiceSeo">Graphic Designs</Link></li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/networking">Doorstep Computer Services</Link></li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/networking">Network Components</Link></li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/laptop&desktop">POS / Billing Software</Link></li>
                     </ul>
 
                   </div>

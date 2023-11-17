@@ -173,7 +173,7 @@ margin-bottom: 10px;
     color: var(--iotpri);
     
 }
-@media (width <= 740px) {
+@media (width <= 981px) {
     .iot-dropDownMenu{
      display: flex;
      justify-content: end;

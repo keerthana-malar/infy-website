@@ -200,9 +200,9 @@ function header() {
                 <FaCartPlus/>
               </a>
              
-              <a className="head-links" target="_blank" href="https://grayquest.com/institute/united-master">
+              {/* <a className="head-links" target="_blank" href="https://grayquest.com/institute/united-master">
                 < FaCcAmazonPay/>
-              </a>
+              </a> */}
             </div>
           
             <div className="dropDownMenu">
@@ -246,8 +246,18 @@ function header() {
                 </div>
               </li>
         <li>
-          <Link className="mlink" to="/blogs">
+          <Link className="mlink" to="/mainblogs">
             Blog
+          </Link>
+        </li>
+        <li>
+          <Link className="mlink" to="/career">
+          Career
+          </Link>
+        </li>
+        <li>
+          <Link className="mlink" to="/partner">
+            Partner
           </Link>
         </li>
         <li>

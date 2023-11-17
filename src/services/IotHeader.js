@@ -198,9 +198,9 @@ import {
                 <a className="iot-head-link" target="_blank" href="https://infygain.com/onlinestore/">
                   <FaCartPlus/>
                 </a>
-                <a className="iot-head-link" target="_blank" href="https://grayquest.com/institute/united-master">
+                {/* <a className="iot-head-link" target="_blank" href="https://grayquest.com/institute/united-master">
                 < FaCcAmazonPay/>
-              </a>
+              </a> */}
               </div>
             
               <div className="iot-dropDownMenu">

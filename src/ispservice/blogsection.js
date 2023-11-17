@@ -5,13 +5,23 @@ import { useNavigate, useParams } from "react-router-dom";
 import React,{useState,useEffect} from 'react'
 import { Link } from "react-router-dom";
 import '../css/DwBlog.css';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import Slider from 'react-slick';
 
 function Blogsection() {
     const [blogs, setBlogs] = useState([]);
 
     useEffect(() => {
       axios.get("https://infygain.in/api/blogdata").then((res) => {
-        setBlogs(res.data);
+
+        // sorted by date
+        const sortedBlogs = res.data.sort((a, b) => {
+        const dateA = new Date(a.date);
+        const dateB = new Date(b.date);
+        return dateB - dateA;
+      });
+        setBlogs(sortedBlogs);
       });
     }, []);
   
@@ -23,6 +33,61 @@ function Blogsection() {
   const blogfilter = blogs.filter((val, index) => (
     val.category === "ISP Services"
   ));
+
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+   
+    autoplay: true,
+    speed: 3000,
+    autoplaySpeed: 3000,
+    appendDots: dots => (
+     <div>
+
+     </div>
+    ),
+    customPaging: i => (
+      <div
+      style={{
+        width: "30px",
+        color: "blue",
+        border: "1px blue solid"
+      }}
+    >
+      {i + 1}
+    </div>
+    ),
+    
+    responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: false,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 1
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+};
   
   console.log(blogfilter);
     return (
@@ -42,29 +107,34 @@ function Blogsection() {
                         <div className='col-md-3'></div>
                     </div>
                     <div className='row'>
-                    <div className=' col-md-12 dw-blogs'>
+                    <div className=' col-md-12 dw-blog'>
+                
+                <Slider {...settings}>
+
                {blogfilter.map((value, index) => (
 
             <div className='dw-blogs1'>
 
-            <img src={"../uploads/" + value.img} alt='best isp blogs' />
+            <img src= {"uploads/" + value.img} alt='best isp blogs' />
             <div className='dw-blogs2'>
-              <span>Insight</span>
+              <span>
+                ISP Services
+                {/* {value.title} */}
+            </span>
             </div>
             <div className='dw-bg'>
               {/* hiii */}
             </div>
             <div className='dw-blogs3'>
               <Link className=' blog-inn-conse' to="/overblog"><span className=' blog-inn-conse '>{value.title}</span></Link>
-              <p className='blog-main-contentss'>
-                {stripHTMLTags(value.content)}  </p>
+              <div className='blog-main-contentss' dangerouslySetInnerHTML={{__html:value.intro}}>
+                </div>
               <span className='dw-blog-date'>{dateSlice(index)}</span>
             </div>
           </div>
-        ))}
-
-
-
+                ))}
+      
+                </Slider>
       </div>
                         {/* <div className='col-md-4' data-aos="zoom-in-right" data-aos-duration="2000" >
                             <div className=" image-sectionano-blog">

@@ -17,7 +17,9 @@
 .adminMainBox {
   display: flex;
 }
-
+.car-textarea{
+  resize: none;
+}
 /* Sidebar  */
 .sideBar {
   height: 100vh;

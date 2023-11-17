@@ -172,8 +172,19 @@
   padding-bottom: 22px;
   font-size: 15px;
 }
+@media (width <= 600px) {
+  .text-light {
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+  }
+}
 .home-ser-con {
   font-size: 50px;
+  text-align: center;
 }
 .home-ser-con-pink {
   font-size: 30px;
@@ -182,6 +193,12 @@
 @media (width <= 600px) {
   .home-about-ttle {
     font-size: clamp(30px, 4vw, 50px);
+    text-align: center;
+  }
+}
+@media (width <= 360px) {
+  .home-about-ttle {
+    font-size: clamp(25px, 4vw, 50px);
     text-align: center;
   }
 }
@@ -196,13 +213,20 @@
     text-align: center;
   }
 }
-.home-baner-con-below {
+.home-baner-con-belows {
   font-size: 18px;
   color: rgba(12, 9, 9, 0.5);
 }
 @media (width <= 600px) {
-  .home-baner-con-below {
+  .home-baner-con-belows {
     margin-left: 10px;
+  }
+}
+@media (width <= 360px) {
+  .home-baner-con-belows {
+    margin-left: 0px;
+    font-size: 16px;
+    text-align: center;
   }
 }
 /* Sub Service  */
@@ -721,4 +745,16 @@ left: 100px;*/
   .slider-below-content {
     margin-top: -140px;
   }
+}
+.list-home .network-solutions-item a {
+  color: black;
+  text-decoration: none;
+}
+.testiContBox .mid-title a{
+  color: white;
+  text-decoration: none; 
+  
+}
+.testiContBox .mid-title a:hover{
+  color: var(--sec);
 }

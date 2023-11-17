@@ -74,18 +74,14 @@ const Career =()=>{
 
         .then((res) => {
           console.log(res)
-          document.querySelector(".careerForm").reset();
+          var re = document.querySelectorAll(".careerForm");
+          re.forEach((r)=>{
+            r.reset()
+          })
+          console.log(re)
         //   setErrors("Blog Added Successfully 😊😊");
         //   setShowMsg(true);
-        })
-        .catch((err) => {
-          console.log("helloooo" + err);
-        //   setErrors("Something Wrong Pls Try again Later 😥");
-        //   // setErrors(err);
-        //   setShow(true);
-        });
-      }
-      setOpen(false);
+        setOpen(false);
       setValues({
         name: "",
         email: "",
@@ -95,26 +91,35 @@ const Career =()=>{
         selfintro: "",
         img: "",
       });
+        })
+        .catch((err) => {
+          console.log("helloooo" + err);
+        //   setErrors("Something Wrong Pls Try again Later 😥");
+        //   // setErrors(err);
+        //   setShow(true);
+        });
+      }
+      
     
   };
 
-  // const handleOk = () => {
-  //   setLoading(true);
-  //   setFd({
-  //       name,
-  //       email,
-  //       phno,
-  //       position,
-  //       resume
-  //   })
-  //   setLoading(false);
-  //   setOpen(false);
-  //   setName('')
-  //   setEmail('')
-  //   setPhno('')
-  //   setPosition('')
-  //   setResume('')  
-  // };
+  const handleOk = () => {
+    setLoading(true);
+    setFd({
+        name,
+        email,
+        phno,
+        position,
+        resume
+    })
+    setLoading(false);
+    setOpen(false);
+    setName('')
+    setEmail('')
+    setPhno('')
+    setPosition('')
+    setResume('')  
+  };
 
   const handleCancel = () => {
     setOpen(false);
@@ -200,11 +205,11 @@ const Career =()=>{
     <Modal
         footer={null}
         open={open}
-        // onOk={
-        //     () => {
-        //         handleOk()
-        //     }
-        // }
+        onOk={
+            () => {
+                handleOk()
+            }
+        }
         onCancel={handleCancel}
         centered
    

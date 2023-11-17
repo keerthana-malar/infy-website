@@ -72,10 +72,12 @@ const Candidate = () => {
       selector: (row) => {
         return (
           <>
-            <button onClick={() => downloadPdf(row.id)} className="btn btn-warning">
+          <a href={`/uploads/${row.file}`} download>
+            <button  className="btn btn-warning">
               <BiSolidDownload />
               {/* {console.log(row.id)} */}
             </button>
+          </a>
           </>
         );
       },

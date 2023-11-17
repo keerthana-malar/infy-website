@@ -132,7 +132,7 @@
     background-color: #fff;
     position: absolute;
     width: 100%;
-    top: -180px;
+    top: -240px;
     transition: all 0.5s;
     z-index: 5;
 }

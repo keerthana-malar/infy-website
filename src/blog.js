@@ -256,6 +256,16 @@ function Blogs(){
           </Link>
         </li>
         <li>
+          <Link className="mlink" to="/career">
+          Career
+          </Link>
+        </li>
+        <li>
+          <Link className="mlink" to="/partner">
+            Partner
+          </Link>
+        </li>
+        <li>
           <Link className="mlink" to="/contact">
             Contact
           </Link>

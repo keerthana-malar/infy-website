@@ -26,7 +26,7 @@ const IotBlogs = () => {
     return blogDate;
 }
 const blogfilter = blogs.filter((val, index) => (
-  val.category === "IT Supports"
+  val.category === "IT Services"
 ));
 
 console.log(blogfilter);
@@ -114,7 +114,10 @@ console.log(blogfilter);
             <div className='blog-slide '>
               
             
-                <img className='bl-image' alt='best It blogs'  src='/images/image1.webp'/>
+                <img className='bl-image' alt='best It blogs'  
+                // src='/images/image1.webp'
+                src={"uploads/" + value.img}
+                />
                 <div className=' blog-overtext' >
                 
                     <div className='bl-col1'>

@@ -117,7 +117,7 @@ function header() {
             <div className="logoo-box">
               <img
                 className="img-fluid"
-                src="./images/icons/infy-logo.png"
+                src="./images/icons/infy-logo.svg"
                 alt="best web services"
               ></img>
             </div>

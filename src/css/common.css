@@ -42,6 +42,8 @@ body {
   margin-top: 15px;
 }
 .blogp .hb-tilte{
+  display: flex;
+  align-items: center;
   height: 70px;
   overflow: hidden;
 }

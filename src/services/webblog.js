@@ -105,6 +105,12 @@ function Webblog() {
               We have some interesting blog<br></br>
             </p>
             <span className="stt" data-aos="fade-left" data-aos-duration="3000">facts for experiences</span>
+            <div className="web-vb" data-aos="fade-left" data-aos-duration="3000">
+
+            <Link to="/mainblogs" className="btns text-center text-light-blogss">
+               View Blogs &nbsp; <span className="fa fa-arrow-right"></span>{" "}
+              </Link>
+            </div>
           </div>
         </div>
 
@@ -124,13 +130,13 @@ function Webblog() {
                 <div className="cat-tit">
                   <span>{blog.category}</span>
                 </div>
-                <div className="bgconbx">
+                <div className="bgconbx mb-2">
                  {blog.title}
                 </div>
-                <div className="bgparabx" dangerouslySetInnerHTML={{__html:blog.intro}}>
+                {/* <div className="bgparabx" dangerouslySetInnerHTML={{__html:blog.intro.length > 150 ? blog.intro.substring(0, 50) + '...' :  blog.intro.substring(0, 120) + '...' }}>
 
-                </div>
-                <div className="btn read-btn">
+                </div> */}
+                <div className="btn read-btn ">
                   <Link to={"/blogs/" + blog.id}> Read More <HiArrowLongRight/></Link> 
                   </div>
               </div>

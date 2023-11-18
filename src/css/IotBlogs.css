@@ -61,7 +61,7 @@
     padding: 20px;
     width: 75%;
     margin-left: 35px;
-
+    height: 130px;
     display: flex;
     flex-direction: column;  
     box-shadow: 0 13px 29px rgba(0,0,0,.1);
@@ -75,6 +75,7 @@
 }
 .blog-slide img{
     width:350px;
+    height: 300px;
     filter: grayscale(10);
     /* display: flex;
     justify-content: space-between;

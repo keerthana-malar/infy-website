@@ -59,7 +59,7 @@ function Mainsection() {
               <div className="image1">
                 <img className="" 
                 src={"../uploads/"+ blogs.img}
-                // src="https://infygain.com/images/blogs/2c3db84bd22a9675578ea9fc1c4cd276.jpg"
+              
                 >
                 </img>
               </div>

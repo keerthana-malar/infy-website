@@ -9,7 +9,10 @@
   background-image:none;
 }
 
-
+.bth{
+  height: 60px;
+  overflow: hidden;
+}
 
 .job-head span {
   font-size: 35px;

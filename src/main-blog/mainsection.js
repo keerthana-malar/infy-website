@@ -19,11 +19,7 @@ function Mainsection() {
   useEffect(() => {
     axios.get("https://infygain.in/api/blogdata").then((res) => {
 
-      const d = res.data
-
-      console.log(new Date (d[8].date) + d[8].title)
-
-      // sorted by date
+  // sorted by date
       const sortedBlogs = res.data.sort((a, b) => {
         const dateA = new Date(a.date);
         const dateB = new Date(b.date);
@@ -76,7 +72,7 @@ function Mainsection() {
     <>
       <div className="container main-blogs">
         {/* Blog content... */}
-        <div className="row">
+        <div className="row mt-5">
         {currentItems.map((value) => (
           // <div key={item.id} className="col-md-4 col-sm-4 mainblogsection">
           //   <div className="image-section">
@@ -109,7 +105,7 @@ function Mainsection() {
           //   </div>
           // </div>
 
-          <div key={value.id} className="col-md-4 blog-one-boxes">
+          <div key={value.id} className="col-md-4  blog-one-boxes">
                   
           <div className="blogBoxInn ">
             <div className="blogImgBox">
@@ -120,7 +116,7 @@ function Mainsection() {
               <a className="links" href='/mainblogs'>
                   <img className="" 
                   src={`uploads/${value.img}`}
-                
+
                   alt={value.title} />  
                 </a>
                 
@@ -128,8 +124,14 @@ function Mainsection() {
         
             <div className="blogContBox blogp">
               {/* <p className="text-muted">{dateSlice(index)}</p> */}
-              <p className="mid-title">{value.title}</p>
-              <p className="mid-title">{value.intro}</p>
+              <div className="b-title">
+                <p className="mid-title">{value.title}</p>
+              </div>
+              
+              <div className="b-intro">
+                <p className="mid-title">{value.intro.length > 300 ? value.intro.substring(0, 100) + '...': value.intro.substring(0, 150) + '...'   }</p>
+              </div>
+           
               
                    <p className="readmoretext">
                      <Link to={"/blogs/" + value.id}>

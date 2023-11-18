@@ -123,7 +123,7 @@ const HomeBlog = () => {
 
                                                     alt={value.title} />
                                                 <div className='dw-blogs2'>
-                                                    <span>Insight</span>
+                                                    <span>Ispservice</span>
                                                 </div>
                                             </a>
 
@@ -136,7 +136,7 @@ const HomeBlog = () => {
                                         <div className="blogContBox dw-blogs6">
                                             {/* <p className="text-muted">{dateSlice(index)}</p> */}
                                             <p className='dw-blogs7'>{date(index)}{month(index)}</p>
-                                            <Link className=' blog-inn-conse' to={"/blogs/"+value.id}><span className='blog-main-contentsss' href={"/blogs/" + value.id}>{value.title}</span></Link><br></br>
+                                            <div className="dwblog-tit"><Link className=' blog-inn-conse' to={"/blogs/"+value.id}><span className='blog-main-contentsss' href={"/blogs/" + value.id}>{value.title}</span></Link><br></br></div>
                                             <div className="btn-blogs"><a className="btns-greens-third" style={{ textDecoration: 'none' }} href={"/blogs/" + value.id}>
                                                 READ MORE
                                             </a></div>

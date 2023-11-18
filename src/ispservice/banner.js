@@ -23,8 +23,8 @@ function Banner() {
                                 <div className='lists' data-aos="fade-up" data-aos-duration="2000">
                                     <ul className='listlines'>
                                         <li><i class="fa fa-thin fa-check fa-2xs" style={{ color: "#15e037" }}></i>  Dedicated 24/7 customer care</li>
-                                        <li><i className="fa fa-thin fa-check" style={{ color: '#15e037' }}></i>   Up to 300 GB</li>
-                                        <li><i className="fa fa-thin fa-check" style={{ color: '#15e037' }}></i>  Plus, up to $600 in deals!*</li>
+                                        <li><i className="fa fa-thin fa-check" style={{ color: '#15e037' }}></i>   Unlimited Data usage</li>
+                                        <li><i className="fa fa-thin fa-check" style={{ color: '#15e037' }}></i>  Plan Starts from Rs.349</li>
                                     </ul>
                                 </div>
                                 <div className='button' data-aos="fade-up" data-aos-duration="1000"><button className='btns-green'>see plan & deals</button></div>

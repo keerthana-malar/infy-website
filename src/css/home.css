@@ -775,3 +775,10 @@ left: 100px;*/
 .viewblog-redirect{
   margin-bottom: 50px;
 }
+
+@media (width = 360px) {
+  .mains-heading-color{
+    margin-top: 150px;
+
+  }
+}

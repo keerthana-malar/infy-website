@@ -233,16 +233,26 @@ import {
                       </li>
                       <li>
                         <Link className="iot-mlink" to="/ispservice">
-                          ISP
+                          ISP Services
                         </Link>
                       </li>
                       <li>
                         <Link className="iot-mlink" to="/ServiceSeo">
-                          Web / App
+                          Web Services
                         </Link>
                       </li>
                   </div>
                 </li>
+          <li>
+            <Link className="iot-mlink" to="/career">
+              Career
+            </Link>
+          </li>
+          <li>
+            <Link className="iot-mlink" to="/Partner">
+              Partner
+            </Link>
+          </li>
           <li>
             <Link className="iot-mlink" to="/blogs">
               Blog

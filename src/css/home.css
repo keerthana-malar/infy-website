@@ -760,3 +760,6 @@ left: 100px;*/
 .testiContBox .mid-title a:hover{
   color: var(--sec);
 }
+.viewblog-redirect{
+  margin-bottom: 50px;
+}

@@ -130,12 +130,15 @@ a {
 .homeBlogSec {
   padding: 50px 0;
   
+}                                 
+.blogh{
 }
 .blogBoxInn {
   box-shadow: 0 0 10px var(--bgs);
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 30px;
+  width: 97%;
 }
 .blogImgBox {
   height: 280px;
@@ -150,6 +153,7 @@ a {
 }
 .blogContBox {
   padding: 20px;
+
   
 }
 .blogBoxInn:hover .blogImgBox img {
@@ -317,11 +321,15 @@ a {
   height: 200px;
   overflow: hidden;
   font-weight: 100;
+
 }
 .blog-main-contentsss {
-  height: 3px;
-  overflow: hidden;
+  height: 300px;  
+   overflow: hidden;
   font-weight: 500;
+}
+.dwblog-tit{
+height: 50px;
 }
 
 .blog-inn-conse {

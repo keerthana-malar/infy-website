@@ -99,9 +99,9 @@ const HomeBlog = () => {
             <div className="homeBlogTopCont text-center">
                 <p className="mini-title main-color">From Our Blogs</p>
                 <p className="test-head">Here’s What’s Happening</p>
-                <Link to="/mainblogs" className="btns text-light-blogss">
+                <div className="viewblog-redirect"><Link to="/mainblogs" className="btns text-light-blogss">
                View Blogs &nbsp; <span className="fa fa-arrow-right"></span>{" "}
-              </Link>
+              </Link></div>
             </div>
             
               <div className="homeBlogBox">

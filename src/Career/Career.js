@@ -49,8 +49,7 @@ const Career =()=>{
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // console.log(values)
-    // console.log(file)
+
 
     if (values.name === "") {
         // setErrors("Title Must Be Filled 🤔");
@@ -78,7 +77,7 @@ const Career =()=>{
           re.forEach((r)=>{
             r.reset()
           })
-          console.log(re)
+
         //   setErrors("Blog Added Successfully 😊😊");
         //   setShowMsg(true);
         setOpen(false);

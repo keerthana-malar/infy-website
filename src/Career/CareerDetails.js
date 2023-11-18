@@ -51,7 +51,7 @@ const CareerDetails = () => {
       console.log(err);
     });
   },[id])
-  console.log("d",data)
+
   return (
     <>
     <Header/>

@@ -36,7 +36,7 @@ const blogfilter = blogs.filter((val, index) => (
   val.category === "IT Services"
 ));
 
-console.log(blogfilter);
+
  
     var settings = {
         dots: true,

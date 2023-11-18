@@ -9,7 +9,7 @@ import FindWindowSize from "../Hooks/FindWindowSize";
 const Sliders = () => {
 
   const windowSize = FindWindowSize()
-  console.log(windowSize[0] <=450)
+
   
   const sliderImg = [
     {

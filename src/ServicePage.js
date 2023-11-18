@@ -17,7 +17,7 @@ function ServicePage(){
 
     const valuePaths = ['networking','laptop&desktop','cctv','Projectors','Accessories','Laptop&DesktopRent'];
 
-    console.log(id)
+  
     return(
         <div>
             {

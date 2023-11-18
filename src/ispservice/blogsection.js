@@ -61,7 +61,7 @@ const HomeBlog = () => {
     const blogDate = rawDate.slice(0, 10);
     return blogDate;
   }
-  console.log(blogs[0])
+
 
     useEffect(() => {
         axios.get("https://infygain.in/api/blogdata").then((res) => {

@@ -50,7 +50,7 @@ const CareerForm = () => {
         if (values.name === "") {
             // setErrors("Title Must Be Filled 🤔");
             // setShow(true);
-            console.log(1)
+          
           } else {
             console.log(0)
             const formData = new FormData();
@@ -63,7 +63,7 @@ const CareerForm = () => {
             formData.append("selfintro", values.selfintro);
 
 
-            console.log("fd",formData)
+        
 
             axios.post("https://infygain.in/api/carformdata", formData)
 

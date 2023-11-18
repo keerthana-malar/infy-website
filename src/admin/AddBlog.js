@@ -83,6 +83,17 @@ const AddBlog = () => {
           document.querySelector(".form").reset();
           setErrors("Blog Added Successfully 😊😊");
           setShowMsg(true);
+          setValues({
+            title: "",
+            category: "Other",
+            quote: "",
+            metades: "",
+            metakey: "",
+            content: "",
+            img: "",
+            status: "Active",
+            intro:"",
+          })
         })
         .catch((err) => {
           console.log("helloooo" + err);

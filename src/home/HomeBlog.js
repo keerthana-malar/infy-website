@@ -119,7 +119,7 @@ const HomeBlog = () => {
                 <a className="links" href='/mainblogs'>
                     <img className="img-fluid" 
                     src={`uploads/${value.img}`} 
-                   
+                  
                     alt={value.title} />  
                   </a>
                   
@@ -131,10 +131,14 @@ const HomeBlog = () => {
                 </div>
               <div className="blogContBox blogp">
                 {/* <p className="text-muted">{dateSlice(index)}</p> */}
-                <p className="mid-title">{value.title}</p>
-                <a className="links" href={"/blogs/"+value.id}>
-                  READ MORE
-                </a>
+                <div className="hb-tilte">
+                  <p className="mid-title">{value.title}</p>
+                </div>
+                <p >
+                     <Link to={"/blogs/" + value.id}>
+                       <button className="h-btns">READ MORE</button>
+                     </Link>
+                   </p>
                 {/* Alternatively, you can use React Router's Link component:
                 <Link to={`/blogs/${value.id}`}>READ MORE</Link> */}
               </div>

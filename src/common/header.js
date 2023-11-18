@@ -1,19 +1,20 @@
-import {
-  FaRegClock,
-  FaLocationDot,
-  FaCartPlus,
-  FaHeadset
-} from "react-icons/fa6";
+import { FaRegClock, FaLocationDot, FaCartPlus } from "react-icons/fa6";
 import { IoMdArrowDropdown } from "react-icons/io";
-import { LiaFacebookF, LiaInstagram, LiaLinkedinIn, LiaWhatsapp, LiaYoutube, LiaTwitter } from "react-icons/lia";
+import {
+  LiaFacebookF,
+  LiaInstagram,
+  LiaLinkedinIn,
+  LiaWhatsapp,
+  LiaYoutube,
+  LiaTwitter,
+} from "react-icons/lia";
 import React from "react";
 import { HiOutlineMail } from "react-icons/hi";
 import "../css/header.css";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { Link } from "react-router-dom";
-import Fixedline from '../services/Fixedline';
-import { FaCcAmazonPay } from "react-icons/fa";
-
+import Fixedline from "../services/Fixedline";
+import { Helmet } from "react-helmet";
 
 function header() {
   function DropdownMenu() {
@@ -25,17 +26,33 @@ function header() {
       dropBox.classList.add("drop-show");
     }
   }
- function DropdownMenuSub(e){
-  let eve = e.target.style.display;
-  if(eve == "block"){
-      eve="none";
+  function DropdownMenuSub(e) {
+    let eve = e.target.style.display;
+    if (eve == "block") {
+      eve = "none";
+    } else {
+      eve = "block";
+    }
   }
-  else{eve = "block" }
- }
 
+  let metaContent = {
+    des:"We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,b server, billing software, graphic design, amc.",
+    key:"computer,laptop,cctv,printer,AMC,networking,web development,graphics",
+    ogt:"Best IT Solutions Provider in Coimbatore",
+    og:"We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,b server, billing software, graphic design, amc.",
 
+  }
+ 
   return (
     <>
+      <Helmet>
+        <title>Best IT Solutions Provider in Coimbatore</title>
+        <link rel="icon" href={"favicon.ico"} />
+        <meta name="description" content={metaContent.des} />
+        <meta name="keywords" content={metaContent.key} />
+        <meta property="og:title" content={metaContent.ogt} />
+        <meta property="og:description" content={metaContent.og} />
+      </Helmet>
       <section>
         {/* Top head section */}
         <div className="top-head  d-none d-md-block">
@@ -82,7 +99,11 @@ function header() {
                 >
                   <LiaInstagram />
                 </a>
-                <a className="head-link sm" href="https://twitter.com/infygain"   target="_blank">
+                <a
+                  className="head-link sm"
+                  href="https://twitter.com/infygain"
+                  target="_blank"
+                >
                   <LiaTwitter />
                 </a>
                 <a
@@ -134,24 +155,24 @@ function header() {
               </li>
               <li className="sub">
                 <Link className="mlink">
-                  Services <IoMdArrowDropdown/>
+                  Services <IoMdArrowDropdown />
                 </Link>
                 <div className="submenu">
-                    <li>
-                      <Link className="mlink" to="/Iotservice">
-                        IT Supports
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="mlink" to="/ispservice">
-                        ISP Services
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="mlink" to="/ServiceSeo">
-                        Web Services
-                      </Link>
-                    </li>
+                  <li>
+                    <Link className="mlink" to="/Iotservice">
+                      IT Supports
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="mlink" to="/ispservice">
+                      ISP Services
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="mlink" to="/ServiceSeo">
+                      Web Services
+                    </Link>
+                  </li>
                 </div>
               </li>
               <li>
@@ -196,15 +217,19 @@ function header() {
                   Get a quote &nbsp;&nbsp;<i className="fa fa-arrow-right"></i>
                 </button>
               </a>
-              <a className="head-links" target="_blank" href="https://infygain.com/onlinestore/">
-                <FaCartPlus/>
+              <a
+                className="head-links"
+                target="_blank"
+                href="https://infygain.com/onlinestore/"
+              >
+                <FaCartPlus />
               </a>
-             
+
               {/* <a className="head-links" target="_blank" href="https://grayquest.com/institute/united-master">
                 < FaCcAmazonPay/>
               </a> */}
             </div>
-          
+
             <div className="dropDownMenu">
               <HiMenuAlt1 role="button" onClick={() => DropdownMenu()} />
             </div>
@@ -224,27 +249,27 @@ function header() {
           </Link>
         </li>
         <li className="sub">
-                <Link className="mlink " onClick={DropdownMenuSub}>
-                  Services <IoMdArrowDropdown/>
-                </Link>
-                <div className="submenu">
-                    <li>
-                      <Link className="mlink" to="/Iotservice">
-                        IT Supports
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="mlink" to="/ispservice">
-                        ISP Services
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="mlink" to="/ServiceSeo">
-                        Web Services
-                      </Link>
-                    </li>
-                </div>
-              </li>
+          <Link className="mlink " onClick={DropdownMenuSub}>
+            Services <IoMdArrowDropdown />
+          </Link>
+          <div className="submenu">
+            <li>
+              <Link className="mlink" to="/Iotservice">
+                IT Supports
+              </Link>
+            </li>
+            <li>
+              <Link className="mlink" to="/ispservice">
+                ISP Services
+              </Link>
+            </li>
+            <li>
+              <Link className="mlink" to="/ServiceSeo">
+                Web Services
+              </Link>
+            </li>
+          </div>
+        </li>
         <li>
           <Link className="mlink" to="/mainblogs">
             Blog
@@ -252,7 +277,7 @@ function header() {
         </li>
         <li>
           <Link className="mlink" to="/career">
-          Career
+            Career
           </Link>
         </li>
         <li>
@@ -265,7 +290,7 @@ function header() {
             Contact
           </Link>
         </li>
-        <Fixedline/>
+        <Fixedline />
       </div>
     </>
   );

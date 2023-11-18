@@ -77,6 +77,14 @@
 .banner-title {
   color: var(--pri);
 }
+
+
+@media (width <=450px){
+  .sliderImg {
+    height: 92%;
+  }
+}
+
 @media (width <=600px) {
   .slideCont {
     grid-area: 2 / 1 / 3 / 5;

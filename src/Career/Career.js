@@ -143,7 +143,7 @@ const Career =()=>{
     });
   },[]);
 
-
+ 
   return (
 
  <div className="container careerpage">
@@ -164,7 +164,7 @@ const Career =()=>{
 
   <div className="row car-boxs">
   {
-    data ?
+    !(data.length === 0) ?
   data.map((values, index) =>(
   <div class="col-md-4 col-lg-4 col-sm-4 boxs" >
   

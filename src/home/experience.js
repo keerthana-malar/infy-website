@@ -20,11 +20,11 @@ const ourExp = () => {
                 <div class="row align-items-center ourExpList">
                   <div class="col-md-6">
                   <ul class="list-home">
-                    <li className="network-solutions-item"> <i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/networking">Complete Network Solutions</Link></li>
-                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/laptop&desktop">Computer/Laptop Sales and Service</Link></li>
-                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/cctv">CCTV / Biometrics</Link></li>
-                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/laptop&desktop">Computer Accessories</Link></li>
-                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/laptop&desktop">AMC for Computers</Link></li>
+                    <li className="network-solutions-item"> <i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/services/networking">Complete Network Solutions</Link></li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/services/laptop&desktop">Computer/Laptop Sales and Service</Link></li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/services/cctv">CCTV / Biometrics</Link></li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/services/laptop&desktop">Computer Accessories</Link></li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/services/laptop&desktop">AMC for Computers</Link></li>
                     </ul>
 
                   </div>
@@ -32,9 +32,9 @@ const ourExp = () => {
                   <ul class="list-home">
                     <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServiceSeo">Website/SEO Development</Link></li>
                     <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServiceSeo">Graphic Designs</Link></li>
-                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/networking">Doorstep Computer Services</Link></li>
-                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/networking">Network Components</Link></li>
-                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/ServicePage/laptop&desktop">POS / Billing Software</Link></li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/services/networking">Doorstep Computer Services</Link></li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/services/networking">Network Components</Link></li>
+                    <li className="network-solutions-item"><i className="fa fas fa-check-circle ico-list-colo"></i><Link to="/services/laptop&desktop">POS / Billing Software</Link></li>
                     </ul>
 
                   </div>

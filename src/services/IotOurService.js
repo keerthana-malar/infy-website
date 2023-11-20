@@ -67,7 +67,7 @@ function IotOurService({componentRef}) {
                    <div className='divline'></div>
                    <h2 className='edgehead'> Computer Network Solutions </h2>
                    <div className='buttongroup'>
-                   <Link to="/ServicePage/networking" target='_blank'>
+                   <Link to="/services/networking" target='_blank'>
                    <button className='butt'>+</button>
                     </Link>
                    </div>
@@ -93,7 +93,7 @@ function IotOurService({componentRef}) {
                         <div className='divline'></div>
                    <h2 className='edgehead'>Laptop / Desktop Sales and Service </h2>
                    <div className='buttongroup'>
-                   <Link to="/ServicePage/laptop&desktop" target='_blank'>
+                   <Link to="/services/laptop&desktop" target='_blank'>
                     <button className='butt'>+</button></Link>
 
                    </div>
@@ -121,7 +121,7 @@ function IotOurService({componentRef}) {
                         <div className='divline'></div>
                    <h2 className='edgehead'>    Security Solutions </h2>
                    <div className='buttongroup'>
-                    <Link to="/ServicePage/cctv" target='_blank'>
+                    <Link to="/services/cctv" target='_blank'>
                         <button className='butt '>+</button></Link>
                    </div>
                    </div>
@@ -151,7 +151,7 @@ function IotOurService({componentRef}) {
                            <div className='divline'></div>
                    <h2 className='edgehead'>   AV Solutions </h2>
                    <div className='buttongroup'>
-                   <Link to="/ServicePage/Projectors" target='_blank'>
+                   <Link to="/services/Projectors" target='_blank'>
                     <button className='butt '>+</button></Link>
                    </div>
                    </div>
@@ -175,7 +175,7 @@ function IotOurService({componentRef}) {
                        <div className='divline'></div>
                    <h2 className='edgehead'> Computer Accessories </h2>
                    <div className='buttongroup'>
-                   <Link to="/ServicePage/Accessories" target='_blank'>
+                   <Link to="/services/Accessories" target='_blank'>
                     <button className='butt '>+</button></Link>
                    </div>
                    </div>
@@ -201,7 +201,7 @@ function IotOurService({componentRef}) {
                        <div className='divline'></div>
                    <h2 className='edgehead'> Laptop / Desktop Rent </h2>
                    <div className='buttongroup'>
-                   <Link to="/ServicePage/Laptop&DesktopRent" target='_blank'>
+                   <Link to="/services/Laptop&DesktopRent" target='_blank'>
                     <button className='butt'>+</button></Link>
                    </div>
                    </div>

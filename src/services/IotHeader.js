@@ -114,11 +114,12 @@ import {
           <div className="iot-main-head">
             <div className="iot-main-head-box">
               <div className="iot-logoo-box">
+                <a href="/">
                 <img
-                  className="img-fluid"
+                  className="img-fluid1"
                   src="/images/others/logo-alt.svg"
                   alt="best it supports"
-                ></img>
+                ></img></a>
               </div>
               <div className="iot-menu-box">
                 <li>

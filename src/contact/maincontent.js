@@ -4,7 +4,7 @@ import '../css/contact.css';
 function Contactmain() {
     return (
         <>
-            <div className="container">
+            <div className="container mt-4">
                 <div className=' maincontent'>
                 <p className="medium-title text-center">Our Address</p>
             <p className='text-muted contactpara'>Welcome to Infygain Technologies. If you have any questions or inquiries,

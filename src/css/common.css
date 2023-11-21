@@ -342,6 +342,15 @@ a {
     width:100%;
   }
 }
+@media screen and (max-width:600px){
+  .top-banner {
+    height: 150px;
+  }
+  .contact-banner{
+    height: 150px;
+  }
+}
+
 @media screen and (max-width:980px) {
   .dw-blogs {
       grid-template-columns: repeat(2, 1fr);

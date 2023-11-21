@@ -1,0 +1,17 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+    <url>
+        <loc>https://infygain.com/</loc>
+        <lastmod>2023-11-18T13:36:38+00:00</lastmod>
+    </url>
+    <!-- Add more URLs below using the same structure -->
+    <url>
+        <loc>https://infygain.com/about</loc>
+        <lastmod>2023-11-18T14:00:00+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://infygain.com/blogs</loc>
+        <lastmod>2023-11-18T14:30:00+00:00</lastmod>
+    </url>
+    <!-- Add as many URLs as needed -->
+</urlset>

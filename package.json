@@ -48,6 +48,7 @@
     "react-tilt": "^1.0.2",
     "react-tooltip": "^5.21.5",
     "react-youtube": "^10.1.0",
+    "sitemap": "^7.1.1",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.3.11",
     "web-vitals": "^2.1.4"
@@ -56,7 +57,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "sitemap": "babel-node src/sitemap-generator.js",
+    "predeploy": "npm run sitemap"
   },
   "eslintConfig": {
     "extends": [
@@ -77,6 +80,10 @@
     ]
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
     "tailwindcss": "^3.3.3"
   }
 }

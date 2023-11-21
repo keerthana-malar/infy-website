@@ -89,7 +89,7 @@ function IotService({scrollToComponent}) {
                     {/* hidden row */}
                     <div>
                       <div className="hidden">
-                        <Link to='/ServicePage/networking' target="_blank"><p className="right_para1">Read more<span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
+                        <Link to='/services/networking' target="_blank"><p className="right_para1">Read more<span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
                         </div>
                     </div>
                     {/* hidden end */}
@@ -114,7 +114,7 @@ function IotService({scrollToComponent}) {
                     {/* hidden row */}
                     <div>
                       <div className="hidden1">
-                      <Link to='/ServicePage/laptop&desktop' target="_blank"><p>Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
+                      <Link to='/services/laptop&desktop' target="_blank"><p>Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
                       
                       </div>
                     </div>
@@ -142,7 +142,7 @@ function IotService({scrollToComponent}) {
                     {/* hidden row */}
                     <div>
                       <div className="hidden2">
-                      <Link to='/ServicePage/cctv' target="_blank"><p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
+                      <Link to='/services/cctv' target="_blank"><p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
                       </div>
                     </div>
                     {/* hidden end */}
@@ -166,7 +166,7 @@ function IotService({scrollToComponent}) {
                     {/* hidden row */}
                     <div>
                       <div className="hidden3">
-                      <Link to='/ServicePage/Projectors' target="_blank"><p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
+                      <Link to='/services/Projectors' target="_blank"><p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
                 </div>
                     </div>
                     {/* hidden end */}

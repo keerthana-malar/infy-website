@@ -80,9 +80,9 @@
 
 
 @media (width <=450px){
-  .sliderImg {
+  /* .sliderImg {
     height: 92%;
-  }
+  } */
 }
 
 @media (width <=600px) {
@@ -194,6 +194,7 @@
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: 15px;
+
   }
 }
 .home-ser-con {
@@ -234,6 +235,9 @@
 @media (width <= 600px) {
   .home-baner-con-belows {
     margin-left: 10px;
+  }
+  .subServiceSec{
+    margin-top: 20px;
   }
 }
 @media (width <= 360px) {
@@ -776,9 +780,8 @@ left: 100px;*/
   margin-bottom: 50px;
 }
 
-@media (width = 360px) {
+@media (width <= 360px) {
   .mains-heading-color{
-    margin-top: 150px;
-
+    margin-top: 170px;
   }
 }

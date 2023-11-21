@@ -44,6 +44,10 @@
 .logoo-box img{
     width: 200px;
 }
+.img-fluid1{
+    /* max-width: 100%; */
+    height: auto;
+}
 .menu-box{
     flex-basis: 70%;
 }
@@ -190,4 +194,8 @@ margin-bottom: 10px;
  .sub:hover .submenu{
         display:block;
  }
+ .logoo-box img{
+    width: 170px;
+}
+
 

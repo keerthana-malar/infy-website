@@ -68,8 +68,8 @@ function PartnerBlog() {
     };
     return (
         <div className='overallpartnerblog'>
-            <div className='container'>
-                <div className='row'>
+            <div className='container mt-4'>
+                <div className='row '>
                     <div className='col-md-6 marketing'>
                         <div className='redline'></div>
                         <div className='partnerrow'>

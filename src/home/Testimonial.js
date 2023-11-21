@@ -66,7 +66,7 @@ const Testimonial = () => {
                   <img className="img-fluid" src="/images/webs1.png"></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title"><Link to="/ServicePage/networking">Complete Networking</Link></p>
+                  <p className="mid-title"><Link to="/services/networking">Complete Networking</Link></p>
                   <p className="tech-desc">
                     Seamless Connectivity <br></br>Solutions
                   </p>
@@ -91,7 +91,7 @@ const Testimonial = () => {
                   <img className="img-fluid 5" src="/images/fingerprint-modified.png"></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title"><Link to="/ServicePage/cctv">Security Systems</Link></p>
+                  <p className="mid-title"><Link to="/services/cctv">Security Systems</Link></p>
                   <p className="tech-desc">24/7 Security Surveillance</p>
                 </div>
               </div>
@@ -139,7 +139,7 @@ const Testimonial = () => {
                   <img className="img-fluid" src="/images/cctvs1.png"></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title"><Link to="/ServicePage/Projectors">AV Solutions</Link></p>
+                  <p className="mid-title"><Link to="/services/Projectors">AV Solutions</Link></p>
                   <p className="tech-desc">
                     Innovative Presentation <br></br>and Access
                   </p>
@@ -164,7 +164,7 @@ const Testimonial = () => {
                   <img className="img-fluid" src="/images/laptops.png"></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title"><Link to="/ServicePage/laptop&desktop">Computer & Laptop</Link></p>
+                  <p className="mid-title"><Link to="/services/laptop&desktop">Computer & Laptop</Link></p>
                   <p className="tech-desc">
                     Reliable Business<br></br> Computing
                   </p>

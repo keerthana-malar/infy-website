@@ -311,3 +311,8 @@
                 margin: 0;
             }
         }
+        @media (width <= 500px){
+            .downgirl{
+                height: auto;
+            }
+        }

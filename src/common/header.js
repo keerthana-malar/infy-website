@@ -136,11 +136,12 @@ function header() {
         <div className="main-head">
           <div className="main-head-box">
             <div className="logoo-box">
+              <a href="/" >
               <img
                 className="img-fluid1"
                 src="./images/icons/infy-logo.svg"
                 alt="best web services"
-              ></img>
+              ></img></a>
             </div>
             <div className="menu-box">
               <li>

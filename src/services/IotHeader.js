@@ -115,7 +115,7 @@ import {
             <div className="iot-main-head-box">
               <div className="iot-logoo-box">
                 <img
-                  className="img-fluid"
+                  className="img-fluid1"
                   src="/images/others/logo-alt.svg"
                   alt="best it supports"
                 ></img>

@@ -169,12 +169,12 @@ function Blogs(){
                 </Link>
               </li>
               <li>
-                <Link className="mlink" to="/blogs">
+                <Link className="mlink" to="/career">
                   Career
                 </Link>
               </li>
               <li>
-                <Link className="mlink" to="/blogs">
+                <Link className="mlink" to="/Partner">
                   Partner
                 </Link>
               </li>

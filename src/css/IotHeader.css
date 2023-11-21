@@ -218,4 +218,7 @@ margin-bottom: 10px;
  .iot-sub:hover .iot-submenu{
         display:block;
  }
+ .iot-logoo-box img{
+    width: 170px;
+}
 

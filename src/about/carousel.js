@@ -86,9 +86,15 @@ function Carousel() {
     };
 
     return (
+      <>
+        <div className="enqbx-head mt-4 mb-4"> 
+          <h5 className="mini-title main-color">OUR PARTNERS</h5>
+          <p className="home-about-ttle">Empowering Growth Together</p>
+        </div>
         <Slider {...settings}>
             {logos}
         </Slider>
+      </>
     );
 }
 

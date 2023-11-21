@@ -193,3 +193,8 @@ width: 100%;
         width: 120px;
     }
 }
+@media (width<=600px){
+.imageclinic,.imageclinic1,.imageclinic3{
+    height: 200px;
+}
+}

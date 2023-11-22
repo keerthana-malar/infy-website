@@ -18,7 +18,7 @@ const Sliders = () => {
       // cont: "Best computer service in Coimbatore, We specialize in providing high-quality, professional computer repair and maintenance services to both individuals and businesses.",
     },
     {
-      img: `${windowSize[0] <=450 ?"/images/banner/ph-bann.webp" : "/images/banner/bannn.webp"}`,
+      img: `${windowSize[0] <=450 ?"/images/banner/ph-bann1.webp" : "/images/banner/bannn.webp"}`,
       // title: "We Make IT Simple",
       // cont: "We provide all the services related to computer, Laptop, Networking, Printer, Biometrics, AMC, Server, CCTV, and also Web Development and Graphics Designs",
     },

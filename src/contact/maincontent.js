@@ -35,7 +35,7 @@ function Contactmain() {
                             </div>
                             <div className='col-md-9'>
                             <p className='mini-title tit1'>Support</p>
-                            <p className='text-muted locacon'>Mobile: 9952141444 support: 0422 3500770 and 9488576307</p>
+                            <p className='text-muted locacon'>Mobile Number: <br /> +91 9952141444 <br /> +91 9087724444</p>
                             </div>
                         </div>
                     </div>
@@ -48,7 +48,7 @@ function Contactmain() {
                             </div>
                             <div className='col-md-9 us-sup'>
                             <p className='mini-title tit3'>Get In Touch</p>
-                            <p className='text-muted locacon'>Monday - Friday: 09:00 to 7:00.</p>
+                            <p className='text-muted locacon'>Monday - Friday: 10:00 to 7:00.</p>
                             </div>
                         </div>
                     </div>

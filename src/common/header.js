@@ -137,7 +137,7 @@ function header() {
             "@type": "ListItem",
             "position": 5,
             "name": "Blogs",
-            "item": "https://infygain.com/blogs"
+            "item": "https://infygain.com/mainblogs"
           },
           {
             "@type": "ListItem",
@@ -203,7 +203,7 @@ function header() {
             "@type": "ListItem",
             "position": 5,
             "name": "Blogs",
-            "item": "https://infygain.com/blogs"
+            "item": "https://infygain.com/mainblogs"
           },
           {
             "@type": "ListItem",

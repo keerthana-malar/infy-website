@@ -22,7 +22,7 @@ function Contactmain() {
                             <p className='mini-title tit1'>Location</p>
                             <p className='text-muted locacon'>Hari complex opp.prozone mall,
                             Sathy Rd, Saravanampatti,
-                            Coimbatore, Tamil Nadu 641035</p>
+                            Coimbatore, Tamil Nadu 641035.</p>
                             </div>
                         </div>
                     </div>

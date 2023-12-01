@@ -1,5 +1,6 @@
 import 'font-awesome/css/font-awesome.css';
 import '../css/ispservice.css';
+import { Link } from 'react-router-dom';
 function Finalbanner() {
     return (
         <>
@@ -11,7 +12,7 @@ function Finalbanner() {
                         <div className='row' >
                             <div className='col-md-5 dashed' data-aos="fade-up" data-aos-duration="2000" >
                                 <div className=' contentsection'>
-                                    <div className='button'><button className='btns-greens'>need more help</button></div>
+                                    <div className='button'><Link to="/contact"><button className='btns-greens'>need more help</button></Link></div>
 
                                     <p className='bannercontentone'>Contact our team of experts to explore plan options.</p>
 

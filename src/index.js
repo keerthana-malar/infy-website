@@ -38,6 +38,10 @@ import EditCareers from "./admin/EditCareers";
 import CareerDetails from "./Career/CareerDetails";
 import Candidate from "./admin/Candidate";
 import Four from "./404";
+import Isppackage from "./isp-package";
+import Packageslles from "./Internetleasedline";
+import Packagessmes from "./smepackage";
+import Packagestv from "./broadband";
 
 function App() {
   return (
@@ -75,6 +79,10 @@ function App() {
         <Route path="/career/:id" element={<CareerDetails />} />
         <Route path="/candidate" element={<Candidate />} />
         <Route path="*" element={<Four />} />
+        <Route path="/isp-package" element={<Isppackage />} />
+        <Route path="/Internet-Leased-Line" element={<Packageslles />} />
+        <Route path="/smepackage" element={<Packagessmes />} />
+        <Route path="/Business-Broadband" element={<Packagestv />} />
 
       </Routes>
     </BrowserRouter>

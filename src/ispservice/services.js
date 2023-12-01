@@ -1,7 +1,10 @@
 import 'font-awesome/css/font-awesome.css';
 import '../css/ispservice.css';
 import { FaComputer } from "react-icons/fa6";
+import { Link } from "react-router-dom";
+
 function Services() {
+
   return (
     <>
       <div className='container services' data-aos="zoom-in-up" data-aos-duration="2000">
@@ -14,7 +17,7 @@ function Services() {
               <p className="text-muted box-conin">
                 Our Internet Leased Line service provides high-speed, dedicated Internet connectivity to ensure your business stays connected 24/7.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
-              <div className='buttons'><button className='btns-greenbox'>View Details</button></div>
+              <div className='buttons'> <Link to="/Internet-Leased-Line"><button className='btns-greenbox'>View Details</button></Link></div>
 
 
             </div>
@@ -27,7 +30,7 @@ function Services() {
               <p className="text-muted box-conin">
                 Tailored connectivity solutions for small and medium-sized enterprises, designed to boost productivity and efficiency.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
-              <div className='buttons'><button className='btns-greenbox'>View Details</button></div>
+              <div className='buttons'><Link to="/smepackage"><button className='btns-greenbox'>View Details</button></Link></div>
 
 
             </div>
@@ -39,7 +42,7 @@ function Services() {
               <p className="text-muted box-conin">
                 Reliable broadband solutions that deliver consistent, high-speed Internet access for your business needs.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
-              <div className='buttons'><button className='btns-greenbox'>View Details</button></div>
+              <div className='buttons'><Link to="/Business-Broadband"><button className='btns-greenbox'>View Details</button></Link></div>
 
 
             </div>
@@ -56,7 +59,7 @@ function Services() {
               <p className="text-muted box-conin">
                 Explore our comprehensive range of Broadband, IPTV, and Voice services, designed to elevate your digital experience to new heights.              </p>
               <div className='smallines'><hr className='smalline'></hr></div>
-              <div className='buttons'><button className='btns-greenbox'>View Details</button></div>
+              <div className='buttons'><Link to="/isp-package"><button className='btns-greenbox'>View Details</button></Link></div>
 
 
             </div>

@@ -1,0 +1,101 @@
+.data-pack-main{
+    /* padding-top: 30px; */
+    font-size: 18px;
+    padding-bottom: 0px;
+    font-weight: 600;
+    padding-top: 20px;
+    
+}
+.data-pack-main-con{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.head-isp-serviceban{
+    text-align: center;
+    background-image: url("../images/banner/Datawings\ .4.jpg");
+    background-repeat: no-repeat;
+    color: #fff;
+   
+    padding: 100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btns-greens-thirdstesti {
+    padding: 10px 30px;
+    background-color: var(--ispsec);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 50px;
+ 
+}
+.testimonial-box{
+    background-color:#F2F2F2;
+}
+.serviceContent-isp {
+    border-radius: 3px;
+    padding: 20px;
+    transition: all 0.3s;
+    border: 1px solid rgb(221, 221, 221);
+    width: 100%;
+    background-color: #fff;
+}
+.name-testi{
+    text-align: center;
+    font-size: 20px;
+    color:#2c1b53 ;
+    font-weight: 600;
+    padding-top: 20px;
+}
+.role-testi{
+    text-align: center;
+    color: var(--isppri);
+    font-weight: 600;
+}
+.box-conin-serv{
+    text-align: center;
+    padding-top: 20px;
+    font-weight: 500;
+}
+/* Styles for the custom prev arrow */
+.custom-prev-arrow {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    z-index: 1;
+    background-color: #fff; /* Background color */
+    padding: 10px;
+    border: 1px solid #ddd; /* Border styles */
+    
+    border-radius: 50%; /* Make it round */
+    color: #000; /* Arrow color */
+    font-size: 24px;
+    transform: translateY(-50%);
+  }
+  
+  /* Styles for the custom next arrow */
+  .custom-next-arrow {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    z-index: 1;
+    background-color: #fff; 
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 50%; 
+    color: #000; 
+    font-size: 24px;
+    transform: translateY(-50%);
+  }
+  
+
+  .custom-prev-arrow:hover,
+  .custom-next-arrow:hover {
+    background-color: var(--ispsec); 
+    color: #fff; 
+  }
+  

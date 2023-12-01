@@ -1,0 +1,163 @@
+/* Packages.css */
+.head-isp-abou-pacs{
+  text-align: center;
+  background-image: url("../images/banner/Datawings\ .4.jpg");
+  background-repeat: no-repeat;
+  color: #fff;
+
+  padding: 100px;
+  background-position: center center;
+  background-size: cover;
+}
+.head-isp-about{
+  font-size: clamp(50px, 4vw, 50px);
+}
+.head-isp-para{
+  font-size: clamp(10px, 4vw, 25px);
+
+}
+.packages-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border: 2px solid var(--issec);
+  }
+  
+  .package-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+  
+  .package-box {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-bottom: 5px solid var(--isppri);
+    border-radius: 10px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .package-box:hover{
+    background-color: rgb(89, 175, 89);
+  }
+  .package-details {
+    text-align: center;
+  }
+  .package-box:hover{
+color: #fff;
+  }
+  
+  .package-name {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .package-location,
+  .package-speed,
+  .package-price {
+    font-size: 18px;
+    font-family: sans-serif;
+
+    margin: 10px 0;
+  }
+  
+  .subscribe-button {
+    background-color: var(--isppri);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #45a049;
+    color: #fff;
+  }
+  
+
+  @media (max-width: 768px) {
+    .package-box {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .package-box {
+      width: calc(100% - 20px);
+    }
+  }
+
+
+
+.select-dropdown {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    border: 2px solid #4CAF50;
+    color: var(--isppri);
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0 10px; 
+    padding: 10px 70px;
+    
+  }
+  
+  
+  .select-dropdown:hover,
+  .select-dropdown:focus {
+    border-color: #45a049;
+
+  }
+  .head-pac-h{
+    border-radius: 10px;
+  }
+  .allloca{
+ padding-top: 20px;
+ 
+  }
+  .contents{
+    color: black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  
+    
+  }
+  .locationcontent{
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .las-blo-titlessisp{
+    padding-bottom: 0px;
+    font-weight: 700;
+    font-size: 22px;
+  }
+ 

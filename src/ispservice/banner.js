@@ -1,5 +1,7 @@
 import 'font-awesome/css/font-awesome.css';
 import '../css/ispservice.css';
+import { Link } from "react-router-dom";
+
 function Banner() {
     return (
         <>
@@ -27,7 +29,9 @@ function Banner() {
                                         <li><i className="fa fa-thin fa-check" style={{ color: '#15e037' }}></i>  Plan Starts from Rs.349</li>
                                     </ul>
                                 </div>
+                                <Link to="/isp-package">
                                 <div className='button' data-aos="fade-up" data-aos-duration="1000"><button className='btns-green'>see plan & deals</button></div>
+                                </Link>
                             </div>
                         </div>
                     </div>

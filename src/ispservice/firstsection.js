@@ -1,5 +1,6 @@
 import 'font-awesome/css/font-awesome.css';
 import '../css/ispservice.css';
+import { Link } from 'react-router-dom';
 
 function Firstsection() {
 
@@ -18,7 +19,7 @@ function Firstsection() {
 
 
                             </p>
-                            <div className='getbutton'><button className='btns-green '>get started</button></div>
+                            <div className='getbutton'><Link to="/isp-package"><button className='btns-green '>get started</button></Link></div>
                         </div>
                     </div>
                     <div className='col-lg-3 center-img'>
@@ -82,7 +83,7 @@ function Firstsection() {
                         </div>
                         <div className='col-lg-3 commonbac'>
                             <div className='btncolor'>
-                                <button className='btns-green getanobtn'>get started</button>
+                                <Link to="/Contact"><button className='btns-green getanobtn'>Contact Us</button></Link>
                             </div>
                             <div className='row'>
 

@@ -1,4 +1,5 @@
 import { BsFacebook, BsTwitter, BsInstagram, BsWhatsapp } from "react-icons/bs";
+import { Link } from "react-router-dom";
 
 function Webservice() {
   return (
@@ -21,7 +22,7 @@ function Webservice() {
             tailored to meet the unique needs of our customers."
             
           </p>
-          <div className="btns head-btn">GET YOUR FREE CONSULT</div>
+          <Link to="/contact"><div className="btns head-btn">GET YOUR FREE CONSULT</div></Link>
           <a className="mid-title headlink" target="_blank" href="https://infygain.com">
             www.infygain.com
           </a>

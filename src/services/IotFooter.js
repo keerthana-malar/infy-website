@@ -44,7 +44,7 @@ function IotFooter() {
                 <p className="iot-hari text-muted">
                   {" "}
                   Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                  Coimbatore, Tamil Nadu 641035
+                  Coimbatore, Tamil Nadu 641035.
                 </p>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-12  iot-nam-icon">
@@ -149,14 +149,15 @@ function IotFooter() {
                 <p className="iot-address">
                   <p>
                     Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                    Coimbatore, Tamil Nadu 641035
+                    Coimbatore, Tamil Nadu 641035.
                   </p>
                 </p>
                 <hr className="iot-hrline"></hr>
                 <p className="iot-address iot-ph">+91 &nbsp;9952141444</p>
                 <p className="iot-address iot-ph">+91 &nbsp;9087724444</p>
                 <p className="iot-address">
-                  <b>info@infygain.com</b>
+                info@infygain.com
+                  {/* <b>info@infygain.com</b> */}
                 </p>
               </div>
               <div className="col-xs-6 col-sm-3">

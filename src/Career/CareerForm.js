@@ -133,6 +133,7 @@ const CareerForm = () => {
                     {/* <label>Position <span className='label-star'>*</span></label> */}
                     <select name='position'  onChange={handleInput}>
            <option>--Please select the position--</option>
+           <option>Others</option>
             {data.map((vale, index) => (
             <option key={index} value={vale.title}>
                {vale.title}

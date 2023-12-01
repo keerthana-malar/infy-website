@@ -45,7 +45,7 @@ function Footer() {
                 <p className="hari text-muted">
                   {" "}
                   Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                  Coimbatore, Tamil Nadu 641035
+                  Coimbatore, Tamil Nadu 641035.
                 </p>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-12  nam-icon">
@@ -150,7 +150,7 @@ function Footer() {
                 <p className="address">
                   <p>
                     Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                    Coimbatore, Tamil Nadu 641035
+                    Coimbatore, Tamil Nadu 641035.
                   </p>
                 </p>
                 <hr className="hrline"></hr>

@@ -785,3 +785,11 @@ left: 100px;*/
     margin-top: 170px;
   }
 }
+
+
+@media (width <= 450px) {
+  .subServiceSec {
+    background-image: url("/public/images/bg-01.webp");
+  }
+}
+  

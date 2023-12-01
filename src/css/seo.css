@@ -566,6 +566,7 @@
   height: 40px;
   border-radius: 20px;
   border: none;
+  padding: 10px;
 }
 @media (width<=1000px) {
   .subscribe {

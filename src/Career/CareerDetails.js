@@ -23,7 +23,7 @@ const CareerDetails = () => {
   });
   useEffect(() => {
     axios
-    .get("https://infygain.in/api/edit-career/"+id)
+    .get("https://infygain.com/api/edit-career/"+id)
     .then((res) => {
      const dataa=  res.data.result[0]
      setData({

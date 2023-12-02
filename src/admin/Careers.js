@@ -61,11 +61,11 @@ const Careers = () => {
   const handleDelete = (id) => {
     const confirmDelete = window.confirm("Are you sure?");
     if (confirmDelete) {
-      axios.delete(`https://infygain.in/api/cardelete/${id}`)
+      axios.delete(`https://infygain.com/api/cardelete/${id}`)
         .then((res) => {
           console.log(res)
           alert("Deleted Successfully 😥");
-          axios.get("https://infygain.in/api/career-data")
+          axios.get("https://infygain.com/api/career-data")
           .then((res) => {
             setCareerData(res.data);
           })
@@ -99,7 +99,7 @@ const Careers = () => {
   const [careerData, setCareerData] = useState([]);
 
   useEffect(() => {
-    axios.get("https://infygain.in/api/career-data").then((res) => {
+    axios.get("https://infygain.com/api/career-data").then((res) => {
       setCareerData(res.data);
     });
   }, []);

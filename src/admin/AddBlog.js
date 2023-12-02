@@ -18,7 +18,7 @@ const AddBlog = () => {
   // ! Get Category Data
   useEffect(() => {
     axios
-      .get("https://infygain.in/api/catdata")
+      .get("https://infygain.com/api/catdata")
       .then((res) => {
         setCategories(res.data);
       })
@@ -77,7 +77,7 @@ const AddBlog = () => {
       formData.append("intro", values.intro);
 
       axios
-        .post("https://infygain.in/api/addblog", formData)
+        .post("https://infygain.com/api/addblog", formData)
         .then((res) => {
           console.log(res)
           document.querySelector(".form").reset();

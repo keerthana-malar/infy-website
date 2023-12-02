@@ -65,7 +65,7 @@ function Webblog() {
       ]
 };
   useEffect(() => {
-    axios.get("https://infygain.in/api/blogdata").then((res) => {
+    axios.get("https://infygain.com/api/blogdata").then((res) => {
 
      // sorted by date
      const sortedBlogs = res.data.sort((a, b) => {

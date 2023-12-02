@@ -44,7 +44,7 @@ const EditBlog = () => {
 
   useEffect(() => {
     axios
-      .get("https://infygain.in/api/catdata")
+      .get("https://infygain.com/api/catdata")
       .then((res) => {
         setCategories(res.data);
       })
@@ -68,7 +68,7 @@ const EditBlog = () => {
   });
   useEffect(() => {
     axios
-      .get("https://infygain.in/api/editblog/" + id)
+      .get("https://infygain.com/api/editblog/" + id)
       .then((res) => {
         const blogData = res.data.result[0];
         console.log(blogData);
@@ -124,7 +124,7 @@ const EditBlog = () => {
       formData.append("intro", values.intro);
 
       axios
-        .post("https://infygain.in/api/updateblog", formData)
+        .post("https://infygain.com/api/updateblog", formData)
         .then((res) => {
           document.querySelector(".form").reset();
           setErrors("Blog Updated Successfully 😊😊");

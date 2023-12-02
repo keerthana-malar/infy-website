@@ -72,7 +72,7 @@ const AddCareer = () => {
     else {
       console.log(1)
       axios
-        .post("https://infygain.in/api/addcar", values)
+        .post("https://infygain.com/api/addcar", values)
         .then((res) => {
           console.log("upd",res)
           setValues({ title: "", status: "Active" ,degree:"",

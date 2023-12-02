@@ -78,7 +78,7 @@ const Blog = () => {
 
   const [blogs, setBlogs] = useState([]);
   useEffect(() => {
-    axios.get("https://infygain.in/api/blogdata").then((res) => {
+    axios.get("https://infygain.com/api/blogdata").then((res) => {
       setBlogs(res.data);
     });
   }, []);
@@ -87,11 +87,11 @@ const Blog = () => {
     const confirmDelete = window.confirm("Are you sure?");
     if (confirmDelete) {
       axios
-        .delete(`https://infygain.in/api/blogdelete/${id}`)
+        .delete(`https://infygain.com/api/blogdelete/${id}`)
         .then((res) => {
           alert("Deleted Successfully 😥");
           axios
-            .get("https://infygain.in/api/blogdata")
+            .get("https://infygain.com/api/blogdata")
             .then((res) => {
               setBlogs(res.data);
             })

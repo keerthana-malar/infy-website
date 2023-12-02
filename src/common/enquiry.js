@@ -28,7 +28,7 @@ function Enquiry() {
   const handleSubmit = (e) => {
     e.preventDefault();
       axios
-        .post("https://infygain.in/api/contact", values)
+        .post("https://infygain.com/api/contact", values)
         .then((res) => {
             if(res.data.info){
                 setValues({

@@ -51,6 +51,44 @@ const Category = () => {
               para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
           },
       ];
+        const Cctv = [
+          {
+              id:1,
+              path:"GamingLaptop",
+              title:"Analog",
+              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+          },
+          {
+              id:2,
+              path:"Consumerlaptops",
+              title:"IP",
+              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          {
+              id:3,
+              path:"WorkStation",
+              title:"DVR",
+              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          {
+              id:4,
+              path:"GamingLaptop",
+              title:"NVR",
+              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+          },
+          {
+              id:5,
+              path:"Consumerlaptops",
+              title:"360",
+              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          {
+              id:6,
+              path:"WorkStation",
+              title:"PTZ",
+              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+          },
+      ];
   return (
     <>
    
@@ -153,7 +191,7 @@ const Category = () => {
          <div className='container mt-5 mp-5'>
           <div className='subcategory1' >
                     {
-                        Networking.map((val,index) => (
+                        Cctv.map((val,index) => (
                             <>
                                 <div className='subcategoryhead' key={index}>
                                 
@@ -167,7 +205,7 @@ const Category = () => {
                                             <h4>{val.title}</h4>
                                             <div className='pilot'>
                                                 <p>{val.para}</p>
-                                                    <Link target='_blank' to={`/servicedetails/Networking/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                    <Link target='_blank' to={`/servicedetails/Cctv/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
                                             </div>
                                         </div>
                                 </div>

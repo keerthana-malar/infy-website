@@ -90,6 +90,9 @@ const CommonBtns = ({pid,id,cat}) => {
         if(cat === "Networking"){
             setOpenCategory(1)
         }
+        if(cat === "Cctv"){
+            setOpenCategory(2)
+        }
         if(pid === "GasPipeline"){
             setOpenCategory(2)
         }
@@ -127,7 +130,7 @@ const CommonBtns = ({pid,id,cat}) => {
                                                                                     pid==="IndustrialSafety" && index===3 ? 'categ-active': pid==="Industriallpg" && index===5 ? 'categ-active':
                                                                                     pid==="OfficeEssential" && index===6 ? 'categ-active':pid==="IndustrialCutting"&& index===2 ? "categ-active":
                                                                                     cat==="Laptop" && index===4 ? 'categ-active': cat==="Desktop" && index===4 ? 'categ-active'
-                                                                                    :cat==="Networking" && index===0 ? 'categ-active':''}`} >
+                                                                                    :cat==="Networking" && index===0 ? 'categ-active':cat==="Cctv" && index===1 ? 'categ-active':''}`} >
                             <span>
                                 {category.name}
                             </span>   
@@ -154,7 +157,7 @@ const CommonBtns = ({pid,id,cat}) => {
                                 <>
                                     {category.brands.map((brand, index) => (
                                     <Link 
-                                    className={pid==="GasPipeline"  && `${id === category.paths[index] ? "prdt-active" : ""}`} to={`/products/GasPipeline/${category.paths[index]}`} key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
+                                    className={ `${id === brand.replace(/\s+/g, '') ? "prdt-active" : ""}`} to={`/servicedetails/Networking/${brand.replace(/\s+/g, '')}`} key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
                                     ))}
                                 </>
                             }

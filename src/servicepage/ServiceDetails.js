@@ -10,10 +10,11 @@ import ProductDetail from './ProductDetail';
 const ServiceDetails = () => {
     const {id,cat} = useParams()
 
-    const catPaths = ["Laptop","Desktop","Networking"]
+    const catPaths = ["Laptop","Desktop","Networking","Cctv"]
 
     const valuePaths = ['GamingLaptop','Consumerlaptops',"WorkStation","BrandedDesktop","AssembledDesktop","WorkStationDesktop","GamingDesktop"
-                        ,"HUB","Switch","Router","Firewall","EndPointSecurity","Fiber"];
+                        ,"HUB","Switch","Router","Firewall","EndPointSecurity","Fiber"
+                      ,"Analog","IP","DVR","NVR","360","PTZ"];
   return (
     <>
     {

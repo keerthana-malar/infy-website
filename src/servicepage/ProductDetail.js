@@ -245,6 +245,56 @@ const ProductDetail = () => {
                       ))
                     }
             
+                    {/* Cctv */}
+                    {
+                      id==="Analog" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="IP" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="DVR" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="NVR" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="360" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="PTZ" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+            
 
                 </div>
                 </div>

@@ -4,6 +4,7 @@ import Enquiry from "./common/enquiry";
 import "font-awesome/css/font-awesome.css";
 import "./css/footer.css";
 import { TbArrowBigUpFilled } from "react-icons/tb";
+
 import {
     FaRegClock,
     FaLocationDot,
@@ -18,7 +19,7 @@ import {
   import { HiMenuAlt1 } from "react-icons/hi";
   import { Link } from "react-router-dom";
   import Fixedline from './services/Fixedline';
-
+  
 
 function Blogs(){
     const scrollToTop = () => {
@@ -48,7 +49,7 @@ function Blogs(){
 
     return(
         <>
-
+ 
         {/* Header */}
         <section>
         {/* Top head section */}

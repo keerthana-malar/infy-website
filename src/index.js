@@ -42,6 +42,9 @@ import Isppackage from "./isp-package";
 import Packageslles from "./Internetleasedline";
 import Packagessmes from "./smepackage";
 import Packagestv from "./broadband";
+import NewServicePage from "./services/NewServicePage";
+import SubCategoryHead from "./servicepage/SubCategoryHead";
+import ServiceDetails from "./servicepage/ServiceDetails";
 
 function App() {
   return (
@@ -71,18 +74,23 @@ function App() {
         <Route path="/delivery" element={<Delivery />} />
         <Route path="/refund" element={<Refund />} />
         <Route path="/quality" element={<Quality />} />
-        <Route path="/services/:id" element={<ServicePage />} />
+        {/* <Route path="/services/:id" element={<ServicePage />} /> */}
         <Route path="/Career" element={<CareerPage />} />
         <Route path="/Careers" element={<Careers />} />
         <Route path="/AddCareer" element={<AddCareer />} />
         <Route path="/edit-career/:id" element={<EditCareers />} />
         <Route path="/career/:id" element={<CareerDetails />} />
         <Route path="/candidate" element={<Candidate />} />
-        <Route path="*" element={<Four />} />
         <Route path="/isp-package" element={<Isppackage />} />
         <Route path="/Internet-Leased-Line" element={<Packageslles />} />
         <Route path="/smepackage" element={<Packagessmes />} />
         <Route path="/Business-Broadband" element={<Packagestv />} />
+
+        <Route path="/services/:id" element={<NewServicePage />} />
+        <Route path="/categories/:id" element={<SubCategoryHead />} />
+        <Route path="/servicedetails/:cat/:id" element={<ServiceDetails />} />
+
+        <Route path="*" element={<Four />} />
 
       </Routes>
     </BrowserRouter>

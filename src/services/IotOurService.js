@@ -46,10 +46,10 @@ function IotOurService({componentRef}) {
 
 
             {/* rows 1 */}
-            <div className="container rightsidegrid">
+            {/* <div className="container rightsidegrid">
            
 
-                {/* first row */}
+              
                 <div className='firstrow' data-aos="zoom-in-right" >
                 <div className='divline'></div>
                    <MdNetworkWifi3Bar className='icons'/>
@@ -61,7 +61,7 @@ function IotOurService({componentRef}) {
                      Network Solutions that empower your enterprise to thrive in the connected world.
                   </p>
                     <MdNetworkWifi3Bar className='icon2'/>
-                    {/* {hiddenrow} */}
+                    
                     <div className='hiddenrows'>
                    <div className='pros'>
                    <div className='divline'></div>
@@ -74,7 +74,7 @@ function IotOurService({componentRef}) {
                    </div>
                     </div>
                  </div>
-                {/* second row */}
+                
                 <div className='firstrow1'>
                 <div className='firstrow' data-aos="zoom-in-up">
                 <div className='divline'></div>
@@ -87,7 +87,7 @@ function IotOurService({componentRef}) {
                         of your laptops and desktops. 
                         Convey that your devices can handle any task...</p>
                         <TfiLayoutMediaCenterAlt className='icon2'/>
-                        {/* {Hidden} */}
+                      
                         <div className='hiddenrows1'>
                         <div className='pros'>
                         <div className='divline'></div>
@@ -103,7 +103,7 @@ function IotOurService({componentRef}) {
                 
                 </div>
                 </div>
-                {/* third row */}
+                
                 <div className='firstrow' data-aos="zoom-in-left">
                 <div className='divline'></div>
                 <GiCctvCamera className='icons'/>
@@ -115,7 +115,7 @@ function IotOurService({componentRef}) {
                         keeping a vigilant eye on your property, both inside and out. 
                        </p>
                          <GiCctvCamera className='icon2'/>
-                            {/* {Hidden} */}
+                          
                         <div className='hiddenrows2'>
                         <div className='pros'>
                         <div className='divline'></div>
@@ -127,11 +127,7 @@ function IotOurService({componentRef}) {
                    </div>
                     </div>
                 </div>
-                {/* row completed */}
-           
-            {/* rows 2 */}
-       
-                {/* first row */}
+                
                 
                 <div className='firstrow' data-aos="zoom-in-right">
                     <div className='divline'></div>
@@ -142,10 +138,9 @@ function IotOurService({componentRef}) {
                     <div className='divideline'></div>
                     <p className='param'>Our projectors and Smart TVs deliver stunning 
                         visuals that bring lessons and entertainment to life.</p>
-                        {/* <div className='iconbox'> */}
+                       
                         <SiWebtrees className='icon2'/>
-                        {/* </div> */}
-                           {/* {Hidden} */}
+                      
                            <div className='hiddenrows3'>
                            <div className='pros'>
                            <div className='divline'></div>
@@ -157,7 +152,7 @@ function IotOurService({componentRef}) {
                    </div>
                     </div>
                         </div>
-                {/* second row */}
+                
                 <div className='firstrow' data-aos="zoom-in-up">
                 <div className='divline'></div>
                 <RiLightbulbFlashLine className='icons'/>
@@ -169,7 +164,7 @@ function IotOurService({componentRef}) {
                     ensuring reliability and performance. Your satisfaction is our priority. 
                 </p>
                     <RiLightbulbFlashLine className='icon2'/>
-                       {/* {Hidden} */}
+                       
                        <div className='hiddenrows4'>
                        <div className='pros'>
                        <div className='divline'></div>
@@ -180,10 +175,10 @@ function IotOurService({componentRef}) {
                    </div>
                    </div>
                     </div>
-                    {/* {hidden row} */}
+                  
                 
                 </div>
-                {/* third row */}
+               
                 <div className='firstrow' data-aos="zoom-in-left">
                 <div className='divline'></div>
                 <LuLaptop2 className='icons'/>
@@ -195,7 +190,7 @@ function IotOurService({componentRef}) {
                     when you need them, without the commitment of ownership. 
             </p>
                     <LuLaptop2 className='icon2'/>
-                       {/* {Hidden} */}
+                       
                        <div className='hiddenrows5'>
                        <div className='pros'>
                        <div className='divline'></div>
@@ -207,8 +202,210 @@ function IotOurService({componentRef}) {
                    </div>
                     </div>
                 </div>
+               
+            </div> */}
+
+            <div className="container rightsidegrid">
+           
+
+       
+                {/* first row */}
+                
+                <div className='firstrow' data-aos="zoom-in-right">
+                    <div className='divline'></div>
+                    <MdNetworkWifi3Bar className='icons'/>
+                    <h3>
+                    Computer Network   <br></br>Solutions 
+                    </h3>
+                    <div className='divideline'></div>
+                    <p className='param'>We specialize in crafting cutting-edge Computer Network Solutions that empower your enterprise to thrive in the connected world.</p>
+                        {/* <div className='iconbox'> */}
+                        <MdNetworkWifi3Bar className='icon2'/>
+                        {/* </div> */}
+                           {/* {Hidden} */}
+                           <div className='hiddenrowsa'>
+                           <div className='pros'>
+                           <div className='divline'></div>
+                   <h2 className='edgehead'> Computer Network Solutions </h2>
+                   <div className='buttongroup'>
+                   <Link to="/services/networking" >
+                    <button className='butt btn1'>+</button></Link>
+                   </div>
+                   </div>
+                    </div>
+                        </div>
+                        {/* dummy */}
+                        <div className='firstrow' data-aos="zoom-in-right">
+                    <div className='divline'></div>
+                    <TfiLayoutMediaCenterAlt className='icons'/>
+                    <h3>
+                    Laptop / Desktop Sales and Service
+                    </h3>
+                    <div className='divideline'></div>
+                    <p className='param'>Highlight the power and performance of your laptops and desktops.Convey that your devices can handle any task...</p>
+                        {/* <div className='iconbox'> */}
+                        <TfiLayoutMediaCenterAlt className='icon2'/>
+                        {/* </div> */}
+                           {/* {Hidden} */}
+                           <div className='hiddenrowsb'>
+                           <div className='pros'>
+                           <div className='divline'></div>
+                   <h2 className='edgehead'> Laptop / Desktop Sales and Service </h2>
+                   <div className='buttongroup'>
+                   <Link to="/services/laptop&desktop" >
+                    <button className='butt btn1'>+</button></Link>
+                   </div>
+                   </div>
+                    </div>
+                        </div>
+                        {/* dummy */}
+                        <div className='firstrow' data-aos="zoom-in-right">
+                    <div className='divline'></div>
+                    <GiCctvCamera className='icons'/>
+                    <h3>
+                    Security Solutions
+                    </h3>
+                    <div className='divideline'></div>
+                    <p className='param'>Our CCTV systems offer 24/7 surveillance,keeping a vigilant eye on your property, both inside and out.</p>
+                        {/* <div className='iconbox'> */}
+                        <GiCctvCamera className='icon2'/>
+                        {/* </div> */}
+                           {/* {Hidden} */}
+                           <div className='hiddenrowsc'>
+                           <div className='pros'>
+                           <div className='divline'></div>
+                   <h2 className='edgehead'>  Security Solutions </h2>
+                   <div className='buttongroup'>
+                   <Link to="/services/cctv">
+                    <button className='butt btn1'>+</button></Link>
+                   </div>
+                   </div>
+                    </div>
+                        </div>
+                        {/* dummy */}
+                        <div className='firstrow' data-aos="zoom-in-right">
+                    <div className='divline'></div>
+                    <SiWebtrees className='icons'/>
+                    <h3>
+                    AV Solutions
+                    </h3>
+                    <div className='divideline'></div>
+                    <p className='param'>Our projectors and Smart TVs deliver stunning visuals that bring lessons and entertainment to life.</p>
+                        {/* <div className='iconbox'> */}
+                        <SiWebtrees className='icon2'/>
+                        {/* </div> */}
+                           {/* {Hidden} */}
+                           <div className='hiddenrowsd'>
+                           <div className='pros'>
+                           <div className='divline'></div>
+                   <h2 className='edgehead'>  AV Solutions </h2>
+                   <div className='buttongroup'>
+                   <Link to="/Product_Category/lubricants">
+                    <button className='butt btn1'>+</button></Link>
+                   </div>
+                   </div>
+                    </div>
+                        </div>
+                        {/* dummy */}
+                        <div className='firstrow' data-aos="zoom-in-left">
+                    <div className='divline'></div>
+                    <RiLightbulbFlashLine className='icons'/>
+                    <h3>
+                    Computer Accessories
+                    </h3>
+                    <div className='divideline'></div>
+                    <p className='param'>We provide top-notch products from trusted brands,ensuring reliability and performance. Your satisfaction is our priority.</p>
+                        {/* <div className='iconbox'> */}
+                        <RiLightbulbFlashLine className='icon2'/>
+                        {/* </div> */}
+                           {/* {Hidden} */}
+                           <div className='hiddenrowse'>
+                           <div className='pros'>
+                           <div className='divline'></div>
+                   <h2 className='edgehead'> Computer Accessories </h2>
+                   <div className='buttongroup'>
+                   <Link to="/Product_Category/bio-degradable">
+                    <button className='butt btn1'>+</button></Link>
+                   </div>
+                   </div>
+                    </div>
+                        </div>
+                {/* second row */}
+                <div className='firstrow' data-aos="zoom-in-left">
+                <div className='divline'></div>
+                <LuLaptop2 className='icons'/>
+                    <h3>
+                    Laptop / Desktop Rent
+                    </h3>
+                    <div className='divideline'></div>
+                    <p className='param'> Get access to high-quality laptops and desktops when you need them, without the commitment of ownership. 
+                </p>
+                    <LuLaptop2 className='icon2'/>
+                       {/* {Hidden} */}
+                       <div className='hiddenrows4'>
+                       <div className='pros'>
+                       <div className='divline'></div>
+                   <h2 className='edgehead'>Laptop / Desktop Rent </h2>
+                   <div className='buttongroup'>
+                   <Link to="/Product_Category/industriallpg" >
+                    <button className='butt btn1'>+</button></Link>
+                   </div>
+                   </div>
+                    </div>
+                    {/* {hidden row} */}
+                
+                </div>
+                {/* third row */}
+                <div className='firstrow' data-aos="zoom-in-left">
+                <div className='divline'></div>
+                <MdNetworkWifi3Bar className='icons'/>
+                    <h3>
+                   Textile Machinery Spares
+                    </h3>
+                    <div className='divideline'></div>
+                    <p className='param'>"Textile machinery spares" refers to the components 
+                    or parts that are used in textile machinery for repair, replacement, or maintenance purposes. 
+            </p>
+                    <MdNetworkWifi3Bar className='icon2'/>
+                       {/* {Hidden} */}
+                       <div className='hiddenrows5'>
+                       <div className='pros'>
+                       <div className='divline'></div>
+                   <h2 className='edgehead'>Textile Machinery Spares</h2>
+                   <div className='buttongroup'>
+                   <Link to="/Product_Category/textilemachinery">
+                    <button className='butt btn1'>+</button></Link>
+                   </div>
+                   </div>
+                    </div>
+                </div>
+                {/* fourth row */}
+                <div className='firstrow' data-aos="zoom-in-left">
+                <div className='divline'></div>
+                <MdNetworkWifi3Bar className='icons'/>
+                    <h3>
+                    Office Essential
+                    </h3>
+                    <div className='divideline'></div>
+                    <p className='param'>"Official essential" typically refers to items, documents, 
+                    or tools that are necessary or required for official or formal purposes.  
+            </p>
+                    <MdNetworkWifi3Bar className='icon2'/>
+                       {/* {Hidden} */}
+                       <div className='hiddenrows6'>
+                       <div className='pros'>
+                       <div className='divline'></div>
+                   <h2 className='edgehead'> Office Essential</h2>
+                   <div className='buttongroup'>
+                   <Link to="/Product_Category/OfficeEssential">
+                    <button className='butt btn1'>+</button></Link>
+                   </div>
+                   </div>
+                    </div>
+                </div>
                 {/* row completed */}
             </div>
+            
             </div>
         </div>
     )

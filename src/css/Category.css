@@ -1,0 +1,280 @@
+.about1 {
+    display: flex;
+    align-items: center;
+  }
+  .smallsss1{
+    background-color: var(--warning);
+    width: 70px;
+    height:5px;
+    margin-top: 10px;
+  }
+  .aboutline_head1{
+    padding-left:15px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  .ghj1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 10px;
+  }
+ 
+.biod{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 20px;
+}
+.colspin{
+    margin-top: 20px;
+
+}
+.prdtname{
+    margin-top: 40px;
+
+}
+.biod{
+    margin-top: 20px;
+}
+.pol{
+    font-size: 20px;
+    font-weight: 500;
+}
+.iml{
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s;   
+}
+.iml6{
+    height: 300px;
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+}
+
+.ghj{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.biots{
+    position: relative;
+    overflow: hidden;  
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.bioti{
+    position: relative;
+    overflow: hidden;  
+ 
+}
+.plow{
+    position: absolute;
+    display: flex;
+    height: 300px;
+    width: 97%;
+    background: linear-gradient(90deg, rgba(6, 255, 223, 1) 35%, rgba(0, 66, 255, 1) 100%);
+    opacity: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    top:0;
+    transition: all 1s;
+}
+.bioti:hover {
+    .plow{
+        opacity: 1;
+    }
+    .iml6{
+        transition: 0.5s;
+        
+    }
+}
+.biop{
+    font-weight: 900;
+    color: black;
+}
+
+.biops{
+    font-weight: 900;
+    font-size: 25px;
+    color: #000;
+    margin: 0px 6px;
+    margin-bottom: 25px;
+    opacity: 1;
+}
+.testplo{
+    position: absolute;
+    top:0;
+    width:100%;
+    height: 100%;
+    flex-direction: column;
+    font-weight: bold !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 1s;
+}
+.testplo .test{
+    font-weight: 900;
+}
+.centraitem{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.plo{
+    position: absolute;
+    display: flex;
+    height: 300px;
+    width:100%;
+    background: linear-gradient(90deg, var(--warning) 85%, black 100%)    ;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    transition: all 1s;
+}
+.butts {
+    background-color: var(--dark);
+    width: 55px;
+    height: 55px;
+    color: var(--warning);
+    font-size: 25px;
+    font-weight: 900;
+    border-radius: 100px;
+    border-style: none;
+    transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .butts:hover {
+    background:  linear-gradient(90deg, var(--warning) 100%, black 100%);
+    color: #fff;
+    box-shadow: 0px 0px 5px var(--warning), 0px 0px 25px var(--warning), 
+                0px 0px 50px  black, 0px 0px 600px  black;
+    border: none;
+  }
+  .portoverbxk{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(6, 255, 223, 1) 35%, rgba(0, 66, 255, 1) 100%);
+    display: flex;
+    opacity: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:0;
+    transition: all 1s;
+  }
+
+.biots:hover {
+    .plo{
+        opacity: .5;
+    }
+    .testplo{
+        opacity: 1;
+    }
+    .iml{
+        transition: 0.5s;
+        
+    }
+}
+@media (width<=1200px){
+    .ghj{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .pill{
+        padding-right: 20px;
+        font-size: 25px;
+    }
+    .pol{
+        font-size: 17px;
+    }
+}
+
+@media (width<=991px){
+    .pill{
+        font-size: 22px;
+    }
+    .pol{
+        font-size: 15px;
+        margin-top: 0;
+    }
+    
+    .ghj{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (width<=767px){
+   .ghj
+   {
+    grid-template-columns: repeat(1,1fr);
+   }
+   .biod{
+    grid-template-columns: repeat(1,1fr);
+   }
+   .colspin{
+    /* text-align: center; */
+   }
+   .iml6{
+    height: 300px;
+    /* width: 80%; */
+   }
+   .pill{
+    padding-right: 0px;
+    margin-bottom: 10px;
+   }
+   .plow{
+    width: 96%;
+   }
+   .iml{
+    height: 300px;
+
+   }
+   .ghj1{
+    grid-template-columns: repeat(1,1fr);
+  }
+  
+ 
+   .biots{
+justify-content: center;
+   }
+}
+@media (width<=400px){
+    .plow{
+        width: 94%;
+       }
+}
+
+.imllpg{
+    height: 300px;
+    border-radius: 10px;
+    transition: 0.5s;   
+}
+.lpgimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lubricants-logo{
+}
+.l-logo{
+    margin: 100px 100px;
+    
+}
+@media screen and (width<=600px){
+    .l-logo{
+        margin: 0px; 
+    }
+}

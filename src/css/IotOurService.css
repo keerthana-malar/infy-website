@@ -6,8 +6,6 @@
     --purple: #6f42c1;
     --pink: #e83e8c;
     --red: #dc3545;
-    --orange: #fd7e14;
-    --yellow: #ffc107;
     --green: #28a745;
     --teal: #20c997;
     --cyan: #17a2b8;
@@ -18,7 +16,6 @@
     --secondary: #868e96;
     --success: #28a745;
     --info: #17a2b8;
-    --warning: #ffc107;
     --danger: #dc3545;
     --light: #f8f9fa;
     --dark: #000000;
@@ -29,46 +26,61 @@
 
 .pros{
     transform: rotateX('130deg');
-    background-color: var(--dark);
+    background-color: black;
     height: 40%;
 }
 .edgehead{
     color:var(--white);
     align-items: center;
     padding: 10px;
-}
-.buttongroup{
-  text-align: center;
+    font-size: 20px;
 }
 
 .butt {
   background-color: var(--white);
-  width: 50px;
-  height: 50px;
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  color: var(--dark);
   font-size: 30px;
   border-radius: 100px;
-  text-align: center;
-  justify-content: center;
-  align-items: center !important;
-  /* margin: 0 auto; */
   transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
-
-}
-.buttongroup{
-  justify-content: space-around;
 }
 .butt:hover {
-
   background-color: var(--warning);
   color: var(--white);
   box-shadow: 0px 0px 5px var(--warning), 0px 0px 25px var(--warning), 
               0px 0px 50px var(--warning), 0px 0px 600px var(--warning);
-              border: 3px solid var(--warning);
-            
+  border: none;
 }
 .hiddenrows {
   position: absolute;
-  background: url("/public/images/iot-network.webp") no-repeat;
+  /* background: url("/public/images/industrialsafety.webp") no-repeat; */
+  background-size: cover;
+  top: 0;
+  left: 0;
+  perspective: 500px;
+  perspective-origin: right;
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+.hiddenrows1{
+    position: absolute;
+    /* background: url("/public/images/industrialcutting.webp") no-repeat; */
+    background-size: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    perspective: 500px;
+    perspective-origin: right;
+    opacity: 0;
+    transition: opacity 0.4s ease-in; 
+}
+.hiddenrows2{
+    position: absolute;
+    /* background: url("/public/images/textile\ machinery.webp") no-repeat; */
   background-size: cover;
   top: 0;
   left: 0;
@@ -77,51 +89,80 @@
   perspective: 500px;
   perspective-origin: right;
   opacity: 0;
-  transition: opacity 0.4s ease-in; /* Reduced the transition duration */
+  transition: opacity 0.4s ease-in; 
 }
-
-.hiddenrows1{
+.hiddenrowsa{
     position: absolute;
-    background: url("/public/images/iot-laptop.webp") no-repeat;
+    background: url("/public/images/iot-network.webp") no-repeat;
     background-size: cover;
+    background-position: bottom;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 100%;
-    perspective: 500px;
-    perspective-origin: right;
-    opacity: 0;
-    transition: opacity 0.4s ease-in; /* Reduced the transition duration */
+  height: 100%;
+  width: 100%;
+  perspective: 500px;
+  perspective-origin: center;
+  opacity: 0;
+  transition: opacity 0.4s ease-in; 
 }
-.hiddenrows2{
-    position: absolute;
-    background: url("/public/images/iot-camera.png") no-repeat;
-    background-size: cover;
+.hiddenrowsb{
+  position: absolute;
+  background: url("/public/images/iot-laptop.webp") no-repeat;
+  background-size: cover;
+    background-position: bottom;
+  top: 0;
+  left: 0;
+height: 100%;
+width: 100%;
+perspective: 500px;
+perspective-origin: bottom;
+opacity: 0;
+transition: opacity 0.4s ease-in; 
+}
+.hiddenrowsc{
+  position: absolute;
+  background:url("/public/images/iot-camera.png") no-repeat;
+  background-size: cover;
+    background-position: bottom;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  perspective: 500px;
-  perspective-origin: right;
-  opacity: 0;
-  transition: opacity 0.4s ease-in; /* Reduced the transition duration */
+perspective: 500px;
+perspective-origin: center;
+opacity: 0;
+transition: opacity 0.4s ease-in; 
 }
-.hiddenrows3{
-    position: absolute;
-    background: url("/public/images/iot-projectors.png") no-repeat;
-    background-size: cover;
+.hiddenrowsd{
+  position: absolute;
+  background:  url("/public/images/iot-projectors.png") no-repeat;;
+  background-size: cover;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  perspective: 500px;
-  perspective-origin: right;
-  opacity: 0;
-  transition: opacity 0.4s ease-in; /* Reduced the transition duration */
+perspective: 500px;
+perspective-origin: bottom;
+opacity: 0;
+transition: opacity 0.4s ease-in; 
+}
+.hiddenrowse{
+  position: absolute;
+  background: url("/public/images/PC.webp") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  top: 0;
+  left: 0;
+height: 100%;
+width: 100%;
+perspective: 500px;
+perspective-origin: center;
+opacity: 0;
+transition: opacity 0.4s ease-in; 
 }
 .hiddenrows4{
     position: absolute;
-    background: url("/public/images/PC.webp") no-repeat;
+    background: url("/public/images/lapcon.webp") no-repeat;
     background-size: cover;
     top: 0;
     left: 0;
@@ -130,12 +171,26 @@
     perspective: 500px;
     perspective-origin: right;
     opacity: 0;
-    transition: opacity 0.4s ease-in; /* Reduced the transition duration */
+    transition: opacity 0.4s ease-in; 
 }
 .hiddenrows5{
     position: absolute;
     background: url("/public/images/lapcon.webp") no-repeat;
     background-size: cover;
+    background-position: bottom;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    perspective: 500px;
+    perspective-origin: right;
+    opacity: 0;
+    transition: opacity 0.4s ease-in; 
+}
+.hiddenrows6{
+  position: absolute;
+  background:  url("/public/images/lapcon.webp") no-repeat;
+  background-size: cover;
   top: 0;
   left: 0;
   height: 100%;
@@ -143,38 +198,44 @@
   perspective: 500px;
   perspective-origin: right;
   opacity: 0;
-  transition: opacity 0.4s ease-in; /* Reduced the transition duration */
+  transition: opacity 0.4s ease-in; 
 }
 
-.firstrow:hover .hiddenrows {
+.firstrow:hover .hiddenrowsa {
   opacity: 1;
 }
-.firstrow:hover .hiddenrows1{
+.firstrow:hover .hiddenrowsb{
   opacity: 1;
     
 }
-.firstrow:hover .hiddenrows2{
+.firstrow:hover .hiddenrowsc{
       opacity: 1;
     
 }
 
-.firstrow:hover .hiddenrows3{
+.firstrow:hover .hiddenrowsd{
   opacity: 1;
     
 }
-.firstrow:hover  .hiddenrows4{
+.firstrow:hover  .hiddenrowse{
   opacity: 1; 
     
 }
 
-.firstrow:hover  .hiddenrows5{
+.firstrow:hover  .hiddenrows6{
   opacity: 1;
     
+}
+.firstrow:hover .hiddenrows5{
+    opacity: 1;
+}
+.firstrow:hover .hiddenrows4{
+  opacity: 1;
 }
 
 
 .firsthead{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
     font-family: 'Roboto', "sans-serif";
@@ -194,6 +255,7 @@
 }
 .aboutline_head{
     margin-left: 8px;
+    font-size: 25px;
 }
 
 
@@ -204,9 +266,9 @@
     margin-left: 40px;
 }
 .service-head{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 980;
-    margin-left: 45px;
+    margin-left: 50px;
 }
 .divline{
     height: 8px;
@@ -217,17 +279,17 @@
 
 .firstrow {
   background-color: var(--white);
-  height: 430px;
-  width: 90%;
+  height: 350px;
+  width: 95%;
   text-align: center;
   white-space: none;
   margin-top: 20px;
+  border-radius: 8px;
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  transition: opacity 0.4s ease-in; /* Reduced the transition duration */
+  transition: opacity 0.4s ease-in; 
 }
-
 
 .icon2{
     font-size:100px;
@@ -241,22 +303,22 @@
 .rightsidegrid
 {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
     margin-top: 30px;
+    place-content: center;
 
 }
 
 .param{
-    padding: 20px 20px ;
+    padding: 5px 5px ;
 }
 
 
 .icons{
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     margin-left: 15px;
-    margin-top: 30px;
+    margin-top: 10px;
     background-color: var(--white);
     padding: 4px;
     color: var(--warning);
@@ -286,13 +348,12 @@
     margin-top: 20px;
     margin-left: 0px;
    }
-   .service-head{
-   margin-left: 0px !important;
-   }
    .abouts{
     margin-left: 0 !important;
    }
-  
+   .rightsidegrid{
+        grid-template-columns: repeat(1,1fr);
+    }
     .firstrow{
         width: 90%;
         height: 100%;
@@ -313,11 +374,11 @@
         margin-left: 10px;
     }
     .rightsidegrid{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3,1fr);
+        column-gap: 10px;  
     }
     .firstrow{
         width: 100%;
-        height: 100%;
     }
     .divline{
         width: 100%;
@@ -325,7 +386,11 @@
 
 
  }
-
+@media (width<=991px){
+  .rightsidegrid{
+  grid-template-columns: repeat(2,1fr);
+  }
+}
 
  @media (width<=1210px){
     .icon2{
@@ -343,7 +408,7 @@
         font-size: 90px !important;
     }
     .firstrow{
-        height:90%;
+        height:80%;
     }
 }
 
@@ -363,24 +428,19 @@
 @media (width<=1200px){
   .butt{
       border-radius: 50%;
-      width: 10%;
+      width: 50px;
+      height: 50px;
+     
     }
     .abouts{
-      /* margin: 0; */
+      margin: 0;
     }
   }
-  @media (width<=1182px){
-    .butt{
-      border-radius: 20px;
-      width: 10%;
-      font-size: 25px;
-    }
-   
-  }
+
   @media (width<=982px){
     .butt{
       border-radius: 20px;
-      width: 15%;
+  
       font-size: 22px;
     }
   }
@@ -396,7 +456,6 @@
     .service-head{
       font-size: 30px;
     }
-
   }
 
   @media (width<=382px){
@@ -406,26 +465,21 @@
       font-size: 20px;
     }
     .firstrow h3{
-      display: flex;
-      flex-wrap: wrap;
       padding: 10px;
     }
+    
   }
   @media (width<=735px){
     .butt{
       border-radius: 20px;
-      width: 20%;
       font-size: 22px;
     }
   }
-  
+
   @media (width<=1200px){
     .service-head{
       font-size: 22px;
       margin: 10px;
-      /* margin-left: 10px; */
-    }
-    .abouts{
       margin-left: 10px;
     }
     .header2 p{
@@ -442,66 +496,57 @@
   }
   @media (width<=767px){
     .butt{
-      border-radius: 20px;
-      width: 90px;
-      height: 45px;
+      
+       height: 50px;
       font-size: 20px;
-    
+      
+    }
+    .rightsidegrid{
+      grid-template-columns: repeat(1,1fr);
     }
   }
   @media (width<=564px){
     .butt{
       border-radius: 22px;
       font-size: 30px;
-      width: 15%;
+      
     }
   }
- /* }
- .firstrow .iconbox{
-    border:1px solid red;
-    margin: 0;
-    padding: 0;
- } */
+
  @media (width<=516px){
   .butt{
       border-radius: 30px;
       font-size: 25px;
-      width: 18%;
+     
     }
   }
 
   @media (width<=414px){
-    /* .butt{
+    .butt{
       border-radius: 30px;
       font-size: 26px;
-      width: 22%;
-    } */
+    
+    }
   }
   @media (width<=380px){
     .butt{
-      border-radius: 20px;
+      border-radius: 30px;
       font-size: 28px;
-      width:300px;
- 
     }
   }
   @media (width<=987px){
     .butt{
       border-radius: 30px;
       font-size: 28px;
-      width: 15%;
+      
     }
   }
   @media (width<=752px){
-    /* .butt{
+    .butt{
       border-radius: 30px;
       font-size: 28px;
-      width: 25%;
-    } */
-    .rightsidegrid{
-      grid-template-columns: repeat(1,1fr);
-    padding: 0;
-  }
+      
+    }
   }
   @media (width<=553px){
     .butt{
@@ -509,19 +554,34 @@
       font-size: 28px;
       width: 18%;
     }
-  }
-  @media (width<=422px){
-    /* .butt{
-      border-radius: 30px;
-      font-size: 25px;
-      width: 25%;
-    } */
     .firstrow{
-      height: 90%;
+      column-gap: 0;
       width: 100%;
-      margin:0;
-      padding:0;
     }
   }
- 
- 
+  @media (width<=500px){
+    .butt{
+      border-radius: 50%;
+      font-size: 25px;
+      /* width: 25%; */
+    }
+    .firstrow{
+      width: 105%;
+      margin: 0;
+      padding: 0;
+    }
+
+  }
+
+  @media (width<=500px){
+
+    .firsthead{
+      margin-left: 0px;
+      margin-right: 0px;
+   
+  }
+  .rightsidegrid{
+    margin-left: -10px;
+
+  }
+  }

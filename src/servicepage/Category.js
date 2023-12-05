@@ -148,37 +148,37 @@ const Category = () => {
               id:1,
               path:"GamingLaptop",
               title:"Analog",
-              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+              para:"Immerse yourself in timeless simplicity with our best Analog cameras and electronics. Experience clarity and reliability that stands the test of time.",
           },
           {
               id:2,
               path:"Consumerlaptops",
               title:"IP",
-              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Step into the future with our best IP cameras and solutions. Harness the power of connectivity and high-definition surveillance for unparalleled security.",
           },
           {
               id:3,
               path:"WorkStation",
               title:"DVR",
-              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Secure your space with confidence using our best DVR and NVR systems. Capture, store, and access footage seamlessly with advanced recording technologies.",
           },
           {
               id:4,
               path:"GamingLaptop",
               title:"NVR",
-              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+              para:"Secure your space with confidence using our best DVR and NVR systems. Capture, store, and access footage seamlessly with advanced recording technologies.              ",
           },
           {
               id:5,
               path:"Consumerlaptops",
               title:"360",
-              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Experience comprehensive surveillance with our best 360-degree cameras. Eliminate blind spots and gain complete visibility for enhanced security.",
           },
           {
               id:6,
               path:"WorkStation",
               title:"PTZ",
-              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Navigate your security landscape with precision using our best PTZ (Pan-Tilt-Zoom) cameras. Control, zoom, and focus for a customizable surveillance experience.",
           },
       ];
         const Accessories = [

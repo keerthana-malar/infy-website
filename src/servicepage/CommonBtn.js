@@ -111,8 +111,17 @@ const CommonBtns = ({pid,id,cat}) => {
         if(cat === "Projectors"){
             setOpenCategory(6)
         }
-        if(pid === "IndustrialSafety"){
-            setOpenCategory(4)
+        if(cat === "TV"){
+            setOpenCategory(8)
+        }
+        if(cat ==="Printer" || cat ==="Scanner"){
+            setOpenCategory(4) 
+        }
+        if(id==="Laser" || id==="Thermal" || id==="Color" || id==="MultiFunction" || id === "DotMatrix"){
+            setOpenCategory1("Printer")
+        }
+        if(id==="Flatbed" || id==="Vertical" ){
+            setOpenCategory1("Scanner")
         }
         if(cat ==="Laptop" || cat ==="Desktop"){
             setOpenCategory(5) 
@@ -123,11 +132,14 @@ const CommonBtns = ({pid,id,cat}) => {
         if(id==="BrandedDesktop" || id==="AssembledDesktop" || id==="WorkStationDesktop"  || id==="GamingDesktop"){
             setOpenCategory1("Desktop")
         }
-        if(pid === "Industriallpg"){
-            setOpenCategory(6)
+        if(cat === "UPS"){
+            setOpenCategory(9)
         }
-        if(pid === "OfficeEssential"){
-            setOpenCategory(8)
+        if(cat === "WIFI"){
+            setOpenCategory(10)
+        }
+        if(cat === "InterCom"){
+            setOpenCategory(12)
         }
       
     },[])
@@ -143,7 +155,9 @@ const CommonBtns = ({pid,id,cat}) => {
                                                                                     pid==="OfficeEssential" && index===6 ? 'categ-active':pid==="IndustrialCutting"&& index===2 ? "categ-active":
                                                                                     cat==="Laptop" && index===4 ? 'categ-active': cat==="Desktop" && index===4 ? 'categ-active'
                                                                                     :cat==="Networking" && index===0 ? 'categ-active':cat==="Cctv" && index===1 ? 'categ-active'
-                                                                                    :cat==="Accessories" && index===2 ? 'categ-active':cat==="Projectors" && index===5 ? 'categ-active':''}`} >
+                                                                                    :cat==="Accessories" && index===2 ? 'categ-active':cat==="Projectors" && index===5 ? 'categ-active'
+                                                                                    :cat==="TV" && index===7 ? 'categ-active' :cat==="UPS" && index===8 ? 'categ-active'
+                                                                                    :cat==="WIFI" && index===9 ? 'categ-active' :cat==="InterCom" && index===11 ? 'categ-active': ''}`} >
                             <span>
                                 {category.name}
                             </span>   
@@ -204,7 +218,7 @@ const CommonBtns = ({pid,id,cat}) => {
                                                          (
                                                             category.subPaths.paths.map((subPath, subIndex) => (
                                                                 <Link
-                                                                    to={`/servicedetails/Laptop/${subPath.replace(/\s+/g, '')}`}
+                                                                    to={`/servicedetails/Printer/${subPath.replace(/\s+/g, '')}`}
                                                                     className={`${id === subPath.replace(/\s+/g, '') ? 'prdt-active' : ''}`}
                                                                     key={subIndex}
                                                                 >
@@ -217,7 +231,7 @@ const CommonBtns = ({pid,id,cat}) => {
                                                          (
                                                             category.subPaths.paths1.map((subPath, subIndex) => (
                                                                 <Link
-                                                                    to={`/servicedetails/Desktop/${subPath.replace(/\s+/g, '')}`}
+                                                                    to={`/servicedetails/Scanner/${subPath.replace(/\s+/g, '')}`}
                                                                     className={`${id === subPath.replace(/\s+/g, '') ? 'prdt-active' : ''}`}
                                                                     key={subIndex}
                                                                 >
@@ -299,7 +313,7 @@ const CommonBtns = ({pid,id,cat}) => {
                                     {category.brands.map((brand, index) => (
                                     <Link 
                                     className={pid==="OfficeEssential"  && `${id === category.paths[index] ? "prdt-active" : ""}`} 
-                                    to={`/products/OfficeEssential/${category.paths[index]}`} key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
+                                    to={`/servicedetails/InteractivePanel/${brand.replace(/\s+/g, '')}`}  key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
                                     ))}
                                 </>
                             }
@@ -307,8 +321,8 @@ const CommonBtns = ({pid,id,cat}) => {
                                 index === 7&&
                                 <>
                                     {category.brands.map((brand, index) => (
-                                    <Link to={`/products/Industriallpg/${category.paths[index]}`} 
-                                    className={pid==="Industriallpg"  && `${id === category.paths[index] ? "prdt-active" : ""}`} 
+                                    <Link to={`/servicedetails/TV/${brand.replace(/\s+/g, '')}`} 
+                                    className={ `${id === brand.replace(/\s+/g, '') ? "prdt-active" : ""}`} 
                                     key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
                                     ))}
                                 </>
@@ -317,8 +331,8 @@ const CommonBtns = ({pid,id,cat}) => {
                                 index === 8&&
                                 <>
                                     {category.brands.map((brand, index) => (
-                                    <Link to={`/products/Industriallpg/${category.paths[index]}`} 
-                                    className={pid==="Industriallpg"  && `${id === category.paths[index] ? "prdt-active" : ""}`} 
+                                    <Link to={`/servicedetails/UPS/${brand.replace(/\s+/g, '')}`} 
+                                    className={ `${id === brand.replace(/\s+/g, '') ? "prdt-active" : ""}`}
                                     key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
                                     ))}
                                 </>
@@ -327,8 +341,8 @@ const CommonBtns = ({pid,id,cat}) => {
                                 index === 9&&
                                 <>
                                     {category.brands.map((brand, index) => (
-                                    <Link to={`/products/Industriallpg/${category.paths[index]}`} 
-                                    className={pid==="Industriallpg"  && `${id === category.paths[index] ? "prdt-active" : ""}`} 
+                                    <Link to={`/servicedetails/WIFI/${brand.replace(/\s+/g, '')}`}
+                                    className={ `${id === brand.replace(/\s+/g, '') ? "prdt-active" : ""}`} 
                                     key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
                                     ))}
                                 </>
@@ -347,8 +361,8 @@ const CommonBtns = ({pid,id,cat}) => {
                                 index === 11&&
                                 <>
                                     {category.brands.map((brand, index) => (
-                                    <Link to={`/products/Industriallpg/${category.paths[index]}`} 
-                                    className={pid==="Industriallpg"  && `${id === category.paths[index] ? "prdt-active" : ""}`} 
+                                    <Link to={`/servicedetails/InterCom/${brand.replace(/\s+/g, '')}`}
+                                    className={ `${id === brand.replace(/\s+/g, '') ? "prdt-active" : ""}`} 
                                     key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
                                     ))}
                                 </>

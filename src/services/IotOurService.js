@@ -216,7 +216,7 @@ function IotOurService({componentRef}) {
                     <div className='divline'></div>
                     <MdNetworkWifi3Bar className='icons'/>
                     <h3>
-                    Computer Network   <br></br>Solutions 
+                    Complete Network   <br></br>Solutions 
                     </h3>
                     <div className='divideline'></div>
                     <p className='param'>We specialize in crafting cutting-edge Computer Network Solutions that empower your enterprise to thrive in the connected world.</p>
@@ -227,7 +227,7 @@ function IotOurService({componentRef}) {
                            <div className='hiddenrowsa'>
                            <div className='pros'>
                            <div className='divline'></div>
-                   <h2 className='edgehead'> Computer Network Solutions </h2>
+                   <h2 className='edgehead'> Complete Network Solutions </h2>
                    <div className='buttongroup'>
                    <Link to="/services/networking" >
                     <button className='butt btn1'>+</button></Link>

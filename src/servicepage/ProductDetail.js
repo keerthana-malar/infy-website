@@ -183,8 +183,21 @@ const ProductDetail = () => {
           },
       
           ]
-          const Fiber = [
+          const Analog = [
             {
+
+              name:"Analog",
+              img:"/images/desk.webp",
+              para:"Welcome to Infygain Technologies, your premier destination for top-notch Analog surveillance solutions. At Infygain Technologies, we pride ourselves on offering a range of Analog products that combine simplicity, reliability, and clarity for unparalleled security. Here's why our Analog solutions stand out",
+              p1:"Immerse yourself in timeless surveillance with our range of Analog cameras.",
+              p2:"Experience clarity in every frame, capturing crucial details with precision.",
+              p3:"Explore our Analog electronics that form the backbone of reliable surveillance systems.",
+              p4:"Benefit from tried-and-true technology that has stood the test of time.",
+              p5:"Our Analog solutions are known for their durability and reliability, ensuring constant protection.",
+              p6:"Navigate your security needs effortlessly with user-friendly Analog systems.",
+              p7:"Trust in the clarity of Analog technology, capturing every moment with precision.",
+              p8:"Secure your space with confidence using the best Analog solutions at Infygain Technologies.",
+
               name:"Fiber",
               img:"/images/fibre.webp",
               para:"At Infygain Technologies, we believe that the backbone of modern connectivity is built on the speed and reliability of fiber optics. As pioneers in the field, we are committed to delivering state-of-the-art fiber solutions that transform the way you connect, communicate, and collaborate.",
@@ -196,9 +209,25 @@ const ProductDetail = () => {
               p6:"Elevate your business operations with our business-grade fiber solutions. From enhanced communication to efficient data management, fiber is the key to unlocking your business's full potential.",
               p7:"Upgrade your network infrastructure with our cutting-edge fiber optic cabling solutions. Ensure your data travels at the speed of light within your organization.",
               p8:"Transform your telecom network with the speed and reliability of fiber optics.",
+
             },
-        
             ]
+              const IP = [
+                {
+                  name:"IP",
+                  img:"/images/desk.webp",
+                  para:"Welcome to Infygain Technologies, where innovation meets security excellence with our cutting-edge IP surveillance solutions. Discover the power of Internet Protocol technology that elevates your surveillance experience. Here's why our IP solutions stand out:",
+                  p1:"Step into the future with high-definition IP cameras for crystal-clear surveillance.",
+                  p2:"Experience advanced features, including remote access and smart analytics.",
+                  p3:"Enjoy superior image quality with our high-definition IP cameras.",
+                  p4:"Stay connected and in control with remote access to your surveillance system.",
+                  p5:"Benefit from smart analytics that enhance the efficiency and effectiveness of your security.",
+                  p6:"Secure your space with our IP DVR and NVR systems, offering seamless recording and playback capabilities.",
+                  p7:"Harness the power of IP technology for efficient storage and retrieval of surveillance footage.",
+                  p8:"Transform your telecom network with the speed and reliability of fiber optics.",
+                },
+            
+                ]
   // Laptop
   const GamingLaptop = Laptop.filter((val, index) => (
     val.name === "Gaming Laptop"
@@ -344,7 +373,7 @@ const ProductDetail = () => {
                     {/* Cctv */}
                     {
                       id==="Analog" &&
-                      GamingDesktop.map((value,index) => (
+                      Analog.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -352,7 +381,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="IP" &&
-                      GamingDesktop.map((value,index) => (
+                      IP.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>

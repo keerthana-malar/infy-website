@@ -25,6 +25,7 @@ function NewServicePage(){
             {
                 valuePaths.includes(id)   ?
                 <>
+                
                 <IotHeader />
                  <ServiceBanner/>
 

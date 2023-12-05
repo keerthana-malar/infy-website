@@ -14,6 +14,7 @@ import { Link } from 'react-router-dom';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Hidden } from '@mui/material';
+import { FaUps } from 'react-icons/fa';
 
 
 function IotOurService({componentRef}) {
@@ -287,7 +288,7 @@ function IotOurService({componentRef}) {
                     <div className='divline'></div>
                     <SiWebtrees className='icons'/>
                     <h3>
-                    AV Solutions
+                    Projectors
                     </h3>
                     <div className='divideline'></div>
                     <p className='param'>Our projectors and Smart TVs deliver stunning visuals that bring lessons and entertainment to life.</p>
@@ -298,9 +299,9 @@ function IotOurService({componentRef}) {
                            <div className='hiddenrowsd'>
                            <div className='pros'>
                            <div className='divline'></div>
-                   <h2 className='edgehead'>  AV Solutions </h2>
+                   <h2 className='edgehead'> Projectors </h2>
                    <div className='buttongroup'>
-                   <Link to="/Product_Category/lubricants">
+                   <Link to="/services/Projectors">
                     <button className='butt btn1'>+</button></Link>
                    </div>
                    </div>
@@ -324,7 +325,7 @@ function IotOurService({componentRef}) {
                            <div className='divline'></div>
                    <h2 className='edgehead'> Computer Accessories </h2>
                    <div className='buttongroup'>
-                   <Link to="/Product_Category/bio-degradable">
+                   <Link to="/services/Accessories">
                     <button className='butt btn1'>+</button></Link>
                    </div>
                    </div>
@@ -335,7 +336,7 @@ function IotOurService({componentRef}) {
                 <div className='divline'></div>
                 <LuLaptop2 className='icons'/>
                     <h3>
-                    Laptop / Desktop Rent
+                    TV
                     </h3>
                     <div className='divideline'></div>
                     <p className='param'> Get access to high-quality laptops and desktops when you need them, without the commitment of ownership. 
@@ -345,9 +346,9 @@ function IotOurService({componentRef}) {
                        <div className='hiddenrows4'>
                        <div className='pros'>
                        <div className='divline'></div>
-                   <h2 className='edgehead'>Laptop / Desktop Rent </h2>
+                   <h2 className='edgehead'>TV </h2>
                    <div className='buttongroup'>
-                   <Link to="/Product_Category/industriallpg" >
+                   <Link to="/services/TV" >
                     <button className='butt btn1'>+</button></Link>
                    </div>
                    </div>
@@ -360,7 +361,7 @@ function IotOurService({componentRef}) {
                 <div className='divline'></div>
                 <MdNetworkWifi3Bar className='icons'/>
                     <h3>
-                   Textile Machinery Spares
+                    Printer & Scanner
                     </h3>
                     <div className='divideline'></div>
                     <p className='param'>"Textile machinery spares" refers to the components 
@@ -371,9 +372,9 @@ function IotOurService({componentRef}) {
                        <div className='hiddenrows5'>
                        <div className='pros'>
                        <div className='divline'></div>
-                   <h2 className='edgehead'>Textile Machinery Spares</h2>
+                   <h2 className='edgehead'> Printer & Scanner</h2>
                    <div className='buttongroup'>
-                   <Link to="/Product_Category/textilemachinery">
+                   <Link to="/services/Printer&Scanner">
                     <button className='butt btn1'>+</button></Link>
                    </div>
                    </div>
@@ -384,7 +385,7 @@ function IotOurService({componentRef}) {
                 <div className='divline'></div>
                 <MdNetworkWifi3Bar className='icons'/>
                     <h3>
-                    Office Essential
+                    Interactive Panel
                     </h3>
                     <div className='divideline'></div>
                     <p className='param'>"Official essential" typically refers to items, documents, 
@@ -395,15 +396,111 @@ function IotOurService({componentRef}) {
                        <div className='hiddenrows6'>
                        <div className='pros'>
                        <div className='divline'></div>
-                   <h2 className='edgehead'> Office Essential</h2>
+                   <h2 className='edgehead'> Interactive Panel</h2>
                    <div className='buttongroup'>
-                   <Link to="/Product_Category/OfficeEssential">
+                   <Link to="/services/InteractivePanel">
                     <button className='butt btn1'>+</button></Link>
                    </div>
                    </div>
                     </div>
                 </div>
                 {/* row completed */}
+
+                <div className='firstrow' data-aos="zoom-in-right">
+                    <div className='divline'></div>
+                    <FaUps  className='icons'/>
+                    <h3>
+                        UPS
+                    </h3>
+                    <div className='divideline'></div>
+                    <p className='param'>We specialize in crafting cutting-edge Computer Network Solutions that empower your enterprise to thrive in the connected world.</p>
+                        {/* <div className='iconbox'> */}
+                        <MdNetworkWifi3Bar className='icon2'/>
+                        {/* </div> */}
+                           {/* {Hidden} */}
+                           <div className='hiddenrowsa'>
+                           <div className='pros'>
+                           <div className='divline'></div>
+                   <h2 className='edgehead'>  UPS </h2>
+                   <div className='buttongroup'>
+                   <Link to="/services/UPS" >
+                    <button className='butt btn1'>+</button></Link>
+                   </div>
+                   </div>
+                    </div>
+                        </div>
+                        {/* dummy */}
+                        <div className='firstrow' data-aos="zoom-in-right">
+                    <div className='divline'></div>
+                    <TfiLayoutMediaCenterAlt className='icons'/>
+                    <h3>
+                    WIFI
+                    </h3>
+                    <div className='divideline'></div>
+                    <p className='param'>Highlight the power and performance of your laptops and desktops.Convey that your devices can handle any task...</p>
+                        {/* <div className='iconbox'> */}
+                        <TfiLayoutMediaCenterAlt className='icon2'/>
+                        {/* </div> */}
+                           {/* {Hidden} */}
+                           <div className='hiddenrowsb'>
+                           <div className='pros'>
+                           <div className='divline'></div>
+                   <h2 className='edgehead'>  WIFI</h2>
+                   <div className='buttongroup'>
+                   <Link to="/services/WIFI" >
+                    <button className='butt btn1'>+</button></Link>
+                   </div>
+                   </div>
+                    </div>
+                        </div>
+                        {/* dummy */}
+                        <div className='firstrow' data-aos="zoom-in-right">
+                    <div className='divline'></div>
+                    <GiCctvCamera className='icons'/>
+                    <h3>
+                     Point Of Sale
+                    </h3>
+                    <div className='divideline'></div>
+                    <p className='param'>Our CCTV systems offer 24/7 surveillance,keeping a vigilant eye on your property, both inside and out.</p>
+                        {/* <div className='iconbox'> */}
+                        <GiCctvCamera className='icon2'/>
+                        {/* </div> */}
+                           {/* {Hidden} */}
+                           <div className='hiddenrowsc'>
+                           <div className='pros'>
+                           <div className='divline'></div>
+                   <h2 className='edgehead'>  Point Of Sale </h2>
+                   <div className='buttongroup'>
+                   <Link to="/services/Pos">
+                    <button className='butt btn1'>+</button></Link>
+                   </div>
+                   </div>
+                    </div>
+                        </div>
+                        {/* dummy */}
+                        <div className='firstrow' data-aos="zoom-in-right">
+                    <div className='divline'></div>
+                    <SiWebtrees className='icons'/>
+                    <h3>
+                    InterCom
+                    </h3>
+                    <div className='divideline'></div>
+                    <p className='param'>Our projectors and Smart TVs deliver stunning visuals that bring lessons and entertainment to life.</p>
+                        {/* <div className='iconbox'> */}
+                        <SiWebtrees className='icon2'/>
+                        {/* </div> */}
+                           {/* {Hidden} */}
+                           <div className='hiddenrowsd'>
+                           <div className='pros'>
+                           <div className='divline'></div>
+                   <h2 className='edgehead'> InterCom </h2>
+                   <div className='buttongroup'>
+                   <Link to="/services/InterCom">
+                    <button className='butt btn1'>+</button></Link>
+                   </div>
+                   </div>
+                    </div>
+                        </div>
             </div>
             
             </div>

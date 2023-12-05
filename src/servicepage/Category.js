@@ -4,6 +4,7 @@ import '../css/Category.css'
 import AOS from 'aos';
 import SubCateContent from './SubCateContent';
 
+
 const Category = () => {
     const {id} = useParams()
 
@@ -12,6 +13,97 @@ const Category = () => {
             AOS.refresh();
 
         }, []);
+
+        const laptop = [
+          {
+              id:1,
+              path:"GamingLaptop",
+              title:"Gaming Laptop",
+              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+          },
+          {
+              id:2,
+              path:"Consumerlaptops",
+              title:"Consumer laptops",
+              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          {
+              id:3,
+              path:"WorkStation",
+              title:"Work Station",
+              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+          },
+      ];
+      const desktop = [
+          {
+              id:1,
+              path:"BrandedDesktop",
+              title:"Branded Desktop",
+              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+          },
+          {
+              id:2,
+              path:"AssembledDesktop",
+              title:"Assembled Desktop",
+              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          {
+              id:3,
+              path:"WorkStationDesktop",
+              title:"Work Station",
+              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          {
+              id:4,
+              path:"GamingDesktop",
+              title:"Gaming Desktop",
+              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+          },
+      ];
+      const printer = [
+          {
+              id:1,
+              path:"BrandedDesktop",
+              title:"Laser",
+              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+          },
+          {
+              id:2,
+              path:"AssembledDesktop",
+              title:"Thermal",
+              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          {
+              id:3,
+              path:"WorkStationDesktop",
+              title:"Color",
+              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          {
+              id:4,
+              path:"GamingDesktop",
+              title:"Multi Function",
+              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          {
+              id:4,
+              path:"GamingDesktop",
+              title:"Dot Matrix",
+              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+          },
+      ];
+      const scanner = [
+          {
+              id:1,
+              title:"Flatbed",
+              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+          },
+          {
+              id:2,
+              title:"Vertical",
+              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+          },
+      ];
         
         const Networking = [
           {
@@ -89,68 +181,254 @@ const Category = () => {
               para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
           },
       ];
+        const Accessories = [
+          {
+              id:1,
+              title:"RAM",
+              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+          },
+          {
+              id:2,
+              title:"HDD,SSD",
+              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          {
+              id:3,
+              title:"KeyBoard",
+              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          {
+              id:4,
+              title:"Mouse,Mointer",
+              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+          },
+          {
+              id:5,
+              title:"Cabinet",
+              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          {
+              id:6,
+              title:"Mother Board",
+              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          {
+              id:7,
+              title:"SMBS",
+              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+          },
+          {
+              id:8,
+              title:"Cables,Charger",
+              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          {
+              id:9,
+              title:"Connector,Convertor",
+              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+          },
+      ];
+        const Projectors = [
+          {
+              id:1,
+              title:"LCD",
+              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+          },
+          {
+              id:2,
+              title:"LED",
+              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          {
+              id:3,
+              title:"Smart Projector",
+              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+          },
+          
+      ];
+        const TV = [
+          {
+              id:1,
+              title:"Andriod TV",
+              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+          },
+          {
+              id:2,
+              title:"Smart TV",
+              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+          },        
+      ];
+
+      const InteractivePanel = [
+        {
+            id:1,
+            title:"Interactive Panel 65",
+            para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+        },
+        {
+            id:2,
+            title:"Interactive Panel 75",
+            para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+        },
+     
+        
+    ];
+      const UPS = [
+        {
+            id:1,
+            title:"Inventor",
+            para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+        },
+        {
+            id:2,
+            title:"Online UPS",
+            para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+        },
+        
+    ];
+      const WIFI = [
+        {
+            id:1,
+            title:"Access Point Controller",
+            para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+        },
+        {
+            id:2,
+            title:"Wifi-5",
+            para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+        },
+        {
+            id:3,
+            title:"Wifi-6",
+            para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+        },
+        
+    ];
+      const pos = [
+        {
+            id:1,
+            title:"LCD",
+            para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+        },
+        {
+            id:2,
+            title:"LED",
+            para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+        },
+        {
+            id:3,
+            title:"Smart Projector",
+            para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+        },
+        
+    ];
+      const InterCom = [
+        {
+            id:1,
+            title:"EPABX",
+            para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+        },
+        {
+            id:2,
+            title:"IPPBX",
+            para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+        },
+        
+    ];
   return (
     <>
    
-     {id == "laptop&desktop" && (
+   {id=="laptop&desktop" &&  
         <>
-          <div className="container prdtname">
-            <div className="about1">
-              <div className="smallsss1"></div>
-              <h4 className="aboutline_head1">Laptop / Desktop Sales and Service</h4>
+        <div className='container mt-5 mp-5'>
+            <div className='about1'>
+            <div className='smallsss1'></div>
+        <h4 className='aboutline_head1'>Printer</h4>
             </div>
-
-            <div className="colspin">
-              <div className="biod">
-                <h3 className="pill"  data-aos="fade-right" data-aos-duration="1500">
-                  Dr Bio is India’s first approved bio polymer manufacturer,
-                  focusing on compostable polymers, packaging, cutlery, and
-                  straws, contributing to sustainable and environmentally
-                  friendly solutions.
-                </h3>
-                <div className="text-muted pol"  data-aos="fade-left" data-aos-duration="1500">
-                  <p>
-                    Dr. Bio Polymers are the new eco-friendly resins that are
-                    made up of Compostable polymers & starch blends. The Dr.BIO
-                    Resin is a film grade resin and can be processed on standard
-                    blown film lines or blow moulding lines. The manufactured
-                    products using this resin are degradable in normal land fill
-                    environment and get disintegrated within 3-6 months after
-                    being disposed off in a land-fill.
-                  </p>
+            <div className='biod biode'>
+                
+                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
+                    large selection of stock products or create a cost-effective custom solution.</h2>
+                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
+                        manufacturer & supplier in India and worldwide. We are expert in VCI technology.
+                            Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
+                        with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                        </p></div>
                 </div>
-              </div>
-              <div className="ghj">
-                <div className="biots">
-                  <img src="/images/laptopabout.webp" className="iml image-fluid" />
-                  <div className="plo"></div>
-                  <div className="testplo">
-                    <h3 className="biops">Laptop</h3>
-                    <Link
-                      to="/categories/laptop"
-                      target="_blank"
-                    >
-                      <button className="butts btn1">+</button>
-                    </Link>
-                  </div>
-                </div>
-                <div className="biots">
-                  <img src="/images/desktop.jpg" className="iml image-fluid" />
-                  <div className="plo"></div>
-                  <div className="testplo">
-                    <h3 className="biops">Desktop </h3>
-                    <Link to="/categories/desktop" target="_blank">
-                      <button className="butts btn1">+</button>
-                    </Link>
-                  </div>
-                </div>
-
-               
-              </div>
-            </div>
           </div>
+         <div className='container mt-5 mp-5'>
+          <div className='subcategory1' >
+                    {
+                        laptop.map((val,index) => (
+                            <>
+                                <div className='subcategoryhead' key={index}>
+                                
+                                        <div className="subcategory2 ">
+                                        
+                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+
+                                        </div>
+
+                                        <div className='subcategory3'>
+                                            <h4>{val.title}</h4>
+                                            <div className='pilot'>
+                                                <p>{val.para}</p>
+                                                    <Link target='_blank' to={`/servicedetails/TV/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                            </div>
+                                        </div>
+                                </div>
+                            </>
+                            ))
+                        }
+
+                        </div>
+         </div>
+         <div className='container mt-5 mp-5'>
+            <div className='about1'>
+            <div className='smallsss1'></div>
+        <h4 className='aboutline_head1'> Scanner</h4>
+            </div>
+            <div className='biod biode'>
+                
+                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
+                    large selection of stock products or create a cost-effective custom solution.</h2>
+                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
+                        manufacturer & supplier in India and worldwide. We are expert in VCI technology.
+                            Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
+                        with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                        </p></div>
+                </div>
+        </div>
+         <div className='container mt-5 mp-5'>
+          <div className='subcategory1' >
+                    {
+                        desktop.map((val,index) => (
+                            <>
+                                <div className='subcategoryhead' key={index}>
+                                
+                                        <div className="subcategory2 ">
+                                        
+                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+
+                                        </div>
+
+                                        <div className='subcategory3'>
+                                            <h4>{val.title}</h4>
+                                            <div className='pilot'>
+                                                <p>{val.para}</p>
+                                                    <Link target='_blank' to={`/servicedetails/TV/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                            </div>
+                                        </div>
+                                </div>
+                            </>
+                            ))
+                        }
+
+                        </div>
+         </div>
+         
         </>
-      )}
+      }
 
     {id=="networking" &&  
         <>
@@ -164,12 +442,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/laptop.webp": val.id === 2
-                                ? "/images/laptop.webp": val.id === 3
-                                ? "/images/laptop.webp"  : val.id === 4
-                                ? "/images/laptop.webp": val.id === 5
-                                ? "/images/laptop.webp": val.id === 6
-                                ? "/images/laptop.webp": ""}`} />
+                                        <img src={`${val.id === 1 ? "/images/Hub.webp" :val.id === 2 ? "/images/switch.webp":val.id === 3 ? "/images/Router.webp" :val.id === 4 ? "/images/firewall.webp":val.id === 5 ? "/images/end point security.webp" :val.id === 6 ? "/images/fibre.webp": ""}`} />
 
                                         </div>
 
@@ -222,6 +495,356 @@ const Category = () => {
          </div>
         </>
                     }
+    {id=="Accessories" &&  
+        <>
+         <SubCateContent />
+         <div className='container mt-5 mp-5'>
+          <div className='subcategory1' >
+                    {
+                        Accessories.map((val,index) => (
+                            <>
+                                <div className='subcategoryhead' key={index}>
+                                
+                                        <div className="subcategory2 ">
+                                        
+                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+
+                                        </div>
+
+                                        <div className='subcategory3'>
+                                            <h4>{val.title}</h4>
+                                            <div className='pilot'>
+                                                <p>{val.para}</p>
+                                                    <Link target='_blank' to={`/servicedetails/Accessories/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                            </div>
+                                        </div>
+                                </div>
+                            </>
+                            ))
+                        }
+
+                        </div>
+         </div>
+        </>
+      }
+    {id=="Projectors" &&  
+        <>
+         <SubCateContent />
+         <div className='container mt-5 mp-5'>
+          <div className='subcategory1' >
+                    {
+                        Projectors.map((val,index) => (
+                            <>
+                                <div className='subcategoryhead' key={index}>
+                                
+                                        <div className="subcategory2 ">
+                                        
+                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+
+                                        </div>
+
+                                        <div className='subcategory3'>
+                                            <h4>{val.title}</h4>
+                                            <div className='pilot'>
+                                                <p>{val.para}</p>
+                                                    <Link target='_blank' to={`/servicedetails/Projectors/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                            </div>
+                                        </div>
+                                </div>
+                            </>
+                            ))
+                        }
+
+                        </div>
+         </div>
+        </>
+      }
+    {id=="TV" &&  
+        <>
+         <SubCateContent />
+         <div className='container mt-5 mp-5'>
+          <div className='subcategory1' >
+                    {
+                        TV.map((val,index) => (
+                            <>
+                                <div className='subcategoryhead' key={index}>
+                                
+                                        <div className="subcategory2 ">
+                                        
+                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+
+                                        </div>
+
+                                        <div className='subcategory3'>
+                                            <h4>{val.title}</h4>
+                                            <div className='pilot'>
+                                                <p>{val.para}</p>
+                                                    <Link target='_blank' to={`/servicedetails/TV/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                            </div>
+                                        </div>
+                                </div>
+                            </>
+                            ))
+                        }
+
+                        </div>
+         </div>
+        </>
+      }
+
+    {id=="Printer&Scanner" &&  
+        <>
+        <div className='container mt-5 mp-5'>
+            <div className='about1'>
+            <div className='smallsss1'></div>
+        <h4 className='aboutline_head1'>Printer</h4>
+            </div>
+            <div className='biod biode'>
+                
+                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
+                    large selection of stock products or create a cost-effective custom solution.</h2>
+                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
+                        manufacturer & supplier in India and worldwide. We are expert in VCI technology.
+                            Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
+                        with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                        </p></div>
+                </div>
+          </div>
+         <div className='container mt-5 mp-5'>
+          <div className='subcategory1' >
+                    {
+                        printer.map((val,index) => (
+                            <>
+                                <div className='subcategoryhead' key={index}>
+                                
+                                        <div className="subcategory2 ">
+                                        
+                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+
+                                        </div>
+
+                                        <div className='subcategory3'>
+                                            <h4>{val.title}</h4>
+                                            <div className='pilot'>
+                                                <p>{val.para}</p>
+                                                    <Link target='_blank' to={`/servicedetails/TV/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                            </div>
+                                        </div>
+                                </div>
+                            </>
+                            ))
+                        }
+
+                        </div>
+         </div>
+         <div className='container mt-5 mp-5'>
+            <div className='about1'>
+            <div className='smallsss1'></div>
+        <h4 className='aboutline_head1'> Scanner</h4>
+            </div>
+            <div className='biod biode'>
+                
+                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
+                    large selection of stock products or create a cost-effective custom solution.</h2>
+                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
+                        manufacturer & supplier in India and worldwide. We are expert in VCI technology.
+                            Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
+                        with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                        </p></div>
+                </div>
+        </div>
+         <div className='container mt-5 mp-5'>
+          <div className='subcategory1' >
+                    {
+                        scanner.map((val,index) => (
+                            <>
+                                <div className='subcategoryhead' key={index}>
+                                
+                                        <div className="subcategory2 ">
+                                        
+                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+
+                                        </div>
+
+                                        <div className='subcategory3'>
+                                            <h4>{val.title}</h4>
+                                            <div className='pilot'>
+                                                <p>{val.para}</p>
+                                                    <Link target='_blank' to={`/servicedetails/TV/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                            </div>
+                                        </div>
+                                </div>
+                            </>
+                            ))
+                        }
+
+                        </div>
+         </div>
+         
+        </>
+      }
+
+      {id=="InteractivePanel" &&  
+              <>
+              <SubCateContent />
+              <div className='container mt-5 mp-5'>
+                <div className='subcategory1' >
+                          {
+                              Projectors.map((val,index) => (
+                                  <>
+                                      <div className='subcategoryhead' key={index}>
+                                      
+                                              <div className="subcategory2 ">
+                                              
+                                              <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+
+                                              </div>
+
+                                              <div className='subcategory3'>
+                                                  <h4>{val.title}</h4>
+                                                  <div className='pilot'>
+                                                      <p>{val.para}</p>
+                                                          <Link target='_blank' to={`/servicedetails/Projectors/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                  </div>
+                                              </div>
+                                      </div>
+                                  </>
+                                  ))
+                              }
+
+                              </div>
+              </div>
+              </>
+            } 
+      
+      {id=="UPS" &&  
+              <>
+              <SubCateContent />
+              <div className='container mt-5 mp-5'>
+                <div className='subcategory1' >
+                          {
+                              UPS.map((val,index) => (
+                                  <>
+                                      <div className='subcategoryhead' key={index}>
+                                      
+                                              <div className="subcategory2 ">
+                                              
+                                              <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+
+                                              </div>
+
+                                              <div className='subcategory3'>
+                                                  <h4>{val.title}</h4>
+                                                  <div className='pilot'>
+                                                      <p>{val.para}</p>
+                                                          <Link target='_blank' to={`/servicedetails/Projectors/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                  </div>
+                                              </div>
+                                      </div>
+                                  </>
+                                  ))
+                              }
+
+                              </div>
+              </div>
+              </>
+            } 
+      {id=="WIFI" &&  
+              <>
+              <SubCateContent />
+              <div className='container mt-5 mp-5'>
+                <div className='subcategory1' >
+                          {
+                              WIFI.map((val,index) => (
+                                  <>
+                                      <div className='subcategoryhead' key={index}>
+                                      
+                                              <div className="subcategory2 ">
+                                              
+                                              <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+
+                                              </div>
+
+                                              <div className='subcategory3'>
+                                                  <h4>{val.title}</h4>
+                                                  <div className='pilot'>
+                                                      <p>{val.para}</p>
+                                                          <Link target='_blank' to={`/servicedetails/Projectors/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                  </div>
+                                              </div>
+                                      </div>
+                                  </>
+                                  ))
+                              }
+
+                              </div>
+              </div>
+              </>
+            } 
+      {id=="Pos" &&  
+              <>
+              <SubCateContent />
+              <div className='container mt-5 mp-5'>
+                <div className='subcategory1' >
+                          {
+                              Projectors.map((val,index) => (
+                                  <>
+                                      <div className='subcategoryhead' key={index}>
+                                      
+                                              <div className="subcategory2 ">
+                                              
+                                              <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+
+                                              </div>
+
+                                              <div className='subcategory3'>
+                                                  <h4>{val.title}</h4>
+                                                  <div className='pilot'>
+                                                      <p>{val.para}</p>
+                                                          <Link target='_blank' to={`/servicedetails/Projectors/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                  </div>
+                                              </div>
+                                      </div>
+                                  </>
+                                  ))
+                              }
+
+                              </div>
+              </div>
+              </>
+            } 
+      {id=="InterCom" &&  
+              <>
+              <SubCateContent />
+              <div className='container mt-5 mp-5'>
+                <div className='subcategory1' >
+                          {
+                              InterCom.map((val,index) => (
+                                  <>
+                                      <div className='subcategoryhead' key={index}>
+                                      
+                                              <div className="subcategory2 ">
+                                              
+                                              <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+
+                                              </div>
+
+                                              <div className='subcategory3'>
+                                                  <h4>{val.title}</h4>
+                                                  <div className='pilot'>
+                                                      <p>{val.para}</p>
+                                                          <Link target='_blank' to={`/servicedetails/Projectors/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                  </div>
+                                              </div>
+                                      </div>
+                                  </>
+                                  ))
+                              }
+
+                              </div>
+              </div>
+              </>
+            } 
         </>
   )
 }

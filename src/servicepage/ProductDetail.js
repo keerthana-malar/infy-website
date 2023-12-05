@@ -391,6 +391,123 @@ const ProductDetail = () => {
                       ))
                     }
             
+                    {/* Accessories */}
+                    {
+                      id==="RAM" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="HDD,SSD" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="KeyBoard" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="Mouse,Mointer" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="Cabinet" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="MotherBoard" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="SMBS" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="Cables,Charger" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="Connector,Convertor" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+            
+                {/* Projectors */}
+                  {
+                      id==="LCD" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="LED" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="SmartProjector" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+
+                     {/* TV */}
+                  {
+                      id==="AndriodTV" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="SmartTV" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
 
                 </div>
                 </div>

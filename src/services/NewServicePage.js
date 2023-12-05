@@ -17,7 +17,7 @@ import Category from '../servicepage/Category';
 function NewServicePage(){
     const {id} = useParams()
 
-    const valuePaths = ['networking','laptop&desktop','cctv','Projectors','Accessories','Laptop&DesktopRent'];
+    const valuePaths = ['networking','laptop&desktop','cctv','Projectors','Accessories','Laptop&DesktopRent',"TV","Printer&Scanner","InteractivePanel","UPS","WIFI","Pos","InterCom"];
 
   
     return(

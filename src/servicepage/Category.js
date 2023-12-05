@@ -18,37 +18,37 @@ const Category = () => {
               id:1,
               path:"GamingLaptop",
               title:"HUB",
-              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+              para:"Explore central connectivity with our HUB solutions. Streamline data sharing and communication within your network effortlessly.",
           },
           {
               id:2,
               path:"Consumerlaptops",
               title:"Switch",
-              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Upgrade to high-performance networking with our cutting-edge switches. Experience efficient data transfer and network optimization.",
           },
           {
               id:3,
               path:"WorkStation",
               title:"Router",
-              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+              para:"we understand the pivotal role that routers play in the heart of modern networks. Our commitment is to provide cutting-edge router solutions. ",
           },
           {
               id:4,
               path:"GamingLaptop",
               title:"Firewall",
-              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+              para:"Safeguard your digital fortress with our robust firewall solutions. Defend against cyber threats and ensure a secure digital environment.",
           },
           {
               id:5,
               path:"Consumerlaptops",
               title:"End Point Security",
-              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Fortify your network's endpoints against cyber threats. Our endpoint security solutions provide comprehensive protection for your devices.",
           },
           {
               id:6,
               path:"WorkStation",
               title:"Fiber",
-              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Propel your network into the future with fiber optics. Enjoy lightning-fast data transfer, low latency, and unparalleled reliability.",
           },
       ];
         const Cctv = [
@@ -164,7 +164,12 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+                                        <img src={`${val.id === 1 ? "/images/laptop.webp": val.id === 2
+                                ? "/images/laptop.webp": val.id === 3
+                                ? "/images/laptop.webp"  : val.id === 4
+                                ? "/images/laptop.webp": val.id === 5
+                                ? "/images/laptop.webp": val.id === 6
+                                ? "/images/laptop.webp": ""}`} />
 
                                         </div>
 
@@ -197,7 +202,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+                                        <img src={`${val.id === 2 ? "/images/laptop.webp" : ""}`} />
 
                                         </div>
 

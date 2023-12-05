@@ -51,12 +51,12 @@ const CommonBtns = ({pid,id,cat}) => {
           brands: ['LCD', 'LED', 'Smart Projector',],
           paths :['1','2','3','4',]
         },
-        // {
-        //   id: 7,
-        //   name: 'Textile Machinery Spares',
-        //   brands: ['Brand A', 'Brand B', 'Brand C', 'Brand D', 'Brand E', 'Brand F', 'Brand G', 'Brand H'],
-        //   paths :['foodPacking','2','3','4','5','6','7','8']
-        // },
+        {
+          id: 7,
+          name: 'Interactive Panel',
+          brands: ['Interactive Panel 65', 'Interactive Panel 75',],
+          paths :['foodPacking','2','3','4','5','6','7','8']
+        },
         {
           id: 8,
           name: 'TV',
@@ -73,6 +73,18 @@ const CommonBtns = ({pid,id,cat}) => {
           id: 10,
           name: 'WiFi',
           brands: ['Access Point Controller', 'Wifi-5','Wifi-6'],
+          paths :['1','2','3','4','5','6',]
+        },
+        {
+          id: 11,
+          name: 'POS',
+          brands: ['Access Point Controller', 'Wifi-5','Wifi-6'],
+          paths :['1','2','3','4','5','6',]
+        },
+        {
+          id: 12,
+          name: 'InterCom',
+          brands: ['EPABX', 'IPPBX',],
           paths :['1','2','3','4','5','6',]
         },
     ]
@@ -93,11 +105,11 @@ const CommonBtns = ({pid,id,cat}) => {
         if(cat === "Cctv"){
             setOpenCategory(2)
         }
-        if(pid === "GasPipeline"){
-            setOpenCategory(2)
-        }
-        if(pid === "IndustrialCutting"){
+        if(cat === "Accessories"){
             setOpenCategory(3)
+        }
+        if(cat === "Projectors"){
+            setOpenCategory(6)
         }
         if(pid === "IndustrialSafety"){
             setOpenCategory(4)
@@ -130,7 +142,8 @@ const CommonBtns = ({pid,id,cat}) => {
                                                                                     pid==="IndustrialSafety" && index===3 ? 'categ-active': pid==="Industriallpg" && index===5 ? 'categ-active':
                                                                                     pid==="OfficeEssential" && index===6 ? 'categ-active':pid==="IndustrialCutting"&& index===2 ? "categ-active":
                                                                                     cat==="Laptop" && index===4 ? 'categ-active': cat==="Desktop" && index===4 ? 'categ-active'
-                                                                                    :cat==="Networking" && index===0 ? 'categ-active':cat==="Cctv" && index===1 ? 'categ-active':''}`} >
+                                                                                    :cat==="Networking" && index===0 ? 'categ-active':cat==="Cctv" && index===1 ? 'categ-active'
+                                                                                    :cat==="Accessories" && index===2 ? 'categ-active':cat==="Projectors" && index===5 ? 'categ-active':''}`} >
                             <span>
                                 {category.name}
                             </span>   
@@ -166,8 +179,8 @@ const CommonBtns = ({pid,id,cat}) => {
                                 <>
                                     {category.brands.map((brand, index) => (
                                     <Link 
-                                    className={pid==="IndustrialCutting"  && `${id === category.paths[index] ? "prdt-active" : ""}`}
-                                    to={`/products/IndustrialCutting/${category.paths[index]}`} key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
+                                    className={ `${id === brand.replace(/\s+/g, '') ? "prdt-active" : ""}`}
+                                    to={`/servicedetails/Accessories/${brand.replace(/\s+/g, '')}`} key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
                                     ))}
                                 </>
                             }
@@ -274,8 +287,8 @@ const CommonBtns = ({pid,id,cat}) => {
                                 index === 5&&
                                 <>
                                     {category.brands.map((brand, index) => (
-                                    <Link to={`/products/Industriallpg/${category.paths[index]}`} 
-                                    className={pid==="Industriallpg"  && `${id === category.paths[index] ? "prdt-active" : ""}`} 
+                                    <Link to={`/servicedetails/Accessories/${brand.replace(/\s+/g, '')}`} 
+                                    className={`${id === brand.replace(/\s+/g, '') ? "prdt-active" : ""}`} 
                                     key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
                                     ))}
                                 </>
@@ -302,6 +315,36 @@ const CommonBtns = ({pid,id,cat}) => {
                             }
                             {
                                 index === 8&&
+                                <>
+                                    {category.brands.map((brand, index) => (
+                                    <Link to={`/products/Industriallpg/${category.paths[index]}`} 
+                                    className={pid==="Industriallpg"  && `${id === category.paths[index] ? "prdt-active" : ""}`} 
+                                    key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
+                                    ))}
+                                </>
+                            }
+                            {
+                                index === 9&&
+                                <>
+                                    {category.brands.map((brand, index) => (
+                                    <Link to={`/products/Industriallpg/${category.paths[index]}`} 
+                                    className={pid==="Industriallpg"  && `${id === category.paths[index] ? "prdt-active" : ""}`} 
+                                    key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
+                                    ))}
+                                </>
+                            }
+                            {
+                                index === 10&&
+                                <>
+                                    {category.brands.map((brand, index) => (
+                                    <Link to={`/products/Industriallpg/${category.paths[index]}`} 
+                                    className={pid==="Industriallpg"  && `${id === category.paths[index] ? "prdt-active" : ""}`} 
+                                    key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
+                                    ))}
+                                </>
+                            }
+                            {
+                                index === 11&&
                                 <>
                                     {category.brands.map((brand, index) => (
                                     <Link to={`/products/Industriallpg/${category.paths[index]}`} 

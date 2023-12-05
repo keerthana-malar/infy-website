@@ -10,14 +10,20 @@ import ProductDetail from './ProductDetail';
 const ServiceDetails = () => {
     const {id,cat} = useParams()
 
-    const catPaths = ["Laptop","Desktop","Networking","Cctv","Accessories","Projectors","TV"]
+    const catPaths = ["Laptop","Desktop","Networking","Cctv","Accessories","Projectors","TV","Printer","Scanner","InteractivePanel","UPS","WIFI","Pos","InterCom"]
 
     const valuePaths = ['GamingLaptop','Consumerlaptops',"WorkStation","BrandedDesktop","AssembledDesktop","WorkStationDesktop","GamingDesktop"
                         ,"HUB","Switch","Router","Firewall","EndPointSecurity","Fiber"
                       ,"Analog","IP","DVR","NVR","360","PTZ"
                       ,"RAM","HDD,SSD","KeyBoard","Mouse,Mointer","Cabinet","MotherBoard","SMBS","Cables,Charger","Connector,Convertor"
                       ,"LCD","LED","SmartProjector"
-                    ,"AndriodTV","SmartTV"];
+                    ,"AndriodTV","SmartTV"
+                    ,"Laser","Thermal","Color","MultiFunction","DotMatrix"
+                  ,"Flatbed","Vertical"
+                ,"InteractivePanel65","InteractivePanel75"
+              ,"Inventor","OnlineUPS"
+              ,"AccessPointController","Wifi-5","Wifi-6"
+            ,"EPABX","IPPBX"];
   return (
     <>
     {

@@ -106,7 +106,7 @@ const ProductDetail = () => {
   const HUB = [
     {
       name:"HUB",
-      img:"/images/desk.webp",
+      img:"/images/hub.webp",
       para:"Our Website Hub serves as the central nerve center of our online presence, designed to be your go-to destination for accessing a wealth of information, resources, and interactive features. Think of it as the heart of our digital ecosystem, pulsating with the latest updates, featured content, and a seamless navigation experience. ",
       p1:"All pertinent information is neatly organized in one central location, making it easy for users to find what they need without navigating through multiple pages.",
       p2:"Enjoy a user-friendly experience with intuitive navigation features, ensuring that visitors can explore various sections effortlessly.",
@@ -122,7 +122,7 @@ const ProductDetail = () => {
     const Switch = [
       {
         name:"Switch",
-        img:"/images/desk.webp",
+        img:"/images/switch.webp",
         para:"At Infygain Technologies, we understand the critical role that network switches play in the seamless operation of modern businesses. Our commitment is to provide cutting-edge switch solutions that empower your network infrastructure with efficiency, scalability, and security.",
         p1:"We offer a range of switches incorporating the latest technological advancements to ensure optimal performance.",
         p2:"Choose from our selection of managed switches that provide granular control over your network. Set up VLANs, implement Quality of Service (QoS), and monitor network activity with ease. ",
@@ -138,7 +138,7 @@ const ProductDetail = () => {
       const Router = [
       {
         name:"Router",
-        img:"/images/desk.webp",
+        img:"/images/Router.webp",
         para:"Discover the beating heart of your network with our cutting-edge router solutions. We don't just offer routers; we provide gateways to a world where data flows effortlessly, security is paramount, and your connectivity needs are met with precision.",
         p1:"Routers make real-time decisions about the most efficient path for data to travel, facilitating optimal connectivity. ",
         p2:"Experience the internet at the speed of today's demands. Our routers are engineered to deliver swift and reliable connectivity for all your devices. ",
@@ -154,7 +154,7 @@ const ProductDetail = () => {
       const Firewall = [
         {
           name:"Firewall",
-          img:"/images/desk.webp",
+          img:"/images/firewall.webp",
           para:"In the ever-evolving landscape of digital threats, a firewall stands as a stalwart guardian, defending your digital fortress against malicious intruders. At Infygain Technologies, we recognize the critical role that firewalls play in safeguarding your network's integrity, ensuring a secure environment for your digital operations.",
           p1:"Firewalls meticulously examine incoming and outgoing traffic, allowing or blocking data packets based on pre-established security rules. This ensures that only legitimate and safe connections are permitted.",
           p2:"Ensure secure online transactions and protect customer data on your e-commerce platform with our firewall solutions designed for the unique demands of online businesses.",
@@ -170,7 +170,7 @@ const ProductDetail = () => {
         const EndPointSecurity = [
           {
             name:"End Point Security",
-            img:"/images/desk.webp",
+            img:"/images/End Point Security.webp",
             para:"Endpoint Security is the first and last line of defense against cyber threats. It revolves around safeguarding every device connected to a network - be it laptops, smartphones, or Internet of Things (IoT) devices - from potential cybersecurity risks. At Infygain Technologies, we understand that the strength of your digital fortress lies in the security of every endpoint.",
             p1:"Our advanced Endpoint Security solutions go beyond traditional antivirus measures. With sophisticated threat detection algorithms and real-time analysis, we identify and neutralize both known and emerging threats.",
             p2:"Take control of your digital landscape effortlessly. Our user-friendly interface allows centralized management of security policies, updates, and configurations across all your endpoints.",
@@ -186,7 +186,7 @@ const ProductDetail = () => {
           const Fiber = [
             {
               name:"Fiber",
-              img:"/images/desk.webp",
+              img:"/images/fibre.webp",
               para:"At Infygain Technologies, we believe that the backbone of modern connectivity is built on the speed and reliability of fiber optics. As pioneers in the field, we are committed to delivering state-of-the-art fiber solutions that transform the way you connect, communicate, and collaborate.",
               p1:"Fiber optics boast unparalleled data transfer speeds, making them the ideal choice for businesses, homes, and industries where speed is of the essence.",
               p2:"Say goodbye to interruptions and signal degradation. Fiber optics are resistant to electromagnetic interference, ensuring a stable and reliable connection, even over long distances.",
@@ -509,6 +509,146 @@ const ProductDetail = () => {
                       ))
                     }
 
+
+                      {/* printer */}
+                      {
+                      id==="Laser" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="Thermal" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="Color" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="MultiFunction" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="DotMatrix" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+
+                    
+                      {/* Scanner */}
+                      {
+                      id==="Flatbed" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="Vertical" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+
+                    {/* InteractivePanel */}
+                  {
+                      id==="InteractivePanel65" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="InteractivePanel75" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {/*  UPS */}
+                  {
+                      id==="Inventor" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="OnlineUPS" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    
+                      {/*  WIFI */}
+                  {
+                      id==="AccessPointController" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="Wifi-5" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="Wifi-6" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+
+                     {/*  InterCom */}
+                  {
+                      id==="EPABX" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="IPPBX" &&
+                      GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
                 </div>
                 </div>
             </div>

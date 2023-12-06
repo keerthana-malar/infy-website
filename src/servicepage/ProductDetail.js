@@ -10,15 +10,15 @@ const ProductDetail = () => {
     {
       name:"Gaming Laptop",
       img:"/images/desk.webp",
-      para:"Dr Bio Polymers have the same functionalities, appearance and feel as conventional polymers, they are durable to protect food Bio-Degradable and keep them fresh so that customers can see their content. A package provides protection, tampering resistance, and special physical, chemical, or biological needs It may bear printed information that can have nutrition facts label and other information about food being offered for sale. In addition, they can be revalued as compost, despite containing organic residues. It does not matter if the film or packaging is contaminated with food, as it can be composted.",
-      p1:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p2:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p3:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p4:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p5:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p6:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p7:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p8:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
+      para:"Welcome to Infygain Technologies, where the world of gaming meets cutting-edge technology. Immerse yourself in an unparalleled gaming experience with our collection of the best Gaming Laptops, meticulously chosen to redefine your gaming adventures.",
+      p1:" At Infygain Technologies, we understand the demands of avid gamers. Our meticulously selected best Gaming Laptops deliver power-packed performance, ensuring smooth gameplay, stunning graphics, and lightning-fast responsiveness.",
+      p2:"Experience a superior gaming experience with the high-performance components integrated into our best Gaming Laptops. From powerful processors and advanced graphics cards to high refresh rate displays, our laptops are designed to meet the demands of modern gaming.",
+      p3:" Enjoy gaming on the go with the sleek and portable design of our best Gaming Laptops. Whether you're a professional gamer, a content creator, or a casual player, our laptops offer the perfect blend of style and performance for your gaming lifestyle.",
+      p4:"Choose from our versatile range of Gaming Laptops that cater to various gaming preferences and requirements. Whether you prefer intense multiplayer battles, immersive single-player experiences, or content creation, our collection includes the best options to suit diverse gaming needs.",
+      p5:" Explore a comprehensive range of Gaming Laptops with the best technology for various gaming setups.",
+      p6:" Rely on our knowledgeable team for expert advice on selecting the best Gaming Laptop based on your specific gaming requirements.",
+      p7:"Join our satisfied customers who trust in our commitment to providing the best in Gaming Laptop technology and service.",
+      p8:"Elevate your gaming experience with the best Gaming Laptops available at Infygain Technologies.",
     },
     {
       name:"Consumer laptops",
@@ -36,15 +36,15 @@ const ProductDetail = () => {
     {
       name:"WorkStation",
       img:"/images/desk.webp",
-      para:"Dr Bio Polymers have the same functionalities, appearance and feel as conventional polymers, they are durable to protect food Bio-Degradable and keep them fresh so that customers can see their content. A package provides protection, tampering resistance, and special physical, chemical, or biological needs It may bear printed information that can have nutrition facts label and other information about food being offered for sale. In addition, they can be revalued as compost, despite containing organic residues. It does not matter if the film or packaging is contaminated with food, as it can be composted.",
-      p1:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p2:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p3:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p4:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p5:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p6:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p7:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p8:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
+      para:"Welcome to Infygain Technologies, where we redefine productivity and performance in the world of professional computing. Elevate your work experience with our collection of the best Workstation Laptops, meticulously chosen to meet the demanding needs of modern professionals.",
+      p1:"At Infygain Technologies, we understand the requirements of professionals who need robust computing power. Our carefully selected best Workstation Laptops deliver unparalleled performance, ensuring seamless multitasking, complex computations, and resource-intensive tasks are handled with ease.",
+      p2:"Experience professional excellence with the high-end components integrated into our best Workstation Laptops. From powerful processors and dedicated graphics cards to extensive RAM and storage options, our laptops are designed to meet the demands of professional workflows.",
+      p3:"Enjoy maximum productivity with the precision engineering of our best Workstation Laptops. Whether you're a content creator, designer, engineer, or any other professional, our laptops offer the precision and reliability needed for your critical tasks.",
+      p4:"Choose from our versatile range of Workstation Laptops that cater to various professional settings and requirements. Whether you're working with graphic design, 3D modeling, video editing, or data analysis, our collection includes the best options to suit diverse workstation needs.      ",
+      p5:"Explore a comprehensive range of Workstation Laptops with the best technology for various professional setups.",
+      p6:" Rely on our knowledgeable team for expert advice on selecting the best Workstation Laptop based on your specific professional requirements.",
+      p7:"Join our satisfied customers who trust in our commitment to providing the best in Workstation Laptop technology and service.",
+      p8:"Elevate your professional computing experience with the best Workstation Laptops available at Infygain Technologies.",
     }
   ]
 
@@ -65,48 +65,48 @@ const ProductDetail = () => {
     {
       name:"Assembled Desktop",
       img:"/images/desk.webp",
-      para:"Dr Bio Polymers have the same functionalities, appearance and feel as conventional polymers, they are durable to protect food Bio-Degradable and keep them fresh so that customers can see their content. A package provides protection, tampering resistance, and special physical, chemical, or biological needs It may bear printed information that can have nutrition facts label and other information about food being offered for sale. In addition, they can be revalued as compost, despite containing organic residues. It does not matter if the film or packaging is contaminated with food, as it can be composted.",
-      p1:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p2:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p3:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p4:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p5:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p6:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p7:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p8:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
+      para:"Welcome to Infygain Technologies, where we empower you to create a personalized computing solution. Dive into the world of customization and performance with our collection of the best Assembled Desktops, meticulously chosen to offer flexibility, power, and the freedom to tailor your desktop to your exact specifications.",
+      p1:"At Infygain Technologies, we recognize that every user has unique computing needs. Our carefully selected best Assembled Desktops provide the ultimate flexibility, allowing you to choose components that suit your specific requirements and preferences.",
+      p2:"Experience the freedom to select high-performance components for your best Assembled Desktop. From advanced processors and powerful graphics cards to customized RAM and storage solutions, our desktops are designed to cater to your individual computing demands.",
+      p3:"Enjoy the flexibility of design and easy upgradability with our best Assembled Desktops. Whether you're a gaming enthusiast, a content creator, or a professional, our desktops offer the versatility to adapt to evolving technologies and your changing computing needs.",
+      p4:"Choose from our versatile range of Assembled Desktops that cater to various computing preferences and requirements. Whether you need a desktop for gaming, creative work, or professional tasks, our collection includes the best options to suit diverse desktop computing needs.",
+      p5:"Explore a comprehensive range of Assembled Desktops with the best technology for various computing setups.",
+      p6:"Rely on our knowledgeable team for expert advice on selecting the best Assembled Desktop based on your specific computing requirements.",
+      p7:" Join our satisfied customers who trust in our commitment to providing the best in Assembled Desktop technology and service.",
+      p8:" Craft your perfect computing experience with the best Assembled Desktops available at Infygain Technologies.  ",
     },
     {
       name:"Work Station",
       img:"/images/desk.webp",
-      para:"Dr Bio Polymers have the same functionalities, appearance and feel as conventional polymers, they are durable to protect food Bio-Degradable and keep them fresh so that customers can see their content. A package provides protection, tampering resistance, and special physical, chemical, or biological needs It may bear printed information that can have nutrition facts label and other information about food being offered for sale. In addition, they can be revalued as compost, despite containing organic residues. It does not matter if the film or packaging is contaminated with food, as it can be composted.",
-      p1:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p2:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p3:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p4:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p5:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p6:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p7:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p8:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
+      para:"Welcome to Infygain Technologies, where we redefine professional computing excellence. Unleash unparalleled power and performance with our collection of the best Workstation Desktops, meticulously chosen to meet the demands of your most intensive tasks and workflows.",
+      p1:" At Infygain Technologies, we understand the critical nature of professional tasks. Our carefully selected best Workstation Desktops offer the pinnacle of performance, ensuring seamless execution of complex computations, rendering, and data-intensive applications.",
+      p2:"Experience professional-grade computing with the high-end components integrated into our best Workstation Desktops. From powerful processors and professional-grade graphics cards to extensive RAM and storage options, our desktops are designed to handle the demands of modern professional workflows.",
+      p3:" Enjoy maximum productivity with the precision engineering of our best Workstation Desktops. Whether you're a content creator, designer, engineer, or any other professional, our desktops offer the precision and reliability needed for your critical tasks.",
+      p4:"Choose from our versatile range of Workstation Desktops that cater to various professional settings and requirements. Whether you're working with graphic design, 3D modeling, video editing, or data analysis, our collection includes the best options to suit diverse workstation needs.",
+      p5:" Explore a comprehensive range of Workstation Desktops with the best technology for various professional setups.",
+      p6:"Craft your perfect computing experience with the best Assembled Desktops available at Infygain Technologies.  ",
+      p7:" Rely on our knowledgeable team for expert advice on selecting the best Workstation Desktop based on your specific professional requirements.",
+      p8:" Elevate your professional computing experience with the best Workstation Desktops available at Infygain Technologies.",
     },
     {
       name:"Gaming Desktop",
       img:"/images/desk.webp",
-      para:"Dr Bio Polymers have the same functionalities, appearance and feel as conventional polymers, they are durable to protect food Bio-Degradable and keep them fresh so that customers can see their content. A package provides protection, tampering resistance, and special physical, chemical, or biological needs It may bear printed information that can have nutrition facts label and other information about food being offered for sale. In addition, they can be revalued as compost, despite containing organic residues. It does not matter if the film or packaging is contaminated with food, as it can be composted.",
-      p1:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p2:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p3:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p4:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p5:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p6:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p7:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
-      p8:"Acts as a protective barrier, preventing contamination and maintaining food hygiene and safety standards.",
+      para:" Welcome to Infygain Technologies, where the world of gaming meets cutting-edge technology. Elevate your gaming experience to new heights with our collection of the best Gaming Desktops, meticulously chosen to deliver unrivaled performance, stunning graphics, and a seamless gaming adventure",
+      p1:"At Infygain Technologies, we understand the demands of avid gamers. Our carefully selected best Gaming Desktops deliver power-packed performance, ensuring smooth gameplay, stunning graphics, and lightning-fast responsiveness.",
+      p2:"Experience gaming prowess with the high-performance components integrated into our best Gaming Desktops. From advanced processors and top-tier graphics cards to high-speed RAM and storage options, our desktops are designed to meet the demands of modern gaming.",
+      p3:"Immerse yourself in gaming ambiance with the sleek design and customizable RGB lighting of our best Gaming Desktops. Whether you're a casual gamer or a competitive enthusiast, our desktops offer style and personalization to enhance your gaming setup.",
+      p4:"Choose from our versatile range of Gaming Desktops that cater to various gaming preferences and requirements. Whether you prefer high-octane multiplayer battles, immersive single-player experiences, or content creation, our collection includes the best options to suit diverse gaming needs.",
+      p5:" Explore a comprehensive range of Gaming Desktops with the best technology for various gaming setups.",
+      p6:" Rely on our knowledgeable team for expert advice on selecting the best Gaming Desktop based on your specific gaming requirements.",
+      p7:"Join our satisfied customers who trust in our commitment to providing the best in Gaming Desktop technology and service",
+      p8:"Elevate your gaming experience with the best Gaming Desktops available at Infygain Technologies.  ",
     }
   ]
 
   const HUB = [
     {
       name:"HUB",
-      img:"/images/hub.webp",
+      img:"/images/hub vector.webp",
       para:"Our Website Hub serves as the central nerve center of our online presence, designed to be your go-to destination for accessing a wealth of information, resources, and interactive features. Think of it as the heart of our digital ecosystem, pulsating with the latest updates, featured content, and a seamless navigation experience. ",
       p1:"All pertinent information is neatly organized in one central location, making it easy for users to find what they need without navigating through multiple pages.",
       p2:"Enjoy a user-friendly experience with intuitive navigation features, ensuring that visitors can explore various sections effortlessly.",
@@ -122,7 +122,7 @@ const ProductDetail = () => {
     const Switch = [
       {
         name:"Switch",
-        img:"/images/switch.webp",
+        img:"/images/switch vector.webp",
         para:"At Infygain Technologies, we understand the critical role that network switches play in the seamless operation of modern businesses. Our commitment is to provide cutting-edge switch solutions that empower your network infrastructure with efficiency, scalability, and security.",
         p1:"We offer a range of switches incorporating the latest technological advancements to ensure optimal performance.",
         p2:"Choose from our selection of managed switches that provide granular control over your network. Set up VLANs, implement Quality of Service (QoS), and monitor network activity with ease. ",
@@ -138,7 +138,7 @@ const ProductDetail = () => {
       const Router = [
       {
         name:"Router",
-        img:"/images/Router.webp",
+        img:"/images/router vector.webp",
         para:"Discover the beating heart of your network with our cutting-edge router solutions. We don't just offer routers; we provide gateways to a world where data flows effortlessly, security is paramount, and your connectivity needs are met with precision.",
         p1:"Routers make real-time decisions about the most efficient path for data to travel, facilitating optimal connectivity. ",
         p2:"Experience the internet at the speed of today's demands. Our routers are engineered to deliver swift and reliable connectivity for all your devices. ",
@@ -170,7 +170,7 @@ const ProductDetail = () => {
         const EndPointSecurity = [
           {
             name:"End Point Security",
-            img:"/images/End Point Security.webp",
+            img:"/images/endpoint vector.webp",
             para:"Endpoint Security is the first and last line of defense against cyber threats. It revolves around safeguarding every device connected to a network - be it laptops, smartphones, or Internet of Things (IoT) devices - from potential cybersecurity risks. At Infygain Technologies, we understand that the strength of your digital fortress lies in the security of every endpoint.",
             p1:"Our advanced Endpoint Security solutions go beyond traditional antivirus measures. With sophisticated threat detection algorithms and real-time analysis, we identify and neutralize both known and emerging threats.",
             p2:"Take control of your digital landscape effortlessly. Our user-friendly interface allows centralized management of security policies, updates, and configurations across all your endpoints.",
@@ -197,9 +197,11 @@ const ProductDetail = () => {
               p6:"Navigate your security needs effortlessly with user-friendly Analog systems.",
               p7:"Trust in the clarity of Analog technology, capturing every moment with precision.",
               p8:"Secure your space with confidence using the best Analog solutions at Infygain Technologies.",
-
+            }]
+              const Fiber =[
+              {
               name:"Fiber",
-              img:"/images/fibre.webp",
+              img:"/images/fibre vector.webp",
               para:"At Infygain Technologies, we believe that the backbone of modern connectivity is built on the speed and reliability of fiber optics. As pioneers in the field, we are committed to delivering state-of-the-art fiber solutions that transform the way you connect, communicate, and collaborate.",
               p1:"Fiber optics boast unparalleled data transfer speeds, making them the ideal choice for businesses, homes, and industries where speed is of the essence.",
               p2:"Say goodbye to interruptions and signal degradation. Fiber optics are resistant to electromagnetic interference, ensuring a stable and reliable connection, even over long distances.",
@@ -228,6 +230,463 @@ const ProductDetail = () => {
                 },
             
                 ]
+
+    const accessories = [
+      {
+        name:"RAM",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, your trusted destination for the best RAM (Random Access Memory) solutions that redefine the way your computer performs. As a crucial component of your system, choosing the right RAM is paramount for optimal speed and efficiency. Explore why our RAM stands out among computer accessories.",
+        p1:"Unleash the full potential of your computer with our selection of the best RAM modules.Experience lightning-fast performance and seamless multitasking, whether you're a gamer, creative professional, or business user.",
+        p2:"Our best RAM solutions are designed to deliver unmatched speed and responsiveness. Say goodbye to lag and delays, and enjoy a computing experience that keeps up with your demands.",
+        p3:"Choose from a range of memory capacities to suit your specific needs. Our best RAM modules offer scalable options, ensuring that you have the right amount of memory for your tasks, big or small.",
+        p4:"Count on our RAM solutions for reliability and stability. We prioritize quality to ensure that your system runs smoothly without interruptions, providing a dependable foundation for your computing needs",
+        p5:"Stay ahead with the best in RAM technology for enhanced performance.",
+        p6:"Our knowledgeable team is here to assist you in choosing the ideal RAM configuration for your system.",
+        p7:"Join our satisfied customers who rely on our best RAM solutions for a superior computing experience.",
+        p8:"Elevate your computer's performance with the best RAM solutions available at Infygain Technologies.",
+      },
+      {
+        name:"HDD,SSD",
+        img:"/images/desk.webp",
+        para:" Welcome to Infygain Technologies, your go-to destination for the best in storage solutions. Whether you're looking for high-capacity storage or lightning-fast performance, our selection of HDDs (Hard Disk Drives) and SSDs (Solid State Drives) caters to all your computing needs.",
+        p1:"Explore our range of the best HDDs, offering ample storage capacity for your data. From personal files to business applications, our HDDs provide reliable and cost-effective storage solutions for every user.",
+        p2:"Experience the next level of speed with our selection of the best SSDs. Boost your system's responsiveness, reduce load times, and enjoy seamless multitasking with these cutting-edge solid-state drives.",
+        p3:"Whether you prioritize storage capacity or speed, our collection of HDDs and SSDs provides versatile options to suit your specific requirements. Choose the best storage solution tailored to your computing needs",
+        p4:"Our commitment to quality ensures that you get the best in reliability and durability. Trust our storage solutions to safeguard your data and deliver consistent performance over time.",
+        p5:"Explore a diverse range of HDDs and SSDs to find the best fit for your computing requirements.",
+        p6:" Our knowledgeable team is ready to assist you in selecting the best storage solution for your specific needs.",
+        p7:"Stay ahead with our commitment to providing the best in storage technology for enhanced performance",
+        p8:"Elevate your computing experience with the best HDDs and SSDs available at Infygain Technologies. ",
+      },
+      {
+        name:"Keyboard",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where we redefine your computing experience with the best keyboards in the market. A keyboard is more than just a peripheral – it's your interface to productivity, creativity, and seamless interaction with your device. Discover why our keyboards stand out among computer accessories",
+        p1:"Experience unparalleled comfort with our range of the best keyboards. Ergonomically designed and responsive, our keyboards ensure a comfortable typing experience, reducing strain during long hours of use.",
+        p2:" Our commitment to quality ensures that you get the best in precision and durability. Each keystroke is reliable, providing consistent performance over time. Our keyboards are built to withstand the demands of daily use.",
+        p3:"Whether you're a gamer, a professional, or a casual user, our selection of the best keyboards caters to all. Enjoy customizable features, programmable keys, and versatile designs that suit your specific needs.",
+        p4:"Illuminate your workspace with our backlit keyboards. Choose from a variety of customizable lighting options to match your style and enhance visibility, even in low-light conditions.",
+        p5:" Explore a diverse range of keyboards to find the best fit for your typing preferences.",
+        p6:"Stay ahead with our commitment to providing the best in keyboard technology for enhanced performance.",
+        p7:"Join our satisfied customers who rely on our best keyboards for a superior typing experience.",
+        p8:"Elevate your typing experience with the best keyboards available at Infygain Technologies",
+      },
+      {
+        name:"Mouse and Monitor",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, your destination for the best in computer accessories. Dive into a world of precision, clarity, and seamless interaction with our exceptional mouse and monitor offerings.",
+        p1:" Transform your computing experience with the best mouse designed for precision and comfort. Our ergonomic designs ensure a comfortable grip, while advanced sensors deliver accurate and responsive tracking. Choose from a variety of customizable options to suit your unique preferences.",
+        p2:" Immerse yourself in stunning visuals with our collection of the best monitors. From vibrant colors to sharp resolutions, our monitors redefine clarity and deliver an unparalleled viewing experience. Whether you're a gamer, designer, or professional, our monitors cater to diverse needs.",
+        p3:"Our commitment to providing the best extends to offering versatile options. Explore a variety of pointing devices with programmable buttons and customizable features. Select from monitors with different sizes, resolutions, and refresh rates to match your specific requirements.",
+        p4:"Stay ahead with our dedication to cutting-edge technology. Our pointing devices and monitors feature the latest advancements, ensuring that you experience the best in performance, connectivity, and functionality.",
+        p5:"Explore a range of pointing devices and monitors to find the best fit for your computing needs.",
+        p6:" Our knowledgeable team is ready to assist you in selecting the best accessories for your specific requirements.",
+        p7:"Join our satisfied customers who rely on our best pointing devices and monitors for an enhanced computing experience.",
+        p8:"Elevate your computing setup with the best mouse and monitor available at Infygain Technologies.",
+      },
+      {
+        name:"Cabinet",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, your ultimate destination for the best in computer accessories. Transform your computing experience with our exceptional computer cabinets, designed for optimal organization and style.",
+        p1:" Explore our range of the best computer cabinets that redefine storage solutions. From sleek designs to spacious interiors, our cabinets offer a perfect blend of functionality and aesthetics.",
+        p2:"Upgrade your workspace with the best cabinets designed for precise organization. Our cabinets feature strategically placed compartments and cable management solutions to keep your setup tidy and efficient.",
+        p3:"Experience superior airflow and ventilation with our selection of the best computer cabinets. We prioritize cooling solutions to ensure that your components operate at optimal temperatures, reducing the risk of overheating.",
+        p4:"Invest in durability and style with our best computer cabinets. Crafted from high-quality materials, our cabinets not only stand the test of time but also add a touch of elegance to your workspace.",
+        p5:"Explore a range of cabinets to find the best fit for your computing needs.",
+        p6:" Our knowledgeable team is ready to assist you in selecting the best cabinet for your specific requirements.",
+        p7:" Join our satisfied customers who rely on our best cabinets for an organized and stylish computing space.",
+        p8:"Elevate your workspace with the best computer cabinets available at Infygain Technologies.",
+      },
+      {
+        name:"Motherboard",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where we bring you the best in computer accessories, starting with our exceptional selection of motherboards. As a critical component of your system, our motherboards are crafted to deliver top-tier performance, reliability, and compatibility.",
+        p1:"Explore our range of the best motherboards designed to elevate your computing experience. Our selection caters to a variety of needs, from gaming to professional workstations, ensuring optimal performance in every scenario.",
+        p2:"Upgrade your system with the best motherboards that prioritize connectivity and compatibility. Our motherboards support the latest hardware and provide a range of ports for seamless integration of peripherals.",
+        p3:"Discover motherboards that are optimized for speed and efficiency, providing faster data transfer rates and improved overall system responsiveness. Our best motherboards leverage advanced technologies to keep your system running at its peak.",
+        p4:" For gaming enthusiasts, our best gaming motherboards deliver the power and features you need for an immersive gaming experience. Unlock the full potential of your gaming rig with cutting-edge technology and performance-driven designs.",
+        p5:"Explore a range of cabinets to find the best fit for your computing needs.",
+        p6:"Explore a comprehensive range of motherboards to find the best fit for your specific needs.",
+        p7:" Join our satisfied customers who rely on our best motherboards for exceptional performance and reliability.",
+        p8:"Elevate your computing experience with the best motherboards available at Infygain Technologies. ",
+      },
+      {
+        name:"SMPS",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, your ultimate destination for top-notch computer accessories. Explore the realm of optimal power delivery with our exceptional SMPS (Switched Mode Power Supply) units. We understand the critical role that power plays in computing, and our commitment is to provide you with the best SMPS for a reliable and efficient power supply.",
+        p1:"Discover our curated selection of the best SMPS units designed to ensure a stable and uninterrupted power supply to your computer. Our offerings are crafted to meet the demands of modern computing, providing consistent and clean power to your system components.",
+        p2:"Experience efficiency and energy savings with our best SMPS units. Our power supplies are optimized to deliver power precisely where and when it's needed, reducing energy consumption and lowering your electricity bills.",
+        p3:"Explore compact yet powerful designs that define the best in SMPS technology. Our units are engineered to fit seamlessly into your computer setup while delivering the performance required for high-end computing tasks, gaming, and professional applications.",
+        p4:"Invest in the best SMPS units that prioritize the safety of your computer components. Our power supplies come equipped with advanced protection features, including over-voltage protection, short-circuit protection, and more, ensuring the longevity of your hardware.",
+        p5:" Explore a comprehensive range of SMPS units to find the best fit for your specific computer requirements.",
+        p6:" Rely on our knowledgeable team for expert advice on selecting the best SMPS for your system.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in power supply solutions.",
+        p8:"  Elevate your computing setup with the best SMPS units available at Infygain Technologies. ",
+      },
+      {
+        name:"Cables and Chargers",
+        img:"/images/desk.webp",
+        para:" Welcome to Infygain Technologies, your go-to destination for cutting-edge computer accessories. Dive into a world of seamless connectivity with our carefully curated selection of the best connectors and converters. Our commitment is to provide you with accessories that redefine versatility, ensuring that your devices connect effortlessly.",
+        p1:" Explore our range of the best cables designed to offer unmatched connectivity for your devices. From high-speed data transfer cables to reliable power cables, our selection ensures optimal performance and durability.",
+        p2:"Discover chargers engineered for efficiency and speed. Our best chargers are designed to power up your devices quickly and reliably, ensuring that you stay connected and productive without interruption.",
+        p3:"Choose from our versatile cable solutions that cater to various connectivity needs. Our collection includes HDMI cables, USB-C cables, charging cables, and more, providing you with the best tools for connecting your devices seamlessly.",
+        p4:"Experience the durability of our cables and the convenience of tangle-free designs. Our best cables are built to withstand daily use, and their tangle-free designs ensure hassle-free handling and storage.",
+        p5:"Explore a comprehensive range of cables and chargers to find the best fit for your specific needs.",
+        p6:" Rely on our knowledgeable team for expert advice on selecting the best accessories for your devices.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in connectivity solutions.",
+        p8:" Elevate your connectivity and charging experience with the best cables and chargers available at Infygain Technologies. ",
+      },
+      {
+        name:"Connectors and Converters",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, your premier destination for cutting-edge computer accessories. Step into the world of seamless connectivity with our curated collection of the best cables and chargers. We understand the importance of reliable connections and efficient charging, and our commitment is to provide you with accessories that redefine convenience.",
+        p1:"Discover our range of the best connectors designed to establish reliable links between your devices. Whether it's USB connectors, audio connectors, or other interface connectors, our selection ensures stable and efficient connections.",
+        p2:"Explore converters engineered for compatibility and flexibility. Our best converters are designed to bridge the gap between different devices and formats, ensuring that you can use your devices without limitations.",
+        p3:"Choose from our versatile solutions that cater to a variety of connectivity needs. Our collection includes HDMI converters, USB adapters, audio splitters, and more, providing you with the best tools to adapt to any technological environment.",
+        p4:"Experience durability and compactness with our connectors and converters. Our best accessories are built to withstand daily use, and their compact designs ensure easy portability for on-the-go connectivity.",
+        p5:"Explore a comprehensive range of connectors and converters to find the best fit for your specific connectivity requirements.",
+        p6:" Rely on our knowledgeable team for expert advice on selecting the best accessories for seamless connectivity.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in connectivity solutions.",
+        p8:" Elevate your connectivity experience with the best connectors and converters available at Infygain Technologies.",
+      },
+    ]
+    const projectors = [
+      {
+        name:"LCD",
+        img:"/images/desk.webp",
+        para:" Welcome to Infygain Technologies, your premier destination for cutting-edge projection technology. Step into a world of vivid and immersive visuals with our collection of the best LCD projectors. Our commitment is to redefine your viewing experience, ensuring unparalleled clarity, brightness, and color accuracy.",
+        p1:"Explore our carefully curated selection of the best LCD projectors, meticulously chosen to deliver superior visuals for your presentations, entertainment, or educational needs. Witness vibrant colors, sharp resolutions, and detailed images that captivate your audience.",
+        p2:"Experience crystal-clear presentations and entertainment with our best LCD projectors. Whether you're delivering a business presentation or enjoying a movie night at home, our projectors ensure that every detail is projected with precision.",
+        p3:"Choose from our versatile range of LCD projectors that cater to various settings and requirements. Our collection includes portable projectors for on-the-go presentations and high-lumen projectors for large venues, offering the best solutions for diverse needs.",
+        p4:"Stay ahead with our commitment to cutting-edge LCD technology. Our best projectors leverage advancements such as high refresh rates, dynamic contrast ratios, and advanced color processing for an immersive and lifelike viewing experience.",
+        p5:"Explore a comprehensive range of LCD projectors to find the best fit for your specific requirements.",
+        p6:"Rely on our knowledgeable team for expert advice on selecting the best LCD projector based on your intended use.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in projection technology and service.",
+        p8:"Elevate your visual experiences with the best LCD projectors available at Infygain Technologies.",
+      },
+      {
+        name:"LED",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, your ultimate destination for cutting-edge projection technology. Step into a world of brilliance and clarity with our collection of the best LED projectors. Our commitment is to redefine your visual experiences, ensuring vibrant colors, exceptional brightness, and energy-efficient performance.",
+        p1:"Explore our carefully curated selection of the best LED projectors, meticulously chosen to deliver brilliant visuals for your presentations, entertainment, or educational needs. Witness stunning color accuracy, sharp resolutions, and immersive images that captivate your audience.",
+        p2:" Experience vivid presentations and entertainment with our best LED projectors. Whether you're delivering a business presentation or enjoying a movie night at home, our projectors ensure that every detail is illuminated with precision and clarity.",
+        p3:"Choose from our versatile range of LED projectors that cater to various settings and requirements. Our collection includes portable projectors for on-the-go presentations and high-lumen projectors for large venues, offering the best solutions for diverse needs.",
+        p4:"Stay ahead with our commitment to energy-efficient LED technology. Our best projectors not only deliver superior visuals but also ensure cost-effective and eco-friendly operation, making them a sustainable choice for your projection needs.",
+        p5:"Explore a comprehensive range of LED projectors to find the best fit for your specific requirements.",
+        p6:"Rely on our knowledgeable team for expert advice on selecting the best LED projector based on your intended use.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in projection technology and service.",
+        p8:" Elevate your visual experiences with the best LED projectors available at Infygain Technologies.",
+      },
+      {
+        name:"Smart Projectors",
+        img:"/images/desk.webp",
+        para:" Welcome to Infygain Technologies, your premier destination for cutting-edge projection technology. Step into a world of innovation and connectivity with our collection of the best smart projectors. Our commitment is to redefine your visual experiences, ensuring not only stunning visuals but also seamless integration with smart technologies.",
+        p1:"Explore our carefully curated selection of the best smart projectors, meticulously chosen to deliver intelligent presentations for your business meetings, educational sessions, or entertainment needs. Witness brilliance in both visuals and smart functionality that elevates your projection experience.",
+        p2:"Experience connectivity redefined with our best smart projectors. Whether you're casting presentations wirelessly, streaming content from your favorite platforms, or engaging in interactive applications, our projectors seamlessly integrate with smart technologies for a truly modern experience.",
+        p3:"Choose from our versatile range of smart projectors that cater to various settings and requirements. Our collection includes portable smart projectors for on-the-go professionals and feature-rich models for home entertainment, offering the best solutions for diverse needs.",
+        p4:"Stay ahead with intuitive controls and user-friendly interfaces on our best smart projectors. Navigate effortlessly through settings, applications, and connectivity options, making your projection experience smooth and enjoyable.",
+        p5:"Explore a comprehensive range of smart projectors to find the best fit for your specific requirements.",
+        p6:"Rely on our knowledgeable team for expert advice on selecting the best smart projector based on your intended use.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in smart projection technology and service.",
+        p8:"Elevate your visual experiences with the best smart projectors available at Infygain Technologies.",
+      },
+      
+    ]
+    const interactivepanel = [
+      {
+        name:"65-Inch Interactive Panels",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where collaboration meets innovation. Step into a world of interactive excellence with our collection of the best 65-inch interactive panels. Our commitment is to redefine the way you collaborate, present, and engage with cutting-edge technology that brings your ideas to life.",
+        p1:"Explore our carefully curated selection of the best 65-inch interactive panels, meticulously chosen to deliver immersive collaboration experiences. Whether you're conducting dynamic presentations, interactive lessons, or collaborative  brainstorming sessions, our panels provide a canvas for creativity.",
+        p2:" Experience vivid visuals and responsive touch technology with our best interactive panels. The 65-inch size ensures that your content is displayed with clarity, while the touch functionality allows for seamless interaction,making presentations and lessons engaging and dynamic. ",
+        p3:"Choose from our versatile range of 65-inch interactive panels that cater to various settings and requirements. Our collection includes feature-rich panels suitable for classrooms, boardrooms, and collaborative workspaces, offering the best solutions for diverse needs.",
+        p4:"Stay ahead with intuitive controls and user-friendly interfaces on our best interactive panels.Navigate effortlessly through interactive applications, annotate on the screen, and utilize collaborative tools with ease, making your presentations and collaborations smooth and productive.",
+        p5:"Explore a comprehensive range of 65-inch interactive panels to find the best fit for your specific collaboration requirements.",
+        p6:"Rely on our knowledgeable team for expert advice on selecting the best interactive panel based on your intended use.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in interactive panel technology and service.",
+        p8:"Elevate your collaborative experiences with the best 65-inch interactive panels available at Infygain Technologies.",
+      },
+      {
+        name:"75-Inch Interactive Panels",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where innovation meets collaboration on a grand scale. Immerse yourself in a world of interactive excellence with our collection of the best 75-inch interactive panels. Our commitment is to redefine the way you collaborate, present, and engage with cutting-edge technology that provides a commanding canvas for your ideas.",
+        p1:"Explore our meticulously curated selection of the best 75-inch interactive panels, chosen to deliver an immersive collaboration experience. Whether you're conducting impactful presentations, interactive lessons, or collaborative brainstorming sessions, our panels provide a vast canvas for creativity.",
+        p2:"Experience vivid visuals and responsive touch technology with our best interactive panels. The expansive 75-inch size ensures that your content is displayed with crystal clarity, while the responsive touch functionality allows for seamless interaction, making presentations and lessons engaging and dynamic.",
+        p3:"Choose from our versatile range of 75-inch interactive panels that cater to various settings and requirements. Our collection includes feature-rich panels suitable for classrooms, boardrooms, and collaborative workspaces, offering the best solutions for diverse needs.",
+        p4:"Stay ahead with intuitive controls and user-friendly interfaces on our best interactive panels. Navigate effortlessly through interactive applications, annotate on the screen, and utilize collaborative tools with ease, making your presentations and collaborations smooth and productive.",
+        p5:"Explore a comprehensive range of 75-inch interactive panels to find the best fit for your specific collaboration requirements.",
+        p6:"Rely on our knowledgeable team for expert advice on selecting the best interactive panel based on your intended use.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in interactive panel technology and service.",
+        p8:"Elevate your collaborative experiences with the best 75-inch interactive panels available at Infygain Technologies.",
+      },
+    ]
+    const tv = [
+      {
+        name:"Android TV",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, your destination for an unparalleled entertainment experience. Dive into the world of innovation with our collection of the best Android TVs, meticulously chosen to redefine the way you enjoy content on the big screen.",
+        p1:"Explore our carefully curated selection of the best Android TVs, designed to transform your living room into a smart entertainment hub. With seamless integration of Android TV, you can access a world of content, apps, and games directly from your television.",
+        p2:" Experience vivid visuals and smart features with our best Android TVs. The cutting-edge technology ensures stunning picture quality, while the Android TV platform provides you with a user-friendly interface, voice control, and access to a vast array of streaming services.",
+        p3:" Choose from our versatile range of Android TVs that cater to various preferences and requirements. Our collection includes different screen sizes, resolutions, and features, offering the best solutions for diverse entertainment needs.",
+        p4:" Stay ahead with intuitive controls and user-friendly interfaces on our best Android TVs. Navigate effortlessly through your favorite apps, switch between content, and explore a world of entertainment with ease.",
+        p5:" Explore a comprehensive range of Android TVs to find the best fit for your specific entertainment requirements.",
+        p6:"Rely on our knowledgeable team for expert advice on selecting the best Android TV based on your preferences.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in Android TV technology and service.",
+        p8:"Elevate your entertainment experience with the best Android TVs available at Infygain Technologies.",
+      },
+      {
+        name:"Smart TV",
+        img:"/images/desk.webp",
+        para:"  Welcome to Infygain Technologies, where innovation meets entertainment. Immerse yourself in a world of cutting-edge technology with our collection of the best A-Smart TVs, meticulously selected to redefine your television experience.",
+        p1:"Explore our carefully curated selection of the best A-Smart TVs, designed to be the epitome of intelligent entertainment. With A-Smart technology, our TVs offer seamless connectivity, smart features, and a host of entertainment options right at your fingertips.",
+        p2:"Experience vivid visuals and smart capabilities with our best A-Smart TVs. Enjoy stunning picture quality and immerse yourself in a world of content, apps, and connectivity options that transform your TV into a central hub for entertainment.",
+        p3:"Choose from our versatile range of A-Smart TVs that cater to various preferences and requirements. Our collection includes different screen sizes, resolutions, and features, providing the best solutions for diverse entertainment needs.",
+        p4:" Stay ahead with intuitive controls and user-friendly interfaces on our best A-Smart TVs. Navigate effortlessly through your favorite apps, switch between content, and explore the intelligence of A-Smart technology with ease.",
+        p5:"Explore a comprehensive range of A-Smart TVs to find the best fit for your specific entertainment requirements.",
+        p6:" Rely on our knowledgeable team for expert advice on selecting the best A-Smart TV based on your preferences.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in A-Smart TV technology and service.",
+        p8:"Elevate your viewing experience with the best A-Smart TVs available at Infygain Technologies. ",
+      },
+    ]
+
+    const ups=[
+      {
+        name:"Inventor",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, your trusted partner in ensuring uninterrupted power supply through cutting-edge UPS technology. Explore a world of innovation and reliability with our collection of the best inventors in the UPS industry, designed to safeguard your critical systems and sensitive equipment.",
+        p1:"At Infygain Technologies, we take pride in offering the best inventors in UPS technology, meticulously chosen to provide unrivaled reliability. Our UPS solutions are crafted with precision, ensuring seamless transitions during power outages and protection against voltage fluctuations.",
+        p2:"Experience innovative features that elevate the performance of our best UPS inventors. From advanced battery management systems to intelligent monitoring capabilities, our UPS solutions are designed to meet the dynamic power needs of modern businesses.  ",
+        p3:" Choose from our versatile range of UPS solutions that cater to various applications and power capacities. Whether you need a UPS for your home office, a small business, or a large data center, our collection includes the best inventors to suit diverse requirements.",
+        p4:"Trust in the best inventors in UPS technology to provide reliable protection for your sensitive equipment. Our UPS solutions safeguard against power surges, spikes, and outages, ensuring that your electronics and critical systems remain operational and protected.",
+        p5:"  Explore a comprehensive range of UPS solutions with the best inventors for various applications.",
+        p6:" Rely on our knowledgeable team for expert advice on selecting the best UPS inventor based on your specific power needs.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in UPS technology and service. ",
+        p8:"Ensure uninterrupted power for your critical systems with the best UPS inventors available at Infygain Technologies.  ",
+      },
+      {
+        name:"Online UPS",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where we redefine uninterrupted power supply with our state-of-the-art Online UPS solutions. Explore a world of reliability and continuous power with the best Online UPS technology designed to safeguard your critical systems and ensure seamless operations",
+        p1:" At Infygain Technologies, we take pride in offering the best Online UPS solutions meticulously chosen for unmatched reliability. Our Online UPS technology provides a continuous and clean power supply, protecting your sensitive equipment from power disruptions and ensuring uninterrupted performance., we take pride in offering the best Online UPS solutions meticulously chosen for unmatched reliability. Our Online UPS technology provides a continuous and clean power supply, protecting your sensitive equipment from power disruptions and ensuring uninterrupted performance.",
+        p2:"Experience optimal performance with the advanced features integrated into our best Online UPS solutions. From double-conversion technology to precision voltage regulation, our UPS systems are designed to deliver consistent and reliable power to critical loads.",
+        p3:"Choose from our versatile range of Online UPS solutions that cater to various applications and power capacities. Whether you need a UPS for your home office, a small business, or an enterprise-level data center, our collection includes the best options to suit diverse requirements.",
+        p4:"Trust in the best Online UPS technology to provide enhanced protection for your critical systems. Our UPS solutions safeguard against power fluctuations, surges, and outages, ensuring the continuous operation of your equipment and preventing data loss.",
+        p5:" Explore a comprehensive range of Online UPS solutions with the best technology for various applications.",
+        p6:" Rely on our knowledgeable team for expert advice on selecting the best Online UPS based on your specific power needs.",
+        p7:" Join our satisfied customers who trust in our commitment to providing the best in Online UPS technology and service.",
+        p8:"Ensure a seamless and uninterrupted power supply for your critical systems with the best Online UPS solutions available at Infygain Technologies.   ",
+      },
+    ]
+
+    const pos=[
+      {
+        name:"KIOSK",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where innovation meets customer convenience in the world of Point of Sale (POS). Explore a seamless and interactive customer experience with our collection of the best Kiosk solutions, meticulously chosen to enhance your POS operations.",
+        p1:"At Infygain Technologies, we understand the significance of efficient and interactive transactions at your POS. Our carefully selected best Kiosk solutions offer a cutting-edge way for customers to interact with your business, leading to streamlined processes and improved customer satisfaction.",
+        p2:"Experience effortless transactions with our best Kiosk solutions. The user-friendly interfaces empower your customers to navigate through the kiosk, place orders, make payments, or access information easily, providing a smooth and enjoyable experience.  ",
+        p3:"Optimize efficiency and order accuracy with the advanced features integrated into our Kiosk solutions. From intuitive menu selections to real-time order updates, our Kiosks are designed to deliver the best in customer service, reducing wait times and minimizing errors.",
+        p4:"Choose from our versatile range of Kiosk solutions that cater to various POS setups and industries. Whether you operate a restaurant, a retail store, or a service-oriented business, our collection includes the best options to suit diverse customer interaction needs.",
+        p5:"Explore a comprehensive range of Kiosk solutions with the best technology for various POS environments.",
+        p6:" Rely on our knowledgeable team for expert advice on selecting the best Kiosk based on your specific business requirements.",
+        p7:" Join our satisfied customers who trust in our commitment to providing the best in Kiosk technology and service.",
+        p8:" Elevate your customer service with the best Kiosk solutions available at Infygain Technologies.  ",
+      },
+      {
+        name:"Billing Apps",
+        img:"/images/desk.webp",
+        para:" Welcome to Infygain Technologies, where we bring innovation to your Point of Sale (POS) experience. Explore a world of efficiency and precision in financial transactions with our collection of the best Billing Apps designed to enhance your POS operations.",
+        p1:" At Infygain Technologies, we understand the importance of seamless billing in POS. Our meticulously selected best Billing Apps ensure quick and accurate transactions, allowing you to focus on providing excellent service to your customers.",
+        p2:"Experience an effortless billing process with our best Billing Apps. The user-friendly interfaces make it easy for your staff to navigate through the app, enabling swift and error-free transactions that contribute to a positive customer experience.",
+        p3:"Explore comprehensive financial management with the advanced features integrated into our Billing Apps. From real-time sales tracking and inventory management to customized reporting, our apps are designed to deliver the best in financial control for your business.",
+        p4:"Choose from our versatile range of Billing Apps that cater to various POS setups and industries. Whether you run a retail store, a restaurant, or a service-oriented business, our collection includes the best options to suit diverse billing needs.",
+        p5:"Explore a comprehensive range of Billing Apps with the best technology for various POS environments.",
+        p6:"Rely on our knowledgeable team for expert advice on selecting the best Billing App based on your specific business requirements.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in Billing App technology and service.",
+        p8:"Optimize your POS billing process with the best Billing Apps available at Infygain Technologies.",
+      },
+    ]
+
+
+    const intercom=[
+      {
+        name:"EPABX",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where seamless communication is a priority. Explore a world of enhanced connectivity and efficient intercom solutions with our collection of the best EPABX systems, meticulously chosen to elevate your communication infrastructure.",
+        p1:"At Infygain Technologies, we understand the importance of efficient communication within your premises. Our meticulously selected best EPABX systems offer a robust and scalable solution for intercom communication, ensuring seamless connectivity and quick response times.",
+        p2:"Experience intuitive communication with our best EPABX systems. The user-friendly interfaces make it easy for users to initiate intercom calls, transfer calls, and manage communication effectively, contributing to a smooth and streamlined operation.",
+        p3:" Explore optimal performance with the advanced features integrated into our EPABX systems. From call routing and conferencing to voicemail and call logging, our systems are designed to deliver the best in intercom communication for various settings.",
+        p4:"  Choose from our versatile range of EPABX systems that cater to various setups and industries. Whether you need a solution for a corporate office, a healthcare facility, or an educational institution, our collection includes the best options to suit diverse intercom communication needs.",
+        p5:" Explore a comprehensive range of EPABX systems with the best technology for various intercom setups.",
+        p6:"Rely on our knowledgeable team for expert advice on selecting the best EPABX system based on your specific communication requirements.",
+        p7:"  Join our satisfied customers who trust in our commitment to providing the best in EPABX technology and service.",
+        p8:" Elevate your intercom communication with the best EPABX systems available at Infygain Technologies",
+      },
+      {
+        name:"IPPBX",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where we prioritize seamless and advanced communication solutions. Explore a world of enhanced connectivity and efficient intercom systems with our collection of the best IPPBX systems, meticulously chosen to elevate your communication infrastructure.",
+        p1:"At Infygain Technologies, we recognize the pivotal role of communication within your premises. Our carefully selected best IPPBX systems offer a cutting-edge solution for intercom communication, ensuring not only seamless connectivity but also advanced features to meet your diverse communication needs.",
+        p2:"Experience intuitive communication with our best IPPBX systems. The user-friendly interfaces make it easy for users to initiate intercom calls, manage extensions, and utilize advanced features, contributing to a smooth and streamlined operation.",
+        p3:"Explore optimal performance with the advanced features integrated into our IPPBX systems. From call routing and conferencing to voicemail and integration with other communication channels, our systems are designed to deliver the best in intercom communication for various settings.",
+        p4:"Choose from our versatile range of IPPBX systems that cater to various setups and industries. Whether you need a solution for a corporate office, a healthcare facility, or an educational institution, our collection includes the best options to suit diverse intercom communication needs.",
+        p5:"Explore a comprehensive range of IPPBX systems with the best technology for various intercom setups.",
+        p6:"Rely on our knowledgeable team for expert advice on selecting the best IPPBX system based on your specific communication requirements",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in IPPBX technology and service.",
+        p8:"Elevate your intercom communication to new heights with the best IPPBX systems available at Infygain Technologies.",
+      },
+    ]
+
+    const wifi=[
+      {
+        name:"Access Point Controller",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, your gateway to unparalleled wireless connectivity. Dive into the world of seamless networking with our collection of the best Access Point Controllers, meticulously chosen to optimize and manage your Wi-Fi network efficiently.",
+        p1:"At Infygain Technologies, we are proud to present the best Access Point Controllers, meticulously selected for enhanced Wi-Fi management. Our controllers ensure a robust and reliable wireless network, providing seamless connectivity for your users.",
+        p2:" Experience centralized management that simplifies control over your Wi-Fi network. Our best Access Point Controllers allow you to monitor, configure, and optimize multiple access points from a centralized interface, streamlining the management of your wireless infrastructure.",
+        p3:" Explore optimal performance with the advanced features integrated into our Access Point Controllers. From load balancing and traffic shaping to seamless roaming and security management, our controllers are designed to deliver the best Wi-Fi experience.",
+        p4:"Choose from our versatile range of Access Point Controllers that cater to various settings and network sizes. Whether you need a solution for a small business, a large enterprise, or a public venue, our collection includes the best options to suit diverse Wi-Fi requirements.",
+        p5:"Explore a comprehensive range of Access Point Controllers with the best technology for various Wi-Fi setups.",
+        p6:" Rely on our knowledgeable team for expert advice on selecting the best Access Point Controller based on your specific network needs. ",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in Access Point Controller technology and service.",
+        p8:"Optimize and manage your Wi-Fi network with the best Access Point Controllers available at Infygain Technologies.",
+      },
+      {
+        name:"Wi-Fi 5",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where we redefine wireless connectivity with the latest in Wi-Fi 5 technology. Explore a world of high-speed, reliable, and efficient wireless networking with our collection of the best Wi-Fi 5 solutions designed to meet your connectivity needs.",
+        p1:" At Infygain Technologies, we pride ourselves on offering the best Wi-Fi 5 technology meticulously chosen for lightning-fast speeds. Wi-Fi 5, also known as 802.11ac, delivers unparalleled performance, ensuring smooth and lag-free connectivity for your devices.",
+        p2:"Experience enhanced bandwidth that enables seamless streaming and data transfers. Our best Wi-Fi 5 solutions provide the necessary speed and capacity to support multiple devices simultaneously, making it an ideal choice for homes, offices, and public spaces.",
+        p3:"Explore optimal performance with the advanced features integrated into our Wi-Fi 5 solutions. From beamforming and MU-MIMO technology to improved security protocols, our solutions are designed to deliver the best Wi-Fi experience for a diverse range of applications.",
+        p4:" Choose from our versatile range of Wi-Fi 5 solutions that cater to various settings and connectivity requirements. Whether you need a solution for a smart home, a bustling office, or a public venue, our collection includes the best options to suit diverse Wi-Fi needs.",
+        p5:"Explore a comprehensive range of Wi-Fi 5 solutions with the best technology for various connectivity setups.",
+        p6:"Rely on our knowledgeable team for expert advice on selecting the best Wi-Fi 5 solution based on your specific networking needs",
+        p7:" Join our satisfied customers who trust in our commitment to providing the best in Wi-Fi 5 technology and service",
+        p8:"Upgrade your connectivity to the next level with the best Wi-Fi 5 solutions available at Infygain Technologies.  ",
+      },
+      {
+        name:"Wi-Fi 6",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where we redefine wireless connectivity with the latest and greatest in Wi-Fi 6 technology. Explore a world of cutting-edge performance, enhanced capacity, and seamless connectivity with our collection of the best Wi-Fi 6 solutions designed to elevate your networking experience.",
+        p1:" At Infygain Technologies, we are proud to present the best Wi-Fi 6 technology, meticulously chosen for unparalleled performance. Wi-Fi 6, also known as 802.11ax, sets a new standard for speed, efficiency, and reliability, ensuring a superior wireless experience for your devices.",
+        p2:"Experience enhanced capacity that caters to the demands of crowded networks. Our best Wi-Fi 6 solutions are designed to handle multiple devices simultaneously, making it the ideal choice for smart homes, busy offices, and high-traffic public spaces.",
+        p3:"Explore optimal efficiency with the advanced features integrated into our Wi-Fi 6 solutions. From OFDMA and MU-MIMO technology to improved security protocols, our solutions are crafted to deliver the best Wi-Fi experience, providing faster speeds and better coverage.",
+        p4:"Choose from our versatile range of Wi-Fi 6 solutions that cater to various settings and connectivity requirements. Whether you need a solution for a smart home, a bustling office, or a public venue, our collection includes the best options to suit diverse Wi-Fi needs.",
+        p5:" Explore a comprehensive range of Wi-Fi 6 solutions with the best technology for various connectivity setups.",
+        p6:"Rely on our knowledgeable team for expert advice on selecting the best Wi-Fi 6 solution based on your specific networking needs.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in Wi-Fi 6 technology and service.",
+        p8:"Step into the future of connectivity with the best Wi-Fi 6 solutions available at Infygain Technologies",
+      },
+    ]
+
+
+    const printer = [
+      {
+        name:"Laser",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where precision meets performance in the world of printing technology. Elevate your printing experience with our collection of the best Laser Printers, meticulously chosen to deliver sharp, high-quality prints for your professional and personal needs.",
+        p1:"At Infygain Technologies, we understand the importance of clear and crisp prints. Our carefully selected best Laser Printers are designed to provide precision printing, ensuring every document, image, or presentation reflects the quality and professionalism you expect.",
+        p2:"Experience increased productivity with the high-speed printing capabilities of our best Laser Printers. Whether you're in a bustling office environment or managing a busy home office, our printers are built to handle large volumes of printing with efficiency.",
+        p3:"Opt for cost-effective and reliable printing solutions with our best Laser Printers. Enjoy the benefits of lower cost per page and consistent print quality, making our printers an ideal choice for businesses, professionals, and home users alike.",
+        p4:"Choose from our versatile range of Laser Printers that cater to various printing preferences and requirements. Whether you need a printer for text documents, graphics, or both, our collection includes the best options to suit diverse printing needs.",
+        p5:" Explore a comprehensive range of Laser Printers with the best technology for various printing setups.",
+        p6:" Rely on our knowledgeable team for expert advice on selecting the best Laser Printer based on your specific printing requirements.",
+        p7:" Join our satisfied customers who trust in our commitment to providing the best in Laser Printer technology and service.",
+        p8:"Elevate your printing standards with the best Laser Printers available at Infygain Technologies",
+      },
+      {
+        name:"Thermal",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where cutting-edge technology meets efficient printing solutions. Discover a world of streamlined and high-quality prints with our collection of the best Thermal Printers, meticulously chosen to meet the demands of various industries and applications",
+        p1:" At Infygain Technologies, we understand the importance of swift and reliable printing in today's fast-paced environments. Our carefully selected best Thermal Printers offer a solution that excels in speed and consistency, ensuring your printing tasks are handled with efficiency.",
+        p2:"Experience high-quality thermal printing that delivers clear and legible results with our best Thermal Printers. Whether you're printing receipts, labels, or other thermal media, our printers ensure precision and clarity, meeting the standards of diverse applications.",
+        p3:"Opt for cost-effective and low-maintenance printing solutions with our best Thermal Printers. Enjoy the benefits of minimal consumables, reduced downtime, and efficient performance, making our printers an ideal choice for businesses and industries seeking reliability.",
+        p4:"Choose from our versatile range of Thermal Printers that cater to various printing preferences and requirements. Whether you need a printer for point-of-sale receipts, shipping labels, or barcode printing, our collection includes the best options to suit diverse thermal printing needs.",
+        p5:"Explore a comprehensive range of Thermal Printers with the best technology for various printing setups.",
+        p6:"Rely on our knowledgeable team for expert advice on selecting the best Thermal Printer based on your specific printing requirements.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in Thermal Printer technology and service.        ",
+        p8:"Elevate your printing efficiency with the best Thermal Printers available at Infygain Technologies.",
+      },
+      {
+        name:"color",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where innovation meets color brilliance in the realm of printing technology. Explore a spectrum of vivid possibilities with our collection of the best Color Printers, meticulously chosen to bring life and vibrancy to your documents, images, and creative projects.",
+        p1:" At Infygain Technologies, we understand the impact of vibrant and eye-catching prints. Our carefully selected best Color Printers are designed to deliver stunning color reproduction, ensuring your prints captivate attention and leave a lasting impression.",
+        p2:"Experience lifelike results with the high-resolution printing capabilities of our best Color Printers. Whether you're printing photos, marketing materials, or presentations, our printers ensure clarity and detail, enhancing the visual appeal of your prints.",
+        p3:"Opt for cost-effective and efficient color printing solutions with our best Color Printers. Enjoy the benefits of precise color control, low per-page costs, and consistent color quality, making our printers an ideal choice for businesses, creatives, and home users alike.",
+        p4:"Explore a comprehensive range of Color Printers with the best technology for various color printing setups.",
+        p5:"Choose from our versatile range of Color Printers that cater to various color printing preferences and requirements. Whether you need a printer for graphic design, marketing collateral, or everyday color prints, our collection includes the best options to suit diverse color printing needs.",
+        p6:" Rely on our knowledgeable team for expert advice on selecting the best Color Printer based on your specific color printing requirements.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in Color Printer technology and service.",
+        p8:"Bring your prints to life with the best Color Printers available at Infygain Technologies. Contact us today to explore technology that adds vibrancy and brilliance to your printing projects.",
+      },
+      {
+        name:"Multifunction",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where versatility meets efficiency in the realm of printing solutions. Discover the ultimate convenience with our collection of the best Multifunction Printers, meticulously chosen to streamline your printing, scanning, and copying tasks in one compact device.",
+        p1:"At Infygain Technologies, we understand the importance of an all-in-one solution for your printing needs. Our carefully selected best Multifunction Printers combine the functionalities of printing, scanning, and copying, offering a comprehensive solution that caters to diverse office and home requirements.",
+        p2:"Experience high-performance printing and copying with our best Multifunction Printers. Whether you're producing documents, reports, or presentations, our printers deliver crisp and clear results, ensuring professional-quality outputs every time.",
+        p3:"Optimize your digital workflows with efficient scanning capabilities of our best Multifunction Printers. Scan documents directly to your computer, email, or cloud storage, streamlining the process of creating digital copies for archival or sharing purposes.",
+        p4:"Choose cost-effective and space-saving solutions with our best Multifunction Printers. Enjoy the benefits of consolidating multiple devices into one, reducing costs, and saving valuable office or home space.",
+        p5:" Select from our versatile range of Multifunction Printers that cater to various printing and scanning preferences. Whether you need a printer for high-volume printing, scanning large documents, or occasional copying, our collection includes the best options to suit diverse multifunctional needs",
+        p6:" Explore a comprehensive range of Multifunction Printers with the best technology for various printing and scanning setups.",
+        p7:"  Rely on our knowledgeable team for expert advice on selecting the best Multifunction Printer based on your specific requirements.",
+        p8:"Join our satisfied customers who trust in our commitment to providing the best in Multifunction Printer technology and service.",
+      },
+      {
+        name:"Dot Matrix",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where tradition meets durability in the realm of printing technology. Explore the time-tested reliability of dot matrix printing with our collection of the best Dot Matrix Printers, meticulously chosen to cater to industries and applications that demand robust and impactful printing.",
+        p1:"At Infygain Technologies, we understand the unique requirements of businesses that rely on impact printing. Our carefully selected best Dot Matrix Printers offer a dependable solution, ensuring clear and consistent printing on multi-part forms and other specialized media.",
+        p2:"Experience high-speed printing with the efficiency of our best Dot Matrix Printers. Whether you're dealing with invoices, receipts, or other multipart documents, our printers are designed to handle high-volume tasks with precision and speed.",
+        p3:"Opt for durable and low-cost printing solutions with our best Dot Matrix Printers. Enjoy the benefits of long-lasting print heads and minimal consumables, making our printers an ideal choice for businesses seeking a cost-effective and reliable printing solution.",
+        p4:"Choose from our versatile range of Dot Matrix Printers that cater to various impact printing preferences. Whether you need a printer for invoicing, order forms, or other multipart documents, our collection includes the best options to suit diverse dot matrix printing needs.",
+        p5:"Explore a comprehensive range of Dot Matrix Printers with the best technology for various impact printing setups.",
+        p6:"Rely on our knowledgeable team for expert advice on selecting the best Dot Matrix Printer based on your specific requirements.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in Dot Matrix Printer technology and service. ",
+        p8:"Embrace the reliability and impact of dot matrix printing with the best Dot Matrix Printers available at Infygain Technologies.",
+      },
+    
+    ]
+
+    const scanner=[
+      {
+        name:"Flatbed",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where precision meets versatility in the world of scanning technology. Transform your document and image digitization experience with our collection of the best Flatbed Scanners, meticulously chosen to deliver high-quality scans for your professional and personal needs..",
+        p1:"At Infygain Technologies, we understand the importance of detailed scans for various applications. Our carefully selected best Flatbed Scanners are designed to offer superior scanning capabilities, capturing intricate details and providing versatility in scanning various types of media.",
+        p2:"Optimize your scanning workflow with versatile media handling of our best Flatbed Scanners. Scan documents, photos, books, and more with ease, thanks to the flat and open scanning surface that accommodates a variety of media types and sizes.",
+        p3:" Explore optimal performance with the advanced features integrated into our Access Point Controllers. From load balancing and traffic shaping to seamless roaming and security management, our controllers are designed to deliver the best Wi-Fi experience.",
+        p4:" Choose efficiency in scanning for both productivity and creativity with our best Flatbed Scanners. Whether you're digitizing documents for the office or capturing artistic projects, our scanners provide the tools needed to enhance your scanning tasks.",
+        p5:"Explore a comprehensive range of Flatbed Scanners with the best technology for various scanning setups.",
+        p6:"Rely on our knowledgeable team for expert advice on selecting the best Flatbed Scanner based on your specific scanning requirements.",
+        p7:"Join our satisfied customers who trust in our commitment to providing the best in Flatbed Scanner technology and service",
+        p8:"Elevate your scanning experience with the best Flatbed Scanners available at Infygain Technologies.",
+      },
+      {
+        name:"Vertical",
+        img:"/images/desk.webp",
+        para:"Welcome to Infygain Technologies, where innovation meets efficiency in the realm of scanning technology. Redefine the way you digitize documents with our collection of the best Vertical Scanners, meticulously chosen to provide a space-saving and user-friendly solution for your scanning needs.",
+        p1:" At Infygain Technologies, we understand the importance of maximizing space without compromising on functionality. Our carefully selected best Vertical Scanners offer a space-saving design that fits seamlessly into your workflow while delivering efficient and high-quality scanning results.",
+        p2:"Experience efficient desktop integration with the compact design of our best Vertical Scanners. Perfect for environments where space is a premium, these scanners offer a vertical orientation, ensuring a small footprint while providing big capabilities.",
+        p3:"Optimize your productivity with high-speed scanning capabilities of our best Vertical Scanners. Whether you're dealing with documents, receipts, or cards, our scanners are designed to handle a variety of media efficiently and with precision.",
+        p4:"Choose user-friendly features for intuitive scanning operation with our best Vertical Scanners. Enjoy hassle-free scanning with easy-to-use controls, quick setup, and seamless integration into your digital workflow.",
+        p5:" Explore a comprehensive range of Vertical Scanners with the best technology for various scanning setups.",
+        p6:"Rely on our knowledgeable team for expert advice on selecting the best Vertical Scanner based on your specific scanning requirements.",
+        p7:" Join our satisfied customers who trust in our commitment to providing the best in Vertical Scanner technology and service.",
+        p8:"Elevate your scanning efficiency with the best Vertical Scanners available at Infygain Technologies.",
+      },
+     
+    ]
+
+     // pos
+  const KIOSK = pos.filter((val, index) => (
+    val.name === "KIOSK"
+  ));
+  const BillingApps = pos.filter((val, index) => (
+    val.name === "Billing Apps"
+  ));
+
   // Laptop
   const GamingLaptop = Laptop.filter((val, index) => (
     val.name === "Gaming Laptop"
@@ -252,6 +711,118 @@ const ProductDetail = () => {
   const GamingDesktop = Desktop.filter((val, index) => (
     val.name === "Gaming Desktop"
   ));
+
+  // accessories
+  const ram = accessories.filter((val, index) => (
+    val.name === "RAM"
+  ));
+  const HDDSSD = accessories.filter((val, index) => (
+    val.name === "HDD,SSD"
+  ));
+  const Keyboard = accessories.filter((val, index) => (
+    val.name === "Keyboard"
+  ));
+  const MouseandMonitor = accessories.filter((val, index) => (
+    val.name === "Mouse and Monitor"
+  ));
+  const Cabinet = accessories.filter((val, index) => (
+    val.name === "Cabinet"
+  ));
+  const Motherboard = accessories.filter((val, index) => (
+    val.name === "Motherboard"
+  ));
+  const SMPS = accessories.filter((val, index) => (
+    val.name === "SMPS"
+  ));
+  const CablesandChargers = accessories.filter((val, index) => (
+    val.name === "Cables and Chargers"
+  ));
+  const ConnectorsandConverters = accessories.filter((val, index) => (
+    val.name === "Connectors and Converters"
+  ));
+
+  // projectors
+  const LCD = projectors.filter((val, index) => (
+    val.name === "LCD"
+  ));
+  const LED = projectors.filter((val, index) => (
+    val.name === "LED"
+  ));
+  const SmartProjectors = projectors.filter((val, index) => (
+    val.name === "Smart Projectors"
+  ));
+
+  // interactivepanel
+  const ip65 = interactivepanel.filter((val, index) => (
+    val.name === "65-Inch Interactive Panels"
+  ));
+  const ip75 = interactivepanel.filter((val, index) => (
+    val.name === "75-Inch Interactive Panels"
+  ));
+
+  // tv
+  const AndroidTV = tv.filter((val, index) => (
+    val.name === "Android TV"
+  ));
+  const SmartTV = tv.filter((val, index) => (
+    val.name === "Smart TV"
+  ));
+
+  // ups
+  const Inventor = ups.filter((val, index) => (
+    val.name === "Inventor"
+  ));
+  const OnlineUPS = ups.filter((val, index) => (
+    val.name === "Online UPS"
+  ));
+
+  // ups
+  const AccessPointController = wifi.filter((val, index) => (
+    val.name === "Access Point Controller"
+  ));
+  const WiFi5 = wifi.filter((val, index) => (
+    val.name === "Wi-Fi 5"
+  ));
+  const WiFi6 = wifi.filter((val, index) => (
+    val.name === "Wi-Fi 6"
+  ));
+
+  // intercom
+  const EPABX = intercom.filter((val, index) => (
+    val.name === "EPABX"
+  ));
+  const IPPBX = intercom  .filter((val, index) => (
+    val.name === "IPPBX"
+  ));
+
+
+// printer
+const Laser = printer.filter((val, index) => (
+  val.name === "Laser"
+));
+const Thermal = printer.filter((val, index) => (
+  val.name === "Thermal"
+));
+const color = printer.filter((val, index) => (
+  val.name === "color"
+));
+const Multifunction = printer.filter((val, index) => (
+  val.name === "Multifunction"
+));
+const DotMatrix = printer.filter((val, index) => (
+  val.name === "Dot Matrix"
+));
+
+  // sacnner
+  const Flatbed = scanner.filter((val, index) => (
+    val.name === "Flatbed"
+  ));
+  const Vertical = scanner.filter((val, index) => (
+    val.name === "Vertical"
+  ));
+
+
+
   return (
     <div className='container'>
                 <div className= "opaque1">
@@ -423,7 +994,7 @@ const ProductDetail = () => {
                     {/* Accessories */}
                     {
                       id==="RAM" &&
-                      GamingDesktop.map((value,index) => (
+                      ram.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -431,7 +1002,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="HDD,SSD" &&
-                      GamingDesktop.map((value,index) => (
+                      HDDSSD.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -439,15 +1010,15 @@ const ProductDetail = () => {
                     }
                     {
                       id==="KeyBoard" &&
-                      GamingDesktop.map((value,index) => (
+                      Keyboard.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
                       ))
                     }
                     {
-                      id==="Mouse,Mointer" &&
-                      GamingDesktop.map((value,index) => (
+                      id==="Mouse,Moniter" &&
+                      MouseandMonitor.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -455,7 +1026,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="Cabinet" &&
-                      GamingDesktop.map((value,index) => (
+                      Cabinet.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -463,15 +1034,15 @@ const ProductDetail = () => {
                     }
                     {
                       id==="MotherBoard" &&
-                      GamingDesktop.map((value,index) => (
+                      Motherboard.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
                       ))
                     }
                     {
-                      id==="SMBS" &&
-                      GamingDesktop.map((value,index) => (
+                      id==="SMPS" &&
+                      SMPS.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -479,7 +1050,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="Cables,Charger" &&
-                      GamingDesktop.map((value,index) => (
+                      CablesandChargers.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -487,7 +1058,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="Connector,Convertor" &&
-                      GamingDesktop.map((value,index) => (
+                      ConnectorsandConverters.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -497,7 +1068,7 @@ const ProductDetail = () => {
                 {/* Projectors */}
                   {
                       id==="LCD" &&
-                      GamingDesktop.map((value,index) => (
+                      LCD.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -505,7 +1076,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="LED" &&
-                      GamingDesktop.map((value,index) => (
+                      LED.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -513,7 +1084,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="SmartProjector" &&
-                      GamingDesktop.map((value,index) => (
+                      SmartProjectors.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -523,7 +1094,7 @@ const ProductDetail = () => {
                      {/* TV */}
                   {
                       id==="AndriodTV" &&
-                      GamingDesktop.map((value,index) => (
+                      AndroidTV.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -531,7 +1102,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="SmartTV" &&
-                      GamingDesktop.map((value,index) => (
+                      SmartTV.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -542,7 +1113,7 @@ const ProductDetail = () => {
                       {/* printer */}
                       {
                       id==="Laser" &&
-                      GamingDesktop.map((value,index) => (
+                      Laser.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -550,7 +1121,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="Thermal" &&
-                      GamingDesktop.map((value,index) => (
+                      Thermal.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -558,7 +1129,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="Color" &&
-                      GamingDesktop.map((value,index) => (
+                      color.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -566,7 +1137,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="MultiFunction" &&
-                      GamingDesktop.map((value,index) => (
+                      Multifunction.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -574,7 +1145,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="DotMatrix" &&
-                      GamingDesktop.map((value,index) => (
+                      DotMatrix.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -585,7 +1156,7 @@ const ProductDetail = () => {
                       {/* Scanner */}
                       {
                       id==="Flatbed" &&
-                      GamingDesktop.map((value,index) => (
+                      Flatbed.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -593,7 +1164,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="Vertical" &&
-                      GamingDesktop.map((value,index) => (
+                      Vertical.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -603,7 +1174,7 @@ const ProductDetail = () => {
                     {/* InteractivePanel */}
                   {
                       id==="InteractivePanel65" &&
-                      GamingDesktop.map((value,index) => (
+                      ip65.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -611,7 +1182,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="InteractivePanel75" &&
-                      GamingDesktop.map((value,index) => (
+                      ip75.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -620,7 +1191,7 @@ const ProductDetail = () => {
                     {/*  UPS */}
                   {
                       id==="Inventor" &&
-                      GamingDesktop.map((value,index) => (
+                      Inventor.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -628,7 +1199,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="OnlineUPS" &&
-                      GamingDesktop.map((value,index) => (
+                      OnlineUPS.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -638,7 +1209,7 @@ const ProductDetail = () => {
                       {/*  WIFI */}
                   {
                       id==="AccessPointController" &&
-                      GamingDesktop.map((value,index) => (
+                      AccessPointController .map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -646,7 +1217,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="Wifi-5" &&
-                      GamingDesktop.map((value,index) => (
+                      WiFi5.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -654,7 +1225,7 @@ const ProductDetail = () => {
                     }
                     {
                       id==="Wifi-6" &&
-                      GamingDesktop.map((value,index) => (
+                      WiFi6.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -673,6 +1244,40 @@ const ProductDetail = () => {
                     {
                       id==="IPPBX" &&
                       GamingDesktop.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                     {/*  Pos */}
+                  {
+                      id==="KIOSK" &&
+                      KIOSK.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="BillingApps" &&
+                      BillingApps.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                     {/*  InterCom */}
+                  {
+                      id==="EPABX" &&       
+                      EPABX.map((value,index) => (
+                        <>
+                         <ProductContent value={value}/>
+                        </>
+                      ))
+                    }
+                    {
+                      id==="BillingApps" &&
+                      IPPBX.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>

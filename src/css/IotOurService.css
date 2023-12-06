@@ -23,7 +23,10 @@
 
 }
 
-
+.icon-img{
+  margin-top: 20px !important;
+  border: 1px solid red;
+}
 .pros{
     transform: rotateX('130deg');
     background-color: black;

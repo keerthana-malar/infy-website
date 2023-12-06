@@ -77,16 +77,12 @@ Complete Network Solutions</h4>
         {id=="Accessories" &&
             <><div className='about1'>
             <div className='smallsss1'></div>
-        <h4 className='aboutline_head1'>Vci Packaging</h4>
+        <h4 className='aboutline_head1'>Computer Accessories</h4>
             </div>
             <div className='biod biode'>
                 
-                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
-                    large selection of stock products or create a cost-effective custom solution.</h2>
-                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
-                        manufacturer & supplier in India and worldwide. We are expert in VCI technology.
-                            Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
-                        with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Infygain Technologies: Elevate your setup with our curated selection of computer accessories. Experience seamless compatibility and enhanced performance, setting a new benchmark for accessory excellence.</h2>
+                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>At Infygain Technologies, find a new standard in computer accessories. Our commitment to customer satisfaction, paired with top-of-the-line technology, establishes us as the preferred choice for those seeking exceptional enhancements for their computing setup. Elevate your computing experience with us – where quality converges with innovation
                         </p></div>
                 </div>
                 </>
@@ -94,16 +90,13 @@ Complete Network Solutions</h4>
         {id=="Projectors" &&
             <><div className='about1'>
             <div className='smallsss1'></div>
-        <h4 className='aboutline_head1'>Vci Packaging</h4>
+        <h4 className='aboutline_head1'>Projectors</h4>
             </div>
             <div className='biod biode'>
                 
-                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
-                    large selection of stock products or create a cost-effective custom solution.</h2>
-                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
-                        manufacturer & supplier in India and worldwide. We are expert in VCI technology.
-                            Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
-                        with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Infygain Technologies: Illuminate brilliance with our precision-engineered projectors. Elevate your visuals with unparalleled clarity and reliability, setting the stage for exceptional presentations.</h2>
+                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>
+                    At Infygain Technologies, discover a new era of projection excellence. Our unwavering dedication to customer satisfaction, fused with cutting-edge technology, makes us the premier choice for those seeking unmatched visual experiences. Illuminate your presentations with us – where excellence harmonizes with innovation
                         </p></div>
                 </div>
                 </>
@@ -111,16 +104,12 @@ Complete Network Solutions</h4>
         {id=="TV" &&
             <><div className='about1'>
             <div className='smallsss1'></div>
-        <h4 className='aboutline_head1'>Vci Packaging</h4>
+        <h4 className='aboutline_head1'>TV</h4>
             </div>
             <div className='biod biode'>
                 
-                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
-                    large selection of stock products or create a cost-effective custom solution.</h2>
-                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
-                        manufacturer & supplier in India and worldwide. We are expert in VCI technology.
-                            Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
-                        with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Infygain Technologies: Transform your entertainment experience with our state of the art TVs. Immerse yourself in unparalleled clarity and vibrant visuals, setting a new standard for home viewing excellence</h2>
+                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>At Infygain Technologies, redefine your TV experience. Our unwavering dedication to customer satisfaction, combined with cutting-edge technology, positions us as the prime choice for those seeking unparalleled entertainment. Elevate your viewing pleasure with us – where excellence meets innovation.
                         </p></div>
                 </div>
                 </>
@@ -147,16 +136,12 @@ Complete Network Solutions</h4>
         {id=="InteractivePanel" &&
                     <><div className='about1'>
                     <div className='smallsss1'></div>
-                <h4 className='aboutline_head1'>Vci Packaging</h4>
+                <h4 className='aboutline_head1'>Interactive Panel</h4>
                     </div>
                     <div className='biod biode'>
                         
-                            <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
-                            large selection of stock products or create a cost-effective custom solution.</h2>
-                            <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
-                                manufacturer & supplier in India and worldwide. We are expert in VCI technology.
-                                    Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
-                                with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                            <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Infygain Technologies: Step into a world of interactive brilliance with our cutting-edge panels. Elevate engagement and learning with seamless interactivity, setting a new standard for interactive excellence.</h2>
+                            <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>At Infygain Technologies, revolutionize collaboration with our interactive panels. Our unwavering commitment to customer satisfaction, combined with cutting-edge interactive technology, makes us the ultimate choice for those seeking dynamic and engaging visual experiences. Transform your presentations with us – where innovation meets excellence.
                                 </p></div>
                         </div>
                         </>
@@ -164,16 +149,12 @@ Complete Network Solutions</h4>
         {id=="UPS" &&
                     <><div className='about1'>
                     <div className='smallsss1'></div>
-                <h4 className='aboutline_head1'>Vci Packaging</h4>
+                <h4 className='aboutline_head1'>UPS</h4>
                     </div>
                     <div className='biod biode'>
                         
-                            <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
-                            large selection of stock products or create a cost-effective custom solution.</h2>
-                            <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
-                                manufacturer & supplier in India and worldwide. We are expert in VCI technology.
-                                    Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
-                                with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                            <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Infygain Technologies: Power up your reliability with our advanced UPS systems. Elevate protection and continuity with seamless power backup, setting new standards for reliability excellence.</h2>
+                            <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>At Infygain Technologies, ensure uninterrupted power with our UPS solutions. Our steadfast dedication to customer satisfaction, paired with advanced technology, positions us as the preferred choice for those seeking reliable power backup. Safeguard your systems with us – where excellence in protection meets innovative solutions.
                                 </p></div>
                         </div>
                         </>
@@ -181,16 +162,12 @@ Complete Network Solutions</h4>
         {id=="WIFI" &&
                     <><div className='about1'>
                     <div className='smallsss1'></div>
-                <h4 className='aboutline_head1'>Vci Packaging</h4>
+                <h4 className='aboutline_head1'>WIFI</h4>
                     </div>
                     <div className='biod biode'>
                         
-                            <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
-                            large selection of stock products or create a cost-effective custom solution.</h2>
-                            <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
-                                manufacturer & supplier in India and worldwide. We are expert in VCI technology.
-                                    Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
-                                with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                            <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Infygain Technologies: Empower connectivity with our advanced WiFi solutions. Elevate your network with seamless coverage and speed, setting a new standard for wireless excellence.</h2>
+                            <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>At Infygain Technologies, redefine connectivity with our WiFi solutions. Our unwavering commitment to customer satisfaction, combined with cutting-edge technology, makes us the premier choice for those seeking seamless and robust wireless networks. Elevate your connectivity with us – where excellence in WiFi meets innovative solutions.
                                 </p></div>
                         </div>
                         </>
@@ -198,16 +175,12 @@ Complete Network Solutions</h4>
         {id=="Pos" &&
                     <><div className='about1'>
                     <div className='smallsss1'></div>
-                <h4 className='aboutline_head1'>Vci Packaging</h4>
+                <h4 className='aboutline_head1'>Point Of Sale</h4>
                     </div>
                     <div className='biod biode'>
                         
-                            <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
-                            large selection of stock products or create a cost-effective custom solution.</h2>
-                            <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
-                                manufacturer & supplier in India and worldwide. We are expert in VCI technology.
-                                    Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
-                                with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                            <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Infygain Technologies: Revolutionize transactions with our cutting-edge Point of Sale solutions. Elevate convenience and efficiency in every transaction, setting a new standard for seamless POS excellence</h2>
+                            <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>At Infygain Technologies, revolutionize your business transactions with our Point of Sale solutions. Our dedication to customer satisfaction, coupled with advanced technology, positions us as the go-to choice for those seeking efficient and reliable transaction management. Streamline your sales process with us – where innovation meets excellence.
                                 </p></div>
                         </div>
                         </>
@@ -215,16 +188,12 @@ Complete Network Solutions</h4>
         {id=="InterCom" &&
                     <><div className='about1'>
                     <div className='smallsss1'></div>
-                <h4 className='aboutline_head1'>Vci Packaging</h4>
+                <h4 className='aboutline_head1'>InterCom</h4>
                     </div>
                     <div className='biod biode'>
                         
-                            <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
-                            large selection of stock products or create a cost-effective custom solution.</h2>
-                            <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
-                                manufacturer & supplier in India and worldwide. We are expert in VCI technology.
-                                    Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
-                                with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                            <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Infygain Technologies: Enhance communication with our state-of-the-art intercom systems. Elevate connectivity and clarity in every interaction, setting a new standard for seamless intercom excellence.</h2>
+                            <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>At Infygain Technologies, redefine communication efficiency with our Intercom solutions. Our unwavering commitment to customer satisfaction, combined with cutting-edge technology, positions us as the prime choice for those seeking seamless and reliable communication systems. Enhance your connectivity with us – where excellence in Intercom meets innovative solutions.
                                 </p></div>
                         </div>
                         </>

@@ -14,7 +14,7 @@ import { Link } from 'react-router-dom';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Hidden } from '@mui/material';
-import { FaUps } from 'react-icons/fa';
+import { FaUps, FaWifi } from 'react-icons/fa';
 
 
 function IotOurService({componentRef}) {
@@ -310,7 +310,8 @@ function IotOurService({componentRef}) {
                         {/* dummy */}
                         <div className='firstrow' data-aos="zoom-in-left">
                     <div className='divline'></div>
-                    <RiLightbulbFlashLine className='icons'/>
+                    <img src="/images/accessories.png" alt='icon' className='icons'/>
+                    {/* <RiLightbulbFlashLine className='icons'/> */}
                     <h3>
                     Computer Accessories
                     </h3>
@@ -359,7 +360,7 @@ function IotOurService({componentRef}) {
                 {/* third row */}
                 <div className='firstrow' data-aos="zoom-in-left">
                 <div className='divline'></div>
-                <MdNetworkWifi3Bar className='icons'/>
+                <img src="/images/printer.png" alt='icon' className='icons'/>
                     <h3>
                     Printer & Scanner
                     </h3>
@@ -383,7 +384,7 @@ function IotOurService({componentRef}) {
                 {/* fourth row */}
                 <div className='firstrow' data-aos="zoom-in-left">
                 <div className='divline'></div>
-                <MdNetworkWifi3Bar className='icons'/>
+                <img src="/images/panel.png" alt='icon' className='icons'/>
                     <h3>
                     Interactive Panel
                     </h3>
@@ -432,7 +433,7 @@ function IotOurService({componentRef}) {
                         {/* dummy */}
                         <div className='firstrow' data-aos="zoom-in-right">
                     <div className='divline'></div>
-                    <TfiLayoutMediaCenterAlt className='icons'/>
+                    <FaWifi  className='icons'/>
                     <h3>
                     WIFI
                     </h3>
@@ -445,7 +446,7 @@ function IotOurService({componentRef}) {
                            <div className='hiddenrowsb'>
                            <div className='pros'>
                            <div className='divline'></div>
-                   <h2 className='edgehead'>  WIFI</h2>
+                   <h2 className='edgehead'>WIFI</h2>
                    <div className='buttongroup'>
                    <Link to="/services/WIFI" >
                     <button className='butt btn1'>+</button></Link>
@@ -456,7 +457,7 @@ function IotOurService({componentRef}) {
                         {/* dummy */}
                         <div className='firstrow' data-aos="zoom-in-right">
                     <div className='divline'></div>
-                    <GiCctvCamera className='icons'/>
+                    <img src="/images/pos.png" alt='icon' className='icons'/>
                     <h3>
                      Point Of Sale
                     </h3>
@@ -480,7 +481,7 @@ function IotOurService({componentRef}) {
                         {/* dummy */}
                         <div className='firstrow' data-aos="zoom-in-right">
                     <div className='divline'></div>
-                    <SiWebtrees className='icons'/>
+                    <img src="/images/intercom.png" alt='icon' className='icons'/>
                     <h3>
                     InterCom
                     </h3>

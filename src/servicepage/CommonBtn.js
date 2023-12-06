@@ -10,7 +10,7 @@ const CommonBtns = ({pid,id,cat}) => {
     const categories = [
         {
           id: 1,
-          name: 'Computer Network Solutions',
+          name: 'Complete Network Solutions',
           brands: ['HUB', 'Switch', 'Router', 'Firewall',
            'End Point Security ', 'Fiber',],
           paths :['1','2','3','4','5','6','7','8','9']
@@ -24,7 +24,7 @@ const CommonBtns = ({pid,id,cat}) => {
         {
           id: 3,
           name: 'Computer Accessories',
-          brands: ['RAM', 'HDD,SSD', 'KeyBoard', 'Mouse,Mointer','Cabinet','Mother Board','SMBS','Cables,Charger','Connector,Convertor'],
+          brands: ['RAM', 'HDD,SSD', 'KeyBoard', 'Mouse,Moniter','Cabinet','Mother Board','SMPS','Cables,Charger','Connector,Convertor'],
           paths :['1','2','3','4','5','6','7','8']
         },
         {
@@ -78,7 +78,7 @@ const CommonBtns = ({pid,id,cat}) => {
         {
           id: 11,
           name: 'POS',
-          brands: ['Access Point Controller', 'Wifi-5','Wifi-6'],
+          brands: ['KIOSK', 'Billing Apps',],
           paths :['1','2','3','4','5','6',]
         },
         {
@@ -141,6 +141,9 @@ const CommonBtns = ({pid,id,cat}) => {
         if(cat === "InterCom"){
             setOpenCategory(12)
         }
+        if(cat === "Pos"){
+            setOpenCategory(11)
+        }
       
     },[])
 
@@ -157,7 +160,8 @@ const CommonBtns = ({pid,id,cat}) => {
                                                                                     :cat==="Networking" && index===0 ? 'categ-active':cat==="Cctv" && index===1 ? 'categ-active'
                                                                                     :cat==="Accessories" && index===2 ? 'categ-active':cat==="Projectors" && index===5 ? 'categ-active'
                                                                                     :cat==="TV" && index===7 ? 'categ-active' :cat==="UPS" && index===8 ? 'categ-active'
-                                                                                    :cat==="WIFI" && index===9 ? 'categ-active' :cat==="InterCom" && index===11 ? 'categ-active': ''}`} >
+                                                                                    :cat==="WIFI" && index===9 ? 'categ-active' :cat==="InterCom" && index===11 ? 'categ-active': 
+                                                                                    cat==="Pos" && index===10 ? 'categ-active' :''}`} >
                             <span>
                                 {category.name}
                             </span>   
@@ -351,8 +355,8 @@ const CommonBtns = ({pid,id,cat}) => {
                                 index === 10&&
                                 <>
                                     {category.brands.map((brand, index) => (
-                                    <Link to={`/products/Industriallpg/${category.paths[index]}`} 
-                                    className={pid==="Industriallpg"  && `${id === category.paths[index] ? "prdt-active" : ""}`} 
+                                    <Link to={`/servicedetails/Pos/${brand.replace(/\s+/g, '')}`} 
+                                    className={`${id === brand.replace(/\s+/g, '') ? "prdt-active" : ""}`} 
                                     key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
                                     ))}
                                 </>

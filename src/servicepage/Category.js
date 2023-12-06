@@ -199,7 +199,7 @@ const Category = () => {
           },
           {
               id:4,
-              title:"Mouse,Mointer",
+              title:"Mouse,Moniter",
               para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
           },
           {
@@ -214,7 +214,7 @@ const Category = () => {
           },
           {
               id:7,
-              title:"SMBS",
+              title:"SMPS",
               para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
           },
           {
@@ -307,19 +307,15 @@ const Category = () => {
       const pos = [
         {
             id:1,
-            title:"LCD",
+            title:"KIOSK",
             para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
         },
         {
             id:2,
-            title:"LED",
+            title:"Billing Apps",
             para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
         },
-        {
-            id:3,
-            title:"Smart Projector",
-            para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
-        },
+
         
     ];
       const InterCom = [
@@ -343,16 +339,12 @@ const Category = () => {
         <div className='container mt-5 mp-5'>
             <div className='about1'>
             <div className='smallsss1'></div>
-        <h4 className='aboutline_head1'>Printer</h4>
+        <h4 className='aboutline_head1'>Laptop</h4>
             </div>
             <div className='biod biode'>
                 
-                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
-                    large selection of stock products or create a cost-effective custom solution.</h2>
-                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
-                        manufacturer & supplier in India and worldwide. We are expert in VCI technology.
-                            Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
-                        with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Infygain Technologies: Unlock boundless potential with our precision-engineered laptops, fortified with cutting-edge security and unrivaled performance. Choose innovation. Choose excellence.</h2>
+                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Discover a redefined standard of laptop performance. Our relentless focus on user satisfaction, paired with leading-edge technology, establishes us as the go-to choice for those seeking unparalleled computing. Elevate your computing experience with us – where excellence meets innovation
                         </p></div>
                 </div>
           </div>
@@ -386,16 +378,12 @@ const Category = () => {
          <div className='container mt-5 mp-5'>
             <div className='about1'>
             <div className='smallsss1'></div>
-        <h4 className='aboutline_head1'> Scanner</h4>
+        <h4 className='aboutline_head1'> Desktop</h4>
             </div>
             <div className='biod biode'>
                 
-                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
-                    large selection of stock products or create a cost-effective custom solution.</h2>
-                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
-                        manufacturer & supplier in India and worldwide. We are expert in VCI technology.
-                            Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
-                        with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Infygain Technologies: Experience unparalleled power and reliability with our meticulously crafted desktops. Elevate your setup with top-tier performance and robust security, setting new standards for excellence</h2>
+                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Embrace a new benchmark in desktop computing. Our steadfast commitment to user satisfaction, combined with cutting-edge technology, positions us as the ultimate choice for those pursuing unparalleled performance. Elevate your computing prowess with us – where excellence intersects with innovation
                         </p></div>
                 </div>
         </div>
@@ -601,12 +589,8 @@ const Category = () => {
             </div>
             <div className='biod biode'>
                 
-                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
-                    large selection of stock products or create a cost-effective custom solution.</h2>
-                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
-                        manufacturer & supplier in India and worldwide. We are expert in VCI technology.
-                            Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
-                        with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Infygain Technologies: Print with precision and reliability using our advanced printers. Elevate your efficiency with sharp, high-quality outputs, setting new standards for printing excellence</h2>
+                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>At Infygain Technologies, redefine your printing standards. Our commitment to customer satisfaction, coupled with cutting-edge technology, makes us the preferred choice for those seeking high-quality printing solutions. Elevate your printing experience with us – where excellence converges with innovation.
                         </p></div>
                 </div>
           </div>
@@ -644,12 +628,8 @@ const Category = () => {
             </div>
             <div className='biod biode'>
                 
-                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
-                    large selection of stock products or create a cost-effective custom solution.</h2>
-                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
-                        manufacturer & supplier in India and worldwide. We are expert in VCI technology.
-                            Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
-                        with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
+                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Infygain Technologies: Capture perfection with our high-performance scanners. Elevate your scanning experience with precision and speed, setting new benchmarks for scanning excellence.</h2>
+                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>At Infygain Technologies, elevate your scanning capabilities. Our dedication to customer satisfaction, fused with state-of-the-art technology, positions us as the top choice for those seeking superior scanning solutions. Streamline your workflow with us – where excellence and innovation seamlessly merge.
                         </p></div>
                 </div>
         </div>
@@ -787,7 +767,7 @@ const Category = () => {
               <div className='container mt-5 mp-5'>
                 <div className='subcategory1' >
                           {
-                              Projectors.map((val,index) => (
+                              pos.map((val,index) => (
                                   <>
                                       <div className='subcategoryhead' key={index}>
                                       

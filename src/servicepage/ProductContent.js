@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaCartPlus } from 'react-icons/fa'
 
 const ProductContent = ({value}) => {
     console.log("v",value)
@@ -14,15 +15,20 @@ const ProductContent = ({value}) => {
     </div>
     <div className='row paraoutdoor'>
         <div className='col-md-4 col-sm-12'>
-           
-           
-                <img src={value.img} alt='dummy'/> 
-            
+                <img src={value.img} alt='dummy'/>  
+              
         </div>
+        
         <div  className='col-md-8 col-sm-12'>
          <p className='text-muted firstparavalue'>
 
             {value.para}
+            <div className='butk'>
+                {/* To Check Our product  */}
+               <button className='btn butks'>
+               <a href="https://infygain.com/onlinestore/products/ca/173"><FaCartPlus className='butk-icons'/> buy now </a>
+                </button>
+               </div>
             
             </p> 
             
@@ -34,7 +40,7 @@ const ProductContent = ({value}) => {
     <div className='downsession'>
 
         <div className='downparasession'>
-            <img src="/images/download.svg" className='image-fluid iconroller'/>
+            <img src="/images/download.svg" alt='points' className='image-fluid iconroller'/>
             <span className='clinicpara'>
                <p>{value.p1}</p>
 
@@ -44,7 +50,7 @@ const ProductContent = ({value}) => {
             </div>
             {/* 2 point */}
         <div className='downparasession'>
-        <img src="/images/download.svg" className='image-fluid iconroller'/>
+        <img src="/images/download.svg" alt='points' className='image-fluid iconroller'/>
             <span className='clinicpara'>
                <p> {value.p2}</p>
 
@@ -53,7 +59,7 @@ const ProductContent = ({value}) => {
         </div>
         {/* 3 point */}
         <div className='downparasession'>
-        <img src="/images/download.svg" className='image-fluid iconroller'/>
+        <img src="/images/download.svg" alt='points' className='image-fluid iconroller'/>
             <span className='clinicpara'>
                <p>{value.p3}</p>
                 
@@ -63,7 +69,7 @@ const ProductContent = ({value}) => {
         </div>
         {/*  4 points */}
         <div className='downparasession'>
-        <img src="/images/download.svg" className='image-fluid iconroller'/>
+        <img src="/images/download.svg" alt='points' className='image-fluid iconroller'/>
             <span className='clinicpara'>
             <p>{value.p4}</p>
                 
@@ -71,7 +77,7 @@ const ProductContent = ({value}) => {
         </div>
         {/* 5 points */}
         <div className='downparasession'>
-        <img src="/images/download.svg" className='image-fluid iconroller'/>
+        <img src="/images/download.svg" alt='points' className='image-fluid iconroller'/>
             <span className='clinicpara'>
              <p>{value.p5}</p>
                
@@ -79,25 +85,21 @@ const ProductContent = ({value}) => {
         </div>
         {/*  6 points  */}
         <div className='downparasession'>
-        <img src="/images/download.svg" className='image-fluid iconroller'/>
+        <img src="/images/download.svg" alt='points' className='image-fluid iconroller'/>
             <span className='clinicpara'>
            <p>{value.p6}</p>
-                
-              
-                
                 </span>
         </div>
-        {/* 5 points */}
+        {/* 7 points */}
         <div className='downparasession'>
-        <img src="/images/download.svg" className='image-fluid iconroller'/>
+        <img src="/images/download.svg" alt='points' className='image-fluid iconroller'/>
             <span className='clinicpara'>
              <p>{value.p7}</p>
-               
-                </span>
+            </span>
         </div>
-        {/*  6 points  */}
+        {/*  8 points  */}
         <div className='downparasession'>
-        <img src="/images/download.svg" className='image-fluid iconroller'/>
+        <img src="/images/download.svg" alt='points' className='image-fluid iconroller'/>
             <span className='clinicpara'>
            <p>{value.p8}</p>
                 

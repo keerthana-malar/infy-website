@@ -24,7 +24,8 @@ const ServiceDetails = () => {
               ,"Inventor","OnlineUPS"
               ,"AccessPointController","Wifi-5","Wifi-6"
             ,"EPABX","IPPBX",
-            ,"KIOSK","BillingApps"];
+            ,"KIOSK","BillingApps"
+          ,"POS","InterCom"];
   return (
     <>
     {

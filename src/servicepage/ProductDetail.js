@@ -138,7 +138,7 @@ const ProductDetail = () => {
       const Router = [
       {
         name:"Router",
-        img:"/images/router vector.webp",
+        img:"/images/router-vector.webp",
         para:"Discover the beating heart of your network with our cutting-edge router solutions. We don't just offer routers; we provide gateways to a world where data flows effortlessly, security is paramount, and your connectivity needs are met with precision.",
         p1:"Routers make real-time decisions about the most efficient path for data to travel, facilitating optimal connectivity. ",
         p2:"Experience the internet at the speed of today's demands. Our routers are engineered to deliver swift and reliable connectivity for all your devices. ",
@@ -201,7 +201,7 @@ const ProductDetail = () => {
               const Fiber =[
               {
               name:"Fiber",
-              img:"/images/fibre vector.webp",
+              img:"/images/fibres.webp",
               para:"At Infygain Technologies, we believe that the backbone of modern connectivity is built on the speed and reliability of fiber optics. As pioneers in the field, we are committed to delivering state-of-the-art fiber solutions that transform the way you connect, communicate, and collaborate.",
               p1:"Fiber optics boast unparalleled data transfer speeds, making them the ideal choice for businesses, homes, and industries where speed is of the essence.",
               p2:"Say goodbye to interruptions and signal degradation. Fiber optics are resistant to electromagnetic interference, ensuring a stable and reliable connection, even over long distances.",
@@ -395,7 +395,7 @@ const ProductDetail = () => {
     const interactivepanel = [
       {
         name:"65-Inch Interactive Panels",
-        img:"/images/desk.webp",
+        img:"/images/interactivepanel.webp",
         para:"Welcome to Infygain Technologies, where collaboration meets innovation. Step into a world of interactive excellence with our collection of the best 65-inch interactive panels. Our commitment is to redefine the way you collaborate, present, and engage with cutting-edge technology that brings your ideas to life.",
         p1:"Explore our carefully curated selection of the best 65-inch interactive panels, meticulously chosen to deliver immersive collaboration experiences. Whether you're conducting dynamic presentations, interactive lessons, or collaborative  brainstorming sessions, our panels provide a canvas for creativity.",
         p2:" Experience vivid visuals and responsive touch technology with our best interactive panels. The 65-inch size ensures that your content is displayed with clarity, while the touch functionality allows for seamless interaction,making presentations and lessons engaging and dynamic. ",
@@ -408,7 +408,7 @@ const ProductDetail = () => {
       },
       {
         name:"75-Inch Interactive Panels",
-        img:"/images/desk.webp",
+        img:"/images/interactivepanel.webp",
         para:"Welcome to Infygain Technologies, where innovation meets collaboration on a grand scale. Immerse yourself in a world of interactive excellence with our collection of the best 75-inch interactive panels. Our commitment is to redefine the way you collaborate, present, and engage with cutting-edge technology that provides a commanding canvas for your ideas.",
         p1:"Explore our meticulously curated selection of the best 75-inch interactive panels, chosen to deliver an immersive collaboration experience. Whether you're conducting impactful presentations, interactive lessons, or collaborative brainstorming sessions, our panels provide a vast canvas for creativity.",
         p2:"Experience vivid visuals and responsive touch technology with our best interactive panels. The expansive 75-inch size ensures that your content is displayed with crystal clarity, while the responsive touch functionality allows for seamless interaction, making presentations and lessons engaging and dynamic.",
@@ -452,7 +452,7 @@ const ProductDetail = () => {
     const ups=[
       {
         name:"Inventor",
-        img:"/images/desk.webp",
+        img:"/images/inventorfinal.webp",
         para:"Welcome to Infygain Technologies, your trusted partner in ensuring uninterrupted power supply through cutting-edge UPS technology. Explore a world of innovation and reliability with our collection of the best inventors in the UPS industry, designed to safeguard your critical systems and sensitive equipment.",
         p1:"At Infygain Technologies, we take pride in offering the best inventors in UPS technology, meticulously chosen to provide unrivaled reliability. Our UPS solutions are crafted with precision, ensuring seamless transitions during power outages and protection against voltage fluctuations.",
         p2:"Experience innovative features that elevate the performance of our best UPS inventors. From advanced battery management systems to intelligent monitoring capabilities, our UPS solutions are designed to meet the dynamic power needs of modern businesses.  ",
@@ -481,7 +481,7 @@ const ProductDetail = () => {
     const pos=[
       {
         name:"KIOSK",
-        img:"/images/desk.webp",
+        img:"/images/kioskvectorlasts.webp",
         para:"Welcome to Infygain Technologies, where innovation meets customer convenience in the world of Point of Sale (POS). Explore a seamless and interactive customer experience with our collection of the best Kiosk solutions, meticulously chosen to enhance your POS operations.",
         p1:"At Infygain Technologies, we understand the significance of efficient and interactive transactions at your POS. Our carefully selected best Kiosk solutions offer a cutting-edge way for customers to interact with your business, leading to streamlined processes and improved customer satisfaction.",
         p2:"Experience effortless transactions with our best Kiosk solutions. The user-friendly interfaces empower your customers to navigate through the kiosk, place orders, make payments, or access information easily, providing a smooth and enjoyable experience.  ",
@@ -494,7 +494,7 @@ const ProductDetail = () => {
       },
       {
         name:"Billing Apps",
-        img:"/images/desk.webp",
+        img:"/images/billingapp.webp",
         para:" Welcome to Infygain Technologies, where we bring innovation to your Point of Sale (POS) experience. Explore a world of efficiency and precision in financial transactions with our collection of the best Billing Apps designed to enhance your POS operations.",
         p1:" At Infygain Technologies, we understand the importance of seamless billing in POS. Our meticulously selected best Billing Apps ensure quick and accurate transactions, allowing you to focus on providing excellent service to your customers.",
         p2:"Experience an effortless billing process with our best Billing Apps. The user-friendly interfaces make it easy for your staff to navigate through the app, enabling swift and error-free transactions that contribute to a positive customer experience.",
@@ -511,7 +511,7 @@ const ProductDetail = () => {
     const intercom=[
       {
         name:"EPABX",
-        img:"/images/desk.webp",
+        img:"/images/intercomvector-01.webp",
         para:"Welcome to Infygain Technologies, where seamless communication is a priority. Explore a world of enhanced connectivity and efficient intercom solutions with our collection of the best EPABX systems, meticulously chosen to elevate your communication infrastructure.",
         p1:"At Infygain Technologies, we understand the importance of efficient communication within your premises. Our meticulously selected best EPABX systems offer a robust and scalable solution for intercom communication, ensuring seamless connectivity and quick response times.",
         p2:"Experience intuitive communication with our best EPABX systems. The user-friendly interfaces make it easy for users to initiate intercom calls, transfer calls, and manage communication effectively, contributing to a smooth and streamlined operation.",
@@ -524,7 +524,7 @@ const ProductDetail = () => {
       },
       {
         name:"IPPBX",
-        img:"/images/desk.webp",
+        img:"/images/intercomvector-01.webp",
         para:"Welcome to Infygain Technologies, where we prioritize seamless and advanced communication solutions. Explore a world of enhanced connectivity and efficient intercom systems with our collection of the best IPPBX systems, meticulously chosen to elevate your communication infrastructure.",
         p1:"At Infygain Technologies, we recognize the pivotal role of communication within your premises. Our carefully selected best IPPBX systems offer a cutting-edge solution for intercom communication, ensuring not only seamless connectivity but also advanced features to meet your diverse communication needs.",
         p2:"Experience intuitive communication with our best IPPBX systems. The user-friendly interfaces make it easy for users to initiate intercom calls, manage extensions, and utilize advanced features, contributing to a smooth and streamlined operation.",
@@ -540,7 +540,7 @@ const ProductDetail = () => {
     const wifi=[
       {
         name:"Access Point Controller",
-        img:"/images/desk.webp",
+        img:"/images/acesspoint controller.jpg",
         para:"Welcome to Infygain Technologies, your gateway to unparalleled wireless connectivity. Dive into the world of seamless networking with our collection of the best Access Point Controllers, meticulously chosen to optimize and manage your Wi-Fi network efficiently.",
         p1:"At Infygain Technologies, we are proud to present the best Access Point Controllers, meticulously selected for enhanced Wi-Fi management. Our controllers ensure a robust and reliable wireless network, providing seamless connectivity for your users.",
         p2:" Experience centralized management that simplifies control over your Wi-Fi network. Our best Access Point Controllers allow you to monitor, configure, and optimize multiple access points from a centralized interface, streamlining the management of your wireless infrastructure.",
@@ -553,7 +553,7 @@ const ProductDetail = () => {
       },
       {
         name:"Wi-Fi 5",
-        img:"/images/desk.webp",
+        img:"/images/wifi5vector-01.webp",
         para:"Welcome to Infygain Technologies, where we redefine wireless connectivity with the latest in Wi-Fi 5 technology. Explore a world of high-speed, reliable, and efficient wireless networking with our collection of the best Wi-Fi 5 solutions designed to meet your connectivity needs.",
         p1:" At Infygain Technologies, we pride ourselves on offering the best Wi-Fi 5 technology meticulously chosen for lightning-fast speeds. Wi-Fi 5, also known as 802.11ac, delivers unparalleled performance, ensuring smooth and lag-free connectivity for your devices.",
         p2:"Experience enhanced bandwidth that enables seamless streaming and data transfers. Our best Wi-Fi 5 solutions provide the necessary speed and capacity to support multiple devices simultaneously, making it an ideal choice for homes, offices, and public spaces.",
@@ -566,7 +566,7 @@ const ProductDetail = () => {
       },
       {
         name:"Wi-Fi 6",
-        img:"/images/desk.webp",
+        img:"/images/wifi5vector-01.webp",
         para:"Welcome to Infygain Technologies, where we redefine wireless connectivity with the latest and greatest in Wi-Fi 6 technology. Explore a world of cutting-edge performance, enhanced capacity, and seamless connectivity with our collection of the best Wi-Fi 6 solutions designed to elevate your networking experience.",
         p1:" At Infygain Technologies, we are proud to present the best Wi-Fi 6 technology, meticulously chosen for unparalleled performance. Wi-Fi 6, also known as 802.11ax, sets a new standard for speed, efficiency, and reliability, ensuring a superior wireless experience for your devices.",
         p2:"Experience enhanced capacity that caters to the demands of crowded networks. Our best Wi-Fi 6 solutions are designed to handle multiple devices simultaneously, making it the ideal choice for smart homes, busy offices, and high-traffic public spaces.",
@@ -1235,7 +1235,7 @@ const DotMatrix = printer.filter((val, index) => (
                      {/*  InterCom */}
                   {
                       id==="EPABX" &&
-                      GamingDesktop.map((value,index) => (
+                      EPABX.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -1243,7 +1243,7 @@ const DotMatrix = printer.filter((val, index) => (
                     }
                     {
                       id==="IPPBX" &&
-                      GamingDesktop.map((value,index) => (
+                      IPPBX.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
@@ -1267,22 +1267,22 @@ const DotMatrix = printer.filter((val, index) => (
                       ))
                     }
                      {/*  InterCom */}
-                  {
+                  {/* {
                       id==="EPABX" &&       
                       EPABX.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
                       ))
-                    }
-                    {
+                    } */}
+                    {/* {
                       id==="BillingApps" &&
                       IPPBX.map((value,index) => (
                         <>
                          <ProductContent value={value}/>
                         </>
                       ))
-                    }
+                    } */}
                 </div>
                 </div>
             </div>

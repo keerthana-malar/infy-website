@@ -12,6 +12,7 @@ const Category = () => {
             AOS.init();
             AOS.refresh();
 
+            
         }, []);
 
         const laptop = [
@@ -676,7 +677,7 @@ const Category = () => {
                                       
                                               <div className="subcategory2 ">
                                               
-                                              <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+                                              <img src={`${val.id === 1 ? "/images/interactivepanel65.webp" :val.id === 2 ? "/images/interactivepanel75.webp" : ""}`} />
 
                                               </div>
 
@@ -709,7 +710,7 @@ const Category = () => {
                                       
                                               <div className="subcategory2 ">
                                               
-                                              <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+                                              <img src={`${val.id === 1 ? "/images/inventor.webp" :val.id === 2 ? "/images/onlineups.webp" : ""}`} />
 
                                               </div>
 
@@ -741,7 +742,7 @@ const Category = () => {
                                       
                                               <div className="subcategory2 ">
                                               
-                                              <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+                                              <img src={`${val.id === 1 ? "/images/acespoint.webp" : val.id === 2 ? "/images/5gwifi.webp": val.id === 3 ? "/images/6gwifi.webp" : ""}`} />
 
                                               </div>
 
@@ -773,7 +774,7 @@ const Category = () => {
                                       
                                               <div className="subcategory2 ">
                                               
-                                              <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+                                              <img src={`${val.id === 1 ? "/images/kiosk.webp":val.id === 2 ? "/images/POS billing.webp" : ""}`} />
 
                                               </div>
 
@@ -805,7 +806,7 @@ const Category = () => {
                                       
                                               <div className="subcategory2 ">
                                               
-                                              <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+                                              <img src={`${val.id === 1 ? "/images/epabx.webp" :val.id === 2 ? "/images/ipabx.webp":""}`} />
 
                                               </div>
 

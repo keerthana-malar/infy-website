@@ -666,12 +666,20 @@ text-align: center;
 }
 .butks{
     background-color: var(--pri);
-    width: 120px;  
+    /* width: 100%;   */
     font-size: 20px;
-    justify-content: space-evenly
+    justify-content: space-evenly;
+    margin-top: 20px; 
 }
+/* .butk{
+    display: flex;
+    justify-content: center;
+} */
 .butks:hover{
     background-color: var(--sec );
+}
+.butk-icons{
+    margin-right: 5px;
 }
 .centeralised{
     display: flex;
@@ -747,6 +755,7 @@ ul li{
 .butk a{
 color: white;
 }
+
 @media (width<=767px){
     .wifit{
         padding: 0;

@@ -19,19 +19,19 @@ const Category = () => {
               id:1,
               path:"GamingLaptop",
               title:"Gaming Laptop",
-              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+              para:"High-performance gaming laptops with cutting-edge graphics and processing power for immersive gameplay.",
           },
           {
               id:2,
               path:"Consumerlaptops",
               title:"Consumer laptops",
-              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Consumer laptops designed for everyday use, offering versatility, portability, and reliability for various tasks and entertainment",
           },
           {
               id:3,
               path:"WorkStation",
               title:"Work Station",
-              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Powerful workstations crafted for high-performance computing and demanding professional applications.",
           },
       ];
       const desktop = [
@@ -39,25 +39,25 @@ const Category = () => {
               id:1,
               path:"BrandedDesktop",
               title:"Branded Desktop",
-              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+              para:"Top-tier branded desktops featuring superior build quality, performance, and reliability for diverse computing needs.",
           },
           {
               id:2,
               path:"AssembledDesktop",
               title:"Assembled Desktop",
-              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Tailor-made assembled desktops crafted to exact specifications, delivering personalized performance and versatility.",
           },
           {
               id:3,
               path:"WorkStationDesktop",
               title:"Work Station",
-              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Workstations: Engineered for elite performance in specialized tasks, from complex data analysis to professional content creation",
           },
           {
               id:4,
               path:"GamingDesktop",
               title:"Gaming Desktop",
-              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+              para:"High-powered gaming desktops designed to deliver top-tier performance, immersive graphics, and seamless gameplay experiences",
           },
       ];
       const printer = [
@@ -65,43 +65,43 @@ const Category = () => {
               id:1,
               path:"BrandedDesktop",
               title:"Laser",
-              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+              para:"High-speed, efficient printers utilizing laser technology to produce crisp, high-quality prints ideal for bulk and text-heavy documents.",
           },
           {
               id:2,
               path:"AssembledDesktop",
               title:"Thermal",
-              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Utilizing heat to produce high-quality prints, ideal for receipts, labels, and applications where fast, quiet printing is crucial.",
           },
           {
               id:3,
               path:"WorkStationDesktop",
               title:"Color",
-              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Devices capable of producing vibrant, high-resolution prints in a variety of colors, ideal for photos, presentations, and creative projects.",
           },
           {
               id:4,
               path:"GamingDesktop",
               title:"Multi Function",
-              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+              para:"All-in-one devices combining printing, scanning, copying, and sometimes faxing functionalities for versatile office or home use.",
           },
           {
-              id:4,
+              id:5,
               path:"GamingDesktop",
               title:"Dot Matrix",
-              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Utilizing impact-based technology, these printers create text and graphics through a matrix of pins, often used for continuous forms and basic prints.",
           },
       ];
       const scanner = [
           {
               id:1,
               title:"Flatbed",
-              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+              para:" Devices with a flat, glass surface for scanning documents or photos, offering high-quality, versatile scanning capabilities for various materials",
           },
           {
               id:2,
               title:"Vertical",
-              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+              para:" Devices designed to scan documents in a vertical position, often optimized for quick, efficient scanning of multiple pages or documents",
           },
       ];
         
@@ -185,32 +185,32 @@ const Category = () => {
           {
               id:1,
               title:"RAM",
-              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+              para:"Crucial hardware for a computer's performance, providing high-speed memory for quick access to data and applications.",
           },
           {
               id:2,
               title:"HDD,SSD",
-              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Storage essentials for computers; HDDs offer high capacity, while SSDs deliver speed and reliability through flash memory technology.",
           },
           {
               id:3,
               title:"KeyBoard",
-              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+              para:" Essential input devices designed for comfort and efficiency, enabling user interaction and text input on computers.",
           },
           {
               id:4,
               title:"Mouse,Moniter",
-              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+              para:"Mouse: Precision navigation tool; Monitor: Visual display for computer output, offering varied sizes and resolutions",
           },
           {
               id:5,
               title:"Cabinet",
-              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+              para:"The housing unit that holds and organizes computer components, providing structure and protection within a PC setup",
           },
           {
               id:6,
               title:"Mother Board",
-              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+              para:" The central circuit board linking and powering all computer components, serving as the foundation for a system's functionality and expansion",
           },
           {
               id:7,
@@ -220,29 +220,29 @@ const Category = () => {
           {
               id:8,
               title:"Cables,Charger",
-              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Cables: Connectors vital for data transfer; Charger: Power supply for device replenishment, ensuring uninterrupted usage.",
           },
           {
               id:9,
               title:"Connector,Convertor",
-              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Connectors create physical links between devices, while converters enable compatibility by adapting interfaces or signals.. ",
           },
       ];
         const Projectors = [
           {
               id:1,
               title:"LCD",
-              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+              para:"LCD projectors: Portable, high-resolution visual solutions, perfect for presentations, movies, and immersive experiences in various settings",
           },
           {
               id:2,
               title:"LED",
-              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+              para:"LED projectors: Compact, energy-efficient devices providing vibrant, high-resolution projections for diverse entertainment and professional needs.",
           },
           {
               id:3,
               title:"Smart Projector",
-              para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Smart projectors: All-in-one connectivity and interactive capabilities for dynamic, immersive projection experiences in any setting",
           },
           
       ];
@@ -250,12 +250,12 @@ const Category = () => {
           {
               id:1,
               title:"Andriod TV",
-              para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+              para:"Android TV: Smart TV platform powered by Android OS, offering a range of apps, games, and streaming services directly on your television",
           },
           {
               id:2,
               title:"Smart TV",
-              para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+              para:"Smart TVs: Integrated with internet connectivity and apps, offering a range of online content, streaming services, etc..",
           },        
       ];
 
@@ -263,12 +263,12 @@ const Category = () => {
         {
             id:1,
             title:"Interactive Panel 65",
-            para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+            para:" A 65-inch touch-enabled display fostering collaboration and interactive engagement in presentations and educational environments",
         },
         {
             id:2,
             title:"Interactive Panel 75",
-            para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+            para:"A 75-inch touch-enabled display facilitating dynamic and engaging interactions for presentations, education, and collaborative work. ",
         },
      
         
@@ -277,12 +277,12 @@ const Category = () => {
         {
             id:1,
             title:"Inventor",
-            para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+            para:"A power backup system ensuring uninterrupted operation for devices during power outages, designed by an innovative creator",
         },
         {
             id:2,
             title:"Online UPS",
-            para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+            para:"A power backup system offering continuous and stable electricity flow, safeguarding devices from power disruptions or fluctuations.",
         },
         
     ];
@@ -290,17 +290,17 @@ const Category = () => {
         {
             id:1,
             title:"Access Point Controller",
-            para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+            para:" Centralized network management for optimizing and coordinating multiple access points, ensuring efficient connectivity.",
         },
         {
             id:2,
             title:"Wifi-5",
-            para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+            para:" The 802.11ac standard offering faster speeds and improved performance in wireless networks compared to earlier Wi-Fi generations",
         },
         {
             id:3,
             title:"Wifi-6",
-            para:"Hand protection is an integral component of a comprehensive personal protective equipment (PPE) program. ",
+            para:" The 802.11ax standard providing enhanced speed, capacity, and efficiency in wireless networks, designed for modern connectivity demands.",
         },
         
     ];
@@ -308,12 +308,12 @@ const Category = () => {
         {
             id:1,
             title:"KIOSK",
-            para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+            para:"A self-service interactive terminal providing information, services, or transactions in various settings like retail, airports, or informational booths",
         },
         {
             id:2,
             title:"Billing Apps",
-            para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+            para:"Software applications facilitating streamlined invoicing, payment processing, and financial management for businesses or individuals.",
         },
 
         
@@ -322,12 +322,12 @@ const Category = () => {
         {
             id:1,
             title:"EPABX",
-            para:"These suits are made from different materials based on the specific risks and requirements of the tasks.",
+            para:"An automated telephony system facilitating internal and external call management within organizations for streamlined communication.",
         },
         {
             id:2,
             title:"IPPBX",
-            para:"Foot protection is an integral part of a comprehensive personal protective equipment (PPE) program. ",
+            para:" Leveraging internet protocol for advanced call routing and communication capabilities within organizational networks",
         },
         
     ];
@@ -357,7 +357,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+                                        <img src={`${val.id === 1 ? "/images/gaming lap.jpg" :val.id === 2 ? "/images/laptop.webp" :val.id === 3 ? "/images/workstation laptop.webp" : ""}`} />
 
                                         </div>
 
@@ -396,7 +396,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+                                        <img src={`${val.id === 2 ? "/images/desktop-computer.jpg" :val.id === 4 ? "/images/gaming desktop.jpg" : ""}`} />
 
                                         </div>
 
@@ -463,7 +463,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 2 ? "/images/laptop.webp" : ""}`} />
+                                        <img src={`${val.id === 1 ? "/images/anolog.webp" :val.id === 2 ? "/images/IP.webp" : val.id === 3 ? "/images/dvr.webp" :val.id === 4 ? "/images/nvr.webp" :val.id === 5 ? "/images/360.webp" :val.id === 6 ? "/images/ptz.webp" :""}`} />
 
                                         </div>
 
@@ -495,7 +495,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+                                        <img src={`${val.id === 1 ? "/images/ram.webp" :val.id === 2 ? "/images/hdd.webp":val.id === 3 ? "/images/keyboard.webp" :val.id === 4 ? "/images/mouse.webp":val.id === 5 ? "/images/cabinet.webp" :val.id === 6 ? "/images/motherboard.webp":val.id === 7 ? "/images/SMPS.webp":val.id === 8 ? "/images/cable.webp":val.id === 9 ? "/images/connector.webp":""}`} />
 
                                         </div>
 
@@ -527,7 +527,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+                                        <img src={`${val.id === 1 ? "/images/led projector.webp" : val.id === 2 ? "/images/lcd projector.jpg" :val.id === 3 ? "/images/smart projectors .jpg":""}`} />
 
                                         </div>
 
@@ -559,7 +559,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+                                        <img src={`${val.id === 1 ? "/images/smart-tv.webp" : val.id === 2 ? "/images/smart-tv.webp" :""}`} />
 
                                         </div>
 
@@ -603,7 +603,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+                                        <img src={`${val.id === 1 ? "/images/laser.webp" :val.id === 2 ? "/images/thermal.webp":val.id === 3 ? "/images/color printer.jpg" :val.id === 4 ? "/images/multi.webp":val.id === 5 ? "/images/dot-matrix.webp" :""}`} />
 
                                         </div>
 
@@ -642,7 +642,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/laptop.webp" : ""}`} />
+                                        <img src={`${val.id === 1 ? "/images/flatbad scanner.webp" : ""}`} />
 
                                         </div>
 

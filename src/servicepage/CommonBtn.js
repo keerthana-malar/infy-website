@@ -78,13 +78,13 @@ const CommonBtns = ({pid,id,cat}) => {
         {
           id: 11,
           name: 'POS',
-          brands: ['KIOSK', 'Billing Apps',],
+          brands: ['POS','KIOSK', 'Billing Apps',],
           paths :['1','2','3','4','5','6',]
         },
         {
           id: 12,
           name: 'InterCom',
-          brands: ['EPABX', 'IPPBX',],
+          brands: ['EPABX', 'IPPBX',"InterCom"],
           paths :['1','2','3','4','5','6',]
         },
     ]

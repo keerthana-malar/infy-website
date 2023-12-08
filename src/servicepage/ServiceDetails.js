@@ -7,7 +7,7 @@ import Four from '../404';
 import { useParams } from 'react-router-dom';
 import ProductDetail from './ProductDetail';
 
-const ServiceDetails = () => {
+const ServiceDetails = () => {  
     const {id,cat} = useParams()
 
     const catPaths = ["Laptop","Desktop","Networking","Cctv","Accessories","Projectors","TV","Printer","Scanner","InteractivePanel","UPS","WIFI","Pos","InterCom"]

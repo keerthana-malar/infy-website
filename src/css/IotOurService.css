@@ -163,6 +163,50 @@ perspective-origin: center;
 opacity: 0;
 transition: opacity 0.4s ease-in; 
 }
+
+.hiddenrowsddd{
+  position: absolute;
+  background: url("/public/images/inter-com.webp") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  top: 0;
+  left: 0;
+height: 100%;
+width: 100%;
+perspective: 500px;
+perspective-origin: center;
+opacity: 0;
+transition: opacity 0.4s ease-in;
+}
+
+.hiddenrowsccc{
+  position: absolute;
+  background: url("/public/images/pos-img.webp") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  top: 0;
+  left: 0;
+height: 100%;
+width: 100%;
+perspective: 500px;
+perspective-origin: center;
+opacity: 0;
+transition: opacity 0.4s ease-in;  
+}
+.hiddenrowsbbb{
+  position: absolute;
+  background: url("/public/images/wifis.webp") no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  top: 0;
+  left: 0;
+height: 100%;
+width: 100%;
+perspective: 500px;
+perspective-origin: center;
+opacity: 0;
+transition: opacity 0.4s ease-in; 
+}
 .hiddenrows4{
     position: absolute;
     background: url("/public/images/lapcon.webp") no-repeat;
@@ -190,9 +234,23 @@ transition: opacity 0.4s ease-in;
     opacity: 0;
     transition: opacity 0.4s ease-in; 
 }
+.hiddenrowsass{
+  position: absolute;
+    background: url("/public/images/ups-img.webp") no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    perspective: 500px;
+    perspective-origin: right;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
 .hiddenrows6{
   position: absolute;
-  background:  url("/public/images/lapcon.webp") no-repeat;
+  background:  url("/public/images/interactiveimg.webp") no-repeat;
   background-size: cover;
   top: 0;
   left: 0;
@@ -204,6 +262,40 @@ transition: opacity 0.4s ease-in;
   transition: opacity 0.4s ease-in; 
 }
 
+.hiddenrows44{
+  position: absolute;
+  background:  url("/public/images/TV.webp") no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  perspective: 500px;
+  perspective-origin: right;
+  opacity: 0;
+  transition: opacity 0.4s ease-in; 
+}
+.hiddenrows55{
+  position: absolute;
+  background:  url("/public/images/scanerprinter.webp") no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  perspective: 500px;
+  perspective-origin: right;
+  opacity: 0;
+  transition: opacity 0.4s ease-in; 
+}
+.firstrow:hover .hiddenrows55 {
+  opacity: 1;
+}
+.firstrow:hover .hiddenrows44 {
+  opacity: 1;
+}
+
+
 .firstrow h3{
   margin-top: 15px;
   height: 60px;
@@ -213,6 +305,18 @@ transition: opacity 0.4s ease-in;
   opacity: 1;
 }
 .firstrow:hover .hiddenrowsb{
+  opacity: 1;
+    
+}
+.firstrow:hover .hiddenrowsccc{
+  opacity: 1;
+    
+}
+.firstrow:hover .hiddenrowsddd{
+  opacity: 1;
+    
+}
+.firstrow:hover .hiddenrowsbbb{
   opacity: 1;
     
 }
@@ -229,7 +333,10 @@ transition: opacity 0.4s ease-in;
   opacity: 1; 
     
 }
-
+.firstrow:hover  .hiddenrowsass{
+  opacity: 1; 
+    
+}
 .firstrow:hover  .hiddenrows6{
   opacity: 1;
     

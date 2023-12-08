@@ -37,8 +37,12 @@ const ProductDetail = () => {
     },
     {
       name:"WorkStation",
-      img:"/images/workstation vector.webp",
+
+      img:"/images/laptop workstation.webp",
+
+//       img:"/images/workstation vector.webp",
       link:"https://infygain.co.in/onlinestore/products/ca/149",
+
       para:"Welcome to Infygain Technologies, where we redefine productivity and performance in the world of professional computing. Elevate your work experience with our collection of the best Workstation Laptops, meticulously chosen to meet the demanding needs of modern professionals.",
       p1:"At Infygain Technologies, we understand the requirements of professionals who need robust computing power. Our carefully selected best Workstation Laptops deliver unparalleled performance, ensuring seamless multitasking, complex computations, and resource-intensive tasks are handled with ease.",
       p2:"Experience professional excellence with the high-end components integrated into our best Workstation Laptops. From powerful processors and dedicated graphics cards to extensive RAM and storage options, our laptops are designed to meet the demands of professional workflows.",
@@ -68,8 +72,12 @@ const ProductDetail = () => {
     },
     {
       name:"Assembled Desktop",
-      img:"/images/desk.webp",
+
+      img:"/images/Assembled-desktop-vector.webp",
+
+//       img:"/images/desk.webp",
       link:"https://infygain.co.in/onlinestore/products/ca/148",
+
       para:"Welcome to Infygain Technologies, where we empower you to create a personalized computing solution. Dive into the world of customization and performance with our collection of the best Assembled Desktops, meticulously chosen to offer flexibility, power, and the freedom to tailor your desktop to your exact specifications.",
       p1:"At Infygain Technologies, we recognize that every user has unique computing needs. Our carefully selected best Assembled Desktops provide the ultimate flexibility, allowing you to choose components that suit your specific requirements and preferences.",
       p2:"Experience the freedom to select high-performance components for your best Assembled Desktop. From advanced processors and powerful graphics cards to customized RAM and storage solutions, our desktops are designed to cater to your individual computing demands.",
@@ -96,8 +104,12 @@ const ProductDetail = () => {
     },
     {
       name:"Gaming Desktop",
-      img:"/images/gaming-laptop-vector.webp",
+
+      img:"/images/gaming-desktop-vector.webp",
+
+//       img:"/images/gaming-laptop-vector.webp",
       link:"https://infygain.co.in/onlinestore/products/ca/148",
+
       para:" Welcome to Infygain Technologies, where the world of gaming meets cutting-edge technology. Elevate your gaming experience to new heights with our collection of the best Gaming Desktops, meticulously chosen to deliver unrivaled performance, stunning graphics, and a seamless gaming adventure",
       p1:"At Infygain Technologies, we understand the demands of avid gamers. Our carefully selected best Gaming Desktops deliver power-packed performance, ensuring smooth gameplay, stunning graphics, and lightning-fast responsiveness.",
       p2:"Experience gaming prowess with the high-performance components integrated into our best Gaming Desktops. From advanced processors and top-tier graphics cards to high-speed RAM and storage options, our desktops are designed to meet the demands of modern gaming.",
@@ -200,9 +212,14 @@ const ProductDetail = () => {
             {
 
               name:"Analog",
-              img:"/images/desk.webp",
+
+              img:"/images/vector for analog-01.jpg",
+//               para:"Welcome to Infygain Technolog, your premier destination for top-notch Analog surveillance solutions. At Infygain Technologies, we pride ourselves on offering a range of Analog products that combine simplicity, reliability, and clarity for unparalleled security. Here's why our Analog solutions stand out",
+
+//               img:"/images/desk.webp",
               link:"https://infygain.co.in/onlinestore/products/ca/152",
               para:"Welcome to Infygain Technologies, your premier destination for top-notch Analog surveillance solutions. At Infygain Technologies, we pride ourselves on offering a range of Analog products that combine simplicity, reliability, and clarity for unparalleled security. Here's why our Analog solutions stand out",
+
               p1:"Immerse yourself in timeless surveillance with our range of Analog cameras.",
               p2:"Experience clarity in every frame, capturing crucial details with precision.",
               p3:"Explore our Analog electronics that form the backbone of reliable surveillance systems.",
@@ -252,8 +269,12 @@ const ProductDetail = () => {
                 const NVR = [
                   {
                     name:"NVR",
-                    img:"/images/desk.webp",
+
+                    img:"/images/NVRvector.webp",
+
+//                     img:"/images/desk.webp",
                     link:"https://infygain.co.in/onlinestore/products/ca/152",
+
                     para:" Welcome to NVR, where cutting-edge technology meets comprehensive security solutions. Explore the pinnacle of video recording with our collection of the best NVR (Network Video Recorder) options, meticulously chosen to enhance and optimize your CCTV system.",
                     p1:"At Infygain Technologies, we recognize the pivotal role of an NVR in modern CCTV setups. Our carefully selected best NVR solutions offer advanced video management features, ensuring that your surveillance system operates at its peak with efficient recording and playback capabilities.",
                     p2:"Experience crystal-clear footage with our best NVR solutions. Designed to support high-resolution cameras, our NVRs capture every detail, providing you with clear and precise video recordings for security monitoring and analysis.",
@@ -405,8 +426,12 @@ const ProductDetail = () => {
       },
       {
         name:"SMPS",
-        img:"/images/desk.webp",
+
+        img:"/images/smps-vector.webp",
+
+//         img:"/images/desk.webp",
         link:"https://infygain.co.in/onlinestore/products/ca/173",
+
         para:"Welcome to Infygain Technologies, your ultimate destination for top-notch computer accessories. Explore the realm of optimal power delivery with our exceptional SMPS (Switched Mode Power Supply) units. We understand the critical role that power plays in computing, and our commitment is to provide you with the best SMPS for a reliable and efficient power supply.",
         p1:"Discover our curated selection of the best SMPS units designed to ensure a stable and uninterrupted power supply to your computer. Our offerings are crafted to meet the demands of modern computing, providing consistent and clean power to your system components.",
         p2:"Experience efficiency and energy savings with our best SMPS units. Our power supplies are optimized to deliver power precisely where and when it's needed, reducing energy consumption and lowering your electricity bills.",
@@ -811,8 +836,12 @@ const ProductDetail = () => {
       },
       {
         name:"Vertical",
-        img:"/images/desk.webp",
+
+        img:"/images/scanner vector.webp",
+
+//         img:"/images/desk.webp",
         link:"https://infygain.co.in/onlinestore/products/ca/170",
+
         para:"Welcome to Infygain Technologies, where innovation meets efficiency in the realm of scanning technology. Redefine the way you digitize documents with our collection of the best Vertical Scanners, meticulously chosen to provide a space-saving and user-friendly solution for your scanning needs.",
         p1:" At Infygain Technologies, we understand the importance of maximizing space without compromising on functionality. Our carefully selected best Vertical Scanners offer a space-saving design that fits seamlessly into your workflow while delivering efficient and high-quality scanning results.",
         p2:"Experience efficient desktop integration with the compact design of our best Vertical Scanners. Perfect for environments where space is a premium, these scanners offer a vertical orientation, ensuring a small footprint while providing big capabilities.",

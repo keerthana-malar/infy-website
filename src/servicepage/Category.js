@@ -367,7 +367,9 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/gaming-lap.webp" :val.id === 2 ? "/images/laptop.webp" :val.id === 3 ? "/images/workstation laptop.webp" : ""}`} />
+                                        <img src={`${val.id === 1 ? "/images/gaming lap.jpg" :val.id === 2 ? "/images/Consumerlaptop.webp" :val.id === 3 ? "/images/workstation laptop.webp" : ""}`} />
+
+                                  
 
                                         </div>
 
@@ -406,7 +408,10 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 2 ? "/images/desktop-computer.webp" :val.id === 4 ? "/images/gaming-desktop.webp" : ""}`} />
+
+                                        <img src={`${val.id === 1 ? "/images/brandeddesk.webp":val.id === 2 ? "/images/desktop-computer.jpg" :val.id === 3 ? "/images/workstation-inside.webp":val.id === 4 ? "/images/gaming desktop.jpg" : ""}`} />
+
+             
 
                                         </div>
 
@@ -569,7 +574,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/smart-tv.webp" : val.id === 2 ? "/images/smart-tv.webp" :""}`} />
+                                        <img src={`${val.id === 1 ? "/images/androidtv.webp" : val.id === 2 ? "/images/smart-tv.webp" :""}`} />
 
                                         </div>
 
@@ -652,7 +657,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/flatbad scanner.webp" : ""}`} />
+                                        <img src={`${val.id === 1 ? "/images/flatbad scanner.webp" : val.id === 2 ? "/images/verticalscanner.webp" : ""}`} />
 
                                         </div>
 

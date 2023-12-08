@@ -367,7 +367,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/gaming lap.jpg" :val.id === 2 ? "/images/Consumerlaptop.webp" :val.id === 3 ? "/images/workstation laptop.webp" : ""}`} />
+                                        <img src={`${val.id === 1 ? "/images/gaming-lap.webp" :val.id === 2 ? "/images/Consumerlaptop.webp" :val.id === 3 ? "/images/workstation laptop.webp" : ""}`} />
 
                                   
 
@@ -409,7 +409,7 @@ const Category = () => {
                                         <div className="subcategory2 ">
                                         
 
-                                        <img src={`${val.id === 1 ? "/images/brandeddesk.webp":val.id === 2 ? "/images/desktop-computer.jpg" :val.id === 3 ? "/images/workstation-inside.webp":val.id === 4 ? "/images/gaming desktop.jpg" : ""}`} />
+                                        <img src={`${val.id === 1 ? "/images/brandeddesk.webp":val.id === 2 ? "/images/desktop-computer.webp" :val.id === 3 ? "/images/workstation-inside.webp":val.id === 4 ? "/images/gaming-desktop.webp" : ""}`} />
 
              
 

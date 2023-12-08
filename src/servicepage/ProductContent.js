@@ -25,9 +25,11 @@ const ProductContent = ({value}) => {
             {value.para}
             <div className='butk'>
                 {/* To Check Our product  */}
-               <button className='btn butks'>
-               <a target='_blank' href={value.link}><FaCartPlus className='butk-icons'/> buy now </a>
+                <a target='_blank' href={value.link}>
+                    <button className='btn butks'>
+                    <FaCartPlus className='butk-icons'/> buy now 
                 </button>
+                </a>
                </div>
             </p> 
             

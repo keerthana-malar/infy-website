@@ -351,7 +351,8 @@
   padding: 0px 50px;
 }
 .sb {
-  height: 380px;
+  /* height: 380px; */
+  height: 450px;
   width: 300px;
   border-radius: 20px;
 }
@@ -365,11 +366,11 @@
   background-color: #fff;
 }
 
-.sbox-link:hover{
+/* .sbox-link:hover{
   background-color: #fff !important;
   border-radius: 20px;
 
-}
+} */
 
 .simgbox {
   margin-top: 50px;

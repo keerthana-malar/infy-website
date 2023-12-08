@@ -102,4 +102,8 @@
         .aboutline_head1{
             font-size: 30px;
         } 
+        .subcategory2 img{
+            max-width: 100%;
+             width: 100%;
+         }
     }

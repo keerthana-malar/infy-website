@@ -64,7 +64,7 @@ const HomeBlog = () => {
 
 
     useEffect(() => {
-        axios.get("https://infygain.in/api/blogdata").then((res) => {
+        axios.get("https://infygain.com/api/blogdata").then((res) => {
             setBlogs(res.data);
 
         });

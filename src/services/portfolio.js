@@ -5,7 +5,7 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 
 
-function Portfolio() {
+function Portfolio({componentRef1}) {
   const settings = {
     dots: false,
     infinite: true,
@@ -70,7 +70,7 @@ function Portfolio() {
           </div>
         </div>
       </div>
-      <div className="mainportbox">
+      <div className="mainportbox" ref={componentRef1}>
       <Slider {...settings}>
          
           <div className="portbxk ">

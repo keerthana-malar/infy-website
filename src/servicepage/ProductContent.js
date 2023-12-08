@@ -2,9 +2,9 @@ import React from 'react'
 import { FaCartPlus } from 'react-icons/fa'
 
 const ProductContent = ({value}) => {
-    console.log("v",value)
+   
   return (
-    <div className='col-md-8'>
+    <div className='col-md-8' key={value.name}>
     <div className='firstlineflex'>
         <div className='yellowbreak'></div>
         <div className='firstheading'>
@@ -26,10 +26,9 @@ const ProductContent = ({value}) => {
             <div className='butk'>
                 {/* To Check Our product  */}
                <button className='btn butks'>
-               <a href="https://infygain.com/onlinestore/products/ca/173"><FaCartPlus className='butk-icons'/> buy now </a>
+               <a target='_blank' href={value.link}><FaCartPlus className='butk-icons'/> buy now </a>
                 </button>
                </div>
-            
             </p> 
             
 

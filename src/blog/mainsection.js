@@ -23,7 +23,7 @@ function Mainsection() {
   });
   useEffect(() => {
     axios
-      .get("https://infygain.in/api/editblog/" + id)
+      .get("https://infygain.com/api/editblog/" + id)
       .then((res) => {
         const blogData = res.data.result[0];
         setBlogs({

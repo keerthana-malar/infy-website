@@ -23,7 +23,7 @@ function Footer() {
                 <p className="infy">
                   <img
                     className="img-fluid"
-                    src="./images/others/logo-alt.svg"
+                    src="/images/others/logo-alt.svg"
                     alt="best it supports"
                   ></img>
                 </p>

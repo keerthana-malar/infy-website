@@ -52,7 +52,7 @@ const EditCareers = () => {
 
   useEffect(() => {
     axios
-      .get("https://infygain.in/api/edit-career/"+ id)
+      .get("https://infygain.com/api/edit-career/"+ id)
       .then((res) => {
         const carData = res.data.result[0];
         console.log("cardata",carData)
@@ -97,7 +97,7 @@ const EditCareers = () => {
     
     else {
       axios
-        .post("https://infygain.in/api/carupdate", values)
+        .post("https://infygain.com/api/carupdate", values)
         .then((res) => {
           // console.log("check",res.data)
           setErrors(res.data.res);

@@ -219,7 +219,7 @@ function IotOurService({componentRef}) {
                     Complete Network   <br></br>Solutions 
                     </h3>
                     <div className='divideline'></div>
-                    <p className='param'>We specialize in crafting cutting-edge Computer Network Solutions that empower your enterprise to thrive in the connected world.</p>
+                    <p className='param'>Empower your business with our comprehensive network solutions, ensuring seamless connectivity and optimal performance. </p>
                         {/* <div className='iconbox'> */}
                         <MdNetworkWifi3Bar className='icon2'/>
                         {/* </div> */}
@@ -243,7 +243,7 @@ function IotOurService({componentRef}) {
                     Laptop / Desktop Sales and Service
                     </h3>
                     <div className='divideline'></div>
-                    <p className='param'>Highlight the power and performance of your laptops and desktops.Convey that your devices can handle any task...</p>
+                    <p className='param'>Upgrade your tech seamlessly with our top-notch laptop and desktop solutions, offering expert sales and service.</p>
                         {/* <div className='iconbox'> */}
                         <TfiLayoutMediaCenterAlt className='icon2'/>
                         {/* </div> */}
@@ -267,7 +267,7 @@ function IotOurService({componentRef}) {
                     Security Solutions
                     </h3>
                     <div className='divideline'></div>
-                    <p className='param'>Our CCTV systems offer 24/7 surveillance,keeping a vigilant eye on your property, both inside and out.</p>
+                    <p className='param'>Secure peace of mind with our streamlined security solutions – your shield in a digital world.</p>
                         {/* <div className='iconbox'> */}
                         <GiCctvCamera className='icon2'/>
                         {/* </div> */}
@@ -291,7 +291,7 @@ function IotOurService({componentRef}) {
                     Projectors
                     </h3>
                     <div className='divideline'></div>
-                    <p className='param'>Our projectors and Smart TVs deliver stunning visuals that bring lessons and entertainment to life.</p>
+                    <p className='param'>Illuminate your presentations with our powerful projectors – delivering clarity, brilliance, and impactful visuals for every projection need.</p>
                         {/* <div className='iconbox'> */}
                         <SiWebtrees className='icon2'/>
                         {/* </div> */}
@@ -316,7 +316,7 @@ function IotOurService({componentRef}) {
                     Computer Accessories
                     </h3>
                     <div className='divideline'></div>
-                    <p className='param'>We provide top-notch products from trusted brands,ensuring reliability and performance. Your satisfaction is our priority.</p>
+                    <p className='param'>Elevate your setup with our premium computer accessories – the perfect blend of style, functionality, and performance for a seamless computing experience.</p>
                         {/* <div className='iconbox'> */}
                         <RiLightbulbFlashLine className='icon2'/>
                         {/* </div> */}
@@ -340,11 +340,11 @@ function IotOurService({componentRef}) {
                     TV
                     </h3>
                     <div className='divideline'></div>
-                    <p className='param'> Get access to high-quality laptops and desktops when you need them, without the commitment of ownership. 
+                    <p className='param'>Immerse yourself in entertainment with our sleek and cutting-edge TVs – where stunning visuals meet unparalleled viewing experiences. 
                 </p>
                     <LuLaptop2 className='icon2'/>
                        {/* {Hidden} */}
-                       <div className='hiddenrows4'>
+                       <div className='hiddenrows44'>
                        <div className='pros'>
                        <div className='divline'></div>
                    <h2 className='edgehead'>TV </h2>
@@ -365,12 +365,11 @@ function IotOurService({componentRef}) {
                     Printer & Scanner
                     </h3>
                     <div className='divideline'></div>
-                    <p className='param'>"Textile machinery spares" refers to the components 
-                    or parts that are used in textile machinery for repair, replacement, or maintenance purposes. 
+                    <p className='param'>Efficiency meets precision with our advanced printers and scanners – empowering your workspace with seamless document handling and sharp, professional results.
             </p>
                     <MdNetworkWifi3Bar className='icon2'/>
                        {/* {Hidden} */}
-                       <div className='hiddenrows5'>
+                       <div className='hiddenrows55'>
                        <div className='pros'>
                        <div className='divline'></div>
                    <h2 className='edgehead'> Printer & Scanner</h2>
@@ -389,8 +388,7 @@ function IotOurService({componentRef}) {
                     Interactive Panel
                     </h3>
                     <div className='divideline'></div>
-                    <p className='param'>"Official essential" typically refers to items, documents, 
-                    or tools that are necessary or required for official or formal purposes.  
+                    <p className='param'>Transform collaboration with our interactive panels – where innovation meets engagement for dynamic and productive meetings and presentations.  
             </p>
                     <MdNetworkWifi3Bar className='icon2'/>
                        {/* {Hidden} */}
@@ -414,12 +412,12 @@ function IotOurService({componentRef}) {
                         UPS
                     </h3>
                     <div className='divideline'></div>
-                    <p className='param'>We specialize in crafting cutting-edge Computer Network Solutions that empower your enterprise to thrive in the connected world.</p>
+                    <p className='param'>Reliable power protection starts here. Explore our UPS solutions – ensuring uninterrupted performance and peace of mind for your critical systems.</p>
                         {/* <div className='iconbox'> */}
                         <MdNetworkWifi3Bar className='icon2'/>
                         {/* </div> */}
                            {/* {Hidden} */}
-                           <div className='hiddenrowsa'>
+                           <div className='hiddenrowsass'>
                            <div className='pros'>
                            <div className='divline'></div>
                    <h2 className='edgehead'>  UPS </h2>
@@ -438,12 +436,12 @@ function IotOurService({componentRef}) {
                     WIFI
                     </h3>
                     <div className='divideline'></div>
-                    <p className='param'>Highlight the power and performance of your laptops and desktops.Convey that your devices can handle any task...</p>
+                    <p className='param'>Experience connectivity without limits. Our WiFi solutions redefine seamless and high-speed internet access, ensuring a world of connectivity at your fingertips.</p>
                         {/* <div className='iconbox'> */}
                         <TfiLayoutMediaCenterAlt className='icon2'/>
                         {/* </div> */}
                            {/* {Hidden} */}
-                           <div className='hiddenrowsb'>
+                           <div className='hiddenrowsbbb'>
                            <div className='pros'>
                            <div className='divline'></div>
                    <h2 className='edgehead'>WIFI</h2>
@@ -462,12 +460,12 @@ function IotOurService({componentRef}) {
                      Point Of Sale
                     </h3>
                     <div className='divideline'></div>
-                    <p className='param'>Our CCTV systems offer 24/7 surveillance,keeping a vigilant eye on your property, both inside and out.</p>
+                    <p className='param'>Your point of solution – where challenges meet innovation, and seamless resolutions redefine success.</p>
                         {/* <div className='iconbox'> */}
                         <GiCctvCamera className='icon2'/>
                         {/* </div> */}
                            {/* {Hidden} */}
-                           <div className='hiddenrowsc'>
+                           <div className='hiddenrowsccc'>
                            <div className='pros'>
                            <div className='divline'></div>
                    <h2 className='edgehead'>  Point Of Sale </h2>
@@ -486,12 +484,12 @@ function IotOurService({componentRef}) {
                     InterCom
                     </h3>
                     <div className='divideline'></div>
-                    <p className='param'>Our projectors and Smart TVs deliver stunning visuals that bring lessons and entertainment to life.</p>
+                    <p className='param'>Stay connected effortlessly with our intercom solutions – redefining communication simplicity for seamless and secure conversations.</p>
                         {/* <div className='iconbox'> */}
                         <SiWebtrees className='icon2'/>
                         {/* </div> */}
                            {/* {Hidden} */}
-                           <div className='hiddenrowsd'>
+                           <div className='hiddenrowsddd'>
                            <div className='pros'>
                            <div className='divline'></div>
                    <h2 className='edgehead'> InterCom </h2>

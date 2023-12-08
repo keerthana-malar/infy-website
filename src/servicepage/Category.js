@@ -50,8 +50,7 @@ const Category = () => {
           },
           {
               id:3,
-              path:"WorkStationDesktop",
-              title:"Work Station",
+              title:"Work Station Desktop",
               para:"Workstations: Engineered for elite performance in specialized tasks, from complex data analysis to professional content creation",
           },
           {
@@ -97,7 +96,7 @@ const Category = () => {
           {
               id:1,
               title:"Flatbed",
-              para:" Devices with a flat, glass surface for scanning documents or photos, offering high-quality, versatile scanning capabilities for various materials",
+              para:" Devices with a flat, glass surface for scanning documents or photos, offering high-quality, versatile scanning capabilities...",
           },
           {
               id:2,
@@ -233,17 +232,17 @@ const Category = () => {
           {
               id:1,
               title:"LCD",
-              para:"LCD projectors: Portable, high-resolution visual solutions, perfect for presentations, movies, and immersive experiences in various settings",
+              para:"LCD projectors: Portable, high-resolution visual solutions, perfect for presentations, movies, and etc..",
           },
           {
               id:2,
               title:"LED",
-              para:"LED projectors: Compact, energy-efficient devices providing vibrant, high-resolution projections for diverse entertainment and professional needs.",
+              para:"LED projectors: Compact, energy-efficient devices providing vibrant, high-resolution projections for diverse entertainment.",
           },
           {
               id:3,
               title:"Smart Projector",
-              para:"Smart projectors: All-in-one connectivity and interactive capabilities for dynamic, immersive projection experiences in any setting",
+              para:"Smart projectors: All-in-one connectivity and interactive capabilities for dynamic, immersive projection experiences.",
           },
           
       ];
@@ -301,18 +300,23 @@ const Category = () => {
         {
             id:3,
             title:"Wifi-6",
-            para:" The 802.11ax standard providing enhanced speed, capacity, and efficiency in wireless networks, designed for modern connectivity demands.",
+            para:" The 802.11ax standard providing enhanced speed, capacity, and efficiency in wireless networks, etc..",
         },
         
     ];
       const pos = [
         {
             id:1,
+            title:"POS",
+            para:"Point of Sale (POS) systems are software and hardware used to complete transactions and manage sales in retail businesses.",
+        },
+        {
+            id:2,
             title:"KIOSK",
             para:"A self-service interactive terminal providing information, services, or transactions in various settings like retail, airports, or informational booths",
         },
         {
-            id:2,
+            id:3,
             title:"Billing Apps",
             para:"Software applications facilitating streamlined invoicing, payment processing, and financial management for businesses or individuals.",
         },
@@ -329,6 +333,11 @@ const Category = () => {
             id:2,
             title:"IPPBX",
             para:" Leveraging internet protocol for advanced call routing and communication capabilities within organizational networks",
+        },
+        {
+            id:3,
+            title:"InterCom",
+            para:"Intercom offers a mobile app that allows users to manage conversations, support tickets, and engage with customers via their phones.",
         },
         
     ];
@@ -358,7 +367,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/gaming lap.jpg" :val.id === 2 ? "/images/laptop.webp" :val.id === 3 ? "/images/workstation laptop.webp" : ""}`} />
+                                        <img src={`${val.id === 1 ? "/images/gaming-lap.webp" :val.id === 2 ? "/images/laptop.webp" :val.id === 3 ? "/images/workstation laptop.webp" : ""}`} />
 
                                         </div>
 
@@ -397,7 +406,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 2 ? "/images/desktop-computer.jpg" :val.id === 4 ? "/images/gaming desktop.jpg" : ""}`} />
+                                        <img src={`${val.id === 2 ? "/images/desktop-computer.webp" :val.id === 4 ? "/images/gaming-desktop.webp" : ""}`} />
 
                                         </div>
 
@@ -528,7 +537,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/led projector.webp" : val.id === 2 ? "/images/lcd projector.jpg" :val.id === 3 ? "/images/smart projectors .jpg":""}`} />
+                                        <img src={`${val.id === 1 ? "/images/led projector.webp" : val.id === 2 ? "/images/lcd-projector.webp" :val.id === 3 ? "/images/smart-projectors.webp":""}`} />
 
                                         </div>
 
@@ -604,7 +613,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/laser.webp" :val.id === 2 ? "/images/thermal.webp":val.id === 3 ? "/images/color printer.jpg" :val.id === 4 ? "/images/multi.webp":val.id === 5 ? "/images/dot-matrix.webp" :""}`} />
+                                        <img src={`${val.id === 1 ? "/images/laser.webp" :val.id === 2 ? "/images/thermal.webp":val.id === 3 ? "/images/color-printer.webp" :val.id === 4 ? "/images/multi.webp":val.id === 5 ? "/images/dot-matrix.webp" :""}`} />
 
                                         </div>
 
@@ -774,7 +783,7 @@ const Category = () => {
                                       
                                               <div className="subcategory2 ">
                                               
-                                              <img src={`${val.id === 1 ? "/images/kiosk.webp":val.id === 2 ? "/images/POS billing.webp" : ""}`} />
+                                              <img src={`${val.id === 1 ? "/images/kiosk.webp":val.id === 2 ? "/images/kiosk.webp":val.id === 3 ? "/images/POS billing.webp" : ""}`} />
 
                                               </div>
 
@@ -806,7 +815,7 @@ const Category = () => {
                                       
                                               <div className="subcategory2 ">
                                               
-                                              <img src={`${val.id === 1 ? "/images/epabx.webp" :val.id === 2 ? "/images/ipabx.webp":""}`} />
+                                              <img src={`${val.id === 1 ? "/images/epabx.webp" :val.id === 2 ? "/images/ipabx.webp":val.id === 3 ? "/images/intercom.webp":""}`} />
 
                                               </div>
 

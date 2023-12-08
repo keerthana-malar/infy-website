@@ -204,6 +204,11 @@ transition: opacity 0.4s ease-in;
   transition: opacity 0.4s ease-in; 
 }
 
+.firstrow h3{
+  margin-top: 15px;
+  height: 60px;
+}
+
 .firstrow:hover .hiddenrowsa {
   opacity: 1;
 }

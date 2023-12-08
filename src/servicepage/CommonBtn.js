@@ -7,6 +7,7 @@ import { useState } from 'react';
 const CommonBtns = ({pid,id,cat}) => {
     const [openCategory, setOpenCategory] = useState(null);
     const [openCategory1, setOpenCategory1] = useState(null);
+
     const categories = [
         {
           id: 1,
@@ -42,12 +43,12 @@ const CommonBtns = ({pid,id,cat}) => {
           brands: ['Laptop','Desktop'],
           subPaths:{
             paths:["Gaming Laptop",'Consumer laptops',"Work Station"],
-            paths1:["Branded Desktop",'Assembled Desktop',"Work Station","Gaming Desktop"]
+            paths1:["Branded Desktop",'Assembled Desktop',"Work Station Desktop","Gaming Desktop"]
         }
         },
         {
           id: 6,
-          name: 'Projector',
+          name: 'AV Solutions',
           brands: ['LCD', 'LED', 'Smart Projector',],
           paths :['1','2','3','4',]
         },
@@ -114,6 +115,9 @@ const CommonBtns = ({pid,id,cat}) => {
         if(cat === "TV"){
             setOpenCategory(8)
         }
+        if(cat === "InteractivePanel"){
+            setOpenCategory(7)
+        }
         if(cat ==="Printer" || cat ==="Scanner"){
             setOpenCategory(4) 
         }
@@ -161,7 +165,8 @@ const CommonBtns = ({pid,id,cat}) => {
                                                                                     :cat==="Accessories" && index===2 ? 'categ-active':cat==="Projectors" && index===5 ? 'categ-active'
                                                                                     :cat==="TV" && index===7 ? 'categ-active' :cat==="UPS" && index===8 ? 'categ-active'
                                                                                     :cat==="WIFI" && index===9 ? 'categ-active' :cat==="InterCom" && index===11 ? 'categ-active': 
-                                                                                    cat==="Pos" && index===10 ? 'categ-active' :''}`} >
+                                                                                    cat==="Pos" && index===10 ? 'categ-active':  cat==="InteractivePanel" && index===6 ? 'categ-active':
+                                                                                    cat==="Printer" && index===3 ? 'categ-active': cat==="Scanner" && index===3 ? 'categ-active':''}`} >
                             <span>
                                 {category.name}
                             </span>   
@@ -188,7 +193,7 @@ const CommonBtns = ({pid,id,cat}) => {
                                 <>
                                     {category.brands.map((brand, index) => (
                                     <Link 
-                                    className={ `${id === brand.replace(/\s+/g, '') ? "prdt-active" : ""}`} to={`/servicedetails/Networking/${brand.replace(/\s+/g, '')}`} key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
+                                    className={ `${id === brand.replace(/\s+/g, '') ? "prdt-active" : ""}`} to={`/servicedetails/Cctv/${brand.replace(/\s+/g, '')}`} key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
                                     ))}
                                 </>
                             }
@@ -305,7 +310,7 @@ const CommonBtns = ({pid,id,cat}) => {
                                 index === 5&&
                                 <>
                                     {category.brands.map((brand, index) => (
-                                    <Link to={`/servicedetails/Accessories/${brand.replace(/\s+/g, '')}`} 
+                                    <Link to={`/servicedetails/Projectors/${brand.replace(/\s+/g, '')}`} 
                                     className={`${id === brand.replace(/\s+/g, '') ? "prdt-active" : ""}`} 
                                     key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
                                     ))}
@@ -316,7 +321,7 @@ const CommonBtns = ({pid,id,cat}) => {
                                 <>
                                     {category.brands.map((brand, index) => (
                                     <Link 
-                                    className={pid==="OfficeEssential"  && `${id === category.paths[index] ? "prdt-active" : ""}`} 
+                                    className={ `${id === brand.replace(/\s+/g, '') ? "prdt-active" : ""}`} 
                                     to={`/servicedetails/InteractivePanel/${brand.replace(/\s+/g, '')}`}  key={index}><span><li key={index}>{brand}</li>  <IoIosArrowForward /></span></Link>
                                     ))}
                                 </>

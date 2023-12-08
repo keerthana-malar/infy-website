@@ -15,6 +15,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './css/seo.css';
 import './css/common.css';
+import { useRef } from 'react';
+import { useLocation } from 'react-router-dom';
 // Get the current URL using window.location.href
 const currentUrl = window.location.href;
 
@@ -26,11 +28,23 @@ let metaContent = {
 
 }
 
-function ServiceSeo() {
+function ServiceSeo({componentRef1}) {
     useEffect(() => {
         AOS.init();
         AOS.refresh();
     }, []);
+
+    const targetSectionRef = useRef(null);
+    const location = useLocation();
+  
+    useEffect(() => {
+      const searchParams = new URLSearchParams(location.search);
+      const scrollTo = searchParams.get('scrollTo');
+  
+      if (scrollTo === 'projects' && targetSectionRef.current) {
+        targetSectionRef.current.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, [location])
     return (
         <>
             <Helmet>
@@ -284,9 +298,9 @@ function ServiceSeo() {
             <div className='webservice'>
                 <Seo />
                 <Spotlight />
-                <Aboutweb />
+                <Aboutweb />  
                 <Subscribe />
-                <Portfolio />
+                <Portfolio componentRef1={targetSectionRef} />
                 <Solution />
                 <Webblog />
                 <Flow />

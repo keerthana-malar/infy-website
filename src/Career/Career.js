@@ -69,7 +69,7 @@ const Career =()=>{
 
         // console.log("fd",formData)
 
-        axios.post("https://infygain.in/api/carformdata", formData)
+        axios.post("https://infygain.com/api/carformdata", formData)
 
         .then((res) => {
           console.log(res)
@@ -132,7 +132,7 @@ const Career =()=>{
  
   useEffect(() => {
     axios
-    .get("https://infygain.in/api/career-data")
+    .get("https://infygain.com/api/career-data")
     .then((res) => {
      const dataa= res.data
      setData(dataa);

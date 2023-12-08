@@ -13,7 +13,7 @@ const Candidate = () => {
   const [careerData, setCareerData] = useState([]);
 
   useEffect(() => {
-    axios.get("https://infygain.in/api/candata").then((res) => {
+    axios.get("https://infygain.com/api/candata").then((res) => {
       setCareerData(res.data);
     });
   }, []);

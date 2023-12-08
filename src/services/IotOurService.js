@@ -288,7 +288,7 @@ function IotOurService({componentRef}) {
                     <div className='divline'></div>
                     <SiWebtrees className='icons'/>
                     <h3>
-                    Projectors
+                    AV Solutions
                     </h3>
                     <div className='divideline'></div>
                     <p className='param'>Illuminate your presentations with our powerful projectors – delivering clarity, brilliance, and impactful visuals for every projection need.</p>
@@ -299,7 +299,7 @@ function IotOurService({componentRef}) {
                            <div className='hiddenrowsd'>
                            <div className='pros'>
                            <div className='divline'></div>
-                   <h2 className='edgehead'> Projectors </h2>
+                   <h2 className='edgehead'> AV Solutions </h2>
                    <div className='buttongroup'>
                    <Link to="/services/Projectors">
                     <button className='butt btn1'>+</button></Link>

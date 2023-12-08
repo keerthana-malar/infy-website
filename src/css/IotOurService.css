@@ -261,6 +261,7 @@ transition: opacity 0.4s ease-in;
   opacity: 0;
   transition: opacity 0.4s ease-in; 
 }
+
 .hiddenrows44{
   position: absolute;
   background:  url("/public/images/TV.webp") no-repeat;
@@ -293,6 +294,13 @@ transition: opacity 0.4s ease-in;
 .firstrow:hover .hiddenrows44 {
   opacity: 1;
 }
+
+
+.firstrow h3{
+  margin-top: 15px;
+  height: 60px;
+}
+
 .firstrow:hover .hiddenrowsa {
   opacity: 1;
 }

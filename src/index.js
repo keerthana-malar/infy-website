@@ -45,8 +45,13 @@ import Packagestv from "./broadband";
 import NewServicePage from "./services/NewServicePage";
 import SubCategoryHead from "./servicepage/SubCategoryHead";
 import ServiceDetails from "./servicepage/ServiceDetails";
+import BestService from "./servicepage/BestService";
+import WebService from "./services/WebService";
+import { useRef } from "react";
 
 function App() {
+
+
   return (
     <BrowserRouter>
       <ScrollToTop />
@@ -85,6 +90,8 @@ function App() {
         <Route path="/Internet-Leased-Line" element={<Packageslles />} />
         <Route path="/smepackage" element={<Packagessmes />} />
         <Route path="/Business-Broadband" element={<Packagestv />} />
+
+        <Route path="/webservices/:id" element={<WebService />} />
 
         <Route path="/services/:id" element={<NewServicePage />} />
         <Route path="/categories/:id" element={<SubCategoryHead />} />

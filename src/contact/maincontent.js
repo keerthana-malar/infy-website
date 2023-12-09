@@ -35,7 +35,7 @@ function Contactmain() {
                             </div>
                             <div className='col-md-9'>
                             <p className='mini-title tit1'>Support</p>
-                            <p className='text-muted locacon'>Mobile Number: <br /> +91 9952141444 <br /> +91 9087724444</p>
+                            <p className='text-muted locacon'> +91 9952141444 <br /> +91 9087724444</p>
                             </div>
                         </div>
                     </div>

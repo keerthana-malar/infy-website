@@ -15,7 +15,7 @@ const ProductContent = ({value}) => {
     </div>
     <div className='row paraoutdoor'>
         <div className='col-md-4 col-sm-12'>
-                <img src={value.img} alt='dummy'/>  
+                <img src={value.img} alt={value.name}/>  
               
         </div>
         

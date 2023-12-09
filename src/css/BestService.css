@@ -22,6 +22,7 @@ a{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 15px;
+    margin-top: 15px !important;
   }
 .serv-btns2 {
     padding: 10px 25px;
@@ -33,6 +34,7 @@ a{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 15px;
+    margin-top: 15px !important;
   }
 
 
@@ -46,6 +48,7 @@ a{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 15px;
+    margin-top: 15px !important;
   }
 .serv-btns4  {
     padding: 10px 25px;
@@ -57,10 +60,8 @@ a{
     text-transform: uppercase;
     font-weight: 700;
     font-size: 15px;
+    margin-top: 15px !important;
   }
-
-
-
 
 .lolp
 {
@@ -159,7 +160,7 @@ align-items: center;
 }
 .wifit p{
    padding-left: 10%;
-   margin-bottom: 50px;
+   /* margin-bottom: 50px; */
 font-size: 20px;
 margin-top: 20px;
 }
@@ -174,7 +175,7 @@ margin-top: 20px;
 text-align: center;
 }
 .lmk1 img{
-    height: 300px;
+    height: 400px;
 }
 .bril{
     font-size: 60px;
@@ -234,7 +235,7 @@ text-align: center;
     
 }
 .coverage img{
-  height: 400px;
+  height: 450px;
 }
 .iconroller{
     height: 30px;
@@ -768,7 +769,7 @@ text-align: center;
     color: var(--warning);
 }
 .lmk2 img{
-    height: 400px;
+    height: 480px;
 }
 ul li{
    list-style: var(--sec);
@@ -1139,4 +1140,15 @@ color: white;
         max-width: 400px;
     }
 }
+
+
+@media (max-width: 767px) {
+    #column1 {
+      order: 1; /* Change the order for column 1 on mobile */
+    }
+
+    #column2 {
+      order: 2; /* Change the order for column 2 on mobile */
+    }
+  }
 

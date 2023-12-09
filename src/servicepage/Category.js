@@ -134,7 +134,7 @@ const Category = () => {
               id:5,
               path:"Consumerlaptops",
               title:"End Point Security",
-              para:"Fortify your network's endpoints against cyber threats. Our endpoint security solutions provide comprehensive protection for your devices.",
+              para:"Fortify your network's endpoints against cyber threats. Our endpoint security solutions provide comprehensive protection..",
           },
           {
               id:6,
@@ -154,31 +154,31 @@ const Category = () => {
               id:2,
               path:"Consumerlaptops",
               title:"IP",
-              para:"Step into the future with our best IP cameras and solutions. Harness the power of connectivity and high-definition surveillance for unparalleled security.",
+              para:"Step into the future with our best IP cameras and solutions. Harness the power of connectivity and high-definition surveillance...",
           },
           {
               id:3,
               path:"WorkStation",
               title:"DVR",
-              para:"Secure your space with confidence using our best DVR and NVR systems. Capture, store, and access footage seamlessly with advanced recording technologies.",
+              para:"Secure your space with confidence using our best DVR and NVR systems. Capture, store, and access footage seamlessly with advanced recording...",
           },
           {
               id:4,
               path:"GamingLaptop",
               title:"NVR",
-              para:"Secure your space with confidence using our best DVR and NVR systems. Capture, store, and access footage seamlessly with advanced recording technologies.              ",
+              para:"Secure your space with confidence using our best DVR and NVR systems. Capture, store, and access footage seamlessly with advanced recording...",
           },
           {
               id:5,
               path:"Consumerlaptops",
               title:"360",
-              para:"Experience comprehensive surveillance with our best 360-degree cameras. Eliminate blind spots and gain complete visibility for enhanced security.",
+              para:"Experience comprehensive surveillance with our best 360-degree cameras. Eliminate blind spots and gain complete visibility for..",
           },
           {
               id:6,
               path:"WorkStation",
               title:"PTZ",
-              para:"Navigate your security landscape with precision using our best PTZ (Pan-Tilt-Zoom) cameras. Control, zoom, and focus for a customizable surveillance experience.",
+              para:"Navigate your security landscape with precision using our best PTZ (Pan-Tilt-Zoom) cameras. Control, zoom, and focus for a customizable...",
           },
       ];
         const Accessories = [
@@ -445,7 +445,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/Hub.webp" :val.id === 2 ? "/images/switch.webp":val.id === 3 ? "/images/Router.webp" :val.id === 4 ? "/images/firewall.webp":val.id === 5 ? "/images/end point security.webp" :val.id === 6 ? "/images/fibre.webp": ""}`} />
+                                        <img src={`${val.id === 1 ? "/images/Hub.webp" :val.id === 2 ? "/images/switch.webp":val.id === 3 ? "/images/Router.webp" :val.id === 4 ? "/images/firewall-img.webp":val.id === 5 ? "/images/end point security.webp" :val.id === 6 ? "/images/fibre.webp": ""}`} />
 
                                         </div>
 

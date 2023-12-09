@@ -25,7 +25,7 @@ function NewServicePage(){
             {
                 valuePaths.includes(id)   ?
                 <>
-                
+                <div className='webservice'>
                 <IotHeader />
                  <ServiceBanner/>
 
@@ -33,6 +33,7 @@ function NewServicePage(){
                  
                  <Enquiry/>
                   <IotFooter/>
+                  </div>
                 </> :
                 
                 <Four />

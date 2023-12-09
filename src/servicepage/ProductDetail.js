@@ -37,12 +37,8 @@ const ProductDetail = () => {
     },
     {
       name:"WorkStation",
-
-      img:"/images/laptop workstation.webp",
-
-//       img:"/images/workstation vector.webp",
+      img:"/images/workstation vector.webp",
       link:"https://infygain.co.in/onlinestore/products/ca/149",
-
       para:"Welcome to Infygain Technologies, where we redefine productivity and performance in the world of professional computing. Elevate your work experience with our collection of the best Workstation Laptops, meticulously chosen to meet the demanding needs of modern professionals.",
       p1:"At Infygain Technologies, we understand the requirements of professionals who need robust computing power. Our carefully selected best Workstation Laptops deliver unparalleled performance, ensuring seamless multitasking, complex computations, and resource-intensive tasks are handled with ease.",
       p2:"Experience professional excellence with the high-end components integrated into our best Workstation Laptops. From powerful processors and dedicated graphics cards to extensive RAM and storage options, our laptops are designed to meet the demands of professional workflows.",
@@ -72,12 +68,8 @@ const ProductDetail = () => {
     },
     {
       name:"Assembled Desktop",
-
       img:"/images/Assembled-desktop-vector.webp",
-
-//       img:"/images/desk.webp",
       link:"https://infygain.co.in/onlinestore/products/ca/148",
-
       para:"Welcome to Infygain Technologies, where we empower you to create a personalized computing solution. Dive into the world of customization and performance with our collection of the best Assembled Desktops, meticulously chosen to offer flexibility, power, and the freedom to tailor your desktop to your exact specifications.",
       p1:"At Infygain Technologies, we recognize that every user has unique computing needs. Our carefully selected best Assembled Desktops provide the ultimate flexibility, allowing you to choose components that suit your specific requirements and preferences.",
       p2:"Experience the freedom to select high-performance components for your best Assembled Desktop. From advanced processors and powerful graphics cards to customized RAM and storage solutions, our desktops are designed to cater to your individual computing demands.",
@@ -104,12 +96,8 @@ const ProductDetail = () => {
     },
     {
       name:"Gaming Desktop",
-
       img:"/images/gaming-desktop-vector.webp",
-
-//       img:"/images/gaming-laptop-vector.webp",
       link:"https://infygain.co.in/onlinestore/products/ca/148",
-
       para:" Welcome to Infygain Technologies, where the world of gaming meets cutting-edge technology. Elevate your gaming experience to new heights with our collection of the best Gaming Desktops, meticulously chosen to deliver unrivaled performance, stunning graphics, and a seamless gaming adventure",
       p1:"At Infygain Technologies, we understand the demands of avid gamers. Our carefully selected best Gaming Desktops deliver power-packed performance, ensuring smooth gameplay, stunning graphics, and lightning-fast responsiveness.",
       p2:"Experience gaming prowess with the high-performance components integrated into our best Gaming Desktops. From advanced processors and top-tier graphics cards to high-speed RAM and storage options, our desktops are designed to meet the demands of modern gaming.",
@@ -207,19 +195,31 @@ const ProductDetail = () => {
           },
       
           ]
+          const Fiber =[
+            {
+            name:"Fiber",
+            img:"/images/fibres.webp",
+            link:"https://infygain.co.in/onlinestore/products/ca/178",
+            para:"At Infygain Technologies, we believe that the backbone of modern connectivity is built on the speed and reliability of fiber optics. As pioneers in the field, we are committed to delivering state-of-the-art fiber solutions that transform the way you connect, communicate, and collaborate.",
+            p1:"Fiber optics boast unparalleled data transfer speeds, making them the ideal choice for businesses, homes, and industries where speed is of the essence.",
+            p2:"Say goodbye to interruptions and signal degradation. Fiber optics are resistant to electromagnetic interference, ensuring a stable and reliable connection, even over long distances.",
+            p3:"The incredible bandwidth capacity of fiber optics means you can handle large volumes of data simultaneously without compromising on speed or quality.",
+            p4:"Invest in the future of connectivity. Fiber optics are not just meeting today's demands; they are ready to support the ever-increasing data needs of tomorrow.",
+            p5:"Experience the internet like never before with our lightning-fast fiber internet services. Whether at home or in the office, enjoy seamless streaming, quick downloads, and lag-free online experiences.",
+            p6:"Elevate your business operations with our business-grade fiber solutions. From enhanced communication to efficient data management, fiber is the key to unlocking your business's full potential.",
+            p7:"Upgrade your network infrastructure with our cutting-edge fiber optic cabling solutions. Ensure your data travels at the speed of light within your organization.",
+            p8:"Transform your telecom network with the speed and reliability of fiber optics.",
+
+          },
+          ]
 
           const Analog = [
             {
 
               name:"Analog",
-
               img:"/images/vector for analog-01.jpg",
-//               para:"Welcome to Infygain Technolog, your premier destination for top-notch Analog surveillance solutions. At Infygain Technologies, we pride ourselves on offering a range of Analog products that combine simplicity, reliability, and clarity for unparalleled security. Here's why our Analog solutions stand out",
-
-//               img:"/images/desk.webp",
               link:"https://infygain.co.in/onlinestore/products/ca/152",
               para:"Welcome to Infygain Technologies, your premier destination for top-notch Analog surveillance solutions. At Infygain Technologies, we pride ourselves on offering a range of Analog products that combine simplicity, reliability, and clarity for unparalleled security. Here's why our Analog solutions stand out",
-
               p1:"Immerse yourself in timeless surveillance with our range of Analog cameras.",
               p2:"Experience clarity in every frame, capturing crucial details with precision.",
               p3:"Explore our Analog electronics that form the backbone of reliable surveillance systems.",
@@ -229,27 +229,11 @@ const ProductDetail = () => {
               p7:"Trust in the clarity of Analog technology, capturing every moment with precision.",
               p8:"Secure your space with confidence using the best Analog solutions at Infygain Technologies.",
             }]
-              const Fiber =[
-              {
-              name:"Fiber",
-              img:"/images/fibres.webp",
-              link:"https://infygain.co.in/onlinestore/products/ca/178",
-              para:"At Infygain Technologies, we believe that the backbone of modern connectivity is built on the speed and reliability of fiber optics. As pioneers in the field, we are committed to delivering state-of-the-art fiber solutions that transform the way you connect, communicate, and collaborate.",
-              p1:"Fiber optics boast unparalleled data transfer speeds, making them the ideal choice for businesses, homes, and industries where speed is of the essence.",
-              p2:"Say goodbye to interruptions and signal degradation. Fiber optics are resistant to electromagnetic interference, ensuring a stable and reliable connection, even over long distances.",
-              p3:"The incredible bandwidth capacity of fiber optics means you can handle large volumes of data simultaneously without compromising on speed or quality.",
-              p4:"Invest in the future of connectivity. Fiber optics are not just meeting today's demands; they are ready to support the ever-increasing data needs of tomorrow.",
-              p5:"Experience the internet like never before with our lightning-fast fiber internet services. Whether at home or in the office, enjoy seamless streaming, quick downloads, and lag-free online experiences.",
-              p6:"Elevate your business operations with our business-grade fiber solutions. From enhanced communication to efficient data management, fiber is the key to unlocking your business's full potential.",
-              p7:"Upgrade your network infrastructure with our cutting-edge fiber optic cabling solutions. Ensure your data travels at the speed of light within your organization.",
-              p8:"Transform your telecom network with the speed and reliability of fiber optics.",
 
-            },
-            ]
               const IP = [
                 {
                   name:"IP",
-                  img:"/images/desk.webp",
+                  img:"/images/ip-cctv.webp",
                   link:"https://infygain.co.in/onlinestore/products/ca/152",
                   para:"Welcome to Infygain Technologies, where innovation meets security excellence with our cutting-edge IP surveillance solutions. Discover the power of Internet Protocol technology that elevates your surveillance experience. Here's why our IP solutions stand out:",
                   p1:"Step into the future with high-definition IP cameras for crystal-clear surveillance.",
@@ -263,18 +247,11 @@ const ProductDetail = () => {
                 },
             
                 ]
-
-
-
                 const NVR = [
                   {
                     name:"NVR",
-
                     img:"/images/NVRvector.webp",
-
-//                     img:"/images/desk.webp",
                     link:"https://infygain.co.in/onlinestore/products/ca/152",
-
                     para:" Welcome to NVR, where cutting-edge technology meets comprehensive security solutions. Explore the pinnacle of video recording with our collection of the best NVR (Network Video Recorder) options, meticulously chosen to enhance and optimize your CCTV system.",
                     p1:"At Infygain Technologies, we recognize the pivotal role of an NVR in modern CCTV setups. Our carefully selected best NVR solutions offer advanced video management features, ensuring that your surveillance system operates at its peak with efficient recording and playback capabilities.",
                     p2:"Experience crystal-clear footage with our best NVR solutions. Designed to support high-resolution cameras, our NVRs capture every detail, providing you with clear and precise video recordings for security monitoring and analysis.",
@@ -426,12 +403,8 @@ const ProductDetail = () => {
       },
       {
         name:"SMPS",
-
         img:"/images/smps-vector.webp",
-
-//         img:"/images/desk.webp",
         link:"https://infygain.co.in/onlinestore/products/ca/173",
-
         para:"Welcome to Infygain Technologies, your ultimate destination for top-notch computer accessories. Explore the realm of optimal power delivery with our exceptional SMPS (Switched Mode Power Supply) units. We understand the critical role that power plays in computing, and our commitment is to provide you with the best SMPS for a reliable and efficient power supply.",
         p1:"Discover our curated selection of the best SMPS units designed to ensure a stable and uninterrupted power supply to your computer. Our offerings are crafted to meet the demands of modern computing, providing consistent and clean power to your system components.",
         p2:"Experience efficiency and energy savings with our best SMPS units. Our power supplies are optimized to deliver power precisely where and when it's needed, reducing energy consumption and lowering your electricity bills.",
@@ -654,7 +627,7 @@ const ProductDetail = () => {
     ]
 
 
-    const intercom=[
+    const intercom=[ 
       {
         name:"InterCom",
         img:"/images/intercom-vector.webp",
@@ -836,12 +809,8 @@ const ProductDetail = () => {
       },
       {
         name:"Vertical",
-
         img:"/images/scanner vector.webp",
-
-//         img:"/images/desk.webp",
         link:"https://infygain.co.in/onlinestore/products/ca/170",
-
         para:"Welcome to Infygain Technologies, where innovation meets efficiency in the realm of scanning technology. Redefine the way you digitize documents with our collection of the best Vertical Scanners, meticulously chosen to provide a space-saving and user-friendly solution for your scanning needs.",
         p1:" At Infygain Technologies, we understand the importance of maximizing space without compromising on functionality. Our carefully selected best Vertical Scanners offer a space-saving design that fits seamlessly into your workflow while delivering efficient and high-quality scanning results.",
         p2:"Experience efficient desktop integration with the compact design of our best Vertical Scanners. Perfect for environments where space is a premium, these scanners offer a vertical orientation, ensuring a small footprint while providing big capabilities.",

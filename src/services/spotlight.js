@@ -23,7 +23,7 @@ function  webservice() {
           </p>
         </div>
         <div className="mserv">
-          {/* <Link className="sbox-link" to="/webservices/Websites"> */}
+          <Link className="sbox-link" to="/webservices/Websites">
             <div className="sb sbox1">
               <div className="simgbox" data-aos="flip-left" data-aos-duration="1000">
                 <img className="fluid" alt="top seo services" src="./images/seo/website.png"></img>
@@ -36,15 +36,15 @@ function  webservice() {
   .
               </div>
               <div className="smore smb1">
-              {/* <Link to="/webservices/Websites"> */}
+              <Link to="/webservices/Websites">
                   <span>Read More &nbsp;
                     <HiArrowLongRight className="arr" />
                   </span>
-              {/* </Link> */}
+              </Link>
               </div>
             </div>
-          {/* </Link> */}
-          {/* <Link  className="sbox-link" to="/webservices/Seo"> */}
+          </Link>
+          <Link  className="sbox-link" to="/webservices/Seo">
             <div className="sb sbox2">
               <div className="simgbox" data-aos="flip-left" data-aos-duration="1000">
                 <img className="fluid" alt="best seo services" src="./images/seo/seo.png"></img>
@@ -57,15 +57,15 @@ function  webservice() {
               ultimately leading.
               </div>
               <div className="smore smb2">
-              {/* <Link to="/webservices/Seo"> */}
+              <Link to="/webservices/Seo">
                   <span>Read More &nbsp;
                     <HiArrowLongRight />
                   </span>
-              {/* </Link> */}
+              </Link>
               </div>
             </div>
-          {/* </Link> */}
-          {/* <Link className="sbox-link" to="/webservices/Application"> */}
+          </Link>
+          <Link className="sbox-link" to="/webservices/Application">
             <div className="sb sbox3">
               <div className="simgbox" data-aos="flip-left" data-aos-duration="1000">
                 <img className="fluid" alt="seo services in coimbatore" src="./images/seo/app.png"></img>
@@ -76,15 +76,15 @@ function  webservice() {
               We develop custom web applications that cater to your specific business needs and goals.
               </div>
               <div className="smore smb3">
-              {/* <Link to="/webservices/Application"> */}
+              <Link to="/webservices/Application">
                   <span>Read More &nbsp;
                     <HiArrowLongRight />
                   </span>
-              {/* </Link> */}
+              </Link>
               </div>
             </div>
-          {/* </Link> */}
-          {/* <Link className="sbox-link" to="/webservices/Designing"> */}
+          </Link>
+          <Link className="sbox-link" to="/webservices/Designing">
             <div className="sb sbox4">
               <div className="simgbox" data-aos="flip-left" data-aos-duration="1000">
                 <img className="fluid" alt="top seo services" src="./images/seo/graphic.png"></img>
@@ -97,14 +97,14 @@ function  webservice() {
                 We offer a wide range of design solutions.
               </div>
               <div className="smore smb4">
-              {/* <Link to="/webservices/Designing"> */}
+              <Link to="/webservices/Designing">
                   <span>Read More &nbsp;
                     <HiArrowLongRight />
                   </span>
-              {/* </Link> */}
+              </Link>
               </div>
             </div>
-          {/* </Link> */}
+          </Link>
         </div>
       </div>
     </>

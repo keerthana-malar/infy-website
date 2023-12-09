@@ -788,7 +788,7 @@ const Category = () => {
                                       
                                               <div className="subcategory2 ">
                                               
-                                              <img src={`${val.id === 1 ? "/images/kiosk.webp":val.id === 2 ? "/images/kiosk.webp":val.id === 3 ? "/images/POS billing.webp" : ""}`} />
+                                              <img src={`${val.id === 1 ? "/images/posoverall.webp":val.id === 2 ? "/images/kiosk.webp":val.id === 3 ? "/images/billingapp-web.webp" : ""}`} />
 
                                               </div>
 

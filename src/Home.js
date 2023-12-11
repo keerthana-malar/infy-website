@@ -32,7 +32,7 @@ function Home() {
                 <title>home</title>
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <title>{metaContent.ogt}</title>
+                {/* <title>{metaContent.ogt}</title> */}
                 <link rel="canonical" href={currentUrl} />
 
                 <link rel="icon" href={"favicon.ico"} />
@@ -64,6 +64,8 @@ function Home() {
                 <meta name="twitter:card" content="Best computer/laptop sales and service in coimbatore" />
                 <meta name="twitter:site" content="Infygain Technologies" />
                 <meta name="twitter:title" content="Infygain Technologies" />
+                <meta name="twitter:card" content="summary" />
+
                 <meta name="twitter:description" content="We are provide the best computer and laptop, networking service in coimbatore and also we best in cctv camera, server, billing software, graphic design, amc." />
                 <meta name="twitter:image" content="https://infygain.com/images/logo.png" />
                 {/* Robot tag */}
@@ -72,7 +74,31 @@ function Home() {
                     name="google-site-verification"
                     content="ocR-tZ4yt2LD1ePYD1bR4LK6GYUc0keDJcspEtblHoM"
                 />
+                
                 {/* End Robot tag */}
+                {/* Facebook Pixel Code */}
+            <script type="text/javascript">
+               {`
+               !function(f,b,e,v,n,t,s)
+               {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+               n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+               if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+               n.queue=[];t=b.createElement(e);t.async=!0;
+               t.src=v;s=b.getElementsByTagName(e)[0];
+               s.parentNode.insertBefore(t,s)}(window, document,'script',
+               'https://connect.facebook.net/en_US/fbevents.js');
+               fbq('init', '1093378958018811');
+               fbq('track', 'PageView');
+               `}
+            </script>
+            <noscript>{`
+               <img height="1" width="1" style="display:none"
+               src="https://www.facebook.com/tr?id=1093378958018811&ev=PageView&noscript=1"
+               />
+               `}
+            </noscript>
+            {/* End Facebook Pixel Code */}
+            
                 {/* Organization schema*/}
 
                 <script type="application/ld+json">
@@ -80,10 +106,11 @@ function Home() {
   {
     "@context": "https://schema.org",
     "@type": "Organization",
+
     "name": "Infygain Technologies",
     "legalName": "Computer Service",
     "email": "info@infygain.com",
-    "url": "https://infygain.com/images/logo.svg",
+    "url": "https://infygain.com/",
     "logo": "https://infygain.com/images/logo.svg",
     "sameAs": [
       "https://twitter.com/infygain",
@@ -112,54 +139,60 @@ function Home() {
       {
         "@type": "ListItem",
         "position": 1,
+        "name": "Home",
+        "item": "https://infygain.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
         "name": "About - Us",
         "item": "https://infygain.com/about"
       },
       {
         "@type": "ListItem",
-        "position": 2,
+        "position": 3,
         "name": "IT Supports",
         "item": "https://infygain.com/Iotservice"
       },
       {
         "@type": "ListItem",
-        "position": 3,
+        "position": 4,
         "name": "ISP Services",
         "item": "https://infygain.com/ispservice"
       },
       {
         "@type": "ListItem",
-        "position": 4,
+        "position": 5,
         "name": "WEB Services",
         "item": "https://infygain.com/ServiceSeo"
       },
       {
         "@type": "ListItem",
-        "position": 5,
+        "position": 6,
         "name": "Blogs",
         "item": "https://infygain.com/mainblogs"
       },
       {
         "@type": "ListItem",
-        "position": 6,
+        "position": 7,
         "name": "Career",
         "item": "https://infygain.com/career"
       },
       {
         "@type": "ListItem",
-        "position": 7,
+        "position": 8,
         "name": "Partner",
         "item": "https://infygain.com/Partner"
       },
       {
         "@type": "ListItem",
-        "position": 8,
+        "position": 9,
         "name": "Contact",
         "item": "https://infygain.com/contact"
       },
       {
         "@type": "ListItem",
-        "position": 9,
+        "position": 10,
         "name": "Online Store",
         "item": "https://infygain.com/onlinestore/"
       }
@@ -202,7 +235,7 @@ function Home() {
         "Saturday"
       ],
       "opens": "09:45",
-      "closes": "19:00"
+      "closes": "19:00",
     }
   }
 `}

@@ -167,8 +167,8 @@ const IotBanner = () => {
               </button>
             </div>
 
-            <img className='iot-ani-img' src='/images/slider-shape1.png'/>
-               <img className='iot-ani1-img' src='/images/slider-shape2.png'/>
+            <img className='iot-ani-img' src='/images/slider-shape1.png' alt="animation"/>
+               <img className='iot-ani1-img' src='/images/slider-shape2.png'  alt="animation"/>
           </div>
         )}
         {currSlide === 2 && (
@@ -220,7 +220,7 @@ const IotBanner = () => {
               </button>
             </div>
             
-            <img className='iot-ani-img' src='/images/slider-shape1.png'/>
+            <img className='iot-ani-img' src='/images/slider-shape1.png'  alt="animation"/>
                {/* <img className='iot-ani1-img' src='https://demo.casethemes.net/consultio-digital-marketing/wp-content/uploads/2021/02/slider-shape4.png'/> */}
           </div>
         )}

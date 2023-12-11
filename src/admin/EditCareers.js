@@ -55,7 +55,7 @@ const EditCareers = () => {
       .get("https://infygain.com/api/edit-career/"+ id)
       .then((res) => {
         const carData = res.data.result[0];
-        console.log("cardata",carData)
+
         setValues({
           ...values,
           title: carData.title,
@@ -73,7 +73,7 @@ const EditCareers = () => {
       });
   }, [id]);
 
-  console.log("jdc",values)
+
   
 
   const handleInput = (e) => {
@@ -90,7 +90,6 @@ const EditCareers = () => {
       setShow(true);
     }
     else if(!parseInt(values.openings[0])){
-      console.log(1)
       setErrors("No of openings must be in numbers");
       setShow(true);
     }
@@ -127,11 +126,9 @@ const EditCareers = () => {
       );
     }
   }
-  console.log("sam",!parseInt(values.openings[0]))
 
-  useEffect(() => {
-    console.log("jdval",values.jd[0])
-  },[values])
+
+
   return (
     <>
       <div className="adminMainBox">

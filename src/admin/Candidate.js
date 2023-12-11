@@ -21,11 +21,11 @@ const Candidate = () => {
   const downloadPdf = (id) => {
    
     const getOneCD = careerData[id-1]
-    console.log(getOneCD.file)
+   
 
     // Path to your PDF file
     const pdfFilePath =  getOneCD.file;
-    console.log(pdfFilePath)
+
     // Fetch the PDF file as a blob
     fetch(pdfFilePath)
       .then(response => response.blob())
@@ -36,7 +36,7 @@ const Candidate = () => {
         console.error('Error downloading PDF:', error);
       });
 
-    console.log(id)
+
   };
   const columns = [
     {

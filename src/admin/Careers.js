@@ -63,7 +63,6 @@ const Careers = () => {
     if (confirmDelete) {
       axios.delete(`https://infygain.com/api/cardelete/${id}`)
         .then((res) => {
-          console.log(res)
           alert("Deleted Successfully 😥");
           axios.get("https://infygain.com/api/career-data")
           .then((res) => {

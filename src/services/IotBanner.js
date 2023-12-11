@@ -24,7 +24,6 @@ const IotBanner = () => {
 
   useEffect(() => {
     AOS.init();
-    // console.log(currSlide)
     const interval = setInterval(() => {
       setCurrSlide((prevSlide) => (prevSlide + 1) % images.length);
     }, 500000);

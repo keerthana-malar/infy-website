@@ -89,7 +89,6 @@ const HomeBlog = () => {
         const monthName = monthNames[monthIndex];
         return monthName;
     }
-    console.log(blogs[0])
   const blogfilter = blogs.filter((val, index) => (
     val.category === "ISP Services"
   ));

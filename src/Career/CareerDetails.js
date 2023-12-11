@@ -36,7 +36,7 @@ const CareerDetails = () => {
         jd:dataa.content,
         intro:dataa.intro
       });
-      console.log('car',dataa)
+
       // setCarData({
       //   title: dataa.title,
       //   status: "Active",

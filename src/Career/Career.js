@@ -72,7 +72,6 @@ const Career =()=>{
         axios.post("https://infygain.com/api/carformdata", formData)
 
         .then((res) => {
-          console.log(res)
           var re = document.querySelectorAll(".careerForm");
           re.forEach((r)=>{
             r.reset()
@@ -136,7 +135,6 @@ const Career =()=>{
     .then((res) => {
      const dataa= res.data
      setData(dataa);
-      console.log('car',data)
     })
     .catch((err) => {
       console.log(err);
@@ -149,7 +147,7 @@ const Career =()=>{
  <div className="container careerpage">
   <div className="rcs">
     <div className='sml'></div>
-    <h5 className="pq">career</h5>
+    <h5 className="pq">Career</h5>
      </div>
       <div className="row ">
        <div className="col-md-6 car-para1">From startups to Fortune 500s,

@@ -85,7 +85,7 @@
 
 
 
-.custom-prev-arrow {
+.custom-prev-arrow1 {
   position: absolute;
   top: 90%;
   right: 90px;
@@ -101,7 +101,7 @@
   border-radius: 30px;
 }
 
-.custom-next-arrow {
+.custom-next-arrow1 {
   position: absolute;
   top: 90%;
   right: 1px;
@@ -118,11 +118,11 @@
   height: 55px;
   border-radius: 30px;
 }
-.custom-prev-arrow:hover {
+.custom-prev-arrow1:hover {
   background-color: var(--sec);
   color: var(--white);
 }
-.custom-next-arrow:hover {
+.custom-next-arrow1:hover {
   background-color: var(--sec);
   color: var(--white);
 }
@@ -160,12 +160,12 @@
 .bluecolor{
   font-size: 20px;
 }
-.custom-next-arrow{
+.custom-next-arrow1{
   width: 45px;
   height: 45px;
   border-radius: 30px;
 }
-.custom-prev-arrow{
+.custom-prev-arrow1{
   width: 45px;
   height: 45px;
   border-radius: 30px;

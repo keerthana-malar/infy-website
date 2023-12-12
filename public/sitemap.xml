@@ -1,184 +1,96 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
-<!-- 	created with www.mysitemapgenerator.com	 -->
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://infygain.com/</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>0.6</priority>
-</url>
-<url>
-<loc>https://infygain.com/about</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/Iotservice</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/ispservice</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/ServiceSeo</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/blogs</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/career</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/Partner</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/contact</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/upload/drive/v2/files</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>0.4</priority>
-</url>
-<url>
-<loc>https://infygain.com/502</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/Bookservicepage</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/favicon.ico</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/mainblogs</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/privacypolicy</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/termspage</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/delivery</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/refund</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/quality</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/services/networking</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://infygain.com/services/cctv</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://infygain.com/services/Projectors</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://infygain.com/blogs/</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://infygain.com/services/Accessories</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://infygain.com/dashboard</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/category</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/adminblog</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/Careers</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/candidate</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/admin</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/editcategory/</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://infygain.com/AddCategory</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/editblog/</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://infygain.com/addblog</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
-<url>
-<loc>https://infygain.com/edit-career/</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://infygain.com/AddCareer</loc>
-<lastmod>2023-12-02T15:11:17+01:00</lastmod>
-<priority>1.0</priority>
-</url>
+  <url>
+    <loc>https://infygain.com/</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/about</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/contact</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/Iotservice</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/ispservice</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/ServiceSeo</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/mainblogs</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/career</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/Partner</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/contact</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/services/networking</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/services/laptop&amp;desktop</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/services/cctv</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/services/cctv</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/services/Projectors</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/services/Accessories</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/services/TV</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/services/Printer&amp;Scanner</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/services/InteractivePanel</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/services/UPS</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/services/WIFI</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/services/Pos</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/services/InterCom</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/isp-package</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/Internet-Leased-Line</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/smepackage</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/Business-Broadband</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/webservices/Websites</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/webservices/Seo</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/webservices/Application</loc>
+  </url>
+  <url>
+    <loc>https://infygain.com/webservices/Designing</loc>
+  </url>
 </urlset>

@@ -63,17 +63,6 @@ function MainBlogs() {
           content="ocR-tZ4yt2LD1ePYD1bR4LK6GYUc0keDJcspEtblHoM"
         />
         {/* End Robot tag */}
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            className="tag-iframe"
-            src="https://www.googletagmanager.com/ns.html?id=GTM-NRCN7RF"
-            height="0"
-            width="0"
-            title="Google Tag Manager"
-          />
-        </noscript>
-        {/* End Google Tag Manager (noscript) */}
         {/* Facebook Pixel Code */}
         <script type="text/javascript">
           {`

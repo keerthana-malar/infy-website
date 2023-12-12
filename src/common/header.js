@@ -65,7 +65,7 @@ function header() {
                 <p>
                   <a className="head-link" href="#">
                     <FaRegClock />
-                    &nbsp;&nbsp;&nbsp;&nbsp; Office Hours: 9:45 am - 7:30 pm
+                    &nbsp;&nbsp;&nbsp;&nbsp; Office Hours: 10.00 am - 7:00 pm
                   </a>
                 </p>
               </div>

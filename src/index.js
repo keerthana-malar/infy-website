@@ -94,7 +94,7 @@ function App() {
         <Route path="/webservices/:id" element={<WebService />} />
 
         <Route path="/services/:id" element={<NewServicePage />} />
-        <Route path="/categories/:id" element={<SubCategoryHead />} />
+        {/* <Route path="/categories/:id" element={<SubCategoryHead />} /> */}
         <Route path="/servicedetails/:cat/:id" element={<ServiceDetails />} />
 
         <Route path="*" element={<Four />} />

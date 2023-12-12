@@ -318,6 +318,9 @@ a{
         margin-left: 125px;
         margin-top: 18px;
     }  
+    .btn-categ{
+        font-size: 18px;
+    }
 }
 @media (width<=470px){
     .iconindex1{

@@ -71,8 +71,6 @@ const EditBlog = () => {
       .get("https://infygain.com/api/editblog/" + id)
       .then((res) => {
         const blogData = res.data.result[0];
-        console.log(blogData);
-        console.log(blogData.title);
         setValues({
           ...values,
           id: blogData.id,
@@ -136,7 +134,6 @@ const EditBlog = () => {
         });
     
   };
-console.log(values.intro);
   function alertBox() {
     if (show) {
       return (

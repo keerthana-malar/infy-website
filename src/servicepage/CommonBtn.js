@@ -97,8 +97,6 @@ const CommonBtns = ({pid,id,cat}) => {
         setOpenCategory1(openCategory1 === categoryId ? null : categoryId);
       };
 
-      console.log(id,openCategory1)
-
       useEffect(() => {
         if(cat === "Networking"){
             setOpenCategory(1)
@@ -156,11 +154,7 @@ const CommonBtns = ({pid,id,cat}) => {
         <div className='rightboxheadcol'>
             {categories.map((category,index) => (
                 <div>
-                    <button onClick={() => toggleCategory(category.id)} className={`btn-categ ${ pid==="Bio-Degradable" && index===0 ? 'categ-active' : 
-                                                                                    pid==="GasPipeline" && index===1 ? 'categ-active': pid==="LubricantsPacking" && index===4 ? 'categ-active' :
-                                                                                    pid==="IndustrialSafety" && index===3 ? 'categ-active': pid==="Industriallpg" && index===5 ? 'categ-active':
-                                                                                    pid==="OfficeEssential" && index===6 ? 'categ-active':pid==="IndustrialCutting"&& index===2 ? "categ-active":
-                                                                                    cat==="Laptop" && index===4 ? 'categ-active': cat==="Desktop" && index===4 ? 'categ-active'
+                    <button onClick={() => toggleCategory(category.id)} className={`btn-categ ${ cat==="Laptop" && index===4 ? 'categ-active': cat==="Desktop" && index===4 ? 'categ-active'
                                                                                     :cat==="Networking" && index===0 ? 'categ-active':cat==="Cctv" && index===1 ? 'categ-active'
                                                                                     :cat==="Accessories" && index===2 ? 'categ-active':cat==="Projectors" && index===5 ? 'categ-active'
                                                                                     :cat==="TV" && index===7 ? 'categ-active' :cat==="UPS" && index===8 ? 'categ-active'
@@ -379,6 +373,7 @@ const CommonBtns = ({pid,id,cat}) => {
                         </ul>
                         </span>
                     )}
+                    
                 </div>
             ))}
         </div>

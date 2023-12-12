@@ -29,7 +29,6 @@ const AddCareer = () => {
     'link', 'image', 'video'
   ];
 
-
   const [values, setValues] = useState({
     title: "",
     status: "Active",
@@ -40,9 +39,7 @@ const AddCareer = () => {
     openings:""
   });
 
-  useEffect(() => {
-    console.log("val",values)
-  },[values])
+
 
   const [errors, setErrors] = useState("");
   const [show, setShow] = useState(false);
@@ -70,11 +67,9 @@ const AddCareer = () => {
       setShow(true);
     }
     else {
-      console.log(1)
       axios
         .post("https://infygain.com/api/addcar", values)
         .then((res) => {
-          console.log("upd",res)
           setValues({ title: "", status: "Active" ,degree:"",
           exp:"",
           content:"",

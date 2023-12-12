@@ -48,7 +48,7 @@ function Contactmain() {
                             </div>
                             <div className='col-md-9 us-sup'>
                             <p className='mini-title tit3'>Get In Touch</p>
-                            <p className='text-muted locacon'>Monday - Friday: 10:00 to 7:00.</p>
+                            <p className='text-muted locacon'>Monday - Saturday: 10:00 to 7:00.</p>
                             </div>
                         </div>
                     </div>

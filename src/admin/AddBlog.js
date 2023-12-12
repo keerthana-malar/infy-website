@@ -42,7 +42,7 @@ const AddBlog = () => {
 
 
 
-  console.log(values.title);
+
 
   const handleInput = (e) => {
     setValues((prev) => ({
@@ -64,7 +64,12 @@ const AddBlog = () => {
     if (values.title === "") {
       setErrors("Title Must Be Filled 🤔");
       setShow(true);
-    } else {
+    }
+    else if(values.intro[0].length > 125){
+      setErrors("Intro should be max 125 char's");
+      setShow(true);
+    }
+     else {
       const formData = new FormData();
       formData.append("file", file);
       formData.append("title", values.title);
@@ -79,7 +84,6 @@ const AddBlog = () => {
       axios
         .post("https://infygain.com/api/addblog", formData)
         .then((res) => {
-          console.log(res)
           document.querySelector(".form").reset();
           setErrors("Blog Added Successfully 😊😊");
           setShowMsg(true);

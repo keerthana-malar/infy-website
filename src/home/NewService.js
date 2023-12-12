@@ -52,7 +52,7 @@ const NewService = () => {
                 <div className='col-md-4 col-lg-4 serv-home-sec'>
                     <div className='home-slide'>
 
-                        <img className='hom-sld-img' src='/images/WEB 3-03.webp' alt='best It supports'/>
+                        <img className='hom-sld-img' src='/images/service-1.webp' alt='best It supports'/>
 
                         <div className='home-cont-overlay'>
 
@@ -88,7 +88,7 @@ const NewService = () => {
                 <div className='col-md-4 col-lg-4 serv-home-sec'>
 
                     <div className='home-slide'>
-                        <img className='hom-sld-img' src='/images/WEB 1-01.webp' alt='best isp services'/>
+                        <img className='hom-sld-img' src='/images/isp-3-web.webp' alt='best isp services'/>
                         <div className='home-cont-overlay'>
 
                             <img src="/images/icons/isp.png" alt="service icons"></img>

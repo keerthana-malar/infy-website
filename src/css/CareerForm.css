@@ -148,9 +148,7 @@
 }
 
 @media screen and (max-width:920px){
-    .test-job{
-        /* max-width: 500px;      */
-    }
+
     .job-allhead{
         max-width: 100%;  
     }

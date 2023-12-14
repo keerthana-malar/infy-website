@@ -4,15 +4,8 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "../css/IotService.css";
-import { TbBrandDatabricks } from "react-icons/tb";
 import { MdNetworkWifi3Bar } from "react-icons/md";
-import { GrNetwork } from "react-icons/gr";
-import { BsCodeSlash } from "react-icons/bs";
-import { GiCctvCamera } from "react-icons/gi";
-import { PiNotePencil } from "react-icons/pi";
-import { GiEyeShield } from "react-icons/gi";
 import { BsArrowRight } from 'react-icons/bs'
-import { AiOutlineArrowRight } from "react-icons/ai";
 import { LuLaptop2 } from "react-icons/lu";
 import { MdOutlineSecurity } from "react-icons/md";
 import { LuFileAudio2 } from "react-icons/lu";

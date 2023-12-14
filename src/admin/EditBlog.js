@@ -4,15 +4,12 @@ import "../css/admin.css";
 import Sidebars from "./sidebar";
 import Alert from "react-bootstrap/Alert";
 import axios from "axios";
-import { useNavigate, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import "froala-editor/css/froala_style.min.css";
 import "froala-editor/css/froala_editor.pkgd.min.css";
 import 'froala-editor/js/froala_editor.pkgd.min.js';
-import FroalaEditor from "react-froala-wysiwyg";
-import contact from "../contact/contactbanner";
 import ReactQuill from "react-quill";
 import "react-quill/dist/quill.snow.css";
-import { Link} from "react-router-dom";
 
 const EditBlog = () => {
   const [categories, setCategories] = useState([]);
@@ -88,7 +85,7 @@ const EditBlog = () => {
       .catch((err) => {
         console.log(err);
       });
-  }, [id]);
+  }, [id,values]);
 
 
 
@@ -289,6 +286,7 @@ const EditBlog = () => {
                   <img
                     className="img-fluid blogImg"
                     src={"uploads/" + values.img}
+                    alt="blogs"
                   ></img>
                 </div>
                 <div className="col">

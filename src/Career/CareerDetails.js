@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import {useParams } from "react-router-dom";
 import "../css/Career.css";
 import { useEffect } from "react";
 import axios from "axios";
@@ -50,7 +50,7 @@ const CareerDetails = () => {
     .catch((err) => {
       console.log(err);
     });
-  },[id])
+  },[id,data])
 
   return (
     <>

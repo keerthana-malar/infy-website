@@ -73,14 +73,9 @@ a{
 }
 
 .servsl-head{
-   
     position: relative;
 }
-.servsl-head img{
-    /* width: 50%; */
-    /* height: 450px; */
 
- }
  .servsl-head:hover .servsl-overlay{
     display: block;
 }
@@ -957,11 +952,7 @@ color: white;
     color: #ffc000;
 }
 
-.service-slider{
-    /* display: grid;
-    grid-template-columns: repeat(2,1fr); */
-    /* gap: 10px; */
-}
+
 .serv-sliders img{
  width: 10px;
  height: 50px;
@@ -1119,9 +1110,7 @@ color: white;
 }
 
 @media screen and (min-width:750px) and (max-width:1000px){
-    .service-slider{
-        /* width: 90vw; */
-    }
+    
     .servicepage-head{
         /* flex-direction: column;
         justify-content: center; */

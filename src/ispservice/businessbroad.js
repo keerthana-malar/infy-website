@@ -1,8 +1,6 @@
-import Header from '../common/header';
-import Footer from '../common/footer';
 import '../css/mainpackage.css';
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 
 function Mainpackage() {
   return (
@@ -17,7 +15,8 @@ function Mainpackage() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group 1 copy.jpg">
+                                            src="/images/banner/Group 1 copy.webp"
+                                            alt='BASIC PACKAGE'>
                                         </img></div>
                                         <p className="midss-title">BASIC PACKAGE</p>
                                         <p className="midess-title">
@@ -46,7 +45,8 @@ function Mainpackage() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group 2 copy.jpg">
+                                            src="../images/banner/Group 2 copy.jpg"
+                                            alt='PREMIUM PACKAGE'>
                                         </img></div>
 
                                         <p className="midss-title">PREMIUM PACKAGE</p>
@@ -75,7 +75,8 @@ function Mainpackage() {
                                     <div className="serviceContent-thiban">
                                         <div className='des'><img
                                             className="img-fluid"
-                                            src="../images/banner/Group 3 copy.jpg">
+                                            src="../images/banner/Group 3 copy.jpg"
+                                            alt='HYPE PACKAGE'>
                                         </img></div>
                                         <p className="midss-title">HYPE PACKAGE</p>
                                         <p className="midess-title">

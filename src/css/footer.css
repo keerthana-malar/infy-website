@@ -15,6 +15,10 @@
     font-weight: 600;
 
 }
+.one,.two,.three,.four,.call,.infyy,.infyy-icon{
+    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
+}
 .ph{
     margin-bottom: 5px !important;
 }

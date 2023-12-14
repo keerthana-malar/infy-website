@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../css/Testimonial.css';
 import { BsFillStarFill } from "react-icons/bs";
@@ -26,7 +26,7 @@ function Testimonialing() {
     easing:         "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
   }
 
-  const [currentSlide, setCurrentSlide] = useState(0);
+  // const [currentSlide, setCurrentSlide] = useState(0);
   const sliderRef = useRef(null);
 
   useEffect(() => {
@@ -37,7 +37,7 @@ function Testimonialing() {
   const settings = {
     prevArrow: <CustomPrevArrow onClick={() => sliderRef.current.slickPrev()} />,
     nextArrow: <CustomNextArrow onClick={() => sliderRef.current.slickNext()} />,
-    afterChange: (current) => setCurrentSlide(current),
+    // afterChange: (current) => setCurrentSlide(current),
   };
   return (
     <div className='container tm-about' >

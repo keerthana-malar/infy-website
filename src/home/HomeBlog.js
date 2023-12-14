@@ -12,7 +12,7 @@ const HomeBlog = () => {
     var settings = {
       infinite: true,
       dots: false, 
-      speed: 500,
+      // speed: 500,
       slidesToShow: 3,
       slidesToScroll: 1,
       initialSlide: 0,
@@ -72,10 +72,10 @@ const HomeBlog = () => {
       
     });
   }, []);
+
   function date(id) {
     const rawDate = blogs[id].date;
     const timestamp = new Date(rawDate);
-    const month = timestamp.getMonth() + 1;
     const date = timestamp.getDate();
     return date
   }
@@ -106,45 +106,45 @@ const HomeBlog = () => {
             
               <div className="homeBlogBox">
               <Slider {...settings}>
-        {blogs.map((value, index) => (
-          
-          <div key={value.id} className="col-md-4 blog-one-boxes">
-           
-            <div className="blogBoxInn blogh">
-              <div className="blogImgBox">
-               {/* <div className="blogDate">
-                  13 <br/>
-                  May
-                </div> */}
-                <a className="links" href='/mainblogs'>
-                    <img className="img-fluid" 
-                    src={`uploads/${value.img}`} 
-                  
-                    alt={value.title} />  
-                  </a>
-                  
-              </div>
-              <div className="blogDate1">
+              {blogs.map((value, index) => (
                 
-              {date(index)} <br/>
-              {month(index)}
+                <div key={value.id} className="col-md-4 blog-one-boxes">
+                
+                  <div className="blogBoxInn blogh">
+                    <div className="blogImgBox">
+                    {/* <div className="blogDate">
+                        13 <br/>
+                        May
+                      </div> */}
+                      <a className="links" href='/mainblogs'>
+                          <img className="img-fluid" 
+                          src={`uploads/${value.img}`} 
+                        
+                          alt={value.title} />  
+                        </a>
+                        
+                    </div>
+                    <div className="blogDate1">
+                      
+                    {date(index)} <br/>
+                    {month(index)}
+                      </div>
+                    <div className="blogContBox blogp">
+                      {/* <p className="text-muted">{dateSlice(index)}</p> */}
+                      <div className="hb-tilte">
+                        <p className="mid-title">{value.title}</p>
+                      </div>
+                      <p >
+                          <Link to={"/blogs/" + value.id}>
+                            <button className="h-btns">READ MORE</button>
+                          </Link>
+                        </p>
+                      {/* Alternatively, you can use React Router's Link component:
+                      <Link to={`/blogs/${value.id}`}>READ MORE</Link> */}
+                    </div>
+                  </div>
                 </div>
-              <div className="blogContBox blogp">
-                {/* <p className="text-muted">{dateSlice(index)}</p> */}
-                <div className="hb-tilte">
-                  <p className="mid-title">{value.title}</p>
-                </div>
-                <p >
-                     <Link to={"/blogs/" + value.id}>
-                       <button className="h-btns">READ MORE</button>
-                     </Link>
-                   </p>
-                {/* Alternatively, you can use React Router's Link component:
-                <Link to={`/blogs/${value.id}`}>READ MORE</Link> */}
-              </div>
-            </div>
-          </div>
-        ))}
+              ))}
       </Slider>
               </div>
            

@@ -15,7 +15,7 @@ const ServiceDetails = () => {
     const valuePaths = ['GamingLaptop','Consumerlaptops',"WorkStation","BrandedDesktop","AssembledDesktop","WorkStationDesktop","GamingDesktop"
                         ,"HUB","Switch","Router","Firewall","EndPointSecurity","Fiber"
                       ,"Analog","IP","DVR","NVR","360","PTZ"
-                      ,"RAM","HDD,SSD","KeyBoard","Mouse,Moniter","Cabinet","MotherBoard","SMPS","Cables,Charger","Connector,Convertor"
+                      ,"RAM",`HDD,SSD`,"KeyBoard",`Mouse,Moniter`,"Cabinet","MotherBoard","SMPS",`Cables,Charger`,`Connector,Convertor`
                       ,"LCD","LED","SmartProjector"
                     ,"AndriodTV","SmartTV"
                     ,"Laser","Thermal","Color","MultiFunction","DotMatrix"
@@ -23,7 +23,7 @@ const ServiceDetails = () => {
                 ,"InteractivePanel65","InteractivePanel75"
               ,"Inventor","OnlineUPS"
               ,"AccessPointController","Wifi-5","Wifi-6"
-            ,"EPABX","IPPBX",
+            ,"EPABX","IPPBX"
             ,"KIOSK","BillingApps"
           ,"POS","InterCom"];
   return (

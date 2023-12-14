@@ -43,6 +43,7 @@ function about() {
                         <img
                           className="img-fluid experienceimg"
                           src="/images/icons/certificatenew.webp"
+                          alt="best services"
                         ></img>
                       </div>
                       <div className="col-9">
@@ -59,6 +60,7 @@ function about() {
                         <img
                           className="img-fluid"
                           src="/images/icons/supportnew.webp"
+                          alt="best services"
                         ></img>
                       </div>
                       <div className="col-9">
@@ -78,14 +80,17 @@ function about() {
                     <img
                       className="img-fluid auth"
                       src="./images/others/iso.svg"
+                      alt="best services"
                     ></img>
                     <img
                       className="img-fluid auth"
                       src="./images/others/gem-auth.svg"
+                      alt="best services"
                     ></img>
                     <img
                       className="img-fluid auth"
                       src="./images/others/bni-logo.png"
+                      alt="best services"
                     ></img>
                   </div>
                 </div>

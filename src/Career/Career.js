@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../css/Career.css";
 import { useEffect } from "react";
 import axios from "axios";
@@ -7,7 +6,6 @@ import { useState } from "react";
 import {  Modal } from 'antd';
 import "../css/careermodal.css";
 import "../css/CareerForm.css"
-import { cardActionAreaClasses } from "@mui/material";
 
 const Career =()=>{
   const [loading, setLoading] = useState(false);
@@ -141,13 +139,12 @@ const Career =()=>{
     });
   },[]);
 
- 
   return (
 
  <div className="container careerpage">
   <div className="rcs">
     <div className='sml'></div>
-    <h5 className="pq">Career</h5>
+    <h2 className="pq">Career</h2>
      </div>
       <div className="row ">
        <div className="col-md-6 car-para1">From startups to Fortune 500s,
@@ -193,7 +190,7 @@ const Career =()=>{
        {values.intro}
       </div>
       <div className="bop1">
-      <button className="btn bop" onClick={showModal}><img src="\images\rightarrow.png"/> 
+      <button className="btn bop" onClick={showModal}><img src="\images\rightarrow.png" alt="career"/> 
       Apply now </button>
       </div>
       
@@ -241,8 +238,9 @@ const Career =()=>{
                    
                 <select name='exp'  onChange={handleInput}>
                             <option>Please Choose an Experience</option>
+                            <option>Fresher</option>
                             <option>1</option>
-                            <option>2</option>
+                            {/* <option>2</option> */}
                             <option>2+</option>
                         </select> 
                     </div>
@@ -267,15 +265,11 @@ const Career =()=>{
        
         </div>
         
-        </Modal>
+    </Modal>
     </div> 
 
   );
 };
-function stripHTMLTags(html) {
-  const temp = document.createElement('div');
-  temp.innerHTML = html;
-  return temp.textContent || temp.innerText;
-}
+
 
 export default Career;

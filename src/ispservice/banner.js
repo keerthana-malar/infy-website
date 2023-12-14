@@ -24,9 +24,9 @@ function Banner() {
                                 </div>
                                 <div className='lists' data-aos="fade-up" data-aos-duration="2000">
                                     <ul className='listlines'>
-                                        <li><i class="fa fa-thin fa-check fa-2xs" style={{ color: "#15e037" }}></i>  Dedicated 24/7 customer care</li>
-                                        <li><i className="fa fa-thin fa-check" style={{ color: '#15e037' }}></i>   Unlimited Data usage</li>
-                                        <li><i className="fa fa-thin fa-check" style={{ color: '#15e037' }}></i>  Plan Starts from Rs.349</li>
+                                        <li><i className="fa fa-thin fa-check fa-2xs isp-banner-points" ></i>  Dedicated 24/7 customer care</li>
+                                        <li><i className="fa fa-thin fa-check isp-banner-points" ></i>   Unlimited Data usage</li>
+                                        <li><i className="fa fa-thin fa-check isp-banner-points" ></i>  Plan Starts from Rs.349</li>
                                     </ul>
                                 </div>
                                 <Link to="/isp-package">

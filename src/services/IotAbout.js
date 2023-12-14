@@ -4,10 +4,7 @@
     import { BsFillPlayFill } from "react-icons/bs";
     import AOS from 'aos';
     import 'aos/dist/aos.css';
-    import { SiMicrosoftteams } from "react-icons/si";
     import { GoGoal } from "react-icons/go";
-    import YouTube from 'react-youtube';
-    import { DefaultPlayer as Video } from 'react-html5video';
     import Modal from 'react-bootstrap/Modal';
     import { Tilt } from 'react-tilt';
     import { FaUserCog } from "react-icons/fa";
@@ -20,7 +17,6 @@
 
         }, []);
 
-        const videoId = "https://youtu.be/CdP9VCScVmQ";
         const [showVideo, setShowVideo] = useState(false);
 
         const defaultOptions = {
@@ -74,7 +70,7 @@
                     <div className='col-lg-6 rightside'>
                         <div className='about'>
                             <div className='smallsss'></div>
-                            <h4 className='aboutline_head'>About us</h4>
+                            <h2 className='aboutline_head'>About us</h2>
                         </div>
                         
                         <div className='paragraph'>

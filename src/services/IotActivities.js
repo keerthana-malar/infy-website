@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import { BsPersonFill } from 'react-icons/bs'
 import '../css/IotActivities.css'
 import {BiSolidPhoneCall } from 'react-icons/bi'
@@ -11,7 +11,7 @@ const IotActivities = () => {
     const [scroll, setScroll] = useState(false)
     
   return (
-    <ScrollTrigger onEnter={() => setScroll(true)}>
+    <ScrollTrigger onEnter={() => setScroll(true)} onExit={() => setScroll(false)}>
         <div className='activities'>
 
             {/* col-1 */}
@@ -69,7 +69,7 @@ const IotActivities = () => {
                     <div style={{display:"flex", flexDirection:"column"}}>
                         <div style={{display:"flex",alignItems:"center"}}>
                         {/* <BsPersonFill className='person-icon'/> */}
-                        <img className='person-icon' style={{color:"#ffc000"}} src='/images/sp.png'/>
+                        <img alt='top it services' className='person-icon' style={{color:"#ffc000"}} src='/images/sp.png'/>
                         {scroll && 
                         <>
                             <CountUp className='activity-nos' start={0} end={68} duration={5} delay={0} /> <span className='activity-nos'>+</span>
@@ -90,7 +90,7 @@ const IotActivities = () => {
                     </div>
                     <div style={{display:"flex", flexDirection:"column"}}>
                         <div style={{display:"flex",alignItems:"center"}}>
-                        <img className='person-icon' style={{color:"#ffc000"}} src='/images/eng.png'/>
+                        <img className='person-icon' style={{color:"#ffc000"}} src='/images/eng.png' alt='best Services'/>
                         {scroll && 
                         <>
                             <CountUp className='activity-nos' start={0} end={12} duration={5} delay={0} /> <span className='activity-nos'>+</span>

@@ -13,7 +13,7 @@ function Webblog() {
   var settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    // speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
    
@@ -187,11 +187,7 @@ function Webblog() {
   );
 }
 
-function stripHTMLTags(html) {
-  const temp = document.createElement('div');
-  temp.innerHTML = html;
-  return temp.textContent || temp.innerText;
-}
+
 
 
 

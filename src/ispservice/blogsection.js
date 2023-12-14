@@ -11,7 +11,7 @@ const HomeBlog = () => {
     var settings = {
         infinite: true,
         dots: false,
-        speed: 500,
+        // speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
         initialSlide: 0,
@@ -56,11 +56,7 @@ const HomeBlog = () => {
             }
         ]
     };
- function dateSlice(id) {
-    const rawDate = blogs[id].date;
-    const blogDate = rawDate.slice(0, 10);
-    return blogDate;
-  }
+
 
 
     useEffect(() => {
@@ -72,7 +68,6 @@ const HomeBlog = () => {
     function date(id) {
         const rawDate = blogs[id].date;
         const timestamp = new Date(rawDate);
-        const month = timestamp.getMonth() + 1;
         const date = timestamp.getDate();
 
         return date
@@ -99,7 +94,7 @@ const HomeBlog = () => {
                     <div className="homeBlogTopCont text-center">
                         <p className="maintitle-blo">Main Blogs</p>
                         <p className="details-blog-content">Discover Valuable Insights on Fast & Reliable Internet in Our Blogs.</p>
-                        <Link to="/mainblogs" className="btns-greens-third" style={{ textDecoration: 'none' }}>
+                        <Link to="/mainblogs" className="btns-greens-third">
                             View Blogs &nbsp; <span className="fa fa-arrow-right" ></span>{" "}
                         </Link>
                     </div>
@@ -136,7 +131,7 @@ const HomeBlog = () => {
                                             {/* <p className="text-muted">{dateSlice(index)}</p> */}
                                             <p className='dw-blogs7'>{date(index)}{month(index)}</p>
                                             <div className="dwblog-tit"><Link className=' blog-inn-conse' to={"/blogs/"+value.id}><span className='blog-main-contentsss' href={"/blogs/" + value.id}>{value.title}</span></Link><br></br></div>
-                                            <div className="btn-blogs"><a className="btns-greens-third" style={{ textDecoration: 'none' }} href={"/blogs/" + value.id}>
+                                            <div className="btn-blogs"><a className="btns-greens-third"  href={"/blogs/" + value.id}>
                                                 READ MORE
                                             </a></div>
                                           

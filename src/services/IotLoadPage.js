@@ -7,7 +7,7 @@ const IotLoadPage = ({setLoad}) => {
         setTimeout(() =>{
             setLoad(false)
         },500)
-    },[])
+    },[setLoad])
   return (
     <div className="centeralised">
     <Spinner animation="border" role="status" className='load'>

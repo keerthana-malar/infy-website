@@ -40,6 +40,7 @@ const HomeAbout = () => {
                         <img
                           className="img-fluid experienceimg"
                           src="/images/icons/certificatenew.webp"
+                          alt="experience"
                         ></img>
                       </div>
                       <div className="col-9">
@@ -56,6 +57,7 @@ const HomeAbout = () => {
                         <img
                           className="img-fluid"
                           src="/images/icons/supportnew.webp"
+                          alt="Quick Support"
                         ></img>
                       </div>
                       <div className="col-9">

@@ -28,7 +28,7 @@ import Termspage from "./footermainpages/Termspage";
 import Delivery from "./footermainpages/Delivery";
 import Refund from "./footermainpages/refund";
 import Quality from "./footermainpages/quality";
-import ServicePage from "./ServicePage";
+// import ServicePage from "./ServicePage";
 import ScrollToTop from "./common/scrollToTop";
 import Partner from "./partner/Partner";
 import CareerPage from "./Career/CareerPage";
@@ -43,11 +43,9 @@ import Packageslles from "./Internetleasedline";
 import Packagessmes from "./smepackage";
 import Packagestv from "./broadband";
 import NewServicePage from "./services/NewServicePage";
-import SubCategoryHead from "./servicepage/SubCategoryHead";
 import ServiceDetails from "./servicepage/ServiceDetails";
-import BestService from "./servicepage/BestService";
 import WebService from "./services/WebService";
-import { useRef } from "react";
+
 
 function App() {
 

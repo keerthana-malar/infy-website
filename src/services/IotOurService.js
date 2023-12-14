@@ -1,19 +1,15 @@
 import React,{useEffect} from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../css/IotOurService.css';
-import { TfiAnnouncement } from "react-icons/tfi";
 import { TfiLayoutMediaCenterAlt } from "react-icons/tfi";
-import { RiGlobalFill } from "react-icons/ri";
 import { SiWebtrees } from "react-icons/si";
 import { RiLightbulbFlashLine } from "react-icons/ri";
-import { GiProgression } from "react-icons/gi";
 import { MdNetworkWifi3Bar } from "react-icons/md";
 import { GiCctvCamera } from "react-icons/gi";
 import { LuLaptop2 } from "react-icons/lu";
 import { Link } from 'react-router-dom';
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { Hidden } from '@mui/material';
 import { FaUps, FaWifi } from 'react-icons/fa';
 
 
@@ -31,7 +27,7 @@ function IotOurService({componentRef}) {
                     <div className=' header1'>
                         <div className='abouts'>
                             <div className='small_line'></div>
-                            <h4 className='aboutline_head'>Services</h4>
+                            <h2 className='aboutline_head'>Services</h2>
                         </div>
                         <p className='service-head'>Discover a world of possibilities with our comprehensive 
                             range of services tailored to meet your needs.</p>
@@ -227,7 +223,7 @@ function IotOurService({componentRef}) {
                            <div className='hiddenrowsa'>
                            <div className='pros'>
                            <div className='divline'></div>
-                   <h2 className='edgehead'> Complete Network Solutions </h2>
+                   <h4 className='edgehead'> Complete Network Solutions </h4>
                    <div className='buttongroup'>
                    <Link to="/services/networking" >
                     <button className='butt btn1'>+</button></Link>
@@ -251,7 +247,7 @@ function IotOurService({componentRef}) {
                            <div className='hiddenrowsb'>
                            <div className='pros'>
                            <div className='divline'></div>
-                   <h2 className='edgehead'> Laptop / Desktop Sales and Service </h2>
+                   <h4 className='edgehead'> Laptop / Desktop Sales and Service </h4>
                    <div className='buttongroup'>
                    <Link to="/services/laptop&desktop" >
                     <button className='butt btn1'>+</button></Link>
@@ -275,7 +271,7 @@ function IotOurService({componentRef}) {
                            <div className='hiddenrowsc'>
                            <div className='pros'>
                            <div className='divline'></div>
-                   <h2 className='edgehead'>  Security Solutions </h2>
+                   <h4 className='edgehead'>  Security Solutions </h4>
                    <div className='buttongroup'>
                    <Link to="/services/cctv">
                     <button className='butt btn1'>+</button></Link>
@@ -299,7 +295,7 @@ function IotOurService({componentRef}) {
                            <div className='hiddenrowsd'>
                            <div className='pros'>
                            <div className='divline'></div>
-                   <h2 className='edgehead'> AV Solutions </h2>
+                   <h4 className='edgehead'> AV Solutions </h4>
                    <div className='buttongroup'>
                    <Link to="/services/Projectors">
                     <button className='butt btn1'>+</button></Link>
@@ -324,7 +320,7 @@ function IotOurService({componentRef}) {
                            <div className='hiddenrowse'>
                            <div className='pros'>
                            <div className='divline'></div>
-                   <h2 className='edgehead'> Computer Accessories </h2>
+                   <h4 className='edgehead'> Computer Accessories </h4>
                    <div className='buttongroup'>
                    <Link to="/services/Accessories">
                     <button className='butt btn1'>+</button></Link>
@@ -347,7 +343,7 @@ function IotOurService({componentRef}) {
                        <div className='hiddenrows44'>
                        <div className='pros'>
                        <div className='divline'></div>
-                   <h2 className='edgehead'>TV </h2>
+                   <h4 className='edgehead'>TV </h4>
                    <div className='buttongroup'>
                    <Link to="/services/TV" >
                     <button className='butt btn1'>+</button></Link>
@@ -372,7 +368,7 @@ function IotOurService({componentRef}) {
                        <div className='hiddenrows55'>
                        <div className='pros'>
                        <div className='divline'></div>
-                   <h2 className='edgehead'> Printer & Scanner</h2>
+                   <h4 className='edgehead'> Printer & Scanner</h4>
                    <div className='buttongroup'>
                    <Link to="/services/Printer&Scanner">
                     <button className='butt btn1'>+</button></Link>
@@ -395,7 +391,7 @@ function IotOurService({componentRef}) {
                        <div className='hiddenrows6'>
                        <div className='pros'>
                        <div className='divline'></div>
-                   <h2 className='edgehead'> Interactive Panel</h2>
+                   <h4 className='edgehead'> Interactive Panel</h4>
                    <div className='buttongroup'>
                    <Link to="/services/InteractivePanel">
                     <button className='butt btn1'>+</button></Link>
@@ -420,7 +416,7 @@ function IotOurService({componentRef}) {
                            <div className='hiddenrowsass'>
                            <div className='pros'>
                            <div className='divline'></div>
-                   <h2 className='edgehead'>  UPS </h2>
+                   <h4 className='edgehead'>  UPS </h4>
                    <div className='buttongroup'>
                    <Link to="/services/UPS" >
                     <button className='butt btn1'>+</button></Link>
@@ -444,7 +440,7 @@ function IotOurService({componentRef}) {
                            <div className='hiddenrowsbbb'>
                            <div className='pros'>
                            <div className='divline'></div>
-                   <h2 className='edgehead'>WIFI</h2>
+                   <h4 className='edgehead'>WIFI</h4>
                    <div className='buttongroup'>
                    <Link to="/services/WIFI" >
                     <button className='butt btn1'>+</button></Link>
@@ -468,7 +464,7 @@ function IotOurService({componentRef}) {
                            <div className='hiddenrowsccc'>
                            <div className='pros'>
                            <div className='divline'></div>
-                   <h2 className='edgehead'>  Point Of Sale </h2>
+                   <h4 className='edgehead'>  Point Of Sale </h4>
                    <div className='buttongroup'>
                    <Link to="/services/Pos">
                     <button className='butt btn1'>+</button></Link>
@@ -492,7 +488,7 @@ function IotOurService({componentRef}) {
                            <div className='hiddenrowsddd'>
                            <div className='pros'>
                            <div className='divline'></div>
-                   <h2 className='edgehead'> InterCom </h2>
+                   <h4 className='edgehead'> InterCom </h4>
                    <div className='buttongroup'>
                    <Link to="/services/InterCom">
                     <button className='butt btn1'>+</button></Link>

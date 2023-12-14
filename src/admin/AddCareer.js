@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import "../css/admin.css";
 import Sidebars from "./sidebar";
 import Alert from "react-bootstrap/Alert";

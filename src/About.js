@@ -7,7 +7,6 @@ import Footer from './common/footer';
 import React, { useEffect } from 'react';
 import AboutBackground from './home/AboutBackground';
 import { Helmet } from "react-helmet";
-import { Link } from 'react-router-dom';
 import './css/about.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';

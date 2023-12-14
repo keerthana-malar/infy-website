@@ -30,7 +30,7 @@ function Finalbanner() {
                             <div className='row Boxss'>
                                 <div className="servicebox col-lg-4" data-aos="fade-right" data-aos-duration="2000">
                                     <div className="serviceContents">
-                                        <div className='des-blog'><i class="fa fa-solid fa-phone phones" style={{ color: "#9cc723" }}></i></div>
+                                        <div className='des-blog'><i class="fa fa-solid fa-phone phones isp-fb-icon" ></i></div>
 
                                         <h2 className="las-blo-title">Customer Services</h2>
                                         <p className="text-muted box-conin">
@@ -42,7 +42,7 @@ function Finalbanner() {
                                 </div>
                                 <div className="servicebox col-lg-4" data-aos="fade-up" data-aos-duration="2000">
                                     <div className="serviceContents">
-                                        <div className='des-blog'><i class="fa fa-solid fa-envelope" style={{ color: "#9bc91d" }}></i></div>
+                                        <div className='des-blog'><i class="fa fa-solid fa-envelope isp-fb-icon"></i></div>
 
                                         <h2 className="las-blo-title">Ticket Support</h2>
                                         <p className="text-muted box-conin">
@@ -54,7 +54,7 @@ function Finalbanner() {
                                 </div>
                                 <div className="servicebox col-lg-4" data-aos="fade-left" data-aos-duration="2000">
                                     <div className="serviceContents">
-                                        <div className='des-blog'><i class="fa fa-user" style={{ color: "#9cc723" }}></i></div>
+                                        <div className='des-blog'><i class="fa fa-user isp-fb-icon" ></i></div>
 
                                         <h2 className="las-blo-title">Insight</h2>
                                         <p className="text-muted box-conin">

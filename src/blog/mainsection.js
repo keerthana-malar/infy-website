@@ -3,7 +3,7 @@ import "../css/blog.css";
 import "../css/common.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import { useNavigate, useParams } from "react-router-dom";
+import {  useParams } from "react-router-dom";
 
 function Mainsection() {
 
@@ -43,7 +43,7 @@ function Mainsection() {
       .catch((err) => {
         console.log(err);
       });
-  }, [id]);
+  }, [id,blogs]);
   const rawDate = blogs.date;
     const blogDate = rawDate.slice(0, 10);
         
@@ -59,7 +59,7 @@ function Mainsection() {
               <div className="image1">
                 <img className="" 
                 src={"../uploads/"+ blogs.img}
-              
+                alt="blogs"
                 >
                 </img>
               </div>

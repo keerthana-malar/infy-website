@@ -14,7 +14,7 @@ import "../css/header.css";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import Fixedline from "../services/Fixedline";
-import { Helmet } from "react-helmet";
+
 
 function header() {
   function DropdownMenu() {
@@ -28,7 +28,7 @@ function header() {
   }
   function DropdownMenuSub(e) {
     let eve = e.target.style.display;
-    if (eve == "block") {
+    if (eve === "block") {
       eve = "none";
     } else {
       eve = "block";
@@ -63,7 +63,7 @@ function header() {
             <div className="d-none d-lg-block col-lg-3">
               <div className="headhr">
                 <p>
-                  <a className="head-link" href="#">
+                  <a className="head-link" href="/contact">
                     <FaRegClock />
                     &nbsp;&nbsp;&nbsp;&nbsp; Office Hours: 10.00 am - 7:00 pm
                   </a>

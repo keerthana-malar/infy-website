@@ -79,7 +79,7 @@ function Portfolio({componentRef1}) {
               <button className="btn portbtn mb-3">COLLEGE WEBSITE OF PHYSIOTHERAPY</button>
               <p className="porttit mb-3">United College Of Physiotherapy</p>
               <span className="linkbx">
-                <a target="_blank" href="https://ucpt.ac.in/"><FaLink /></a>
+                <a target="_blank"  rel="noopener noreferrer" href="https://ucpt.ac.in/"><FaLink /></a>
               </span>
             </div>
           </div>
@@ -89,7 +89,7 @@ function Portfolio({componentRef1}) {
               <button className="btn portbtn mb-3">COLLEGE WEBSITE Of ARTS</button>
               <p className="porttit mb-3">United College of Arts & Science</p>
               <span className="linkbx">
-                <a target="_blank" href="https://ucas.ac.in/"><FaLink /></a>
+                <a target="_blank"  rel="noopener noreferrer" href="https://ucas.ac.in/"><FaLink /></a>
               </span>
             </div>
           </div>
@@ -99,7 +99,7 @@ function Portfolio({componentRef1}) {
               <button className="btn portbtn mb-3">COLLEGE WEBSITE OF PHARMACY</button>
               <p className="porttit mb-3">United College Of Pharmacy</p>
               <span className="linkbx">
-                <a target="_blank" href="https://ucp.org.in/"><FaLink /></a>
+                <a target="_blank"  rel="noopener noreferrer" href="https://ucp.org.in/"><FaLink /></a>
               </span>
             </div>
           </div>
@@ -109,7 +109,7 @@ function Portfolio({componentRef1}) {
               <button className="btn portbtn mb-3">MEDICAL SCIENCE WEBSITE</button>
               <p className="porttit mb-3">United College Of Medical Science</p>
               <span className="linkbx">
-                <a target="_blank" href="https://ucms.edu.in/"><FaLink /></a>
+                <a target="_blank"  rel="noopener noreferrer" href="https://ucms.edu.in/"><FaLink /></a>
               </span>
             </div>
             
@@ -121,7 +121,7 @@ function Portfolio({componentRef1}) {
               <button className="btn portbtn mb-3">COLLEGE WEBSITE OF NURSING</button>
               <p className="porttit mb-3">United College Of Nursing</p>
               <span className="linkbx">
-                <a target="_blank" href="https://ucn.ac.in/"><FaLink /></a>
+                <a target="_blank"  rel="noopener noreferrer" href="https://ucn.ac.in/"><FaLink /></a>
               </span>
             </div>
             
@@ -133,7 +133,7 @@ function Portfolio({componentRef1}) {
               <button className="btn portbtn mb-3">ACCOUNT SITE</button>
               <p className="porttit mb-3">Meethalal Jain & Co</p>
               <span className="linkbx">
-               <a target="_blank" href="https://kaudit.org/"><FaLink /></a>
+               <a target="_blank"  rel="noopener noreferrer" href="https://kaudit.org/"><FaLink /></a>
               </span>
             </div>
             
@@ -145,7 +145,7 @@ function Portfolio({componentRef1}) {
               <button className="btn portbtn mb-3">SCULPTURE SITE</button>
               <p className="porttit mb-3">Niagara Exports LLC</p>
               <span className="linkbx">
-               . <a target="_blank" href="https://niagaraexports.com/"><FaLink /></a>
+               . <a target="_blank"  rel="noopener noreferrer" href="https://niagaraexports.com/"><FaLink /></a>
               </span>
             </div>
             

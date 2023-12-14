@@ -54,42 +54,42 @@ function IotFooter() {
                 </p>
                 <div className="iot-infyicon">
                   <a
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                     href="https://www.facebook.com/infygain/"
                     className="iot-infyicon iot-infyicon1"
                   >
                     <i className="fa fab fa-facebook"></i>
                   </a>
                   <a
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                     href="https://wa.me/919952141444"
                     className="iot-infyicon iot-infyicon1"
                   >
                     <i className="fa fab fa-whatsapp"></i>
                   </a>
                   <a
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                     href="https://www.instagram.com/infygain/"
                     className="iot-infyicon iot-infyicon1"
                   >
                     <i className="fa fab fa-instagram"></i>
                   </a>
                   <a
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                     href="https://www.linkedin.com/company/infygain-technologies/"
                     className="iot-infyicon iot-infyicon1"
                   >
                     <i className="fa fab fa-linkedin"></i>
                   </a>
                   <a
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                     href="https://twitter.com/infygain"
                     className="iot-infyicon iot-infyicon1"
                   >
                     <i className="fa fab fa-twitter"></i>
                   </a>
                   <a
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                     href="https://www.youtube.com/@infygain6707"
                     className="iot-infyicon iot-infyicon1"
                   >
@@ -135,7 +135,7 @@ function IotFooter() {
                   <li>
                     {" "}
                     <Link
-                      target="_blank"
+                      target="_blank"  rel="noopener noreferrer"
                       to="https://infygain.com/onlinestore/"
                     >
                       Online Store

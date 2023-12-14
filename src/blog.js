@@ -204,7 +204,7 @@ function Blogs(){
                   Get a quote &nbsp;&nbsp;<i className="fa fa-arrow-right"></i>
                 </button>
               </a>
-              <a className="head-links" target="_blank" href="https://infygain.com/onlinestore/">
+              <a className="head-links" target="_blank"  rel="noopener noreferrer" href="https://infygain.com/onlinestore/">
                 <FaCartPlus/>
               </a>
             </div>
@@ -431,42 +431,42 @@ function Blogs(){
                 </p>
                 <div className="infyicon">
                   <a
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                     href="https://www.facebook.com/infygain/"
                     className="infyicon infyicon1"
                   >
                     <i className="fa fab fa-facebook"></i>
                   </a>
                   <a
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                     href="https://wa.me/919952141444"
                     className="infyicon infyicon1"
                   >
                     <i className="fa fab fa-whatsapp"></i>
                   </a>
                   <a
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                     href="https://www.instagram.com/infygain/"
                     className="infyicon infyicon1"
                   >
                     <i className="fa fab fa-instagram"></i>
                   </a>
                   <a
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                     href="https://www.linkedin.com/company/infygain-technologies/"
                     className="infyicon infyicon1"
                   >
                     <i className="fa fab fa-linkedin"></i>
                   </a>
                   <a
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                     href="https://twitter.com/infygain"
                     className="infyicon infyicon1"
                   >
                     <i className="fa fab fa-twitter"></i>
                   </a>
                   <a
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                     href="https://www.youtube.com/@infygain6707"
                     className="infyicon infyicon1"
                   >

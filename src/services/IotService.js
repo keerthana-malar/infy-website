@@ -82,7 +82,7 @@ function IotService({scrollToComponent}) {
                     {/* hidden row */}
                     <div>
                       <div className="hidden">
-                        <Link to='/services/networking' target="_blank"><p className="right_para1">Read more<span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
+                        <Link to='/services/networking' target="_blank"  rel="noopener noreferrer"><p className="right_para1">Read more<span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
                         </div>
                     </div>
                     {/* hidden end */}
@@ -107,7 +107,7 @@ function IotService({scrollToComponent}) {
                     {/* hidden row */}
                     <div>
                       <div className="hidden1">
-                      <Link to='/services/laptop&desktop' target="_blank"><p>Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
+                      <Link to='/services/laptop&desktop' target="_blank"  rel="noopener noreferrer"><p>Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
                       
                       </div>
                     </div>
@@ -135,7 +135,7 @@ function IotService({scrollToComponent}) {
                     {/* hidden row */}
                     <div>
                       <div className="hidden2">
-                      <Link to='/services/cctv' target="_blank"><p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
+                      <Link to='/services/cctv' target="_blank"  rel="noopener noreferrer"><p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
                       </div>
                     </div>
                     {/* hidden end */}
@@ -159,7 +159,7 @@ function IotService({scrollToComponent}) {
                     {/* hidden row */}
                     <div>
                       <div className="hidden3">
-                      <Link to='/services/Projectors' target="_blank"><p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
+                      <Link to='/services/Projectors' target="_blank"  rel="noopener noreferrer"><p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
                 </div>
                     </div>
                     {/* hidden end */}

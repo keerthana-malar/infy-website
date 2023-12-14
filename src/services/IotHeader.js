@@ -68,38 +68,38 @@ import {
                   <a
                     className="iot-head-link iot-sm"
                     href="https://www.facebook.com/infygain/"
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                   >
                     <LiaFacebookF />
                   </a>
                   <a
                     className="iot-head-link iot-sm"
                     href="https://www.instagram.com/infygain/"
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                   >
                     <LiaInstagram />
                   </a>
-                  <a className="iot-head-link iot-sm" href="https://twitter.com/infygain"  target="_blank">
+                  <a className="iot-head-link iot-sm" href="https://twitter.com/infygain"  target="_blank"  rel="noopener noreferrer">
                     <LiaTwitter />
                   </a>
                   <a
                     className="iot-head-link iot-sm"
                     href="https://www.linkedin.com/company/infygain-technologies/"
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                   >
                     <LiaLinkedinIn />
                   </a>
                   <a
                     className="iot-head-link iot-sm"
                     href="https://api.whatsapp.com/send/?phone=919952141444&text&type=phone_number&app_absent=0"
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                   >
                     <LiaWhatsapp />
                   </a>
                   <a
                     className="iot-head-link iot-sm"
                     href="https://www.youtube.com/@infygain6707"
-                    target="_blank"
+                    target="_blank"  rel="noopener noreferrer"
                   >
                     <LiaYoutube />
                   </a>
@@ -194,7 +194,7 @@ import {
                     Get a quote &nbsp;&nbsp;<i className="fa fa-arrow-right"></i>
                   </button>
                 </a>
-                <a className="iot-head-link" target="_blank" href="https://infygain.com/onlinestore/">
+                <a className="iot-head-link" target="_blank"  rel="noopener noreferrer" href="https://infygain.com/onlinestore/">
                   <FaCartPlus/>
                 </a>
                 {/* <a className="iot-head-link" target="_blank" href="https://grayquest.com/institute/united-master">

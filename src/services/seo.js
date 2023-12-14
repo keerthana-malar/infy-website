@@ -23,28 +23,28 @@ function Webservice() {
             
           </p>
           <Link to="/contact"><div className="btns head-btn">GET YOUR FREE CONSULT</div></Link>
-          <a className="mid-title headlink" target="_blank" href="https://infygain.com">
+          <a className="mid-title headlink" target="_blank"  rel="noopener noreferrer" href="https://infygain.com">
             www.infygain.com
           </a>
           <div className="soicon">
             <li>
-              <a target="_blank" href="https://www.facebook.com/infygain/">
+              <a target="_blank"  rel="noopener noreferrer" href="https://www.facebook.com/infygain/">
                 <BsFacebook />
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://twitter.com/infygain">
+              <a target="_blank"  rel="noopener noreferrer" href="https://twitter.com/infygain">
                 <BsTwitter />
               </a>
             </li>
         
             <li>
-              <a target="_blank" href="https://www.instagram.com/infygain/">
+              <a target="_blank"  rel="noopener noreferrer" href="https://www.instagram.com/infygain/">
                 <BsInstagram />
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://wa.me/919952141444">
+              <a target="_blank"   rel="noopener noreferrer" href="https://wa.me/919952141444">
                 <BsWhatsapp />
               </a>
             </li>

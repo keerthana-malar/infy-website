@@ -45,13 +45,14 @@ function Iotservices() {
         <meta property="og:description" content={metaContent.og} />
         <meta name="description" content="We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,b server, billing software, graphic design, amc." />
         <meta name="google-site-verification" content="ocR-tZ4yt2LD1ePYD1bR4LK6GYUc0keDJcspEtblHoM" />
+        <meta name="robots" content="index,follow" />                {/* <Link rel="canonical" href="https://infygain.com" /> */}
 
         {/* Open Graph Meta Tags */}
         <meta property="og:title" content="Best IT Solutions Provider in Coimbatore" />
         <meta property="og:description" content="We provide the best computer and laptop service in Coimbatore, along with networking, CCTV, server, billing software, graphic design, and AMC." />
         <meta property="og:image" content="https://infygain.com/images/logo.svg" />
         <meta property="og:url" content="https://infygain.com/" />
-        <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-videp-preview:-1" />
+        {/* <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-videp-preview:-1" /> */}
         {/* <Link rel="canonical" href="https://infygain.com" /> */}
         <meta property="og:type" content="website" />
         {/*  FB Open Graph */}

@@ -12,13 +12,13 @@ function Fixedline() {
         <div>
             <div className='fixedline'>
                 <div className='iconvalue'>
-                    <a href="https://infygain.com/onlinestore/"  target='_blank'>
+                    <a href="https://infygain.com/onlinestore/"  target='_blank'  rel="noopener noreferrer">
                     <ShoppingCartCheckoutIcon data-tooltip-id="my-tooltip-1" className='valuekiller'/> 
                      </a>  
-                     <Link to="/Bookservicepage" target='_blank'><LocalActivityIcon data-tooltip-id="my-tooltip-2" className='valuekiller' /></Link>
+                     <Link to="/Bookservicepage" target='_blank'  rel="noopener noreferrer"><LocalActivityIcon data-tooltip-id="my-tooltip-2" className='valuekiller' /></Link>
                  
                  
-                   <Link to="/Contact" target='_blank'><SupportAgentSharpIcon data-tooltip-id="my-tooltip-3" className='valuekiller'/></Link>
+                   <Link to="/Contact" target='_blank'  rel="noopener noreferrer"><SupportAgentSharpIcon data-tooltip-id="my-tooltip-3" className='valuekiller'/></Link>
                 
                  </div>
                  <ReactTooltip

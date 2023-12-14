@@ -278,7 +278,9 @@ const IotBanner = () => {
 
             {/* arrow */}
             <div className="overlay-arrow">
-            <Link to='/services/networking' target="_blank"><BsArrowRight className="iot-arrow"  /></Link>
+
+            <Link to='/services/networking' target="_blank"  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /></Link>
+
             </div>
           </div>
         </div>
@@ -317,7 +319,9 @@ const IotBanner = () => {
             </div>
             {/* arrow */}
             <div className="overlay-arrow">
-            <Link to='/services/cctv' target="_blank"><BsArrowRight className="iot-arrow" /></Link>
+
+            <Link to='/services/cctv' target="_blank"  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /></Link>
+
             </div>
           </div>
         </div>
@@ -352,8 +356,10 @@ const IotBanner = () => {
             </div>
             {/* arrow */}
             <div className="overlay-arrow">
-            <Link to='/services/Projectors' target="_blank"><BsArrowRight
-                className="arrow-icon iot-arrow"
+
+            <Link to='/services/Projectors' target="_blank"  rel="noopener noreferrer"><BsArrowRight
+                className="arrow-icon"
+                style={{ fontSize: "22px", marginTop: "10px" }}
               /></Link>
             </div>
           </div>
@@ -388,7 +394,9 @@ const IotBanner = () => {
             </div>
             {/* arrow */}
             <div className="overlay-arrow">
-            <Link to='/services/laptop&desktop' target="_blank"><BsArrowRight className="iot-arrow" /> </Link>
+
+            <Link to='/services/laptop&desktop' target="_blank"  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /> </Link>
+
             </div>
           </div>
         </div>

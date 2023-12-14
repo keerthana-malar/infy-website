@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import { GiNetworkBars } from "react-icons/gi";
-import { BiSolidCctv } from "react-icons/bi";
 import { BsArrowRight, BsLaptopFill, BsProjectorFill } from "react-icons/bs";
 import { MdOutlineSecurity } from "react-icons/md";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -11,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const IotBanner = () => {
   // services icons style
-  let iconStyles = { color: "#ffc000", fontSize: "1.5em" };
+
 
   // banner slider usestate
   const [currSlide, setCurrSlide] = useState(0);
@@ -61,21 +60,21 @@ const IotBanner = () => {
               <p
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                style={{ color: "#ffffff" }}
+                className="iot-cnt1"
               >
                 We are lucky 
               </p>
               <p
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                style={{ color: "#ffc000", fontWeight: 900 }}
+                className="iot-cnt2"
               >
              to help 
               </p>
               <p
                 data-aos="fade-up"
                 data-aos-duration="1400"
-                style={{ color: "#ffffff", fontWeight: 900 }}
+                className="iot-cnt3"
               >you out!!!
               </p>
             </div>
@@ -85,7 +84,7 @@ const IotBanner = () => {
               data-aos-duration="2000"
               className="banner-content2 container"
             >
-              <p style={{ color: "#ffffff" }}>
+              <p className="iot-cnt1">
                 We've been lucky to collaborate with
               </p>
               <p style={{ color: "#ffc000" }}>a long list of customers</p>
@@ -124,21 +123,21 @@ const IotBanner = () => {
               <p
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                style={{ color: "#ffffff" }}
+                className="iot-cnt1"
               >
                 We are IT Solution{" "}
               </p>
               <p
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                style={{ color: "#ffc000", fontWeight: 900 }}
+                className="iot-cnt2"
               >
                 Provider and
               </p>
               <p
                 data-aos="fade-up"
                 data-aos-duration="1400"
-                style={{ color: "#ffffff", fontWeight: 900 }}
+                className="iot-cnt3"
               >
                 We make IT Simple
               </p>
@@ -148,7 +147,7 @@ const IotBanner = () => {
               data-aos-duration="2000"
               className="banner-content2 container"
             >
-              <p style={{ color: "#ffffff" }}>
+              <p  className="iot-cnt1">
                 We've been lucky to collaborate with
               </p>
               <p style={{ color: "#ffc000" }}>a long list of customers</p>
@@ -177,21 +176,21 @@ const IotBanner = () => {
               <p
                 data-aos="fade-up"
                 data-aos-duration="1000"
-                style={{ color: "#ffffff" }}
+                className="iot-cnt1"
               >
                 You have the{" "}
               </p>
               <p
                 data-aos="fade-up"
                 data-aos-duration="1200"
-                style={{ color: "#ffc000", fontWeight: 900 }}
+                className="iot-cnt2"
               >
                 Need, We have
               </p>
               <p
                 data-aos="fade-up"
                 data-aos-duration="1400"
-                style={{ color: "#ffffff", fontWeight: 900 }}
+                className="iot-cnt3"
               >
                 the SOLUTION
               </p>
@@ -201,7 +200,7 @@ const IotBanner = () => {
               data-aos-duration="2000"
               className="banner-content2 container"
             >
-              <p style={{ color: "#ffffff" }}>
+              <p  className="iot-cnt1">
                 We've been lucky to collaborate with
               </p>
               <p style={{ color: "#ffc000" }}>a long list of customers</p>
@@ -250,14 +249,14 @@ const IotBanner = () => {
           <div className="bg1">
             <div className="head">
               <div className="sub-head">
-                <h1 className="icon">
-                  <GiNetworkBars style={iconStyles} />
-                </h1>
-                <h1 className="title">
+                <h2 className="icon">
+                  <GiNetworkBars className="iot-iconStyles"  />
+                </h2>
+                <h2 className="title">
                   Complete
                   <br />
                   Network Solutions
-                </h1>
+                </h2>
               </div>
 
               <div className="number">01</div>
@@ -279,7 +278,7 @@ const IotBanner = () => {
 
             {/* arrow */}
             <div className="overlay-arrow">
-            <Link to='/services/networking' target="_blank"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /></Link>
+            <Link to='/services/networking' target="_blank"><BsArrowRight className="iot-arrow"  /></Link>
             </div>
           </div>
         </div>
@@ -288,14 +287,14 @@ const IotBanner = () => {
           <div className="bg2">
             <div className="head">
               <div className="sub-head">
-                <h1 className="icon">
-                  <MdOutlineSecurity style={iconStyles} />
-                </h1>
-                <h1 className="title">
+                <h2 className="icon">
+                  <MdOutlineSecurity className="iot-iconStyles"   />
+                </h2>
+                <h2 className="title">
                   Security
                   <br />
                   Solutions
-                </h1>
+                </h2>
               </div>
 
               <div className="number">02</div>
@@ -318,7 +317,7 @@ const IotBanner = () => {
             </div>
             {/* arrow */}
             <div className="overlay-arrow">
-            <Link to='/services/cctv' target="_blank"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /></Link>
+            <Link to='/services/cctv' target="_blank"><BsArrowRight className="iot-arrow" /></Link>
             </div>
           </div>
         </div>
@@ -327,12 +326,12 @@ const IotBanner = () => {
           <div className="bg3">
             <div className="head">
               <div className="sub-head">
-                <h1 className="icon">
-                  <BsProjectorFill style={iconStyles} />
-                </h1>
-                <h1 className="title">
+                <h2 className="icon">
+                  <BsProjectorFill className="iot-iconStyles"   />
+                </h2>
+                <h2 className="title">
                   AV <br /> Solutions
-                </h1>
+                </h2>
               </div>
 
               <div className="number">03</div>
@@ -354,8 +353,7 @@ const IotBanner = () => {
             {/* arrow */}
             <div className="overlay-arrow">
             <Link to='/services/Projectors' target="_blank"><BsArrowRight
-                className="arrow-icon"
-                style={{ fontSize: "22px", marginTop: "10px" }}
+                className="arrow-icon iot-arrow"
               /></Link>
             </div>
           </div>
@@ -365,12 +363,12 @@ const IotBanner = () => {
           <div className="bg4">
             <div className="head">
               <div className="sub-head">
-                <h1 className="icon">
-                  <BsLaptopFill style={iconStyles} />
-                </h1>
-                <h1 className="title">
+                <h2 className="icon">
+                  <BsLaptopFill className="iot-iconStyles"   />
+                </h2>
+                <h2 className="title">
                   Laptop / Desktop <br /> Sales & Services
-                </h1>
+                </h2> 
               </div>
 
               <div className="number">04</div>
@@ -390,7 +388,7 @@ const IotBanner = () => {
             </div>
             {/* arrow */}
             <div className="overlay-arrow">
-            <Link to='/services/laptop&desktop' target="_blank"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /> </Link>
+            <Link to='/services/laptop&desktop' target="_blank"><BsArrowRight className="iot-arrow" /> </Link>
             </div>
           </div>
         </div>

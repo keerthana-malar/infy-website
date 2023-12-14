@@ -12,45 +12,12 @@ const SubCateContent = () => {
   return (
     <div className='container mt-5 mp-5'>
        
-        {id=="laptop" &&
+
+        {id==="networking" &&
             <><div className='about1'>
             <div className='smallsss1'></div>
-        <h4 className='aboutline_head1'>Vci Packaging</h4>
-            </div>
-            <div className='biod biode'>
-                
-                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
-                    large selection of stock products or create a cost-effective custom solution.</h2>
-                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
-                        manufacturer & supplier in India and worldwide. We are expert in VCI technology.
-                            Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
-                        with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
-                        </p></div>
-                </div>
-                </>
-    }
-        {id=="desktop" &&
-            <><div className='about1'>
-            <div className='smallsss1'></div>
-        <h4 className='aboutline_head1'>Vci Packaging</h4>
-            </div>
-            <div className='biod biode'>
-                
-                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
-                    large selection of stock products or create a cost-effective custom solution.</h2>
-                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
-                        manufacturer & supplier in India and worldwide. We are expert in VCI technology.
-                            Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
-                        with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
-                        </p></div>
-                </div>
-                </>
-    }
-        {id=="networking" &&
-            <><div className='about1'>
-            <div className='smallsss1'></div>
-        <h4 className='aboutline_head1'>
-Complete Network Solutions</h4>
+        <h2 className='aboutline_head1'>
+Complete Network Solutions</h2>
             </div>
             <div className='biod biode'>
                 
@@ -60,10 +27,10 @@ Complete Network Solutions</h4>
                 </div>
                 </>
     }
-        {id=="cctv" &&
+        {id==="cctv" &&
             <><div className='about1'>
             <div className='smallsss1'></div>
-        <h4 className='aboutline_head1'>Security Solutions</h4>
+        <h2 className='aboutline_head1'>Security Solutions</h2>
             </div>
             <div className='biod biode'>
                 
@@ -74,10 +41,10 @@ Complete Network Solutions</h4>
                 </>
     }
 
-        {id=="Accessories" &&
+        {id==="Accessories" &&
             <><div className='about1'>
             <div className='smallsss1'></div>
-        <h4 className='aboutline_head1'>Computer Accessories</h4>
+        <h2 className='aboutline_head1'>Computer Accessories</h2>
             </div>
             <div className='biod biode'>
                 
@@ -87,10 +54,10 @@ Complete Network Solutions</h4>
                 </div>
                 </>
     }
-        {id=="Projectors" &&
+        {id==="Projectors" &&
             <><div className='about1'>
             <div className='smallsss1'></div>
-        <h4 className='aboutline_head1'>Projectors</h4>
+        <h2 className='aboutline_head1'>Projectors</h2>
             </div>
             <div className='biod biode'>
                 
@@ -101,10 +68,10 @@ Complete Network Solutions</h4>
                 </div>
                 </>
     }
-        {id=="TV" &&
+        {id==="TV" &&
             <><div className='about1'>
             <div className='smallsss1'></div>
-        <h4 className='aboutline_head1'>TV</h4>
+        <h2 className='aboutline_head1'>TV</h2>
             </div>
             <div className='biod biode'>
                 
@@ -114,29 +81,12 @@ Complete Network Solutions</h4>
                 </div>
                 </>
     }
-        {id=="Printer&Scanner" &&
-            <>
-            <div className='about1'>
-            <div className='smallsss1'></div>
-        <h4 className='aboutline_head1'>Vci Packaging</h4>
-            </div>
-            <div className='biod biode'>
-                
-                    <h2 className='pill' data-aos="fade-right" data-aos-duration="1500">Rust-X application engineers can recommend and implement the best corrosion management system from our
-                    large selection of stock products or create a cost-effective custom solution.</h2>
-                    <div className='text-muted pol' data-aos="fade-left" data-aos-duration="1500"><p>Rust-X is one of the leading VCI Film
-                        manufacturer & supplier in India and worldwide. We are expert in VCI technology.
-                            Integrated combinations of VCI Packaging protection systems, such as VCI corrosion protection
-                        with acid-gas scavenger and anti-static (ESD) are available to provide the best result.
-                        </p></div>
-                </div>
-                </>
-    }
+       
 
-        {id=="InteractivePanel" &&
+        {id==="InteractivePanel" &&
                     <><div className='about1'>
                     <div className='smallsss1'></div>
-                <h4 className='aboutline_head1'>Interactive Panel</h4>
+                <h2 className='aboutline_head1'>Interactive Panel</h2>
                     </div>
                     <div className='biod biode'>
                         
@@ -146,10 +96,10 @@ Complete Network Solutions</h4>
                         </div>
                         </>
             }
-        {id=="UPS" &&
+        {id==="UPS" &&
                     <><div className='about1'>
                     <div className='smallsss1'></div>
-                <h4 className='aboutline_head1'>UPS</h4>
+                <h2 className='aboutline_head1'>UPS</h2>
                     </div>
                     <div className='biod biode'>
                         
@@ -159,10 +109,10 @@ Complete Network Solutions</h4>
                         </div>
                         </>
             }
-        {id=="WIFI" &&
+        {id==="WIFI" &&
                     <><div className='about1'>
                     <div className='smallsss1'></div>
-                <h4 className='aboutline_head1'>WIFI</h4>
+                <h2 className='aboutline_head1'>WIFI</h2>
                     </div>
                     <div className='biod biode'>
                         
@@ -172,10 +122,10 @@ Complete Network Solutions</h4>
                         </div>
                         </>
             }
-        {id=="Pos" &&
+        {id==="Pos" &&
                     <><div className='about1'>
                     <div className='smallsss1'></div>
-                <h4 className='aboutline_head1'>Point Of Sale</h4>
+                <h2 className='aboutline_head1'>Point Of Sale</h2>
                     </div>
                     <div className='biod biode'>
                         
@@ -185,10 +135,10 @@ Complete Network Solutions</h4>
                         </div>
                         </>
             }
-        {id=="InterCom" &&
+        {id==="InterCom" &&
                     <><div className='about1'>
                     <div className='smallsss1'></div>
-                <h4 className='aboutline_head1'>InterCom</h4>
+                <h2 className='aboutline_head1'>InterCom</h2>
                     </div>
                     <div className='biod biode'>
                         

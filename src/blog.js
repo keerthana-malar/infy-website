@@ -1,6 +1,5 @@
 import Banner from './blog/banner';
 import  Mainsection from './blog/mainsection';
-import Enquiry from "./common/enquiry";
 import "font-awesome/css/font-awesome.css";
 import "./css/footer.css";
 import { TbArrowBigUpFilled } from "react-icons/tb";
@@ -8,8 +7,7 @@ import { TbArrowBigUpFilled } from "react-icons/tb";
 import {
     FaRegClock,
     FaLocationDot,
-    FaCartPlus,
-    FaHeadset
+    FaCartPlus
   } from "react-icons/fa6";
   import { IoMdArrowDropdown } from "react-icons/io";
   import { LiaFacebookF, LiaInstagram, LiaLinkedinIn, LiaWhatsapp, LiaYoutube, LiaTwitter } from "react-icons/lia";
@@ -40,7 +38,7 @@ function Blogs(){
       }
      function DropdownMenuSub(e){
       let eve = e.target.style.display;
-      if(eve == "block"){
+      if(eve === "block"){
           eve="none";
       }
       else{eve = "block" }
@@ -74,7 +72,7 @@ function Blogs(){
             <div className="d-none d-lg-block col-lg-3">
               <div className="headhr">
                 <p>
-                  <a className="head-link" href="#">
+                  <a className="head-link" href="/contact">
                     <FaRegClock />
                     &nbsp;&nbsp;&nbsp;&nbsp; Office Hours: 9:45 am - 7:30 pm
                   </a>
@@ -416,10 +414,10 @@ function Blogs(){
               </div>
 
               <div className="col-lg-3 col-md-4 col-sm-12 nam">
-                <h1 className="infyy">
+                <p className="infyy">
                   <b>ADDRESS</b>
                   <br></br>
-                </h1>
+                </p>
                 <p className="hari text-muted">
                   {" "}
                   Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
@@ -427,10 +425,10 @@ function Blogs(){
                 </p>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-12  nam-icon">
-                <h1 className="infyy-icon">
+                <p className="infyy-icon">
                   <b>FOLLOW US </b>
                   <br></br>
-                </h1>
+                </p>
                 <div className="infyicon">
                   <a
                     target="_blank"
@@ -482,7 +480,7 @@ function Blogs(){
           <div className="smallbox-1">
             <div className="row">
               <div className="col-xs-6 col-sm-3 mb-3 ">
-                <h1 className="mini-title one">Our Services</h1>
+                <p className="mini-title one">Our Services</p>
                 <ul>
                   <li className="quicklinks">
                     <Link to="/Iotservice">IT Supports</Link>
@@ -496,7 +494,7 @@ function Blogs(){
                 </ul>
               </div>
               <div className="col-xs-6 col-sm-3">
-                <h1 className="mini-title two">Quick Links</h1>
+                <p className="mini-title two">Quick Links</p>
                 <ul className="text-muted quicklinks mb-5">
                   {/* <li> <Link to="/">Home</Link></li> */}
                   <li>
@@ -524,7 +522,7 @@ function Blogs(){
                 </ul>
               </div>
               <div className="col-xs-6 col-sm-3">
-                <h1 className="mini-title three">Address</h1>
+                <p className="mini-title three">Address</p>
                 <p className="address">
                   <p>
                     Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
@@ -540,7 +538,7 @@ function Blogs(){
                 </p>
               </div>
               <div className="col-xs-6 col-sm-3">
-                <h1 className="mini-title four">Legal Links</h1>
+                <p className="mini-title four">Legal Links</p>
                 <ul className="text-muted legallinks">
                   <li className="quicklinks"><Link to="/privacypolicy">Privacy Policy</Link></li>
                   <li className="quicklinks"><Link to="/termspage">Terms and Conditions</Link></li>

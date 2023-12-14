@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react'
 import '../css/Commonbtn.css';
 import { IoIosArrowForward } from 'react-icons/io';
-import { Link, useParams } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
-const CommonBtns = ({pid,id,cat}) => {
+const CommonBtns = ({id,cat}) => {
     const [openCategory, setOpenCategory] = useState(null);
     const [openCategory1, setOpenCategory1] = useState(null);
 
@@ -147,7 +147,7 @@ const CommonBtns = ({pid,id,cat}) => {
             setOpenCategory(11)
         }
       
-    },[])
+    },[cat,id])
 
   return (
    <>

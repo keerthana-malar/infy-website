@@ -225,6 +225,7 @@
   position: absolute;
   top: 300px;
   right: 30px;
+  z-index: -1;
 }
 .main-services {
   margin: 0;
@@ -297,7 +298,7 @@
   font-weight: 600;
   line-height: 0.5;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 .sub-titlebx {
   font-family: "Rubik", sans-serif;
@@ -306,7 +307,7 @@
   line-height: 0.9;
   color: #fff;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 .sercon .stt {
   font-weight: 300;
@@ -320,7 +321,7 @@
   font-size: clamp(22px, 2vw, 70px);
   display: flex;
   line-height: 1.3;
-  justify-content: start;
+  justify-content: flex-start;
   margin-bottom: 20px;
 }
 .head-conn {
@@ -563,7 +564,7 @@
   display: flex;
   line-height: 1.3;
   color: #fff;
-  justify-content: start;
+  justify-content: flex-start;
   margin-bottom: 20px;
 }
 .subscribe .sercon {
@@ -587,7 +588,7 @@
   }
   .subx {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
   }
 }

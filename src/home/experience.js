@@ -45,6 +45,7 @@ const ourExp = () => {
                     <img
                       className="img-fluid"
                       src="/images/top-rated (2).svg"
+                      alt="OUR EXPERIENCE"
                     ></img>
                   </div>
                   <div className="ourExpFootContBox">
@@ -58,7 +59,7 @@ const ourExp = () => {
                 </div>
               </div>
               <div className="col-lg-6">
-                <img className="img-fluid" src="/images/Exp .png"></img>
+                <img className="img-fluid" src="/images/Exp .png" alt="10+ years experience"></img>
               </div>
             </div>
           </div>

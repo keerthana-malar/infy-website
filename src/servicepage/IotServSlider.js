@@ -69,37 +69,37 @@ const IotServSlider = () => {
         <div className='service-slider'>
         <Slider className='serv-sliders'  {...settings}>
            <div className='servsl-head'>
-                <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"><img src='/images/iot-network.webp' /></Link>
+                <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"><img src='/images/iot-network.webp' alt='best services'/></Link>
                 <div className=' servsl-overlay'>
                   <p>Complete Network Solutions</p>
                 </div>
            </div>
            <div className='servsl-head'>
-           <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"><img src='/images/iot-laptop.webp'/></Link>
+           <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"><img src='/images/iot-laptop.webp' alt='best services'/></Link>
                 <div className=' servsl-overlay'>
                   <p>Laptop / Desktop Sales & Services</p>
                 </div>
            </div>
            <div className='servsl-head'>
-           <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"> <img src='/images/iot-camera.png'/></Link>
+           <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"> <img src='/images/iot-camera.png' alt='best services'/></Link>
                 <div className=' servsl-overlay'>
                   <p>CCTV / Bio - Metrics</p>
                 </div>
            </div>
            <div className='servsl-head'>
-           <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"><img src='/images/iot-projectors.png'/></Link>
+           <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"><img src='/images/iot-projectors.png' alt='best services'/></Link>
                 <div className=' servsl-overlay'>
                   <p>Projectors / Smart Class Smart Tv</p>
                 </div>
            </div>
            <div className='servsl-head'>
-           <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"><img src='/images/PC.webp'/></Link>
+           <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"><img src='/images/PC.webp' alt='best services'/></Link>
               <div className=' servsl-overlay'>
                   <p>Computer Accessories</p>
                 </div>
            </div>
            <div className='servsl-head'>
-           <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"><img src='/images/lapcon.webp' /></Link>
+           <Link to="https://infygain.com/onlinestore/products/ca/178" target="_blank"><img src='/images/lapcon.webp' alt='best services'/></Link>
                 <div className=' servsl-overlay'>
                   <p>Laptop / Desktop Rent</p>
                 </div>

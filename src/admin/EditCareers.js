@@ -3,7 +3,7 @@ import "../css/admin.css";
 import Sidebars from "./sidebar";
 import Alert from "react-bootstrap/Alert";
 import axios from "axios";
-import { useNavigate, useParams } from "react-router-dom";
+import {useParams } from "react-router-dom";
 import ReactQuill from "react-quill";
 import 'react-quill/dist/quill.snow.css';
 
@@ -45,7 +45,6 @@ const EditCareers = () => {
     intro:""
   });
 
-  const navigate = useNavigate();
   const [errors, setErrors] = useState("");
   const [show, setShow] = useState(false);
   const [showMsg, setShowMsg] = useState(false);
@@ -71,7 +70,7 @@ const EditCareers = () => {
       })
       .catch((err) => {
       });
-  }, [id]);
+  }, [id,values]);
 
 
   

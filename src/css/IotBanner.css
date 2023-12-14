@@ -15,6 +15,30 @@
 .iot-text a{
   color: var(--grey);
 }
+
+.iot-iconStyles{
+  color: #ffc000;
+  font-size: 1.5em;
+}
+.iot-cnt1{
+  color: #ffffff;
+}
+.iot-cnt2{
+  color: #ffc000;
+  font-weight: 900;
+}
+.iot-cnt3{
+ color: #ffffff;
+ font-weight: 900;
+}
+
+
+.iot-arrow{
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+
 /* Banner */
 .banner {
   font-family: 'Roboto', sans-serif;
@@ -132,10 +156,7 @@ color:white;
   margin-left: 5px;
 }
 
-.iot-bgimg{
-  /* animation: shrink 12s linear infinite; */
-  /* z-index: 4; */
-} 
+
 
 .iot-ani-img{
   position: absolute; 
@@ -401,9 +422,7 @@ color:white;
     padding-top: 100px;
     margin: 0px 30px;
   }
-  .banner button{
-    /* margin: 0px 30px; */
-  }
+
   .containers{
     margin-top: 20px;
   }

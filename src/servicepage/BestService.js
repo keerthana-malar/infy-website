@@ -43,7 +43,7 @@ function BestService() {
     {/* 1 */}
     {serv === "Websites" ? (<div className='container lolp mt-5 mb-5'>
         <div className='hkl'>
-        <h1 className='bril mb-5'> Website Development</h1>
+        <h2 className='bril mb-5'> Website Development</h2>
         </div>
         <div className='row'>
             <div className='col-md-4 col-lg-4  popp' data-aos="fade-right"  data-aos-duration="1000">
@@ -154,7 +154,7 @@ function BestService() {
          <div className='nmk1'>
              <div className='libra'>
              </div>
-            <h2>Discover Our Services</h2>
+            <h3>Discover Our Services</h3>
             </div>
         <ul className='text-muted'>
          <li><p>Explore our expertise in creating websites that adapt seamlessly to different devices, ensuring a consistent and user-friendly experience.</p></li>
@@ -186,7 +186,7 @@ function BestService() {
      {/* 2 */}
     {serv === "Seo"? (<div className='container lolp mt-5 mb-5'>
         <div className='hkl'>
-        <h1 className='bril mb-5'> Search Engine Optimization </h1>
+        <h2 className='bril mb-5'> Search Engine Optimization </h2>
         </div>
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right" data-aos-duration="1000">
@@ -303,7 +303,7 @@ function BestService() {
             <div className='nmk1'>
                 <div className='libra1'>
                 </div>
-               <h2>Discover Our Services</h2>
+               <h3>Discover Our Services</h3>
                </div>
            <ul className='text-muted'>
             <li><p>In-depth analysis of your current online presence and Identification of optimization opportunities and challenges.</p></li>
@@ -336,7 +336,7 @@ function BestService() {
     {/* 3 */}
     {serv === "Application"? (<div className='container lolp mt-5 mb-5'>
         <div className='hkl'>
-        <h1 className='bril mb-5'>Application Development</h1>
+        <h2 className='bril mb-5'>Application Development</h2>
         </div>
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right"  data-aos-duration="1000">
@@ -426,7 +426,7 @@ function BestService() {
          <div className='nmk1'>
              <div className='libra2'>
              </div>
-            <h2>Discover Our Services</h2>
+            <h3>Discover Our Services</h3>
             </div>
         <ul className='text-muted'>
          <li><p> Crafting customized web applications aligned with specific business goals and requirements.</p></li>
@@ -456,7 +456,7 @@ function BestService() {
     {/* 4 */}
     {serv === "Designing"? (<div className='container lolp mt-5 mb-5'>
         <div className='hkl'>
-        <h1 className='bril mb-5'>Designing</h1>
+        <h2 className='bril mb-5'>Designing</h2>
         </div>
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right"  data-aos-duration="1000">
@@ -543,7 +543,7 @@ function BestService() {
             <div className='nmk1'>
                 <div className='libra3'>
                 </div>
-               <h2>Discover Our Services</h2>
+               <h3>Discover Our Services</h3>
                </div>
            <ul className='text-muted'>
             <li><p>Crafting unique brand identities through logos, color schemes, and visual elements that resonate with your audience.</p></li>

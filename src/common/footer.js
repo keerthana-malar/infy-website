@@ -38,10 +38,10 @@ function Footer() {
               </div>
 
               <div className="col-lg-3 col-md-4 col-sm-12 nam">
-                <h1 className="infyy">
+                <p className="infyy">
                   <b>ADDRESS</b>
                   <br></br>
-                </h1>
+                </p>
                 <p className="hari text-muted">
                   {" "}
                   Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
@@ -49,10 +49,10 @@ function Footer() {
                 </p>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-12  nam-icon">
-                <h1 className="infyy-icon">
+                <p className="infyy-icon">
                   <b>FOLLOW US </b>
                   <br></br>
-                </h1>
+                </p >
                 <div className="infyicon">
                   <a
                     target="_blank"
@@ -104,7 +104,7 @@ function Footer() {
           <div className="smallbox-1">
             <div className="row">
               <div className="col-xs-6 col-sm-3 mb-3 ">
-                <h1 className="mini-title one">Our Services</h1>
+                <p className="mini-title one">Our Services</p>
                 <ul>
                   <li className="quicklinks">
                     <Link to="/Iotservice">IT Supports</Link>

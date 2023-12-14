@@ -2,7 +2,6 @@ import {
     FaRegClock,
     FaLocationDot,
     FaCartPlus,
-    FaHeadset
   } from "react-icons/fa6";
   import { IoMdArrowDropdown } from "react-icons/io";
   import { LiaFacebookF, LiaInstagram, LiaLinkedinIn, LiaWhatsapp, LiaYoutube, LiaTwitter } from "react-icons/lia";
@@ -12,7 +11,6 @@ import {
   import { HiMenuAlt1 } from "react-icons/hi";
   import { Link } from "react-router-dom";
   import Fixedline from './Fixedline';
-  import { FaCcAmazonPay } from "react-icons/fa";
   
   function IotHeader() {
     function DropdownMenu() {
@@ -26,7 +24,7 @@ import {
     }
    function DropdownMenuSub(e){
     let eve = e.target.style.display;
-    if(eve == "block"){
+    if(eve === "block"){
         eve="none";
     }
     else{eve = "block" }
@@ -58,7 +56,7 @@ import {
               <div className="d-none d-lg-block col-lg-3">
                 <div className="iot-headhr">
                   <p>
-                    <a className="iot-head-link" href="#">
+                    <a className="iot-head-link" href="/contact">
                       <FaRegClock />
                       &nbsp;&nbsp;&nbsp;&nbsp; Office Hours: 9:45 am - 7:30 pm
                     </a>

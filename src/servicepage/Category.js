@@ -344,12 +344,12 @@ const Category = () => {
   return (
     <>
    
-   {id=="laptop&desktop" &&  
+   {id==="laptop&desktop" &&  
         <>
         <div className='container mt-5 mp-5'>
             <div className='about1'>
             <div className='smallsss1'></div>
-        <h4 className='aboutline_head1'>Laptop</h4>
+        <h2 className='aboutline_head1'>Laptop</h2>
             </div>
             <div className='biod biode'>
                 
@@ -365,7 +365,7 @@ const Category = () => {
                             <>
                                 <div className='subcategoryhead' key={index}>
                                 
-                                        <div className="subcategory2 ">
+                                        <div className="subcategory2">
                                         
                                         <img src={`${val.id === 1 ? "/images/gaming-lap.webp" :val.id === 2 ? "/images/Consumerlaptop.webp" :val.id === 3 ? "/images/workstation laptop.webp" : ""}`} alt={val.title}/>
 
@@ -377,7 +377,7 @@ const Category = () => {
                                             <h4>{val.title}</h4>
                                             <div className='pilot'>
                                                 <p>{val.para}</p>
-                                                    <Link target='_blank' to={`/servicedetails/Laptop/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                    <Link target='_blank' to={`/servicedetails/Laptop/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More </button></Link>
                                             </div>
                                         </div>
                                 </div>
@@ -385,12 +385,12 @@ const Category = () => {
                             ))
                         }
 
-                        </div>
+            </div>
          </div>
          <div className='container mt-5 mp-5'>
             <div className='about1'>
             <div className='smallsss1'></div>
-        <h4 className='aboutline_head1'> Desktop</h4>
+        <h2 className='aboutline_head1'> Desktop</h2>
             </div>
             <div className='biod biode'>
                 
@@ -419,7 +419,7 @@ const Category = () => {
                                             <h4>{val.title}</h4>
                                             <div className='pilot'>
                                                 <p>{val.para}</p>
-                                                    <Link target='_blank' to={`/servicedetails/Desktop/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                    <Link target='_blank' to={`/servicedetails/Desktop/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More </button></Link>
                                             </div>
                                         </div>
                                 </div>
@@ -433,7 +433,7 @@ const Category = () => {
         </>
       }
 
-    {id=="networking" &&  
+    {id==="networking" &&  
         <>
          <SubCateContent />
          <div className='container mt-5 mp-5'>
@@ -453,7 +453,7 @@ const Category = () => {
                                             <h4>{val.title}</h4>
                                             <div className='pilot'>
                                                 <p>{val.para}</p>
-                                                    <Link target='_blank' to={`/servicedetails/Networking/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                    <Link target='_blank' to={`/servicedetails/Networking/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More </button></Link>
                                             </div>
                                         </div>
                                 </div>
@@ -466,7 +466,7 @@ const Category = () => {
         </>
                     }
                 
-    {id=="cctv" &&  
+    {id==="cctv" &&  
         <>
          <SubCateContent />
          <div className='container mt-5 mp-5'>
@@ -486,7 +486,7 @@ const Category = () => {
                                             <h4>{val.title}</h4>
                                             <div className='pilot'>
                                                 <p>{val.para}</p>
-                                                    <Link target='_blank' to={`/servicedetails/Cctv/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                    <Link target='_blank' to={`/servicedetails/Cctv/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More </button></Link>
                                             </div>
                                         </div>
                                 </div>
@@ -498,7 +498,7 @@ const Category = () => {
          </div>
         </>
                     }
-    {id=="Accessories" &&  
+    {id==="Accessories" &&  
         <>
          <SubCateContent />
          <div className='container mt-5 mp-5'>
@@ -518,7 +518,7 @@ const Category = () => {
                                             <h4>{val.title}</h4>
                                             <div className='pilot'>
                                                 <p>{val.para}</p>
-                                                    <Link target='_blank' to={`/servicedetails/Accessories/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                    <Link target='_blank' to={`/servicedetails/Accessories/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More </button></Link>
                                             </div>
                                         </div>
                                 </div>
@@ -530,7 +530,7 @@ const Category = () => {
          </div>
         </>
       }
-    {id=="Projectors" &&  
+    {id==="Projectors" &&  
         <>
          <SubCateContent />
          <div className='container mt-5 mp-5'>
@@ -550,7 +550,7 @@ const Category = () => {
                                             <h4>{val.title}</h4>
                                             <div className='pilot'>
                                                 <p>{val.para}</p>
-                                                    <Link target='_blank' to={`/servicedetails/Projectors/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                    <Link target='_blank' to={`/servicedetails/Projectors/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More </button></Link>
                                             </div>
                                         </div>
                                 </div>
@@ -558,11 +558,11 @@ const Category = () => {
                             ))
                         }
 
-                        </div>
+        </div>
          </div>
         </>
       }
-    {id=="TV" &&  
+    {id==="TV" &&  
         <>
          <SubCateContent />
          <div className='container mt-5 mp-5'>
@@ -582,7 +582,7 @@ const Category = () => {
                                             <h4>{val.title}</h4>
                                             <div className='pilot'>
                                                 <p>{val.para}</p>
-                                                    <Link target='_blank' to={`/servicedetails/TV/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                    <Link target='_blank' to={`/servicedetails/TV/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More </button></Link>
                                             </div>
                                         </div>
                                 </div>
@@ -595,7 +595,7 @@ const Category = () => {
         </>
       }
 
-    {id=="Printer&Scanner" &&  
+    {id==="Printer&Scanner" &&  
         <>
         <div className='container mt-5 mp-5'>
             <div className='about1'>
@@ -626,7 +626,7 @@ const Category = () => {
                                             <h4>{val.title}</h4>
                                             <div className='pilot'>
                                                 <p>{val.para}</p>
-                                                    <Link target='_blank' to={`/servicedetails/Printer/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                    <Link target='_blank' to={`/servicedetails/Printer/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More </button></Link>
                                             </div>
                                         </div>
                                 </div>
@@ -665,7 +665,7 @@ const Category = () => {
                                             <h4>{val.title}</h4>
                                             <div className='pilot'>
                                                 <p>{val.para}</p>
-                                                    <Link target='_blank' to={`/servicedetails/Scanner/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                    <Link target='_blank' to={`/servicedetails/Scanner/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More </button></Link>
                                             </div>
                                         </div>
                                 </div>
@@ -679,7 +679,7 @@ const Category = () => {
         </>
       }
 
-      {id=="InteractivePanel" &&  
+      {id==="InteractivePanel" &&  
               <>
               <SubCateContent />
               <div className='container mt-5 mp-5'>
@@ -699,7 +699,7 @@ const Category = () => {
                                                   <h4>{val.title}</h4>
                                                   <div className='pilot'>
                                                       <p>{val.para}</p>
-                                                          <Link target='_blank' to={`/servicedetails/InteractivePanel/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                          <Link target='_blank' to={`/servicedetails/InteractivePanel/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More </button></Link>
                                                   </div>
                                               </div>
                                       </div>
@@ -712,7 +712,7 @@ const Category = () => {
               </>
             } 
       
-      {id=="UPS" &&  
+      {id==="UPS" &&  
               <>
               <SubCateContent />
               <div className='container mt-5 mp-5'>
@@ -732,7 +732,7 @@ const Category = () => {
                                                   <h4>{val.title}</h4>
                                                   <div className='pilot'>
                                                       <p>{val.para}</p>
-                                                          <Link target='_blank' to={`/servicedetails/UPS/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                          <Link target='_blank' to={`/servicedetails/UPS/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More </button></Link>
                                                   </div>
                                               </div>
                                       </div>
@@ -744,7 +744,7 @@ const Category = () => {
               </div>
               </>
             } 
-      {id=="WIFI" &&  
+      {id==="WIFI" &&  
               <>
               <SubCateContent />
               <div className='container mt-5 mp-5'>
@@ -764,7 +764,7 @@ const Category = () => {
                                                   <h4>{val.title}</h4>
                                                   <div className='pilot'>
                                                       <p>{val.para}</p>
-                                                          <Link target='_blank' to={`/servicedetails/WIFI/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                          <Link target='_blank' to={`/servicedetails/WIFI/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More </button></Link>
                                                   </div>
                                               </div>
                                       </div>
@@ -776,7 +776,7 @@ const Category = () => {
               </div>
               </>
             } 
-      {id=="Pos" &&  
+      {id==="Pos" &&  
               <>
               <SubCateContent />
               <div className='container mt-5 mp-5'>
@@ -796,7 +796,7 @@ const Category = () => {
                                                   <h4>{val.title}</h4>
                                                   <div className='pilot'>
                                                       <p>{val.para}</p>
-                                                          <Link target='_blank' to={`/servicedetails/Pos/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                          <Link target='_blank' to={`/servicedetails/Pos/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More </button></Link>
                                                   </div>
                                               </div>
                                       </div>
@@ -808,7 +808,7 @@ const Category = () => {
               </div>
               </>
             } 
-      {id=="InterCom" &&  
+      {id==="InterCom" &&  
               <>
               <SubCateContent />
               <div className='container mt-5 mp-5'>
@@ -828,7 +828,7 @@ const Category = () => {
                                                   <h4>{val.title}</h4>
                                                   <div className='pilot'>
                                                       <p>{val.para}</p>
-                                                          <Link target='_blank' to={`/servicedetails/InterCom/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More &gt;&gt;</button></Link>
+                                                          <Link target='_blank' to={`/servicedetails/InterCom/${val.title.replace(/\s+/g, '')}`}><button className='btn btn-md warrier'>Read More </button></Link>
                                                   </div>
                                               </div>
                                       </div>

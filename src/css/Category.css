@@ -189,6 +189,123 @@
         
     }
 }
+
+/* cat start */
+
+.subcategory1{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 40px;
+    /* width: 100%; */
+    row-gap: 100px;
+    margin: 0 auto !important;
+    text-align: center !important;
+    justify-content: center !important ;
+    align-items: center;
+    transition: all 0.5s;
+}
+.subcategoryhead:hover{
+    .subcategory2 {
+        height: 100px;
+        transition: all 0.5s;
+    }
+    .subcategory2 img{
+       width: 300px;
+        height: auto;
+     }
+    .subcategory3 {
+        height: 220px;
+        transition: all 0.5s;
+        background-color: white;
+    }
+        .pilot{
+         display: block;
+            transition: all 0.5s;
+        }
+    }
+
+    .subcategory2{
+        height: 300px;
+         width: 100%;
+         transition: all 0.5s;
+         border-radius: 20px 20px 0 0;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+     }
+     .subcategory2 img{
+        max-width: 300px;
+        height: 100%;
+     }
+     .subcategory3{
+        height: 50px;
+        /* width: 100%; */
+         background-color: white;
+         box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        transition: all 0.5s;
+        position: relative;
+        padding: 10px;
+        border-radius: 0 0 20px 20px;
+    }
+    .pilot{
+        position: relative;
+        display: none;
+        transition: all 0.5s;
+        padding: 10px;
+    }
+    .warrier{
+        background-color: var(--warning);
+        color: white;
+    }
+    .warrier:hover{
+        background-color:black;
+       
+    }
+
+    @media (width<=1199px){
+     
+        .subcategory1{
+            grid-template-columns: repeat(3,1fr);
+        }
+    }
+
+    @media (width<=991px){
+        .subcategory1{
+            grid-template-columns: repeat(2,1fr);
+            justify-content: center !important;
+        } 
+    }
+
+    @media (width<=767px){
+        .subcategory1{
+            grid-template-columns: repeat(1,1fr);
+            justify-content: center !important;
+         
+        }  
+        .aboutline_head1{
+            font-size: 26px;
+        }
+        
+    
+       
+    }
+    @media (width<=575px){
+        .subcategory1{
+            row-gap: 30px;
+        }
+    }
+    @media (width<=497px){
+        .aboutline_head1{
+            font-size: 30px;
+        } 
+        .subcategory2 img{
+            max-width: 100%;
+             width: 100%;
+         }
+    }
+
+
+/* cat end */
+
+
 @media (width<=1200px){
     .ghj{
         grid-template-columns: repeat(3,1fr);
@@ -224,9 +341,7 @@
    .biod{
     grid-template-columns: repeat(1,1fr);
    }
-   .colspin{
-    /* text-align: center; */
-   }
+
    .iml6{
     height: 300px;
     /* width: 80%; */
@@ -267,8 +382,7 @@ justify-content: center;
     align-items: center;
     justify-content: center;
 }
-.lubricants-logo{
-}
+
 .l-logo{
     margin: 100px 100px;
     

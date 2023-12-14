@@ -8,6 +8,10 @@
     margin-bottom: 5px !important;
     font-size: 20px !important;
 }
+.iot-one,.iot-two,.iot-three,.iot-four,.iot-call,.iot-infyy,.iot-infyy-icon{
+    margin-bottom: 0px !important;
+    margin-bottom: 10px !important;
+}
 .iot-mainfooter a{
     text-decoration: none;
 }

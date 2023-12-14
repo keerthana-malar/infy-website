@@ -1,6 +1,5 @@
 import 'font-awesome/css/font-awesome.css';
 import '../css/ispservice.css';
-import { FaComputer } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 function Services() {

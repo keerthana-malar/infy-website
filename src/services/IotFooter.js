@@ -37,10 +37,10 @@ function IotFooter() {
               </div>
 
               <div className="col-lg-3 col-md-4 col-sm-12 iot-nam">
-                <h1 className="iot-infyy">
+                <p className="iot-infyy">
                   <b>ADDRESS</b>
                   <br></br>
-                </h1>
+                </p>
                 <p className="iot-hari text-muted">
                   {" "}
                   Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
@@ -48,10 +48,10 @@ function IotFooter() {
                 </p>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-12  iot-nam-icon">
-                <h1 className="iot-infyy-icon">
+                <p className="iot-infyy-icon">
                   <b>FOLLOW US </b>
                   <br></br>
-                </h1>
+                </p>
                 <div className="iot-infyicon">
                   <a
                     target="_blank"
@@ -103,7 +103,7 @@ function IotFooter() {
           <div className="iot-smallbox-1">
             <div className="row">
               <div className="col-xs-6 col-sm-3 mb-3 ">
-                <h1 className="iot-mini-title iot-one">Our Services</h1>
+                <p className="iot-mini-title iot-one">Our Services</p>
                 <ul>
                   <li className="iot-quicklinks">
                     <Link to="/Iotservice">IT Supports</Link>
@@ -117,7 +117,7 @@ function IotFooter() {
                 </ul>
               </div>
               <div className="col-xs-6 col-sm-3">
-                <h1 className="iot-mini-title iot-two">Quick Links</h1>
+                <p className="iot-mini-title iot-two">Quick Links</p>
                 <ul className="text-muted iot-quicklinks mb-5">
                   {/* <li> <Link to="/">Home</Link></li> */}
                   <li>
@@ -145,7 +145,7 @@ function IotFooter() {
                 </ul>
               </div>
               <div className="col-xs-6 col-sm-3">
-                <h1 className="iot-mini-title iot-three">Address</h1>
+                <p className="iot-mini-title iot-three">Address</p>
                 <p className="iot-address">
                   <p>
                     Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
@@ -161,7 +161,7 @@ function IotFooter() {
                 </p>
               </div>
               <div className="col-xs-6 col-sm-3">
-                <h1 className="iot-mini-title iot-four">Legal Links</h1>
+                <p className="iot-mini-title iot-four">Legal Links</p>
                 <ul className="text-muted iot-legallinks">
                   <li><Link to="/privacypolicy">Privacy Policy</Link></li>
                   <li><Link to="/termspage">Terms and Conditions</Link></li>

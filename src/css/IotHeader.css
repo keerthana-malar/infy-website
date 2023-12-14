@@ -37,6 +37,7 @@
 .iot-head-link{
     color: #c7c2c2;
     text-decoration:none;
+    cursor: pointer;
 }
 .iot-head-link:hover{
     color: var(--iotpri);
@@ -151,7 +152,7 @@
     }
     .iot-menu-box{
         flex-basis: 70%;
-        justify-content: end;
+        justify-content: flex-end;
         margin-right: 10px;
     }
 }
@@ -176,7 +177,7 @@ margin-bottom: 10px;
 @media (width <= 981px) {
     .iot-dropDownMenu{
      display: flex;
-     justify-content: end;
+     justify-content: flex-end;
      flex-basis: 70%;
      font-size: 30px;
      color: white;

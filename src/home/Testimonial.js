@@ -23,10 +23,10 @@ const Testimonial = () => {
                   <div className="clientBox">
                     <div className="clientImgBox">
                       <div className="clientImg">
-                        <img className="img-fluid" src="/images/abt.webp"></img>
+                        <img className="img-fluid" src="/images/abt.webp" alt="Testimonial"></img>
                       </div>
                       <div className="clientQuotes">
-                        <img src="/images/Quote.svg"></img>
+                        <img src="/images/Quote.svg" alt="quote"></img>
                       </div>
                     </div>
                     <div className="clientName">
@@ -63,7 +63,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/webs1.png"></img>
+                  <img className="img-fluid" src="/images/webs1.png" alt="Complete Networking"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/services/networking">Complete Networking</Link></p>
@@ -88,7 +88,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid 5" src="/images/fingerprint-modified.png"></img>
+                  <img className="img-fluid 5" src="/images/fingerprint-modified.png" alt="Security Systems"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/services/cctv">Security Systems</Link></p>
@@ -111,7 +111,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/webs6.png"></img>
+                  <img className="img-fluid" src="/images/webs6.png" alt="Web /Graphic Design"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/ServiceSeo">Web /Graphic Design</Link></p>
@@ -136,7 +136,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/cctvs1.png"></img>
+                  <img className="img-fluid" src="/images/cctvs1.png" alt="AV Solutions"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/services/Projectors">AV Solutions</Link></p>
@@ -161,7 +161,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/laptops.png"></img>
+                  <img className="img-fluid" src="/images/laptops.png" alt="Computer & Laptop"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/services/laptop&desktop">Computer & Laptop</Link></p>

@@ -1,5 +1,5 @@
 import "../css/enquiry.css";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Alert from "react-bootstrap/Alert";
 import axios from "axios";
 

@@ -3,7 +3,6 @@ import Banner from './main-blog/banner';
 import Footer from './common/footer';
 import Enquiry from "./common/enquiry";
 import { Helmet } from "react-helmet";
-import { Link } from 'react-router-dom';
 import Mainsection from './main-blog/mainsection';
 // Get the current URL using window.location.href
 const currentUrl = window.location.href;

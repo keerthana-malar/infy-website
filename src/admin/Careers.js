@@ -1,15 +1,14 @@
 import "../css/admin.css";
 import Sidebars from "./sidebar";
-import { Link, json } from "react-router-dom";
+import { Link} from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { BiSolidCommentEdit } from "react-icons/bi";
 import { MdDeleteForever } from "react-icons/md";
-import { useNavigate } from "react-router-dom";
 import DataTable from "react-data-table-component";
 
 const Careers = () => {
-  const navigate = useNavigate();
+ 
 
   const columns = [
     {

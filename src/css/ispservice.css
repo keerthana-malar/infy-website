@@ -17,7 +17,18 @@
     color: #fff;
 } */
 
-
+.isp-banner-points{
+    color: #15e037;
+}
+.isp-fb-icon{
+ color: #9cc723;
+}
+.isp-fs-icon1{
+ color: #a3bc24;
+}
+.isp-fs-icon2{
+ color: #9cc723;
+}
 .topbannersection {
     height: 600px;
     background-image: url("../images/banner/INFY\ BOY-green-web.webp");
@@ -530,7 +541,7 @@
     font-weight: 700;
     font-size: 12px;
     margin-top: 50px;
-
+    text-decoration: none;
 }
 
 .banner-thi-con {

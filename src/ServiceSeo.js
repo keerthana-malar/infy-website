@@ -67,8 +67,10 @@ function ServiceSeo({ componentRef1 }) {
         <meta property="og:description" content="We provide the best computer and laptop service in Coimbatore, along with networking, CCTV, server, billing software, graphic design, and AMC." />
         <meta property="og:image" content="https://infygain.com/images/logo.svg" />
         <meta property="og:url" content="https://infygain.com/" />
-        <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-videp-preview:-1" />
+        {/* <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-videp-preview:-1" /> */}
         {/* <Link rel="canonical" href="https://infygain.com" /> */}
+        <meta name="robots" content="index,follow" />                {/* <Link rel="canonical" href="https://infygain.com" /> */}
+
         <meta property="og:type" content="website" />
         {/*  FB Open Graph */}
         <meta property="og:title" content="Best computer/laptop sales and service in coimbatore" />

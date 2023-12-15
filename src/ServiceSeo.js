@@ -28,7 +28,7 @@ let metaContent = {
 
 }
 
-function ServiceSeo({ componentRef1 }) {
+function ServiceSeo() {
   useEffect(() => {
     AOS.init();
     AOS.refresh();

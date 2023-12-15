@@ -26,10 +26,10 @@ function Home() {
     return (
         <>
             <Helmet>
-                <title>home</title>
+                {/* <title></title> */}
                 <meta charset="UTF-8" />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
-                {/* <title>{metaContent.ogt}</title> */}
+                <title>{metaContent.ogt}</title>
                 <link rel="canonical" href={currentUrl} />
 
                 <link rel="icon" href={"favicon.ico"} />

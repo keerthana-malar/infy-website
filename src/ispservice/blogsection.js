@@ -65,6 +65,8 @@ const HomeBlog = () => {
 
         });
     }, []);
+
+    console.log("isp",blogs)
     function date(id) {
         const rawDate = blogs[id].date;
         const timestamp = new Date(rawDate);

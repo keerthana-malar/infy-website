@@ -25,6 +25,8 @@ const IotBlogs = () => {
     });
   }, []);
 
+  console.log("It",blogs)
+
   function dateSlice(id){
     const rawDate = blogs[id].date;
     const blogDate = rawDate.slice(0, 10);

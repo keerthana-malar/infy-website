@@ -245,161 +245,169 @@ const IotBanner = () => {
       {/* services */}
 
       <div className="container heading">
-        <div className="containers container ">
-          <div className="bg1">
-            <div className="head">
-              <div className="sub-head">
-                <h2 className="icon">
-                  <GiNetworkBars className="iot-iconStyles"  />
-                </h2>
-                <h2 className="title">
-                  Complete
-                  <br />
-                  Network Solutions
-                </h2>
+      <Link className="ban-serv-link"  to='/services/networking' target="_blank"  rel="noopener noreferrer">
+          <div className="containers container ">
+            <div className="bg1">
+              <div className="head">
+                <div className="sub-head">
+                  <h2 className="icon">
+                    <GiNetworkBars className="iot-iconStyles"  />
+                  </h2>
+                  <h2 className="title">
+                    Complete
+                    <br />
+                    Network Solutions
+                  </h2>
+                </div>
+
+                <div className="number">01</div>
+              </div>
+            </div>
+
+            <div className="overlay1">
+              <div className="texts">
+                <h4>
+                  {" "}
+                  Network <br /> Solutions{" "}
+                </h4>
+                <div className="texts-line" />
+                <p>
+                  Complete Networking refers to the integration of all the
+                  different components of a computer network into a single
+                </p>
               </div>
 
-              <div className="number">01</div>
+              {/* arrow */}
+              <div className="overlay-arrow">
+
+              <Link to='/services/networking' target="_blank"  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /></Link>
+
+              </div>
             </div>
           </div>
+        </Link>
 
-          <div className="overlay1">
-            <div className="texts">
-              <h4>
-                {" "}
-                Network <br /> Solutions{" "}
-              </h4>
-              <div className="texts-line" />
-              <p>
-                Complete Networking refers to the integration of all the
-                different components of a computer network into a single
-              </p>
+        <Link className="ban-serv-link"  to='/services/cctv' target="_blank"  rel="noopener noreferrer">
+          <div className="containers container ">
+            <div className="bg2">
+              <div className="head">
+                <div className="sub-head">
+                  <h2 className="icon">
+                    <MdOutlineSecurity className="iot-iconStyles"   />
+                  </h2>
+                  <h2 className="title">
+                    Security
+                    <br />
+                    Solutions
+                  </h2>
+                </div>
+
+                <div className="number">02</div>
+              </div>
             </div>
 
-            {/* arrow */}
-            <div className="overlay-arrow">
-
-            <Link to='/services/networking' target="_blank"  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /></Link>
-
-            </div>
-          </div>
-        </div>
-
-        <div className="containers container ">
-          <div className="bg2">
-            <div className="head">
-              <div className="sub-head">
-                <h2 className="icon">
-                  <MdOutlineSecurity className="iot-iconStyles"   />
-                </h2>
-                <h2 className="title">
+            <div className="overlay1">
+              <div className="texts">
+                <h4>
+                  {" "}
                   Security
                   <br />
-                  Solutions
-                </h2>
+                  Services
+                </h4>
+                <div className="texts-line" />
+                <p>
+                  Enhance security with our advanced CCTV and biometric systems
+                  for comprehensive protection and peace of mind.
+                </p>
               </div>
+              {/* arrow */}
+              <div className="overlay-arrow">
 
-              <div className="number">02</div>
+              <Link to='/services/cctv' target="_blank"  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /></Link>
+
+              </div>
             </div>
           </div>
+        </Link>
 
-          <div className="overlay1">
-            <div className="texts">
-              <h4>
-                {" "}
-                Security
-                <br />
-                Services
-              </h4>
-              <div className="texts-line" />
-              <p>
-                Enhance security with our advanced CCTV and biometric systems
-                for comprehensive protection and peace of mind.
-              </p>
+        <Link className="ban-serv-link"  to='/services/Projectors' target="_blank"  rel="noopener noreferrer">
+          <div className="containers container">
+            <div className="bg3">
+              <div className="head">
+                <div className="sub-head">
+                  <h2 className="icon">
+                    <BsProjectorFill className="iot-iconStyles"   />
+                  </h2>
+                  <h2 className="title">
+                    AV <br /> Solutions
+                  </h2>
+                </div>
+
+                <div className="number">03</div>
+              </div>
             </div>
-            {/* arrow */}
-            <div className="overlay-arrow">
 
-            <Link to='/services/cctv' target="_blank"  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /></Link>
-
-            </div>
-          </div>
-        </div>
-
-        <div className="containers container">
-          <div className="bg3">
-            <div className="head">
-              <div className="sub-head">
-                <h2 className="icon">
-                  <BsProjectorFill className="iot-iconStyles"   />
-                </h2>
-                <h2 className="title">
+            <div className="overlay1 ">
+              <div className="texts">
+                <h4>
+                  {" "}
                   AV <br /> Solutions
-                </h2>
+                </h4>
+                <div className="texts-line" />
+                <p>
+                  Enhance your space with our seamless AV solutions for effortless
+                  and immersive audio-visual experiences.{" "}
+                </p>
               </div>
+              {/* arrow */}
+              <div className="overlay-arrow">
 
-              <div className="number">03</div>
+              <Link to='/services/Projectors' target="_blank"  rel="noopener noreferrer"><BsArrowRight
+                  className="arrow-icon"
+                  style={{ fontSize: "22px", marginTop: "10px" }}
+                /></Link>
+              </div>
             </div>
           </div>
+        </Link>
 
-          <div className="overlay1 ">
-            <div className="texts">
-              <h4>
-                {" "}
-                AV <br /> Solutions
-              </h4>
-              <div className="texts-line" />
-              <p>
-                Enhance your space with our seamless AV solutions for effortless
-                and immersive audio-visual experiences.{" "}
-              </p>
+        <Link className="ban-serv-link" to='/services/laptop&desktop' target="_blank"  rel="noopener noreferrer">
+          <div className="containers container">
+            <div className="bg4">
+              <div className="head">
+                <div className="sub-head">
+                  <h2 className="icon">
+                    <BsLaptopFill className="iot-iconStyles"   />
+                  </h2>
+                  <h2 className="title">
+                    Laptop / Desktop <br /> Sales & Services
+                  </h2> 
+                </div>
+
+                <div className="number">04</div>
+              </div>
             </div>
-            {/* arrow */}
-            <div className="overlay-arrow">
 
-            <Link to='/services/Projectors' target="_blank"  rel="noopener noreferrer"><BsArrowRight
-                className="arrow-icon"
-                style={{ fontSize: "22px", marginTop: "10px" }}
-              /></Link>
-            </div>
-          </div>
-        </div>
-
-        <div className="containers container">
-          <div className="bg4">
-            <div className="head">
-              <div className="sub-head">
-                <h2 className="icon">
-                  <BsLaptopFill className="iot-iconStyles"   />
-                </h2>
-                <h2 className="title">
+            <div className="overlay1">
+              <div className="texts">
+                <h4>
                   Laptop / Desktop <br /> Sales & Services
-                </h2> 
+                </h4>
+                <div className="texts-line" />
+                <p>
+                  Desktop sales and service providers offer a range of services to
+                  help individuals and businesses with their desktop computing
+                </p>
               </div>
+              {/* arrow */}
+              <div className="overlay-arrow">
 
-              <div className="number">04</div>
+              <Link to='/services/laptop&desktop' target="_blank"  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /> </Link>
+
+              </div>
             </div>
           </div>
-
-          <div className="overlay1">
-            <div className="texts">
-              <h4>
-                Laptop / Desktop <br /> Sales & Services
-              </h4>
-              <div className="texts-line" />
-              <p>
-                Desktop sales and service providers offer a range of services to
-                help individuals and businesses with their desktop computing
-              </p>
-            </div>
-            {/* arrow */}
-            <div className="overlay-arrow">
-
-            <Link to='/services/laptop&desktop' target="_blank"  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /> </Link>
-
-            </div>
-          </div>
-        </div>
+        </Link>
       </div>
     </div>
   );

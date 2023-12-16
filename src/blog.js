@@ -7,7 +7,8 @@ import { TbArrowBigUpFilled } from "react-icons/tb";
 import {
     FaRegClock,
     FaLocationDot,
-    FaCartPlus
+    FaCartPlus,
+    FaPhone
   } from "react-icons/fa6";
   import { IoMdArrowDropdown } from "react-icons/io";
   import { LiaFacebookF, LiaInstagram, LiaLinkedinIn, LiaWhatsapp, LiaYoutube, LiaTwitter } from "react-icons/lia";
@@ -56,8 +57,8 @@ function Blogs(){
             <div className="d-none d-md-block col-md-6 col-lg-3">
               <p>
                 <a className="head-link" href="/contact">
-                  <FaLocationDot />
-                  &nbsp;&nbsp;&nbsp;&nbsp; Coimbatore, Tamil Nadu 641035
+                <FaPhone  />
+                  &nbsp;&nbsp;&nbsp;&nbsp; +91  9952141444
                 </a>{" "}
               </p>
             </div>

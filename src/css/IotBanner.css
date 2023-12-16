@@ -9,6 +9,13 @@
   --dot : #aaa;
   --overlay: rgba(255, 255, 255, 1);
 }
+
+
+.ban-serv-link{
+  color: #000;
+}
+
+
 .overlay-arrow a{
   color: #000;
 }

@@ -38,6 +38,7 @@ const Dashboard = () => {
         </div>
         <div className="mainContBox p-5">
           <h1 className="mb-5">DashBoard</h1>
+
           <div className="userDetailsBox mb-3">
             <div className="dataBox wlcmBox">
               <h1 className="">Welcome Admin</h1>
@@ -45,7 +46,9 @@ const Dashboard = () => {
               <p>Welcome admin panel 😊</p>
             </div>
           </div>
-          <div className="blogDetailsBox">
+
+          <div className="row blogDetailsBox">
+
             <div className="dataBox">
               <h5>Total Blogs</h5>
               <h1>{data.totalBlogs}</h1>
@@ -62,6 +65,7 @@ const Dashboard = () => {
               <h5>Total Active Categories</h5>
               <h1>{data.activeCategories}</h1>
             </div>
+
           </div>
         </div>
       </div>

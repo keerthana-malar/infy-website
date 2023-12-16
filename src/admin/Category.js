@@ -29,6 +29,7 @@ const Category = () => {
       selector: (row) => {
         return (
           <>
+          <div className="action-buttons">
             <Link to={`/editcategory/${row.id}`} className="btn btn-warning">
               <BiSolidCommentEdit />
             </Link>
@@ -36,6 +37,7 @@ const Category = () => {
             <Link onClick={()=>{handleDelete(row.id)}} className="btn btn-danger">
               <MdDeleteForever />
             </Link>
+             </div>
           </>
         );
       },
@@ -89,6 +91,7 @@ const Category = () => {
 
   return (
     <>
+    
       <div className="adminMainBox">
         <div className="sideBarBox">
           <Sidebars />
@@ -102,12 +105,14 @@ const Category = () => {
               </Link>
             </button>
           </div>
+          <div className="table-responsive">
           <DataTable
             pagination
             columns={columns}
             data={categories}
             customStyles={tableCustomStyles}
           />
+        </div>
         </div>
       </div>
     </>

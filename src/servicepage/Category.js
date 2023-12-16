@@ -476,7 +476,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/anolog.webp" :val.id === 2 ? "/images/IP.webp" : val.id === 3 ? "/images/dvr.webp" :val.id === 4 ? "/images/nvr.webp" :val.id === 5 ? "/images/360.webp" :val.id === 6 ? "/images/ptz.webp" :""}`} alt={val.title}/>
+                                        <img src={`${val.id === 1 ? "/images/anolog.webp" :val.id === 2 ? "/images/IP-Network-Mini-Bullet-Camera.webp" : val.id === 3 ? "/images/DVRCCTV.webp" :val.id === 4 ? "/images/NVRCCTV-CAMERA.webp" :val.id === 5 ? "/images/360.webp" :val.id === 6 ? "/images/ptz.webp" :""}`} alt={val.title}/>
 
                                         </div>
 

@@ -21,10 +21,10 @@ import { useLocation } from 'react-router-dom';
 const currentUrl = window.location.href;
 
 let metaContent = {
-  des: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,b server, billing software, graphic design, amc.",
-  key: "computer,laptop,cctv,printer,AMC,networking,web development,graphics",
-  ogt: "Best IT Solutions Provider in Coimbatore",
-  og: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,b server, billing software, graphic design, amc.",
+  des: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera, server, billing software, graphic design, amc.",
+  key: "computer,laptop,cctv,printer,AMC,networking,website,graphics,isp",
+  ogt: "WEB-service",
+  og: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera, server, billing software, graphic design, amc.",
 
 }
 
@@ -47,57 +47,47 @@ function ServiceSeo() {
   }, [location])
   return (
     <>
-      <Helmet>
-        <title>WEB-service</title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        {/* <title>{metaContent.ogt}</title> */}
-        <link rel="canonical" href={currentUrl} />
+       
+        <Helmet>
 
-        <link rel="icon" href={"favicon.ico"} />
-        <meta name="description" content={metaContent.des} />
-        <meta name="keywords" content={metaContent.key} />
-        <meta property="og:title" content={metaContent.ogt} />
-        <meta property="og:description" content={metaContent.og} />
-        <meta name="description" content="We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,b server, billing software, graphic design, amc." />
-        <meta name="google-site-verification" content="ocR-tZ4yt2LD1ePYD1bR4LK6GYUc0keDJcspEtblHoM" />
+                {/* <title></title> */}
+                <meta charset="UTF-8" />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                {/* <title>{metaContent.ogt}</title> */}
+                <link rel="canonical" href={currentUrl} />
 
-        {/* Open Graph Meta Tags */}
-        <meta property="og:title" content="Best IT Solutions Provider in Coimbatore" />
-        <meta property="og:description" content="We provide the best computer and laptop service in Coimbatore, along with networking, CCTV, server, billing software, graphic design, and AMC." />
-        <meta property="og:image" content="https://infygain.com/images/logo.svg" />
-        <meta property="og:url" content="https://infygain.com/" />
-        {/* <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-videp-preview:-1" /> */}
-        {/* <Link rel="canonical" href="https://infygain.com" /> */}
-        <meta name="robots" content="index,follow" />                {/* <Link rel="canonical" href="https://infygain.com" /> */}
+                <link rel="icon" href={"favicon.ico"} />
+                <meta name="description" content={metaContent.des} />
+                <meta name="keywords" content={metaContent.key} />
+                
+                <meta name="google-site-verification" content="ocR-tZ4yt2LD1ePYD1bR4LK6GYUc0keDJcspEtblHoM" />
 
-        <meta property="og:type" content="website" />
-        {/*  FB Open Graph */}
-        <meta property="og:title" content="Best computer/laptop sales and service in coimbatore" />
-        <meta property="og:description" content="Infygain Technologies is the best computer and laptop, networking service in coimbatore and also we best in cctv camera, server, billing software, graphic design, amc." />
-        <meta property="og:image" content="https://infygain.com/images/logo.png" />
-        <meta property="og:url" content="https://infygain.com" />
-        <meta property="og:site_name" content="Infygain Technologies" />
-        {/*  END FB Open Graph */}
+                {/* Open Graph Meta Tags */}
+                <meta property="og:title" content={metaContent.ogt} />
+                <meta property="og:description" content={metaContent.og} />
+                <meta property="og:image" content={metaContent.logo} />
+                <meta property="og:url" content="https://infygain.com/" />
+                <meta property="og:type" content="website" />
+                <meta property="og:site_name" content="Infygain Technologies" />
+                {/*  END FB Open Graph */}
 
-        {/* Twitter Card Meta Tags */}
+                {/* Twitter Card Meta Tags */}
 
-        <meta name="twitter:card" content="Best computer/laptop sales and service in coimbatore" />
-        <meta name="twitter:site" content="Infygain Technologies" />
-        <meta name="twitter:title" content="Infygain Technologies" />
-        <meta name="twitter:description" content="We are provide the best computer and laptop, networking service in coimbatore and also we best in cctv camera, server, billing software, graphic design, amc." />
-        <meta name="twitter:image" content="https://infygain.com/images/logo.png" />
-        {/* Robot tag */}
-        <meta name="robots" content="index, follow" />
-        <meta
-          name="google-site-verification"
-          content="ocR-tZ4yt2LD1ePYD1bR4LK6GYUc0keDJcspEtblHoM"
-        />
-        {/* End Robot tag */}
-        
-        {/* Facebook Pixel Code */}
-        <script type="text/javascript">
-          {`
+                <meta name="twitter:card" content="Best computer/laptop sales and service in coimbatore" />
+                <meta name="twitter:site" content="Infygain Technologies" />
+                <meta name="twitter:title" content="Infygain Technologies" />
+                <meta name="twitter:card" content="summary" />
+
+                <meta name="twitter:description" content="We are provide the best computer and laptop, networking service in coimbatore and also we best in cctv camera, server, billing software, graphic design, amc." />
+                <meta name="twitter:image" content={metaContent.logo} />
+                {/* Robot tag */}
+                <meta name="robots" content="index, follow" />
+                
+                {/* End Robot tag */}
+
+                {/* Facebook Pixel Code */}
+            <script type="text/javascript">
+               {`
                !function(f,b,e,v,n,t,s)
                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -109,21 +99,24 @@ function ServiceSeo() {
                fbq('init', '1093378958018811');
                fbq('track', 'PageView');
                `}
-        </script>
-        <noscript>{`
+            </script>
+            
+            <noscript>{`
                <img height="1" width="1" style="display:none"
                src="https://www.facebook.com/tr?id=1093378958018811&ev=PageView&noscript=1"
                />
                `}
-        </noscript>
-        {/* End Facebook Pixel Code */}
-        {/* Organization schema*/}
+            </noscript>
+            {/* End Facebook Pixel Code */}
+            
+                {/* Organization schema*/}
 
-        <script type="application/ld+json">
-          {`
+                <script type="application/ld+json">
+                {`
   {
     "@context": "https://schema.org",
     "@type": "Organization",
+
     "name": "Infygain Technologies",
     "legalName": "Computer Service",
     "email": "info@infygain.com",
@@ -144,10 +137,11 @@ function ServiceSeo() {
     }
   }
   `}
-        </script>
-        {/* Breadcrumb schema*/}
-        <script type="application/ld+json">
-          {`
+</script>
+                {/* Breadcrumb schema*/}
+
+<script type="application/ld+json">
+{`
   {
     "@context": "https://schema.org/",
     "@type": "BreadcrumbList",
@@ -215,7 +209,7 @@ function ServiceSeo() {
     ]
   }
   `}
-        </script>
+</script>
 
         {/* Local business 31/5/23 schema */}
         <script type="application/ld+json">
@@ -259,9 +253,9 @@ function ServiceSeo() {
         {/* End local business schema */}
 
 
-        {/* Google Analytics */}
-        <script>
-          {`
+                {/* Google Analytics */}
+                <script>
+                    {`
   (function (i, s, o, g, r, a, m) {
     i["GoogleAnalyticsObject"] = r;
     (i[r] =
@@ -285,12 +279,12 @@ function ServiceSeo() {
   ga("create", "UA-XXXXX-Y", "auto");
   ga("send", "pageview");
 `}
-        </script>
-        {/* End Google Analytics */}
+                </script>
+                {/* End Google Analytics */}
 
-        {/* Google Tag Manager */}
-        <script>
-          {`
+                {/* Google Tag Manager */}
+                <script>
+                    {`
   (function (w, d, s, l, i) {
     w[l] = w[l] || [];
     w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
@@ -302,14 +296,14 @@ function ServiceSeo() {
     f.parentNode.insertBefore(j, f);
   })(window, document, "script", "dataLayer", "GTM-NRCN7RF");
 `}
-        </script>
-        {/* End Google Tag Manager */}
+                </script>
+                {/* End Google Tag Manager */}
 
-        {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-89FZ8YHYVL"></script>
+                {/* Google tag (gtag.js) */}
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-89FZ8YHYVL"></script>
 
-        <script>
-          {`
+                <script>
+                    {`
   window.dataLayer = window.dataLayer || [];
   function gtag() {
     dataLayer.push(arguments);
@@ -317,13 +311,13 @@ function ServiceSeo() {
   gtag("gtag("js", new Date());
           gtag("config", "G-89FZ8YHYVL");
         `}
-        </script>
-        {/* End Google tag (gtag.js) */}
+                </script>
+                {/* End Google tag (gtag.js) */}
 
-        {/* Google optimizer */}
-        <script src="https://www.googleoptimize.com/optimize.js?id=OPT-NWGHP4M"></script>
-        {/* End Google optimizer */}
-      </Helmet>
+                {/* Google optimizer */}
+                <script src="https://www.googleoptimize.com/optimize.js?id=OPT-NWGHP4M"></script>
+                {/* End Google optimizer */}
+            </Helmet>
       <Header />
       <div className='webservice'>
         <Seo />

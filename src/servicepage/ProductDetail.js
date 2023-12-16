@@ -976,9 +976,11 @@ const DotMatrix = printer.filter((val, index) => (
 
   return (
     <div className='container'>
+
                 <div className= "opaque1">
                 <div className='row overall'>
-                    <div className='col-md-4' >
+
+                    <div className='col-md-4' id='column2'>
                         <CommonBtns id={id} cat={cat}/>
                     </div> 
                     

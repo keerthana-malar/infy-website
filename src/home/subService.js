@@ -46,7 +46,7 @@ function SubService() {
                 </g>
               </svg>
               <img className="hexIcon" src="/images/icons/cloud.png" alt="best Enterprise Solutions"></img>
-              <Link to={"/iotservice"}>
+              <Link to={"/services/laptop&desktop"}>
                 <div
                   className="subServiceCont service1"
                   onMouseOver={() => {
@@ -79,7 +79,7 @@ function SubService() {
                 src="/images/icons/data-security.png"
                 alt="best Security Solutions"
               ></img>
-              <Link to={"/iotservice"}>
+              <Link to={"/services/cctv"}>
                 <div
                   className="subServiceCont service2"
                   onMouseOver={() => {
@@ -108,7 +108,7 @@ function SubService() {
                 </g>
               </svg>
               <img className="hexIcon" src="/images/icons/iot.png" alt="best Network Solutions"></img>
-              <Link to={"/iotservice"}>
+              <Link to={"/services/networking"}>
                 <div
                   className="subServiceCont service3"
                   onMouseOver={() => {
@@ -137,7 +137,7 @@ function SubService() {
                 </g>
               </svg>
               <img className="hexIcon" src="/images/icons/audio.png" alt="best AV Solutions"></img>
-              <Link to={"/iotservice"}>
+              <Link to={"/services/Projectors"}>
                 <div
                   className="subServiceCont service4"
                   onMouseOver={() => {
@@ -170,7 +170,7 @@ function SubService() {
                 src="/images/icons/wifi-router.png"
                 alt="best Infrastructure"
               ></img>
-              <Link to={"/iotservice"}>
+              <Link to={"/services/InterCom"}>
                 <div
                   className="subServiceCont service5"
                   onMouseOver={() => {

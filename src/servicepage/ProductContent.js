@@ -4,7 +4,7 @@ import { FaCartPlus } from 'react-icons/fa'
 const ProductContent = ({value}) => {
    
   return (
-    <div className='col-md-8' key={value.name}>
+    <div  id='column1' className='col-md-8' key={value.name}>
     <div className='firstlineflex'>
         <div className='yellowbreak'></div>
         <div className='firstheading'>

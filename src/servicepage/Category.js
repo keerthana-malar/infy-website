@@ -368,9 +368,7 @@ const Category = () => {
                                         <div className="subcategory2">
                                         
                                         <img src={`${val.id === 1 ? "/images/gaming-lap.webp" :val.id === 2 ? "/images/Consumerlaptop.webp" :val.id === 3 ? "/images/workstation laptop.webp" : ""}`} alt={val.title}/>
-
-                                  
-
+                                        
                                         </div>
 
                                         <div className='subcategory3'>
@@ -441,7 +439,7 @@ const Category = () => {
                     {
                         Networking.map((val,index) => (
                             <>
-                                <div className='subcategoryhead' key={index}>
+                                <div className=' subcategoryhead' key={index}>
                                 
                                         <div className="subcategory2 ">
                                         
@@ -464,7 +462,7 @@ const Category = () => {
                         </div>
          </div>
         </>
-                    }
+    }
                 
     {id==="cctv" &&  
         <>

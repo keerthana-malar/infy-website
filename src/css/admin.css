@@ -52,6 +52,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
 }
 
 /* Dashboard  */
@@ -81,27 +82,13 @@
   width: 300px;
 }
 
-
-
-/* admin.css */
-
-.action-buttons {
-  display: flex;
-  gap: 10px; /* Adjust the space between buttons as needed */
+@media screen and (max-width:767px){
+  .blogDetailsBox {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
-
-.action-buttons a {
-  text-decoration: none;
-  color: #fff; /* Button text color */
-  padding: 5px 10px;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.action-buttons .btn-warning {
-  background-color: #ffc107; /* Customize the warning button color */
-}
-
-.action-buttons .btn-danger {
-  background-color: #dc3545; /* Customize the danger button color */
+@media screen and (max-width:567px){
+  .blogDetailsBox {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

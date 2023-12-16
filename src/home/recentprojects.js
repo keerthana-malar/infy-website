@@ -24,17 +24,18 @@ const RecentProjects = () => {
               <div className="col-md-4 p-5 p-lg-2 p-md-1">
                 <div className="reProBoxInn">
                   <div className="img-box">
+                  <Link to="/ServiceSeo">
                     <img
                       className="img-fluid"
                       src="/images/seo/trip.webp"
                       alt="our projects"
-                    ></img>
+                    ></img></Link>
                   </div>
                   <div className="cont-box d-flex justify-content-center align-items-center text-center">
                     <div className="cont-box-inn">
                       <p className="sm-title text-muted m-0 ">DEVELOPMENT</p>
                       <p className="mid-titles m-0">
-                        <span className="links">Travel Website</span>
+                       <Link to="/ServiceSeo"> <span className="links">Travel Website</span></Link>
                       </p>
                     </div>
                   </div>
@@ -43,17 +44,19 @@ const RecentProjects = () => {
               <div className="col-md-4 p-5 p-lg-2 p-md-1">
                 <div className="reProBoxInn">
                   <div className="img-box">
+                  <Link to="/ServiceSeo">
                     <img
                       className="img-fluid"
                       src="/images/seo/seoweb.webp"
                       alt="our projects"
                     ></img>
+                    </Link>
                   </div>
                   <div className="cont-box d-flex justify-content-center align-items-center text-center">
                     <div className="cont-box-inn">
                       <p className="sm-title text-muted m-0">SEO</p>
                       <p className="mid-titles m-0">
-                        <span className="links">Digital Marketing</span>
+                      <Link to="/ServiceSeo"><span className="links">Digital Marketing</span> </Link>
                       </p>
                     </div>
                   </div>
@@ -62,17 +65,18 @@ const RecentProjects = () => {
               <div className="col-md-4 p-5 p-lg-2 p-md-1">
                 <div className="reProBoxInn">
                   <div className="img-box">
+                  <Link to="/ServiceSeo">
                     <img
                       className="img-fluid"
                       src="/images/seo/bsite.webp"
                       alt="our projects"
-                    ></img>
+                    ></img>   </Link>
                   </div>
                   <div className="cont-box d-flex justify-content-center align-items-center text-center">
                     <div className="cont-box-inn">
                       <p className="sm-title text-muted m-0">DEVELOPMENT</p>
                       <p className="mid-titles m-0">
-                        <span className="links">Ecommerce Website</span>
+                      <Link to="/ServiceSeo"><span className="links">Ecommerce Website</span> </Link>
                       </p>
                     </div>
                   </div>

@@ -19,7 +19,7 @@ function Home() {
         key: "computer,laptop,cctv,printer,AMC,networking,web development,graphics",
         ogt: "Best IT Solutions Provider in Coimbatore",
         og: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,b server, billing software, graphic design, amc.",
-
+        logo: "https://infygain.com/images/icons/infy-logo.svg"
     }
     // Get the current URL using window.location.href
     const currentUrl = window.location.href;
@@ -35,23 +35,15 @@ function Home() {
                 <link rel="icon" href={"favicon.ico"} />
                 <meta name="description" content={metaContent.des} />
                 <meta name="keywords" content={metaContent.key} />
-                <meta property="og:title" content={metaContent.ogt} />
-                <meta property="og:description" content={metaContent.og} />
-                <meta name="description" content="We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,b server, billing software, graphic design, amc." />
+                
                 <meta name="google-site-verification" content="ocR-tZ4yt2LD1ePYD1bR4LK6GYUc0keDJcspEtblHoM" />
 
                 {/* Open Graph Meta Tags */}
-                <meta property="og:title" content="Best IT Solutions Provider in Coimbatore" />
-                <meta property="og:description" content="We provide the best computer and laptop service in Coimbatore, along with networking, CCTV, server, billing software, graphic design, and AMC." />
-                <meta property="og:image" content="https://infygain.com/images/logo.svg" />
+                <meta property="og:title" content={metaContent.ogt} />
+                <meta property="og:description" content={metaContent.og} />
+                <meta property="og:image" content={metaContent.logo} />
                 <meta property="og:url" content="https://infygain.com/" />
-                <meta name="robots" content="index,follow" />                {/* <Link rel="canonical" href="https://infygain.com" /> */}
                 <meta property="og:type" content="website" />
-                {/*  FB Open Graph */}
-                <meta property="og:title" content="Best computer/laptop sales and service in coimbatore" />
-                <meta property="og:description" content="Infygain Technologies is the best computer and laptop, networking service in coimbatore and also we best in cctv camera, server, billing software, graphic design, amc." />
-                <meta property="og:image" content="https://infygain.com/images/logo.png" />
-                <meta property="og:url" content="https://infygain.com" />
                 <meta property="og:site_name" content="Infygain Technologies" />
                 {/*  END FB Open Graph */}
 
@@ -63,15 +55,12 @@ function Home() {
                 <meta name="twitter:card" content="summary" />
 
                 <meta name="twitter:description" content="We are provide the best computer and laptop, networking service in coimbatore and also we best in cctv camera, server, billing software, graphic design, amc." />
-                <meta name="twitter:image" content="https://infygain.com/images/logo.png" />
+                <meta name="twitter:image" content={metaContent.logo} />
                 {/* Robot tag */}
                 <meta name="robots" content="index, follow" />
-                <meta
-                    name="google-site-verification"
-                    content="ocR-tZ4yt2LD1ePYD1bR4LK6GYUc0keDJcspEtblHoM"
-                />
                 
                 {/* End Robot tag */}
+
                 {/* Facebook Pixel Code */}
             <script type="text/javascript">
                {`
@@ -87,6 +76,7 @@ function Home() {
                fbq('track', 'PageView');
                `}
             </script>
+            
             <noscript>{`
                <img height="1" width="1" style="display:none"
                src="https://www.facebook.com/tr?id=1093378958018811&ev=PageView&noscript=1"

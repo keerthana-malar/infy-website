@@ -80,3 +80,28 @@
 .blogImg{
   width: 300px;
 }
+
+
+
+/* admin.css */
+
+.action-buttons {
+  display: flex;
+  gap: 10px; /* Adjust the space between buttons as needed */
+}
+
+.action-buttons a {
+  text-decoration: none;
+  color: #fff; /* Button text color */
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.action-buttons .btn-warning {
+  background-color: #ffc107; /* Customize the warning button color */
+}
+
+.action-buttons .btn-danger {
+  background-color: #dc3545; /* Customize the danger button color */
+}

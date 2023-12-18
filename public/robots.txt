@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://yourwebsite.com/sitemap.xml
+Sitemap: https://infygain.com/sitemap.xml

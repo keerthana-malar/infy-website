@@ -15,10 +15,10 @@ function Home() {
     // var slickSlide = document.querySelector(".slick-track");
     // slickSlide.classList.add("d-none");
     let metaContent = {
-        des: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,b server, billing software, graphic design, amc.",
-        key: "computer,laptop,cctv,printer,AMC,networking,web development,graphics",
+        des: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,server, billing software, graphic design, amc.",
+        key: "computer,laptop,cctv,printer,AMC,networking,website,graphics,isp",
         ogt: "Best IT Solutions Provider in Coimbatore",
-        og: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,b server, billing software, graphic design, amc.",
+        og: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,server, billing software, graphic design, amc.",
         logo: "https://infygain.com/images/icons/infy-logo.svg"
     }
     // Get the current URL using window.location.href

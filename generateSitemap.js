@@ -17,7 +17,6 @@ const pages = [
   '/services/networking',
   '/services/laptop&desktop',
   '/services/cctv',
-  '/services/cctv',
   '/services/Projectors',
   '/services/Accessories',
   '/services/TV',

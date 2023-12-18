@@ -85,7 +85,7 @@ const EditBlog = () => {
       .catch((err) => {
         console.log(err);
       });
-  }, [id,values]);
+  }, [id]);
 
 
 
@@ -149,6 +149,8 @@ const EditBlog = () => {
       );
     }
   }
+
+
 
   return (
     <>

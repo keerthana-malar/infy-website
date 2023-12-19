@@ -13,6 +13,7 @@ function Footer() {
   };
 
 
+
   return (
     <footer>
       <div className="mainfooter">
@@ -257,6 +258,7 @@ function Footer() {
         <TbArrowBigUpFilled className="topIcon" />
       </div>
     </footer>
+    
   );
 }
 

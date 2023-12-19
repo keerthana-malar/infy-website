@@ -38,6 +38,7 @@
     color: #c7c2c2;
     text-decoration:none;
     cursor: pointer;
+    font-weight: 600;
 }
 .iot-head-link:hover{
     color: var(--iotpri);

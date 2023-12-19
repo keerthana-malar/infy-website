@@ -344,7 +344,7 @@ const Category = () => {
   return (
     <>
    
-   {id==="laptop&desktop" &&  
+   {id==="laptopanddesktop" &&  
         <>
         <div className='container mt-5 mp-5'>
             <div className='about1'>
@@ -367,7 +367,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2">
                                         
-                                        <img src={`${val.id === 1 ? "/images/gaming-lap.webp" :val.id === 2 ? "/images/Consumerlaptop.webp" :val.id === 3 ? "/images/workstation laptop.webp" : ""}`} alt={val.title}/>
+                                        <img className={val.id === 1 ? "cat-lap1":val.id === 2 ? "cat-lap3":val.id === 3? "cat-lap2":""} src={`${val.id === 1 ? "/images/cl2.webp" :val.id === 2 ? "/images/cl3.webp" :val.id === 3 ? "/images/work-lap.webp" : ""}`} alt={val.title}/>
                                         
                                         </div>
 
@@ -407,7 +407,7 @@ const Category = () => {
                                         <div className="subcategory2 ">
                                         
 
-                                        <img src={`${val.id === 1 ? "/images/brandeddesk.webp":val.id === 2 ? "/images/desktop-computer.webp" :val.id === 3 ? "/images/workstation-inside.webp":val.id === 4 ? "/images/gaming-desktop.webp" : ""}`} alt={val.title} />
+                                        <img className={val.id === 2 ? "cat-desk2":val.id === 3? "cat-desk1":""}  src={`${val.id === 1 ? "/images/brandeddesk.webp":val.id === 2 ? "/images/assmble-desk.webp" :val.id === 3 ? "/images/work-desk.webp":val.id === 4 ? "/images/gaming-desktop.webp" : ""}`} alt={val.title} />
 
              
 
@@ -508,7 +508,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/ram.webp" :val.id === 2 ? "/images/hdd.webp":val.id === 3 ? "/images/keyboard.webp" :val.id === 4 ? "/images/mouse.webp":val.id === 5 ? "/images/cabinet.webp" :val.id === 6 ? "/images/motherboard.webp":val.id === 7 ? "/images/SMPS.webp":val.id === 8 ? "/images/cable.webp":val.id === 9 ? "/images/connector.webp":""}`} alt={val.title}/>
+                                        <img className={val.id === 4 ? "cat-acc1":val.id === 7 ? "cat-lap1":val.id === 2 ? "cat-lap3":""} src={`${val.id === 1 ? "/images/ram.webp" :val.id === 2 ? "/images/hdd.webp":val.id === 3 ? "/images/keyboard.webp" :val.id === 4 ? "/images/mm.webp":val.id === 5 ? "/images/cabinet.webp" :val.id === 6 ? "/images/motherboard.webp":val.id === 7 ? "/images/smps.webp":val.id === 8 ? "/images/cable.webp":val.id === 9 ? "/images/connector.webp":""}`} alt={val.title}/>
 
                                         </div>
 
@@ -540,7 +540,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/led projector.webp" : val.id === 2 ? "/images/lcd-projector.webp" :val.id === 3 ? "/images/smart-projectors.webp":""}`} alt={val.title}/>
+                                        <img  className={val.id === 3 ? "cat-pro1":""} src={`${val.id === 1 ? "/images/led projector.webp" : val.id === 2 ? "/images/lcd-projector.webp" :val.id === 3 ? "/images/smart-projectors.webp":""}`} alt={val.title}/>
 
                                         </div>
 
@@ -572,7 +572,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/androidtv.webp" : val.id === 2 ? "/images/smart-tv.webp" :""}`} alt={val.title}/>
+                                        <img className={val.id === 1 ? "cat-tv1":val.id === 2 ? "cat-tv2":""} src={`${val.id === 1 ? "/images/and-tv.jpg" : val.id === 2 ? "/images/smart-tv.webp" :""}`} alt={val.title}/>
 
                                         </div>
 
@@ -616,7 +616,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img src={`${val.id === 1 ? "/images/laser.webp" :val.id === 2 ? "/images/thermal.webp":val.id === 3 ? "/images/color-printer.webp" :val.id === 4 ? "/images/multi.webp":val.id === 5 ? "/images/dot-matrix.webp" :""}`} alt={val.title}/>
+                                        <img className={val.id === 1 ? "cat-pri1":val.id === 2? "cat-pri2":val.id === 3 ? "cat-pri3":val.id === 4? "cat-pri4":val.id === 5? "cat-pri5":""}  src={`${val.id === 1 ? "/images/laser.webp" :val.id === 2 ? "/images/thermal.webp":val.id === 3 ? "/images/color-printer.webp" :val.id === 4 ? "/images/multi.webp":val.id === 5 ? "/images/dot-matrix.webp" :""}`} alt={val.title}/>
 
                                         </div>
 
@@ -689,7 +689,7 @@ const Category = () => {
                                       
                                               <div className="subcategory2 ">
                                               
-                                              <img src={`${val.id === 1 ? "/images/interactivepanel65.webp" :val.id === 2 ? "/images/interactivepanel75.webp" : ""}`} alt={val.title}/>
+                                              <img className={val.id === 2 ? "cat-ip2":""} src={`${val.id === 1 ? "/images/interactivepanel65.webp" :val.id === 2 ? "/images/interactivepanel75.webp" : ""}`} alt={val.title}/>
 
                                               </div>
 
@@ -722,7 +722,7 @@ const Category = () => {
                                       
                                               <div className="subcategory2 ">
                                               
-                                              <img src={`${val.id === 1 ? "/images/inventor.webp" :val.id === 2 ? "/images/onlineups.webp" : ""}`} alt={val.title}/>
+                                              <img className={val.id === 1 ? "cat-ups1":val.id === 2? "cat-ups2":""} src={`${val.id === 1 ? "/images/inventer.webp" :val.id === 2 ? "/images/onlineups.webp" : ""}`} alt={val.title}/>
 
                                               </div>
 
@@ -754,7 +754,7 @@ const Category = () => {
                                       
                                               <div className="subcategory2 ">
                                               
-                                              <img src={`${val.id === 1 ? "/images/acespoint.webp" : val.id === 2 ? "/images/5gwifi.webp": val.id === 3 ? "/images/6gwifi.webp" : ""}`} alt={val.title} />
+                                              <img className={val.id === 2 ? "cat-wifi2":val.id === 3 ? "cat-wifi3":""} src={`${val.id === 1 ? "/images/acespoint.webp" : val.id === 2 ? "/images/wifi5.webp": val.id === 3 ? "/images/wifi6.webp" : ""}`} alt={val.title} />
 
                                               </div>
 
@@ -786,7 +786,7 @@ const Category = () => {
                                       
                                               <div className="subcategory2 ">
                                               
-                                              <img src={`${val.id === 1 ? "/images/posoverall.webp":val.id === 2 ? "/images/kiosk.webp":val.id === 3 ? "/images/billingapp-web.webp" : ""}`} alt={val.title}/>
+                                              <img className={val.id === 3 ? "cat-desk2":""} src={`${val.id === 1 ? "/images/posoverall.webp":val.id === 2 ? "/images/kiosk.webp":val.id === 3 ? "/images/billingapp-web.webp" : ""}`} alt={val.title}/>
 
                                               </div>
 

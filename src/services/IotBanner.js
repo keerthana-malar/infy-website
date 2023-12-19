@@ -371,7 +371,7 @@ const IotBanner = () => {
           </div>
         </Link>
 
-        <Link className="ban-serv-link" to='/services/laptop&desktop' target="_blank"  rel="noopener noreferrer">
+        <Link className="ban-serv-link" to='/services/laptopanddesktop' target="_blank"  rel="noopener noreferrer">
           <div className="containers container">
             <div className="bg4">
               <div className="head">
@@ -402,7 +402,7 @@ const IotBanner = () => {
               {/* arrow */}
               <div className="overlay-arrow">
 
-              <Link to='/services/laptop&desktop' target="_blank"  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /> </Link>
+              <Link to='/services/laptopanddesktop' target="_blank"  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /> </Link>
 
               </div>
             </div>

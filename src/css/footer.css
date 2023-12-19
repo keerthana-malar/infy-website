@@ -5,6 +5,19 @@
     color:white;
     
 }
+
+.link-foot{
+    color: #fff;
+}
+
+.head-link-footer{
+    text-decoration: none;
+    color: var(--sec);
+}
+.cmn-footer{
+    color: #000;
+}
+
 .smallbox-1 li{
     color:#fff;
 }

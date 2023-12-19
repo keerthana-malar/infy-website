@@ -46,7 +46,7 @@ function SubService() {
                 </g>
               </svg>
               <img className="hexIcon" src="/images/icons/cloud.png" alt="best Enterprise Solutions"></img>
-              <Link to={"/services/laptop&desktop"}>
+              <Link to={"/services/laptopanddesktop"}>
                 <div
                   className="subServiceCont service1"
                   onMouseOver={() => {

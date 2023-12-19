@@ -8,6 +8,7 @@
 .head-link{
     color: #c7c2c2;
     text-decoration:none;
+    font-weight: 600;
 }
 .head-link:hover{
     color: var(--sec);

@@ -31,8 +31,10 @@ function IotFooter() {
                 <p className="iot-call">
                   <b>CALL FOR SUPPORT</b>
                 </p>
+        
                 <p className="iot-phone">
-                +91 99521 41444<br></br>+91 9087724444
+                <a  href="tel:+91 9952141444"> +91 99521 41444</a><br></br>
+                <a  href="tel:+91 9952141444">+91 9087724444</a>
                 </p>
               </div>
 
@@ -43,8 +45,9 @@ function IotFooter() {
                 </p>
                 <p className="iot-hari text-muted">
                   {" "}
+                  <Link to={"/contact"} className="iot-addr">
                   Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                  Coimbatore, Tamil Nadu 641035.
+                  Coimbatore, Tamil Nadu 641035.</Link>
                 </p>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-12  iot-nam-icon">
@@ -147,16 +150,18 @@ function IotFooter() {
               <div className="col-xs-6 col-sm-3">
                 <p className="iot-mini-title iot-three">Address</p>
                 <p className="iot-address">
+                <Link className="cmn-footer text-muted"  to={"/contact"}>
                   <p>
                     Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
                     Coimbatore, Tamil Nadu 641035.
-                  </p>
+                  </p></Link>
                 </p>
                 <hr className="iot-hrline"></hr>
-                <p className="iot-address iot-ph">+91 &nbsp;9952141444</p>
-                <p className="iot-address iot-ph">+91 &nbsp;9087724444</p>
+                <p className="iot-address iot-ph"> <a className="link-foot" href="tel:+91 9952141444">+91 &nbsp;9952141444</a></p>
+                <p className="iot-address iot-ph"> <a className="link-foot" href="tel:+91 9087724444">+91 &nbsp;9087724444</a></p>
                 <p className="iot-address">
-                info@infygain.com
+                <a className="link-foot" href="mailto:info@infygain.com">
+                info@infygain.com</a>
                   {/* <b>info@infygain.com</b> */}
                 </p>
               </div>

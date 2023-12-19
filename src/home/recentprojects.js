@@ -24,7 +24,7 @@ const RecentProjects = () => {
               <div className="col-md-4 p-5 p-lg-2 p-md-1">
                 <div className="reProBoxInn">
                   <div className="img-box">
-                  <Link to="/ServiceSeo">
+                  <Link to="/ServiceSeo?scrollTo=projects" >
                     <img
                       className="img-fluid"
                       src="/images/seo/trip.webp"
@@ -35,7 +35,7 @@ const RecentProjects = () => {
                     <div className="cont-box-inn">
                       <p className="sm-title text-muted m-0 ">DEVELOPMENT</p>
                       <p className="mid-titles m-0">
-                       <Link to="/ServiceSeo"> <span className="links">Travel Website</span></Link>
+                      <Link to="/ServiceSeo?scrollTo=projects" ><span className="links">Travel Website</span></Link>
                       </p>
                     </div>
                   </div>
@@ -44,7 +44,7 @@ const RecentProjects = () => {
               <div className="col-md-4 p-5 p-lg-2 p-md-1">
                 <div className="reProBoxInn">
                   <div className="img-box">
-                  <Link to="/ServiceSeo">
+                  <Link to="/ServiceSeo?scrollTo=projects" >
                     <img
                       className="img-fluid"
                       src="/images/seo/seoweb.webp"
@@ -56,7 +56,7 @@ const RecentProjects = () => {
                     <div className="cont-box-inn">
                       <p className="sm-title text-muted m-0">SEO</p>
                       <p className="mid-titles m-0">
-                      <Link to="/ServiceSeo"><span className="links">Digital Marketing</span> </Link>
+                      <Link to="/ServiceSeo?scrollTo=projects"><span className="links">Digital Marketing</span> </Link>
                       </p>
                     </div>
                   </div>
@@ -65,7 +65,7 @@ const RecentProjects = () => {
               <div className="col-md-4 p-5 p-lg-2 p-md-1">
                 <div className="reProBoxInn">
                   <div className="img-box">
-                  <Link to="/ServiceSeo">
+                  <Link to="/ServiceSeo?scrollTo=projects" >
                     <img
                       className="img-fluid"
                       src="/images/seo/bsite.webp"
@@ -76,7 +76,7 @@ const RecentProjects = () => {
                     <div className="cont-box-inn">
                       <p className="sm-title text-muted m-0">DEVELOPMENT</p>
                       <p className="mid-titles m-0">
-                      <Link to="/ServiceSeo"><span className="links">Ecommerce Website</span> </Link>
+                      <Link to="/ServiceSeo?scrollTo=projects" ><span className="links">Ecommerce Website</span> </Link>
                       </p>
                     </div>
                   </div>

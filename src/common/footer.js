@@ -55,43 +55,43 @@ function Footer() {
                 </p >
                 <div className="infyicon">
                   <a
-                    target="_blank"
                     href="https://www.facebook.com/infygain/"
+                    target="_blank"
                     className="infyicon infyicon1"
                   >
                     <i className="fa fab fa-facebook"></i>
                   </a>
                   <a
-                    target="_blank"
                     href="https://wa.me/919952141444"
+                    target="_blank"
                     className="infyicon infyicon1"
                   >
                     <i className="fa fab fa-whatsapp"></i>
                   </a>
                   <a
-                    target="_blank"
                     href="https://www.instagram.com/infygain/"
+                    target="_blank"
                     className="infyicon infyicon1"
                   >
                     <i className="fa fab fa-instagram"></i>
                   </a>
                   <a
-                    target="_blank"
                     href="https://www.linkedin.com/company/infygain-technologies/"
+                    target="_blank"
                     className="infyicon infyicon1"
                   >
                     <i className="fa fab fa-linkedin"></i>
                   </a>
                   <a
-                    target="_blank"
                     href="https://twitter.com/infygain"
+                    target="_blank"
                     className="infyicon infyicon1"
                   >
                     <i className="fa fab fa-twitter"></i>
                   </a>
                   <a
-                    target="_blank"
                     href="https://www.youtube.com/@infygain6707"
+                    target="_blank"
                     className="infyicon infyicon1"
                   >
                     <i className="fa fab fa-youtube"></i>

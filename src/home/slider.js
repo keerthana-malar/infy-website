@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "../css/home.css";
 import FindWindowSize from "../Hooks/FindWindowSize";
-
+import { useEffect } from "react";
 
 const Sliders = () => {
 
@@ -33,6 +33,19 @@ const Sliders = () => {
     //   cont: "We provide all the services related to computer, Laptop, Networking, Printer, Biometrics, AMC, Server, CCTV, and also Web Development and Graphics Designs",
     // },
   ];
+// Preload images
+useEffect(() => {
+  sliderImg.forEach((item) => {
+    const imgPreloader = new Image();
+    imgPreloader.src = item.img;
+    imgPreloader.onload = () => {
+      // Image loaded successfully
+    };
+    imgPreloader.onerror = (error) => {
+      console.error('Error preloading image:', error);
+    };
+  });
+}, [sliderImg]);
 
   const slides = sliderImg.map((item, index) => (
     <div key={index} className="slider">

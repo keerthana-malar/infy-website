@@ -44,7 +44,7 @@
             <div className='row leftside'>
                 <div className='col-lg-6 imageboxer'>
                 <Tilt options={defaultOptions}>
-                    <img className="img-fluid" src="/images/about_page.png" 
+                    <img className="img-fluid" src="/images/about_page.webp" 
                     alt="top it services in coimbatore" data-aos="fade-right" />
                      </Tilt>
                      

@@ -26,7 +26,7 @@ function  webservice() {
           <Link className="sbox-link" to="/webservices/Websites">
             <div className="sb sbox1">
               <div className="simgbox" data-aos="flip-left" data-aos-duration="1000">
-                <img className="fluid" alt="top seo services" src="./images/seo/website.png"></img>
+                <img className="fluid" alt="top seo services" src="./images/seo/websiteimg.webp"></img>
               </div>
               <div className="st">Websites</div>
               <div className="scon text-muted">
@@ -47,7 +47,7 @@ function  webservice() {
           <Link  className="sbox-link" to="/webservices/Seo">
             <div className="sb sbox2">
               <div className="simgbox" data-aos="flip-left" data-aos-duration="1000">
-                <img className="fluid" alt="best seo services" src="./images/seo/seo.png"></img>
+                <img className="fluid" alt="best seo services" src="./images/seo/seoimg.webp"></img>
               </div>
               <div className="st">SEO</div>
               <div className="scon text-muted">
@@ -68,7 +68,7 @@ function  webservice() {
           <Link className="sbox-link" to="/webservices/Application">
             <div className="sb sbox3">
               <div className="simgbox" data-aos="flip-left" data-aos-duration="1000">
-                <img className="fluid" alt="seo services in coimbatore" src="./images/seo/app.png"></img>
+                <img className="fluid" alt="seo services in coimbatore" src="./images/seo/appimg.webp"></img>
               </div>
               <div className="st">Applications</div>
               <div className="scon text-muted">
@@ -87,7 +87,7 @@ function  webservice() {
           <Link className="sbox-link" to="/webservices/Designing">
             <div className="sb sbox4">
               <div className="simgbox" data-aos="flip-left" data-aos-duration="1000">
-                <img className="fluid" alt="top seo services" src="./images/seo/graphic.png"></img>
+                <img className="fluid" alt="top seo services" src="./images/seo/graphicimg.webp"></img>
               </div>
               <div className="st">Designing</div>
               <div className="scon text-muted">

@@ -50,11 +50,11 @@ const NewService = () => {
                 <div className='col-md-4 col-lg-4 serv-home-sec'>
                     <div className='home-slide'>
 
-                        <img className='hom-sld-img' src='/images/WEB 3-03.webp' alt='best It supports'/>
+                        <img className='hom-sld-img' src='/images/WEB-img3.webp' alt='best It supports'/>
 
                         <div className='home-cont-overlay'>
 
-                            <img src="/images/icons/it.png" alt="service icons" ></img>
+                            <img src="/images/icons/it.webp" alt="service icons" ></img>
                             <Link to="/Iotservice" >
 
                                 <h2 className="mid-title serviceIt">IT Support</h2>
@@ -72,7 +72,7 @@ const NewService = () => {
                         <img className='hom-sld-img' src='/images/WEB 2-02.webp' alt='best web services'/>
                         <div className='home-cont-overlay'>
 
-                            <img src="/images/icons/web.png" alt="service icons"></img>
+                            <img src="/images/icons/web.webp" alt="service icons"></img>
                             <Link to="/ServiceSeo" >
 
                             <h2 className="mid-title serviceIt">Web Development</h2>
@@ -89,7 +89,7 @@ const NewService = () => {
                         <img className='hom-sld-img' src='/images/WEB 1-01.webp' alt='best isp services'/>
                         <div className='home-cont-overlay'>
 
-                            <img src="/images/icons/isp.png" alt="service icons"></img>
+                            <img src="/images/icons/isp.webp" alt="service icons"></img>
                             <Link to="/ispservice" >
                             <h2 className="mid-title serviceIt">ISP Services</h2>
                             </Link>

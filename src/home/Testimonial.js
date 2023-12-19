@@ -63,7 +63,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/webs1.png" alt="Complete Networking"></img>
+                  <img className="img-fluid" src="/images/webs1.webp" alt="Complete Networking"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/services/networking">Complete Networking</Link></p>
@@ -88,7 +88,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid 5" src="/images/fingerprint-modified.png" alt="Security Systems"></img>
+                  <img className="img-fluid 5" src="/images/fingerprint-modified.webp" alt="Security Systems"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/services/cctv">Security Systems</Link></p>
@@ -111,7 +111,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/webs6.png" alt="Web /Graphic Design"></img>
+                  <img className="img-fluid" src="/images/webs6.webp" alt="Web /Graphic Design"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/ServiceSeo">Web /Graphic Design</Link></p>
@@ -136,7 +136,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/cctvs1.png" alt="AV Solutions"></img>
+                  <img className="img-fluid" src="/images/cctvs1.webp" alt="AV Solutions"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/services/Projectors">AV Solutions</Link></p>
@@ -161,7 +161,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/laptops.png" alt="Computer & Laptop"></img>
+                  <img className="img-fluid" src="/images/laptops.webp" alt="Computer & Laptop"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/services/laptop&desktop">Computer & Laptop</Link></p>

@@ -124,7 +124,7 @@ transition: opacity 0.4s ease-in;
 }
 .hiddenrowsc{
   position: absolute;
-  background:url("/public/images/iot-camera.png") no-repeat;
+  background:url("/public/images/iot-camera.webp") no-repeat;
   background-size: cover;
     background-position: bottom;
   top: 0;
@@ -138,7 +138,7 @@ transition: opacity 0.4s ease-in;
 }
 .hiddenrowsd{
   position: absolute;
-  background:  url("/public/images/iot-projectors.png") no-repeat;;
+  background:  url("/public/images/iot-projectors.webp") no-repeat;;
   background-size: cover;
   top: 0;
   left: 0;

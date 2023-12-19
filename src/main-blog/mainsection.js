@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from "axios";
+import FindWindowSize from "../Hooks/FindWindowSize";
 
 function Mainsection() {
   const [blogs, setBlogs] = useState([]);
@@ -68,6 +69,8 @@ function Mainsection() {
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = blogs.slice(indexOfFirstItem, indexOfLastItem);
 
+  const windowSize = FindWindowSize()
+
   return (
     <>
       <div className="container main-blogs">
@@ -129,7 +132,7 @@ function Mainsection() {
               </div>
               
               <div className="b-intro">
-                <p className="mid-title">{value.intro.length > 300 ? value.intro.substring(0, 100) + '...': value.intro.substring(0, 150) + '...'   }</p>
+                <p className="mid-title">{windowSize[0] > 1700 ?  value.intro.substring(0, 100) + '...': value.intro.length > 300 ? value.intro.substring(0, 100) + '...': value.intro.substring(0, 150) + '...'   }</p>
               </div>
            
               

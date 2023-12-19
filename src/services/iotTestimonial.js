@@ -133,7 +133,7 @@ function Testimonialing() {
 
         <div className='col-md-12 col-sm-12 col-lg-6'>
         <Tilt options={defaultOptions} >
-          <img src="./images/testimonials-group.png"
+          <img src="./images/testimonials-group.webp"
             alt="value"
             data-aos="zoom-in-up" 
            className='reviewphoto'/>

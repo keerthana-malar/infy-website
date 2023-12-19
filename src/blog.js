@@ -18,6 +18,7 @@ import {
   import { HiMenuAlt1 } from "react-icons/hi";
   import { Link } from "react-router-dom";
   import Fixedline from './services/Fixedline';
+import { MdOutlinePhone } from 'react-icons/md';
   
 
 function Blogs(){
@@ -53,12 +54,12 @@ function Blogs(){
         <section>
         {/* Top head section */}
         <div className="top-head  d-none d-md-block">
-          <div className="row">
+          <div className="row"> 
             <div className="d-none d-md-block col-md-6 col-lg-3">
               <p>
-                <a className="head-link" href="/contact">
-                <FaPhone  />
-                  &nbsp;&nbsp;&nbsp;&nbsp; +91  9952141444
+              <a className="head-link" href="tel:+91 9952141444">
+              <MdOutlinePhone   />
+                  &nbsp;&nbsp;&nbsp;&nbsp; +91 99521 41444
                 </a>{" "}
               </p>
             </div>
@@ -410,7 +411,8 @@ function Blogs(){
                   <b>CALL FOR SUPPORT</b>
                 </p>
                 <p className="phone">
-                  +91 99521 41444<br></br>+91 9087724444
+                <a className="head-link-footer" href="tel:+91 9952141444">+91 99521 41444</a><br></br>
+                <a className="head-link-footer" href="tel:+91 9952141444">+91 9087724444</a>
                 </p>
               </div>
 
@@ -421,8 +423,9 @@ function Blogs(){
                 </p>
                 <p className="hari text-muted">
                   {" "}
+                  <Link className="cmn-footer text-muted"  to={"/contact"}>
                   Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                  Coimbatore, Tamil Nadu 641035
+                  Coimbatore, Tamil Nadu 641035</Link>
                 </p>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-12  nam-icon">
@@ -525,13 +528,15 @@ function Blogs(){
               <div className="col-xs-6 col-sm-3">
                 <p className="mini-title three">Address</p>
                 <p className="address">
+                <Link className="cmn-footer text-muted"  to={"/contact"}>
                   <p>
                     Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
                     Coimbatore, Tamil Nadu 641035
-                  </p>
+                  </p></Link>
                 </p>
                 <hr className="hrline"></hr>
-                <p className="address ph">+91 &nbsp;9952141444</p>
+                <p className="address ph"> <a className="link-foot" href="tel:+91 9952141444">+91 &nbsp;9952141444 </a></p>
+                <p className="address ph"> <a className="link-foot" href="tel:+91  9087724444">+91 &nbsp;9087724444 </a></p>
               
 
                 <p className="address">

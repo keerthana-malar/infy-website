@@ -22,7 +22,7 @@ let metaContent = {
 function NewServicePage(){
     const {id} = useParams()
 
-    const valuePaths = ['networking','laptop&desktop','cctv','Projectors','Accessories','Laptop&DesktopRent',"TV","Printer&Scanner","InteractivePanel","UPS","WIFI","Pos","InterCom"];
+    const valuePaths = ['networking','laptopanddesktop','cctv','Projectors','Accessories',"TV","Printer&Scanner","InteractivePanel","UPS","WIFI","Pos","InterCom"];
 
   
     return(

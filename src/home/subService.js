@@ -45,8 +45,10 @@ function SubService() {
                   </g>
                 </g>
               </svg>
-              <img className="hexIcon" src="/images/icons/cloud.webp" alt="best Enterprise Solutions"></img>
-              <Link to={"/services/laptop&desktop"}>
+
+              <img className="hexIcon" src="/images/icons/cloud.webp" alt="Best Enterprise Solutions"></img>
+              <Link to={"/services/laptopanddesktop"}>
+
                 <div
                   className="subServiceCont service1"
                   onMouseOver={() => {

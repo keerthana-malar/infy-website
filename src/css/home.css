@@ -603,6 +603,7 @@ left: 100px;*/
 }
 .home-slide .hom-sld-img {
   width: 98%;
+  height: auto;
   border-radius: 20px;
 }
 .home-cont-overlay img {

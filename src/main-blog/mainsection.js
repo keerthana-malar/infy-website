@@ -116,12 +116,12 @@ function Mainsection() {
                 13 <br/>
                 May
               </div> */}
-              <a className="links" href='/mainblogs'>
+               <Link to={"/blogs/" + value.id}>
                   <img className="" 
                   src={`uploads/${value.img}`}
 
                   alt={value.title} />  
-                </a>
+                </Link>
                 
             </div>
         

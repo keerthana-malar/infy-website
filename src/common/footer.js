@@ -32,10 +32,11 @@ function Footer() {
               <div className="col-lg-3 col-md-4 col-sm-12  nam nam1">
                 <p className="call">
                   <b>CALL FOR SUPPORT</b>
-                </p>
+                </p>   <Link to={"/contact"}>
                 <p className="phone">
-                  +91 99521 41444<br></br>+91 9087724444
-                </p>
+                <a className="head-link-footer" href="tel:+91 9952141444"> +91 99521 41444</a><br></br>
+                <a className="head-link-footer" href="tel:+91 9952141444">+91 9087724444</a>
+                </p></Link>
               </div>
 
               <div className="col-lg-3 col-md-4 col-sm-12 nam">
@@ -45,8 +46,10 @@ function Footer() {
                 </p>
                 <p className="hari text-muted">
                   {" "}
+                  <Link className="cmn-footer text-muted"  to={"/contact"}>
                   Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
                   Coimbatore, Tamil Nadu 641035.
+                  </Link>
                 </p>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-12  nam-icon">
@@ -119,7 +122,7 @@ function Footer() {
                 </ul>
               </div>
               <div className="col-xs-6 col-sm-3">
-                <h1 className="mini-title two">Quick Links</h1>
+                <p className="mini-title two">Quick Links</p>
                 <ul className="text-muted quicklinks mb-5">
                   {/* <li> <Link to="/">Home</Link></li> */}
                   <li>
@@ -147,16 +150,17 @@ function Footer() {
                 </ul>
               </div>
               <div className="col-xs-6 col-sm-3">
-                <h1 className="mini-title three">Address</h1>
+                <p className="mini-title three">Address</p>
                 <p className="address">
+                <Link className="cmn-footer text-muted"  to={"/contact"}>
                   <p>
                     Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
                     Coimbatore, Tamil Nadu 641035.
-                  </p>
+                  </p></Link>
                 </p>
                 <hr className="hrline"></hr>
-                <p className="address ph">+91 &nbsp;9952141444</p>
-                <p className="address ph">+91 &nbsp;9087724444</p>
+                <p className="address ph"><a className="link-foot" href="tel:+91 9952141444">+91 &nbsp;9952141444 </a></p>
+                <p className="address ph"><a className="link-foot" href="tel:+91 9087724444">+91 &nbsp;9087724444 </a></p>
               
 
                 <p className="address">
@@ -164,7 +168,7 @@ function Footer() {
                 </p>
               </div>
               <div className="col-xs-6 col-sm-3">
-                <h1 className="mini-title four">Legal Links</h1>
+                <p className="mini-title four">Legal Links</p>
                 <ul className="text-muted legallinks">
                   <li className="quicklinks"><Link to="/privacypolicy">Privacy Policy</Link></li>
                   <li className="quicklinks"><Link to="/termspage">Terms and Conditions</Link></li>

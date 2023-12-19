@@ -215,6 +215,20 @@ background-color: white;
     color: var(--iotsecc);
     font-size: 20px;
 }
+.iot-phone a{
+    color: var(--iotsecc);
+}
+.iot-addr{
+    color: var(--iotsecc);
+}
+.iot-addr:hover{
+    color:var(--iotpri) ;
+}
+.iot-phone a:hover{
+    color:var(--iotpri) ;
+}
+
+
 .iot-email{
         text-align: center;
         color: var(--iotsecc);

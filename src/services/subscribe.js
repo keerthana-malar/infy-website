@@ -16,6 +16,7 @@ function subscribe() {
                     type="text"
                     name="name"
                     placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter your email"
+                    required
                   />
                   <button type="submit" className="btns reach-btn">
                     Reach Us

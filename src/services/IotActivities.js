@@ -4,6 +4,7 @@ import '../css/IotActivities.css'
 import {BiSolidPhoneCall } from 'react-icons/bi'
 import CountUp from 'react-countup'
 import ScrollTrigger from 'react-scroll-trigger'
+import { Link } from 'react-router-dom'
 
 
 const IotActivities = () => {
@@ -111,7 +112,7 @@ const IotActivities = () => {
                     <BiSolidPhoneCall className='phone-icon'/>
                     <p>Call For Help</p>
                 </div>
-            <p className='cont-no'>+91 99521 41444</p>
+                <Link to={"/contact"}> <p className='cont-no'>+91 99521 41444</p></Link>
             </div>
         </div>
     </ScrollTrigger>

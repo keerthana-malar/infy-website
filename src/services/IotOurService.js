@@ -249,7 +249,7 @@ function IotOurService({componentRef}) {
                            <div className='divline'></div>
                    <h4 className='edgehead'> Laptop / Desktop Sales and Service </h4>
                    <div className='buttongroup'>
-                   <Link to="/services/laptop&desktop" >
+                   <Link to="/services/laptopanddesktop" >
                     <button className='butt btn1'>+</button></Link>
                    </div>
                    </div>

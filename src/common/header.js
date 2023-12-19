@@ -14,6 +14,7 @@ import "../css/header.css";
 import { HiMenuAlt1 } from "react-icons/hi";
 import { Link } from "react-router-dom";
 import Fixedline from "../services/Fixedline";
+import { MdOutlinePhone } from "react-icons/md";
 
 
 function header() {
@@ -46,9 +47,9 @@ function header() {
           <div className="row">
             <div className="d-none d-md-block col-md-6 col-lg-3">
               <p>
-                <a className="head-link" href="/contact">
-                  <FaPhone  />
-                  &nbsp;&nbsp;&nbsp;&nbsp; +91  9952141444
+                <a className="head-link" href="tel:+91 9952141444">
+                  <MdOutlinePhone   />
+                  &nbsp;&nbsp;&nbsp;&nbsp; +91  99521 41444
                 </a>{" "}
               </p>
             </div>
@@ -93,19 +94,20 @@ function header() {
                 >
                   <LiaTwitter />
                 </a>
-                <a
-                  className="head-link sm"
-                  href="https://www.linkedin.com/company/infygain-technologies/"
-                  target="_blank"
-                >
-                  <LiaLinkedinIn />
-                </a>
+         
                 <a
                   className="head-link sm"
                   href="https://api.whatsapp.com/send/?phone=919952141444&text&type=phone_number&app_absent=0"
                   target="_blank"
                 >
                   <LiaWhatsapp />
+                </a>
+                <a
+                  className="head-link sm"
+                  href="https://www.linkedin.com/company/infygain-technologies/"
+                  target="_blank"
+                >
+                  <LiaLinkedinIn />
                 </a>
                 <a
                   className="head-link sm"

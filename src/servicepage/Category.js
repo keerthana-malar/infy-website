@@ -407,7 +407,7 @@ const Category = () => {
                                         <div className="subcategory2 ">
                                         
 
-                                        <img className={val.id === 2 ? "cat-desk2":val.id === 3? "cat-desk1":""}  src={`${val.id === 1 ? "/images/brandeddesk.webp":val.id === 2 ? "/images/assmble-desk.webp" :val.id === 3 ? "/images/work-desk.webp":val.id === 4 ? "/images/gaming-desktop.webp" : ""}`} alt={val.title} />
+                                        <img className={val.id === 2 ? "cat-desk2":val.id === 3? "cat-desk1":val.id === 4? "cat-desk3":""}  src={`${val.id === 1 ? "/images/brandeddesk.webp":val.id === 2 ? "/images/assmble-desk.webp" :val.id === 3 ? "/images/work-desk.webp":val.id === 4 ? "/images/game-desk.webp" : ""}`} alt={val.title} />
 
              
 
@@ -572,7 +572,7 @@ const Category = () => {
                                 
                                         <div className="subcategory2 ">
                                         
-                                        <img className={val.id === 1 ? "cat-tv1":val.id === 2 ? "cat-tv2":""} src={`${val.id === 1 ? "/images/and-tv.jpg" : val.id === 2 ? "/images/smart-tv.webp" :""}`} alt={val.title}/>
+                                        <img className={val.id === 1 ? "cat-tv1":val.id === 2 ? "cat-tv2":""} src={`${val.id === 1 ? "/images/and-tv.webp" : val.id === 2 ? "/images/smart-tv.webp" :""}`} alt={val.title}/>
 
                                         </div>
 

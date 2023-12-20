@@ -50,7 +50,10 @@ const NewService = () => {
                 <div className='col-md-4 col-lg-4 serv-home-sec'>
                     <div className='home-slide'>
 
-                        <img className='hom-sld-img' src='/images/WEB-img3.webp' alt='best It supports'/>
+                        <img className='hom-sld-img' 
+                        // src='/images/WEB-img3.webp'
+                        src='/images/w-3.webp'
+                         alt='best It supports'/>
 
                         <div className='home-cont-overlay'>
 
@@ -69,7 +72,10 @@ const NewService = () => {
                 <div className='col-md-4 col-lg-4 serv-home-sec'>
 
                     <div className='home-slide'>
-                        <img className='hom-sld-img' src='/images/WEB 2-02.webp' alt='best web services'/>
+                        <img className='hom-sld-img' 
+                        // src='/images/WEB 2-02.webp' 
+                        src='/images/w-2.webp' 
+                        alt='best web services'/>
                         <div className='home-cont-overlay'>
 
                             <img src="/images/icons/web.webp" alt="service icons"></img>
@@ -86,7 +92,10 @@ const NewService = () => {
                 <div className='col-md-4 col-lg-4 serv-home-sec'>
 
                     <div className='home-slide'>
-                        <img className='hom-sld-img' src='/images/WEB 1-01.webp' alt='best isp services'/>
+                        <img className='hom-sld-img' 
+                        // src='/images/WEB 1-01.webp' 
+                        src='/images/w-1.webp' 
+                        alt='best isp services'/>
                         <div className='home-cont-overlay'>
 
                             <img src="/images/icons/isp.webp" alt="service icons"></img>

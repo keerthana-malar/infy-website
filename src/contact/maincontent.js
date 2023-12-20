@@ -40,7 +40,7 @@ function Contactmain() {
                             </div>
                             <div className='col-md-9'>
                             <p className='mini-title tit1'>Support</p>
-                            <p className='text-muted locacon'>  <a href="tel:+919952141444" className="text-muted">+91 9952141444</a> <br /> <a href="tel:+919087724444" className="text-muted">+91 9087724444</a></p>
+                            <p className='text-muted locacon'>  <a href="tel:+919952141444" className="text-muted">+91 99521&nbsp;&nbsp;&nbsp;41444</a> <br /> <a href="tel:+919087724444" className="text-muted">+91 90877&nbsp;&nbsp;&nbsp;24444</a></p>
                             </div>
                         </div>
                     </div>

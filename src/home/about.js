@@ -15,6 +15,7 @@ const HomeAbout = () => {
                     className="img-fluid"
                     src="/images/about_us.webp"
                     alt="best It, web, and isp services in coimbatore"
+                    title="10 Years Experience"
                   />
                 </div>
               </Tilt>
@@ -41,6 +42,7 @@ const HomeAbout = () => {
                           className="img-fluid experienceimg"
                           src="/images/icons/certificatenew.webp"
                           alt="experience"
+                          title="Experience"
                         ></img>
                       </div>
                       <div className="col-9">
@@ -58,6 +60,7 @@ const HomeAbout = () => {
                           className="img-fluid"
                           src="/images/icons/supportnew.webp"
                           alt="Quick Support"
+                          title="Quick Support"
                         ></img>
                       </div>
                       <div className="col-9">

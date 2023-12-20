@@ -15,7 +15,7 @@ const ProductContent = ({value}) => {
     </div>
     <div className='row paraoutdoor'>
         <div className='col-md-4 col-sm-12'>
-                <img src={value.img} alt={value.name}/>    
+                <img src={value.img} alt={value.name} title={value.name}/>    
         </div>
         
         <div  className='col-md-8 col-sm-12'>
@@ -40,7 +40,7 @@ const ProductContent = ({value}) => {
     <div className='downsession'>
 
         <div className='downparasession'>
-            <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller'/>
+            <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
             <span className='clinicpara'>
                <p>{value.p1}</p>
 
@@ -50,7 +50,7 @@ const ProductContent = ({value}) => {
             </div>
             {/* 2 point */}
         <div className='downparasession'>
-        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller'/>
+        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
             <span className='clinicpara'>
                <p> {value.p2}</p>
 
@@ -59,7 +59,7 @@ const ProductContent = ({value}) => {
         </div>
         {/* 3 point */}
         <div className='downparasession'>
-        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller'/>
+        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
             <span className='clinicpara'>
                <p>{value.p3}</p>
                 
@@ -69,7 +69,7 @@ const ProductContent = ({value}) => {
         </div>
         {/*  4 points */}
         <div className='downparasession'>
-        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller'/>
+        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
             <span className='clinicpara'>
             <p>{value.p4}</p>
                 
@@ -77,7 +77,7 @@ const ProductContent = ({value}) => {
         </div>
         {/* 5 points */}
         <div className='downparasession'>
-        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller'/>
+        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
             <span className='clinicpara'>
              <p>{value.p5}</p>
                
@@ -85,21 +85,21 @@ const ProductContent = ({value}) => {
         </div>
         {/*  6 points  */}
         <div className='downparasession'>
-        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller'/>
+        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
             <span className='clinicpara'>
            <p>{value.p6}</p>
                 </span>
         </div>
         {/* 7 points */}
         <div className='downparasession'>
-        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller'/>
+        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
             <span className='clinicpara'>
              <p>{value.p7}</p>
             </span>
         </div>
         {/*  8 points  */}
         <div className='downparasession'>
-        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller'/>
+        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
             <span className='clinicpara'>
            <p>{value.p8}</p>
                 

@@ -4,6 +4,8 @@ import "font-awesome/css/font-awesome.css";
 import "./css/footer.css";
 import { TbArrowBigUpFilled } from "react-icons/tb";
 
+import { Tooltip as ReactTooltip } from "react-tooltip";
+
 import {
     FaRegClock,
     FaLocationDot,
@@ -82,40 +84,74 @@ function Blogs(){
               </div>
             </div>
             <div className="d-none d-md-block col-md-3 col-lg-3">
-              <div className="socialicons">
+            <div className="socialicons">
                 <a
                   className="head-link sm"
                   href="https://www.facebook.com/infygain/"
+                  target="_blank"
                 >
-                  <LiaFacebookF />
+                  <LiaFacebookF data-tooltip-id="my-tooltip-4"/>
                 </a>
+                <ReactTooltip
+                 id="my-tooltip-4"
+                 place="bottom"
+                 content="Facebook"/>
                 <a
                   className="head-link sm"
                   href="https://www.instagram.com/infygain/"
+                  target="_blank"
                 >
-                  <LiaInstagram />
+                  <LiaInstagram  data-tooltip-id="my-tooltip-5"/>
                 </a>
-                <a className="head-link sm" href="https://twitter.com/infygain">
-                  <LiaTwitter />
-                </a>
+                <ReactTooltip
+                 id="my-tooltip-5"
+                 place="bottom"
+                 content="Instagram"/>
                 <a
                   className="head-link sm"
-                  href="https://www.linkedin.com/company/infygain-technologies/"
+                  href="https://twitter.com/infygain"
+                  target="_blank"
                 >
-                  <LiaLinkedinIn />
+                  <LiaTwitter data-tooltip-id="my-tooltip-6" />
                 </a>
+                <ReactTooltip
+                 id="my-tooltip-6"
+                 place="bottom"
+                 content="Twitter"/>
+         
                 <a
                   className="head-link sm"
                   href="https://api.whatsapp.com/send/?phone=919952141444&text&type=phone_number&app_absent=0"
+                  target="_blank"
                 >
-                  <LiaWhatsapp />
+                  <LiaWhatsapp data-tooltip-id="my-tooltip-7"/>
                 </a>
+                <ReactTooltip
+                 id="my-tooltip-7"
+                 place="bottom"
+                 content="Whatsapp"/>
+                <a
+                  className="head-link sm"
+                  href="https://www.linkedin.com/company/infygain-technologies/"
+                  target="_blank"
+                >
+                  <LiaLinkedinIn data-tooltip-id="my-tooltip-8"/>
+                </a>
+                <ReactTooltip
+                 id="my-tooltip-8"
+                 place="bottom"
+                 content="LinkedinIn"/>
                 <a
                   className="head-link sm"
                   href="https://www.youtube.com/@infygain6707"
+                  target="_blank"
                 >
-                  <LiaYoutube />
+                  <LiaYoutube data-tooltip-id="my-tooltip-9"/>
                 </a>
+                <ReactTooltip
+                 id="my-tooltip-9"
+                 place="bottom"
+                 content="Youtube"/>
               </div>
             </div>
           </div>
@@ -432,50 +468,76 @@ function Blogs(){
                 <p className="infyy-icon">
                   <b>FOLLOW US </b>
                   <br></br>
-                </p>
+                </p >
                 <div className="infyicon">
                   <a
-                    target="_blank"  rel="noopener noreferrer"
                     href="https://www.facebook.com/infygain/"
+                    target="_blank"
                     className="infyicon infyicon1"
                   >
-                    <i className="fa fab fa-facebook"></i>
+                    <i data-tooltip-id="facebook" className="fa fab fa-facebook"></i>
                   </a>
+                  <ReactTooltip
+                    id="facebook"
+                    place="bottom"
+                    content="Facebook"/>
                   <a
-                    target="_blank"  rel="noopener noreferrer"
-                    href="https://wa.me/919952141444"
-                    className="infyicon infyicon1"
-                  >
-                    <i className="fa fab fa-whatsapp"></i>
-                  </a>
-                  <a
-                    target="_blank"  rel="noopener noreferrer"
                     href="https://www.instagram.com/infygain/"
+                    target="_blank"
                     className="infyicon infyicon1"
                   >
-                    <i className="fa fab fa-instagram"></i>
+                    <i data-tooltip-id="instagram" className="fa fab fa-instagram"></i>
                   </a>
+                  <ReactTooltip
+                    id="instagram"
+                    place="bottom"
+                    content="Instagram"/>
                   <a
-                    target="_blank"  rel="noopener noreferrer"
-                    href="https://www.linkedin.com/company/infygain-technologies/"
-                    className="infyicon infyicon1"
-                  >
-                    <i className="fa fab fa-linkedin"></i>
-                  </a>
-                  <a
-                    target="_blank"  rel="noopener noreferrer"
                     href="https://twitter.com/infygain"
+                    target="_blank"
                     className="infyicon infyicon1"
                   >
-                    <i className="fa fab fa-twitter"></i>
+                    <i data-tooltip-id="twitter" className="fa fab fa-twitter"></i>
                   </a>
+                  <ReactTooltip
+                    id="twitter"
+                    place="bottom"
+                    content="Twitter"/>
                   <a
-                    target="_blank"  rel="noopener noreferrer"
-                    href="https://www.youtube.com/@infygain6707"
+                    href="https://wa.me/919952141444"
+                    target="_blank"
                     className="infyicon infyicon1"
                   >
-                    <i className="fa fab fa-youtube"></i>
+                    <i data-tooltip-id="whatsapp" className="fa fab fa-whatsapp"></i>
                   </a>
+                  <ReactTooltip
+                    id="whatsapp"
+                    place="bottom"
+                    content="Whatsapp"/>
+                  
+                  <a
+                    href="https://www.linkedin.com/company/infygain-technologies/"
+                    target="_blank"
+                    className="infyicon infyicon1"
+                  >
+                    <i data-tooltip-id="linkedin" className="fa fab fa-linkedin"></i>
+                  </a>
+                  <ReactTooltip
+                    id="linkedin"
+                    place="bottom"
+                    content="Linkedin"/>
+                 
+                  <a
+                    href="https://www.youtube.com/@infygain6707"
+                    target="_blank"
+                    className="infyicon infyicon1"
+                  >
+                    <i data-tooltip-id="youtube" className="fa fab fa-youtube"></i>
+                  </a>
+                  <ReactTooltip
+                    id="youtube"
+                    place="bottom"
+                    content="Youtube"/>
                 </div>
               </div>
             </div>

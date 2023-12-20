@@ -60,6 +60,7 @@ function Mainsection() {
                 <img className="" 
                 src={"../uploads/"+ blogs.img}
                 alt="blogs"
+                title={blogs.title}
                 >
                 </img>
               </div>

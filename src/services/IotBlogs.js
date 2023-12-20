@@ -123,6 +123,7 @@ const blogfilter = blogs.filter((val, index) => (
             
                 <img className='bl-image' alt='best It blogs'  
                 // src='/images/image1.webp'
+                title='best It blogs'
                 src={"uploads/" + value.img}
                 />
                 <div className=' blog-overtext' >

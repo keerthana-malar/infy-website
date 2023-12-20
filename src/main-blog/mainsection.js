@@ -90,7 +90,7 @@ function Mainsection() {
                <Link to={"/blogs/" + value.id}>
                   <img className="" 
                   src={`uploads/${value.img}`}
-
+                  title="blogs"
                   alt={value.title} />  
                 </Link>
                 

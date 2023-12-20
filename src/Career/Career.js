@@ -160,42 +160,42 @@ const Career =()=>{
   <div className="row car-boxs">
   {
     !(data.length === 0) ?
-  data.map((values, index) =>(
-  <div class="col-md-4 col-lg-4 col-sm-4 boxs" >
-  
-      <div className="title_head">
-      <img src="/images/title.png" alt="best career" className="title_side"/>
-        <div className="headerpart" >{values.title}</div>
-        </div>
-        <div className="imc">
-          <div className="open">
-        <img src="/images/qulification.png" alt="best career" className="qua"/>
-        <p className="parl">{values.degree} </p>
-        </div >
-        <div className="open">
-          <img src="/images/openings.png" alt="best career" className="ope"/>
-       
-       <p className="parl"> {values.noofopening} </p>
-        </div>
-        <div className="open">
-        <img src="/images/experience.png" alt="best career" className="exp"/> 
-        
-        <p className="parl">{values.exp} </p>
-        </div>
-      <div className="open">
-        <img src="/images/location.png" alt="best career" className="loc"/>
-         <p className="parl" >Coimbatore </p></div>
-      </div>
-      <div className="bth">
-       {values.intro}
-      </div>
-      <div className="bop1">
-      <button className="btn bop" onClick={showModal}><img src="\images\rightarrow.png" alt="career"/> 
-      Apply now </button>
-      </div>
+      data.map((values, index) =>(
+      <div class="col-md-4 col-lg-4 col-sm-4 boxs" >
       
-    </div>
-   ))
+          <div className="title_head">
+          <img src="/images/title.png" alt="best career" className="title_side" title="Career"/>
+            <div className="headerpart" >{values.title}</div>
+            </div>
+            <div className="imc">
+              <div className="open">
+            <img src="/images/qulification.png" alt="best career" className="qua" title="Career"/>
+            <p className="parl">{values.degree} </p>
+            </div >
+            <div className="open">
+              <img src="/images/openings.png" alt="best career" className="ope" title="Career"/>
+          
+          <p className="parl"> {values.noofopening} </p>
+            </div>
+            <div className="open">
+            <img src="/images/experience.png" alt="best career" className="exp" title="Career"/> 
+            
+            <p className="parl">{values.exp} </p>
+            </div>
+          <div className="open">
+            <img src="/images/location.png" alt="best career" className="loc" title="Career"/>
+            <p className="parl" >Coimbatore </p></div>
+          </div>
+          <div className="bth">
+          {values.intro}
+          </div>
+          <div className="bop1">
+          <button className="btn bop" onClick={showModal}><img src="\images\rightarrow.png" alt="career" title="Career"/> 
+          Apply now </button>
+          </div>
+          
+        </div>
+      ))
   : 
   <>
     <span className="car-info">Currently No Openings</span>

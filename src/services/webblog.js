@@ -124,6 +124,7 @@ function Webblog() {
                 <img className="img-fluid" alt="best seo blogs" 
                 src={"uploads/" + blog.img}
                 // src="/images/cb.webp"
+                title="best seo blogs"
                 ></img>
               </div>
               <div className="blgconbx">

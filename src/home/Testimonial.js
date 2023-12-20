@@ -23,10 +23,10 @@ const Testimonial = () => {
                   <div className="clientBox">
                     <div className="clientImgBox">
                       <div className="clientImg">
-                        <img className="img-fluid" src="/images/abt.webp" alt="Testimonial"></img>
+                        <img className="img-fluid" src="/images/abt.webp" alt="Testimonial" title="Testimonial"></img>
                       </div>
                       <div className="clientQuotes">
-                        <img src="/images/Quote.svg" alt="quote"></img>
+                        <img src="/images/Quote.svg" alt="quote" title="Quote"></img>
                       </div>
                     </div>
                     <div className="clientName">
@@ -63,7 +63,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/webs1.webp" alt="Complete Networking"></img>
+                  <img className="img-fluid" src="/images/webs1.webp" alt="Complete Networking" title="Complete Networking"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/services/networking">Complete Networking</Link></p>
@@ -88,7 +88,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid 5" src="/images/fingerprint-modified.webp" alt="Security Systems"></img>
+                  <img className="img-fluid 5" src="/images/fingerprint-modified.webp" alt="Security Systems" title="Security Systems"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/services/cctv">Security Systems</Link></p>
@@ -111,7 +111,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/webs6.webp" alt="Web /Graphic Design"></img>
+                  <img className="img-fluid" src="/images/webs6.webp" alt="Web /Graphic Design" title="Web & Graphic Design"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/ServiceSeo">Web /Graphic Design</Link></p>
@@ -136,7 +136,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/cctvs1.webp" alt="AV Solutions"></img>
+                  <img className="img-fluid" src="/images/cctvs1.webp" alt="AV Solutions" title="AV Solutions"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/services/Projectors">AV Solutions</Link></p>
@@ -161,7 +161,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/laptops.webp" alt="Computer & Laptop"></img>
+                  <img className="img-fluid" src="/images/laptops.webp" alt="Computer & Laptop" title="Computer & Laptop"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/services/laptop&desktop">Computer & Laptop</Link></p>

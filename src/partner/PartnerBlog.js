@@ -51,7 +51,7 @@ function PartnerBlog() {
 
     const logos = partnerLogos.map((item, index) => (
         <div key={index} className="logo-box1">
-            <img src={item} alt='best partners' className='infyimg'  />
+            <img src={item} alt='best partners' className='infyimg' title='Partners' />
         </div>
     ));
     const settings = {

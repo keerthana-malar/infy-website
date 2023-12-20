@@ -46,7 +46,7 @@ function SubService() {
                 </g>
               </svg>
 
-              <img className="hexIcon" src="/images/icons/cloud.webp" alt="Best Enterprise Solutions"></img>
+              <img className="hexIcon" src="/images/icons/cloud.webp" alt="Best Enterprise Solutions" title="Best Enterprise Solutions"></img>
               <Link to={"/services/laptopanddesktop"}>
 
                 <div
@@ -82,6 +82,7 @@ function SubService() {
                 className="hexIcon"
                 src="/images/icons/data-security.webp"
                 alt="best Security Solutions"
+                title="Best Security Solutions"
               ></img>
               <Link to={"/services/cctv"}>
                 <div
@@ -114,7 +115,7 @@ function SubService() {
                   </g>
                 </g>
               </svg>
-              <img className="hexIcon" src="/images/icons/iot.webp" alt="best Network Solutions"></img>
+              <img className="hexIcon" src="/images/icons/iot.webp" alt="best Network Solutions" title="Best Network Solutions"></img>
               <Link to={"/services/networking"}>
                 <div
                   className="subServiceCont service3"
@@ -146,7 +147,7 @@ function SubService() {
                   </g>
                 </g>
               </svg>
-              <img className="hexIcon" src="/images/icons/audio.webp" alt="best AV Solutions"></img>
+              <img className="hexIcon" src="/images/icons/audio.webp" alt="best AV Solutions" title="Best AV Solutions"></img>
               <Link to={"/services/Projectors"}>
                 <div
                   className="subServiceCont service4"
@@ -182,6 +183,7 @@ function SubService() {
                 className="hexIcon"
                 src="/images/icons/wifi-router.webp"
                 alt="best Infrastructure"
+                title="Best Infrastructure"
               ></img>
               <Link to={"/services/InterCom"}>
                 <div
@@ -220,6 +222,7 @@ function SubService() {
                 className="hexIcon"
                 src="/images/icons/app-development.webp"
                 alt="best Website Development services"
+                title="Best Website Development Services"
               ></img>
               <Link to={"/ServiceSeo"}>
                 <div
@@ -252,7 +255,7 @@ function SubService() {
                   </g>
                 </g>
               </svg>
-              <img className="hexIcon" src="/images/icons/feature.webp" alt="best web application services"></img>
+              <img className="hexIcon" src="/images/icons/feature.webp" alt="best web application services" title="Best Web Application Services"></img>
               <Link to={"/ServiceSeo"}>
                 <div
                   className="subServiceCont service7"
@@ -288,6 +291,7 @@ function SubService() {
                 className="hexIcon"
                 src="/images/icons/security-system.webp"
                 alt="best ISP Solutions"
+                title="Best ISP Solutions"
               ></img>
               <Link to={"/ispservice"}>
                 <div
@@ -319,6 +323,7 @@ function SubService() {
                   className="img-fluid vid-home"
                   src="/images/icons/Readmore Banner web.webp"
                   alt="best it,web and isp services in coimbatore"
+                  title="Best Services"
                 />
                 <div className="play-button" onClick={openVideo}>
                   <BsPlay className="iconings" />

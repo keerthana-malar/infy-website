@@ -13,6 +13,15 @@ function Footer() {
   };
 
 
+  const openGoogleMaps = () => {
+    const address = "Hari complex opp.prozone mall, Sathy Rd, Saravanampatti, Coimbatore, Tamil Nadu 641035";
+    const encodedAddress = encodeURIComponent(address);
+    window.open(`https://www.google.com/maps?q=${encodedAddress}`, "_blank");
+  };
+  const openEmailClient = () => {
+    const email = "info@infygain.com";
+    window.location.href = `mailto:${email}`;
+  };
 
   return (
     <footer>
@@ -32,11 +41,11 @@ function Footer() {
               <div className="col-lg-3 col-md-4 col-sm-12  nam nam1">
                 <p className="call">
                   <b>CALL FOR SUPPORT</b>
-                </p>   <Link to={"/contact"}>
+                </p>  
                 <p className="phone">
                 <a className="head-link-footer" href="tel:+91 9952141444"> +91 99521 41444</a><br></br>
-                <a className="head-link-footer" href="tel:+91 9952141444">+91 9087724444</a>
-                </p></Link>
+                <a className="head-link-footer" href="tel:+91 9087724444">+91 9087724444</a>
+                </p>
               </div>
 
               <div className="col-lg-3 col-md-4 col-sm-12 nam">
@@ -44,7 +53,7 @@ function Footer() {
                   <b>ADDRESS</b>
                   <br></br>
                 </p>
-                <p className="hari text-muted">
+                <p className="hari text-muted" onClick={openGoogleMaps}>
                   {" "}
                   <Link className="cmn-footer text-muted"  to={"/contact"}>
                   Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
@@ -66,25 +75,11 @@ function Footer() {
                     <i className="fa fab fa-facebook"></i>
                   </a>
                   <a
-                    href="https://wa.me/919952141444"
-                    target="_blank"
-                    className="infyicon infyicon1"
-                  >
-                    <i className="fa fab fa-whatsapp"></i>
-                  </a>
-                  <a
                     href="https://www.instagram.com/infygain/"
                     target="_blank"
                     className="infyicon infyicon1"
                   >
                     <i className="fa fab fa-instagram"></i>
-                  </a>
-                  <a
-                    href="https://www.linkedin.com/company/infygain-technologies/"
-                    target="_blank"
-                    className="infyicon infyicon1"
-                  >
-                    <i className="fa fab fa-linkedin"></i>
                   </a>
                   <a
                     href="https://twitter.com/infygain"
@@ -93,6 +88,22 @@ function Footer() {
                   >
                     <i className="fa fab fa-twitter"></i>
                   </a>
+                  <a
+                    href="https://wa.me/919952141444"
+                    target="_blank"
+                    className="infyicon infyicon1"
+                  >
+                    <i className="fa fab fa-whatsapp"></i>
+                  </a>
+                  
+                  <a
+                    href="https://www.linkedin.com/company/infygain-technologies/"
+                    target="_blank"
+                    className="infyicon infyicon1"
+                  >
+                    <i className="fa fab fa-linkedin"></i>
+                  </a>
+                 
                   <a
                     href="https://www.youtube.com/@infygain6707"
                     target="_blank"
@@ -150,20 +161,19 @@ function Footer() {
                 </ul>
               </div>
               <div className="col-xs-6 col-sm-3">
-                <p className="mini-title three">Address</p>
-                <p className="address">
-                <Link className="cmn-footer text-muted"  to={"/contact"}>
-                  <p>
-                    Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                    Coimbatore, Tamil Nadu 641035.
-                  </p></Link>
-                </p>
+              <p className="mini-title three">Address</p>
+            <p className="address" >
+              <p  onClick={openGoogleMaps}>
+                Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
+                Coimbatore, Tamil Nadu 641035.
+              </p>
+            </p>
                 <hr className="hrline"></hr>
                 <p className="address ph"><a className="link-foot" href="tel:+91 9952141444">+91 &nbsp;9952141444 </a></p>
                 <p className="address ph"><a className="link-foot" href="tel:+91 9087724444">+91 &nbsp;9087724444 </a></p>
               
-
-                <p className="address">
+              
+                <p className="address" onClick={openEmailClient}>
                   <b>info@infygain.com</b>
                 </p>
               </div>

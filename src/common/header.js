@@ -49,7 +49,7 @@ function header() {
               <p>
                 <a className="head-link" href="tel:+91 9952141444">
                   <MdOutlinePhone   />
-                  &nbsp;&nbsp;&nbsp;&nbsp; +91  99521 41444
+                  &nbsp;&nbsp;&nbsp;&nbsp; +91  99521&nbsp;&nbsp;&nbsp;41444
                 </a>{" "}
               </p>
             </div>

@@ -1,6 +1,11 @@
 import 'font-awesome/css/font-awesome.css';
 import '../css/contact.css';
 
+const openGoogleMaps = () => {
+    const address = "Hari complex opp.prozone mall, Sathy Rd, Saravanampatti, Coimbatore, Tamil Nadu 641035";
+    const encodedAddress = encodeURIComponent(address);
+    window.open(`https://www.google.com/maps?q=${encodedAddress}`, "_blank");
+  };
 function Contactmain() {
     return (
         <>
@@ -20,7 +25,7 @@ function Contactmain() {
                             </div>
                             <div className='col-md-9'>
                             <p className='mini-title tit1'>Location</p>
-                            <p className='text-muted locacon'>Hari complex opp.prozone mall,
+                            <p className='text-muted locacon' onClick={openGoogleMaps}>Hari complex opp.prozone mall,
                             Sathy Rd, Saravanampatti,
                             Coimbatore, Tamil Nadu 641035.</p>
                             </div>
@@ -35,7 +40,7 @@ function Contactmain() {
                             </div>
                             <div className='col-md-9'>
                             <p className='mini-title tit1'>Support</p>
-                            <p className='text-muted locacon'> +91 9952141444 <br /> +91 9087724444</p>
+                            <p className='text-muted locacon'>  <a href="tel:+919952141444" className="text-muted">+91 9952141444</a> <br /> <a href="tel:+919087724444" className="text-muted">+91 9087724444</a></p>
                             </div>
                         </div>
                     </div>

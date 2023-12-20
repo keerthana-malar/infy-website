@@ -37,8 +37,8 @@ function IotFooter() {
                 </p>
         
                 <p className="iot-phone">
-                <a  href="tel:+91 9952141444"> +91 99521 41444</a><br></br>
-                <a  href="tel:+91 9952141444">+91 9087724444</a>
+                <a  href="tel:+91 9952141444"> +91 99521&nbsp;&nbsp;&nbsp;41444</a><br></br>
+                <a  href="tel:+91 9952141444">+91 90877&nbsp;&nbsp;&nbsp;24444</a>
                 </p>
               </div>
 
@@ -156,14 +156,22 @@ function IotFooter() {
                 <p className="iot-mini-title iot-three">Address</p>
                 <p className="iot-address">
                 <p className="cmn-footer text-muted">
-                  <p onClick={openGoogleMaps}>
+                <a
+                    href="#"
+                    onClick={() =>
+                      openGoogleMaps(
+                        "Hari complex opp.prozone mall, Sathy Rd, Saravanampatti, Coimbatore, Tamil Nadu 641035"
+                      )
+                    }
+                    style={{ color: "white" }}
+                  >
                     Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
                     Coimbatore, Tamil Nadu 641035.
-                  </p></p>
+                  </a></p>
                 </p>
                 <hr className="iot-hrline"></hr>
-                <p className="iot-address iot-ph"> <a className="link-foot" href="tel:+91 9952141444">+91 &nbsp;9952141444</a></p>
-                <p className="iot-address iot-ph"> <a className="link-foot" href="tel:+91 9087724444">+91 &nbsp;9087724444</a></p>
+                <p className="iot-address iot-ph"> <a className="link-foot" href="tel:+91 9952141444">+91 &nbsp;99521&nbsp;&nbsp;&nbsp;41444</a></p>
+                <p className="iot-address iot-ph"> <a className="link-foot" href="tel:+91 9087724444">+91 &nbsp;90877&nbsp;&nbsp;&nbsp;24444</a></p>
                 <p className="iot-address">
                 <a className="link-foot" href="mailto:info@infygain.com">
                 info@infygain.com</a>

@@ -43,8 +43,8 @@ function Footer() {
                   <b>CALL FOR SUPPORT</b>
                 </p>  
                 <p className="phone">
-                <a className="head-link-footer" href="tel:+91 9952141444"> +91 99521 41444</a><br></br>
-                <a className="head-link-footer" href="tel:+91 9087724444">+91 9087724444</a>
+                <a className="head-link-footer" href="tel:+91 9952141444"> +91 99521&nbsp;&nbsp;&nbsp;41444</a><br></br>
+                <a className="head-link-footer" href="tel:+91 9087724444">+91 90877&nbsp;&nbsp;&nbsp;24444</a>
                 </p>
               </div>
 
@@ -71,6 +71,7 @@ function Footer() {
                     href="https://www.facebook.com/infygain/"
                     target="_blank"
                     className="infyicon infyicon1"
+                    
                   >
                     <i className="fa fab fa-facebook"></i>
                   </a>
@@ -163,19 +164,27 @@ function Footer() {
               <div className="col-xs-6 col-sm-3">
               <p className="mini-title three">Address</p>
             <p className="address" >
-              <p  onClick={openGoogleMaps}>
-                Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                Coimbatore, Tamil Nadu 641035.
-              </p>
+            <a
+                    href="#"
+                    onClick={() =>
+                      openGoogleMaps(
+                        "Hari complex opp.prozone mall, Sathy Rd, Saravanampatti, Coimbatore, Tamil Nadu 641035"
+                      )
+                    }
+                    style={{ color: "white" }}
+                  >
+                    Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
+                    Coimbatore, Tamil Nadu 641035.
+                  </a>
             </p>
                 <hr className="hrline"></hr>
-                <p className="address ph"><a className="link-foot" href="tel:+91 9952141444">+91 &nbsp;9952141444 </a></p>
-                <p className="address ph"><a className="link-foot" href="tel:+91 9087724444">+91 &nbsp;9087724444 </a></p>
+                <p className="address ph"><a className="link-foot" href="tel:+91 9952141444">+91 &nbsp;99521&nbsp;&nbsp;&nbsp;41444 </a></p>
+                <p className="address ph"><a className="link-foot" href="tel:+91 9087724444">+91 &nbsp;90877&nbsp;&nbsp;&nbsp;24444 </a></p>
               
               
-                <p className="address" onClick={openEmailClient}>
+                <a href="mailto:info@infygain.com" className="address" >
                   <b>info@infygain.com</b>
-                </p>
+                </a>
               </div>
               <div className="col-xs-6 col-sm-3">
                 <p className="mini-title four">Legal Links</p>

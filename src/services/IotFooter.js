@@ -11,7 +11,11 @@ function IotFooter() {
       behavior: "smooth",
     });
   };
-
+  const openGoogleMaps = () => {
+    const address = "Hari complex opp.prozone mall, Sathy Rd, Saravanampatti, Coimbatore, Tamil Nadu 641035";
+    const encodedAddress = encodeURIComponent(address);
+    window.open(`https://www.google.com/maps?q=${encodedAddress}`, "_blank");
+  };
   return (
     <footer>
       <div className="iot-mainfooter">
@@ -43,11 +47,11 @@ function IotFooter() {
                   <b>ADDRESS</b>
                   <br></br>
                 </p>
-                <p className="iot-hari text-muted">
-                  {" "}
-                  <Link to={"/contact"} className="iot-addr">
+                <p className="iot-hari text-muted" >
+              
+                  <p className="iot-addr" onClick={openGoogleMaps}>
                   Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                  Coimbatore, Tamil Nadu 641035.</Link>
+                  Coimbatore, Tamil Nadu 641035.</p>
                 </p>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-12  iot-nam-icon">
@@ -72,18 +76,19 @@ function IotFooter() {
                   </a>
                   <a
                     target="_blank"  rel="noopener noreferrer"
-                    href="https://www.instagram.com/infygain/"
-                    className="iot-infyicon iot-infyicon1"
-                  >
-                    <i className="fa fab fa-instagram"></i>
-                  </a>
-                  <a
-                    target="_blank"  rel="noopener noreferrer"
                     href="https://www.linkedin.com/company/infygain-technologies/"
                     className="iot-infyicon iot-infyicon1"
                   >
                     <i className="fa fab fa-linkedin"></i>
                   </a>
+                  <a
+                    target="_blank"  rel="noopener noreferrer"
+                    href="https://www.instagram.com/infygain/"
+                    className="iot-infyicon iot-infyicon1"
+                  >
+                    <i className="fa fab fa-instagram"></i>
+                  </a>
+                 
                   <a
                     target="_blank"  rel="noopener noreferrer"
                     href="https://twitter.com/infygain"
@@ -150,11 +155,11 @@ function IotFooter() {
               <div className="col-xs-6 col-sm-3">
                 <p className="iot-mini-title iot-three">Address</p>
                 <p className="iot-address">
-                <Link className="cmn-footer text-muted"  to={"/contact"}>
-                  <p>
+                <p className="cmn-footer text-muted">
+                  <p onClick={openGoogleMaps}>
                     Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
                     Coimbatore, Tamil Nadu 641035.
-                  </p></Link>
+                  </p></p>
                 </p>
                 <hr className="iot-hrline"></hr>
                 <p className="iot-address iot-ph"> <a className="link-foot" href="tel:+91 9952141444">+91 &nbsp;9952141444</a></p>

@@ -101,7 +101,7 @@ const HomeBlog = () => {
                 
                 <div key={value.id} className="col-md-4 blog-one-boxes">
                 
-                  <div className="blogBoxInn ">
+                  <div className="blogBoxInn blogh">
                     <div className="blogImgBox">
                     {/* <div className="blogDate">
                         13 <br/>
@@ -110,7 +110,8 @@ const HomeBlog = () => {
                       <a className="links" href='/mainblogs'>
                           <img className="" 
                           src={`uploads/${value.img}`} 
-                          alt={value.title} />  
+                          alt={value.title} 
+                          title={value.title}/>  
                         </a>
                         
                     </div>

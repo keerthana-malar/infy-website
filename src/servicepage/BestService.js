@@ -45,10 +45,11 @@ function BestService() {
         <div className='hkl'>
         <h2 className='bril mb-5'> Website Development</h2>
         </div>
+
         <div className='row'>
             <div className='col-md-4 col-lg-4  popp' data-aos="fade-right"  data-aos-duration="1000">
              <div className='lmk'>
-               <img src="/images/static.webp" alt='best Website services' className='image-fluid'/>
+               <img src="/images/static.webp" alt='best Website services' className='image-fluid' title='best Website service'/>
              </div>
 
              {/* <div className='butk'>
@@ -101,7 +102,7 @@ function BestService() {
             </div> 
           <div className='col-md-5 col-lg-5 olk' id="column1" data-aos="fade-left"  data-aos-duration="1000">
                <div className='lmk2'>
-                 <img src="/images/ecommerce.webp" alt='best Website services' className='image-fluid'/>
+                 <img src="/images/ecommerce.webp" alt='best Website services' className='image-fluid' title='best Website service'/>
                </div>
 
                {/* <div className='butk'>
@@ -116,7 +117,7 @@ function BestService() {
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right"  data-aos-duration="1000">
              <div className='lmk'>
-               <img src="/seo-img.webp" alt='best Website services' className='image-fluid'/>
+               <img src="/seo-img.webp" alt='best Website services' className='image-fluid' title='best Website service'/>
              </div>
 
              {/* <div className='butk'>
@@ -147,6 +148,7 @@ function BestService() {
           </div>
 
         </div>
+        
         <div className='row'>
          
          <div className='col-md-6 col-lg-6  probl' id="column2" data-aos="fade-right"  data-aos-duration="1000" >
@@ -173,7 +175,7 @@ function BestService() {
 
        <div className='col-md-6 col-lg-6  popp' id="column1" data-aos="fade-left" data-aos-duration="1000">
           <div className='lmk1 coverage'>
-            <img src="/web-design-concept.webp" alt='best Website services'  className='image-fluid'/>
+            <img src="/web-design-concept.webp" alt='best Website services'  className='image-fluid' title='best Website service'/>
           </div>
           
             
@@ -191,7 +193,7 @@ function BestService() {
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right" data-aos-duration="1000">
              <div className='lmk'>
-               <img src="/images/SEO PAGE VECTOR.webp" alt='best Seo services' className='image-fluid'/>
+               <img src="/images/SEO PAGE VECTOR.webp" alt='best Seo services' className='image-fluid' title='best Seo services'/>
              </div>
 
              {/* <div className='butk'>
@@ -251,7 +253,7 @@ function BestService() {
                
         
                <div className='lmk1'>
-                 <img src="/images/seo-sec.webp" alt='best Seo services' className='image-fluid'/>
+                 <img src="/images/seo-sec.webp" alt='best Seo services' className='image-fluid' title='best Seo services'/>
                </div>
             
               </div>
@@ -261,7 +263,7 @@ function BestService() {
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right" data-aos-duration="1000">
              <div className='lmk'>
-               <img src="/images/seo-third.webp" alt='best Seo services' className='image-fluid'/>
+               <img src="/images/seo-third.webp" alt='best Seo services' className='image-fluid' title='best Seo services'/>
              </div>
 
              {/* <div className='butk'>
@@ -324,7 +326,7 @@ function BestService() {
 
           <div className='col-md-6 col-lg-6 popp' id="column1" data-aos="fade-left" data-aos-duration="1000">
              <div className='lmk1 coverage'>
-               <img src="/images/seo-three.webp" alt='best Seo services'  className='image-fluid'/>
+               <img src="/images/seo-three.webp" alt='best Seo services'  className='image-fluid' title='best Seo services'/>
              </div>
              
                
@@ -341,7 +343,7 @@ function BestService() {
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right"  data-aos-duration="1000">
              <div className='lmk'>
-               <img src="/images/custom-web.webp" alt="best Application services" className='image-fluid'/>
+               <img src="/images/custom-web.webp" alt="best Application services" className='image-fluid' title='best Application services' />
              </div>
             </div>
             <div className='col-md-8 col-lg-8 wifit' data-aos="fade-left"  data-aos-duration="1000" >
@@ -386,8 +388,8 @@ function BestService() {
                     </p>
             </div>
           <div className='col-md-5 col-lg-5   olk' id="column1" data-aos="fade-left"  data-aos-duration="1000">
-               <div className='lmk2'>
-                 <img src="/images/cross-platform.webp" alt="best Application services" className='image-fluid'/>
+               <div className='lmk2'> 
+                 <img src="/images/cross-platform.webp" alt="best Application services" className='image-fluid' title='best Application services'/>
                </div>
                </div>
 
@@ -395,7 +397,7 @@ function BestService() {
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right"  data-aos-duration="1000">
              <div className='lmk'>
-               <img src="/images/Api-integ.webp" alt="best Application services" className='image-fluid'/>
+               <img src="/images/Api-integ.webp" alt="best Application services" className='image-fluid' title='best Application services'/>
              </div>
             </div>
             <div className='col-md-8 col-lg-8 wifit' data-aos="fade-left"  data-aos-duration="1000" >
@@ -445,7 +447,7 @@ function BestService() {
 
        <div className='col-md-6 col-lg-6  popp'  id="column1" data-aos="fade-left" data-aos-duration="1000">
           <div className='lmk1 coverage'>
-            <img src="/images/app-services.webp" alt='best Application services'  className='image-fluid'/>
+            <img src="/images/app-services.webp" alt='best Application services'  className='image-fluid' title='best Application services'/>
           </div>
           
             
@@ -461,7 +463,7 @@ function BestService() {
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right"  data-aos-duration="1000">
              <div className='lmk1'>
-               <img src="/images/graphic.webp" alt='best Designing services' className='image-fluid'/>
+               <img src="/images/graphic.webp" alt='best Designing services' className='image-fluid' title='best Designing services'/>
              </div>
             </div>
             <div className='col-md-8 col-lg-8 wifit' data-aos="fade-left"  data-aos-duration="1000" >
@@ -505,7 +507,7 @@ function BestService() {
             </div>
           <div className='col-md-5 col-lg-5  olk' id="column1" data-aos="fade-left"  data-aos-duration="1000">
                <div className='lmk2'>
-                 <img src="/images/brand-design.webp" alt='best Designing services' className='image-fluid'/>
+                 <img src="/images/brand-design.webp" alt='best Designing services' className='image-fluid' title='best Designing services'/>
                </div>
                </div>
         </div>
@@ -513,7 +515,7 @@ function BestService() {
         <div className='row'>
             <div className='col-md-4 col-lg-4 popp' data-aos="fade-right"  data-aos-duration="1000">
              <div className='lmk2'>
-               <img src="/images/uiandux.webp" alt='best Designing services' className='image-fluid'/>
+               <img src="/images/uiandux.webp" alt='best Designing services' className='image-fluid' title='best Designing services'/>
              </div>
             </div>
             <div className='col-md-8 col-lg-8 wifit' data-aos="fade-left"  data-aos-duration="1000" >
@@ -562,7 +564,7 @@ function BestService() {
 
           <div className='col-md-6 col-lg-6  popp' id="column1" data-aos="fade-left" data-aos-duration="1000">
              <div className='lmk1 coverage'>
-               <img src="/images/design-serv.webp" alt='best Designing services'  className='image-fluid'/>
+               <img src="/images/design-serv.webp" alt='best Designing services'  className='image-fluid' title='best Designing services'/>
              </div>  
             </div>
 

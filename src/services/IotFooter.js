@@ -4,6 +4,8 @@ import '../css/IotFooter.css'
 import { Link } from "react-router-dom";
 import { TbArrowBigUpFilled } from "react-icons/tb";
 
+import { Tooltip as ReactTooltip } from "react-tooltip";
+
 function IotFooter() {
   const scrollToTop = () => {
     window.scrollTo({
@@ -65,44 +67,68 @@ function IotFooter() {
                     href="https://www.facebook.com/infygain/"
                     className="iot-infyicon iot-infyicon1"
                   >
-                    <i className="fa fab fa-facebook"></i>
+                    <i data-tooltip-id="my-tooltip-11" className="fa fab fa-facebook"></i>
                   </a>
+                      <ReactTooltip
+                    id="my-tooltip-11"
+                    place="bottom"
+                    content="Facebook"/>
                   <a
                     target="_blank"  rel="noopener noreferrer"
                     href="https://wa.me/919952141444"
                     className="iot-infyicon iot-infyicon1"
                   >
-                    <i className="fa fab fa-whatsapp"></i>
+                    <i data-tooltip-id="my-tooltip-12" className="fa fab fa-whatsapp"></i>
                   </a>
+                  <ReactTooltip
+                    id="my-tooltip-12"
+                    place="bottom"
+                    content="Whatsapp"/>
                   <a
                     target="_blank"  rel="noopener noreferrer"
                     href="https://www.linkedin.com/company/infygain-technologies/"
                     className="iot-infyicon iot-infyicon1"
                   >
-                    <i className="fa fab fa-linkedin"></i>
+                    <i data-tooltip-id="my-tooltip-13" className="fa fab fa-linkedin"></i>
                   </a>
+                  <ReactTooltip
+                    id="my-tooltip-13"
+                    place="bottom"
+                    content="Linkedin"/>
                   <a
                     target="_blank"  rel="noopener noreferrer"
                     href="https://www.instagram.com/infygain/"
                     className="iot-infyicon iot-infyicon1"
                   >
-                    <i className="fa fab fa-instagram"></i>
+                    <i data-tooltip-id="my-tooltip-14" className="fa fab fa-instagram"></i>
                   </a>
+                  <ReactTooltip
+                    id="my-tooltip-14"
+                    place="bottom"
+                    content="Instagram"/>
                  
                   <a
                     target="_blank"  rel="noopener noreferrer"
                     href="https://twitter.com/infygain"
                     className="iot-infyicon iot-infyicon1"
                   >
-                    <i className="fa fab fa-twitter"></i>
+                    <i data-tooltip-id="my-tooltip-15" className="fa fab fa-twitter"></i>
                   </a>
+                  <ReactTooltip
+                    id="my-tooltip-15"
+                    place="bottom"
+                    content="Twitter"/>
                   <a
                     target="_blank"  rel="noopener noreferrer"
                     href="https://www.youtube.com/@infygain6707"
                     className="iot-infyicon iot-infyicon1"
                   >
-                    <i className="fa fab fa-youtube"></i>
+                    <i data-tooltip-id="my-tooltip-16" className="fa fab fa-youtube"></i>
                   </a>
+                  <ReactTooltip
+                    id="my-tooltip-16"
+                    place="bottom"
+                    content="Youtube"/>
                 </div>
               </div>
             </div>

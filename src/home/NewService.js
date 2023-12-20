@@ -53,11 +53,12 @@ const NewService = () => {
                         <img className='hom-sld-img' 
                         // src='/images/WEB-img3.webp'
                         src='/images/w-3.webp'
-                         alt='best It supports'/>
+                         alt='best It supports'
+                         title="Best IT supports"/>
 
                         <div className='home-cont-overlay'>
 
-                            <img src="/images/icons/it.webp" alt="service icons" ></img>
+                            <img src="/images/icons/it.webp" alt="service icons" title='Best IT supports'></img>
                             <Link to="/Iotservice" >
 
                                 <h2 className="mid-title serviceIt">IT Support</h2>
@@ -75,10 +76,10 @@ const NewService = () => {
                         <img className='hom-sld-img' 
                         // src='/images/WEB 2-02.webp' 
                         src='/images/w-2.webp' 
-                        alt='best web services'/>
+                        alt='best web services' title='Best Web Services'/>
                         <div className='home-cont-overlay'>
 
-                            <img src="/images/icons/web.webp" alt="service icons"></img>
+                            <img src="/images/icons/web.webp" alt="service icons"  title='Best Web Services'></img>
                             <Link to="/ServiceSeo" >
 
                             <h2 className="mid-title serviceIt">Web Development</h2>
@@ -95,10 +96,10 @@ const NewService = () => {
                         <img className='hom-sld-img' 
                         // src='/images/WEB 1-01.webp' 
                         src='/images/w-1.webp' 
-                        alt='best isp services'/>
+                        alt='best isp services' title='Best ISP Services'/>
                         <div className='home-cont-overlay'>
 
-                            <img src="/images/icons/isp.webp" alt="service icons"></img>
+                            <img src="/images/icons/isp.webp" alt="service icons" title='Best ISP Services'></img>
                             <Link to="/ispservice" >
                             <h2 className="mid-title serviceIt">ISP Services</h2>
                             </Link>

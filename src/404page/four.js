@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 function Fournotfour() {
     return (
         <div className='fournotfour'>
-            <div className='row'> <img src="/images/banner/four.gif" alt="Image Description" className="ispimage" />
+            <div className='row'> <img src="/images/banner/four.gif" alt="Image Description" className="ispimage" title='404 Not Found'/>
                 <div className='four-text'>
                     <h1>404 - PAGE NOT FOUND</h1>
                     <p>We're sorry, the page you requested could not be found</p>

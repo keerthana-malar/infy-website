@@ -7,11 +7,11 @@ const CareerForm = () => {
     const [data, setData] = useState([]);
     useEffect(() => {
         axios
-        .get("https://infygain.in/api/career-data")
+        .get("https://infygain.com/api/career-data")
         .then((res) => {
          const dataa= res.data
          setData(dataa);
-          console.log('car',data)
+
         })
         .catch((err) => {
           console.log(err);
@@ -65,7 +65,7 @@ const CareerForm = () => {
 
         
 
-            axios.post("https://infygain.in/api/carformdata", formData)
+            axios.post("https://infygain.com/api/carformdata", formData)
 
             .then((res) => {
               console.log(res)
@@ -102,7 +102,7 @@ const CareerForm = () => {
     </div>
 
         <div className='form-img'>
-           <img src='/images/careerForm.webp' alt='best jobs' className='image-fluid'/>
+           <img src='/images/careerForm.webp' alt='best jobs' className='image-fluid' title='Jobs'/>
         </div> 
     </div>
     <div className='col-md-6 col-lg-6'>
@@ -133,7 +133,6 @@ const CareerForm = () => {
                     {/* <label>Position <span className='label-star'>*</span></label> */}
                     <select name='position'  onChange={handleInput}>
            <option>--Please select the position--</option>
-           <option>Others</option>
             {data.map((vale, index) => (
             <option key={index} value={vale.title}>
                {vale.title}
@@ -169,7 +168,7 @@ const CareerForm = () => {
                   ></input>
                 </div>
                 <div className='job-btn'>
-                        <button type='submit'>Submit</button>
+                      <button type='submit'>Submit</button>
                 </div>
                 </form>
             </div>

@@ -29,6 +29,7 @@ const RecentProjects = () => {
                       className="img-fluid"
                       src="/images/seo/trip.webp"
                       alt="our projects"
+                      title="Projects"
                     ></img></Link>
                   </div>
                   <div className="cont-box d-flex justify-content-center align-items-center text-center">
@@ -49,6 +50,7 @@ const RecentProjects = () => {
                       className="img-fluid"
                       src="/images/seo/seoweb.webp"
                       alt="our projects"
+                      title="Projects"
                     ></img>
                     </Link>
                   </div>
@@ -70,6 +72,7 @@ const RecentProjects = () => {
                       className="img-fluid"
                       src="/images/seo/bsite.webp"
                       alt="our projects"
+                      title="Projects"
                     ></img>   </Link>
                   </div>
                   <div className="cont-box d-flex justify-content-center align-items-center text-center">

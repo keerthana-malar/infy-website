@@ -50,7 +50,7 @@ useEffect(() => {
   const slides = sliderImg.map((item, index) => (
     <div key={index} className="slider">
       <div className="sliderBox">
-        <img className="sliderImg" src={item.img} alt={`Slide ${index}`} />
+        <img className="sliderImg" src={item.img} alt={`Slide ${index}`} title="Infygain Banner Image"/>
         <div className="slideCont">
           <div>
             <p className="main-title banner-title">{item.title}</p>

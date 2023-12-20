@@ -143,7 +143,7 @@ function Portfolio({componentRef1}) {
         {
           protfolios.map((protfolio,index) => (
             <div className="portbxk pbx" key={index}>
-                        <img className="portimgbxk" alt="best project" src={protfolio.img}></img>
+                        <img className="portimgbxk" alt="best project" src={protfolio.img} title="best project"></img>
                         <div className="portoverbxk">
                           <button className="btn portbtn mb-3">{protfolio.cat}</button>
                           <p className="porttit mb-3">{protfolio.name}</p>

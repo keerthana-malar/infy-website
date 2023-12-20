@@ -46,6 +46,7 @@ const ourExp = () => {
                       className="img-fluid"
                       src="/images/top-rated (2).svg"
                       alt="OUR EXPERIENCE"
+                      title="Experience"
                     ></img>
                   </div>
                   <div className="ourExpFootContBox">
@@ -59,7 +60,7 @@ const ourExp = () => {
                 </div>
               </div>
               <div className="col-lg-6">
-                <img className="img-fluid" src="/images/Experience-Home-img.webp" alt="10+ years experience"></img>
+                <img className="img-fluid" src="/images/Experience-Home-img.webp" alt="10+ years experience" title="10+ years experience"></img>
               </div>
             </div>
           </div>

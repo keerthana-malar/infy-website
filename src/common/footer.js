@@ -4,6 +4,8 @@ import "../css/footer.css";
 import { Link } from "react-router-dom";
 import { TbArrowBigUpFilled } from "react-icons/tb";
 
+import { Tooltip as ReactTooltip } from "react-tooltip";
+
 function Footer() {
   const scrollToTop = () => {
     window.scrollTo({
@@ -35,6 +37,7 @@ function Footer() {
                     className="img-fluid"
                     src="/images/others/logo-alt.svg"
                     alt="best it supports"
+                    title="Infygain Logo"
                   ></img>
                 </p>
               </div>
@@ -72,45 +75,69 @@ function Footer() {
                     target="_blank"
                     className="infyicon infyicon1"
                   >
-                    <i className="fa fab fa-facebook"></i>
+                    <i data-tooltip-id="facebook" className="fa fab fa-facebook"></i>
                   </a>
+                  <ReactTooltip
+                    id="facebook"
+                    place="bottom"
+                    content="Facebook"/>
                   <a
                     href="https://www.instagram.com/infygain/"
                     target="_blank"
                     className="infyicon infyicon1"
                   >
-                    <i className="fa fab fa-instagram"></i>
+                    <i data-tooltip-id="instagram" className="fa fab fa-instagram"></i>
                   </a>
+                  <ReactTooltip
+                    id="instagram"
+                    place="bottom"
+                    content="Instagram"/>
                   <a
                     href="https://twitter.com/infygain"
                     target="_blank"
                     className="infyicon infyicon1"
                   >
-                    <i className="fa fab fa-twitter"></i>
+                    <i data-tooltip-id="twitter" className="fa fab fa-twitter"></i>
                   </a>
+                  <ReactTooltip
+                    id="twitter"
+                    place="bottom"
+                    content="Twitter"/>
                   <a
                     href="https://wa.me/919952141444"
                     target="_blank"
                     className="infyicon infyicon1"
                   >
-                    <i className="fa fab fa-whatsapp"></i>
+                    <i data-tooltip-id="whatsapp" className="fa fab fa-whatsapp"></i>
                   </a>
+                  <ReactTooltip
+                    id="whatsapp"
+                    place="bottom"
+                    content="Whatsapp"/>
                   
                   <a
                     href="https://www.linkedin.com/company/infygain-technologies/"
                     target="_blank"
                     className="infyicon infyicon1"
                   >
-                    <i className="fa fab fa-linkedin"></i>
+                    <i data-tooltip-id="linkedin" className="fa fab fa-linkedin"></i>
                   </a>
+                  <ReactTooltip
+                    id="linkedin"
+                    place="bottom"
+                    content="Linkedin"/>
                  
                   <a
                     href="https://www.youtube.com/@infygain6707"
                     target="_blank"
                     className="infyicon infyicon1"
                   >
-                    <i className="fa fab fa-youtube"></i>
+                    <i data-tooltip-id="youtube" className="fa fab fa-youtube"></i>
                   </a>
+                  <ReactTooltip
+                    id="youtube"
+                    place="bottom"
+                    content="Youtube"/>
                 </div>
               </div>
             </div>

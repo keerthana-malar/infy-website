@@ -28,7 +28,7 @@ function Mainsection() {
       });
       setBlogs(sortedBlogs);
     });
-  }, [blogs]);
+  }, []);
 
   const totalItems = blogs.length;
   const totalPages = Math.ceil(totalItems / itemsPerPage);
@@ -77,36 +77,7 @@ function Mainsection() {
         {/* Blog content... */}
         <div className="row mt-5">
         {currentItems.map((value) => (
-          // <div key={item.id} className="col-md-4 col-sm-4 mainblogsection">
-          //   <div className="image-section">
-          //     <div className="img">
-          //       <img
-          //         className="img-fluid"
-          //         // src={"uploads/" + item.img}
-          //         src="/images/ca.webp"
-          //         alt={item.title} 
-          //       />
-          //     </div>
-          //     <div className="content-box p-3">
-          //       <div className="content-box-content">
-          //         <p className="sub-title pri-color t-c">{item.title}</p>
-          //         <div
-          //           dangerouslySetInnerHTML={{
-          //             __html: item.intro,
-          //           }}
-          //           className="text-muted detailscontent"
-          //         ></div>
-          //       </div>
-          //     </div>
-          //     <div className="readmorelink t-c pb-3">
-          //       <p className="readmoretext">
-          //         <Link to={"/blogs/" + item.id}>
-          //           <button className="btns">READ MORE</button>
-          //         </Link>
-          //       </p>
-          //     </div>
-          //   </div>
-          // </div>
+         
 
           <div key={value.id} className="col-md-4  blog-one-boxes">
                   

@@ -14,7 +14,7 @@ const HomeBlog = () => {
       dots: false, 
       // speed: 500,
       slidesToShow: 3,
-      slidesToScroll: 1,
+      slidesToScroll: 3,
       initialSlide: 0,
       arrows:false,
       autoplay: true,
@@ -23,26 +23,17 @@ const HomeBlog = () => {
       adaptiveHeight: true,
       responsive: [
           {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 3,
-              slidesToScroll: 1,
-              infinite: false,
-              dots: true
-            }
-          },
-          {
-            breakpoint: 700,
+            breakpoint: 1000,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 1,
+              slidesToScroll: 2,
               initialSlide: 1
             }
           },
           {
-            breakpoint: 480,
+            breakpoint: 760,
             settings: {
-              slidesToShow: 2,
+              slidesToShow: 1,
               slidesToScroll: 1,
               initialSlide: 1
             }
@@ -119,7 +110,7 @@ const HomeBlog = () => {
                       <a className="links" href='/mainblogs'>
                           <img className="img-fluid" 
                           src={`uploads/${value.img}`} 
-                        
+
                           alt={value.title} />  
                         </a>
                         

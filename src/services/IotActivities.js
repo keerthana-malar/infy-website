@@ -27,7 +27,8 @@ const IotActivities = () => {
                     <div className='active-1' style={{display:"flex", flexDirection:"column"}}>
                         <div style={{display:"flex",alignItems:"center"}}>
                         {/* <BsPersonFill className='person-icon'/> */}
-                        <img className='person-icon' alt='top iot services' style={{color:"#ffc000"}} src='/images/proj.webp'/>
+                        <img className='person-icon' alt='top iot services' style={{color:"#ffc000"}} src='/images/proj.webp'
+                        title='Completed projects'/>
                         {scroll && 
                         <>
                             <CountUp className='activity-nos' start={0} end={487} duration={5} delay={0} /> <span className='activity-nos'>+</span>
@@ -70,7 +71,8 @@ const IotActivities = () => {
                     <div style={{display:"flex", flexDirection:"column"}}>
                         <div style={{display:"flex",alignItems:"center"}}>
                         {/* <BsPersonFill className='person-icon'/> */}
-                        <img alt='top it services' className='person-icon' style={{color:"#ffc000"}} src='/images/sp.webp'/>
+                        <img alt='top it services' className='person-icon' style={{color:"#ffc000"}} src='/images/sp.webp'
+                        title='Service provider'/>
                         {scroll && 
                         <>
                             <CountUp className='activity-nos' start={0} end={68} duration={5} delay={0} /> <span className='activity-nos'>+</span>
@@ -91,7 +93,8 @@ const IotActivities = () => {
                     </div>
                     <div style={{display:"flex", flexDirection:"column"}}>
                         <div style={{display:"flex",alignItems:"center"}}>
-                        <img className='person-icon' style={{color:"#ffc000"}} src='/images/eng.webp' alt='best Services'/>
+                        <img className='person-icon' style={{color:"#ffc000"}} src='/images/eng.webp' alt='best Services'
+                        title='Service engineers'/>
                         {scroll && 
                         <>
                             <CountUp className='activity-nos' start={0} end={12} duration={5} delay={0} /> <span className='activity-nos'>+</span>

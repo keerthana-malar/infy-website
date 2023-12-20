@@ -16,7 +16,7 @@ function Mainpackage() {
                                         <div className='des'><img
                                             className="img-fluid"
                                             src="/images/banner/Group 1 copy.webp"
-                                            alt='BASIC PACKAGE'>
+                                            alt='BASIC PACKAGE'title='Basic package'>
                                         </img></div>
                                         <p className="midss-title">BASIC PACKAGE</p>
                                         <p className="midess-title">
@@ -46,7 +46,7 @@ function Mainpackage() {
                                         <div className='des'><img
                                             className="img-fluid"
                                             src="../images/banner/Group 2 copy.jpg"
-                                            alt='PREMIUM PACKAGE'>
+                                            alt='PREMIUM PACKAGE'title='Premium package'>
                                         </img></div>
 
                                         <p className="midss-title">PREMIUM PACKAGE</p>
@@ -76,7 +76,7 @@ function Mainpackage() {
                                         <div className='des'><img
                                             className="img-fluid"
                                             src="../images/banner/Group 3 copy.jpg"
-                                            alt='HYPE PACKAGE'>
+                                            alt='HYPE PACKAGE'title='High package'>
                                         </img></div>
                                         <p className="midss-title">HYPE PACKAGE</p>
                                         <p className="midess-title">

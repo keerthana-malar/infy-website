@@ -116,7 +116,7 @@ const HomeBlog = () => {
                                             <a className="links" href={"/blogs/" + value.id}>
                                                 <img className="dw-blogs1 "
                                                     src={`uploads/${value.img}`}
-
+                                                    title={value.title}
                                                     alt={value.title} />
                                                 <div className='dw-blogs2'>
                                                     <span>Ispservice</span>

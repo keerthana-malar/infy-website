@@ -15,11 +15,11 @@ import Enquiry from "./common/enquiry";
 import { useRef } from 'react';
 
 let metaContent = {
-  des: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,server, billing software, graphic design, amc.",
+  des: "We provide the best computer and laptop service in Coimbatore and also we best in networking, cctv camera,server, billing software, web, graphic design, amc",
   key: "computer,laptop,cctv,printer,AMC,networking,website,graphics,isp",
-  ogt: "IT Supports",
-  og: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,server, billing software, graphic design, amc.",
-
+  ogt: "Best One Point IT Solutions and Sales Provider in Coimbatore",
+  og: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,server, billing software, web, graphic design, amc",
+  logo: "https://infygain.com/images/icons/infy-logo.svg"
 }
 // Get the current URL using window.location.href
 const currentUrl = window.location.href;

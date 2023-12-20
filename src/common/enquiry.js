@@ -90,7 +90,7 @@ function Enquiry() {
               <div className="row">
                 <div className="col-lg-5">
                   <div className="shortt-img">
-                    <img className="img-fluid " src="/images/abt.webp" alt="best web services"></img>
+                    <img className="img-fluid " src="/images/abt.webp" alt="best web services"title="Enquiry from"></img>
                   </div>
                 </div>
                 <div className="col-lg-7">

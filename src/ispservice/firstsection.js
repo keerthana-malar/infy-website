@@ -23,7 +23,7 @@ function Firstsection() {
                         </div>
                     </div>
                     <div className='col-lg-3 center-img'>
-                        <div className='' ><img src="../images/banner/ispimage.png" alt="best network services" class="ispimage" />
+                        <div className='' ><img src="../images/banner/ispimage.png" alt="best network services" class="ispimage" title='network services'/>
                         </div>
                     </div>
 
@@ -73,7 +73,7 @@ function Firstsection() {
                 <div className=' ispsmallbox' data-aos="fade-up" data-aos-duration="2000">
                     <div className=' row is-sma-box' data-aos="fade-up" data-aos-duration="2000">
                         <div className='col-lg-3' data-aos="fade-up" data-aos-duration="2000">
-                            <div className='smallimg' ><img src="../images/banner/smallbox-webp.webp" alt="best wifi solution" /></div>
+                            <div className='smallimg' ><img src="../images/banner/smallbox-webp.webp" alt="best wifi solution"title='wifi solution' /></div>
                         </div>
                         <div className='col-lg-6   commonbac' data-aos="fade-up" data-aos-duration="1000">
                             <p className='smallconten'>

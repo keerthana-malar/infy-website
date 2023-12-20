@@ -101,16 +101,15 @@ const HomeBlog = () => {
                 
                 <div key={value.id} className="col-md-4 blog-one-boxes">
                 
-                  <div className="blogBoxInn blogh">
+                  <div className="blogBoxInn ">
                     <div className="blogImgBox">
                     {/* <div className="blogDate">
                         13 <br/>
                         May
                       </div> */}
                       <a className="links" href='/mainblogs'>
-                          <img className="img-fluid" 
+                          <img className="" 
                           src={`uploads/${value.img}`} 
-
                           alt={value.title} />  
                         </a>
                         

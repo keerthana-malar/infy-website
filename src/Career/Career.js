@@ -158,6 +158,8 @@ const Career =()=>{
  
 
   <div className="row car-boxs">
+
+
   {
     !(data.length === 0) ?
       data.map((values, index) =>(
@@ -182,13 +184,18 @@ const Career =()=>{
             
             <p className="parl">{values.exp} </p>
             </div>
+            <div className="open">
+            <img src="/images/experience.png" alt="best career" className="exp" title="Career"/> 
+            
+            <p className="parl">{values.intro} </p>
+            </div>
           <div className="open">
             <img src="/images/location.png" alt="best career" className="loc" title="Career"/>
             <p className="parl" >Coimbatore </p></div>
           </div>
-          <div className="bth">
+          {/* <div className="bth">
           {values.intro}
-          </div>
+          </div> */}
           <div className="bop1">
           <button className="btn bop" onClick={showModal}><img src="\images\rightarrow.png" alt="career" title="Career"/> 
           Apply now </button>

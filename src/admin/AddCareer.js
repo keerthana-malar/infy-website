@@ -58,10 +58,6 @@ const AddCareer = () => {
       setErrors("All fields Must Be Filled");
       setShow(true);
     }
-    else if(values.intro[0].length > 100){
-      setErrors("Intro should be max 100 char's");
-      setShow(true);
-    }
     else if(!parseInt(values.openings[0])){
       setErrors("No of openings must be in numbers");
       setShow(true);
@@ -157,7 +153,11 @@ const AddCareer = () => {
                   onChange={handleInput}
                 ></input>
               </div>
-              <div className="col">
+          
+            </div>
+
+            <div className="row mb-3">
+            <div className="col">
               <input
                   className="form-control"
                   name="openings"
@@ -165,17 +165,13 @@ const AddCareer = () => {
                   onChange={handleInput}
                 />
                 </div>
-            </div>
-
-            <div className="row mb-3">
               <div className="col">
-              <textarea
-                 
-                  className="form-control "
+              <input
+                  className="form-control"
                   name="intro"
-                  placeholder="Intro"
+                  placeholder="Salary"
                   onChange={handleInput}
-                ></textarea>
+                ></input>
               </div>
               
               {/* <div className="col">

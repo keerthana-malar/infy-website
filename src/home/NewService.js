@@ -29,7 +29,8 @@ const NewService = () => {
 
                 <div className='row'>
                     <div className='col-lg-6'>
-                        <p className=' home-about-title'>We Offer a WideVariety of IT Services</p>
+                        <h1 className=' home-about-title'>We Offer a WideVariety of IT Services</h1>
+                        {/* <h1 className=' home-about-title'>Best One Point IT Solutions and Sales Provider</h1> */}
                     </div>
                     <div className='col-lg-4'>
                         <p className='text-muted home-ourservice-des'>Web designing in a powerful way of just not a profession, however, in a passion for our Company. We have a tendency to believe the idea that smart looking.</p>

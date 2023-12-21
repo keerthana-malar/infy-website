@@ -2,8 +2,16 @@ import { useEffect,useState } from 'react'
 import React from 'react'
 import '../css/CareerForm.css'
 import axios from "axios";
+import { Alert } from 'react-bootstrap';
 
 const CareerForm = () => {
+  
+    // file upload max size 1mb 
+    const maxSizeInBytes = 1048576;
+
+    const [errors, setErrors] = useState("");
+    const [show, setShow] = useState(false);
+    const [showMsg, setShowMsg] = useState(false);
     const [data, setData] = useState([]);
     useEffect(() => {
         axios
@@ -39,7 +47,9 @@ const CareerForm = () => {
 
       const handleFileChange = (e) => {
         const selectedFile = e.target.files[0];
-        setFile(selectedFile);
+
+          setFile(selectedFile);
+
       };
 
       const handleSubmit = (e) => {
@@ -48,10 +58,16 @@ const CareerForm = () => {
         // console.log(file)
 
         if (values.name === "") {
-            // setErrors("Title Must Be Filled 🤔");
-            // setShow(true);
+            setErrors("Title Must Be Filled 🤔");
+            setShow(true);
           
-          } else {
+          } 
+          else if(file && file.size > maxSizeInBytes) {
+            setErrors("File size exceeds the limit (1MB)🤔");
+            setShow(true);
+          }
+          
+          else {
             console.log(0)
             const formData = new FormData();
             formData.append("file", file);
@@ -64,12 +80,15 @@ const CareerForm = () => {
 
 
         
-
+            
             axios.post("https://infygain.com/api/carformdata", formData)
 
             .then((res) => {
               console.log(res)
               document.querySelector(".careerForm").reset();
+                setErrors("Submited Successfully 😊😊");
+              setShowMsg(true)
+
             //   setErrors("Blog Added Successfully 😊😊");
             //   setShowMsg(true);
             })
@@ -82,6 +101,27 @@ const CareerForm = () => {
           }
         
       };
+
+      function alertBox() {
+        if (show) {
+          return (
+            <Alert variant="danger" onClose={() => setShow(false)} dismissible>
+              {errors}
+            </Alert>
+          );
+        }
+      }
+    
+    
+      function msgBox() {
+        if (showMsg) {
+          return (
+            <Alert variant="success" onClose={() => setShowMsg(false)} dismissible>
+              {errors}
+            </Alert>
+          );
+        }
+      }
   return (
     <div className='cop'>
   <div className='container'>
@@ -110,12 +150,17 @@ const CareerForm = () => {
       
 
         <div>
-        <div className='job-allhead '>
+
+        {alertBox()}
+        {msgBox()}
+
+        <div className='job-allhead'>
+          
             <div className='job-form-head'>
-                <h2>Apply Now</h2>
-                {/* <span>Opportunities don’t happen, you create them.</span> */}
-            </div>
-            <div className='job-form'>
+                    <h2>Apply Now</h2>
+                    {/* <span>Opportunities don’t happen, you create them.</span> */}
+                </div>
+                <div className='job-form'>
                 <form className='careerForm' onSubmit={handleSubmit}>
                     <div className='form-input'>
                         {/* <label>Name <span className='label-star'>*</span></label> */}
@@ -150,10 +195,10 @@ const CareerForm = () => {
                         </select> 
                     </div>
                 
-                <div className='form-input'>
+                    <div className='form-input'>
                         {/* <label>A brief about the candidate <span className='label-star'>*</span></label> */}
                         {/* <label>Comments <span className='label-star'>*</span></label> */}
-                        <textarea type='text' placeholder='Comment here' required/> 
+                        <textarea name='selfintro' onChange={handleInput}  placeholder='Comment here' required/> 
                 </div>
                 <div className='form-input'>
                     <label>Upload Resume <span className='label-star'>*</span></label>
@@ -173,6 +218,7 @@ const CareerForm = () => {
                 </form>
             </div>
         </div>
+
         </div>
     </div>
     </div>

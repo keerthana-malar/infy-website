@@ -10,17 +10,24 @@ const HomeBlog = () => {
     const [blogs, setBlogs] = useState([]);
 
     var settings = {
+      dots: false,
       infinite: true,
-      dots: false, 
-      // speed: 500,
+      speed: 2000,
       slidesToShow: 3,
       slidesToScroll: 3,
-      initialSlide: 0,
-      arrows:false,
       autoplay: true,
-      speed: 2000,
       autoplaySpeed: 2000,
-      adaptiveHeight: true,
+      // infinite: true,
+      // dots: false, 
+      // // speed: 500,
+      // slidesToShow: 3,
+      // slidesToScroll: 3,
+      // initialSlide: 0,
+      // arrows:false,
+      // autoplay: true,
+      // speed: 2000,
+      // autoplaySpeed: 2000,
+      // adaptiveHeight: true,
       responsive: [
           {
             breakpoint: 1000,

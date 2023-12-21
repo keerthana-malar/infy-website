@@ -6,6 +6,8 @@ import { useState } from "react";
 import {  Modal } from 'antd';
 import "../css/careermodal.css";
 import "../css/CareerForm.css"
+import { RiMoneyDollarCircleLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const Career =()=>{
   const [loading, setLoading] = useState(false);
@@ -48,7 +50,7 @@ const Career =()=>{
   const handleSubmit = (e) => {
     e.preventDefault();
 
-
+  
     if (values.name === "") {
         // setErrors("Title Must Be Filled 🤔");
         // setShow(true);
@@ -65,7 +67,7 @@ const Career =()=>{
         formData.append("selfintro", values.selfintro);
 
 
-        // console.log("fd",formData)
+        console.log("fd",formData)
 
         axios.post("https://infygain.com/api/carformdata", formData)
 
@@ -139,6 +141,9 @@ const Career =()=>{
     });
   },[]);
 
+
+  console.log("d",data)
+
   return (
 
  <div className="container careerpage">
@@ -172,33 +177,33 @@ const Career =()=>{
             <div className="imc">
               <div className="open">
             <img src="/images/qulification.png" alt="best career" className="qua" title="Career"/>
-            <p className="parl">{values.degree} </p>
+            <p className="parl">Qualification - {values.degree} </p>
             </div >
             <div className="open">
               <img src="/images/openings.png" alt="best career" className="ope" title="Career"/>
           
-          <p className="parl"> {values.noofopening} </p>
+          <p className="parl">Openings - {values.noofopening} </p>
             </div>
             <div className="open">
             <img src="/images/experience.png" alt="best career" className="exp" title="Career"/> 
             
-            <p className="parl">{values.exp} </p>
+            <p className="parl">Experience - {values.exp} </p>
             </div>
             <div className="open">
-            <img src="/images/experience.png" alt="best career" className="exp" title="Career"/> 
-            
-            <p className="parl">{values.intro} </p>
+            <img src="/images/icons/salary.png" alt="best career" className="exp" title="Career"/> 
+            {/* <RiMoneyDollarCircleLine  className="loc"/> */}
+            <p className="parl">Salary - {values.intro} </p>
             </div>
           <div className="open">
             <img src="/images/location.png" alt="best career" className="loc" title="Career"/>
-            <p className="parl" >Coimbatore </p></div>
+            <p className="parl" >Location - Coimbatore </p></div>
           </div>
           {/* <div className="bth">
           {values.intro}
           </div> */}
           <div className="bop1">
-          <button className="btn bop" onClick={showModal}><img src="\images\rightarrow.png" alt="career" title="Career"/> 
-          Apply now </button>
+          <Link to={`/careerdetail/${values.id}`}><button className="btn bop" > <img src="\images\rightarrow.png" alt="career" title="Career"/>
+          Read More </button></Link>
           </div>
           
         </div>

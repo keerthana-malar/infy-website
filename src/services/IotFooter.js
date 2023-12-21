@@ -51,9 +51,20 @@ function IotFooter() {
                 </p>
                 <p className="iot-hari text-muted" >
               
-                  <p className="iot-addr" onClick={openGoogleMaps}>
-                  Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                  Coimbatore, Tamil Nadu 641035.</p>
+                  <p className="iot-addr text-muted" >
+                  <a
+                    className="text-muted"
+                    href="#"
+                    onClick={() =>
+                      openGoogleMaps(
+                        "Hari complex opp.prozone mall, Sathy Rd, Saravanampatti, Coimbatore, Tamil Nadu 641035"
+                      )
+                    }
+                    style={{ color: "black" }}
+                  >
+                    Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
+                    Coimbatore, Tamil Nadu 641035.
+                  </a></p>
                 </p>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-12  iot-nam-icon">

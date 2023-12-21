@@ -120,6 +120,7 @@ import { MdOutlinePhone } from "react-icons/md";
                   className="img-fluid1"
                   src="/images/others/logo-alt.svg"
                   alt="best it supports"
+                  title="infygain logo"
                 ></img></a>
               </div>
               <div className="iot-menu-box">

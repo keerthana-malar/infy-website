@@ -45,7 +45,8 @@
                 <div className='col-lg-6 imageboxer'>
                 <Tilt options={defaultOptions}>
                     <img className="img-fluid" src="/images/about_page.webp" 
-                    alt="top it services in coimbatore" data-aos="fade-right" />
+                    alt="top it services in coimbatore" data-aos="fade-right"
+                    title='IT about img' />
                      </Tilt>
                      
             <div className='abtshvd'>
@@ -86,7 +87,8 @@
                     
                             </p>
                             <div className='containers'>
-                                <img src="/images/small boy.webp" alt="intro" className='image-fluid imaginary' />
+                                <img src="/images/small boy.webp" alt="intro" className='image-fluid imaginary' 
+                                title='Doorstep services'/>
                                 <div className="icon-container">
                                     <BsFillPlayFill onClick={toggleVideo} className='iconing' />
                                 </div>

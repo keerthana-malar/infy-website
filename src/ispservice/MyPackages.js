@@ -448,7 +448,7 @@ function MyPackages() {
             <div key={index} className="servicebox col-lg-4" data-aos="fade-right" data-aos-duration="2000">
               <div className="serviceContent-thiban">
                 <div className='des'>
-                  <img className="img-fluid" src={pkg.imageUrl} alt={pkg.name} />
+                  <img className="img-fluid" src={pkg.imageUrl} alt={pkg.name}title={pkg.name} />
                 </div>
                 <p className="midss-title">{pkg.name}</p>
 

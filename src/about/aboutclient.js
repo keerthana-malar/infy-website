@@ -5,7 +5,8 @@ function aboutclient() {
       <div className="row">
         <div className="col-md-6">
           <div className="client-pro" data-aos="zoom-in" data-aos-duration="3000">
-            <img className="img-fluid " src="./images/others/world.png" alt="client reviews"></img>
+            <img className="img-fluid " src="./images/others/world.png" alt="client reviews"
+            title="Client feedback"></img>
           </div>
         </div>
         <div className="col-md-6">
@@ -23,10 +24,11 @@ function aboutclient() {
             <div className="clientBox">
               <div className="clientImgBox">
                 <div className="clientImg">
-                  <img className="img-fluid" src="/images/abt.webp" alt="top reviews"></img>
+                  <img className="img-fluid" src="/images/abt.webp" alt="top reviews"
+                  title="Ragan"></img>
                 </div>
                 <div className="clientQuote">
-                  <img src="/images/Quote.svg" alt="best feedback"></img>
+                  <img src="/images/Quote.svg" alt="best feedback"title="Quote"></img>
                 </div>
               </div>
               <div className="clientName">

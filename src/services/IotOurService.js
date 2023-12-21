@@ -306,7 +306,7 @@ function IotOurService({componentRef}) {
                         {/* dummy */}
                         <div className='firstrow' data-aos="zoom-in-left">
                     <div className='divline'></div>
-                    <img src="/images/accessories.png" alt='icon' className='icons'/>
+                    <img src="/images/accessories.png" alt='icon' className='icons'title='Computer accessories'/>
                     {/* <RiLightbulbFlashLine className='icons'/> */}
                     <h3>
                     Computer Accessories
@@ -356,7 +356,7 @@ function IotOurService({componentRef}) {
                 {/* third row */}
                 <div className='firstrow' data-aos="zoom-in-left">
                 <div className='divline'></div>
-                <img src="/images/printer.png" alt='icon' className='icons'/>
+                <img src="/images/printer.png" alt='icon' className='icons'title='Printer & scanner'/>
                     <h3>
                     Printer & Scanner
                     </h3>
@@ -379,7 +379,7 @@ function IotOurService({componentRef}) {
                 {/* fourth row */}
                 <div className='firstrow' data-aos="zoom-in-left">
                 <div className='divline'></div>
-                <img src="/images/panel.png" alt='icon' className='icons'/>
+                <img src="/images/panel.png" alt='icon' className='icons'title='Interactive panel'/>
                     <h3>
                     Interactive Panel
                     </h3>
@@ -451,7 +451,7 @@ function IotOurService({componentRef}) {
                         {/* dummy */}
                         <div className='firstrow' data-aos="zoom-in-right">
                     <div className='divline'></div>
-                    <img src="/images/pos.png" alt='icon' className='icons'/>
+                    <img src="/images/pos.png" alt='icon' className='icons'title='Point of sale'/>
                     <h3>
                      Point Of Sale
                     </h3>
@@ -475,7 +475,7 @@ function IotOurService({componentRef}) {
                         {/* dummy */}
                         <div className='firstrow' data-aos="zoom-in-right">
                     <div className='divline'></div>
-                    <img src="/images/intercom.png" alt='icon' className='icons'/>
+                    <img src="/images/intercom.png" alt='icon' className='icons'title='Intercom'/>
                     <h3>
                     InterCom
                     </h3>

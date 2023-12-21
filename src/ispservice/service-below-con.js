@@ -28,7 +28,7 @@ function Servbelowcont() {
                             </ul>
                         </div>                </div>
                     <div className='col-md-6  bocximage' data-aos="zoom-in-right" data-aos-duration="2000">
-                        <img src="/images/banner/green-man.webp" alt="best isp services" className=' img-fluid experience'></img>
+                        <img src="/images/banner/green-man.webp" alt="best isp services" className=' img-fluid experience'title='Empowering wifi technology'></img>
                     </div>
                 </div>
             </div>

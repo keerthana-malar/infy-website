@@ -18,7 +18,7 @@ function SMEpackage() {
                                         <div className='des'><img
                                             className=""
                                             src="../images/banner/Group 1 copy.jpg"
-                                            alt='basic package'>
+                                            alt='basic package'title='basic package'>
                                         </img></div>
                                         <p className="midss-title">BASIC PACKAGE</p>
                                         <p className="midess-title">
@@ -48,7 +48,7 @@ function SMEpackage() {
                                         <div className='des'><img
                                             className="img-fluid"
                                             src="../images/banner/Group 2 copy.jpg"
-                                            alt='premium package'>
+                                            alt='premium package'title='premium package'>
                                         </img></div>
 
                                         <p className="midss-title">PREMIUM PACKAGE</p>
@@ -78,7 +78,7 @@ function SMEpackage() {
                                         <div className='des'><img
                                             className="img-fluid"
                                             src="../images/banner/Group 3 copy.jpg"
-                                            alt='hype package'>
+                                            alt='hype package'title='hype package'>
                                         </img></div>
                                         <p className="midss-title">HYPE PACKAGE</p>
                                         <p className="midess-title">

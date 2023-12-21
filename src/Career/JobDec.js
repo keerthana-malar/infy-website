@@ -237,7 +237,7 @@ const JobDec = () => {
                                     <button className="btn bop mt-2 mb-4" onClick={showModal}><img src="\images\rightarrow.png" alt="career" title="Career"/> 
                                 Apply now 
                                 </button>
-                                {msgBox() }
+                                {msgBox() }  
                                 </div>
                                 
 

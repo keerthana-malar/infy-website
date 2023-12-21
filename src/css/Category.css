@@ -346,6 +346,12 @@
             grid-template-columns: repeat(3,1fr);
         }
     }
+    @media (width<1369px){
+     
+        .subcategory1{
+           column-gap: 10px;
+        }
+    }
 
     @media (width<=991px){
         .subcategory1{

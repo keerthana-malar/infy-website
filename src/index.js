@@ -45,6 +45,7 @@ import Packagestv from "./broadband";
 import NewServicePage from "./services/NewServicePage";
 import ServiceDetails from "./servicepage/ServiceDetails";
 import WebService from "./services/WebService";
+import JobDec from "./Career/JobDec";
 
 
 function App() {
@@ -90,6 +91,7 @@ function App() {
         <Route path="/Business-Broadband" element={<Packagestv />} />
 
         <Route path="/webservices/:id" element={<WebService />} />
+        <Route path="/careerdetail/:id" element={<JobDec />} />
 
         <Route path="/services/:id" element={<NewServicePage />} />
         {/* <Route path="/categories/:id" element={<SubCategoryHead />} /> */}

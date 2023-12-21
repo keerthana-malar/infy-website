@@ -12,7 +12,7 @@ const currentUrl = window.location.href;
 let metaContent = {
   des: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera, server, billing software, graphic design, amc.",
   key: "computer,laptop,cctv,printer,AMC,networking,website,graphics,isp",
-  ogt: "Best IT Solutions Provider in Coimbatore",
+  ogt: "Best IT support and web development company in Coimbatore",
   og: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera, server, billing software, graphic design, amc.",
 
 }

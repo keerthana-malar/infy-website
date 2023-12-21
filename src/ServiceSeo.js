@@ -23,7 +23,7 @@ const currentUrl = window.location.href;
 let metaContent = {
   des: "We provide the best computer and laptop service in Coimbatore and also we best in networking, cctv camera,server, billing software, web, graphic design, amc",
   key: "computer,laptop,cctv,printer,AMC,networking,website,graphics,isp",
-  ogt: "Best One Point IT Solutions and Sales Provider in Coimbatore",
+  ogt: "Best IT support and web development company in Coimbatore",
   og: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,server, billing software, web, graphic design, amc",
   logo: "https://infygain.com/images/icons/infy-logo.svg"
 }

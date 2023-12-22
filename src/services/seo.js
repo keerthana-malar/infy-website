@@ -7,8 +7,8 @@ function Webservice() {
       <div className="mainheadbx">
         <div className="headbx1" data-aos="fade-left">
           <div className="imgbox1">
-            <img className="box1 img-fluid" alt="best seo services" title="best seo services" data-aos="fade-up" data-aos-duration="3000" src="./images/seo/flight.webp"></img>
-            <img className="box2 img-fluid" alt="top seo services" title="best seo services" data-aos="zoom-in" data-aos-duration="2000" src="./images/seo/target.webp"></img>
+            <img className="box1 img-fluid" alt="best seo services" title="best seo services" data-aos="fade-up" data-aos-duration="3000" src="/images/seo/flight.webp"></img>
+            <img className="box2 img-fluid" alt="top seo services" title="best seo services" data-aos="zoom-in" data-aos-duration="2000" src="/images/seo/target.webp"></img>
           </div>
         </div>
         <div className="headbx2">

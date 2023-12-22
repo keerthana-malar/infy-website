@@ -70,15 +70,15 @@ const EditCareers = () => {
       })
       .catch((err) => {
       });
-  }, [id,values]);
+  }, [id]);
 
 
-  
+  console.log("val",values)
 
   const handleInput = (e) => {
     setValues((prev) => ({
       ...prev,
-      [e.target.name]: [e.target.value],
+      [e.target.name]: e.target.value,
     }));
   };
   
@@ -88,7 +88,8 @@ const EditCareers = () => {
       setErrors("Career Name Must Be Filled");
       setShow(true);
     }
-    else if(!parseInt(values.openings[0])){
+    else if(!parseInt(values.openings)){
+      console.log(values.openings)
       setErrors("No of openings must be in numbers");
       setShow(true);
     }
@@ -147,8 +148,9 @@ const EditCareers = () => {
                   className="form-control"
                   name="title"
                   placeholder="Title"
-                  value={values.title}
                   onChange={handleInput}
+                  value={values.title}
+                 
                 ></input>
               </div>
               <div className="col">
@@ -183,7 +185,11 @@ const EditCareers = () => {
                   value={values.experience}
                 ></input>
               </div>
-              <div className="col">
+            
+            </div>
+
+            <div className="row mb-3">
+            <div className="col">
               <input
                   className="form-control"
                   name="openings"
@@ -192,18 +198,15 @@ const EditCareers = () => {
                   onChange={handleInput}
                 />
                 </div>
-            </div>
-
-            <div className="row mb-3">
              
               <div className="col">
-              <textarea
+              <input
                   className="form-control"
                   name="intro"
                   value={values.intro}
                   placeholder="Intro"
                   onChange={handleInput}
-                ></textarea>
+                ></input>
               </div>
               
               {/* <div className="col">

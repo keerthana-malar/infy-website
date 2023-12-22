@@ -34,7 +34,7 @@ const HomeBlog = () => {
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2,
-              initialSlide: 1
+              // initialSlide: 1
             }
           },
           {
@@ -42,7 +42,7 @@ const HomeBlog = () => {
             settings: {
               slidesToShow: 1,
               slidesToScroll: 1,
-              initialSlide: 1
+              // initialSlide: 1
             }
           },
           {
@@ -50,7 +50,7 @@ const HomeBlog = () => {
               settings: {
                 slidesToShow: 1,
                 slidesToScroll: 1,
-                initialSlide: 1
+                // initialSlide: 1
               }
             }
         ]

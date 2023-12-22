@@ -80,9 +80,9 @@ function SubService() {
               </svg>
               <img
                 className="hexIcon"
-                src="/images/icons/data-security.webp"
+                src="/images/data-security.webp"
                 alt="best Security Solutions"
-                title="Best Security Solutions"
+                // title="Best Security Solutions"
               ></img>
               <Link to={"/services/cctv"}>
                 <div
@@ -115,7 +115,7 @@ function SubService() {
                   </g>
                 </g>
               </svg>
-              <img className="hexIcon" src="/images/icons/iot.webp" alt="best Network Solutions" title="Best Network Solutions"></img>
+              <img className="hexIcon" src="/images/iot.webp" alt="best Network Solutions" title="Best Network Solutions"></img>
               <Link to={"/services/networking"}>
                 <div
                   className="subServiceCont service3"
@@ -147,7 +147,7 @@ function SubService() {
                   </g>
                 </g>
               </svg>
-              <img className="hexIcon" src="/images/icons/audio.webp" alt="best AV Solutions" title="Best AV Solutions"></img>
+              <img className="hexIcon" src="/images/audio.webp" alt="best AV Solutions" title="Best AV Solutions"></img>
               <Link to={"/services/Projectors"}>
                 <div
                   className="subServiceCont service4"
@@ -181,7 +181,7 @@ function SubService() {
               </svg>
               <img
                 className="hexIcon"
-                src="/images/icons/wifi-router.webp"
+                src="/images/wifi-router.webp"
                 alt="best Infrastructure"
                 title="Best Infrastructure"
               ></img>
@@ -220,7 +220,7 @@ function SubService() {
               </svg>
               <img
                 className="hexIcon"
-                src="/images/icons/app-development.webp"
+                src="/images/app-development.webp"
                 alt="best Website Development services"
                 title="Best Website Development Services"
               ></img>
@@ -255,7 +255,7 @@ function SubService() {
                   </g>
                 </g>
               </svg>
-              <img className="hexIcon" src="/images/icons/feature.webp" alt="best web application services" title="Best Web Application Services"></img>
+              <img className="hexIcon" src="/images/feature.webp" alt="best web application services" title="Best Web Application Services"></img>
               <Link to={"/ServiceSeo"}>
                 <div
                   className="subServiceCont service7"

@@ -64,31 +64,37 @@ function IotService({scrollToComponent}) {
             {/* Right Content Box  */}
             <div className="col-md-8">
               <div className="parent">
-                <div className="divBox div1 downbox1" data-aos="zoom-in">
-                  <div className="row logo">
-                    <div className="col-md-4">
-                      <div className="rightsmall_line"></div>
-                      <div className="iconsiot">
-                        <MdNetworkWifi3Bar className="icon_size" />
-                      </div>
-                    </div>
-                    <div className="col-md-8 text">
-                      <h4> Complete Network Solutions</h4>
-                      <p className="right_para">
-                      Network Solutions provides 
-                      web services such as web hosting, website design.
-                      </p>
-                    </div>
-                    {/* hidden row */}
-                    <div>
-                      <div className="hidden">
-                        <Link to='/services/networking' target="_blank"  rel="noopener noreferrer"><p className="right_para1">Read more<span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
+               
+                
+                  <div className="divBox div1 downbox1" data-aos="zoom-in">
+                     <Link  className="iot-service-link" to='/services/networking'  rel="noopener noreferrer">
+                    <div className="row logo">
+                      <div className="col-md-4">
+                        <div className="rightsmall_line"></div>
+                        <div className="iconsiot">
+                          <MdNetworkWifi3Bar className="icon_size" />
                         </div>
+                      </div>
+                      <div className="col-md-8 text">
+                        <h4> Complete Network Solutions</h4>
+                        <p className="right_para">
+                        Network Solutions provides 
+                        web services such as web hosting, website design.
+                        </p>
+                      </div>
+                      {/* hidden row */}
+                      <div>
+                        <div className="hidden">
+                          <Link to='/services/networking'  rel="noopener noreferrer"><p className="right_para1">Read more<span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
+                          </div>
+                      </div>
+                      {/* hidden end */}
                     </div>
-                    {/* hidden end */}
+                      </Link>
                   </div>
-                </div>
+              
                 <div className="divBox div2 downbox1" data-aos="zoom-in">
+                <Link  className="iot-service-link" to='/services/laptopanddesktop'  rel="noopener noreferrer">
                   <div className="row logo">
                     <div className="col-md-4">
                       <div className="rightsmall_line"></div>
@@ -107,16 +113,18 @@ function IotService({scrollToComponent}) {
                     {/* hidden row */}
                     <div>
                       <div className="hidden1">
-                      <Link to='/services/laptop&desktop' target="_blank"  rel="noopener noreferrer"><p>Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
+                      <Link to='/services/laptopanddesktop'  rel="noopener noreferrer"><p>Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
                       
                       </div>
                     </div>
                    
                     {/* hidden end */}
                   </div>
+                  </Link>
                   
                   </div>
                 <div className="divBox div3 downbox1" data-aos="zoom-in">
+                <Link  className="iot-service-link" to='/services/cctv'  rel="noopener noreferrer">
                   <div className="row ">
                     <div className="col-md-4">
                       <div className="rightsmall_line"></div>
@@ -135,13 +143,15 @@ function IotService({scrollToComponent}) {
                     {/* hidden row */}
                     <div>
                       <div className="hidden2">
-                      <Link to='/services/cctv' target="_blank"  rel="noopener noreferrer"><p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
+                      <Link to='/services/cctv'   rel="noopener noreferrer"><p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
                       </div>
                     </div>
                     {/* hidden end */}
                   </div>
+                  </Link>
                 </div>
                 <div className="divBox div4 downbox1" data-aos="zoom-in">
+                <Link className="iot-service-link" to='/services/Projectors'  rel="noopener noreferrer">
                   <div className="row ">
                     <div className="col-md-4">
                       <div className="rightsmall_line"></div>
@@ -159,11 +169,12 @@ function IotService({scrollToComponent}) {
                     {/* hidden row */}
                     <div>
                       <div className="hidden3">
-                      <Link to='/services/Projectors' target="_blank"  rel="noopener noreferrer"><p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
+                      <Link to='/services/Projectors'   rel="noopener noreferrer"><p className="right_para1">Read more <span className="service-arrow"><BsArrowRight /> </span>  </p></Link>
                 </div>
                     </div>
                     {/* hidden end */}
                   </div>
+                  </Link>
                 </div>
               </div>
             </div>

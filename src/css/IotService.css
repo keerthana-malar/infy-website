@@ -39,7 +39,12 @@
   margin-left: 100px;
   margin-bottom: 0;
 }
-
+.iot-service-link{
+  color: #000000;
+}
+.iot-service-link:hover{
+  color: #ffffff;
+}
 
 .span2 {
   color: var(--warning);

@@ -247,7 +247,7 @@ const IotBanner = () => {
       {/* services */}
 
       <div className="container heading">
-      <Link className="ban-serv-link"  to='/services/networking' target="_blank"  rel="noopener noreferrer">
+      <Link className="ban-serv-link"  to='/services/networking'  rel="noopener noreferrer">
           <div className="containers container ">
             <div className="bg1">
               <div className="head">
@@ -282,14 +282,14 @@ const IotBanner = () => {
               {/* arrow */}
               <div className="overlay-arrow">
 
-              <Link to='/services/networking' target="_blank"  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /></Link>
+              <Link to='/services/networking'  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /></Link>
 
               </div>
             </div>
           </div>
         </Link>
 
-        <Link className="ban-serv-link"  to='/services/cctv' target="_blank"  rel="noopener noreferrer">
+        <Link className="ban-serv-link"  to='/services/cctv'  rel="noopener noreferrer">
           <div className="containers container ">
             <div className="bg2">
               <div className="head">
@@ -325,14 +325,14 @@ const IotBanner = () => {
               {/* arrow */}
               <div className="overlay-arrow">
 
-              <Link to='/services/cctv' target="_blank"  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /></Link>
+              <Link to='/services/cctv'   rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /></Link>
 
               </div>
             </div>
           </div>
         </Link>
 
-        <Link className="ban-serv-link"  to='/services/Projectors' target="_blank"  rel="noopener noreferrer">
+        <Link className="ban-serv-link"  to='/services/Projectors'   rel="noopener noreferrer">
           <div className="containers container">
             <div className="bg3">
               <div className="head">
@@ -364,7 +364,7 @@ const IotBanner = () => {
               {/* arrow */}
               <div className="overlay-arrow">
 
-              <Link to='/services/Projectors' target="_blank"  rel="noopener noreferrer"><BsArrowRight
+              <Link to='/services/Projectors'   rel="noopener noreferrer"><BsArrowRight
                   className="arrow-icon"
                   style={{ fontSize: "22px", marginTop: "10px" }}
                 /></Link>
@@ -373,7 +373,7 @@ const IotBanner = () => {
           </div>
         </Link>
 
-        <Link className="ban-serv-link" to='/services/laptopanddesktop' target="_blank"  rel="noopener noreferrer">
+        <Link className="ban-serv-link" to='/services/laptopanddesktop'  rel="noopener noreferrer">
           <div className="containers container">
             <div className="bg4">
               <div className="head">
@@ -404,7 +404,7 @@ const IotBanner = () => {
               {/* arrow */}
               <div className="overlay-arrow">
 
-              <Link to='/services/laptopanddesktop' target="_blank"  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /> </Link>
+              <Link to='/services/laptopanddesktop'  rel="noopener noreferrer"><BsArrowRight style={{ fontSize: "22px", marginTop: "10px" }} /> </Link>
 
               </div>
             </div>

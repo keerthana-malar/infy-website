@@ -227,7 +227,7 @@ const JobDec = () => {
                                         <p><img src="/images/qulification.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>Qualification :</span> {values.qualification}</p>
                                         <p><img src="/images/openings.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>No.of.Openings :</span> {values.openings}</p>
                                         <p><img src="/images/experience.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>Experience :</span> {values.experience}</p>
-                                        <p><img src="/images/icons/salary.png" alt="best career" className="title_side" title="Career" height="10px"/><span className='jd-cont'>Salary :</span> {values.intro}</p>
+                                        <p><img src="/images/salary.png" alt="best career" className="title_side" title="Career" height="10px"/><span className='jd-cont'>Salary :</span> {values.intro}</p>
                                         <p><img src="/images/location.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>Location :</span> Coimbatore</p>
                                     </div>
                                     <h2 className='jd-title mt-2 mb-2'>Job Description</h2>

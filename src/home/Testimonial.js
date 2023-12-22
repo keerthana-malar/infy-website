@@ -88,7 +88,7 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid 5" src="/images/fingerprint-modified.webp" alt="Security Systems" title="Security Systems"></img>
+                  <img className="img-fluid 5" src="/images/fingerprint.webp" alt="Security Systems" title="Security Systems"></img>
                 </div>
                 <div className="testiContBox">
                   <p className="mid-title"><Link to="/services/cctv">Security Systems</Link></p>

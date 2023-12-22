@@ -171,7 +171,7 @@ const Career =()=>{
       <div class="col-md-4 col-lg-4 col-sm-4 boxs" >
       
           <div className="title_head">
-          <img src="/images/title.png" alt="best career" className="title_side" title="Career"/>
+          <img src="/images/title-1.png" alt="best career" className="title_side" title="Career"/>
             <div className="headerpart" >{values.title}</div>
             </div>
             <div className="imc">
@@ -190,7 +190,7 @@ const Career =()=>{
             <p className="parl">Experience - {values.exp} </p>
             </div>
             <div className="open">
-            <img src="/images/icons/salary.png" alt="best career" className="exp" title="Career"/> 
+            <img src="/images/salary.png" alt="best career" className="exp" title="Career"/> 
             {/* <RiMoneyDollarCircleLine  className="loc"/> */}
             <p className="parl">Salary - {values.intro} </p>
             </div>

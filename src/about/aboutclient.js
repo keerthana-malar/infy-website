@@ -5,7 +5,7 @@ function aboutclient() {
       <div className="row">
         <div className="col-md-6">
           <div className="client-pro" data-aos="zoom-in" data-aos-duration="3000">
-            <img className="img-fluid " src="./images/others/world.png" alt="client reviews"
+            <img className="img-fluid " src="./images/world.webp" alt="client reviews"
             title="Client feedback"></img>
           </div>
         </div>

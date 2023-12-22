@@ -59,6 +59,7 @@ const AddCareer = () => {
       setShow(true);
     }
     else if(!parseInt(values.openings[0])){
+      console.log(values.openings[0])
       setErrors("No of openings must be in numbers");
       setShow(true);
     }

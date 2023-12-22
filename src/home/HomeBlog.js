@@ -8,8 +8,7 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const HomeBlog = () => {
     const [blogs, setBlogs] = useState([]);
-
-    var settings = {
+    const settings = {
       dots: false,
       infinite: true,
       speed: 2000,
@@ -17,44 +16,84 @@ const HomeBlog = () => {
       slidesToScroll: 3,
       autoplay: true,
       autoplaySpeed: 2000,
-      // infinite: true,
-      // dots: false, 
-      // // speed: 500,
-      // slidesToShow: 3,
-      // slidesToScroll: 3,
-      // initialSlide: 0,
-      // arrows:false,
-      // autoplay: true,
-      // speed: 2000,
-      // autoplaySpeed: 2000,
-      // adaptiveHeight: true,
       responsive: [
-          {
-            breakpoint: 1000,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 2,
-              // initialSlide: 1
-            }
+        {
+          breakpoint: 1000,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2, 
           },
-          {
-            breakpoint: 760,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-              // initialSlide: 1
-            }
+        },
+        {
+          breakpoint: 760,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
           },
-          {
-              breakpoint: 400,
-              settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                // initialSlide: 1
-              }
-            }
-        ]
-  };
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 400,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    };
+  
+  //   var settings = {
+  //     dots: false,
+  //     infinite: true,
+  //     speed: 2000,
+  //     slidesToShow: 3,
+  //     slidesToScroll: 3,
+  //     autoplay: true,
+  //     autoplaySpeed: 2000,
+  //     // infinite: true,
+  //     // dots: false, 
+  //     // // speed: 500,
+  //     // slidesToShow: 3,
+  //     // slidesToScroll: 3,
+  //     // initialSlide: 0,
+  //     // arrows:false,
+  //     // autoplay: true,
+  //     // speed: 2000,
+  //     // autoplaySpeed: 2000,
+  //     // adaptiveHeight: true,
+  //     responsive: [
+  //         {
+  //           breakpoint: 1000,
+  //           settings: {
+  //             slidesToShow: 2,
+  //             slidesToScroll: 2,
+  //             // initialSlide: 1
+  //           }
+  //         },
+  //         {
+  //           breakpoint: 760,
+  //           settings: {
+  //             slidesToShow: 1,
+  //             slidesToScroll: 1,
+  //             // initialSlide: 1
+  //           }
+  //         },
+  //         {
+  //             breakpoint: 400,
+  //             settings: {
+  //               slidesToShow: 1,
+  //               slidesToScroll: 1,
+  //               // initialSlide: 1
+  //             }
+  //           }
+  //       ]
+  // };
 
   useEffect(() => {
     axios.get("https://infygain.com/api/blogdata").then((res) => {

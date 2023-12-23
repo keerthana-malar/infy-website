@@ -32,7 +32,7 @@
 .redline{
     height: 160px;
     width: 30px;
-    background-color:var(--sec);
+    background-color:#EF3E38;
 }
 .overallpartnerblog{
     margin: 2% ;
@@ -71,7 +71,7 @@
    
 }
 .firsttow1{
-    background-color: var(--sec);
+    background-color: red;
     color: white;
     
     
@@ -215,7 +215,7 @@ width: 100%;
     justify-content: center;
 }
 .box1withtexttitle{
-    /* height: 220px; */
+    height: 200px !important;
     background-color: rgb(214, 212, 212);
     border-radius: 8px;
     padding: 40px;
@@ -227,7 +227,7 @@ width: 100%;
     padding-top: 25px;
 
 }
-.slidepointimg{
+.slidepointimgs{
     width: 100%;
 }
 .titlebox{
@@ -311,4 +311,20 @@ width: 100%;
 
 
   }
-  
+ 
+  @media (width<=1600px){
+    .test{
+        padding-left: 90px;
+        padding-top: 40px;
+      }
+    }
+    .firstsideimg{
+        border-radius: 20px;
+        width: 90%;
+    }
+.con-img-bac{
+    background-color: #EF3E38;
+    border-radius: 10px;
+    color: #fff;
+    padding: 45px;
+}

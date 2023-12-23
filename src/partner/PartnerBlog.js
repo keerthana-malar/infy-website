@@ -182,6 +182,7 @@ function PartnerBlog() {
     return (
         <div className='overallpartnerblog'>
             <div className='container mt-4'>
+
                 <div className='row '>
                     <div className='col-md-8 marketing'>
                         <div className='redline'></div>
@@ -198,7 +199,7 @@ function PartnerBlog() {
 
                     </div>
                     <div className='col-md-4 slidepointimgbox'>
-                        <img src="/images/infy-boy.svg" alt='best partners' className='slidepointimg' />
+                        <img src="/images/Infy-Boy-Re.webp" alt='best partners' className='slidepointimg' />
                     </div>
                 </div>
 
@@ -232,7 +233,7 @@ function PartnerBlog() {
                 <Carousel />
 
                 {/* second one */}
-                <div className='row firstonebox 'id="column2">
+                {/* <div className='row firstonebox 'id="column2">
                     <div className=' col-md-4 partnerphoto2' data-aos="fade-right"
                         data-aos-duration="1000">
                         <img src="/images/success-partner.webp" alt='best partners' />
@@ -242,16 +243,28 @@ function PartnerBlog() {
                             <h2 className='itfieldtitle'>Why to Invest in IT Field?</h2>
                         <p className='parapiquename'>Investing in the IT field is lucrative due to constant innovation and technological advancements. The sector offers global reach and scalability, allowing companies to tap into a wide audience and expand their market share</p>
                     </div>
+                    </div> */}
+                   
+                    <div className='row align-items-center'>
+                      <div className='col-lg-4 mb-3'data-aos="fade-right">
+                      <img src="/images/success-partner.webp" alt='best partners' className='firstsideimg'/>
+                      </div>
+                      <div className='col-lg-8 mb-3  con-img-bac' data-aos="fade-left">
+                      <h2 className='itfieldtitle'>Why to Invest in IT Field?</h2>
+                      <p className='parapiquename'>Investing in the IT field is lucrative due to constant innovation and technological advancements. The sector offers global reach and scalability, allowing companies to tap into a wide audience and expand their market share</p>
+
+                      </div>
                     </div>
+                   
                      {/* first one */}
                 <div className='row firstonebox'>
-                    <div className='col-md-8 box1withtext' data-aos="fade-right"
+                    <div className='col-lg-8 box1withtext' data-aos="fade-right"
                         data-aos-duration="1000">
                        
                         <p className='parabullet'>IT business in India is projected to total $124.6 billion in 2024, an increase of 10.7% from 2023, according to the latest forecast by Gartner, Inc. with expansions in the key areas like digital transformation, cloud computing, cybersecurity, and artificial intelligence.</p>
                         <p className='parabullet'>With consistent high growth rates, the IT industry meets the increasing demand for services, software, and hardware. IT solutions contribute to cost efficiency and automation, making them attractive to businesses seeking operational improvements. Digital transformation initiatives across industries provide growth opportunities for IT companies. The sector's focus on emerging technologies, such as IoT and 5G, offers early-mover advantages.</p>
                     </div>
-                    <div className=' col-md-4 partnerphoto' data-aos="fade-left"
+                    <div className=' col-lg-4 partnerphoto' data-aos="fade-left"
                         data-aos-duration="1000">
                         <img src="https://img.freepik.com/free-photo/businessman-touching-tip-bar-chart_1232-898.jpg?w=900&t=st=1703309141~exp=1703309741~hmac=2f440897be3b54b34a52f7178b410d171204cd32f5a86bf3dc81b7f2376c7e7b" alt='best partners' />
                     </div>

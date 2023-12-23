@@ -46,6 +46,9 @@ import NewServicePage from "./services/NewServicePage";
 import ServiceDetails from "./servicepage/ServiceDetails";
 import WebService from "./services/WebService";
 import JobDec from "./Career/JobDec";
+import ModalForm from "./partner/PartnershipForm";
+import PartnershipForm from "./partner/PartnershipForm";
+import Modal from "./partner/Modal";
 
 
 function App() {
@@ -89,6 +92,8 @@ function App() {
         <Route path="/Internet-Leased-Line" element={<Packageslles />} />
         <Route path="/smepackage" element={<Packagessmes />} />
         <Route path="/Business-Broadband" element={<Packagestv />} />
+        <Route path="/ModelForm" element={<PartnershipForm />} />
+        <Route path="/ModelForm" element={<Modal />} />
 
         <Route path="/webservices/:id" element={<WebService />} />
         <Route path="/careerdetail/:id" element={<JobDec />} />

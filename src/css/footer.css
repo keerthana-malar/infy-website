@@ -354,8 +354,23 @@ background-color: white;
 
 
 
+/* Add this to your CSS file or style tag */
+.small .nam:hover .hari,
+.small .nam:hover .phone,
+.small .nam:hover .infyy:hover,
+.small .nam:hover .cmn-footer:hover,
+.smallbox-1 .address:hover,
+.smallbox-1 .address:hover a,
+.smallbox-1 .ph:hover,
+.smallbox-1 .ph:hover a {
+  color: var(--sec);
+}
 
-
+/* Add this to your CSS file or style tag */
+.hover-address:hover {
+    color: red;
+  }
+  
 
 
 

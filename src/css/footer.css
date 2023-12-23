@@ -80,6 +80,9 @@
 .address p{
     color:#fff;
 }
+.address a:hover{
+    color: var(--sec) !important;
+}
 .online {
     padding: 5px 10px;
     background-color: var(--pri);

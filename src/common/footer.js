@@ -198,6 +198,7 @@ function Footer() {
                         "Hari complex opp.prozone mall, Sathy Rd, Saravanampatti, Coimbatore, Tamil Nadu 641035"
                       )
                     }
+                    className="hover-address"
                     style={{ color: "white" }}
                   >
                     Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,

@@ -1,3 +1,63 @@
+/* new */
+
+
+.marketing1{
+    background-color: rgb(214, 212, 212);
+    border-radius: 8px;
+    padding: 40px;
+
+}
+.marketing2{
+    background-color: #EF3E38;
+    color:#fff ;
+    border-radius: 8px;
+    padding: 40px;
+
+}
+.slidepointimg-1{
+    /* max-width: 350px; */
+    width: 100%;
+}
+.partner-imgs{
+    border-radius: 10px;
+}
+.partners-1 {
+    margin-bottom: 30px !important;
+}
+.partner-top{
+    margin-top: 30px !important;
+}
+.partner-bottom{
+    margin-bottom: 30px !important;
+}
+
+@media (width<=767px){
+.partner-col1{
+    margin-bottom: 20px ;
+}
+}
+
+/* new */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .imageclinic{
     background: url("/public/images/partner_grouping.webp") ;
     background-size: cover;

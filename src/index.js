@@ -49,6 +49,11 @@ import JobDec from "./Career/JobDec";
 import ModalForm from "./partner/PartnershipForm";
 import PartnershipForm from "./partner/PartnershipForm";
 import Modal from "./partner/Modal";
+import NewPartner from "./partner/NewPartner";
+import Work from "./admin/Work";
+import Business from "./admin/Business";
+import WorkDetail from "./admin/WorkDetail";
+import BusinessDetail from "./admin/BusinessDetail";
 
 
 function App() {
@@ -75,7 +80,7 @@ function App() {
         <Route path="/adminblog" element={<Blog />} />
         <Route path="/addblog" element={<AddBlog />} />
         <Route path="/Bookservicepage" element={<Bookservicepage />} />
-        <Route path="/Partner" element={<Partner/>} />
+        <Route path="/Partner" element={<NewPartner/>} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/termspage" element={<Termspage />} />
         <Route path="/delivery" element={<Delivery />} />
@@ -94,6 +99,13 @@ function App() {
         <Route path="/Business-Broadband" element={<Packagestv />} />
         <Route path="/ModelForm" element={<PartnershipForm />} />
         <Route path="/ModelForm" element={<Modal />} />
+
+
+        <Route path="/Work" element={<Work />} />
+        <Route path="/Business" element={<Business />} />
+        <Route path="/partnerdetails/work" element={<WorkDetail />} />
+        <Route path="/partnerdetails/business" element={<BusinessDetail />} />
+
 
         <Route path="/webservices/:id" element={<WebService />} />
         <Route path="/careerdetail/:id" element={<JobDec />} />

@@ -38,9 +38,9 @@ function PartnerBanner(){
             
             </div> */}
         
-            <div className='imageclinic3' data-aos="zoom-in">
+            {/* <div className='imageclinic3' data-aos="zoom-in">
             
-            </div>
+            </div> */}
             </Slider>
         </div>
     )

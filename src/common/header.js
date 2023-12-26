@@ -37,8 +37,6 @@ function header() {
       eve = "block";
     }
   }
-
-
  
   return (
     <>

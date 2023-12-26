@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 import Carousel from "../about/carousel";
 import Link from "antd/es/typography/Link";
 import { Modal } from "antd";
+import axios from "axios";
 
 const NewPartner = () => {
   const districtOptions = [
@@ -52,12 +53,33 @@ const NewPartner = () => {
   ];
   const [selectedOption, setSelectedOption] = useState(null);
   const [selectedOption1, setSelectedOption1] = useState(null);
+  const [selectedOption2, setSelectedOption2] = useState(null);
 
-  const handleRadioChange = (value) => {
-    setSelectedOption(value);
+  const handleRadioChange = (e) => {
+
+    setValues((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+
+    setSelectedOption(e.target.value);
   };
-  const handleRadioChange1 = (value) => {
-    setSelectedOption1(value);
+  const handleRadioChange2 = (e) => {
+
+    setValues((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+
+    setSelectedOption2(e.target.value);
+  };
+  const handleRadioChange1 = (e) => {
+    setValues((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+
+    setSelectedOption1(e.target.value);
   };
   // const [showModal, setShowModal] = useState(false);
   const [open, setOpen] = useState(false);
@@ -75,14 +97,19 @@ const NewPartner = () => {
   const [showMsg, setShowMsg] = useState(false);
   const [file, setFile] = useState(null);
   const [values, setValues] = useState({
-    title: "",
-    status: "Active",
-    qualification: "",
-    experience: "",
-    openings: "",
-    jd: "",
-    content: "",
-    intro: "",
+    name: "",
+    email: "",
+    dob: "",
+    phno: "",
+    city: "",
+    category: "",
+    position: "",
+    company: "",
+    reasonForLeaving: "",
+    businessname: "",
+    businessexp: "",
+    Business: "",
+    chooseus: "",
   });
 
   const handleInput = (e) => {
@@ -127,6 +154,55 @@ const NewPartner = () => {
     AOS.refresh();
   }, []);
 
+  useEffect(() => {
+    setValues(prev => ({
+      ...prev,
+      position: "",
+      company: "",
+      reasonForLeaving: "",
+      businessname: "",
+      businessexp: "",
+      Business: "",
+    }));
+  }, [values.category]);
+
+ 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log(values)
+      axios
+        .post("https://infygain.com/api/partnerdata", values)
+        .then((res) => {
+            if(res.data.info){
+                setValues({
+                  name: "",
+                  email: "",
+                  dob: "",
+                  phno: "",
+                  city: "",
+                  category: "",
+                  position: "",
+                  company: "",
+                  reasonForLeaving: "",
+                  businessname: "",
+                  businessexp: "",
+                  Business: "",
+                  chooseus: "",
+                  });
+                  document.querySelector(".form").reset()
+                  setErrors(res.data.info);
+                  setShowMsg(true);
+            }
+            else{
+                setErrors(res.data.err);
+                setShow(true);
+            }
+          
+        })
+        .catch((err) => {
+          console.log(err);
+        });
+  };
   return (
     <>
       <div className="webservice">
@@ -315,7 +391,7 @@ const NewPartner = () => {
           >
             <div className="container form-head">
               <h3>Partnership Application Form</h3>
-              <form className="careerForm">
+              <form className="careerForm" onSubmit={handleSubmit}>
                 {/* <div className='row'>
                                   <div className='col-6'>
                                     <input type='text' name='name' placeholder='Enter your name '  onChange={handleInput} required/>
@@ -373,9 +449,10 @@ const NewPartner = () => {
                       name="category"
                       value="Work"
                       checked={selectedOption === "Work"}
-                      onChange={() => handleRadioChange("Work")}
+                      onChange={ handleRadioChange}
+                   
                     />
-                    Work&nbsp;
+                    &nbsp;Work&nbsp;
                   </label>
 
                   <label>
@@ -384,9 +461,9 @@ const NewPartner = () => {
                       name="category"
                       value="Business"
                       checked={selectedOption === "Business"}
-                      onChange={() => handleRadioChange("Business")}
+                      onChange={ handleRadioChange}
                     />
-                    Business
+                    &nbsp;Business
                   </label>
 
                   {/* Show relevant questions based on the selected radio button */}
@@ -471,7 +548,7 @@ const NewPartner = () => {
                           name="Business"
                           value="Yes"
                           checked={selectedOption1 === "Yes"}
-                          onChange={() => handleRadioChange1("Yes")}
+                          onChange={ handleRadioChange1}
                         />
                         &nbsp;Yes &nbsp;
                         <input
@@ -479,7 +556,7 @@ const NewPartner = () => {
                           name="Business"
                           value="No"
                           checked={selectedOption1 === "No"}
-                          onChange={() => handleRadioChange1("No")}
+                          onChange={handleRadioChange1}
                         />
                         &nbsp;No
                       </label>
@@ -505,6 +582,52 @@ const NewPartner = () => {
                     placeholder="Why Choose Us"
                     required
                   />
+                </div>
+
+                <div className="form-input">
+                <h5>Reach Us</h5>
+                  <label>
+                    <input
+                      type="radio"
+                      name="Reach"
+                      value="Soical Media"
+                      checked={selectedOption2 === "Soical Media"}
+                      onChange={ handleRadioChange2}
+                   
+                    />
+                    &nbsp;Soical Media&nbsp;
+                  </label>
+
+                  <label>
+                    <input
+                      type="radio"
+                      name="Reach"
+                      value="Website"
+                      checked={selectedOption2 === "Website"}
+                      onChange={ handleRadioChange2}
+                    />
+                    &nbsp;Website
+                  </label>
+                  <label>
+                    <input
+                      type="radio"
+                      name="Reach"
+                      value="Friends"
+                      checked={selectedOption2 === "Friends"}
+                      onChange={ handleRadioChange2}
+                    />
+                    &nbsp;Friends
+                  </label>
+                  <label>
+                    <input
+                      type="radio"
+                      name="Reach"
+                      value="Google"
+                      checked={selectedOption2 === "Google"}
+                      onChange={ handleRadioChange2}
+                    />
+                    &nbsp;Google
+                  </label>
                 </div>
 
                 <button

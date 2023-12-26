@@ -10,7 +10,9 @@ const Work = () => {
   const [careerData, setCareerData] = useState([]);
 
   useEffect(() => {
-    axios.get("https://infygain.com/api/partnerdata").then((res) => {
+    axios.get("https://infygain.com/api/candata")
+    // axios.get("https://infygain.com/api/partnerdata")
+    .then((res) => {
       setCareerData(res.data);
     });
   }, []);
@@ -83,7 +85,7 @@ const Work = () => {
           <Sidebars />
         </div>
         <div className="mainContBox p-5">
-          <h1 className="mb-5">Candidate Details</h1>
+          <h1 className="mb-5">Partner Details</h1>
           <DataTable
             pagination
             columns={columns}

@@ -139,7 +139,7 @@ const WorkDetail = () => {
           <Sidebars />
         </div>
         <div className="mainContBox p-5">
-          <h1 className="mb-5">Edit Blog</h1>
+          <h1 className="mb-5">Work</h1>
           {alertBox()}
           {msgBox()}
           <div className="formBox">
@@ -148,6 +148,7 @@ const WorkDetail = () => {
               {/* Row 1  */}
               <div className="row mb-3">
                 <div className="col">
+                  <label>Name:</label>
                   <input
                     className="form-control"
                     name="title"
@@ -157,34 +158,30 @@ const WorkDetail = () => {
                   ></input>
                 </div>
                 <div className="col">
-                  <select
-                    className="form-control catinput"
-                    name="category"
+                <label>Email:</label>
+                  <input
+                    className="form-control"
+                    name="title"
+                    placeholder="Title"
+                    value={values.title}
                     onChange={handleInput}
-                    value={values.category}
-                  >
-                    {categories.map((category) => (
-                      <option key={category.id} value={category.name}>
-                        {category.name}
-                      </option>
-                    ))}
-                  </select>
+                  ></input>
                 </div>
               </div>
               {/* Row 2  */}
               <div className="row mb-3">
                 <div className="col">
-                  <select
+                <label>Number:</label>
+                  <input
                     className="form-control"
-                    name="status"
-                    value={values.status}
+                    name="title"
+                    placeholder="Title"
+                    value={values.title}
                     onChange={handleInput}
-                  >
-                    <option value="Active">Active</option>
-                    <option value="Inactive">Inactive</option>
-                  </select>
+                  ></input>
                 </div>
                 <div className="col">
+                <label>Date Of Birth:</label>
                   <input
                     className="form-control"
                     name="quote"
@@ -197,35 +194,47 @@ const WorkDetail = () => {
               {/* Row 3  */}
               <div className="row mb-3">
                 <div className="col">
-                  <textarea
+                <label>Position:</label>
+                  <input
                     className="form-control"
-                    name="metades"
-                    placeholder="Meta Description"
-                    value={values.metades}
+                    name="quote"
+                    placeholder="Quote"
+                    value={values.quote}
                     onChange={handleInput}
-                  ></textarea>
+                  ></input>
                 </div>
                 <div className="col">
-                    
-                  <textarea
+                <label>City:</label>
+                  <input
                     className="form-control"
-                    name="metakey"
-                    placeholder="Meta Keyword"
-                    value={values.metakey}
+                    name="quote"
+                    placeholder="Quote"
+                    value={values.quote}
                     onChange={handleInput}
-                  ></textarea>
+                  ></input>
                 </div>
               </div>
 
               <div className="row mb-3">
                 <div className="col">
-                  <textarea
+                <label>Company:</label>
+                  <input
                     className="form-control"
-                    name="intro"
-                    placeholder="intro"
-                    value={values.intro}
+                    name="quote"
+                    placeholder="Quote"
+                    value={values.quote}
                     onChange={handleInput}
-                  ></textarea>
+                  ></input>
+                </div>
+                <div className="col">
+                <label>Chooseus:</label>
+                  <input
+                    className="form-control"
+                    name="quote"
+                    placeholder="Quote"
+                    value={values.quote}
+                    onChange={handleInput}
+                  ></input>
                 </div>
               </div>
 

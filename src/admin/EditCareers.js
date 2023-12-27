@@ -42,14 +42,14 @@ const EditCareers = () => {
     experience:"",
     openings:"",
     jd:"",
-    shift:"",
-    jobtypepe:"",
+    content:"",
+    intro:"",
     benefit:"",
     paytype:"",
+    jobtype:"",
     roles:"",
+    shift:"",
     skill:"",
-    content:"",
-    intro:""
   });
 
   const [errors, setErrors] = useState("");
@@ -72,6 +72,12 @@ const EditCareers = () => {
           openings:carData.noofopening,  
           content:carData.jdcontent,
           intro: carData.intro,
+          benefit:carData.benefit,
+          paytype:carData.paytype,
+          jobtype:carData.jobtype,
+          roles:carData.roles,
+          shift:carData.shift,
+          skill:carData.skill,
         });
        
       })
@@ -231,7 +237,7 @@ const EditCareers = () => {
               <input
                   className="form-control"
                   name="shift"
-                  value={values.openings}
+                  value={values.shift}
                   placeholder="shift"
                   onChange={handleInput}
                 />
@@ -240,7 +246,7 @@ const EditCareers = () => {
               <input
                   className="form-control"
                   name="jobtype"
-                  value={values.openings}
+                  value={values.jobtype}
                   placeholder="jobtype"
                   onChange={handleInput}
                 ></input>
@@ -254,7 +260,7 @@ const EditCareers = () => {
               <input
                   className="form-control"
                   name="benefit"
-                  value={values.openings}
+                  value={values.benefit}
                   placeholder="benefit"
                   onChange={handleInput}
                 />
@@ -263,7 +269,7 @@ const EditCareers = () => {
               <input
                   className="form-control"
                   name="paytype"
-                  value={values.openings}
+                  value={values.paytype}
                   placeholder="paytype"
                   onChange={handleInput}
                 ></input>

@@ -10,10 +10,13 @@ const Work = () => {
   const [careerData, setCareerData] = useState([]);
 
   useEffect(() => {
-    axios.get("https://infygain.com/api/candata")
-    // axios.get("https://infygain.com/api/partnerdata")
+    // axios.get("https://infygain.com/api/candata")
+    axios.get("https://infygain.com/api/partnerdatas")
+   
     .then((res) => {
-      setCareerData(res.data);
+      const data = res.data
+      const foundData = data.filter(item => item.category === 'Work');
+        setCareerData(foundData);
     });
   }, []);
 
@@ -49,7 +52,7 @@ const Work = () => {
       selector: (row) => {
         return (
           <>
-          <Link to={`/partnerdetails/work`} className="btn btn-warning">
+          <Link to={`/work/${row.id}`} className="btn btn-warning">
             <BiSolidCommentEdit />
           </Link>
           </>

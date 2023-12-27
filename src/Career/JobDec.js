@@ -39,7 +39,13 @@ const JobDec = () => {
         openings:"",
         jd:"",
         content:"",
-        intro:""
+        intro:"",
+        benefit:"",
+        paytype:"",
+        jobtype:"",
+        roles:"",
+        shift:"",
+        skill:"",
       });
     const [values1,  setValues1] = useState({
             name: "",
@@ -61,7 +67,7 @@ const JobDec = () => {
         //   .get("https://infygain.com/api/careerdetail/" + id)
         .then((res) => {
             const carData = res.data.result[0];
-
+            console.log(carData)
             setValues({
                 ...values,
                 title: carData.title,
@@ -72,6 +78,12 @@ const JobDec = () => {
                 openings:carData.noofopening,  
                 content:carData.jdcontent,
                 intro: carData.intro,
+                benefit:carData.benefit,
+                paytype:carData.paytype,
+                jobtype:carData.jobtype,
+                roles:carData.roles,
+                shift:carData.shift,
+                skill:carData.skill,
               });
         })
            .catch((err) => {
@@ -213,7 +225,7 @@ const JobDec = () => {
                     data.map((data,index) => (
                         <> */}
                                <div className='hkl'>
-                                    <h2 className='jd-title bril mt-5 mb-2'>{values.title} </h2>
+                                    <h3 className='jd-title bril mt-5 mb-2'>{values.title} </h3>
                                 </div>
 
 

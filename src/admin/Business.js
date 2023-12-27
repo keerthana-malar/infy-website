@@ -10,8 +10,10 @@ const Business = () => {
   const [careerData, setCareerData] = useState([]);
 
   useEffect(() => {
-    axios.get("https://infygain.com/api/partnerdata").then((res) => {
-      setCareerData(res.data);
+    axios.get("https://infygain.com/api/partnerdatas").then((res) => {
+      const data = res.data
+      const foundData = data.filter(item => item.category === 'Business');
+        setCareerData(foundData);
     });
   }, []);
 
@@ -34,8 +36,8 @@ const Business = () => {
         selector: (row) => row.phno,
     },
     {
-        name: "Position",
-        selector: (row) => row.position,
+        name: "City",
+        selector: (row) => row.city,
     },
 //     {
 //       name: "JD",
@@ -50,7 +52,7 @@ const Business = () => {
   selector: (row) => {
     return (
       <>
-      <Link to={`/partnerdetails/business`} className="btn btn-warning">
+      <Link to={`/busniess/${row.id}`} className="btn btn-warning">
         <BiSolidCommentEdit />
       </Link>
       </>
@@ -86,7 +88,7 @@ const Business = () => {
           <Sidebars />
         </div>
         <div className="mainContBox p-5">
-          <h1 className="mb-5">Candidate Details</h1>
+          <h1 className="mb-5">Partner Details</h1>
           <DataTable
             pagination
             columns={columns}

@@ -103,8 +103,8 @@ function App() {
 
         <Route path="/Work" element={<Work />} />
         <Route path="/Business" element={<Business />} />
-        <Route path="/partnerdetails/work" element={<WorkDetail />} />
-        <Route path="/partnerdetails/business" element={<BusinessDetail />} />
+        <Route path="/work/:id" element={<WorkDetail />} />
+        <Route path="/busniess/:id" element={<BusinessDetail />} />
 
 
         <Route path="/webservices/:id" element={<WebService />} />

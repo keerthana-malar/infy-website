@@ -18,19 +18,19 @@ const WorkDetail = () => {
   const [showMsg, setShowMsg] = useState(false);
 
 
-
+  const { id } = useParams();
   useEffect(() => {
     axios
-      .get("https://infygain.com/api/catdata")
+      .get("https://infygain.com/api/partnerdata/"+ id)
       .then((res) => {
-        setCategories(res.data);
+        setCategories( res.data.result[0]);
+        console.log(categories)
       })
       .catch((error) => {
         console.error("Error fetching categories:", error);
       });
-  }, []);
+  }, [id]);
 
-  const { id } = useParams();
   const [values, setValues] = useState({
     id: "",
     title: "",
@@ -43,29 +43,7 @@ const WorkDetail = () => {
     status: "Active",
     intro: "",
   });
-  useEffect(() => {
-    axios
-      .get("https://infygain.com/api/editblog/" + id)
-      .then((res) => {
-        const blogData = res.data.result[0];
-        setValues({
-          ...values,
-          id: blogData.id,
-          title: blogData.title,
-          category: blogData.category,
-          quote: blogData.quote,
-          content: blogData.content,
-          metades: blogData.metades,
-          metakey: blogData.metakey,
-          img: blogData.img,
-          status: blogData.status,
-          intro:blogData.intro,
-        });
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, [id]);
+
 
 
 
@@ -153,7 +131,7 @@ const WorkDetail = () => {
                     className="form-control"
                     name="title"
                     placeholder="Title"
-                    value={values.title}
+                    value={categories.name}
                     onChange={handleInput}
                   ></input>
                 </div>
@@ -163,7 +141,7 @@ const WorkDetail = () => {
                     className="form-control"
                     name="title"
                     placeholder="Title"
-                    value={values.title}
+                    value={categories.email}
                     onChange={handleInput}
                   ></input>
                 </div>
@@ -176,7 +154,7 @@ const WorkDetail = () => {
                     className="form-control"
                     name="title"
                     placeholder="Title"
-                    value={values.title}
+                    value={categories.phno}
                     onChange={handleInput}
                   ></input>
                 </div>
@@ -186,7 +164,7 @@ const WorkDetail = () => {
                     className="form-control"
                     name="quote"
                     placeholder="Quote"
-                    value={values.quote}
+                    value={categories.date}
                     onChange={handleInput}
                   ></input>
                 </div>
@@ -199,7 +177,7 @@ const WorkDetail = () => {
                     className="form-control"
                     name="quote"
                     placeholder="Quote"
-                    value={values.quote}
+                    value={categories.position}
                     onChange={handleInput}
                   ></input>
                 </div>
@@ -209,7 +187,7 @@ const WorkDetail = () => {
                     className="form-control"
                     name="quote"
                     placeholder="Quote"
-                    value={values.quote}
+                    value={categories.city}
                     onChange={handleInput}
                   ></input>
                 </div>
@@ -222,7 +200,7 @@ const WorkDetail = () => {
                     className="form-control"
                     name="quote"
                     placeholder="Quote"
-                    value={values.quote}
+                    value={categories.company}
                     onChange={handleInput}
                   ></input>
                 </div>
@@ -232,7 +210,31 @@ const WorkDetail = () => {
                     className="form-control"
                     name="quote"
                     placeholder="Quote"
-                    value={values.quote}
+                    value={categories.chooseus}
+                    onChange={handleInput}
+                  ></input>
+                </div>
+              </div>
+
+
+              <div className="row mb-3">
+                <div className="col">
+                <label>Reason For Leaving</label>
+                  <input
+                    className="form-control"
+                    name="quote"
+                    placeholder="Quote"
+                    value={categories.resonforleave}
+                    onChange={handleInput}
+                  ></input>
+                </div>
+                <div className="col">
+                <label>Work Experience</label>
+                  <input
+                    className="form-control"
+                    name="quote"
+                    placeholder="Quote"
+                    value={categories.workexp}
                     onChange={handleInput}
                   ></input>
                 </div>

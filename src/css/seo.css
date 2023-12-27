@@ -183,9 +183,9 @@
   justify-content: center;
   align-items: center;
   border-radius: 50px;
-  margin-top: 40px;
+  /* margin-top: 40px; */
   display: inline;
-  margin-left: 20px;
+  /* margin-left: 20px; */
 }
 .reach-btn:hover {
   background: linear-gradient(

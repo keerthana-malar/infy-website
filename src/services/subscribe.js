@@ -11,17 +11,9 @@ function subscribe() {
                 And Get the latest update of our company
               </span>
               <div className="subform">
-                <form>
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter your email"
-                    required
-                  />
                   <button type="submit" className="btns reach-btn">
                     Reach Us
                   </button>
-                </form>
               </div>
             </div>
           </div>

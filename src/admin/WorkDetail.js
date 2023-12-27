@@ -132,7 +132,7 @@ const WorkDetail = () => {
                     name="title"
                     placeholder="Title"
                     value={categories.name}
-                    onChange={handleInput}
+                    readonly
                   ></input>
                 </div>
                 <div className="col">
@@ -142,7 +142,7 @@ const WorkDetail = () => {
                     name="title"
                     placeholder="Title"
                     value={categories.email}
-                    onChange={handleInput}
+                    readonly
                   ></input>
                 </div>
               </div>
@@ -155,7 +155,7 @@ const WorkDetail = () => {
                     name="title"
                     placeholder="Title"
                     value={categories.phno}
-                    onChange={handleInput}
+                    readonly
                   ></input>
                 </div>
                 <div className="col">
@@ -165,7 +165,7 @@ const WorkDetail = () => {
                     name="quote"
                     placeholder="Quote"
                     value={categories.date}
-                    onChange={handleInput}
+                    readonly
                   ></input>
                 </div>
               </div>
@@ -178,7 +178,7 @@ const WorkDetail = () => {
                     name="quote"
                     placeholder="Quote"
                     value={categories.position}
-                    onChange={handleInput}
+                    readonly
                   ></input>
                 </div>
                 <div className="col">
@@ -188,7 +188,7 @@ const WorkDetail = () => {
                     name="quote"
                     placeholder="Quote"
                     value={categories.city}
-                    onChange={handleInput}
+                    readonly
                   ></input>
                 </div>
               </div>
@@ -225,7 +225,7 @@ const WorkDetail = () => {
                     name="quote"
                     placeholder="Quote"
                     value={categories.resonforleave}
-                    onChange={handleInput}
+                    readonly
                   ></input>
                 </div>
                 <div className="col">
@@ -235,15 +235,21 @@ const WorkDetail = () => {
                     name="quote"
                     placeholder="Quote"
                     value={categories.workexp}
-                    onChange={handleInput}
+                    readonly
                   ></input>
                 </div>
+                <div className="col">
+              <label>Reach Us</label>
+                <input
+                  className="form-control"
+                  name="quote"
+                  placeholder="Quote"
+                  value={categories.reachus}
+                  readonly
+                ></input>
               </div>
-
-    
-             
-                    
-           
+              </div>
+ 
           </div>
         </div>
       </div>

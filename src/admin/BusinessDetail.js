@@ -138,7 +138,7 @@ const BusinessDetail = () => {
         <Sidebars />
       </div>
       <div className="mainContBox p-5">
-        <h1 className="mb-5">Work</h1>
+        <h1 className="mb-5">Business</h1>
         {alertBox()}
         {msgBox()}
         <div className="formBox">
@@ -153,7 +153,7 @@ const BusinessDetail = () => {
                   name="title"
                   placeholder="Title"
                   value={categories.name}
-                  onChange={handleInput}
+                  readonly
                 ></input>
               </div>
               <div className="col">
@@ -163,7 +163,7 @@ const BusinessDetail = () => {
                   name="title"
                   placeholder="Title"
                   value={categories.email}
-                  onChange={handleInput}
+                  readonly
                 ></input>
               </div>
             </div>
@@ -176,7 +176,7 @@ const BusinessDetail = () => {
                   name="title"
                   placeholder="Title"
                   value={categories.phno}
-                  onChange={handleInput}
+                  readonly
                 ></input>
               </div>
               <div className="col">
@@ -186,20 +186,20 @@ const BusinessDetail = () => {
                   name="quote"
                   placeholder="Quote"
                   value={categories.date}
-                  onChange={handleInput}
+                  readonly
                 ></input>
               </div>
             </div>
             {/* Row 3  */}
             <div className="row mb-3">
               <div className="col">
-              <label>Position:</label>
+              <label>Business Name:</label>
                 <input
                   className="form-control"
                   name="quote"
                   placeholder="Quote"
-                  value={categories.position}
-                  onChange={handleInput}
+                  value={categories.businessname}
+                  readonly
                 ></input>
               </div>
               <div className="col">
@@ -209,20 +209,20 @@ const BusinessDetail = () => {
                   name="quote"
                   placeholder="Quote"
                   value={categories.city}
-                  onChange={handleInput}
+                  readonly
                 ></input>
               </div>
             </div>
 
             <div className="row mb-3">
               <div className="col">
-              <label>Company:</label>
+              <label>Business Experience:</label>
                 <input
                   className="form-control"
                   name="quote"
                   placeholder="Quote"
-                  value={categories.company}
-                  onChange={handleInput}
+                  value={categories.businessexp}
+                  readonly
                 ></input>
               </div>
               <div className="col">
@@ -232,7 +232,7 @@ const BusinessDetail = () => {
                   name="quote"
                   placeholder="Quote"
                   value={categories.chooseus}
-                  onChange={handleInput}
+                  readonly
                 ></input>
               </div>
             </div>
@@ -240,31 +240,26 @@ const BusinessDetail = () => {
 
             <div className="row mb-3">
               <div className="col">
-              <label>Reason For Leaving</label>
+              <label>Business Still Operating:</label>
                 <input
                   className="form-control"
                   name="quote"
                   placeholder="Quote"
-                  value={categories.resonforleave}
-                  onChange={handleInput}
+                  value={categories.Business}
+                  readonly
                 ></input>
               </div>
               <div className="col">
-              <label>Work Experience</label>
+              <label>Reach Us</label>
                 <input
                   className="form-control"
                   name="quote"
                   placeholder="Quote"
-                  value={categories.workexp}
-                  onChange={handleInput}
+                  value={categories.reachus}
+                  readonly
                 ></input>
               </div>
             </div>
-
-  
-           
-                  
-         
         </div>
       </div>
     </div>

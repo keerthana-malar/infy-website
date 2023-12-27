@@ -42,10 +42,6 @@ const Work = () => {
         name: "Position",
         selector: (row) => row.position,
     },
-    {
-      name: "JD",
-      selector: (row) => row.content,
-  },
 
     {
       name: "View",

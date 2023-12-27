@@ -11,8 +11,10 @@ import { Modal } from "antd";
 import axios from "axios";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import { Alert } from "react-bootstrap";
 
 const NewPartner = () => {
+
   const districtOptions = [
     "Ariyalur",
     "Chengalpattu",
@@ -206,6 +208,7 @@ const NewPartner = () => {
       //   setErrors("Blog Added Successfully 😊😊");
       //   setShowMsg(true);
       setOpen(false);
+      
     setValues({
       name: "",
       email: "",
@@ -222,6 +225,7 @@ const NewPartner = () => {
       chooseus: "",
       Reach:""
     });
+    setSelectedOption(null)
       })
       .catch((err) => {
         console.log(err);
@@ -233,6 +237,26 @@ const NewPartner = () => {
   const handleReachChange = (e) => {
     setSelectedReachOption(e.target.value);
   };
+
+  function alertBox() {
+    if (show) {
+      return (
+        <Alert variant="danger" onClose={() => setShow(false)} dismissible>
+          {errors}
+        </Alert>
+      );
+    }
+  }
+
+  function msgBox() {
+    if (showMsg) {
+      return (
+        <Alert variant="success" onClose={() => setShowMsg(false)} dismissible>
+          {errors}
+        </Alert>
+      );
+    }
+  }
 
   return (
     <>
@@ -408,8 +432,10 @@ const NewPartner = () => {
             >
               apply now &nbsp; <span className="fa fa-arrow-right"></span>
             </Link>
-          </div>
 
+           
+          </div>
+          {msgBox() }  
           {/* form modal */}
           <Modal
             footer={null}

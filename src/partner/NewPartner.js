@@ -245,7 +245,7 @@ const NewPartner = () => {
             <div className="col-md-8 col-lg-8 marketing partner-col1">
               <div className="redline"></div>
               <div className="partnerrow">
-                <h1>Infygain Technologies Offers Partner's Program</h1>
+                <h1>Infygain Technologies Offers Partners Program</h1>
                 <div className="paraqueen">
                   <p>
                     Partners are expected to be reliable and dependable,
@@ -442,7 +442,7 @@ const NewPartner = () => {
                 <input
                   type="text"
                   name="email"
-                  placeholder="Enter your Email"
+                  placeholder="Enter your email"
                   onChange={handleInput}
                   required
                 />
@@ -469,7 +469,7 @@ const NewPartner = () => {
                 <input
                   type="text"
                   name="phno"
-                  placeholder="Phone No"
+                  placeholder="Enter your phone number"
                   onChange={handleInput}
                   
                   required
@@ -477,7 +477,7 @@ const NewPartner = () => {
 
                 <div className="form-input">
                   <select name="city" onChange={handleInput}>
-                    <option>Please Select Your city</option>
+                    <option>Please select your city</option>
                     {/* Map through the districtOptions array to generate options */}
                     {districtOptions.map((district, index) => (
                       <option key={index}>{district}</option>
@@ -586,7 +586,7 @@ const NewPartner = () => {
 
                       {/* <label>Is the Business Still Operating? (Yes or No):</label> */}
                       <label>
-                        <span className="texttform">Is the Business Still Operating?</span>&nbsp;
+                        <span className="texttform">Is the business still operating?</span>&nbsp;
                         <input
                           type="checkbox"
                           name="Business"
@@ -613,7 +613,7 @@ const NewPartner = () => {
                   <textarea
                     name="selfintro"
                     onChange={handleInput}
-                    placeholder="About Your Work experience"
+                    placeholder="About your work experience"
                     required
                   />
                 </div>
@@ -623,14 +623,16 @@ const NewPartner = () => {
                   <textarea
                     name="chooseus"
                     onChange={handleInput}
-                    placeholder="Why Choose Us"
+                    placeholder="Why choose us"
                     required
                   />
                 </div>
                 <div className="form-input">
+
                   <h5>How Do You Know Us</h5>
                   <select name="Reach" onChange={handleInput} >
                     <option value="">Please Select</option>
+
 
                     <option value="Social Media">Social Media</option>
                     <option value="Website">Website</option>

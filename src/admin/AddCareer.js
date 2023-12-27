@@ -76,10 +76,21 @@ const formats = [
       axios
         .post("https://infygain.com/api/addcar", values)
         .then((res) => {
-          setValues({ title: "", status: "Active" ,degree:"",
-          exp:"",
-          content:"",
-          intro:""});
+          setValues({
+            title: "",
+            status: "Active",
+            qualification:"",
+            experience:"",
+            jd:"",
+            shift:"",
+            jobtypepe:"",
+            benefit:"",
+            paytype:"",
+            roles:"",
+            skill:"",
+            intro:"",
+            openings:""
+          });
           document.querySelector(".form").reset()
           setErrors(res.data.res);
           setShowMsg(true);

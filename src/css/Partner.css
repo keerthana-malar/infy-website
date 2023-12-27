@@ -388,3 +388,20 @@ width: 100%;
     color: #fff;
     padding: 45px;
 }
+
+
+
+.texttform{
+    font-size: 18px;
+    font-weight: 500;
+}
+.textform{
+    font-size: 18px;
+}
+
+
+/* Partner.css */
+.dob-input {
+    width: 100%;
+  }
+  

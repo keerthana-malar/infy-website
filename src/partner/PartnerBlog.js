@@ -199,7 +199,7 @@ function PartnerBlog() {
 
                     </div>
                     <div className='col-md-4 slidepointimgbox'>
-                        <img src="/images/Infy-Boy-Re.webp" alt='best partners' className='slidepointimg' />
+                        <img src="/images/infy-boy-redd.webp" alt='best partners' className='slidepointimg' />
                     </div>
                 </div>
 
@@ -344,7 +344,7 @@ function PartnerBlog() {
                                 
                                 <div className='form-input'>
                                     <h5>Please Select that apply</h5>
-          <label>
+          <label className={`radioLabel ${selectedOption === 'Work' ? 'selected' : ''}`}>
             <input
               type='radio'
               name='exp'
@@ -353,9 +353,9 @@ function PartnerBlog() {
               onChange={() => handleRadioChange('Work')}
             />
             Work&nbsp;
-          </label>
+          </label >
 
-          <label>
+          <label className={`radioLabel ${selectedOption === 'Business' ? 'selected' : ''}`}> 
             <input
               type='radio'
               name='exp'
@@ -363,7 +363,7 @@ function PartnerBlog() {
               checked={selectedOption === 'Business'}
               onChange={() => handleRadioChange('Business')}
             />
-            Business
+            Busine
           </label>
 
           {/* Show relevant questions based on the selected radio button */}
@@ -441,7 +441,7 @@ function PartnerBlog() {
 
                   {/* <label>Is the Business Still Operating? (Yes or No):</label> */}
                   <label>
-                    Is the Business Still Operating?&nbsp;
+                    <span className='texttform'>Is the Business Still Operating?</span>&nbsp;
                     <input
                       type='checkbox'
                       name='isBusinessOperating'

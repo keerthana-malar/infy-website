@@ -9,6 +9,8 @@ import Carousel from "../about/carousel";
 import Link from "antd/es/typography/Link";
 import { Modal } from "antd";
 import axios from "axios";
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 const NewPartner = () => {
   const districtOptions = [
@@ -51,6 +53,7 @@ const NewPartner = () => {
     "Virudhunagar",
     // Add more district names as needed
   ];
+  
   const [selectedOption, setSelectedOption] = useState(null);
   const [selectedOption1, setSelectedOption1] = useState(null);
   const [selectedOption2, setSelectedOption2] = useState(null);
@@ -81,6 +84,7 @@ const NewPartner = () => {
 
     setSelectedOption1(e.target.value);
   };
+  
   // const [showModal, setShowModal] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -166,43 +170,50 @@ const NewPartner = () => {
     }));
   }, [values.category]);
 
- 
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(values)
-      axios
-        .post("https://infygain.com/api/partnerdata", values)
-        .then((res) => {
-            if(res.data.info){
-                setValues({
-                  name: "",
-                  email: "",
-                  dob: "",
-                  phno: "",
-                  city: "",
-                  category: "",
-                  position: "",
-                  company: "",
-                  reasonForLeaving: "",
-                  businessname: "",
-                  businessexp: "",
-                  Business: "",
-                  chooseus: "",
-                  });
-                  document.querySelector(".form").reset()
-                  setErrors(res.data.info);
-                  setShowMsg(true);
-            }
-            else{
-                setErrors(res.data.err);
-                setShow(true);
-            }
-          
-        })
-        .catch((err) => {
-          console.log(err);
-        });
+    axios
+      .post("https://infygain.com/api/partnerdata", values)
+      .then((res) => {
+        if (res.data.info) {
+          setValues({
+            name: "",
+            email: "",
+            dob: "",
+            phno: "",
+            city: "",
+            category: "",
+            position: "",
+            company: "",
+            reasonForLeaving: "",
+            businessname: "",
+            businessexp: "",
+            Business: "",
+            chooseus: "",
+          });
+          document.querySelector(".form").reset()
+          setErrors(res.data.info);
+          setShowMsg(true);
+        }
+        else {
+          setErrors(res.data.err);
+          setShow(true);
+        }
+
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
+  // Inside your component function
+  const [selectedReachOption, setSelectedReachOption] = useState(null);
+
+  const handleReachChange = (e) => {
+    setSelectedReachOption(e.target.value);
+  };
+
   return (
     <>
       <div className="webservice">
@@ -241,7 +252,7 @@ const NewPartner = () => {
               data-aos-duration="1000"
             >
               <img
-                src="/images/icons/Logos IT Connects.webp"
+                src="/images/infy-boy-redd.webp"
                 alt="best partners"
                 className="slidepointimg-1 partner-imgs"
               />
@@ -416,18 +427,31 @@ const NewPartner = () => {
                   required
                 />
 
-                <input
+                {/* <input
                   type="date"
                   name="dob"
                   placeholder="Enter your DOB"
                   onChange={handleInput}
                   required
+                /> */}
+                {/* Replace the existing date input */}
+                <DatePicker
+                  name="dob"
+                  placeholderText="Enter your DOB"
+                  selected={values.dob}
+                  onChange={(date) => handleInput({ target: { name: "dob", value: date } })}
+                  dateFormat="dd-MM-yyyy"
+                  style={{ border: "2px solid red" }}
+                  required
+                  className="dob-input"
                 />
+
                 <input
                   type="text"
                   name="phno"
                   placeholder="Phone No"
                   onChange={handleInput}
+                  
                   required
                 />
 
@@ -449,10 +473,10 @@ const NewPartner = () => {
                       name="category"
                       value="Work"
                       checked={selectedOption === "Work"}
-                      onChange={ handleRadioChange}
-                   
+                      onChange={handleRadioChange}
+
                     />
-                    &nbsp;Work&nbsp;
+                    &nbsp;<span className="texttform">Work</span>&nbsp;
                   </label>
 
                   <label>
@@ -461,9 +485,9 @@ const NewPartner = () => {
                       name="category"
                       value="Business"
                       checked={selectedOption === "Business"}
-                      onChange={ handleRadioChange}
+                      onChange={handleRadioChange}
                     />
-                    &nbsp;Business
+                    &nbsp;<span className="texttform">Business</span>
                   </label>
 
                   {/* Show relevant questions based on the selected radio button */}
@@ -542,15 +566,15 @@ const NewPartner = () => {
 
                       {/* <label>Is the Business Still Operating? (Yes or No):</label> */}
                       <label>
-                        Is the Business Still Operating?&nbsp;
+                        <span className="texttform">Is the Business Still Operating?</span>&nbsp;
                         <input
                           type="checkbox"
                           name="Business"
                           value="Yes"
                           checked={selectedOption1 === "Yes"}
-                          onChange={ handleRadioChange1}
+                          onChange={handleRadioChange1}
                         />
-                        &nbsp;Yes &nbsp;
+                        &nbsp;<span className="textform">Yes </span>&nbsp;
                         <input
                           type="checkbox"
                           name="Business"
@@ -558,7 +582,7 @@ const NewPartner = () => {
                           checked={selectedOption1 === "No"}
                           onChange={handleRadioChange1}
                         />
-                        &nbsp;No
+                        &nbsp;<span className="textform">No</span>
                       </label>
                     </>
                   )}
@@ -583,51 +607,16 @@ const NewPartner = () => {
                     required
                   />
                 </div>
-
                 <div className="form-input">
-                <h5>Reach Us</h5>
-                  <label>
-                    <input
-                      type="radio"
-                      name="Reach"
-                      value="Soical Media"
-                      checked={selectedOption2 === "Soical Media"}
-                      onChange={ handleRadioChange2}
-                   
-                    />
-                    &nbsp;Soical Media&nbsp;
-                  </label>
+                  <h5>How Do You Know Us</h5>
+                  <select name="Reach" onChange={handleReachChange} value={selectedReachOption}>
+                    <option value="Social Media">Please Select</option>
 
-                  <label>
-                    <input
-                      type="radio"
-                      name="Reach"
-                      value="Website"
-                      checked={selectedOption2 === "Website"}
-                      onChange={ handleRadioChange2}
-                    />
-                    &nbsp;Website
-                  </label>
-                  <label>
-                    <input
-                      type="radio"
-                      name="Reach"
-                      value="Friends"
-                      checked={selectedOption2 === "Friends"}
-                      onChange={ handleRadioChange2}
-                    />
-                    &nbsp;Friends
-                  </label>
-                  <label>
-                    <input
-                      type="radio"
-                      name="Reach"
-                      value="Google"
-                      checked={selectedOption2 === "Google"}
-                      onChange={ handleRadioChange2}
-                    />
-                    &nbsp;Google
-                  </label>
+                    <option value="Social Media">Social Media</option>
+                    <option value="Website">Website</option>
+                    <option value="Friends">Friends</option>
+                    <option value="Google">Google</option>
+                  </select>
                 </div>
 
                 <button

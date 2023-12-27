@@ -465,28 +465,28 @@ const NewPartner = () => {
                   required
                   className="dob-input"
                 />
-
                 <input
                   type="text"
                   name="phno"
                   placeholder="Enter your phone number"
                   onChange={handleInput}
-                  
+                  pattern="[0-9]{10}" 
                   required
                 />
 
                 <div className="form-input">
-                  <select name="city" onChange={handleInput}>
+                  <select name="city" onChange={handleInput} required>
                     <option>Please select your city</option>
                     {/* Map through the districtOptions array to generate options */}
                     {districtOptions.map((district, index) => (
                       <option key={index}>{district}</option>
                     ))}
+                    
                   </select>
                 </div>
 
                 <div className="form-input">
-                  <h5>Please Select that apply</h5>
+                  <h5>Please Select that apply<span className="label-star">*</span></h5>
                   <label>
                     <input
                       type="radio"
@@ -494,7 +494,7 @@ const NewPartner = () => {
                       value="Work"
                       checked={selectedOption === "Work"}
                       onChange={handleRadioChange}
-
+                      required
                     />
                     &nbsp;<span className="texttform">Work</span>&nbsp;
                   </label>
@@ -506,6 +506,7 @@ const NewPartner = () => {
                       value="Business"
                       checked={selectedOption === "Business"}
                       onChange={handleRadioChange}
+                      required
                     />
                     &nbsp;<span className="texttform">Business</span>
                   </label>
@@ -530,7 +531,12 @@ const NewPartner = () => {
                         placeholder="Enter your company"
                         required
                       />
-
+                 <input
+                    name="selfintro"
+                    onChange={handleInput}
+                    placeholder="About your work experience"
+                    required
+                  />
                       {/* ... (other relevant questions for work) */}
 
                       {/* <label>Date of Employment:</label> */}
@@ -610,12 +616,17 @@ const NewPartner = () => {
                 <div className="form-input">
                   {/* <label>A brief about the candidate <span className='label-star'>*</span></label> */}
                   {/* <label>Comments <span className='label-star'>*</span></label> */}
-                  <textarea
-                    name="selfintro"
-                    onChange={handleInput}
-                    placeholder="About your work experience"
-                    required
-                  />
+                 
+                </div>
+                <div className="form-input">
+                  <select name="Reach" onChange={handleInput}>
+                    <option value="Social Media">How do you know us</option>
+
+                    <option value="Social Media">Social Media</option>
+                    <option value="Website">Website</option>
+                    <option value="Friends">Friends</option>
+                    <option value="Google">Google</option>
+                  </select>
                 </div>
                 <div className="form-input">
                   {/* <label>A brief about the candidate <span className='label-star'>*</span></label> */}
@@ -626,19 +637,6 @@ const NewPartner = () => {
                     placeholder="Why choose us"
                     required
                   />
-                </div>
-                <div className="form-input">
-
-                  <h5>How Do You Know Us</h5>
-                  <select name="Reach" onChange={handleInput} >
-                    <option value="">Please Select</option>
-
-
-                    <option value="Social Media">Social Media</option>
-                    <option value="Website">Website</option>
-                    <option value="Friends">Friends</option>
-                    <option value="Google">Google</option>
-                  </select>
                 </div>
 
                 <button

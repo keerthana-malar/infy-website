@@ -114,6 +114,7 @@ import { Tooltip as ReactTooltip } from "react-tooltip";
                   className="iot-head-link iot-sm"
                   href="https://www.facebook.com/infygain/"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   <LiaFacebookF data-tooltip-id="my-tooltip-4"/>
                 </a>
@@ -125,6 +126,7 @@ import { Tooltip as ReactTooltip } from "react-tooltip";
                   className="iot-head-link iot-sm"
                   href="https://www.instagram.com/infygain/"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   <LiaInstagram  data-tooltip-id="my-tooltip-5"/>
                 </a>

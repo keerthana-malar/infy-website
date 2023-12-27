@@ -89,6 +89,7 @@ function Blogs(){
                   className="head-link sm"
                   href="https://www.facebook.com/infygain/"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   <LiaFacebookF data-tooltip-id="my-tooltip-4"/>
                 </a>
@@ -100,6 +101,7 @@ function Blogs(){
                   className="head-link sm"
                   href="https://www.instagram.com/infygain/"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   <LiaInstagram  data-tooltip-id="my-tooltip-5"/>
                 </a>
@@ -111,6 +113,7 @@ function Blogs(){
                   className="head-link sm"
                   href="https://twitter.com/infygain"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   <LiaTwitter data-tooltip-id="my-tooltip-6" />
                 </a>
@@ -123,6 +126,7 @@ function Blogs(){
                   className="head-link sm"
                   href="https://api.whatsapp.com/send/?phone=919952141444&text&type=phone_number&app_absent=0"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   <LiaWhatsapp data-tooltip-id="my-tooltip-7"/>
                 </a>
@@ -134,6 +138,7 @@ function Blogs(){
                   className="head-link sm"
                   href="https://www.linkedin.com/company/infygain-technologies/"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   <LiaLinkedinIn data-tooltip-id="my-tooltip-8"/>
                 </a>
@@ -145,6 +150,7 @@ function Blogs(){
                   className="head-link sm"
                   href="https://www.youtube.com/@infygain6707"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   <LiaYoutube data-tooltip-id="my-tooltip-9"/>
                 </a>
@@ -474,6 +480,7 @@ function Blogs(){
                     href="https://www.facebook.com/infygain/"
                     target="_blank"
                     className="infyicon infyicon1"
+                    rel="noreferrer noopener"
                   >
                     <i data-tooltip-id="facebook" className="fa fab fa-facebook"></i>
                   </a>
@@ -484,6 +491,7 @@ function Blogs(){
                   <a
                     href="https://www.instagram.com/infygain/"
                     target="_blank"
+                    rel="noreferrer noopener"
                     className="infyicon infyicon1"
                   >
                     <i data-tooltip-id="instagram" className="fa fab fa-instagram"></i>
@@ -495,6 +503,7 @@ function Blogs(){
                   <a
                     href="https://twitter.com/infygain"
                     target="_blank"
+                    rel="noreferrer noopener"
                     className="infyicon infyicon1"
                   >
                     <i data-tooltip-id="twitter" className="fa fab fa-twitter"></i>
@@ -506,6 +515,7 @@ function Blogs(){
                   <a
                     href="https://wa.me/919952141444"
                     target="_blank"
+                    rel="noreferrer noopener"
                     className="infyicon infyicon1"
                   >
                     <i data-tooltip-id="whatsapp" className="fa fab fa-whatsapp"></i>
@@ -518,6 +528,7 @@ function Blogs(){
                   <a
                     href="https://www.linkedin.com/company/infygain-technologies/"
                     target="_blank"
+                    rel="noreferrer noopener"
                     className="infyicon infyicon1"
                   >
                     <i data-tooltip-id="linkedin" className="fa fab fa-linkedin"></i>
@@ -530,6 +541,7 @@ function Blogs(){
                   <a
                     href="https://www.youtube.com/@infygain6707"
                     target="_blank"
+                    rel="noreferrer noopener"
                     className="infyicon infyicon1"
                   >
                     <i data-tooltip-id="youtube" className="fa fab fa-youtube"></i>

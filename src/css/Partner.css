@@ -404,4 +404,8 @@ width: 100%;
 .dob-input {
     width: 100%;
   }
+  .label-star {
+    color: red;
+    margin-left: 5px;  
+  }
   

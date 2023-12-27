@@ -16,6 +16,7 @@ const EditCareers = () => {
     toolbar: [
       // Define other toolbar options as needed
       [{ 'header': '1'}, {'header': '2'}, { 'font': [] }],
+      [ { 'header': [ 3, 4, 5, 6] },],
       [{size: []}],
       ['bold', 'italic', 'underline', 'strike', 'blockquote'],
       [{'list': 'ordered'}, {'list': 'bullet'}, 
@@ -26,7 +27,7 @@ const EditCareers = () => {
   };
 
   const formats = [
-    'header', 'font', 'size',
+    'header','header',  'font', 'size',
     'bold', 'italic', 'underline', 'strike', 'blockquote',
     'list', 'bullet', 'indent',
     'link', 'image', 'video'
@@ -41,6 +42,12 @@ const EditCareers = () => {
     experience:"",
     openings:"",
     jd:"",
+    shift:"",
+    jobtypepe:"",
+    benefit:"",
+    paytype:"",
+    roles:"",
+    skill:"",
     content:"",
     intro:""
   });
@@ -217,6 +224,94 @@ const EditCareers = () => {
                   onChange={handleInput}
                 ></textarea>
               </div> */}
+            </div>
+
+            <div className="row mb-3">
+            <div className="col">
+              <input
+                  className="form-control"
+                  name="shift"
+                  value={values.openings}
+                  placeholder="shift"
+                  onChange={handleInput}
+                />
+                </div>
+              <div className="col">
+              <input
+                  className="form-control"
+                  name="jobtype"
+                  value={values.openings}
+                  placeholder="jobtype"
+                  onChange={handleInput}
+                ></input>
+              </div>
+
+            </div>
+
+
+            <div className="row mb-3">
+            <div className="col">
+              <input
+                  className="form-control"
+                  name="benefit"
+                  value={values.openings}
+                  placeholder="benefit"
+                  onChange={handleInput}
+                />
+                </div>
+              <div className="col">
+              <input
+                  className="form-control"
+                  name="paytype"
+                  value={values.openings}
+                  placeholder="paytype"
+                  onChange={handleInput}
+                ></input>
+              </div>
+              
+              {/* <div className="col">
+              <textarea
+                  className="form-control"
+                  name="jd"
+                  placeholder="Job Description"
+                  onChange={handleInput}
+                ></textarea>
+              </div> */}
+            </div>
+
+            <div className="row mb-3">
+              <div className="col">
+                <ReactQuill
+                  theme="snow"
+                  value={values.roles.toString()}
+                  onChange={(roles) =>
+                  handleInput({
+                    target: { name: "roles", value: roles },
+                  })
+                }
+                placeholder={"Roles..."}
+                modules={modules}
+                formats={formats}
+                />
+              </div>
+              
+            </div>
+            <div className="row mb-3">
+            <div className="col">
+                <ReactQuill
+                  theme="snow"
+                  value={values.skill.toString()}
+                  onChange={(skill) =>
+                  handleInput({
+                    target: { name: "skill", value: skill },
+                  })
+                }
+                placeholder={"Skills..."}
+                modules={modules}
+                formats={formats}
+                />
+              </div>
+              
             </div>
 
             <div className="row mb-3">

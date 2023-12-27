@@ -191,8 +191,7 @@ const JobDec = () => {
           );
         }
       }
-    
-    
+
       function msgBox() {
         if (showMsg) {
           return (
@@ -202,6 +201,8 @@ const JobDec = () => {
           );
         }
       }
+
+      console.log("val",values.jd)
   return (
     <div>
             <Header/>
@@ -215,25 +216,38 @@ const JobDec = () => {
                                     <h2 className='jd-title bril mt-5 mb-2'>{values.title} </h2>
                                 </div>
 
+
                                 <div className='container job-dec'>
-                                    {/* <ul>
-                                        <li><img src="/images/qulification.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>Qualification :</span> {data.degree}</li>
-                                        <li><img src="/images/openings.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>No.of.Openings :</span> {data.noofopening}</li>
-                                        <li><img src="/images/experience.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>Experience :</span> {data.exp}</li>
-                                        <li><img src="/images/icons/salary.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>Salary :</span> {data.intro}</li>
-                                        <li><img src="/images/location.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>Location :</span> Coimbatore</li>
-                                    </ul> */}
-                                    <div className='job-dd mt-4'>
-                                        <p><img src="/images/qulification.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>Qualification :</span> {values.qualification}</p>
+                                  
+                                <div className='job-dd mt-4'>
+                                    <p><img src="/images/qulification.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>Qualification :</span> {values.qualification}</p>
                                         <p><img src="/images/openings.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>No.of.Openings :</span> {values.openings}</p>
                                         <p><img src="/images/experience.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>Experience :</span> {values.experience}</p>
                                         <p><img src="/images/salary.png" alt="best career" className="title_side" title="Career" height="10px"/><span className='jd-cont'>Salary :</span> {values.intro}</p>
                                         <p><img src="/images/location.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>Location :</span> Coimbatore</p>
+                                        <p><img src="/images/shift.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>Shift Schedule :</span> {values.shift}</p>
+                                        <p><img src="/images/businessman.png" height="10px" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>Job Type :</span> {values.jobtype}</p>
+
                                     </div>
-                                    <h2 className='jd-title mt-2 mb-2'>Job Description</h2>
-                                    <span className='container jd-main-content' dangerouslySetInnerHTML={{__html:values.jd }}>
-                                
-                                    </span>
+                                    <div className='job-ddd'>
+                                        <p><img src="/images/growth.png" alt="best career" className="title_side" title="Career" height="10px"/><span className='jd-cont'>Benefits :</span> {values.benefit}</p>
+                                        <p><img src="/images/credit-card.png" alt="best career" className="title_side" title="Career"/><span className='jd-cont'>Supplemental Pay Types :</span> {values.paytype}</p>
+                                    </div>
+                                <h2 className='jd-title mt-2 mb-2'>Job Description</h2>
+                                    <div className='container jd-main-content' dangerouslySetInnerHTML={{__html:values.jd }}>
+                                </div>
+                               
+                                   <div className='container row'>
+                                      <div className=' col-md-6 col-xs-12'>
+                                        <h2 className=' mr-3'>Roles</h2>
+                                        <div dangerouslySetInnerHTML={{__html:values.roles}}></div>
+                                      </div>
+                                      <div className=' col-md-6 col-xs-12'>
+                                        <h2 className='ml-3'>Skills</h2>
+                                        <div dangerouslySetInnerHTML={{__html:values.skill }}></div>
+                                      </div>
+                                   </div>
+                                   
                                     <button className="btn bop mt-2 mb-4" onClick={showModal}><img src="\images\rightarrow.png" alt="career" title="Career"/> 
                                 Apply now 
                                 </button>

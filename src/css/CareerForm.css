@@ -10,6 +10,12 @@
 } */
 /* .cop{
     background: url("/public/images/backg.jpg") no-repeat; */
+
+
+    .partner-category{
+        font-size: 30px !important;
+    }
+    
 .car-boxs .car-info{
     display: flex;
     justify-content: center ;

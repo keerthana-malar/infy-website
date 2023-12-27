@@ -13,6 +13,7 @@ const AddCareer = () => {
     toolbar: [
       // Define other toolbar options as needed
       [{ 'header': '1'}, {'header': '2'}, { 'font': [] }],
+      [ { 'header': [ 3, 4, 5, 6] },],
       [{size: []}],
       ['bold', 'italic', 'underline', 'strike', 'blockquote'],
       [{'list': 'ordered'}, {'list': 'bullet'}, 
@@ -21,13 +22,15 @@ const AddCareer = () => {
       ['clean']
     ]
   };
+  
 
-  const formats = [
-    'header', 'font', 'size',
-    'bold', 'italic', 'underline', 'strike', 'blockquote',
-    'list', 'bullet', 'indent',
-    'link', 'image', 'video'
-  ];
+ 
+const formats = [
+  'header','header', 'font', 'size',
+  'bold', 'italic', 'underline', 'strike', 'blockquote',
+  'list', 'bullet', 'indent',
+  'link', 'image', 'video'
+];
 
   const [values, setValues] = useState({
     title: "",
@@ -35,6 +38,12 @@ const AddCareer = () => {
     qualification:"",
     experience:"",
     jd:"",
+    shift:"",
+    jobtypepe:"",
+    benefit:"",
+    paytype:"",
+    roles:"",
+    skill:"",
     intro:"",
     openings:""
   });
@@ -156,7 +165,6 @@ const AddCareer = () => {
               </div>
           
             </div>
-
             <div className="row mb-3">
             <div className="col">
               <input
@@ -174,6 +182,46 @@ const AddCareer = () => {
                   onChange={handleInput}
                 ></input>
               </div>
+       
+            </div>
+            <div className="row mb-3">
+            <div className="col">
+              <input
+                  className="form-control"
+                  name="shift"
+                  placeholder="shift"
+                  onChange={handleInput}
+                />
+                </div>
+              <div className="col">
+              <input
+                  className="form-control"
+                  name="jobtype"
+                  placeholder="jobtype"
+                  onChange={handleInput}
+                ></input>
+              </div>
+
+            </div>
+
+
+            <div className="row mb-3">
+            <div className="col">
+              <input
+                  className="form-control"
+                  name="benefit"
+                  placeholder="benefit"
+                  onChange={handleInput}
+                />
+                </div>
+              <div className="col">
+              <input
+                  className="form-control"
+                  name="paytype"
+                  placeholder="paytype"
+                  onChange={handleInput}
+                ></input>
+              </div>
               
               {/* <div className="col">
               <textarea
@@ -183,6 +231,44 @@ const AddCareer = () => {
                   onChange={handleInput}
                 ></textarea>
               </div> */}
+            </div>
+
+       
+
+
+            <div className="row mb-3">
+              <div className="col">
+                <ReactQuill
+                  theme="snow"
+                  // value={values.jd}
+                  onChange={(roles) =>
+                  handleInput({
+                    target: { name: "roles", value: roles },
+                  })
+                }
+                placeholder={"Roles..."}
+                modules={modules}
+                formats={formats}
+                />
+              </div>
+              
+            </div>
+            <div className="row mb-3">
+            <div className="col">
+                <ReactQuill
+                  theme="snow"
+                  // value={values.jd}
+                  onChange={(skill) =>
+                  handleInput({
+                    target: { name: "skill", value: skill },
+                  })
+                }
+                placeholder={"Skills..."}
+                modules={modules}
+                formats={formats}
+                />
+              </div>
+              
             </div>
 
             <div className="row mb-3">
@@ -195,22 +281,10 @@ const AddCareer = () => {
                     target: { name: "jd", value: jd },
                   })
                 }
-                placeholder={"Write something awesome..."}
+                placeholder={"Job Description..."}
                 modules={modules}
                 formats={formats}
                 />
-
-              {/* <ReactQuill
-                  theme="snow"
-                  value={values.content}
-                  onChange={(content) =>
-                  handleInput({
-                    target: { name: "content", value: content },
-                  })
-                }
-                placeholder={"Write something awesome..."}
-                modules={modules}
-              /> */}
               </div>
             </div>
 

@@ -133,6 +133,7 @@ const AddBlog = () => {
     toolbar: [
       // Define other toolbar options as needed
       [{ 'header': '1'}, {'header': '2'}, { 'font': [] }],
+      [ { 'header': [ 3, 4, 5, 6] },],
       [{size: []}],
       ['bold', 'italic', 'underline', 'strike', 'blockquote'],
       [{'list': 'ordered'}, {'list': 'bullet'}, 
@@ -142,8 +143,9 @@ const AddBlog = () => {
     ]
   };
 
+
   const formats = [
-    'header', 'font', 'size',
+    'header','header', 'font', 'size',
     'bold', 'italic', 'underline', 'strike', 'blockquote',
     'list', 'bullet', 'indent',
     'link', 'image', 'video'

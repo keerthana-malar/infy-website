@@ -225,7 +225,7 @@ const NewPartner = () => {
             <div className="col-md-8 col-lg-8 marketing partner-col1">
               <div className="redline"></div>
               <div className="partnerrow">
-                <h1>Infygain Technologies Offers Partner Program</h1>
+                <h1>Infygain Technologies Offers Partner's Program</h1>
                 <div className="paraqueen">
                   <p>
                     Partners are expected to be reliable and dependable,

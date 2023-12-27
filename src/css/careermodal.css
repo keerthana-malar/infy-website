@@ -1,3 +1,15 @@
+.partner-cat{
+    display: flex;
+}
+
+.form-input input[type="radio"] {
+    font-size: 30px !important;
+    color: red !important;
+    background-color: red !important ;
+}
+
+
+
 .job-overall-head{
     display: grid;
     gap: 15px;

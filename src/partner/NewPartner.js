@@ -115,6 +115,7 @@ const NewPartner = () => {
     businessname: "",
     businessexp: "",
     Business: "",
+    selfintro:"",
     chooseus: "",
     Reach:""
   });
@@ -222,6 +223,7 @@ const NewPartner = () => {
       businessname: "",
       businessexp: "",
       Business: "",
+      selfintro:"",
       chooseus: "",
       Reach:""
     });
@@ -496,7 +498,6 @@ const NewPartner = () => {
                   name="phno"
                   placeholder="Enter your phone number"
                   onChange={handleInput}
-                  pattern="[0-9]{10}" 
                   required
                 />
 

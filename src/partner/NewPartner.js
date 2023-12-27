@@ -114,6 +114,7 @@ const NewPartner = () => {
     businessexp: "",
     Business: "",
     chooseus: "",
+    Reach:""
   });
 
   const handleInput = (e) => {
@@ -123,6 +124,24 @@ const NewPartner = () => {
     }));
   };
 
+
+  const handleInput1 = (date) => {
+    console.log(date)
+    if (date instanceof Date) {
+      // Extract day, month, and year components
+      const day = date.getDate();
+      const month = date.getMonth() + 1; // Month is zero-indexed, so adding 1 to match the actual month number
+      const year = date.getFullYear();
+  
+      // Create the desired format ('21-12-2023')
+      const formattedDate = `${day < 10 ? '0' : ''}${day}-${month < 10 ? '0' : ''}${month}-${year}`;
+  
+      setValues((prev) => ({
+        ...prev,
+        dob: formattedDate,
+      }));
+    }
+  };
   const showModal = () => {
     console.log("hii");
     setOpen(true);
@@ -175,33 +194,34 @@ const NewPartner = () => {
     e.preventDefault();
     console.log(values)
     axios
-      .post("https://infygain.com/api/partnerdata", values)
+      .post("https://infygain.com/api/partner", values)
       .then((res) => {
-        if (res.data.info) {
-          setValues({
-            name: "",
-            email: "",
-            dob: "",
-            phno: "",
-            city: "",
-            category: "",
-            position: "",
-            company: "",
-            reasonForLeaving: "",
-            businessname: "",
-            businessexp: "",
-            Business: "",
-            chooseus: "",
-          });
-          document.querySelector(".form").reset()
-          setErrors(res.data.info);
-          setShowMsg(true);
-        }
-        else {
-          setErrors(res.data.err);
-          setShow(true);
-        }
+        var re = document.querySelectorAll(".careerForm");
+        re.forEach((r)=>{
+          r.reset()
+        })
+        setErrors("Submited Successfully 😊😊");
+        setShowMsg(true)
 
+      //   setErrors("Blog Added Successfully 😊😊");
+      //   setShowMsg(true);
+      setOpen(false);
+    setValues({
+      name: "",
+      email: "",
+      dob: "",
+      phno: "",
+      city: "",
+      category: "",
+      position: "",
+      company: "",
+      reasonForLeaving: "",
+      businessname: "",
+      businessexp: "",
+      Business: "",
+      chooseus: "",
+      Reach:""
+    });
       })
       .catch((err) => {
         console.log(err);
@@ -436,7 +456,7 @@ const NewPartner = () => {
                 /> */}
                 {/* Replace the existing date input */}
                 <DatePicker
-                  name="dob"
+                  // name="dob"
                   placeholderText="Enter your DOB"
                   selected={values.dob}
                   onChange={(date) => handleInput({ target: { name: "dob", value: date } })}
@@ -599,7 +619,7 @@ const NewPartner = () => {
                  
                 </div>
                 <div className="form-input">
-                  <select name="Reach" onChange={handleReachChange} value={selectedReachOption}>
+                  <select name="Reach" onChange={handleInput}>
                     <option value="Social Media">How do you know us</option>
 
                     <option value="Social Media">Social Media</option>
@@ -618,7 +638,6 @@ const NewPartner = () => {
                     required
                   />
                 </div>
-              
 
                 <button
                   className={`submit ${loading ? "btn-load" : ""}`}

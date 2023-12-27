@@ -37,20 +37,21 @@ const BusinessDetail = () => {
     'list', 'bullet', 'indent',
     'link', 'image', 'video'
   ];
-
+  const { id } = useParams();
 
   useEffect(() => {
     axios
-      .get("https://infygain.com/api/catdata")
+      .get("https://infygain.com/api/partnerdata/"+ id)
       .then((res) => {
-        setCategories(res.data);
+        setCategories( res.data.result[0]);
+        console.log(categories)
       })
       .catch((error) => {
         console.error("Error fetching categories:", error);
       });
-  }, []);
+  }, [id]);
 
-  const { id } = useParams();
+
   const [values, setValues] = useState({
     id: "",
     title: "",
@@ -63,29 +64,7 @@ const BusinessDetail = () => {
     status: "Active",
     intro: "",
   });
-  useEffect(() => {
-    axios
-      .get("https://infygain.com/api/editblog/" + id)
-      .then((res) => {
-        const blogData = res.data.result[0];
-        setValues({
-          ...values,
-          id: blogData.id,
-          title: blogData.title,
-          category: blogData.category,
-          quote: blogData.quote,
-          content: blogData.content,
-          metades: blogData.metades,
-          metakey: blogData.metakey,
-          img: blogData.img,
-          status: blogData.status,
-          intro:blogData.intro,
-        });
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, [id]);
+
 
 
 
@@ -159,7 +138,7 @@ const BusinessDetail = () => {
         <Sidebars />
       </div>
       <div className="mainContBox p-5">
-        <h1 className="mb-5">Edit Blog</h1>
+        <h1 className="mb-5">Work</h1>
         {alertBox()}
         {msgBox()}
         <div className="formBox">
@@ -168,48 +147,45 @@ const BusinessDetail = () => {
             {/* Row 1  */}
             <div className="row mb-3">
               <div className="col">
+                <label>Name:</label>
                 <input
                   className="form-control"
                   name="title"
                   placeholder="Title"
-                  value={values.title}
+                  value={categories.name}
                   onChange={handleInput}
                 ></input>
               </div>
               <div className="col">
-                <select
-                  className="form-control catinput"
-                  name="category"
+              <label>Email:</label>
+                <input
+                  className="form-control"
+                  name="title"
+                  placeholder="Title"
+                  value={categories.email}
                   onChange={handleInput}
-                  value={values.category}
-                >
-                  {categories.map((category) => (
-                    <option key={category.id} value={category.name}>
-                      {category.name}
-                    </option>
-                  ))}
-                </select>
+                ></input>
               </div>
             </div>
             {/* Row 2  */}
             <div className="row mb-3">
               <div className="col">
-                <select
+              <label>Number:</label>
+                <input
                   className="form-control"
-                  name="status"
-                  value={values.status}
+                  name="title"
+                  placeholder="Title"
+                  value={categories.phno}
                   onChange={handleInput}
-                >
-                  <option value="Active">Active</option>
-                  <option value="Inactive">Inactive</option>
-                </select>
+                ></input>
               </div>
               <div className="col">
+              <label>Date Of Birth:</label>
                 <input
                   className="form-control"
                   name="quote"
                   placeholder="Quote"
-                  value={values.quote}
+                  value={categories.date}
                   onChange={handleInput}
                 ></input>
               </div>
@@ -217,35 +193,71 @@ const BusinessDetail = () => {
             {/* Row 3  */}
             <div className="row mb-3">
               <div className="col">
-                <textarea
+              <label>Position:</label>
+                <input
                   className="form-control"
-                  name="metades"
-                  placeholder="Meta Description"
-                  value={values.metades}
+                  name="quote"
+                  placeholder="Quote"
+                  value={categories.position}
                   onChange={handleInput}
-                ></textarea>
+                ></input>
               </div>
               <div className="col">
-                  
-                <textarea
+              <label>City:</label>
+                <input
                   className="form-control"
-                  name="metakey"
-                  placeholder="Meta Keyword"
-                  value={values.metakey}
+                  name="quote"
+                  placeholder="Quote"
+                  value={categories.city}
                   onChange={handleInput}
-                ></textarea>
+                ></input>
               </div>
             </div>
 
             <div className="row mb-3">
               <div className="col">
-                <textarea
+              <label>Company:</label>
+                <input
                   className="form-control"
-                  name="intro"
-                  placeholder="intro"
-                  value={values.intro}
+                  name="quote"
+                  placeholder="Quote"
+                  value={categories.company}
                   onChange={handleInput}
-                ></textarea>
+                ></input>
+              </div>
+              <div className="col">
+              <label>Chooseus:</label>
+                <input
+                  className="form-control"
+                  name="quote"
+                  placeholder="Quote"
+                  value={categories.chooseus}
+                  onChange={handleInput}
+                ></input>
+              </div>
+            </div>
+
+
+            <div className="row mb-3">
+              <div className="col">
+              <label>Reason For Leaving</label>
+                <input
+                  className="form-control"
+                  name="quote"
+                  placeholder="Quote"
+                  value={categories.resonforleave}
+                  onChange={handleInput}
+                ></input>
+              </div>
+              <div className="col">
+              <label>Work Experience</label>
+                <input
+                  className="form-control"
+                  name="quote"
+                  placeholder="Quote"
+                  value={categories.workexp}
+                  onChange={handleInput}
+                ></input>
               </div>
             </div>
 

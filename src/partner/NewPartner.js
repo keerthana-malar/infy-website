@@ -518,7 +518,7 @@ const NewPartner = () => {
                 </div>
 
                 <div className="form-input">
-                  <h5>Please Select that apply<span className="">*</span></h5>
+                  <h5>Please Select that apply<span className=""> *</span></h5>
                   <label>
                     <input
                       type="radio"

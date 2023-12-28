@@ -12,7 +12,7 @@ import axios from "axios";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { Alert } from "react-bootstrap";
-
+import { subYears } from "date-fns";
 const NewPartner = () => {
 
   const districtOptions = [
@@ -55,7 +55,7 @@ const NewPartner = () => {
     "Virudhunagar",
     // Add more district names as needed
   ];
-  
+
   const [selectedOption, setSelectedOption] = useState(null);
   const [selectedOption1, setSelectedOption1] = useState(null);
   const [selectedOption2, setSelectedOption2] = useState(null);
@@ -86,7 +86,7 @@ const NewPartner = () => {
 
     setSelectedOption1(e.target.value);
   };
-  
+
   // const [showModal, setShowModal] = useState(false);
   const [open, setOpen] = useState(false);
 
@@ -115,9 +115,9 @@ const NewPartner = () => {
     businessname: "",
     businessexp: "",
     Business: "",
-    selfintro:"",
+    selfintro: "",
     chooseus: "",
-    Reach:""
+    Reach: ""
   });
 
   const handleInput = (e) => {
@@ -135,10 +135,10 @@ const NewPartner = () => {
       const day = date.getDate();
       const month = date.getMonth() + 1; // Month is zero-indexed, so adding 1 to match the actual month number
       const year = date.getFullYear();
-  
+
       // Create the desired format ('21-12-2023')
       const formattedDate = `${day < 10 ? '0' : ''}${day}-${month < 10 ? '0' : ''}${month}-${year}`;
-  
+
       setValues((prev) => ({
         ...prev,
         dob: formattedDate,
@@ -200,34 +200,34 @@ const NewPartner = () => {
       .post("https://infygain.com/api/partner", values)
       .then((res) => {
         var re = document.querySelectorAll(".careerForm");
-        re.forEach((r)=>{
+        re.forEach((r) => {
           r.reset()
         })
         setErrors("Submited Successfully 😊😊");
         setShowMsg(true)
 
-      //   setErrors("Blog Added Successfully 😊😊");
-      //   setShowMsg(true);
-      setOpen(false);
-      
-    setValues({
-      name: "",
-      email: "",
-      dob: "",
-      phno: "",
-      city: "",
-      category: "",
-      position: "",
-      company: "",
-      reasonForLeaving: "",
-      businessname: "",
-      businessexp: "",
-      Business: "",
-      selfintro:"",
-      chooseus: "",
-      Reach:""
-    });
-    setSelectedOption(null)
+        //   setErrors("Blog Added Successfully 😊😊");
+        //   setShowMsg(true);
+        setOpen(false);
+
+        setValues({
+          name: "",
+          email: "",
+          dob: "",
+          phno: "",
+          city: "",
+          category: "",
+          position: "",
+          company: "",
+          reasonForLeaving: "",
+          businessname: "",
+          businessexp: "",
+          Business: "",
+          selfintro: "",
+          chooseus: "",
+          Reach: ""
+        });
+        setSelectedOption(null)
       })
       .catch((err) => {
         console.log(err);
@@ -435,9 +435,9 @@ const NewPartner = () => {
               apply now &nbsp; <span className="fa fa-arrow-right"></span>
             </Link>
 
-           
+
           </div>
-          {msgBox() }  
+          {msgBox()}
           {/* form modal */}
           <Modal
             footer={null}
@@ -462,7 +462,7 @@ const NewPartner = () => {
                 <input
                   type="text"
                   name="name"
-                  placeholder="Enter your name"
+                  placeholder="Enter your name *"
                   onChange={handleInput}
                   required
                 />
@@ -470,7 +470,7 @@ const NewPartner = () => {
                 <input
                   type="text"
                   name="email"
-                  placeholder="Enter your email"
+                  placeholder="Enter your email *"
                   onChange={handleInput}
                   required
                 />
@@ -484,36 +484,41 @@ const NewPartner = () => {
                 /> */}
                 {/* Replace the existing date input */}
                 <DatePicker
-                  // name="dob"
-                  placeholderText="Enter your DOB"
+                  placeholderText="Enter your DOB *"
                   selected={values.dob}
                   onChange={(date) => handleInput({ target: { name: "dob", value: date } })}
                   dateFormat="dd-MM-yyyy"
+                  showYearDropdown
+                  showMonthDropdown
+                  yearDropdownItemNumber={100}
+                  scrollableYearDropdown
+                  maxDate={subYears(new Date(), 0)} // Set the maximum allowed date (1 year ago from the current date)
                   style={{ border: "2px solid red" }}
                   required
                   className="dob-input"
                 />
+
                 <input
                   type="text"
                   name="phno"
-                  placeholder="Enter your phone number"
+                  placeholder="Enter your phone number *"
                   onChange={handleInput}
                   required
                 />
 
                 <div className="form-input">
                   <select name="city" onChange={handleInput} required>
-                    <option>Please select your city</option>
+                    <option>Please select your city *</option>
                     {/* Map through the districtOptions array to generate options */}
                     {districtOptions.map((district, index) => (
                       <option key={index}>{district}</option>
                     ))}
-                    
+
                   </select>
                 </div>
 
                 <div className="form-input">
-                  <h5>Please Select that apply<span className="label-star">*</span></h5>
+                  <h5>Please Select that apply<span className="">*</span></h5>
                   <label>
                     <input
                       type="radio"
@@ -546,7 +551,7 @@ const NewPartner = () => {
                         name="position"
                         onChange={handleInput}
                         placeholder="Enter your position"
-                        required
+
                       />
 
                       {/* Add more relevant questions for work */}
@@ -556,14 +561,14 @@ const NewPartner = () => {
                         name="company"
                         onChange={handleInput}
                         placeholder="Enter your company"
-                        required
+
                       />
-                 <input
-                    name="selfintro"
-                    onChange={handleInput}
-                    placeholder="About your work experience"
-                    required
-                  />
+                      <input
+                        name="selfintro"
+                        onChange={handleInput}
+                        placeholder="About your work experience"
+
+                      />
                       {/* ... (other relevant questions for work) */}
 
                       {/* <label>Date of Employment:</label> */}
@@ -580,7 +585,7 @@ const NewPartner = () => {
                         name="reasonForLeaving"
                         onChange={handleInput}
                         placeholder="Enter your reason for leaving"
-                        required
+
                       />
                     </>
                   )}
@@ -593,7 +598,7 @@ const NewPartner = () => {
                         name="businessname"
                         onChange={handleInput}
                         placeholder="Enter your business name"
-                        required
+
                       />
 
                       {/* Add more relevant questions for business */}
@@ -614,7 +619,7 @@ const NewPartner = () => {
                         name="businessexp"
                         onChange={handleInput}
                         placeholder="Year of business experience"
-                        required
+
                       />
 
                       {/* <label>Is the Business Still Operating? (Yes or No):</label> */}
@@ -643,7 +648,7 @@ const NewPartner = () => {
                 <div className="form-input">
                   {/* <label>A brief about the candidate <span className='label-star'>*</span></label> */}
                   {/* <label>Comments <span className='label-star'>*</span></label> */}
-                 
+
                 </div>
                 <div className="form-input">
                   <select name="Reach" onChange={handleInput}>
@@ -662,7 +667,7 @@ const NewPartner = () => {
                     name="chooseus"
                     onChange={handleInput}
                     placeholder="Why choose us"
-                    required
+
                   />
                 </div>
 

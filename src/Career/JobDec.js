@@ -292,41 +292,44 @@ const JobDec = () => {
                             <h3>Enter Your Details</h3>
                             <form className='careerForm' onSubmit={handleSubmit}>   
                                 
-                                <input type='text' name='name' placeholder='Name'  onChange={handleInput} required/>
-                                <input type='text' name='email' placeholder='Email'  onChange={handleInput} required/>
-                                <input type='text' name='phno' placeholder='phone No'   onChange={handleInput} required/>
+                                <input type='text' name='name' placeholder='Name *'  onChange={handleInput} required/>
+                                <input type='text' name='email' placeholder='Email *'  onChange={handleInput} required/>
+                                <input type='text' name='phno' placeholder='Phone Number *'   onChange={handleInput} required/>
 
-                                <select name='position' onChange={handleInput}>
-                        <option>--Please select the position--</option>
+                                <select required name='position' onChange={handleInput}>
+                        <option>Please select the position *</option>
                            <option>{values.title}</option>
                 </select>
                                 
                                 <div className='form-input'>
                                 
-                                <select name='exp'  onChange={handleInput}>
-                                            <option>Please Choose an Experience</option>
+                                <select name='exp' required onChange={handleInput}>
+                                            <option>Please choose an experience *</option>
                                             <option>Fresher</option>
                                             <option>1</option>
                                             {/* <option>2</option> */}
                                             <option>2+</option>
                                         </select> 
                                     </div>
-                                <div className='form-input'>
-                                        {/* <label>A brief about the candidate <span className='label-star'>*</span></label> */}
-                                        {/* <label>Comments <span className='label-star'>*</span></label> */}
-                                        <textarea name='selfintro' onChange={handleInput}  placeholder='Comment here' required/> 
-                                </div>
-                            
-                                <input
+                                    <input
                                             type="file"
                                             name="img"
+                                            placeholder="test"
                                             
                                             className="form-group"
+                                            required
                                             onChange={(e) => {
                                             handleInput(e);
                                             handleFileChange(e);
                                     }}
                                 ></input>
+                                <div className='form-input'>
+                                        {/* <label>A brief about the candidate <span className='label-star'>*</span></label> */}
+                                        {/* <label>Comments <span className='label-star'>*</span></label> */}
+                                        <textarea name='selfintro' onChange={handleInput}  placeholder='Comment Here'/> 
+                                </div>
+                            
+                               
                                 <button className={`submit ${loading ? "btn-load" : ""}`} type="submit">Submit</button>
                             </form>
                     

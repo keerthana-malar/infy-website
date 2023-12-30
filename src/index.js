@@ -107,6 +107,10 @@ function App() {
         <Route path="/busniess/:id" element={<BusinessDetail />} />
 
 
+
+        <Route path="/Partners" element={<Work />} />
+
+
         <Route path="/webservices/:id" element={<WebService />} />
         <Route path="/careerdetail/:id" element={<JobDec />} />
 

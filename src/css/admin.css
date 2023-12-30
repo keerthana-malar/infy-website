@@ -1,3 +1,10 @@
+.partner-value{
+  font-size: 22px;
+}
+
+
+
+
 .loginSec {
   display: flex;
   justify-content: center;
@@ -13,7 +20,9 @@
   padding: 10px 20px;
   background-color: #5a8e53;
 }
-
+.view-icon{
+  color: #fff;
+}
 .adminMainBox {
   display: flex;
 }

@@ -228,6 +228,7 @@ const NewPartner = () => {
           Reach: ""
         });
         setSelectedOption(null)
+        setSelectedOption1(null)
       })
       .catch((err) => {
         console.log(err);
@@ -503,6 +504,7 @@ const NewPartner = () => {
                   name="phno"
                   placeholder="Enter your phone number *"
                   onChange={handleInput}
+                  maxLength={10} 
                   required
                 />
 

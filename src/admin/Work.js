@@ -3,11 +3,14 @@ import Sidebars from "./sidebar";
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { BiSolidCommentEdit, BiSolidDownload } from "react-icons/bi";
+import { GrView } from "react-icons/gr";
+import { LuView } from "react-icons/lu";
 import DataTable from "react-data-table-component";
 import { Link } from "react-router-dom";
 
 const Work = () => {
   const [careerData, setCareerData] = useState([]);
+  const [cat, setCat] = useState('');
 
   useEffect(() => {
     // axios.get("https://infygain.com/api/candata")
@@ -15,8 +18,9 @@ const Work = () => {
    
     .then((res) => {
       const data = res.data
-      const foundData = data.filter(item => item.category === 'Work');
-        setCareerData(foundData);
+     
+        setCareerData(data);
+         // const foundData = data.filter(item => item.category === 'Work');
     });
   }, []);
 
@@ -39,8 +43,8 @@ const Work = () => {
         selector: (row) => row.phno,
     },
     {
-        name: "Position",
-        selector: (row) => row.position,
+        name: "Category",
+        selector: (row) => row.category,
     },
 
     {
@@ -48,8 +52,9 @@ const Work = () => {
       selector: (row) => {
         return (
           <>
-          <Link to={`/work/${row.id}`} className="btn btn-warning">
-            <BiSolidCommentEdit />
+          <Link to={row.category === "Work" ? `/work/${row.id}` : `/busniess/${row.id}`} className="btn btn-warning">
+          {/* <LuView /> */}
+          <GrView className="view-icon" />
           </Link>
           </>
         );

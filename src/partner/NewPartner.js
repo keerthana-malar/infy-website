@@ -468,7 +468,7 @@ const NewPartner = () => {
                 />
 
                 <input
-                  type="text"
+                  type="email"
                   name="email"
                   placeholder="Enter your email *"
                   onChange={handleInput}

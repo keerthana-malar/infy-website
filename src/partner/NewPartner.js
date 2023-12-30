@@ -228,6 +228,7 @@ const NewPartner = () => {
           Reach: ""
         });
         setSelectedOption(null)
+        setSelectedOption1(null)
       })
       .catch((err) => {
         console.log(err);

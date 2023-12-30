@@ -652,7 +652,7 @@ const NewPartner = () => {
                 </div>
                 <div className="form-input">
                   <select name="Reach" onChange={handleInput}>
-                    <option value="Social Media">How do you know us</option>
+                    <option >How do you know us</option>
 
                     <option value="Social Media">Social Media</option>
                     <option value="Website">Website</option>

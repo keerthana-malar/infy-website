@@ -99,18 +99,18 @@ function Contactform() {
                   <select id="category" className="form-control" name="category" required onChange={handleInput}>
                     <option className="text-muted" value="nil">Select a Requirement Category</option>
                     <optgroup label="IT Services">
-                      <option value="Hardware">Hardware Issues</option>
-                      <option value="Software">Software Problems</option>
-                      <option value="Network">Network Troubleshooting</option>
+                      <option value="Hardware Issues">Hardware Issues</option>
+                      <option value="Software Problems">Software Problems</option>
+                      <option value="Network Troubleshooting">Network Troubleshooting</option>
                     </optgroup>
                     <optgroup label="ISP Services">
-                      <option value="Connection">Connection Problems</option>
-                      <option value="Speed">Slow Internet Speed</option>
+                      <option value="Connection Problems">Connection Problems</option>
+                      <option value="Slow Internet Speed">Slow Internet Speed</option>
                     </optgroup>
                     <optgroup label="Web Services">
-                      <option value="Website">Website Development</option>
-                      <option value="Hosting">Web Hosting</option>
-                      <option value="Domain">Domain Registration</option>
+                      <option value="Website Development">Website Development</option>
+                      <option value="Web Hosting">Web Hosting</option>
+                      <option value="Domain Registration">Domain Registration</option>
                     </optgroup>
                   </select>
                 </div>

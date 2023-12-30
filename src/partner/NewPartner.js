@@ -503,6 +503,7 @@ const NewPartner = () => {
                   name="phno"
                   placeholder="Enter your phone number *"
                   onChange={handleInput}
+                  maxLength={10} 
                   required
                 />
 

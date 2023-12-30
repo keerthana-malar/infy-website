@@ -116,140 +116,131 @@ const WorkDetail = () => {
         <div className="sideBarBox">
           <Sidebars />
         </div>
-        <div className="mainContBox p-5">
-          <h1 className="mb-5">Work</h1>
-          {alertBox()}
-          {msgBox()}
-          <div className="formBox">
+        <div className="mainContBox p-5 ">
+
+          {/* <div className="container">
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Name : <span>{categories.name}</span></h4>
+              </div>
+              <div className="col">
+                <h4>Email:<span>{categories.email}</span></h4>
+              </div>
+            </div>
+            <div className="row mb-3">
+           
+              <div className="col">
+                <h4>Number: <span>{categories.phno}</span></h4>
+              </div>
+              <div className="col">
+                <h4>Date Of Birth: <span>{categories.date}</span></h4>
+              </div>
+            </div>
+            <div className="row mb-3">
             
-              <input name="id" type="hidden" value={values.id}></input>
-              {/* Row 1  */}
-              <div className="row mb-3">
-                <div className="col">
-                  <label>Name:</label>
-                  <input
-                    className="form-control"
-                    name="title"
-                    placeholder="Title"
-                    value={categories.name}
-                    readonly
-                  ></input>
-                </div>
-                <div className="col">
-                <label>Email:</label>
-                  <input
-                    className="form-control"
-                    name="title"
-                    placeholder="Title"
-                    value={categories.email}
-                    readonly
-                  ></input>
-                </div>
+              <div className="col">
+                <h4>Position: <span>{categories.position}</span></h4>
               </div>
-              {/* Row 2  */}
-              <div className="row mb-3">
-                <div className="col">
-                <label>Number:</label>
-                  <input
-                    className="form-control"
-                    name="title"
-                    placeholder="Title"
-                    value={categories.phno}
-                    readonly
-                  ></input>
-                </div>
-                <div className="col">
-                <label>Date Of Birth:</label>
-                  <input
-                    className="form-control"
-                    name="quote"
-                    placeholder="Quote"
-                    value={categories.date}
-                    readonly
-                  ></input>
-                </div>
+              <div className="col">
+                <h4>City: <span>{categories.city}</span></h4>
               </div>
-              {/* Row 3  */}
-              <div className="row mb-3">
-                <div className="col">
-                <label>Position:</label>
-                  <input
-                    className="form-control"
-                    name="quote"
-                    placeholder="Quote"
-                    value={categories.position}
-                    readonly
-                  ></input>
-                </div>
-                <div className="col">
-                <label>City:</label>
-                  <input
-                    className="form-control"
-                    name="quote"
-                    placeholder="Quote"
-                    value={categories.city}
-                    readonly
-                  ></input>
-                </div>
-              </div>
+            </div>
 
-              <div className="row mb-3">
-                <div className="col">
-                <label>Company:</label>
-                  <input
-                    className="form-control"
-                    name="quote"
-                    placeholder="Quote"
-                    value={categories.company}
-                    onChange={handleInput}
-                  ></input>
-                </div>
-                <div className="col">
-                <label>Chooseus:</label>
-                  <input
-                    className="form-control"
-                    name="quote"
-                    placeholder="Quote"
-                    value={categories.chooseus}
-                    onChange={handleInput}
-                  ></input>
-                </div>
+            <div className="row mb-3">
+             
+              <div className="col">
+                <h4>Company:<span>{categories.company}</span></h4>
               </div>
+              <div className="col">
+                <h4>Reason For Leaving :<span>{categories.resonforleave}</span></h4>
+              </div>
+            </div>
+  
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Chooseus: <span>{categories.chooseus}</span></h4>
+              </div>
+              <div className="col">
+                <h4>Work Experience : <span>{categories.workexp}</span></h4>
+              </div>
+            
+             
+            </div>
+            
+            <div className="row mb-3">
+            <div className="col">
+                <h4>Reach Us : <span>{categories.reachus}</span></h4>
+              </div>
+            </div>
 
 
-              <div className="row mb-3">
-                <div className="col">
-                <label>Reason For Leaving</label>
-                  <input
-                    className="form-control"
-                    name="quote"
-                    placeholder="Quote"
-                    value={categories.resonforleave}
-                    readonly
-                  ></input>
-                </div>
-                <div className="col">
-                <label>Work Experience</label>
-                  <input
-                    className="form-control"
-                    name="quote"
-                    placeholder="Quote"
-                    value={categories.workexp}
-                    readonly
-                  ></input>
-                </div>
-                <div className="col">
-              <label>Reach Us</label>
-                <input
-                  className="form-control"
-                  name="quote"
-                  placeholder="Quote"
-                  value={categories.reachus}
-                  readonly
-                ></input>
+          </div> */}
+
+          
+        <div className="container">
+        <h1 className="mb-5">Partner Details</h1>
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Name : <span className="partner-value">{categories.name}</span></h4>
               </div>
+            </div>
+            
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Email : <span  className="partner-value">{categories.email}</span></h4>
               </div>
- 
+            </div>
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Number : <span  className="partner-value">{categories.phno}</span></h4>
+              </div>
+            </div>
+            
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Date Of Birth : <span  className="partner-value">{categories.date}</span></h4>
+              </div>
+            </div>
+            <div className="row mb-3">
+              <div className="col">
+                <h4>City: <span  className="partner-value">{categories.city}</span></h4>
+              </div>
+            </div>
+            
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Chooseus : <span  className="partner-value">{categories.chooseus}</span></h4>
+              </div>
+            </div>
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Position : <span  className="partner-value">{categories.position}</span></h4>
+              </div>
+            </div>
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Company: <span  className="partner-value">{categories.company}</span></h4>
+              </div>
+            </div>
+            
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Reason For Leaving : <span  className="partner-value">{categories.resonforleave}</span></h4>
+              </div>
+            </div>
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Work Experience : <span  className="partner-value">{categories.workexp}</span></h4>
+              </div>
+            </div>
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Reach Us: <span  className="partner-value"> {categories.reachus}</span></h4>
+              </div>
+            </div>
+            
+
+
           </div>
         </div>
       </div>

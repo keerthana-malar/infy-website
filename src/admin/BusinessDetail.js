@@ -138,129 +138,72 @@ const BusinessDetail = () => {
         <Sidebars />
       </div>
       <div className="mainContBox p-5">
-        <h1 className="mb-5">Business</h1>
+       
         {alertBox()}
         {msgBox()}
-        <div className="formBox">
-          
-            <input name="id" type="hidden" value={values.id}></input>
-            {/* Row 1  */}
-            <div className="row mb-3">
-              <div className="col">
-                <label>Name:</label>
-                <input
-                  className="form-control"
-                  name="title"
-                  placeholder="Title"
-                  value={categories.name}
-                  readonly
-                ></input>
-              </div>
-              <div className="col">
-              <label>Email:</label>
-                <input
-                  className="form-control"
-                  name="title"
-                  placeholder="Title"
-                  value={categories.email}
-                  readonly
-                ></input>
-              </div>
-            </div>
-            {/* Row 2  */}
-            <div className="row mb-3">
-              <div className="col">
-              <label>Number:</label>
-                <input
-                  className="form-control"
-                  name="title"
-                  placeholder="Title"
-                  value={categories.phno}
-                  readonly
-                ></input>
-              </div>
-              <div className="col">
-              <label>Date Of Birth:</label>
-                <input
-                  className="form-control"
-                  name="quote"
-                  placeholder="Quote"
-                  value={categories.date}
-                  readonly
-                ></input>
-              </div>
-            </div>
-            {/* Row 3  */}
-            <div className="row mb-3">
-              <div className="col">
-              <label>Business Name:</label>
-                <input
-                  className="form-control"
-                  name="quote"
-                  placeholder="Quote"
-                  value={categories.businessname}
-                  readonly
-                ></input>
-              </div>
-              <div className="col">
-              <label>City:</label>
-                <input
-                  className="form-control"
-                  name="quote"
-                  placeholder="Quote"
-                  value={categories.city}
-                  readonly
-                ></input>
-              </div>
-            </div>
 
+        <div className="container">
+        <h1 className="mb-5">Partner Details</h1>
             <div className="row mb-3">
               <div className="col">
-              <label>Business Experience:</label>
-                <input
-                  className="form-control"
-                  name="quote"
-                  placeholder="Quote"
-                  value={categories.businessexp}
-                  readonly
-                ></input>
-              </div>
-              <div className="col">
-              <label>Chooseus:</label>
-                <input
-                  className="form-control"
-                  name="quote"
-                  placeholder="Quote"
-                  value={categories.chooseus}
-                  readonly
-                ></input>
+                <h4>Name : <span className="partner-value">{categories.name}</span></h4>
               </div>
             </div>
+            
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Email : <span  className="partner-value">{categories.email}</span></h4>
+              </div>
+            </div>
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Number : <span  className="partner-value">{categories.phno}</span></h4>
+              </div>
+            </div>
+            
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Date Of Birth : <span  className="partner-value">{categories.date}</span></h4>
+              </div>
+            </div>
+            <div className="row mb-3">
+              <div className="col">
+                <h4>City: <span  className="partner-value">{categories.city}</span></h4>
+              </div>
+            </div>
+            
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Chooseus : <span  className="partner-value">{categories.chooseus}</span></h4>
+              </div>
+            </div>
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Business Name : <span  className="partner-value">{categories.businessname}</span></h4>
+              </div>
+            </div>
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Business Experience : <span  className="partner-value">{categories.businessexp}</span></h4>
+              </div>
+            </div>
+            
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Business Still Operating : <span  className="partner-value">{categories.Business}</span></h4>
+              </div>
+            </div>
+            <div className="row mb-3">
+              <div className="col">
+                <h4>Reach Us: <span  className="partner-value">{categories.reachus}</span></h4>
+              </div>
+            </div>
+            
 
 
-            <div className="row mb-3">
-              <div className="col">
-              <label>Business Still Operating:</label>
-                <input
-                  className="form-control"
-                  name="quote"
-                  placeholder="Quote"
-                  value={categories.Business}
-                  readonly
-                ></input>
-              </div>
-              <div className="col">
-              <label>Reach Us</label>
-                <input
-                  className="form-control"
-                  name="quote"
-                  placeholder="Quote"
-                  value={categories.reachus}
-                  readonly
-                ></input>
-              </div>
-            </div>
-        </div>
+          </div>
+
+  
       </div>
     </div>
   </>

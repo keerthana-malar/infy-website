@@ -209,7 +209,7 @@ const WorkDetail = () => {
             
             <div className="row mb-3">
               <div className="col">
-                <h4>Chooseus : <span  className="partner-value">{categories.chooseus}</span></h4>
+                <h4>Choose Us : <span  className="partner-value">{categories.chooseus}</span></h4>
               </div>
             </div>
             <div className="row mb-3">

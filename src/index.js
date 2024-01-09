@@ -55,10 +55,7 @@ import Business from "./admin/Business";
 import WorkDetail from "./admin/WorkDetail";
 import BusinessDetail from "./admin/BusinessDetail";
 
-
 function App() {
-
-
   return (
     <BrowserRouter>
       <ScrollToTop />
@@ -80,7 +77,7 @@ function App() {
         <Route path="/adminblog" element={<Blog />} />
         <Route path="/addblog" element={<AddBlog />} />
         <Route path="/Bookservicepage" element={<Bookservicepage />} />
-        <Route path="/Partner" element={<NewPartner/>} />
+        <Route path="/Partner" element={<NewPartner />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
         <Route path="/termspage" element={<Termspage />} />
         <Route path="/delivery" element={<Delivery />} />
@@ -100,16 +97,12 @@ function App() {
         <Route path="/ModelForm" element={<PartnershipForm />} />
         <Route path="/ModelForm" element={<Modal />} />
 
-
         <Route path="/Work" element={<Work />} />
         <Route path="/Business" element={<Business />} />
         <Route path="/work/:id" element={<WorkDetail />} />
         <Route path="/busniess/:id" element={<BusinessDetail />} />
 
-
-
         <Route path="/Partners" element={<Work />} />
-
 
         <Route path="/webservices/:id" element={<WebService />} />
         <Route path="/careerdetail/:id" element={<JobDec />} />
@@ -119,7 +112,6 @@ function App() {
         <Route path="/servicedetails/:cat/:id" element={<ServiceDetails />} />
 
         <Route path="*" element={<Four />} />
-
       </Routes>
     </BrowserRouter>
   );

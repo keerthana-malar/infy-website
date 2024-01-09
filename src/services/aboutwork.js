@@ -8,10 +8,15 @@ function Aboutweb() {
   return (
     <>
       <ScrollTrigger onEnter={() => setBar(true)} onExit={() => setBar(false)}>
-        <div className="container"> 
+        <div className="container">
           <div className="mainaboutweb">
             <div className="abtimgbx">
-              <img className="img-fluid"  alt="top seo services" src="./images/seo/seobanner.png" title="top seo services"></img>
+              <img
+                className="img-fluid"
+                alt="top seo services"
+                src="./images/seo/seobanner.png"
+                title="top seo services"
+              ></img>
             </div>
             <div className="abtconbx">
               <div className="featurebox">

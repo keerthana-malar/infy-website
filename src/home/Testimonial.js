@@ -16,17 +16,26 @@ const Testimonial = () => {
                 </div>
                 <div className="col-md-6">
                   <p className="text-muted  home-baner-con-belows">
-                  "Great team to work with, they understood my requirements
+                    "Great team to work with, they understood my requirements
                     and helped me go live within hours, and delivered the
                     results ahead of schedule."
                   </p>
                   <div className="clientBox">
                     <div className="clientImgBox">
                       <div className="clientImg">
-                        <img className="img-fluid" src="/images/abt.webp" alt="Testimonial" title="Testimonial"></img>
+                        <img
+                          className="img-fluid"
+                          src="/images/abt.webp"
+                          alt="Testimonial"
+                          title="Testimonial"
+                        ></img>
                       </div>
                       <div className="clientQuotes">
-                        <img src="/images/Quote.svg" alt="quote" title="Quote"></img>
+                        <img
+                          src="/images/Quote.svg"
+                          alt="quote"
+                          title="Quote"
+                        ></img>
                       </div>
                     </div>
                     <div className="clientName">
@@ -63,10 +72,17 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/webs1.webp" alt="Complete Networking" title="Complete Networking"></img>
+                  <img
+                    className="img-fluid"
+                    src="/images/webs1.webp"
+                    alt="Complete Networking"
+                    title="Complete Networking"
+                  ></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title"><Link to="/services/networking">Complete Networking</Link></p>
+                  <p className="mid-title">
+                    <Link to="/services/networking">Complete Networking</Link>
+                  </p>
                   <p className="tech-desc">
                     Seamless Connectivity <br></br>Solutions
                   </p>
@@ -88,10 +104,17 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid 5" src="/images/fingerprint.webp" alt="Security Systems" title="Security Systems"></img>
+                  <img
+                    className="img-fluid 5"
+                    src="/images/fingerprint.webp"
+                    alt="Security Systems"
+                    title="Security Systems"
+                  ></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title"><Link to="/services/cctv">Security Systems</Link></p>
+                  <p className="mid-title">
+                    <Link to="/services/cctv">Security Systems</Link>
+                  </p>
                   <p className="tech-desc">24/7 Security Surveillance</p>
                 </div>
               </div>
@@ -111,10 +134,17 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/webs6.webp" alt="Web /Graphic Design" title="Web & Graphic Design"></img>
+                  <img
+                    className="img-fluid"
+                    src="/images/webs6.webp"
+                    alt="Web /Graphic Design"
+                    title="Web & Graphic Design"
+                  ></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title"><Link to="/ServiceSeo">Web /Graphic Design</Link></p>
+                  <p className="mid-title">
+                    <Link to="/ServiceSeo">Web /Graphic Design</Link>
+                  </p>
                   <p className="tech-desc">
                     Captivating Design<br></br>Experiences
                   </p>
@@ -136,10 +166,17 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/cctvs1.webp" alt="AV Solutions" title="AV Solutions"></img>
+                  <img
+                    className="img-fluid"
+                    src="/images/cctvs1.webp"
+                    alt="AV Solutions"
+                    title="AV Solutions"
+                  ></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title"><Link to="/services/Projectors">AV Solutions</Link></p>
+                  <p className="mid-title">
+                    <Link to="/services/Projectors">AV Solutions</Link>
+                  </p>
                   <p className="tech-desc">
                     Innovative Presentation <br></br>and Access
                   </p>
@@ -161,10 +198,17 @@ const Testimonial = () => {
                       </g>
                     </g>
                   </svg>
-                  <img className="img-fluid" src="/images/laptops.webp" alt="Computer & Laptop" title="Computer & Laptop"></img>
+                  <img
+                    className="img-fluid"
+                    src="/images/laptops.webp"
+                    alt="Computer & Laptop"
+                    title="Computer & Laptop"
+                  ></img>
                 </div>
                 <div className="testiContBox">
-                  <p className="mid-title"><Link to="/services/laptop&desktop">Computer & Laptop</Link></p>
+                  <p className="mid-title">
+                    <Link to="/services/laptop&desktop">Computer & Laptop</Link>
+                  </p>
                   <p className="tech-desc">
                     Reliable Business<br></br> Computing
                   </p>

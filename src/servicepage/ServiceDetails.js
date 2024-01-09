@@ -1,12 +1,12 @@
-import React from 'react'
-import IotHeader from '../services/IotHeader';
-import ServiceBanner from './ServiceBanner';
-import Enquiry from '../common/enquiry';
-import IotFooter from '../services/IotFooter';
-import Four from '../404';
-import { useParams } from 'react-router-dom';
-import ProductDetail from './ProductDetail';
-import { Helmet } from 'react-helmet';
+import React from "react";
+import IotHeader from "../services/IotHeader";
+import ServiceBanner from "./ServiceBanner";
+import Enquiry from "../common/enquiry";
+import IotFooter from "../services/IotFooter";
+import Four from "../404";
+import { useParams } from "react-router-dom";
+import ProductDetail from "./ProductDetail";
+import { Helmet } from "react-helmet";
 // Get the current URL using window.location.href
 const currentUrl = window.location.href;
 
@@ -15,71 +15,138 @@ let metaContent = {
   key: "computer,laptop,cctv,printer,AMC,networking,website,graphics,isp",
   ogt: "Best IT support and web development company in Coimbatore",
   og: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera,server, billing software, web, graphic design, amc",
-  logo: "https://infygain.com/images/icons/infy-logo.svg"
-}
-const ServiceDetails = () => {  
-    const {id,cat} = useParams()
+  logo: "https://infygain.com/images/icons/infy-logo.svg",
+};
+const ServiceDetails = () => {
+  const { id, cat } = useParams();
 
-    const catPaths = ["Laptop","Desktop","Networking","Cctv","Accessories","Projectors","TV","Printer","Scanner","InteractivePanel","UPS","WIFI","Pos","InterCom"]
+  const catPaths = [
+    "Laptop",
+    "Desktop",
+    "Networking",
+    "Cctv",
+    "Accessories",
+    "Projectors",
+    "TV",
+    "Printer",
+    "Scanner",
+    "InteractivePanel",
+    "UPS",
+    "WIFI",
+    "Pos",
+    "InterCom",
+  ];
 
-    const valuePaths = ['GamingLaptop','Consumerlaptops',"WorkStation","BrandedDesktop","AssembledDesktop","WorkStationDesktop","GamingDesktop"
-                        ,"HUB","Switch","Router","Firewall","EndPointSecurity","Fiber"
-                      ,"Analog","IP","DVR","NVR","360","PTZ"
-                      ,"RAM",`HDD,SSD`,"KeyBoard",`Mouse,Moniter`,"Cabinet","MotherBoard","SMPS",`Cables,Charger`,`Connector,Convertor`
-                      ,"LCD","LED","SmartProjector"
-                    ,"AndriodTV","SmartTV"
-                    ,"Laser","Thermal","Color","MultiFunction","DotMatrix"
-                  ,"Flatbed","Vertical"
-                ,"InteractivePanel65","InteractivePanel75"
-              ,"Inventor","OnlineUPS"
-              ,"AccessPointController","Wifi-5","Wifi-6"
-            ,"EPABX","IPPBX"
-            ,"KIOSK","BillingApps"
-          ,"POS","InterCom"];
+  const valuePaths = [
+    "GamingLaptop",
+    "Consumerlaptops",
+    "WorkStation",
+    "BrandedDesktop",
+    "AssembledDesktop",
+    "WorkStationDesktop",
+    "GamingDesktop",
+    "HUB",
+    "Switch",
+    "Router",
+    "Firewall",
+    "EndPointSecurity",
+    "Fiber",
+    "Analog",
+    "IP",
+    "DVR",
+    "NVR",
+    "360",
+    "PTZ",
+    "RAM",
+    `HDD,SSD`,
+    "KeyBoard",
+    `Mouse,Moniter`,
+    "Cabinet",
+    "MotherBoard",
+    "SMPS",
+    `Cables,Charger`,
+    `Connector,Convertor`,
+    "LCD",
+    "LED",
+    "SmartProjector",
+    "AndriodTV",
+    "SmartTV",
+    "Laser",
+    "Thermal",
+    "Color",
+    "MultiFunction",
+    "DotMatrix",
+    "Flatbed",
+    "Vertical",
+    "InteractivePanel65",
+    "InteractivePanel75",
+    "Inventor",
+    "OnlineUPS",
+    "AccessPointController",
+    "Wifi-5",
+    "Wifi-6",
+    "EPABX",
+    "IPPBX",
+    "KIOSK",
+    "BillingApps",
+    "POS",
+    "InterCom",
+  ];
   return (
     <>
-    {
-      catPaths.includes(cat)   ?
-      <>
-               <Helmet>
-                {/* <title></title> */}
-                <meta charset="UTF-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <title>{metaContent.ogt}</title>
-                <link rel="canonical" href={currentUrl} />
+      {catPaths.includes(cat) ? (
+        <>
+          <Helmet>
+            {/* <title></title> */}
+            <meta charset="UTF-8" />
+            <meta
+              name="viewport"
+              content="width=device-width, initial-scale=1"
+            />
+            <title>{metaContent.ogt}</title>
+            <link rel="canonical" href={currentUrl} />
 
-                <link rel="icon" href={"favicon.ico"} />
-                <meta name="description" content={metaContent.des} />
-                <meta name="keywords" content={metaContent.key} />
-                
-                <meta name="google-site-verification" content="ocR-tZ4yt2LD1ePYD1bR4LK6GYUc0keDJcspEtblHoM" />
+            <link rel="icon" href={"favicon.ico"} />
+            <meta name="description" content={metaContent.des} />
+            <meta name="keywords" content={metaContent.key} />
 
-                {/* Open Graph Meta Tags */}
-                <meta property="og:title" content={metaContent.ogt} />
-                <meta property="og:description" content={metaContent.og} />
-                <meta property="og:image" content={metaContent.logo} />
-                <meta property="og:url" content="https://infygain.com/" />
-                <meta property="og:type" content="website" />
-                <meta property="og:site_name" content="Infygain Technologies" />
-                {/*  END FB Open Graph */}
+            <meta
+              name="google-site-verification"
+              content="ocR-tZ4yt2LD1ePYD1bR4LK6GYUc0keDJcspEtblHoM"
+            />
 
-                {/* Twitter Card Meta Tags */}
+            {/* Open Graph Meta Tags */}
+            <meta property="og:title" content={metaContent.ogt} />
+            <meta property="og:description" content={metaContent.og} />
+            <meta property="og:image" content={metaContent.logo} />
+            <meta property="og:url" content="https://infygain.com/" />
+            <meta property="og:type" content="website" />
+            <meta property="og:site_name" content="Infygain Technologies" />
+            {/*  END FB Open Graph */}
 
-                <meta name="twitter:card" content="Best computer/laptop sales and service in coimbatore" />
-                <meta name="twitter:site" content="Infygain Technologies" />
-                <meta name="twitter:title" content="Infygain Technologies" />
-                <meta name="twitter:card" content="summary" />
+            {/* Twitter Card Meta Tags */}
 
-                <meta name="twitter:description" content="We are provide the best computer and laptop, networking service in coimbatore and also we best in cctv camera, server, billing software, graphic design, amc." />
-                <meta name="twitter:image" content={metaContent.logo} />
-                {/* Robot tag */}
-                <meta name="robots" content="index, follow" />
-                
-                {/* End Robot tag */}
+            <meta
+              name="twitter:card"
+              content="Best computer/laptop sales and service in coimbatore"
+            />
+            <meta name="twitter:site" content="Infygain Technologies" />
+            <meta name="twitter:title" content="Infygain Technologies" />
+            <meta name="twitter:card" content="summary" />
 
-                {/* Facebook Pixel Code */}
+            <meta
+              name="twitter:description"
+              content="We are provide the best computer and laptop, networking service in coimbatore and also we best in cctv camera, server, billing software, graphic design, amc."
+            />
+            <meta name="twitter:image" content={metaContent.logo} />
+            {/* Robot tag */}
+            <meta name="robots" content="index, follow" />
+
+            {/* End Robot tag */}
+
+            {/* Facebook Pixel Code */}
             <script type="text/javascript">
-               {`
+              {`
                !function(f,b,e,v,n,t,s)
                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -92,19 +159,20 @@ const ServiceDetails = () => {
                fbq('track', 'PageView');
                `}
             </script>
-            
-            <noscript>{`
+
+            <noscript>
+              {`
                <img height="1" width="1" style="display:none"
                src="https://www.facebook.com/tr?id=1093378958018811&ev=PageView&noscript=1"
                />
                `}
             </noscript>
             {/* End Facebook Pixel Code */}
-            
-                {/* Organization schema*/}
 
-                <script type="application/ld+json">
-                {`
+            {/* Organization schema*/}
+
+            <script type="application/ld+json">
+              {`
   {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -129,11 +197,11 @@ const ServiceDetails = () => {
     }
   }
   `}
-</script>
-                {/* Breadcrumb schema*/}
+            </script>
+            {/* Breadcrumb schema*/}
 
-<script type="application/ld+json">
-{`
+            <script type="application/ld+json">
+              {`
   {
     "@context": "https://schema.org/",
     "@type": "BreadcrumbList",
@@ -201,11 +269,11 @@ const ServiceDetails = () => {
     ]
   }
   `}
-</script>
+            </script>
 
-        {/* Local business 31/5/23 schema */}
-        <script type="application/ld+json">
-          {`
+            {/* Local business 31/5/23 schema */}
+            <script type="application/ld+json">
+              {`
   {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
@@ -241,13 +309,12 @@ const ServiceDetails = () => {
     }
   }
 `}
-        </script>
-        {/* End local business schema */}
+            </script>
+            {/* End local business schema */}
 
-
-                {/* Google Analytics */}
-                <script>
-                    {`
+            {/* Google Analytics */}
+            <script>
+              {`
   (function (i, s, o, g, r, a, m) {
     i["GoogleAnalyticsObject"] = r;
     (i[r] =
@@ -271,12 +338,12 @@ const ServiceDetails = () => {
   ga("create", "UA-XXXXX-Y", "auto");
   ga("send", "pageview");
 `}
-                </script>
-                {/* End Google Analytics */}
+            </script>
+            {/* End Google Analytics */}
 
-                {/* Google Tag Manager */}
-                <script>
-                    {`
+            {/* Google Tag Manager */}
+            <script>
+              {`
   (function (w, d, s, l, i) {
     w[l] = w[l] || [];
     w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
@@ -288,47 +355,50 @@ const ServiceDetails = () => {
     f.parentNode.insertBefore(j, f);
   })(window, document, "script", "dataLayer", "GTM-NRCN7RF");
 `}
-                </script>
-                {/* End Google Tag Manager */}
+            </script>
+            {/* End Google Tag Manager */}
 
-                {/* Google tag (gtag.js) */}
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-89FZ8YHYVL"></script>
+            {/* Google tag (gtag.js) */}
+            <script
+              async
+              src="https://www.googletagmanager.com/gtag/js?id=G-89FZ8YHYVL"
+            ></script>
 
-                <script>
-                    {`
+            <script>
+              {`
   window.dataLayer = window.dataLayer || [];
   function gtag() {
     dataLayer.push(arguments);
   }
-  gtag("gtag("js", new Date());
-          gtag("config", "G-89FZ8YHYVL");
+  gtag('js', new Date());
+  gtag('config', 'G-89FZ8YHYVL');
         `}
-                </script>
-                {/* End Google tag (gtag.js) */}
+            </script>
+            {/* End Google tag (gtag.js) */}
 
-                {/* Google optimizer */}
-                <script src="https://www.googleoptimize.com/optimize.js?id=OPT-NWGHP4M"></script>
-                {/* End Google optimizer */}
-            </Helmet>
-       {
-                                valuePaths.includes(id)   ?
-                                <>
-                                <IotHeader />
-                                <ServiceBanner/>
+            {/* Google optimizer */}
+            <script src="https://www.googleoptimize.com/optimize.js?id=OPT-NWGHP4M"></script>
+            {/* End Google optimizer */}
+          </Helmet>
+          {valuePaths.includes(id) ? (
+            <>
+              <IotHeader />
+              <ServiceBanner />
 
-                                <ProductDetail />
+              <ProductDetail />
 
-                                <Enquiry/>
-                                <IotFooter/>
-                                </> :
-                                
-                                <Four />
-                            }
-      </>:
-      <Four />
-    }
+              <Enquiry />
+              <IotFooter />
+            </>
+          ) : (
+            <Four />
+          )}
+        </>
+      ) : (
+        <Four />
+      )}
     </>
-  )
-}
+  );
+};
 
-export default ServiceDetails
+export default ServiceDetails;

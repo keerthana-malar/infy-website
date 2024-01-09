@@ -1,10 +1,10 @@
-import React from 'react';
-import Career from './Career';
-import Footer from '../common/footer';
-import Header from '../common/header';
-import CareerForm from './CareerForm';
-import CarrerBaner from './CarrerBanner';
-import { Helmet } from 'react-helmet';
+import React from "react";
+import Career from "./Career";
+import Footer from "../common/footer";
+import Header from "../common/header";
+import CareerForm from "./CareerForm";
+import CarrerBaner from "./CarrerBanner";
+import { Helmet } from "react-helmet";
 
 // Get the current URL using window.location.href
 const currentUrl = window.location.href;
@@ -14,50 +14,58 @@ let metaContent = {
   key: "computer,laptop,cctv,printer,AMC,networking,website,graphics,isp",
   ogt: "Best IT support and web development company in Coimbatore",
   og: "We provide the best computer and laptop service in coimbatore and also we best in networking, cctv camera, server, billing software, graphic design, amc.",
-
-}
+};
 const CareerPage = () => {
   return (
     <>
-              <Helmet>
-                {/* <title></title> */}
-                <meta charset="UTF-8" />
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
-                <title>{metaContent.ogt}</title>
-                <link rel="canonical" href={currentUrl} />
+      <Helmet>
+        {/* <title></title> */}
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{metaContent.ogt}</title>
+        <link rel="canonical" href={currentUrl} />
 
-                <link rel="icon" href={"favicon.ico"} />
-                <meta name="description" content={metaContent.des} />
-                <meta name="keywords" content={metaContent.key} />
-                
-                <meta name="google-site-verification" content="ocR-tZ4yt2LD1ePYD1bR4LK6GYUc0keDJcspEtblHoM" />
+        <link rel="icon" href={"favicon.ico"} />
+        <meta name="description" content={metaContent.des} />
+        <meta name="keywords" content={metaContent.key} />
 
-                {/* Open Graph Meta Tags */}
-                <meta property="og:title" content={metaContent.ogt} />
-                <meta property="og:description" content={metaContent.og} />
-                <meta property="og:image" content={metaContent.logo} />
-                <meta property="og:url" content="https://infygain.com/" />
-                <meta property="og:type" content="website" />
-                <meta property="og:site_name" content="Infygain Technologies" />
-                {/*  END FB Open Graph */}
+        <meta
+          name="google-site-verification"
+          content="ocR-tZ4yt2LD1ePYD1bR4LK6GYUc0keDJcspEtblHoM"
+        />
 
-                {/* Twitter Card Meta Tags */}
+        {/* Open Graph Meta Tags */}
+        <meta property="og:title" content={metaContent.ogt} />
+        <meta property="og:description" content={metaContent.og} />
+        <meta property="og:image" content={metaContent.logo} />
+        <meta property="og:url" content="https://infygain.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Infygain Technologies" />
+        {/*  END FB Open Graph */}
 
-                <meta name="twitter:card" content="Best computer/laptop sales and service in coimbatore" />
-                <meta name="twitter:site" content="Infygain Technologies" />
-                <meta name="twitter:title" content="Infygain Technologies" />
-                <meta name="twitter:card" content="summary" />
+        {/* Twitter Card Meta Tags */}
 
-                <meta name="twitter:description" content="We are provide the best computer and laptop, networking service in coimbatore and also we best in cctv camera, server, billing software, graphic design, amc." />
-                <meta name="twitter:image" content={metaContent.logo} />
-                {/* Robot tag */}
-                <meta name="robots" content="index, follow" />
-                
-                {/* End Robot tag */}
+        <meta
+          name="twitter:card"
+          content="Best computer/laptop sales and service in coimbatore"
+        />
+        <meta name="twitter:site" content="Infygain Technologies" />
+        <meta name="twitter:title" content="Infygain Technologies" />
+        <meta name="twitter:card" content="summary" />
 
-                {/* Facebook Pixel Code */}
-            <script type="text/javascript">
-               {`
+        <meta
+          name="twitter:description"
+          content="We are provide the best computer and laptop, networking service in coimbatore and also we best in cctv camera, server, billing software, graphic design, amc."
+        />
+        <meta name="twitter:image" content={metaContent.logo} />
+        {/* Robot tag */}
+        <meta name="robots" content="index, follow" />
+
+        {/* End Robot tag */}
+
+        {/* Facebook Pixel Code */}
+        <script type="text/javascript">
+          {`
                !function(f,b,e,v,n,t,s)
                {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -69,20 +77,21 @@ const CareerPage = () => {
                fbq('init', '1093378958018811');
                fbq('track', 'PageView');
                `}
-            </script>
-            
-            <noscript>{`
+        </script>
+
+        <noscript>
+          {`
                <img height="1" width="1" style="display:none"
                src="https://www.facebook.com/tr?id=1093378958018811&ev=PageView&noscript=1"
                />
                `}
-            </noscript>
-            {/* End Facebook Pixel Code */}
-            
-                {/* Organization schema*/}
+        </noscript>
+        {/* End Facebook Pixel Code */}
 
-                <script type="application/ld+json">
-                {`
+        {/* Organization schema*/}
+
+        <script type="application/ld+json">
+          {`
   {
     "@context": "https://schema.org",
     "@type": "Organization",
@@ -107,11 +116,11 @@ const CareerPage = () => {
     }
   }
   `}
-</script>
-                {/* Breadcrumb schema*/}
+        </script>
+        {/* Breadcrumb schema*/}
 
-<script type="application/ld+json">
-{`
+        <script type="application/ld+json">
+          {`
   {
     "@context": "https://schema.org/",
     "@type": "BreadcrumbList",
@@ -179,7 +188,7 @@ const CareerPage = () => {
     ]
   }
   `}
-</script>
+        </script>
 
         {/* Local business 31/5/23 schema */}
         <script type="application/ld+json">
@@ -222,10 +231,9 @@ const CareerPage = () => {
         </script>
         {/* End local business schema */}
 
-
-                {/* Google Analytics */}
-                <script>
-                    {`
+        {/* Google Analytics */}
+        <script>
+          {`
   (function (i, s, o, g, r, a, m) {
     i["GoogleAnalyticsObject"] = r;
     (i[r] =
@@ -249,12 +257,12 @@ const CareerPage = () => {
   ga("create", "UA-XXXXX-Y", "auto");
   ga("send", "pageview");
 `}
-                </script>
-                {/* End Google Analytics */}
+        </script>
+        {/* End Google Analytics */}
 
-                {/* Google Tag Manager */}
-                <script>
-                    {`
+        {/* Google Tag Manager */}
+        <script>
+          {`
   (function (w, d, s, l, i) {
     w[l] = w[l] || [];
     w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
@@ -266,35 +274,38 @@ const CareerPage = () => {
     f.parentNode.insertBefore(j, f);
   })(window, document, "script", "dataLayer", "GTM-NRCN7RF");
 `}
-                </script>
-                {/* End Google Tag Manager */}
+        </script>
+        {/* End Google Tag Manager */}
 
-                {/* Google tag (gtag.js) */}
-                <script async src="https://www.googletagmanager.com/gtag/js?id=G-89FZ8YHYVL"></script>
+        {/* Google tag (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-89FZ8YHYVL"
+        ></script>
 
-                <script>
-                    {`
+        <script>
+          {`
   window.dataLayer = window.dataLayer || [];
   function gtag() {
     dataLayer.push(arguments);
   }
-  gtag("gtag("js", new Date());
-          gtag("config", "G-89FZ8YHYVL");
+  gtag('js', new Date());
+  gtag('config', 'G-89FZ8YHYVL');
         `}
-                </script>
-                {/* End Google tag (gtag.js) */}
+        </script>
+        {/* End Google tag (gtag.js) */}
 
-                {/* Google optimizer */}
-                <script src="https://www.googleoptimize.com/optimize.js?id=OPT-NWGHP4M"></script>
-                {/* End Google optimizer */}
-            </Helmet>
+        {/* Google optimizer */}
+        <script src="https://www.googleoptimize.com/optimize.js?id=OPT-NWGHP4M"></script>
+        {/* End Google optimizer */}
+      </Helmet>
       <Header />
       <CarrerBaner />
       <Career />
       <CareerForm />
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default CareerPage
+export default CareerPage;

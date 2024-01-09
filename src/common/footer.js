@@ -14,9 +14,9 @@ function Footer() {
     });
   };
 
-
   const openGoogleMaps = () => {
-    const address = "Hari complex opp.prozone mall, Sathy Rd, Saravanampatti, Coimbatore, Tamil Nadu 641035";
+    const address =
+      "Hari complex opp.prozone mall, Sathy Rd, Saravanampatti, Coimbatore, Tamil Nadu 641035";
     const encodedAddress = encodeURIComponent(address);
     window.open(`https://www.google.com/maps?q=${encodedAddress}`, "_blank");
   };
@@ -44,10 +44,16 @@ function Footer() {
               <div className="col-lg-3 col-md-4 col-sm-12  nam nam1">
                 <p className="call">
                   <b>CALL FOR SUPPORT</b>
-                </p>  
+                </p>
                 <p className="phone">
-                <a className="head-link-footer" href="tel:+91 9952141444"> +91 99521&nbsp;&nbsp;&nbsp;41444</a><br></br>
-                <a className="head-link-footer" href="tel:+91 9087724444">+91 90877&nbsp;&nbsp;&nbsp;24444</a>
+                  <a className="head-link-footer" href="tel:+91 9952141444">
+                    {" "}
+                    +91 99521&nbsp;&nbsp;&nbsp;41444
+                  </a>
+                  <br></br>
+                  <a className="head-link-footer" href="tel:+91 9087724444">
+                    +91 90877&nbsp;&nbsp;&nbsp;24444
+                  </a>
                 </p>
               </div>
 
@@ -58,9 +64,9 @@ function Footer() {
                 </p>
                 <p className="hari text-muted" onClick={openGoogleMaps}>
                   {" "}
-                  <Link className="cmn-footer text-muted"  to={"/contact"}>
-                  Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                  Coimbatore, Tamil Nadu 641035.
+                  <Link className="cmn-footer text-muted" to={"/contact"}>
+                    Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
+                    Coimbatore, Tamil Nadu 641035.
                   </Link>
                 </p>
               </div>
@@ -68,77 +74,92 @@ function Footer() {
                 <p className="infyy-icon">
                   <b>FOLLOW US </b>
                   <br></br>
-                </p >
+                </p>
                 <div className="infyicon">
                   <a
                     href="https://www.facebook.com/infygain/"
                     target="_blank"
                     className="infyicon infyicon1"
-                    
                   >
-                    <i data-tooltip-id="facebook" className="fa fab fa-facebook"></i>
+                    <i
+                      data-tooltip-id="facebook"
+                      className="fa fab fa-facebook"
+                    ></i>
                   </a>
                   <ReactTooltip
                     id="facebook"
                     place="bottom"
-                    content="Facebook"/>
+                    content="Facebook"
+                  />
                   <a
                     href="https://www.instagram.com/infygain/"
                     target="_blank"
                     className="infyicon infyicon1"
                   >
-                    <i data-tooltip-id="instagram" className="fa fab fa-instagram"></i>
+                    <i
+                      data-tooltip-id="instagram"
+                      className="fa fab fa-instagram"
+                    ></i>
                   </a>
                   <ReactTooltip
                     id="instagram"
                     place="bottom"
-                    content="Instagram"/>
+                    content="Instagram"
+                  />
                   <a
                     href="https://twitter.com/infygain"
                     target="_blank"
                     className="infyicon infyicon1"
                   >
-                    <i data-tooltip-id="twitter" className="fa fab fa-twitter"></i>
+                    <i
+                      data-tooltip-id="twitter"
+                      className="fa fab fa-twitter"
+                    ></i>
                   </a>
-                  <ReactTooltip
-                    id="twitter"
-                    place="bottom"
-                    content="Twitter"/>
+                  <ReactTooltip id="twitter" place="bottom" content="Twitter" />
                   <a
                     href="https://wa.me/919952141444"
                     target="_blank"
                     className="infyicon infyicon1"
                   >
-                    <i data-tooltip-id="whatsapp" className="fa fab fa-whatsapp"></i>
+                    <i
+                      data-tooltip-id="whatsapp"
+                      className="fa fab fa-whatsapp"
+                    ></i>
                   </a>
                   <ReactTooltip
                     id="whatsapp"
                     place="bottom"
-                    content="Whatsapp"/>
-                  
+                    content="Whatsapp"
+                  />
+
                   <a
                     href="https://www.linkedin.com/company/infygain-technologies/"
                     target="_blank"
                     className="infyicon infyicon1"
                   >
-                    <i data-tooltip-id="linkedin" className="fa fab fa-linkedin"></i>
+                    <i
+                      data-tooltip-id="linkedin"
+                      className="fa fab fa-linkedin"
+                    ></i>
                   </a>
                   <ReactTooltip
                     id="linkedin"
                     place="bottom"
-                    content="Linkedin"/>
-                 
+                    content="Linkedin"
+                  />
+
                   <a
                     href="https://www.youtube.com/@infygain6707"
                     target="_blank"
                     className="infyicon infyicon1"
                   >
-                    <i data-tooltip-id="youtube" className="fa fab fa-youtube"></i>
+                    <i
+                      data-tooltip-id="youtube"
+                      className="fa fab fa-youtube"
+                    ></i>
                   </a>
-                  <ReactTooltip
-                    id="youtube"
-                    place="bottom"
-                    content="Youtube"/>
+                  <ReactTooltip id="youtube" place="bottom" content="Youtube" />
                 </div>
               </div>
             </div>
@@ -189,9 +210,9 @@ function Footer() {
                 </ul>
               </div>
               <div className="col-xs-6 col-sm-3">
-              <p className="mini-title three">Address</p>
-            <p className="address" >
-            <a
+                <p className="mini-title three">Address</p>
+                <p className="address">
+                  <a
                     href="#"
                     onClick={() =>
                       openGoogleMaps(
@@ -204,29 +225,45 @@ function Footer() {
                     Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
                     Coimbatore, Tamil Nadu 641035.
                   </a>
-            </p>
+                </p>
                 <hr className="hrline"></hr>
-                <p className="address ph"><a className="link-foot" href="tel:+91 9952141444">+91 &nbsp;99521&nbsp;&nbsp;&nbsp;41444 </a></p>
-                <p className="address ph"><a className="link-foot" href="tel:+91 9087724444">+91 &nbsp;90877&nbsp;&nbsp;&nbsp;24444 </a></p>
-              
-              
-                <a href="mailto:info@infygain.com" className="address" >
+                <p className="address ph">
+                  <a className="link-foot" href="tel:+91 9952141444">
+                    +91 &nbsp;99521&nbsp;&nbsp;&nbsp;41444{" "}
+                  </a>
+                </p>
+                <p className="address ph">
+                  <a className="link-foot" href="tel:+91 9087724444">
+                    +91 &nbsp;90877&nbsp;&nbsp;&nbsp;24444{" "}
+                  </a>
+                </p>
+
+                <a href="mailto:info@infygain.com" className="address">
                   <b>info@infygain.com</b>
                 </a>
               </div>
               <div className="col-xs-6 col-sm-3">
                 <p className="mini-title four">Legal Links</p>
                 <ul className="text-muted legallinks">
-                  <li className="quicklinks"><Link to="/privacypolicy">Privacy Policy</Link></li>
-                  <li className="quicklinks"><Link to="/termspage">Terms and Conditions</Link></li>
-                  <li className="quicklinks"><Link to="/delivery">Delivery and Shipping Policy</Link></li>
-                  <li className="quicklinks"><Link to="/refund">Refund and Cancellation Policy</Link></li>
-                  <li className="quicklinks"><Link to="/quality">Quality Policy</Link></li>
+                  <li className="quicklinks">
+                    <Link to="/privacypolicy">Privacy Policy</Link>
+                  </li>
+                  <li className="quicklinks">
+                    <Link to="/termspage">Terms and Conditions</Link>
+                  </li>
+                  <li className="quicklinks">
+                    <Link to="/delivery">Delivery and Shipping Policy</Link>
+                  </li>
+                  <li className="quicklinks">
+                    <Link to="/refund">Refund and Cancellation Policy</Link>
+                  </li>
+                  <li className="quicklinks">
+                    <Link to="/quality">Quality Policy</Link>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
-
 
           {/* <div className="socialmediaicons">
             <p className="mini-title follow">Follow Us On</p>
@@ -309,7 +346,6 @@ function Footer() {
         <TbArrowBigUpFilled className="topIcon" />
       </div>
     </footer>
-    
   );
 }
 

@@ -1,16 +1,16 @@
-import 'font-awesome/css/font-awesome.css';
-import '../css/contact.css';
+import "font-awesome/css/font-awesome.css";
+import "../css/contact.css";
 
 function CarrerBaner() {
-    return (
-        <>
-        <div className="contact-banner">
-            <div>
-                <p className="main-title">Career</p>
-            </div>
+  return (
+    <>
+      <div className="contact-banner">
+        <div>
+          <p className="main-title">Career</p>
         </div>
-        </>
-        );
-    }
-    
-    export default CarrerBaner;
+      </div>
+    </>
+  );
+}
+
+export default CarrerBaner;

@@ -1,12 +1,8 @@
-import React from 'react'
-import '../css/IotBanner.css'
+import React from "react";
+import "../css/IotBanner.css";
 
 const IotOverlay = () => {
-  return (
-    <div className='help_overlay' >
+  return <div className="help_overlay"></div>;
+};
 
-    </div>
-  )
-}
-
-export default IotOverlay
+export default IotOverlay;

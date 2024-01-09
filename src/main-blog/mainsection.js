@@ -8,19 +8,16 @@ function Mainsection() {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 6;
 
-
   useEffect(() => {
     window.scrollTo({
       top: 0,
       behavior: "smooth",
     });
-  },[currentPage])
-
+  }, [currentPage]);
 
   useEffect(() => {
     axios.get("https://infygain.com/api/blogdata").then((res) => {
-
-  // sorted by date
+      // sorted by date
       const sortedBlogs = res.data.sort((a, b) => {
         const dateA = new Date(a.date);
         const dateB = new Date(b.date);
@@ -64,61 +61,63 @@ function Mainsection() {
     return pages;
   };
 
-
   const indexOfLastItem = currentPage * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
   const currentItems = blogs.slice(indexOfFirstItem, indexOfLastItem);
 
-  const windowSize = FindWindowSize()
+  const windowSize = FindWindowSize();
 
   return (
     <>
       <div className="container main-blogs">
         {/* Blog content... */}
         <div className="row mt-5">
-        {currentItems.map((value) => (
-         
-
-          <div key={value.id} className="col-md-4  blog-one-boxes">
-                  
-          <div className="blogBoxInn ">
-            <div className="blogImgBox">
-            {/* <div className="blogDate">
+          {currentItems.map((value) => (
+            <div key={value.id} className="col-md-4  blog-one-boxes">
+              <div className="blogBoxInn ">
+                <div className="blogImgBox">
+                  {/* <div className="blogDate">
                 13 <br/>
                 May
               </div> */}
-               <Link to={"/blogs/" + value.id}>
-                  <img className="" 
-                  src={`uploads/${value.img}`}
-                  title="blogs"
-                  alt={value.title} />  
-                </Link>
-                
-            </div>
-        
-            <div className="blogContBox blogp">
-              {/* <p className="text-muted">{dateSlice(index)}</p> */}
-              <div className="b-title">
-                <p className="mid-title">{value.title}</p>
-              </div>
-              
-              <div className="b-intro">
-                <p className="mid-title">{windowSize[0] > 1700 ?  value.intro.substring(0, 100) + '...': value.intro.length > 300 ? value.intro.substring(0, 100) + '...': value.intro.substring(0, 150) + '...'   }</p>
-              </div>
-           
-              
-                   <p className="readmoretext">
-                     <Link to={"/blogs/" + value.id}>
-                       <button className="btns">READ MORE</button>
-                     </Link>
-                   </p>
-           
-              {/* Alternatively, you can use React Router's Link component:
+                  <Link to={"/blogs/" + value.id}>
+                    <img
+                      className=""
+                      src={`uploads/${value.img}`}
+                      title="blogs"
+                      alt={value.title}
+                    />
+                  </Link>
+                </div>
+
+                <div className="blogContBox blogp">
+                  {/* <p className="text-muted">{dateSlice(index)}</p> */}
+                  <div className="b-title">
+                    <p className="mid-title">{value.title}</p>
+                  </div>
+
+                  <div className="b-intro">
+                    <p className="mid-title">
+                      {windowSize[0] > 1700
+                        ? value.intro.substring(0, 100) + "..."
+                        : value.intro.length > 300
+                        ? value.intro.substring(0, 100) + "..."
+                        : value.intro.substring(0, 150) + "..."}
+                    </p>
+                  </div>
+
+                  <p className="readmoretext">
+                    <Link to={"/blogs/" + value.id}>
+                      <button className="btns">READ MORE</button>
+                    </Link>
+                  </p>
+
+                  {/* Alternatively, you can use React Router's Link component:
               <Link to={`/blogs/${value.id}`}>READ MORE</Link> */}
+                </div>
+              </div>
             </div>
-          </div>
-          </div>
-        ))}
+          ))}
         </div>
 
         {/* Pagination */}

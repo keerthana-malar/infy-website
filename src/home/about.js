@@ -25,13 +25,13 @@ const HomeAbout = () => {
             <div className="aboutCont">
               <p className="mini-title main-color">ABOUT US</p>
               <p className=" home-about-ttle">
-              We are ISO certified and GEM authorized company
+                We are ISO certified and GEM authorized company
               </p>
               <p className="text-muted  home-baner-con">
-              We predominantly provide IT services in our company 
-              in and around Coimbatore, Our main purpose is to amplify
-               our services to the best with a wide range of product and services. 
-              We help our clients to address their needs and challenges effectively.
+                We predominantly provide IT services in our company in and
+                around Coimbatore, Our main purpose is to amplify our services
+                to the best with a wide range of product and services. We help
+                our clients to address their needs and challenges effectively.
               </p>
               <div className="abtBoxes">
                 <div className="row">
@@ -73,7 +73,7 @@ const HomeAbout = () => {
                   </div>
                 </div>
               </div>
-              
+
               <p className="text-muted home-baner-con-below">
                 We take pride in ourselves being able to cater to the needs of
                 big organizations, institutions, industries and individual

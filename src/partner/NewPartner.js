@@ -14,7 +14,6 @@ import "react-datepicker/dist/react-datepicker.css";
 import { Alert } from "react-bootstrap";
 import { subYears } from "date-fns";
 const NewPartner = () => {
-
   const districtOptions = [
     "Ariyalur",
     "Chengalpattu",
@@ -61,7 +60,6 @@ const NewPartner = () => {
   const [selectedOption2, setSelectedOption2] = useState(null);
 
   const handleRadioChange = (e) => {
-
     setValues((prev) => ({
       ...prev,
       [e.target.name]: e.target.value,
@@ -70,7 +68,6 @@ const NewPartner = () => {
     setSelectedOption(e.target.value);
   };
   const handleRadioChange2 = (e) => {
-
     setValues((prev) => ({
       ...prev,
       [e.target.name]: e.target.value,
@@ -117,7 +114,7 @@ const NewPartner = () => {
     Business: "",
     selfintro: "",
     chooseus: "",
-    Reach: ""
+    Reach: "",
   });
 
   const handleInput = (e) => {
@@ -127,9 +124,8 @@ const NewPartner = () => {
     }));
   };
 
-
   const handleInput1 = (date) => {
-    console.log(date)
+    console.log(date);
     if (date instanceof Date) {
       // Extract day, month, and year components
       const day = date.getDate();
@@ -137,7 +133,9 @@ const NewPartner = () => {
       const year = date.getFullYear();
 
       // Create the desired format ('21-12-2023')
-      const formattedDate = `${day < 10 ? '0' : ''}${day}-${month < 10 ? '0' : ''}${month}-${year}`;
+      const formattedDate = `${day < 10 ? "0" : ""}${day}-${
+        month < 10 ? "0" : ""
+      }${month}-${year}`;
 
       setValues((prev) => ({
         ...prev,
@@ -181,7 +179,7 @@ const NewPartner = () => {
   }, []);
 
   useEffect(() => {
-    setValues(prev => ({
+    setValues((prev) => ({
       ...prev,
       position: "",
       company: "",
@@ -192,19 +190,18 @@ const NewPartner = () => {
     }));
   }, [values.category]);
 
-
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(values)
+    console.log(values);
     axios
       .post("https://infygain.com/api/partner", values)
       .then((res) => {
         var re = document.querySelectorAll(".careerForm");
         re.forEach((r) => {
-          r.reset()
-        })
+          r.reset();
+        });
         setErrors("Submited Successfully 😊😊");
-        setShowMsg(true)
+        setShowMsg(true);
 
         //   setErrors("Blog Added Successfully 😊😊");
         //   setShowMsg(true);
@@ -225,10 +222,10 @@ const NewPartner = () => {
           Business: "",
           selfintro: "",
           chooseus: "",
-          Reach: ""
+          Reach: "",
         });
-        setSelectedOption(null)
-        setSelectedOption1(null)
+        setSelectedOption(null);
+        setSelectedOption1(null);
       })
       .catch((err) => {
         console.log(err);
@@ -435,8 +432,6 @@ const NewPartner = () => {
             >
               apply now &nbsp; <span className="fa fa-arrow-right"></span>
             </Link>
-
-
           </div>
           {msgBox()}
           {/* form modal */}
@@ -487,7 +482,9 @@ const NewPartner = () => {
                 <DatePicker
                   placeholderText="Enter your DOB *"
                   selected={values.dob}
-                  onChange={(date) => handleInput({ target: { name: "dob", value: date } })}
+                  onChange={(date) =>
+                    handleInput({ target: { name: "dob", value: date } })
+                  }
                   dateFormat="dd-MM-yyyy"
                   showYearDropdown
                   showMonthDropdown
@@ -504,7 +501,7 @@ const NewPartner = () => {
                   name="phno"
                   placeholder="Enter your phone number *"
                   onChange={handleInput}
-                  maxLength={10} 
+                  maxLength={10}
                   required
                 />
 
@@ -515,12 +512,13 @@ const NewPartner = () => {
                     {districtOptions.map((district, index) => (
                       <option key={index}>{district}</option>
                     ))}
-
                   </select>
                 </div>
 
                 <div className="form-input">
-                  <h5>Please Select that apply<span className=""> *</span></h5>
+                  <h5>
+                    Please Select that apply<span className=""> *</span>
+                  </h5>
                   <label>
                     <input
                       type="radio"
@@ -553,7 +551,6 @@ const NewPartner = () => {
                         name="position"
                         onChange={handleInput}
                         placeholder="Enter your position"
-
                       />
 
                       {/* Add more relevant questions for work */}
@@ -563,13 +560,11 @@ const NewPartner = () => {
                         name="company"
                         onChange={handleInput}
                         placeholder="Enter your company"
-
                       />
                       <input
                         name="selfintro"
                         onChange={handleInput}
                         placeholder="About your work experience"
-
                       />
                       {/* ... (other relevant questions for work) */}
 
@@ -587,7 +582,6 @@ const NewPartner = () => {
                         name="reasonForLeaving"
                         onChange={handleInput}
                         placeholder="Enter your reason for leaving"
-
                       />
                     </>
                   )}
@@ -600,7 +594,6 @@ const NewPartner = () => {
                         name="businessname"
                         onChange={handleInput}
                         placeholder="Enter your business name"
-
                       />
 
                       {/* Add more relevant questions for business */}
@@ -621,12 +614,14 @@ const NewPartner = () => {
                         name="businessexp"
                         onChange={handleInput}
                         placeholder="Year of business experience"
-
                       />
 
                       {/* <label>Is the Business Still Operating? (Yes or No):</label> */}
                       <label>
-                        <span className="texttform">Is the business still operating?</span>&nbsp;
+                        <span className="texttform">
+                          Is the business still operating?
+                        </span>
+                        &nbsp;
                         <input
                           type="checkbox"
                           name="Business"
@@ -650,11 +645,10 @@ const NewPartner = () => {
                 <div className="form-input">
                   {/* <label>A brief about the candidate <span className='label-star'>*</span></label> */}
                   {/* <label>Comments <span className='label-star'>*</span></label> */}
-
                 </div>
                 <div className="form-input">
                   <select name="Reach" onChange={handleInput}>
-                    <option >How do you know us</option>
+                    <option>How do you know us</option>
 
                     <option value="Social Media">Social Media</option>
                     <option value="Website">Website</option>
@@ -669,7 +663,6 @@ const NewPartner = () => {
                     name="chooseus"
                     onChange={handleInput}
                     placeholder="Why choose us"
-
                   />
                 </div>
 

@@ -11,9 +11,12 @@ const RecentProjects = () => {
               <p className="mini-title main-color">WE MAKE CONNECTIONS</p>
               <p className=" home-about-ttle">Discover Our Recent Projects</p>
               <p className="text-muted mb-5 home-baner-con-below">
-              Explore the innovation and success of our most recent projects.
+                Explore the innovation and success of our most recent projects.
               </p>
-              <Link to="/ServiceSeo?scrollTo=projects" className="btns text-light">
+              <Link
+                to="/ServiceSeo?scrollTo=projects"
+                className="btns text-light"
+              >
                 All Projects &nbsp; <span className="fa fa-arrow-right"></span>{" "}
               </Link>
             </div>
@@ -24,19 +27,22 @@ const RecentProjects = () => {
               <div className="col-md-4 p-5 p-lg-2 p-md-1">
                 <div className="reProBoxInn">
                   <div className="img-box">
-                  <Link to="/ServiceSeo?scrollTo=projects" >
-                    <img
-                      className="img-fluid"
-                      src="/images/seo/trip.webp"
-                      alt="our projects"
-                      title="Projects"
-                    ></img></Link>
+                    <Link to="/ServiceSeo?scrollTo=projects">
+                      <img
+                        className="img-fluid"
+                        src="/images/seo/trip.webp"
+                        alt="our projects"
+                        title="Projects"
+                      ></img>
+                    </Link>
                   </div>
                   <div className="cont-box d-flex justify-content-center align-items-center text-center">
                     <div className="cont-box-inn">
                       <p className="sm-title text-muted m-0 ">DEVELOPMENT</p>
                       <p className="mid-titles m-0">
-                      <Link to="/ServiceSeo?scrollTo=projects" ><span className="links">Travel Website</span></Link>
+                        <Link to="/ServiceSeo?scrollTo=projects">
+                          <span className="links">Travel Website</span>
+                        </Link>
                       </p>
                     </div>
                   </div>
@@ -45,20 +51,22 @@ const RecentProjects = () => {
               <div className="col-md-4 p-5 p-lg-2 p-md-1">
                 <div className="reProBoxInn">
                   <div className="img-box">
-                  <Link to="/ServiceSeo?scrollTo=projects" >
-                    <img
-                      className="img-fluid"
-                      src="/images/seo/seoweb.webp"
-                      alt="our projects"
-                      title="Projects"
-                    ></img>
+                    <Link to="/ServiceSeo?scrollTo=projects">
+                      <img
+                        className="img-fluid"
+                        src="/images/seo/seoweb.webp"
+                        alt="our projects"
+                        title="Projects"
+                      ></img>
                     </Link>
                   </div>
                   <div className="cont-box d-flex justify-content-center align-items-center text-center">
                     <div className="cont-box-inn">
                       <p className="sm-title text-muted m-0">SEO</p>
                       <p className="mid-titles m-0">
-                      <Link to="/ServiceSeo?scrollTo=projects"><span className="links">Digital Marketing</span> </Link>
+                        <Link to="/ServiceSeo?scrollTo=projects">
+                          <span className="links">Digital Marketing</span>{" "}
+                        </Link>
                       </p>
                     </div>
                   </div>
@@ -67,19 +75,22 @@ const RecentProjects = () => {
               <div className="col-md-4 p-5 p-lg-2 p-md-1">
                 <div className="reProBoxInn">
                   <div className="img-box">
-                  <Link to="/ServiceSeo?scrollTo=projects" >
-                    <img
-                      className="img-fluid"
-                      src="/images/seo/bsite.webp"
-                      alt="our projects"
-                      title="Projects"
-                    ></img>   </Link>
+                    <Link to="/ServiceSeo?scrollTo=projects">
+                      <img
+                        className="img-fluid"
+                        src="/images/seo/bsite.webp"
+                        alt="our projects"
+                        title="Projects"
+                      ></img>{" "}
+                    </Link>
                   </div>
                   <div className="cont-box d-flex justify-content-center align-items-center text-center">
                     <div className="cont-box-inn">
                       <p className="sm-title text-muted m-0">DEVELOPMENT</p>
                       <p className="mid-titles m-0">
-                      <Link to="/ServiceSeo?scrollTo=projects" ><span className="links">Ecommerce Website</span> </Link>
+                        <Link to="/ServiceSeo?scrollTo=projects">
+                          <span className="links">Ecommerce Website</span>{" "}
+                        </Link>
                       </p>
                     </div>
                   </div>

@@ -7,12 +7,11 @@ function Enquiry() {
   const [values, setValues] = useState({
     name: "",
     phone: "",
-    email:"",
+    email: "",
     category: "",
     subject: "",
-    message: ""
+    message: "",
   });
-
 
   const [errors, setErrors] = useState("");
   const [show, setShow] = useState(false);
@@ -24,36 +23,33 @@ function Enquiry() {
       [e.target.name]: [e.target.value],
     }));
   };
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
-      axios
-        .post("https://infygain.com/api/contact", values)
-        .then((res) => {
-            if(res.data.info){
-                setValues({
-                    name: "",
-                    phone: "",
-                    email:"",
-                    category: "",
-                    subject: "",
-                    message: ""
-                  });
-                  document.querySelector(".form").reset()
-                  setErrors(res.data.info);
-                  setShowMsg(true);
-            }
-            else{
-                setErrors(res.data.err);
-                setShow(true);
-            }
-          
-        })
-        .catch((err) => {
-          console.log(err);
-        });
+    axios
+      .post("https://infygain.com/api/contact", values)
+      .then((res) => {
+        if (res.data.info) {
+          setValues({
+            name: "",
+            phone: "",
+            email: "",
+            category: "",
+            subject: "",
+            message: "",
+          });
+          document.querySelector(".form").reset();
+          setErrors(res.data.info);
+          setShowMsg(true);
+        } else {
+          setErrors(res.data.err);
+          setShow(true);
+        }
+      })
+      .catch((err) => {
+        console.log(err);
+      });
   };
-  
 
   function alertBox() {
     if (show) {
@@ -80,8 +76,8 @@ function Enquiry() {
           <h5 className="mini-title main-color">CONTACT US</h5>
           <p className="home-about-ttle">We Always Here To Helps You</p>
           <div className="container">
-          {alertBox()}
-          {msgBox()}
+            {alertBox()}
+            {msgBox()}
           </div>
         </div>
         <div className="enqbx-main">
@@ -90,12 +86,21 @@ function Enquiry() {
               <div className="row">
                 <div className="col-lg-5">
                   <div className="shortt-img">
-                    <img className="img-fluid " src="/images/abt.webp" alt="best web services"title="Enquiry from"></img>
+                    <img
+                      className="img-fluid "
+                      src="/images/abt.webp"
+                      alt="best web services"
+                      title="Enquiry from"
+                    ></img>
                   </div>
                 </div>
                 <div className="col-lg-7">
                   <div className="enqbx2">
-                    <form className="form enqformm" method='POST' onSubmit={handleSubmit}>
+                    <form
+                      className="form enqformm"
+                      method="POST"
+                      onSubmit={handleSubmit}
+                    >
                       <div className="row box">
                         <div className="col-lg-6 form-group">
                           <input

@@ -46,9 +46,13 @@ function SubService() {
                 </g>
               </svg>
 
-              <img className="hexIcon" src="/images/icons/cloud.webp" alt="Best Enterprise Solutions" title="Best Enterprise Solutions"></img>
+              <img
+                className="hexIcon"
+                src="/images/icons/cloud.webp"
+                alt="Best Enterprise Solutions"
+                title="Best Enterprise Solutions"
+              ></img>
               <Link to={"/services/laptopanddesktop"}>
-
                 <div
                   className="subServiceCont service1"
                   onMouseOver={() => {
@@ -60,9 +64,9 @@ function SubService() {
                 >
                   <p className="mid-title subser-title">Enterprise Solutions</p>
                   <ul>
-                  <li>Laptop Services</li>
-                  <li>Desktop Services</li>
-                  <li>Server Services</li>
+                    <li>Laptop Services</li>
+                    <li>Desktop Services</li>
+                    <li>Server Services</li>
                   </ul>
                 </div>
               </Link>
@@ -96,10 +100,9 @@ function SubService() {
                 >
                   <p className="mid-title subser-title">Security Solutions</p>
                   <ul>
-
-                  <li>CCTV Services</li>
-                  <li>Biometrics</li>
-                  <li>Firewall</li>
+                    <li>CCTV Services</li>
+                    <li>Biometrics</li>
+                    <li>Firewall</li>
                   </ul>
                 </div>
               </Link>
@@ -115,7 +118,12 @@ function SubService() {
                   </g>
                 </g>
               </svg>
-              <img className="hexIcon" src="/images/iot.webp" alt="best Network Solutions" title="Best Network Solutions"></img>
+              <img
+                className="hexIcon"
+                src="/images/iot.webp"
+                alt="best Network Solutions"
+                title="Best Network Solutions"
+              ></img>
               <Link to={"/services/networking"}>
                 <div
                   className="subServiceCont service3"
@@ -128,10 +136,9 @@ function SubService() {
                 >
                   <p className="mid-title subser-title">Network Solutions</p>
                   <ul>
-
-                  <li>Active</li>
-                  <li>Passive</li>
-                  <li>Wireless</li>
+                    <li>Active</li>
+                    <li>Passive</li>
+                    <li>Wireless</li>
                   </ul>
                 </div>
               </Link>
@@ -147,7 +154,12 @@ function SubService() {
                   </g>
                 </g>
               </svg>
-              <img className="hexIcon" src="/images/audio.webp" alt="best AV Solutions" title="Best AV Solutions"></img>
+              <img
+                className="hexIcon"
+                src="/images/audio.webp"
+                alt="best AV Solutions"
+                title="Best AV Solutions"
+              ></img>
               <Link to={"/services/Projectors"}>
                 <div
                   className="subServiceCont service4"
@@ -160,10 +172,9 @@ function SubService() {
                 >
                   <p className="mid-title subser-title">AV Solutions</p>
                   <ul>
-
-                  <li>Projector</li>
-                  <li>Interactive Panel</li>
-                  <li>Smart TV</li>
+                    <li>Projector</li>
+                    <li>Interactive Panel</li>
+                    <li>Smart TV</li>
                   </ul>
                 </div>
               </Link>
@@ -196,14 +207,13 @@ function SubService() {
                   }}
                 >
                   <p className="mid-title subser-title">Infrastructure</p>
-<ul>
-                  <li>IP PBX</li>
+                  <ul>
+                    <li>IP PBX</li>
 
-                  <li>EPABX</li>
+                    <li>EPABX</li>
 
-                  <li>Wifi Solutions</li>
-  
-</ul>
+                    <li>Wifi Solutions</li>
+                  </ul>
                 </div>
               </Link>
             </div>
@@ -236,10 +246,9 @@ function SubService() {
                 >
                   <p className="mid-title subser-title">Website Development</p>
                   <ul>
-
-                  <li>Static/Dynamic Website</li>
-                  <li>E-commerce Sites</li>
-                  <li>Search Engine Optimization</li>
+                    <li>Static/Dynamic Website</li>
+                    <li>E-commerce Sites</li>
+                    <li>Search Engine Optimization</li>
                   </ul>
                 </div>
               </Link>
@@ -255,7 +264,12 @@ function SubService() {
                   </g>
                 </g>
               </svg>
-              <img className="hexIcon" src="/images/feature.webp" alt="best web application services" title="Best Web Application Services"></img>
+              <img
+                className="hexIcon"
+                src="/images/feature.webp"
+                alt="best web application services"
+                title="Best Web Application Services"
+              ></img>
               <Link to={"/ServiceSeo"}>
                 <div
                   className="subServiceCont service7"
@@ -268,10 +282,9 @@ function SubService() {
                 >
                   <p className="mid-title subser-title">Web Applications</p>
                   <ul>
-
-                  <li>Stand-alone Software</li>
-                  <li>CRM software</li>
-                  <li>ERP Software</li>
+                    <li>Stand-alone Software</li>
+                    <li>CRM software</li>
+                    <li>ERP Software</li>
                   </ul>
                 </div>
               </Link>
@@ -305,10 +318,9 @@ function SubService() {
                 >
                   <p className="mid-title subser-title">ISP Solutions</p>
                   <ul>
-
-                  <li>Broadbrand</li>
-                  <li>SME</li>
-                  <li>ILL</li>
+                    <li>Broadbrand</li>
+                    <li>SME</li>
+                    <li>ILL</li>
                   </ul>
                 </div>
               </Link>

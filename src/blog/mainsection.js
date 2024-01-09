@@ -3,16 +3,15 @@ import "../css/blog.css";
 import "../css/common.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import {  useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 function Mainsection() {
-
   const { id } = useParams();
   const [blogs, setBlogs] = useState({
     id: "",
     date: "",
     title: "",
-    
+
     category: "",
     quote: "",
     metades: "",
@@ -43,10 +42,9 @@ function Mainsection() {
       .catch((err) => {
         console.log(err);
       });
-  }, [id,blogs]);
+  }, [id, blogs]);
   const rawDate = blogs.date;
-    const blogDate = rawDate.slice(0, 10);
-        
+  const blogDate = rawDate.slice(0, 10);
 
   return (
     <>
@@ -55,31 +53,29 @@ function Mainsection() {
           <div className="row">
             <div className="col-md-12 ">
               {/* <button className='btns'>Infygain</button>    <button className='btns blogbutton'>Infygain</button><br></br><br></br> */}
-              
+
               <div className="image1">
-                <img className="" 
-                src={"../uploads/"+ blogs.img}
-                alt="blogs"
-                title={blogs.title}
-                >
-                </img>
+                <img
+                  className=""
+                  src={"../uploads/" + blogs.img}
+                  alt="blogs"
+                  title={blogs.title}
+                ></img>
               </div>
-              <p className="sub-title">
-                {blogs.title}
-              </p>
+              <p className="sub-title">{blogs.title}</p>
               <time className="text-muted entry-date published">
-                <i className="fa-solid fa-calendar-days"></i>{blogDate}
+                <i className="fa-solid fa-calendar-days"></i>
+                {blogDate}
               </time>
               <br></br>
-              <div dangerouslySetInnerHTML={{__html:blogs.content}} className="text-muted blog-content">
-                
-              </div>
+              <div
+                dangerouslySetInnerHTML={{ __html: blogs.content }}
+                className="text-muted blog-content"
+              ></div>
               <div className="reviewsection">
                 <i class="fa fa-solid fa-quote-left"></i>
                 <p className="review">
-                  <b>
-                    {blogs.quote}
-                  </b>
+                  <b>{blogs.quote}</b>
                   <br></br>
                 </p>
               </div>

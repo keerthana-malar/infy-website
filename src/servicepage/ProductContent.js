@@ -1,117 +1,134 @@
-import React from 'react'
-import { FaCartPlus } from 'react-icons/fa'
+import React from "react";
+import { FaCartPlus } from "react-icons/fa";
 
-const ProductContent = ({value}) => {
-   
+const ProductContent = ({ value }) => {
   return (
-    <div  id='column1' className='col-md-8' key={value.name}>
-    <div className='firstlineflex'>
-        <div className='yellowbreak'></div>
-        <div className='firstheading'>
-            <h1>
-             {value.name}
-            </h1>
+    <div id="column1" className="col-md-8" key={value.name}>
+      <div className="firstlineflex">
+        <div className="yellowbreak"></div>
+        <div className="firstheading">
+          <h1>{value.name}</h1>
         </div>
-    </div>
-    <div className='row paraoutdoor'>
-        <div className='col-md-4 col-sm-12'>
-                <img src={value.img} alt={value.name} title={value.name}/>    
+      </div>
+      <div className="row paraoutdoor">
+        <div className="col-md-4 col-sm-12">
+          <img src={value.img} alt={value.name} title={value.name} />
         </div>
-        
-        <div  className='col-md-8 col-sm-12'>
-         <p className='text-muted firstparavalue'>
 
+        <div className="col-md-8 col-sm-12">
+          <p className="text-muted firstparavalue">
             {value.para}
-            <div className='butk'>
-                {/* To Check Our product  */}
-                <a target='_blank' href={value.link}>
-                    <button className='btn butks'>
-                    <FaCartPlus className='butk-icons'/> buy now 
+            <div className="butk">
+              {/* To Check Our product  */}
+              <a target="_blank" href={value.link}>
+                <button className="btn butks">
+                  <FaCartPlus className="butk-icons" /> buy now
                 </button>
-                </a>
-               </div>
-            </p> 
-            
-
-        </div>
-    </div>
-    
-
-    <div className='downsession'>
-
-        <div className='downparasession'>
-            <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
-            <span className='clinicpara'>
-               <p>{value.p1}</p>
-
-              
-
-                </span>
+              </a>
             </div>
-            {/* 2 point */}
-        <div className='downparasession'>
-        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
-            <span className='clinicpara'>
-               <p> {value.p2}</p>
+          </p>
+        </div>
+      </div>
 
-               
-                </span>
+      <div className="downsession">
+        <div className="downparasession">
+          <img
+            src="/images/download.svg"
+            alt={`${value.name} services`}
+            className="image-fluid iconroller"
+            title={`${value.name} services`}
+          />
+          <span className="clinicpara">
+            <p>{value.p1}</p>
+          </span>
+        </div>
+        {/* 2 point */}
+        <div className="downparasession">
+          <img
+            src="/images/download.svg"
+            alt={`${value.name} services`}
+            className="image-fluid iconroller"
+            title={`${value.name} services`}
+          />
+          <span className="clinicpara">
+            <p> {value.p2}</p>
+          </span>
         </div>
         {/* 3 point */}
-        <div className='downparasession'>
-        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
-            <span className='clinicpara'>
-               <p>{value.p3}</p>
-                
-                
-                
-                </span>
+        <div className="downparasession">
+          <img
+            src="/images/download.svg"
+            alt={`${value.name} services`}
+            className="image-fluid iconroller"
+            title={`${value.name} services`}
+          />
+          <span className="clinicpara">
+            <p>{value.p3}</p>
+          </span>
         </div>
         {/*  4 points */}
-        <div className='downparasession'>
-        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
-            <span className='clinicpara'>
+        <div className="downparasession">
+          <img
+            src="/images/download.svg"
+            alt={`${value.name} services`}
+            className="image-fluid iconroller"
+            title={`${value.name} services`}
+          />
+          <span className="clinicpara">
             <p>{value.p4}</p>
-                
-            </span >
+          </span>
         </div>
         {/* 5 points */}
-        <div className='downparasession'>
-        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
-            <span className='clinicpara'>
-             <p>{value.p5}</p>
-               
-                </span>
+        <div className="downparasession">
+          <img
+            src="/images/download.svg"
+            alt={`${value.name} services`}
+            className="image-fluid iconroller"
+            title={`${value.name} services`}
+          />
+          <span className="clinicpara">
+            <p>{value.p5}</p>
+          </span>
         </div>
         {/*  6 points  */}
-        <div className='downparasession'>
-        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
-            <span className='clinicpara'>
-           <p>{value.p6}</p>
-                </span>
+        <div className="downparasession">
+          <img
+            src="/images/download.svg"
+            alt={`${value.name} services`}
+            className="image-fluid iconroller"
+            title={`${value.name} services`}
+          />
+          <span className="clinicpara">
+            <p>{value.p6}</p>
+          </span>
         </div>
         {/* 7 points */}
-        <div className='downparasession'>
-        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
-            <span className='clinicpara'>
-             <p>{value.p7}</p>
-            </span>
+        <div className="downparasession">
+          <img
+            src="/images/download.svg"
+            alt={`${value.name} services`}
+            className="image-fluid iconroller"
+            title={`${value.name} services`}
+          />
+          <span className="clinicpara">
+            <p>{value.p7}</p>
+          </span>
         </div>
         {/*  8 points  */}
-        <div className='downparasession'>
-        <img src="/images/download.svg" alt={`${value.name} services`} className='image-fluid iconroller' title={`${value.name} services`}/>
-            <span className='clinicpara'>
-           <p>{value.p8}</p>
-                
-              
-                
-                </span>
+        <div className="downparasession">
+          <img
+            src="/images/download.svg"
+            alt={`${value.name} services`}
+            className="image-fluid iconroller"
+            title={`${value.name} services`}
+          />
+          <span className="clinicpara">
+            <p>{value.p8}</p>
+          </span>
         </div>
-       
-     
+      </div>
     </div>
-    </div>
-  )
-}
+  );
+};
 
-export default ProductContent
+export default ProductContent;

@@ -77,7 +77,10 @@ function about() {
                 </div>
               </div>
               <div className="authorize">
-              <p className="home-tit">We Trusted ISO Certified and GEM Authorized Partner for Success</p>
+                <p className="home-tit">
+                  We Trusted ISO Certified and GEM Authorized Partner for
+                  Success
+                </p>
                 <div className="row">
                   <div className="col-12">
                     <img

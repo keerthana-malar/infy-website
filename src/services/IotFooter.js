@@ -1,6 +1,6 @@
 import React from "react";
 import "font-awesome/css/font-awesome.css";
-import '../css/IotFooter.css'
+import "../css/IotFooter.css";
 import { Link } from "react-router-dom";
 import { TbArrowBigUpFilled } from "react-icons/tb";
 
@@ -14,7 +14,8 @@ function IotFooter() {
     });
   };
   const openGoogleMaps = () => {
-    const address = "Hari complex opp.prozone mall, Sathy Rd, Saravanampatti, Coimbatore, Tamil Nadu 641035";
+    const address =
+      "Hari complex opp.prozone mall, Sathy Rd, Saravanampatti, Coimbatore, Tamil Nadu 641035";
     const encodedAddress = encodeURIComponent(address);
     window.open(`https://www.google.com/maps?q=${encodedAddress}`, "_blank");
   };
@@ -29,7 +30,8 @@ function IotFooter() {
                   <img
                     className="img-fluid"
                     src="/images/others/logo-alt.svg"
-                    alt="best it services"title="Infygain logo"
+                    alt="best it services"
+                    title="Infygain logo"
                   ></img>
                 </p>
               </div>
@@ -37,10 +39,16 @@ function IotFooter() {
                 <p className="iot-call">
                   <b>CALL FOR SUPPORT</b>
                 </p>
-        
+
                 <p className="iot-phone">
-                <a  href="tel:+91 9952141444"> +91 99521&nbsp;&nbsp;&nbsp;41444</a><br></br>
-                <a  href="tel:+91 9952141444">+91 90877&nbsp;&nbsp;&nbsp;24444</a>
+                  <a href="tel:+91 9952141444">
+                    {" "}
+                    +91 99521&nbsp;&nbsp;&nbsp;41444
+                  </a>
+                  <br></br>
+                  <a href="tel:+91 9952141444">
+                    +91 90877&nbsp;&nbsp;&nbsp;24444
+                  </a>
                 </p>
               </div>
 
@@ -49,22 +57,22 @@ function IotFooter() {
                   <b>ADDRESS</b>
                   <br></br>
                 </p>
-                <p className="iot-hari text-muted" >
-              
-                  <p className="iot-addr text-muted" >
-                  <a
-                    className="text-muted"
-                    href="#"
-                    onClick={() =>
-                      openGoogleMaps(
-                        "Hari complex opp.prozone mall, Sathy Rd, Saravanampatti, Coimbatore, Tamil Nadu 641035"
-                      )
-                    }
-                    style={{ color: "black" }}
-                  >
-                    Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                    Coimbatore, Tamil Nadu 641035.
-                  </a></p>
+                <p className="iot-hari text-muted">
+                  <p className="iot-addr text-muted">
+                    <a
+                      className="text-muted"
+                      href="#"
+                      onClick={() =>
+                        openGoogleMaps(
+                          "Hari complex opp.prozone mall, Sathy Rd, Saravanampatti, Coimbatore, Tamil Nadu 641035"
+                        )
+                      }
+                      style={{ color: "black" }}
+                    >
+                      Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
+                      Coimbatore, Tamil Nadu 641035.
+                    </a>
+                  </p>
                 </p>
               </div>
               <div className="col-lg-3 col-md-4 col-sm-12  iot-nam-icon">
@@ -74,72 +82,102 @@ function IotFooter() {
                 </p>
                 <div className="iot-infyicon">
                   <a
-                    target="_blank"  rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.facebook.com/infygain/"
                     className="iot-infyicon iot-infyicon1"
                   >
-                    <i data-tooltip-id="my-tooltip-11" className="fa fab fa-facebook"></i>
+                    <i
+                      data-tooltip-id="my-tooltip-11"
+                      className="fa fab fa-facebook"
+                    ></i>
                   </a>
-                      <ReactTooltip
+                  <ReactTooltip
                     id="my-tooltip-11"
                     place="bottom"
-                    content="Facebook"/>
+                    content="Facebook"
+                  />
                   <a
-                    target="_blank"  rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://wa.me/919952141444"
                     className="iot-infyicon iot-infyicon1"
                   >
-                    <i data-tooltip-id="my-tooltip-12" className="fa fab fa-whatsapp"></i>
+                    <i
+                      data-tooltip-id="my-tooltip-12"
+                      className="fa fab fa-whatsapp"
+                    ></i>
                   </a>
                   <ReactTooltip
                     id="my-tooltip-12"
                     place="bottom"
-                    content="Whatsapp"/>
+                    content="Whatsapp"
+                  />
                   <a
-                    target="_blank"  rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.linkedin.com/company/infygain-technologies/"
                     className="iot-infyicon iot-infyicon1"
                   >
-                    <i data-tooltip-id="my-tooltip-13" className="fa fab fa-linkedin"></i>
+                    <i
+                      data-tooltip-id="my-tooltip-13"
+                      className="fa fab fa-linkedin"
+                    ></i>
                   </a>
                   <ReactTooltip
                     id="my-tooltip-13"
                     place="bottom"
-                    content="Linkedin"/>
+                    content="Linkedin"
+                  />
                   <a
-                    target="_blank"  rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.instagram.com/infygain/"
                     className="iot-infyicon iot-infyicon1"
                   >
-                    <i data-tooltip-id="my-tooltip-14" className="fa fab fa-instagram"></i>
+                    <i
+                      data-tooltip-id="my-tooltip-14"
+                      className="fa fab fa-instagram"
+                    ></i>
                   </a>
                   <ReactTooltip
                     id="my-tooltip-14"
                     place="bottom"
-                    content="Instagram"/>
-                 
+                    content="Instagram"
+                  />
+
                   <a
-                    target="_blank"  rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://twitter.com/infygain"
                     className="iot-infyicon iot-infyicon1"
                   >
-                    <i data-tooltip-id="my-tooltip-15" className="fa fab fa-twitter"></i>
+                    <i
+                      data-tooltip-id="my-tooltip-15"
+                      className="fa fab fa-twitter"
+                    ></i>
                   </a>
                   <ReactTooltip
                     id="my-tooltip-15"
                     place="bottom"
-                    content="Twitter"/>
+                    content="Twitter"
+                  />
                   <a
-                    target="_blank"  rel="noopener noreferrer"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.youtube.com/@infygain6707"
                     className="iot-infyicon iot-infyicon1"
                   >
-                    <i data-tooltip-id="my-tooltip-16" className="fa fab fa-youtube"></i>
+                    <i
+                      data-tooltip-id="my-tooltip-16"
+                      className="fa fab fa-youtube"
+                    ></i>
                   </a>
                   <ReactTooltip
                     id="my-tooltip-16"
                     place="bottom"
-                    content="Youtube"/>
+                    content="Youtube"
+                  />
                 </div>
               </div>
             </div>
@@ -180,7 +218,8 @@ function IotFooter() {
                   <li>
                     {" "}
                     <Link
-                      target="_blank"  rel="noopener noreferrer"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       to="https://infygain.com/onlinestore/"
                     >
                       Online Store
@@ -192,42 +231,63 @@ function IotFooter() {
               <div className="col-xs-6 col-sm-3">
                 <p className="iot-mini-title iot-three">Address</p>
                 <p className="iot-address">
-                <p className="cmn-footer text-muted">
-                <a
-                    href="#"
-                    onClick={() =>
-                      openGoogleMaps(
-                        "Hari complex opp.prozone mall, Sathy Rd, Saravanampatti, Coimbatore, Tamil Nadu 641035"
-                      )
-                    }
-                    style={{ color: "white" }}
-                  >
-                    Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                    Coimbatore, Tamil Nadu 641035.
-                  </a></p>
+                  <p className="cmn-footer text-muted">
+                    <a
+                      href="#"
+                      onClick={() =>
+                        openGoogleMaps(
+                          "Hari complex opp.prozone mall, Sathy Rd, Saravanampatti, Coimbatore, Tamil Nadu 641035"
+                        )
+                      }
+                      style={{ color: "white" }}
+                    >
+                      Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
+                      Coimbatore, Tamil Nadu 641035.
+                    </a>
+                  </p>
                 </p>
                 <hr className="iot-hrline"></hr>
-                <p className="iot-address iot-ph"> <a className="link-foot" href="tel:+91 9952141444">+91 &nbsp;99521&nbsp;&nbsp;&nbsp;41444</a></p>
-                <p className="iot-address iot-ph"> <a className="link-foot" href="tel:+91 9087724444">+91 &nbsp;90877&nbsp;&nbsp;&nbsp;24444</a></p>
+                <p className="iot-address iot-ph">
+                  {" "}
+                  <a className="link-foot" href="tel:+91 9952141444">
+                    +91 &nbsp;99521&nbsp;&nbsp;&nbsp;41444
+                  </a>
+                </p>
+                <p className="iot-address iot-ph">
+                  {" "}
+                  <a className="link-foot" href="tel:+91 9087724444">
+                    +91 &nbsp;90877&nbsp;&nbsp;&nbsp;24444
+                  </a>
+                </p>
                 <p className="iot-address">
-                <a className="link-foot" href="mailto:info@infygain.com">
-                info@infygain.com</a>
+                  <a className="link-foot" href="mailto:info@infygain.com">
+                    info@infygain.com
+                  </a>
                   {/* <b>info@infygain.com</b> */}
                 </p>
               </div>
               <div className="col-xs-6 col-sm-3">
                 <p className="iot-mini-title iot-four">Legal Links</p>
                 <ul className="text-muted iot-legallinks">
-                  <li><Link to="/privacypolicy">Privacy Policy</Link></li>
-                  <li><Link to="/termspage">Terms and Conditions</Link></li>
-                  <li><Link to="/delivery">Delivery and Shipping Policy</Link></li>
-                  <li><Link to="/refund">Refund and Cancellation Policy</Link></li>
-                  <li><Link to="/quality">Quality Policy</Link></li>
+                  <li>
+                    <Link to="/privacypolicy">Privacy Policy</Link>
+                  </li>
+                  <li>
+                    <Link to="/termspage">Terms and Conditions</Link>
+                  </li>
+                  <li>
+                    <Link to="/delivery">Delivery and Shipping Policy</Link>
+                  </li>
+                  <li>
+                    <Link to="/refund">Refund and Cancellation Policy</Link>
+                  </li>
+                  <li>
+                    <Link to="/quality">Quality Policy</Link>
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
-
 
           {/* <div className="socialmediaicons">
             <p className="mini-title follow">Follow Us On</p>

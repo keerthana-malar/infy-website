@@ -1,5 +1,5 @@
-import Banner from './blog/banner';
-import  Mainsection from './blog/mainsection';
+import Banner from "./blog/banner";
+import Mainsection from "./blog/mainsection";
 import "font-awesome/css/font-awesome.css";
 import "./css/footer.css";
 import { TbArrowBigUpFilled } from "react-icons/tb";
@@ -7,60 +7,65 @@ import { TbArrowBigUpFilled } from "react-icons/tb";
 import { Tooltip as ReactTooltip } from "react-tooltip";
 
 import {
-    FaRegClock,
-    FaLocationDot,
-    FaCartPlus,
-    FaPhone
-  } from "react-icons/fa6";
-  import { IoMdArrowDropdown } from "react-icons/io";
-  import { LiaFacebookF, LiaInstagram, LiaLinkedinIn, LiaWhatsapp, LiaYoutube, LiaTwitter } from "react-icons/lia";
-  import React from "react";
-  import { HiOutlineMail } from "react-icons/hi";
-  import "./css/header.css";
-  import { HiMenuAlt1 } from "react-icons/hi";
-  import { Link } from "react-router-dom";
-  import Fixedline from './services/Fixedline';
-import { MdOutlinePhone } from 'react-icons/md';
-  
+  FaRegClock,
+  FaLocationDot,
+  FaCartPlus,
+  FaPhone,
+} from "react-icons/fa6";
+import { IoMdArrowDropdown } from "react-icons/io";
+import {
+  LiaFacebookF,
+  LiaInstagram,
+  LiaLinkedinIn,
+  LiaWhatsapp,
+  LiaYoutube,
+  LiaTwitter,
+} from "react-icons/lia";
+import React from "react";
+import { HiOutlineMail } from "react-icons/hi";
+import "./css/header.css";
+import { HiMenuAlt1 } from "react-icons/hi";
+import { Link } from "react-router-dom";
+import Fixedline from "./services/Fixedline";
+import { MdOutlinePhone } from "react-icons/md";
 
-function Blogs(){
-    const scrollToTop = () => {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
-        });
-      };
+function Blogs() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
-      function DropdownMenu() {
-        let dropBox = document.querySelector(".menu-box-drop");
-    
-        if (dropBox.classList.contains("drop-show")) {
-          dropBox.classList.remove("drop-show");
-        } else {
-          dropBox.classList.add("drop-show");
-        }
-      }
-     function DropdownMenuSub(e){
-      let eve = e.target.style.display;
-      if(eve === "block"){
-          eve="none";
-      }
-      else{eve = "block" }
-     }
-    
+  function DropdownMenu() {
+    let dropBox = document.querySelector(".menu-box-drop");
 
-    return(
-        <>
- 
-        {/* Header */}
-        <section>
+    if (dropBox.classList.contains("drop-show")) {
+      dropBox.classList.remove("drop-show");
+    } else {
+      dropBox.classList.add("drop-show");
+    }
+  }
+  function DropdownMenuSub(e) {
+    let eve = e.target.style.display;
+    if (eve === "block") {
+      eve = "none";
+    } else {
+      eve = "block";
+    }
+  }
+
+  return (
+    <>
+      {/* Header */}
+      <section>
         {/* Top head section */}
         <div className="top-head  d-none d-md-block">
-          <div className="row"> 
+          <div className="row">
             <div className="d-none d-md-block col-md-6 col-lg-3">
               <p>
-              <a className="head-link" href="tel:+91 9952141444">
-              <MdOutlinePhone   />
+                <a className="head-link" href="tel:+91 9952141444">
+                  <MdOutlinePhone />
                   &nbsp;&nbsp;&nbsp;&nbsp; +91 99521 41444
                 </a>{" "}
               </p>
@@ -84,31 +89,33 @@ function Blogs(){
               </div>
             </div>
             <div className="d-none d-md-block col-md-3 col-lg-3">
-            <div className="socialicons">
+              <div className="socialicons">
                 <a
                   className="head-link sm"
                   href="https://www.facebook.com/infygain/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <LiaFacebookF data-tooltip-id="my-tooltip-4"/>
+                  <LiaFacebookF data-tooltip-id="my-tooltip-4" />
                 </a>
                 <ReactTooltip
-                 id="my-tooltip-4"
-                 place="bottom"
-                 content="Facebook"/>
+                  id="my-tooltip-4"
+                  place="bottom"
+                  content="Facebook"
+                />
                 <a
                   className="head-link sm"
                   href="https://www.instagram.com/infygain/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <LiaInstagram  data-tooltip-id="my-tooltip-5"/>
+                  <LiaInstagram data-tooltip-id="my-tooltip-5" />
                 </a>
                 <ReactTooltip
-                 id="my-tooltip-5"
-                 place="bottom"
-                 content="Instagram"/>
+                  id="my-tooltip-5"
+                  place="bottom"
+                  content="Instagram"
+                />
                 <a
                   className="head-link sm"
                   href="https://twitter.com/infygain"
@@ -118,46 +125,50 @@ function Blogs(){
                   <LiaTwitter data-tooltip-id="my-tooltip-6" />
                 </a>
                 <ReactTooltip
-                 id="my-tooltip-6"
-                 place="bottom"
-                 content="Twitter"/>
-         
+                  id="my-tooltip-6"
+                  place="bottom"
+                  content="Twitter"
+                />
+
                 <a
                   className="head-link sm"
                   href="https://api.whatsapp.com/send/?phone=919952141444&text&type=phone_number&app_absent=0"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <LiaWhatsapp data-tooltip-id="my-tooltip-7"/>
+                  <LiaWhatsapp data-tooltip-id="my-tooltip-7" />
                 </a>
                 <ReactTooltip
-                 id="my-tooltip-7"
-                 place="bottom"
-                 content="Whatsapp"/>
+                  id="my-tooltip-7"
+                  place="bottom"
+                  content="Whatsapp"
+                />
                 <a
                   className="head-link sm"
                   href="https://www.linkedin.com/company/infygain-technologies/"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <LiaLinkedinIn data-tooltip-id="my-tooltip-8"/>
+                  <LiaLinkedinIn data-tooltip-id="my-tooltip-8" />
                 </a>
                 <ReactTooltip
-                 id="my-tooltip-8"
-                 place="bottom"
-                 content="LinkedinIn"/>
+                  id="my-tooltip-8"
+                  place="bottom"
+                  content="LinkedinIn"
+                />
                 <a
                   className="head-link sm"
                   href="https://www.youtube.com/@infygain6707"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
-                  <LiaYoutube data-tooltip-id="my-tooltip-9"/>
+                  <LiaYoutube data-tooltip-id="my-tooltip-9" />
                 </a>
                 <ReactTooltip
-                 id="my-tooltip-9"
-                 place="bottom"
-                 content="Youtube"/>
+                  id="my-tooltip-9"
+                  place="bottom"
+                  content="Youtube"
+                />
               </div>
             </div>
           </div>
@@ -186,24 +197,24 @@ function Blogs(){
               </li>
               <li className="sub">
                 <Link className="mlink">
-                  Services <IoMdArrowDropdown/>
+                  Services <IoMdArrowDropdown />
                 </Link>
                 <div className="submenu">
-                    <li>
-                      <Link className="mlink" to="/Iotservice">
-                        IT Supports
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="mlink" to="/ispservice">
-                        ISP Services
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="mlink" to="/ServiceSeo">
-                        Web Services
-                      </Link>
-                    </li>
+                  <li>
+                    <Link className="mlink" to="/Iotservice">
+                      IT Supports
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="mlink" to="/ispservice">
+                      ISP Services
+                    </Link>
+                  </li>
+                  <li>
+                    <Link className="mlink" to="/ServiceSeo">
+                      Web Services
+                    </Link>
+                  </li>
                 </div>
               </li>
               <li>
@@ -248,11 +259,16 @@ function Blogs(){
                   Get a quote &nbsp;&nbsp;<i className="fa fa-arrow-right"></i>
                 </button>
               </a>
-              <a className="head-links" target="_blank"  rel="noopener noreferrer" href="https://infygain.com/onlinestore/">
-                <FaCartPlus/>
+              <a
+                className="head-links"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://infygain.com/onlinestore/"
+              >
+                <FaCartPlus />
               </a>
             </div>
-          
+
             <div className="dropDownMenu">
               <HiMenuAlt1 role="button" onClick={() => DropdownMenu()} />
             </div>
@@ -272,27 +288,27 @@ function Blogs(){
           </Link>
         </li>
         <li className="sub">
-                <Link className="mlink " onClick={DropdownMenuSub}>
-                  Services <IoMdArrowDropdown/>
-                </Link>
-                <div className="submenu">
-                    <li>
-                      <Link className="mlink" to="/Iotservice">
-                        IT Supports
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="mlink" to="/ispservice">
-                        ISP Services
-                      </Link>
-                    </li>
-                    <li>
-                      <Link className="mlink" to="/ServiceSeo">
-                        Web Services
-                      </Link>
-                    </li>
-                </div>
-              </li>
+          <Link className="mlink " onClick={DropdownMenuSub}>
+            Services <IoMdArrowDropdown />
+          </Link>
+          <div className="submenu">
+            <li>
+              <Link className="mlink" to="/Iotservice">
+                IT Supports
+              </Link>
+            </li>
+            <li>
+              <Link className="mlink" to="/ispservice">
+                ISP Services
+              </Link>
+            </li>
+            <li>
+              <Link className="mlink" to="/ServiceSeo">
+                Web Services
+              </Link>
+            </li>
+          </div>
+        </li>
         <li>
           <Link className="mlink" to="/blogs">
             Blog
@@ -300,7 +316,7 @@ function Blogs(){
         </li>
         <li>
           <Link className="mlink" to="/career">
-          Career
+            Career
           </Link>
         </li>
         <li>
@@ -313,16 +329,16 @@ function Blogs(){
             Contact
           </Link>
         </li>
-        <Fixedline/>
+        <Fixedline />
       </div>
 
       {/* End Header */}
 
-        <Banner/>
-        <Mainsection/>
+      <Banner />
+      <Mainsection />
 
-        {/* Enquiry */}
-        <div className="mainenqbx">
+      {/* Enquiry */}
+      <div className="mainenqbx">
         <div className="enqbx-head">
           <h5 className="mini-title main-color">CONTACT US</h5>
           <p className="home-about-ttle">We Always Here To Helps You</p>
@@ -333,7 +349,11 @@ function Blogs(){
               <div className="row">
                 <div className="col-lg-5">
                   <div className="shortt-img">
-                    <img className="img-fluid " src="../images/abt.webp" alt='best web services'></img>
+                    <img
+                      className="img-fluid "
+                      src="../images/abt.webp"
+                      alt="best web services"
+                    ></img>
                   </div>
                 </div>
                 <div className="col-lg-7">
@@ -433,205 +453,254 @@ function Blogs(){
       </div>
       <div className="maineqem"></div>
 
-        {/* Footer */}
-        <footer>
-      <div className="mainfooter">
-        <div className="container">
-          <div className="small-box">
-            <div className="row small">
-              <div className="col-lg-3  name">
-                <p className="infy">
-                  <img
-                    className="img-fluid"
-                    src="../images/others/logo-alt.svg"
-                    alt="best it supports"
-                  ></img>
-                </p>
-              </div>
-              <div className="col-lg-3 col-md-4 col-sm-12  nam nam1">
-                <p className="call">
-                  <b>CALL FOR SUPPORT</b>
-                </p>
-                <p className="phone">
-                <a className="head-link-footer" href="tel:+91 9952141444">+91 99521 41444</a><br></br>
-                <a className="head-link-footer" href="tel:+91 9952141444">+91 9087724444</a>
-                </p>
-              </div>
+      {/* Footer */}
+      <footer>
+        <div className="mainfooter">
+          <div className="container">
+            <div className="small-box">
+              <div className="row small">
+                <div className="col-lg-3  name">
+                  <p className="infy">
+                    <img
+                      className="img-fluid"
+                      src="../images/others/logo-alt.svg"
+                      alt="best it supports"
+                    ></img>
+                  </p>
+                </div>
+                <div className="col-lg-3 col-md-4 col-sm-12  nam nam1">
+                  <p className="call">
+                    <b>CALL FOR SUPPORT</b>
+                  </p>
+                  <p className="phone">
+                    <a className="head-link-footer" href="tel:+91 9952141444">
+                      +91 99521 41444
+                    </a>
+                    <br></br>
+                    <a className="head-link-footer" href="tel:+91 9952141444">
+                      +91 9087724444
+                    </a>
+                  </p>
+                </div>
 
-              <div className="col-lg-3 col-md-4 col-sm-12 nam">
-                <p className="infyy">
-                  <b>ADDRESS</b>
-                  <br></br>
-                </p>
-                <p className="hari text-muted">
-                  {" "}
-                  <Link className="cmn-footer text-muted"  to={"/contact"}>
-                  Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                  Coimbatore, Tamil Nadu 641035</Link>
-                </p>
-              </div>
-              <div className="col-lg-3 col-md-4 col-sm-12  nam-icon">
-                <p className="infyy-icon">
-                  <b>FOLLOW US </b>
-                  <br></br>
-                </p >
-                <div className="infyicon">
-                  <a
-                    href="https://www.facebook.com/infygain/"
-                    target="_blank"
-                    className="infyicon infyicon1"
-                    rel="noreferrer noopener"
-                  >
-                    <i data-tooltip-id="facebook" className="fa fab fa-facebook"></i>
-                  </a>
-                  <ReactTooltip
-                    id="facebook"
-                    place="bottom"
-                    content="Facebook"/>
-                  <a
-                    href="https://www.instagram.com/infygain/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="infyicon infyicon1"
-                  >
-                    <i data-tooltip-id="instagram" className="fa fab fa-instagram"></i>
-                  </a>
-                  <ReactTooltip
-                    id="instagram"
-                    place="bottom"
-                    content="Instagram"/>
-                  <a
-                    href="https://twitter.com/infygain"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="infyicon infyicon1"
-                  >
-                    <i data-tooltip-id="twitter" className="fa fab fa-twitter"></i>
-                  </a>
-                  <ReactTooltip
-                    id="twitter"
-                    place="bottom"
-                    content="Twitter"/>
-                  <a
-                    href="https://wa.me/919952141444"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="infyicon infyicon1"
-                  >
-                    <i data-tooltip-id="whatsapp" className="fa fab fa-whatsapp"></i>
-                  </a>
-                  <ReactTooltip
-                    id="whatsapp"
-                    place="bottom"
-                    content="Whatsapp"/>
-                  
-                  <a
-                    href="https://www.linkedin.com/company/infygain-technologies/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="infyicon infyicon1"
-                  >
-                    <i data-tooltip-id="linkedin" className="fa fab fa-linkedin"></i>
-                  </a>
-                  <ReactTooltip
-                    id="linkedin"
-                    place="bottom"
-                    content="Linkedin"/>
-                 
-                  <a
-                    href="https://www.youtube.com/@infygain6707"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="infyicon infyicon1"
-                  >
-                    <i data-tooltip-id="youtube" className="fa fab fa-youtube"></i>
-                  </a>
-                  <ReactTooltip
-                    id="youtube"
-                    place="bottom"
-                    content="Youtube"/>
+                <div className="col-lg-3 col-md-4 col-sm-12 nam">
+                  <p className="infyy">
+                    <b>ADDRESS</b>
+                    <br></br>
+                  </p>
+                  <p className="hari text-muted">
+                    {" "}
+                    <Link className="cmn-footer text-muted" to={"/contact"}>
+                      Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
+                      Coimbatore, Tamil Nadu 641035
+                    </Link>
+                  </p>
+                </div>
+                <div className="col-lg-3 col-md-4 col-sm-12  nam-icon">
+                  <p className="infyy-icon">
+                    <b>FOLLOW US </b>
+                    <br></br>
+                  </p>
+                  <div className="infyicon">
+                    <a
+                      href="https://www.facebook.com/infygain/"
+                      target="_blank"
+                      className="infyicon infyicon1"
+                      rel="noreferrer noopener"
+                    >
+                      <i
+                        data-tooltip-id="facebook"
+                        className="fa fab fa-facebook"
+                      ></i>
+                    </a>
+                    <ReactTooltip
+                      id="facebook"
+                      place="bottom"
+                      content="Facebook"
+                    />
+                    <a
+                      href="https://www.instagram.com/infygain/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="infyicon infyicon1"
+                    >
+                      <i
+                        data-tooltip-id="instagram"
+                        className="fa fab fa-instagram"
+                      ></i>
+                    </a>
+                    <ReactTooltip
+                      id="instagram"
+                      place="bottom"
+                      content="Instagram"
+                    />
+                    <a
+                      href="https://twitter.com/infygain"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="infyicon infyicon1"
+                    >
+                      <i
+                        data-tooltip-id="twitter"
+                        className="fa fab fa-twitter"
+                      ></i>
+                    </a>
+                    <ReactTooltip
+                      id="twitter"
+                      place="bottom"
+                      content="Twitter"
+                    />
+                    <a
+                      href="https://wa.me/919952141444"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="infyicon infyicon1"
+                    >
+                      <i
+                        data-tooltip-id="whatsapp"
+                        className="fa fab fa-whatsapp"
+                      ></i>
+                    </a>
+                    <ReactTooltip
+                      id="whatsapp"
+                      place="bottom"
+                      content="Whatsapp"
+                    />
+
+                    <a
+                      href="https://www.linkedin.com/company/infygain-technologies/"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="infyicon infyicon1"
+                    >
+                      <i
+                        data-tooltip-id="linkedin"
+                        className="fa fab fa-linkedin"
+                      ></i>
+                    </a>
+                    <ReactTooltip
+                      id="linkedin"
+                      place="bottom"
+                      content="Linkedin"
+                    />
+
+                    <a
+                      href="https://www.youtube.com/@infygain6707"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                      className="infyicon infyicon1"
+                    >
+                      <i
+                        data-tooltip-id="youtube"
+                        className="fa fab fa-youtube"
+                      ></i>
+                    </a>
+                    <ReactTooltip
+                      id="youtube"
+                      place="bottom"
+                      content="Youtube"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
 
-          <div className="smallbox-1">
-            <div className="row">
-              <div className="col-xs-6 col-sm-3 mb-3 ">
-                <p className="mini-title one">Our Services</p>
-                <ul>
-                  <li className="quicklinks">
-                    <Link to="/Iotservice">IT Supports</Link>
-                  </li>
-                  <li className="quicklinks">
-                    <Link to="/ServiceSeo">Website / App</Link>
-                  </li>
-                  <li className="quicklinks">
-                    <Link to="/ispservice">ISP Services</Link>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-xs-6 col-sm-3">
-                <p className="mini-title two">Quick Links</p>
-                <ul className="text-muted quicklinks mb-5">
-                  {/* <li> <Link to="/">Home</Link></li> */}
-                  <li>
-                    {" "}
-                    <Link to="/about">About Us</Link>
-                  </li>
-                  {/* <li> <Link to="/service">Services</Link></li> */}
-                  <li>
-                    <Link to="/mainblogs">Blog</Link>
-                  </li>
-                  <li>
-                    {" "}
-                    <Link to="/contact">Contact Us</Link>
-                  </li>
-                  <li>
-                    {" "}
-                    <Link
-                      target="_blank"
-                      to="https://infygain.com/onlinestore/"
-                    >
-                      Online Store
+            <div className="smallbox-1">
+              <div className="row">
+                <div className="col-xs-6 col-sm-3 mb-3 ">
+                  <p className="mini-title one">Our Services</p>
+                  <ul>
+                    <li className="quicklinks">
+                      <Link to="/Iotservice">IT Supports</Link>
+                    </li>
+                    <li className="quicklinks">
+                      <Link to="/ServiceSeo">Website / App</Link>
+                    </li>
+                    <li className="quicklinks">
+                      <Link to="/ispservice">ISP Services</Link>
+                    </li>
+                  </ul>
+                </div>
+                <div className="col-xs-6 col-sm-3">
+                  <p className="mini-title two">Quick Links</p>
+                  <ul className="text-muted quicklinks mb-5">
+                    {/* <li> <Link to="/">Home</Link></li> */}
+                    <li>
+                      {" "}
+                      <Link to="/about">About Us</Link>
+                    </li>
+                    {/* <li> <Link to="/service">Services</Link></li> */}
+                    <li>
+                      <Link to="/mainblogs">Blog</Link>
+                    </li>
+                    <li>
+                      {" "}
+                      <Link to="/contact">Contact Us</Link>
+                    </li>
+                    <li>
+                      {" "}
+                      <Link
+                        target="_blank"
+                        to="https://infygain.com/onlinestore/"
+                      >
+                        Online Store
+                      </Link>
+                    </li>
+                    {/* <li> <Link to="/contact">Book Services</Link></li> */}
+                  </ul>
+                </div>
+                <div className="col-xs-6 col-sm-3">
+                  <p className="mini-title three">Address</p>
+                  <p className="address">
+                    <Link className="cmn-footer text-muted" to={"/contact"}>
+                      <p>
+                        Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
+                        Coimbatore, Tamil Nadu 641035
+                      </p>
                     </Link>
-                  </li>
-                  {/* <li> <Link to="/contact">Book Services</Link></li> */}
-                </ul>
-              </div>
-              <div className="col-xs-6 col-sm-3">
-                <p className="mini-title three">Address</p>
-                <p className="address">
-                <Link className="cmn-footer text-muted"  to={"/contact"}>
-                  <p>
-                    Hari complex opp.prozone mall, Sathy Rd, Saravanampatti,
-                    Coimbatore, Tamil Nadu 641035
-                  </p></Link>
-                </p>
-                <hr className="hrline"></hr>
-                <p className="address ph"> <a className="link-foot" href="tel:+91 9952141444">+91 &nbsp;9952141444 </a></p>
-                <p className="address ph"> <a className="link-foot" href="tel:+91  9087724444">+91 &nbsp;9087724444 </a></p>
-              
+                  </p>
+                  <hr className="hrline"></hr>
+                  <p className="address ph">
+                    {" "}
+                    <a className="link-foot" href="tel:+91 9952141444">
+                      +91 &nbsp;9952141444{" "}
+                    </a>
+                  </p>
+                  <p className="address ph">
+                    {" "}
+                    <a className="link-foot" href="tel:+91  9087724444">
+                      +91 &nbsp;9087724444{" "}
+                    </a>
+                  </p>
 
-                <p className="address">
-                  <b>info@infygain.com</b>
-                </p>
-              </div>
-              <div className="col-xs-6 col-sm-3">
-                <p className="mini-title four">Legal Links</p>
-                <ul className="text-muted legallinks">
-                  <li className="quicklinks"><Link to="/privacypolicy">Privacy Policy</Link></li>
-                  <li className="quicklinks"><Link to="/termspage">Terms and Conditions</Link></li>
-                  <li className="quicklinks"><Link to="/delivery">Delivery and Shipping Policy</Link></li>
-                  <li className="quicklinks"><Link to="/refund">Refund and Cancellation Policy</Link></li>
-                  <li className="quicklinks"><Link to="/quality">Quality Policy</Link></li>
-                </ul>
+                  <p className="address">
+                    <b>info@infygain.com</b>
+                  </p>
+                </div>
+                <div className="col-xs-6 col-sm-3">
+                  <p className="mini-title four">Legal Links</p>
+                  <ul className="text-muted legallinks">
+                    <li className="quicklinks">
+                      <Link to="/privacypolicy">Privacy Policy</Link>
+                    </li>
+                    <li className="quicklinks">
+                      <Link to="/termspage">Terms and Conditions</Link>
+                    </li>
+                    <li className="quicklinks">
+                      <Link to="/delivery">Delivery and Shipping Policy</Link>
+                    </li>
+                    <li className="quicklinks">
+                      <Link to="/refund">Refund and Cancellation Policy</Link>
+                    </li>
+                    <li className="quicklinks">
+                      <Link to="/quality">Quality Policy</Link>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
 
-
-          {/* <div className="socialmediaicons">
+            {/* <div className="socialmediaicons">
             <p className="mini-title follow">Follow Us On</p>
             <div className="iconss">
               <a
@@ -691,30 +760,30 @@ function Blogs(){
               </div>
             </div>
           </div> */}
+          </div>
         </div>
-      </div>
-      <div className="topmenu" onClick={scrollToTop}>
-        <svg
-          className="testIcon"
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 357.6 401.37"
-        >
-          <g id="Layer_2" data-name="Layer 2">
-            <g id="Layer_1-2" data-name="Layer 1">
-              <path
-                class="cls-3"
-                d="M357.6,282.36V119a37.33,37.33,0,0,0-18.66-32.33L197.47,5a37.32,37.32,0,0,0-37.33,0L18.67,86.68A37.33,37.33,0,0,0,0,119V282.36a37.32,37.32,0,0,0,18.67,32.33l141.47,81.68a37.32,37.32,0,0,0,37.33,0l141.47-81.68A37.31,37.31,0,0,0,357.6,282.36Z"
-              />
+        <div className="topmenu" onClick={scrollToTop}>
+          <svg
+            className="testIcon"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 357.6 401.37"
+          >
+            <g id="Layer_2" data-name="Layer 2">
+              <g id="Layer_1-2" data-name="Layer 1">
+                <path
+                  class="cls-3"
+                  d="M357.6,282.36V119a37.33,37.33,0,0,0-18.66-32.33L197.47,5a37.32,37.32,0,0,0-37.33,0L18.67,86.68A37.33,37.33,0,0,0,0,119V282.36a37.32,37.32,0,0,0,18.67,32.33l141.47,81.68a37.32,37.32,0,0,0,37.33,0l141.47-81.68A37.31,37.31,0,0,0,357.6,282.36Z"
+                />
+              </g>
             </g>
-          </g>
-        </svg>
+          </svg>
 
-        <TbArrowBigUpFilled className="topIcon" />
-      </div>
-    </footer>
-        {/* End Footer */}
-        </>
-    );
+          <TbArrowBigUpFilled className="topIcon" />
+        </div>
+      </footer>
+      {/* End Footer */}
+    </>
+  );
 }
 
 export default Blogs;

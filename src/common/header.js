@@ -1,4 +1,9 @@
-import { FaRegClock, FaLocationDot, FaCartPlus, FaPhone } from "react-icons/fa6";
+import {
+  FaRegClock,
+  FaLocationDot,
+  FaCartPlus,
+  FaPhone,
+} from "react-icons/fa6";
 import { IoMdArrowDropdown } from "react-icons/io";
 import {
   LiaFacebookF,
@@ -18,7 +23,6 @@ import { MdOutlinePhone } from "react-icons/md";
 
 import { Tooltip as ReactTooltip } from "react-tooltip";
 
-
 function header() {
   function DropdownMenu() {
     let dropBox = document.querySelector(".menu-box-drop");
@@ -37,10 +41,9 @@ function header() {
       eve = "block";
     }
   }
- 
+
   return (
     <>
-     
       <section>
         {/* Top head section */}
         <div className="top-head  d-none d-md-block">
@@ -48,8 +51,8 @@ function header() {
             <div className="d-none d-md-block col-md-6 col-lg-3">
               <p>
                 <a className="head-link" href="tel:+91 9952141444">
-                  <MdOutlinePhone   />
-                  &nbsp;&nbsp;&nbsp;&nbsp; +91  99521&nbsp;&nbsp;&nbsp;41444
+                  <MdOutlinePhone />
+                  &nbsp;&nbsp;&nbsp;&nbsp; +91 99521&nbsp;&nbsp;&nbsp;41444
                 </a>{" "}
               </p>
             </div>
@@ -78,23 +81,25 @@ function header() {
                   href="https://www.facebook.com/infygain/"
                   target="_blank"
                 >
-                  <LiaFacebookF data-tooltip-id="my-tooltip-4"/>
+                  <LiaFacebookF data-tooltip-id="my-tooltip-4" />
                 </a>
                 <ReactTooltip
-                 id="my-tooltip-4"
-                 place="bottom"
-                 content="Facebook"/>
+                  id="my-tooltip-4"
+                  place="bottom"
+                  content="Facebook"
+                />
                 <a
                   className="head-link sm"
                   href="https://www.instagram.com/infygain/"
                   target="_blank"
                 >
-                  <LiaInstagram  data-tooltip-id="my-tooltip-5"/>
+                  <LiaInstagram data-tooltip-id="my-tooltip-5" />
                 </a>
                 <ReactTooltip
-                 id="my-tooltip-5"
-                 place="bottom"
-                 content="Instagram"/>
+                  id="my-tooltip-5"
+                  place="bottom"
+                  content="Instagram"
+                />
                 <a
                   className="head-link sm"
                   href="https://twitter.com/infygain"
@@ -103,47 +108,49 @@ function header() {
                   <LiaTwitter data-tooltip-id="my-tooltip-6" />
                 </a>
                 <ReactTooltip
-                 id="my-tooltip-6"
-                 place="bottom"
-                 content="Twitter"/>
-         
+                  id="my-tooltip-6"
+                  place="bottom"
+                  content="Twitter"
+                />
+
                 <a
                   className="head-link sm"
                   href="https://api.whatsapp.com/send/?phone=919952141444&text&type=phone_number&app_absent=0"
                   target="_blank"
                 >
-                  <LiaWhatsapp data-tooltip-id="my-tooltip-7"/>
+                  <LiaWhatsapp data-tooltip-id="my-tooltip-7" />
                 </a>
                 <ReactTooltip
-                 id="my-tooltip-7"
-                 place="bottom"
-                 content="Whatsapp"/>
+                  id="my-tooltip-7"
+                  place="bottom"
+                  content="Whatsapp"
+                />
                 <a
                   className="head-link sm"
                   href="https://www.linkedin.com/company/infygain-technologies/"
                   target="_blank"
                 >
-                  <LiaLinkedinIn data-tooltip-id="my-tooltip-8"/>
+                  <LiaLinkedinIn data-tooltip-id="my-tooltip-8" />
                 </a>
                 <ReactTooltip
-                 id="my-tooltip-8"
-                 place="bottom"
-                 content="LinkedinIn"/>
+                  id="my-tooltip-8"
+                  place="bottom"
+                  content="LinkedinIn"
+                />
                 <a
                   className="head-link sm"
                   href="https://www.youtube.com/@infygain6707"
                   target="_blank"
                 >
-                  <LiaYoutube data-tooltip-id="my-tooltip-9"/>
+                  <LiaYoutube data-tooltip-id="my-tooltip-9" />
                 </a>
                 <ReactTooltip
-                 id="my-tooltip-9"
-                 place="bottom"
-                 content="Youtube"/>
+                  id="my-tooltip-9"
+                  place="bottom"
+                  content="Youtube"
+                />
               </div>
-              
             </div>
-        
           </div>
         </div>
 
@@ -152,13 +159,12 @@ function header() {
           <div className="main-head-box">
             <div className="logoo-box">
               <Link to="/">
-              
-              <img
-                className="img-fluid1"
-                src="/images/icons/infy-logo.svg"
-                alt="best web services"
-                title="Infygain Logo"
-              ></img>
+                <img
+                  className="img-fluid1"
+                  src="/images/icons/infy-logo.svg"
+                  alt="best web services"
+                  title="Infygain Logo"
+                ></img>
               </Link>
             </div>
             <div className="menu-box">
@@ -310,7 +316,6 @@ function header() {
           </Link>
         </li>
         <Fixedline />
-    
       </div>
     </>
   );

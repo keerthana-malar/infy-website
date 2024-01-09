@@ -1,12 +1,11 @@
-
-import './App.css';
-import IotAbout from './Services/IotAbout';
-import IotActivities from './Services/IotActivities';
-import IotBanner from './Services/IotBanner';
-import IotOurService from './Services/IotOurService';
-import IotOverlay from './Services/IotOverlay';
-import IotProjects from './Services/IotProjects';
-import IotService from './Services/IotService';
+import "./App.css";
+import IotAbout from "./Services/IotAbout";
+import IotActivities from "./Services/IotActivities";
+import IotBanner from "./Services/IotBanner";
+import IotOurService from "./Services/IotOurService";
+import IotOverlay from "./Services/IotOverlay";
+import IotProjects from "./Services/IotProjects";
+import IotService from "./Services/IotService";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
       <IotProjects />
       <IotActivities />
       <IotOurService />
-
     </div>
   );
 }
